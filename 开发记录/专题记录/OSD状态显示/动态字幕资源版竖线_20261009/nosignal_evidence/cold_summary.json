@@ -1,0 +1,42 @@
+{
+  "video": {
+    "path": "E:\\QQ CACHE\\LiaoTianJiLu\\Tencent Files\\1791081637\\nt_qq\\nt_data\\Video\\2026-10\\Ori\\3c9f7f88035a4f6e280bd5f928e3c91c.mp4",
+    "sha256": "459A8AE89C0FB0506172DCA3E588E711DFBD33C7CC70916A33F36BEFA14DDD4C",
+    "duration_s": 16.868256,
+    "video": {"codec": "h264", "width": 1280, "height": 720, "avg_frame_rate": "4140000/138013"},
+    "audio_metadata_only": {"codec": "aac", "sample_rate_hz": 48000, "channels": 2}
+  },
+  "bitstream": {
+    "path": "E:\\VSCODE-project\\FPGA-ANLU\\download\\dynamic_text_video_probe.bit",
+    "sha256": "1EFEB04BD50035789E4EBD1430B3CB8736B0F48D93DAF24FD4013AB8130F30DF"
+  },
+  "samples": [
+    {"time_s": 0.20, "hex": "1DA80000", "page": 0, "startup": "D", "sys_pll_lock": 1, "video_pll_lock": 1, "rst_all": 0, "card_init_done": 1, "file_flags": "A8", "fs_error_code": "00", "wav_map_error_code": "00"},
+    {"time_s": 2.20, "hex": "3900BB80", "page": 1, "mailbox_status": "9", "tone_mode": 1, "underflow": 0, "hdmi_video_locked": 0, "frame_seen": 1, "audio_valid_count": 48000},
+    {"time_s": 2.70, "hex": "3900BB80", "page": 1, "audio_valid_count": 48000, "digit_note": "Count glyphs BB are lowercase-b shaped; compare page 7 B."},
+    {"time_s": 3.20, "hex": "3900BB80", "page": 1, "audio_valid_count": 48000},
+    {"time_s": 3.70, "hex": "3900BB80", "page": 1, "audio_valid_count": 48000},
+    {"time_s": 4.20, "hex": "69000000", "page": 2, "packet_samples": 0, "flags": "9"},
+    {"time_s": 6.20, "hex": "79000000", "page": 3, "packet_count": 0, "flags": "9"},
+    {"time_s": 8.20, "hex": "89000000", "page": 4, "bad_bch": 0, "flags": "9"},
+    {"time_s": 10.20, "hex": "99003232", "page": 5, "bad_terc": "003232", "flags": "9"},
+    {"time_s": 11.20, "hex": "9900368F", "page": 5, "bad_terc": "00368F", "flags": "9"},
+    {"time_s": 12.20, "hex": "A9000000", "page": 6, "tone_bad": 0, "flags": "9"},
+    {"time_s": 14.20, "hex": "B9000000", "page": 7, "acr_cts": 0, "flags": "9", "first_digit_note": "B-shaped lowercase glyph; top segment off."},
+    {"time_s": 16.20, "hex": "C9000000", "page": 8, "acr_n": 0, "flags": "9"}
+  ],
+  "flags_nibble_9": {
+    "source_order": "{island_seen,audio_seen,acr_seen,format_error_seen}",
+    "island_seen": 1,
+    "audio_seen": 0,
+    "acr_seen": 0,
+    "format_error_seen": 1
+  },
+  "summary": "Startup reports both PLLs locked, reset released, SD initialized, file system ready, valid image and WAV primed. Page 1 reports tone mode on, frame_seen, HDMI lock off and 48000 audio_valid samples/s. Packet monitor reports zero packet/sample counts, zero BCH errors, rising nonzero TERC errors, zero tone errors and zero CTS/N, with sticky flags 9.",
+  "limitations": [
+    "Internal RTL observation only; no direct electrical TMDS measurement.",
+    "AAC track metadata was inspected; audio was not listened to or judged.",
+    "User-reported LED observations are not inferred from seven-segment frames."
+  ],
+  "evidence_dir": "E:\\VSCODE-project\\FPGA-ANLU\\development\\player_dynamic_text_video_probe\\build\\board_video_20261009_cold_tone"
+}

@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<IDDRConfig>
+    <GeneralConfig>
+        <Device>EG4S20BG256</Device>
+        <IP_ID>6</IP_ID>
+        <Type>EG_LOGIC_IDDR</Type>
+        <Version>1.0</Version>
+        <create_VHDL>true</create_VHDL>
+        <inst>IDDR_0</inst>
+    </GeneralConfig>
+    <UserConfig>
+        <ASYNCRST>ENABLE</ASYNCRST>
+        <PIPEMODE>PIPED</PIPEMODE>
+    </UserConfig>
+    <GeneratedFiles>
+        <VHDL Enable="false">IDDR_0.vhd</VHDL>
+        <Verilog Enable="true">IDDR_0.v</Verilog>
+    </GeneratedFiles>
+</IDDRConfig>

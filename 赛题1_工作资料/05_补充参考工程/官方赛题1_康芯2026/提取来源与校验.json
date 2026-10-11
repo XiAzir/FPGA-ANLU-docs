@@ -1,0 +1,3432 @@
+{
+  "retrieved_date": "2026-10-04",
+  "source_file": "E:\\BaiduNetdiskDownload\\全国大学生嵌入式芯片与系统设计竞赛'2026选题指南_康芯.zip",
+  "archive_file": "E:\\QQ CACHE\\Download\\安路资料\\全国大学生嵌入式芯片与系统设计竞赛'2026选题指南_康芯.zip",
+  "archive_bytes": 612153176,
+  "archive_sha256": "324c4b5e82a048eefe8800b2ae3a676cf4cbef021199de1852c07962cce52619",
+  "original_share": "https://pan.baidu.com/s/1ysv_FmmgZKuM0rBiHfSv8w?pwd=M5N1",
+  "source_share_folder": "HX4S20_Contest_202606/7_lab_ex_2026_nosoft",
+  "members": [
+    {
+      "member": "lab_ex5_i2s/src/user_source/hdl_source/startup_pulse.v",
+      "bytes": 713,
+      "crc32": "a5a62674",
+      "extracted": true,
+      "sha256": "396e1e56febb8028339e646bc2f06b83e07ab11ef840e447422fb941956741c9",
+      "file": "lab_ex5_i2s\\src\\user_source\\hdl_source\\startup_pulse.v"
+    },
+    {
+      "member": "lab_ex5_i2s/src/user_source/hdl_source/rom/i2s_rom_player_single_pll_fix64_rom_ip.v",
+      "bytes": 8375,
+      "crc32": "fc5d0cbd",
+      "extracted": true,
+      "sha256": "f8e7c9c56c6a21154580e030dada604572d89a1e75e8945125b2ea0dd4b3094b",
+      "file": "lab_ex5_i2s\\src\\user_source\\hdl_source\\rom\\i2s_rom_player_single_pll_fix64_rom_ip.v"
+    },
+    {
+      "member": "lab_ex5_i2s/src/user_source/hdl_source/python/wav_to_mif.py",
+      "bytes": 2327,
+      "crc32": "a6d3efd4",
+      "extracted": true,
+      "sha256": "70c06ae300bdaaa840f009af002805558fc4f309136db1d46e68285d2bcbd750",
+      "file": "lab_ex5_i2s\\src\\user_source\\hdl_source\\python\\wav_to_mif.py"
+    },
+    {
+      "member": "lab_ex5_i2s/src/user_source/hdl_source/python/song_48k.mif.dath",
+      "bytes": 7225344,
+      "crc32": "771cfb3a",
+      "extracted": true,
+      "sha256": "34d7db62bc4e6b794f1970bec7ebf2ff504763069437445a095b8cf5da3cff58",
+      "file": "lab_ex5_i2s\\src\\user_source\\hdl_source\\python\\song_48k.mif.dath"
+    },
+    {
+      "member": "lab_ex5_i2s/src/user_source/hdl_source/python/song_48k.mif",
+      "bytes": 12275282,
+      "crc32": "3591c15d",
+      "extracted": true,
+      "sha256": "27a4b3b80627ec650d3b6f01b82a21badf7a8508d7a5e75827abf6b2de3579b9",
+      "file": "lab_ex5_i2s\\src\\user_source\\hdl_source\\python\\song_48k.mif"
+    },
+    {
+      "member": "lab_ex5_i2s/src/user_source/hdl_source/python/audio_sine_24bit_48deep_scale8.mif.dath",
+      "bytes": 384,
+      "crc32": "f1543277",
+      "extracted": true,
+      "sha256": "04a6ea5a31be7ffebfdef11a6afb06de17ef367b4b6600ec29c248246d639f02",
+      "file": "lab_ex5_i2s\\src\\user_source\\hdl_source\\python\\audio_sine_24bit_48deep_scale8.mif.dath"
+    },
+    {
+      "member": "lab_ex5_i2s/src/user_source/hdl_source/python/audio_sine_24bit_48deep_scale8.mif",
+      "bytes": 700,
+      "crc32": "cee3f546",
+      "extracted": true,
+      "sha256": "aa20e68905fc41a094cf37e218489d3745eb6e46c62dabe772547961a7db64cf",
+      "file": "lab_ex5_i2s\\src\\user_source\\hdl_source\\python\\audio_sine_24bit_48deep_scale8.mif"
+    },
+    {
+      "member": "lab_ex5_i2s/src/user_source/hdl_source/python/audio_1khz_24bit_48deep.mif.dath",
+      "bytes": 384,
+      "crc32": "37375fa6",
+      "extracted": true,
+      "sha256": "e0f242a837b58f810813e1d6da5495473c4fa16dd6b283c30ec91b608b05ab85",
+      "file": "lab_ex5_i2s\\src\\user_source\\hdl_source\\python\\audio_1khz_24bit_48deep.mif.dath"
+    },
+    {
+      "member": "lab_ex5_i2s/src/user_source/hdl_source/python/audio_1khz_24bit_48deep.mif",
+      "bytes": 690,
+      "crc32": "ea7fbb5c",
+      "extracted": true,
+      "sha256": "dcc918e3b442485a933831368567962bb39dc1060b1bcfada16033e050be34ed",
+      "file": "lab_ex5_i2s\\src\\user_source\\hdl_source\\python\\audio_1khz_24bit_48deep.mif"
+    },
+    {
+      "member": "lab_ex5_i2s/src/user_source/hdl_source/python/1.wav",
+      "bytes": 3096678,
+      "crc32": "3f7bfb07",
+      "extracted": true,
+      "sha256": "0e6f8f626a0215a85dfcc94e431abab32e6828dbcb64249b7d4ff47721e7b2fd",
+      "file": "lab_ex5_i2s\\src\\user_source\\hdl_source\\python\\1.wav"
+    },
+    {
+      "member": "lab_ex5_i2s/src/user_source/hdl_source/lane_lvds_10_1.v",
+      "bytes": 4421,
+      "crc32": "6e17713e",
+      "extracted": true,
+      "sha256": "de9529321354f04837e051d0ec1681cf44783d4be3284703a788e081147500bc",
+      "file": "lab_ex5_i2s\\src\\user_source\\hdl_source\\lane_lvds_10_1.v"
+    },
+    {
+      "member": "lab_ex5_i2s/src/user_source/hdl_source/key_remove_shakes.v",
+      "bytes": 1762,
+      "crc32": "68ca28b6",
+      "extracted": true,
+      "sha256": "8832f59e7ba94bfb8cf31e4f5a772ef7177d5257a5a2532d53cbfa1d9b7f5cd9",
+      "file": "lab_ex5_i2s\\src\\user_source\\hdl_source\\key_remove_shakes.v"
+    },
+    {
+      "member": "lab_ex5_i2s/src/user_source/hdl_source/include/sdr_wrrd.enc.v",
+      "bytes": 15637,
+      "crc32": "54598c7d",
+      "extracted": true,
+      "sha256": "c7d7fe07d75f66aa88d9f986b3006319c995162434f104f9990664b374cdfdd2",
+      "file": "lab_ex5_i2s\\src\\user_source\\hdl_source\\include\\sdr_wrrd.enc.v"
+    },
+    {
+      "member": "lab_ex5_i2s/src/user_source/hdl_source/include/sdr_init_ref.enc.v",
+      "bytes": 9059,
+      "crc32": "077507c1",
+      "extracted": true,
+      "sha256": "6da5945f4af793610d0d64c65c7e5d2d1c86ed4c11bc5fdeacd27eb03178b9f6",
+      "file": "lab_ex5_i2s\\src\\user_source\\hdl_source\\include\\sdr_init_ref.enc.v"
+    },
+    {
+      "member": "lab_ex5_i2s/src/user_source/hdl_source/include/sdr_as_ram.enc.v",
+      "bytes": 7538,
+      "crc32": "be447501",
+      "extracted": true,
+      "sha256": "767dbdfbd83d42223b77dfa7deab42ce8216a8fd6f6cb41b7e7593d9a345ba57",
+      "file": "lab_ex5_i2s\\src\\user_source\\hdl_source\\include\\sdr_as_ram.enc.v"
+    },
+    {
+      "member": "lab_ex5_i2s/src/user_source/hdl_source/include/global_def.v",
+      "bytes": 373,
+      "crc32": "c0e780c0",
+      "extracted": true,
+      "sha256": "04f854d7fe2f7816705b988ec59822fc258e4ed3a13529e36d0b9e6233a2682f",
+      "file": "lab_ex5_i2s\\src\\user_source\\hdl_source\\include\\global_def.v"
+    },
+    {
+      "member": "lab_ex5_i2s/src/user_source/hdl_source/hdmi_phy_warpper.v",
+      "bytes": 4017,
+      "crc32": "b4156fc6",
+      "extracted": true,
+      "sha256": "416b082b0987001bdbc0a7e20a557cb8fb1dca34e25dc881e6d28a8cb3cf4300",
+      "file": "lab_ex5_i2s\\src\\user_source\\hdl_source\\hdmi_phy_warpper.v"
+    },
+    {
+      "member": "lab_ex5_i2s/src/user_source/hdl_source/hdmi_audio_tone_pcm_scale.v",
+      "bytes": 2900,
+      "crc32": "f32f9bf1",
+      "extracted": true,
+      "sha256": "0ff1ab2b39e1294c3aae814bf5a252c47c284c2cdb9568adf02d3c6cfd8ddd0b",
+      "file": "lab_ex5_i2s\\src\\user_source\\hdl_source\\hdmi_audio_tone_pcm_scale.v"
+    },
+    {
+      "member": "lab_ex5_i2s/src/user_source/hdl_source/hdmi_audio_tone_i2s_64fs.v",
+      "bytes": 3589,
+      "crc32": "d9ab5d90",
+      "extracted": true,
+      "sha256": "729cb1635091b7630e5b68306e9f51fff4e3e06bae8ce08cc3d7323b3fb9d5cf",
+      "file": "lab_ex5_i2s\\src\\user_source\\hdl_source\\hdmi_audio_tone_i2s_64fs.v"
+    },
+    {
+      "member": "lab_ex5_i2s/src/user_source/hdl_source/hdmi1.4b_transmitter_core/hdmi_1_4b_transmitter_core_wrapper.enc.v",
+      "bytes": 328975,
+      "crc32": "24315fa1",
+      "extracted": true,
+      "sha256": "867e0b0bdd874bc383d00918c9e1be3fe01edf41f343b6a0d73e262776596a63",
+      "file": "lab_ex5_i2s\\src\\user_source\\hdl_source\\hdmi1.4b_transmitter_core\\hdmi_1_4b_transmitter_core_wrapper.enc.v"
+    },
+    {
+      "member": "lab_ex5_i2s/src/user_source/hdl_source/audio_arc_calculate.v",
+      "bytes": 1702,
+      "crc32": "530f4f1d",
+      "extracted": true,
+      "sha256": "552d8d86afd237666b30ae08f31247808e89eb024efde5efc670b82eb617a7dc",
+      "file": "lab_ex5_i2s\\src\\user_source\\hdl_source\\audio_arc_calculate.v"
+    },
+    {
+      "member": "lab_ex5_i2s/src/user_source/hdl_source/SD/video_timing_data.v",
+      "bytes": 2432,
+      "crc32": "facf4386",
+      "extracted": true,
+      "sha256": "c6f75501e98dd5995f687aafb40455beffe45b426137b5089a73ac3a036f7282",
+      "file": "lab_ex5_i2s\\src\\user_source\\hdl_source\\SD\\video_timing_data.v"
+    },
+    {
+      "member": "lab_ex5_i2s/src/user_source/hdl_source/SD/video_delay.v",
+      "bytes": 1595,
+      "crc32": "7a96473a",
+      "extracted": true,
+      "sha256": "f47c4b63f8baa6d8874c87dca5b72dfdadd19f4a107403da98752bce98936433",
+      "file": "lab_ex5_i2s\\src\\user_source\\hdl_source\\SD\\video_delay.v"
+    },
+    {
+      "member": "lab_ex5_i2s/src/user_source/hdl_source/SD/video_define.v",
+      "bytes": 21,
+      "crc32": "c8b32420",
+      "extracted": true,
+      "sha256": "77748966850a8f5af0d77f2cdb08006088ba5e1a31b98391fba6cc61c5247da2",
+      "file": "lab_ex5_i2s\\src\\user_source\\hdl_source\\SD\\video_define.v"
+    },
+    {
+      "member": "lab_ex5_i2s/src/user_source/hdl_source/SD/spi_master.v",
+      "bytes": 3655,
+      "crc32": "53ac06dd",
+      "extracted": true,
+      "sha256": "37f7a21144fa5cca3cc5c3b5f68a5ad40b3108336b600e45a1367734ac61403c",
+      "file": "lab_ex5_i2s\\src\\user_source\\hdl_source\\SD\\spi_master.v"
+    },
+    {
+      "member": "lab_ex5_i2s/src/user_source/hdl_source/SD/seg_scan.v",
+      "bytes": 1847,
+      "crc32": "0edde371",
+      "extracted": true,
+      "sha256": "08759c329c33cdb7a6070e0b46773f0a6c9c8052b51652dec29406b9a9dac1e3",
+      "file": "lab_ex5_i2s\\src\\user_source\\hdl_source\\SD\\seg_scan.v"
+    },
+    {
+      "member": "lab_ex5_i2s/src/user_source/hdl_source/SD/seg_decoder.v",
+      "bytes": 766,
+      "crc32": "7765635c",
+      "extracted": true,
+      "sha256": "4592b6e4d2e9e8b7e4ab5266d850d30e43537ab9c4157d4221e3f8dfd342decd",
+      "file": "lab_ex5_i2s\\src\\user_source\\hdl_source\\SD\\seg_decoder.v"
+    },
+    {
+      "member": "lab_ex5_i2s/src/user_source/hdl_source/SD/sdram.v",
+      "bytes": 2412,
+      "crc32": "57738d45",
+      "extracted": true,
+      "sha256": "2d985c2477384e677c25714241e1a50206def8916aa03189a5b313b2d22dfc99",
+      "file": "lab_ex5_i2s\\src\\user_source\\hdl_source\\SD\\sdram.v"
+    },
+    {
+      "member": "lab_ex5_i2s/src/user_source/hdl_source/SD/sd_card_top.v",
+      "bytes": 7277,
+      "crc32": "349452a5",
+      "extracted": true,
+      "sha256": "d5031b5b809a8df0a2c8cca194a511c5f74236e810cbe5e8436359f9e5f26a39",
+      "file": "lab_ex5_i2s\\src\\user_source\\hdl_source\\SD\\sd_card_top.v"
+    },
+    {
+      "member": "lab_ex5_i2s/src/user_source/hdl_source/SD/sd_card_sec_read_write.v",
+      "bytes": 5620,
+      "crc32": "4a1743e4",
+      "extracted": true,
+      "sha256": "c245c07e3b0056808d86e06aad74348494e2a7050d493a3d4141d97ccf115203",
+      "file": "lab_ex5_i2s\\src\\user_source\\hdl_source\\SD\\sd_card_sec_read_write.v"
+    },
+    {
+      "member": "lab_ex5_i2s/src/user_source/hdl_source/SD/sd_card_cmd.v",
+      "bytes": 8550,
+      "crc32": "afd67fe5",
+      "extracted": true,
+      "sha256": "a1a50502afd4e8b238b0627cd5f204c04738e761d49ab48f33da35e22ba4a5fa",
+      "file": "lab_ex5_i2s\\src\\user_source\\hdl_source\\SD\\sd_card_cmd.v"
+    },
+    {
+      "member": "lab_ex5_i2s/src/user_source/hdl_source/SD/sd_card_bmp.v",
+      "bytes": 14969,
+      "crc32": "4a07a020",
+      "extracted": true,
+      "sha256": "5319465074e1eb7da1f29d8454b81054bf7e633dd5cc6d7b40f232eeb9c1dadc",
+      "file": "lab_ex5_i2s\\src\\user_source\\hdl_source\\SD\\sd_card_bmp.v"
+    },
+    {
+      "member": "lab_ex5_i2s/src/user_source/hdl_source/SD/frame_read_write.v",
+      "bytes": 11057,
+      "crc32": "414cb61d",
+      "extracted": true,
+      "sha256": "f9d7d04d81a8c8a3e226f855387971cf2308421bdd4c08c0ab465e9e40aa5cbd",
+      "file": "lab_ex5_i2s\\src\\user_source\\hdl_source\\SD\\frame_read_write.v"
+    },
+    {
+      "member": "lab_ex5_i2s/src/user_source/hdl_source/SD/frame_fifo_write.v",
+      "bytes": 11551,
+      "crc32": "5859e45a",
+      "extracted": true,
+      "sha256": "ef0f46443b6f79ebb9fbba8f39b11dca90ee7e9ae4637c1d45786744d964e540",
+      "file": "lab_ex5_i2s\\src\\user_source\\hdl_source\\SD\\frame_fifo_write.v"
+    },
+    {
+      "member": "lab_ex5_i2s/src/user_source/hdl_source/SD/frame_fifo_read.v",
+      "bytes": 10172,
+      "crc32": "9aeaeba7",
+      "extracted": true,
+      "sha256": "5952075b213ec638f5c9bb238d4d4162685f9e9b5e752674f0e68a92dbec83ac",
+      "file": "lab_ex5_i2s\\src\\user_source\\hdl_source\\SD\\frame_fifo_read.v"
+    },
+    {
+      "member": "lab_ex5_i2s/src/user_source/hdl_source/SD/color_bar.v",
+      "bytes": 9141,
+      "crc32": "8e2cec3e",
+      "extracted": true,
+      "sha256": "afe1f56714ec58d2477ba1717e5a36c5a0da5fe5c07d70d11aa5ace710c4b152",
+      "file": "lab_ex5_i2s\\src\\user_source\\hdl_source\\SD\\color_bar.v"
+    },
+    {
+      "member": "lab_ex5_i2s/src/user_source/hdl_source/SD/bmp_read.v",
+      "bytes": 11339,
+      "crc32": "48a809a0",
+      "extracted": true,
+      "sha256": "8b81edee7e1ac61e02652c9416c05f6a32768acd5a9639365bc7bf87fa4febaa",
+      "file": "lab_ex5_i2s\\src\\user_source\\hdl_source\\SD\\bmp_read.v"
+    },
+    {
+      "member": "lab_ex5_i2s/src/user_source/hdl_source/SD/ax_debounce.v",
+      "bytes": 2201,
+      "crc32": "05f46ecd",
+      "extracted": true,
+      "sha256": "93aa6dd38051250cc7f777c88466ac180afe9bcdce7838b9ea506455d8cbc9b8",
+      "file": "lab_ex5_i2s\\src\\user_source\\hdl_source\\SD\\ax_debounce.v"
+    },
+    {
+      "member": "lab_ex5_i2s/src/user_source/hdl_source/IP/video_pll.vhd",
+      "bytes": 2619,
+      "crc32": "7d296445",
+      "extracted": true,
+      "sha256": "4c23a8a81b28c81bed4834e1e9a757db01eebd360c7fe3a7066f8f8f7b6a36c4",
+      "file": "lab_ex5_i2s\\src\\user_source\\hdl_source\\IP\\video_pll.vhd"
+    },
+    {
+      "member": "lab_ex5_i2s/src/user_source/hdl_source/IP/video_pll.v",
+      "bytes": 2315,
+      "crc32": "563de5d5",
+      "extracted": true,
+      "sha256": "d5a2b3d3d0618d19619c36af0143f8bf9338415eef2eadd22456510ade9c6092",
+      "file": "lab_ex5_i2s\\src\\user_source\\hdl_source\\IP\\video_pll.v"
+    },
+    {
+      "member": "lab_ex5_i2s/src/user_source/hdl_source/IP/video_pll.ipc",
+      "bytes": 1451,
+      "crc32": "e2abda87",
+      "extracted": true,
+      "sha256": "b717f646067025a69b4021ed85adeeb6531fad881bce5a49fcb2171ccf401076",
+      "file": "lab_ex5_i2s\\src\\user_source\\hdl_source\\IP\\video_pll.ipc"
+    },
+    {
+      "member": "lab_ex5_i2s/src/user_source/hdl_source/IP/sys_pll.vhd",
+      "bytes": 2820,
+      "crc32": "adde943b",
+      "extracted": true,
+      "sha256": "0ba7e030d4e3d459d6e411a037b731700f4cb259be92b2e444b4deba10d301d2",
+      "file": "lab_ex5_i2s\\src\\user_source\\hdl_source\\IP\\sys_pll.vhd"
+    },
+    {
+      "member": "lab_ex5_i2s/src/user_source/hdl_source/IP/sys_pll.v",
+      "bytes": 2493,
+      "crc32": "a9cb4545",
+      "extracted": true,
+      "sha256": "ea4ed09b2ff026b7b31eb76f51ef5afa388aa552e538e02d013cc8e7464ba563",
+      "file": "lab_ex5_i2s\\src\\user_source\\hdl_source\\IP\\sys_pll.v"
+    },
+    {
+      "member": "lab_ex5_i2s/src/user_source/hdl_source/IP/sys_pll.ipc",
+      "bytes": 1721,
+      "crc32": "0837f247",
+      "extracted": true,
+      "sha256": "5199d4459b3437892ed6be21a62f7528d3ce534bd9b1001a84e42074122266fe",
+      "file": "lab_ex5_i2s\\src\\user_source\\hdl_source\\IP\\sys_pll.ipc"
+    },
+    {
+      "member": "lab_ex5_i2s/src/user_source/hdl_source/IP/sdram.vhd",
+      "bytes": 1336,
+      "crc32": "c987f248",
+      "extracted": true,
+      "sha256": "853170e99291fb6b2b1bf3f5f20cd1dd0cc723052864147810b674e18cd70705",
+      "file": "lab_ex5_i2s\\src\\user_source\\hdl_source\\IP\\sdram.vhd"
+    },
+    {
+      "member": "lab_ex5_i2s/src/user_source/hdl_source/IP/sdram.v",
+      "bytes": 1108,
+      "crc32": "279e1317",
+      "extracted": true,
+      "sha256": "1487e8583bbf52fe6d079a2854c10ebff2e569a3872a9088c1c9717ba14d17fe",
+      "file": "lab_ex5_i2s\\src\\user_source\\hdl_source\\IP\\sdram.v"
+    },
+    {
+      "member": "lab_ex5_i2s/src/user_source/hdl_source/IP/sdram.ipc",
+      "bytes": 385,
+      "crc32": "40723629",
+      "extracted": true,
+      "sha256": "c3092876d4a66739dfc52cbda4fe84eab75099218f65db7e7d922c41dee1c201",
+      "file": "lab_ex5_i2s\\src\\user_source\\hdl_source\\IP\\sdram.ipc"
+    },
+    {
+      "member": "lab_ex5_i2s/src/user_source/hdl_source/IP/afifo_32_16_256.v",
+      "bytes": 34123,
+      "crc32": "1aa68d84",
+      "extracted": true,
+      "sha256": "7c3ee41f30be75ae686c9abff3a840fc5439209cda077e4aa275eac0dab9f564",
+      "file": "lab_ex5_i2s\\src\\user_source\\hdl_source\\IP\\afifo_32_16_256.v"
+    },
+    {
+      "member": "lab_ex5_i2s/src/user_source/hdl_source/IP/afifo_32_16_256.tcl",
+      "bytes": 554,
+      "crc32": "3a8b7467",
+      "extracted": true,
+      "sha256": "5807155b00f2f749328339e01a85b4bb836f91598286dd167513836b60af33db",
+      "file": "lab_ex5_i2s\\src\\user_source\\hdl_source\\IP\\afifo_32_16_256.tcl"
+    },
+    {
+      "member": "lab_ex5_i2s/src/user_source/hdl_source/IP/afifo_32_16_256.ipc",
+      "bytes": 857,
+      "crc32": "67c60b0f",
+      "extracted": true,
+      "sha256": "a74955dc68a02bbfb36780127008c4737ec80e0888a4648e98e6eac9f5d2c349",
+      "file": "lab_ex5_i2s\\src\\user_source\\hdl_source\\IP\\afifo_32_16_256.ipc"
+    },
+    {
+      "member": "lab_ex5_i2s/src/user_source/hdl_source/IP/afifo_16_32_256.v",
+      "bytes": 34123,
+      "crc32": "89809ffe",
+      "extracted": true,
+      "sha256": "3d29b06655482184a9ad157b9bd71b79032debe3199168d3b4d9570fdac31835",
+      "file": "lab_ex5_i2s\\src\\user_source\\hdl_source\\IP\\afifo_16_32_256.v"
+    },
+    {
+      "member": "lab_ex5_i2s/src/user_source/hdl_source/IP/afifo_16_32_256.tcl",
+      "bytes": 554,
+      "crc32": "3a8b7467",
+      "extracted": true,
+      "sha256": "5807155b00f2f749328339e01a85b4bb836f91598286dd167513836b60af33db",
+      "file": "lab_ex5_i2s\\src\\user_source\\hdl_source\\IP\\afifo_16_32_256.tcl"
+    },
+    {
+      "member": "lab_ex5_i2s/src/user_source/hdl_source/IP/afifo_16_32_256.ipc",
+      "bytes": 856,
+      "crc32": "57836a56",
+      "extracted": true,
+      "sha256": "9df57c0b914f2f6222f88e356528947224fddb866be2468f1391c26d4e60d371",
+      "file": "lab_ex5_i2s\\src\\user_source\\hdl_source\\IP\\afifo_16_32_256.ipc"
+    },
+    {
+      "member": "lab_ex5_i2s/src/user_source/hdl_source/IP/afifo_16_256_sim.v",
+      "bytes": 64027,
+      "crc32": "c4767fa6",
+      "extracted": true,
+      "sha256": "55b81ab3aa699902b6f11fe766658b852e0740844879a942dca81cd57b40f729",
+      "file": "lab_ex5_i2s\\src\\user_source\\hdl_source\\IP\\afifo_16_256_sim.v"
+    },
+    {
+      "member": "lab_ex5_i2s/src/user_source/hdl_source/IP/afifo_16_256.vhd",
+      "bytes": 1405,
+      "crc32": "7f99df9e",
+      "extracted": true,
+      "sha256": "50d6d10017b63e1ce5a77bad4a80e9a3de81402909d30ca0818674a1887eb46d",
+      "file": "lab_ex5_i2s\\src\\user_source\\hdl_source\\IP\\afifo_16_256.vhd"
+    },
+    {
+      "member": "lab_ex5_i2s/src/user_source/hdl_source/IP/afifo_16_256.v",
+      "bytes": 34121,
+      "crc32": "a482822a",
+      "extracted": true,
+      "sha256": "dab43a76a35e21df4064a25edb940699b041427d70bae89cc03c5280b7bf4bf8",
+      "file": "lab_ex5_i2s\\src\\user_source\\hdl_source\\IP\\afifo_16_256.v"
+    },
+    {
+      "member": "lab_ex5_i2s/src/user_source/hdl_source/IP/afifo_16_256.tcl",
+      "bytes": 554,
+      "crc32": "3a8b7467",
+      "extracted": true,
+      "sha256": "5807155b00f2f749328339e01a85b4bb836f91598286dd167513836b60af33db",
+      "file": "lab_ex5_i2s\\src\\user_source\\hdl_source\\IP\\afifo_16_256.tcl"
+    },
+    {
+      "member": "lab_ex5_i2s/src/user_source/hdl_source/I2S_receiver.v",
+      "bytes": 4205,
+      "crc32": "df1a1d5b",
+      "extracted": true,
+      "sha256": "08904598b42c2e1a4836cd9fb3293bc6c791ea2f79e35c7663a33127dc97f47b",
+      "file": "lab_ex5_i2s\\src\\user_source\\hdl_source\\I2S_receiver.v"
+    },
+    {
+      "member": "lab_ex5_i2s/src/user_source/constraints_source/timing.sdc",
+      "bytes": 4352,
+      "crc32": "25b80586",
+      "extracted": true,
+      "sha256": "4a6aefbaa2ee7522274402d00f67b230f7b002a6e7def5013e0c234522b192bf",
+      "file": "lab_ex5_i2s\\src\\user_source\\constraints_source\\timing.sdc"
+    },
+    {
+      "member": "lab_ex5_i2s/src/user_source/constraints_source/pin.adc",
+      "bytes": 5445,
+      "crc32": "aa7eadc5",
+      "extracted": true,
+      "sha256": "bfec796ee0ebf506293d5d317fc9e3868197bcdd4c5c376ab9ba1061a4982ec8",
+      "file": "lab_ex5_i2s\\src\\user_source\\constraints_source\\pin.adc"
+    },
+    {
+      "member": "lab_ex5_i2s/src/user_source/constraints_source/edid_debug.cwc",
+      "bytes": 59256,
+      "crc32": "a325f0ae",
+      "extracted": true,
+      "sha256": "6716411e2346de08976e0ad8ed2e09eb93bdc0f60efc31bf75ba70e6cebe1f95",
+      "file": "lab_ex5_i2s\\src\\user_source\\constraints_source\\edid_debug.cwc"
+    },
+    {
+      "member": "lab_ex5_i2s/src/user_source/constraints_source/.edid_debug_bak.cwc",
+      "bytes": 0,
+      "crc32": "00000000",
+      "extracted": true,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "file": "lab_ex5_i2s\\src\\user_source\\constraints_source\\.edid_debug_bak.cwc"
+    },
+    {
+      "member": "lab_ex5_i2s/src/td_project/log/td_2026-06-06_14-37-23.logw",
+      "bytes": 388,
+      "crc32": "da10f89d",
+      "extracted": true,
+      "sha256": "04e90cf2514a8c5969017cc7ee25cd6a69ca8b6ec599f9781023e2a2daae4ed5",
+      "file": "lab_ex5_i2s\\src\\td_project\\log\\td_2026-06-06_14-37-23.logw"
+    },
+    {
+      "member": "lab_ex5_i2s/src/td_project/log/td_2026-06-06_14-37-23.log",
+      "bytes": 2389,
+      "crc32": "2c232bd3",
+      "extracted": true,
+      "sha256": "d229e1fa01e3576b2b5be12a1ecf753d1fbc992f75b0d8e10e5880f2bb446ab5",
+      "file": "lab_ex5_i2s\\src\\td_project\\log\\td_2026-06-06_14-37-23.log"
+    },
+    {
+      "member": "lab_ex5_i2s/src/td_project/log/td_2026-06-05_21-59-12.logw",
+      "bytes": 388,
+      "crc32": "b561956e",
+      "extracted": true,
+      "sha256": "43296ef46173626e6367307eb0b15139128f1447a79ba67cfd43bbda183d754f",
+      "file": "lab_ex5_i2s\\src\\td_project\\log\\td_2026-06-05_21-59-12.logw"
+    },
+    {
+      "member": "lab_ex5_i2s/src/td_project/log/td_2026-06-05_21-59-12.log",
+      "bytes": 2388,
+      "crc32": "4fdc3c74",
+      "extracted": true,
+      "sha256": "dd0b7116a313a897b69a2d6a71026468725580e5c855114dfe50ca5647173401",
+      "file": "lab_ex5_i2s\\src\\td_project\\log\\td_2026-06-05_21-59-12.log"
+    },
+    {
+      "member": "lab_ex5_i2s/src/td_project/log/td_2026-06-05_21-13-17.logw",
+      "bytes": 1243,
+      "crc32": "f20ae858",
+      "extracted": true,
+      "sha256": "217a004586a1ad5fa0f7f4b075e5f286adaf4a13c81467cd863a650e677d9ae4",
+      "file": "lab_ex5_i2s\\src\\td_project\\log\\td_2026-06-05_21-13-17.logw"
+    },
+    {
+      "member": "lab_ex5_i2s/src/td_project/log/td_2026-06-05_21-13-17.log",
+      "bytes": 34632,
+      "crc32": "94215d89",
+      "extracted": true,
+      "sha256": "53f13aa711cee7228e48859a1dedfc2989baf169a84f390217aefbc4fb586673",
+      "file": "lab_ex5_i2s\\src\\td_project\\log\\td_2026-06-05_21-13-17.log"
+    },
+    {
+      "member": "lab_ex5_i2s/src/td_project/log/td_2026-06-05_15-00-17.logw",
+      "bytes": 673,
+      "crc32": "7f42a20a",
+      "extracted": true,
+      "sha256": "8ea27e171868571b6975a4f9572e1324fd9c4dc800cb10c3232a751f07cec595",
+      "file": "lab_ex5_i2s\\src\\td_project\\log\\td_2026-06-05_15-00-17.logw"
+    },
+    {
+      "member": "lab_ex5_i2s/src/td_project/log/td_2026-06-05_15-00-17.log",
+      "bytes": 15068,
+      "crc32": "1a217e9d",
+      "extracted": true,
+      "sha256": "c27629d4883e28b1467981b3794a5cb1f47733556c4313214d70572e643d9fc9",
+      "file": "lab_ex5_i2s\\src\\td_project\\log\\td_2026-06-05_15-00-17.log"
+    },
+    {
+      "member": "lab_ex5_i2s/src/td_project/log/td_2026-06-04_11-03-05.logw",
+      "bytes": 388,
+      "crc32": "4c9d5071",
+      "extracted": true,
+      "sha256": "b2ab1b84242ad96971b50d30af7c6d91efdd96c39da21f6bc3992b206aeb0bc6",
+      "file": "lab_ex5_i2s\\src\\td_project\\log\\td_2026-06-04_11-03-05.logw"
+    },
+    {
+      "member": "lab_ex5_i2s/src/td_project/log/td_2026-06-04_11-03-05.log",
+      "bytes": 2389,
+      "crc32": "4bae9ce9",
+      "extracted": true,
+      "sha256": "95f72b3f1c3eefac9c06558b2ce06ee1677a8117a5d29f77e5bfeb5c5d99cb9c",
+      "file": "lab_ex5_i2s\\src\\td_project\\log\\td_2026-06-04_11-03-05.log"
+    },
+    {
+      "member": "lab_ex5_i2s/src/td_project/log/td_2026-04-27_10-41-29.logw",
+      "bytes": 388,
+      "crc32": "4e2159fc",
+      "extracted": true,
+      "sha256": "8f172a84a3b476fbd170a9f1a470dca9b14fba04f032bf4cb6cb092e84a0f9b2",
+      "file": "lab_ex5_i2s\\src\\td_project\\log\\td_2026-04-27_10-41-29.logw"
+    },
+    {
+      "member": "lab_ex5_i2s/src/td_project/log/td_2026-04-27_10-41-29.log",
+      "bytes": 2405,
+      "crc32": "dae6ab2f",
+      "extracted": true,
+      "sha256": "bc24e1b61f6ac5e43fe8816e41db9e3c29c5664232870b3ecdf8d4d353a591af",
+      "file": "lab_ex5_i2s\\src\\td_project\\log\\td_2026-04-27_10-41-29.log"
+    },
+    {
+      "member": "lab_ex5_i2s/src/td_project/log/td_2026-04-24_16-08-23.logw",
+      "bytes": 9438,
+      "crc32": "0635529e",
+      "extracted": true,
+      "sha256": "3ecd2401593e75d650aa0a43ce1d7474fa567d4d7dd86152e11f010f8cab0426",
+      "file": "lab_ex5_i2s\\src\\td_project\\log\\td_2026-04-24_16-08-23.logw"
+    },
+    {
+      "member": "lab_ex5_i2s/src/td_project/log/td_2026-04-24_16-08-23.log",
+      "bytes": 226582,
+      "crc32": "ebc03482",
+      "extracted": true,
+      "sha256": "8aef2aa96b5fe7357c082258d31e36aa745178c2af70ae116de088e7a0198180",
+      "file": "lab_ex5_i2s\\src\\td_project\\log\\td_2026-04-24_16-08-23.log"
+    },
+    {
+      "member": "lab_ex5_i2s/src/td_project/log/td_2026-04-24_14-50-39.logw",
+      "bytes": 388,
+      "crc32": "e7d13229",
+      "extracted": true,
+      "sha256": "3c839c516998d0a42ab2ba641ff8a828ca0ee8365907ad3c3d55de256735f6cb",
+      "file": "lab_ex5_i2s\\src\\td_project\\log\\td_2026-04-24_14-50-39.logw"
+    },
+    {
+      "member": "lab_ex5_i2s/src/td_project/log/td_2026-04-24_14-50-39.log",
+      "bytes": 2407,
+      "crc32": "4f57ac89",
+      "extracted": true,
+      "sha256": "dd13ebb592af805ad4d37e7452b2c6e2a819e7968e733f6d2dfb2c92522fd411",
+      "file": "lab_ex5_i2s\\src\\td_project\\log\\td_2026-04-24_14-50-39.log"
+    },
+    {
+      "member": "lab_ex5_i2s/src/td_project/log/td_2026-04-21_10-20-49.logw",
+      "bytes": 6735,
+      "crc32": "3d6f5f1c",
+      "extracted": true,
+      "sha256": "6679d5f3ddc8dc0dcd2703289416c1c8d7e61ac79889de7dfc07878c6c3bfb3f",
+      "file": "lab_ex5_i2s\\src\\td_project\\log\\td_2026-04-21_10-20-49.logw"
+    },
+    {
+      "member": "lab_ex5_i2s/src/td_project/log/td_2026-04-21_10-20-49.log",
+      "bytes": 247010,
+      "crc32": "0ec5cf1b",
+      "extracted": true,
+      "sha256": "2734e027600f0060fdc546ae98eca3e402cfa54023ce991c286fb6268536edef",
+      "file": "lab_ex5_i2s\\src\\td_project\\log\\td_2026-04-21_10-20-49.log"
+    },
+    {
+      "member": "lab_ex5_i2s/src/td_project/log/td_2026-04-20_18-35-53.logw",
+      "bytes": 34322,
+      "crc32": "f50efb4b",
+      "extracted": true,
+      "sha256": "9c7a3248dd8b9868d6b55406ce249ffacae2dda090e604d8cf5ce24c7ca4208b",
+      "file": "lab_ex5_i2s\\src\\td_project\\log\\td_2026-04-20_18-35-53.logw"
+    },
+    {
+      "member": "lab_ex5_i2s/src/td_project/log/td_2026-04-20_18-35-53.log",
+      "bytes": 147554,
+      "crc32": "a9d490c0",
+      "extracted": true,
+      "sha256": "ce94bdb22ea8fb34ca805b26334ce5d8d97d83a6c660e3f589cd0d438f3bfeb0",
+      "file": "lab_ex5_i2s\\src\\td_project\\log\\td_2026-04-20_18-35-53.log"
+    },
+    {
+      "member": "lab_ex5_i2s/src/td_project/log/td_2026-04-14_16-24-06.logw",
+      "bytes": 388,
+      "crc32": "a5d021ce",
+      "extracted": true,
+      "sha256": "2081eb3f89bd0cefb2acdfe91630b40ab59fe686e36e1e6b327d29ff25684111",
+      "file": "lab_ex5_i2s\\src\\td_project\\log\\td_2026-04-14_16-24-06.logw"
+    },
+    {
+      "member": "lab_ex5_i2s/src/td_project/log/td_2026-04-14_16-24-06.log",
+      "bytes": 2107,
+      "crc32": "3848441f",
+      "extracted": true,
+      "sha256": "80a63a6f22fa136fc703c7b7fba26fcdf4e64c2ef7b16390c42446ac389476b5",
+      "file": "lab_ex5_i2s\\src\\td_project\\log\\td_2026-04-14_16-24-06.log"
+    },
+    {
+      "member": "lab_ex5_i2s/src/td_project/log/td_2026-04-14_10-54-42.logw",
+      "bytes": 388,
+      "crc32": "86cc167a",
+      "extracted": true,
+      "sha256": "355a8b716a0254d0d684b550ed27e113be5b5e5a733a7f6edefc3e74ddbd8a69",
+      "file": "lab_ex5_i2s\\src\\td_project\\log\\td_2026-04-14_10-54-42.logw"
+    },
+    {
+      "member": "lab_ex5_i2s/src/td_project/log/td_2026-04-14_10-54-42.log",
+      "bytes": 2106,
+      "crc32": "b6e76a6e",
+      "extracted": true,
+      "sha256": "f9b871789181160f02d2ff1bbc69f0cda230572b0729ea7271f876b4001f9511",
+      "file": "lab_ex5_i2s\\src\\td_project\\log\\td_2026-04-14_10-54-42.log"
+    },
+    {
+      "member": "lab_ex5_i2s/src/td_project/log/td_2026-04-13_15-26-47.logw",
+      "bytes": 388,
+      "crc32": "d4ba6634",
+      "extracted": true,
+      "sha256": "3f34d6dc77b8505d519200fded7a52b2d7492829337a74f258c8298b577df7e0",
+      "file": "lab_ex5_i2s\\src\\td_project\\log\\td_2026-04-13_15-26-47.logw"
+    },
+    {
+      "member": "lab_ex5_i2s/src/td_project/log/td_2026-04-13_15-26-47.log",
+      "bytes": 2107,
+      "crc32": "e16e4bc2",
+      "extracted": true,
+      "sha256": "30ad07e7ecfa0f402874a795cb9ab9b5bbdb69f752c1eb13cc2c3ec57c5d4c7a",
+      "file": "lab_ex5_i2s\\src\\td_project\\log\\td_2026-04-13_15-26-47.log"
+    },
+    {
+      "member": "lab_ex5_i2s/src/td_project/log/td_2026-04-13_12-45-43.logw",
+      "bytes": 388,
+      "crc32": "2c6abf24",
+      "extracted": true,
+      "sha256": "acc5ab2159e6982cf068c2d09a8c1f0ca9915e65ccb778ffbd6d52009bb2ceb4",
+      "file": "lab_ex5_i2s\\src\\td_project\\log\\td_2026-04-13_12-45-43.logw"
+    },
+    {
+      "member": "lab_ex5_i2s/src/td_project/log/td_2026-04-13_12-45-43.log",
+      "bytes": 2107,
+      "crc32": "8a86dba7",
+      "extracted": true,
+      "sha256": "666c0f8bd4dcb823807311b34c33b9e9024e450d2e90d1ef4cdc8ddad47867e4",
+      "file": "lab_ex5_i2s\\src\\td_project\\log\\td_2026-04-13_12-45-43.log"
+    },
+    {
+      "member": "lab_ex5_i2s/src/td_project/log/td_2026-04-13_10-10-20.logw",
+      "bytes": 388,
+      "crc32": "95ea870a",
+      "extracted": true,
+      "sha256": "ed158a0e1e796d4933a0e54395110aa819d15f91b37aac6636e6c65cef811bd8",
+      "file": "lab_ex5_i2s\\src\\td_project\\log\\td_2026-04-13_10-10-20.logw"
+    },
+    {
+      "member": "lab_ex5_i2s/src/td_project/log/td_2026-04-13_10-10-20.log",
+      "bytes": 2105,
+      "crc32": "6666c593",
+      "extracted": true,
+      "sha256": "3e7c1808dee6c2800dd3bd26febdfabc633ebc2668b3e426590d0870e62aa222",
+      "file": "lab_ex5_i2s\\src\\td_project\\log\\td_2026-04-13_10-10-20.log"
+    },
+    {
+      "member": "lab_ex5_i2s/src/td_project/log/td_2026-04-10_10-57-29.logw",
+      "bytes": 902,
+      "crc32": "ed728694",
+      "extracted": true,
+      "sha256": "3a886ff52db3a834a208ea7e2e3675ed319edb695639215b954d7582b1847f68",
+      "file": "lab_ex5_i2s\\src\\td_project\\log\\td_2026-04-10_10-57-29.logw"
+    },
+    {
+      "member": "lab_ex5_i2s/src/td_project/log/td_2026-04-10_10-57-29.log",
+      "bytes": 99513,
+      "crc32": "36e081ed",
+      "extracted": true,
+      "sha256": "e3b3e1f1f8e4f10fef792eafe7f3bea0ca6ebda98fee6adaf484c1d18df658ef",
+      "file": "lab_ex5_i2s\\src\\td_project\\log\\td_2026-04-10_10-57-29.log"
+    },
+    {
+      "member": "lab_ex5_i2s/src/td_project/log/td_2026-04-09_10-34-08.logw",
+      "bytes": 858,
+      "crc32": "3fb5fad9",
+      "extracted": true,
+      "sha256": "f0a7befd92c1d75202a5780890d74f5412136ae41a95baa492db5064a421fd86",
+      "file": "lab_ex5_i2s\\src\\td_project\\log\\td_2026-04-09_10-34-08.logw"
+    },
+    {
+      "member": "lab_ex5_i2s/src/td_project/log/td_2026-04-09_10-34-08.log",
+      "bytes": 117702,
+      "crc32": "d5cf58d9",
+      "extracted": true,
+      "sha256": "465cbbe0cf24c533894f4c92007c3df8106a6d26c5b6e70ea76abce20088ba7d",
+      "file": "lab_ex5_i2s\\src\\td_project\\log\\td_2026-04-09_10-34-08.log"
+    },
+    {
+      "member": "lab_ex5_i2s/src/td_project/log/td_2026-04-08_16-11-55.logw",
+      "bytes": 388,
+      "crc32": "486ff2df",
+      "extracted": true,
+      "sha256": "87feab3f432c33b87cbd9105530753af2d824900b3aef1619755251624b24fcf",
+      "file": "lab_ex5_i2s\\src\\td_project\\log\\td_2026-04-08_16-11-55.logw"
+    },
+    {
+      "member": "lab_ex5_i2s/src/td_project/log/td_2026-04-08_16-11-55.log",
+      "bytes": 388,
+      "crc32": "486ff2df",
+      "extracted": true,
+      "sha256": "87feab3f432c33b87cbd9105530753af2d824900b3aef1619755251624b24fcf",
+      "file": "lab_ex5_i2s\\src\\td_project\\log\\td_2026-04-08_16-11-55.log"
+    },
+    {
+      "member": "lab_ex5_i2s/src/td_project/log/td_2026-04-03_15-13-49.logw",
+      "bytes": 388,
+      "crc32": "06bd5b35",
+      "extracted": true,
+      "sha256": "e5c03a773fecdf18f59d9ece1b626b9a268c6395d899342366bf1edc000fb97c",
+      "file": "lab_ex5_i2s\\src\\td_project\\log\\td_2026-04-03_15-13-49.logw"
+    },
+    {
+      "member": "lab_ex5_i2s/src/td_project/log/td_2026-04-03_15-13-49.log",
+      "bytes": 388,
+      "crc32": "06bd5b35",
+      "extracted": true,
+      "sha256": "e5c03a773fecdf18f59d9ece1b626b9a268c6395d899342366bf1edc000fb97c",
+      "file": "lab_ex5_i2s\\src\\td_project\\log\\td_2026-04-03_15-13-49.log"
+    },
+    {
+      "member": "lab_ex5_i2s/src/td_project/log/td_2026-04-03_14-14-25.logw",
+      "bytes": 388,
+      "crc32": "d99ede28",
+      "extracted": true,
+      "sha256": "214e38c7e14df3d0ca212c2f25e20fd8c08ebf76959c9c2502eaff29e2a764bd",
+      "file": "lab_ex5_i2s\\src\\td_project\\log\\td_2026-04-03_14-14-25.logw"
+    },
+    {
+      "member": "lab_ex5_i2s/src/td_project/log/td_2026-04-03_14-14-25.log",
+      "bytes": 388,
+      "crc32": "d99ede28",
+      "extracted": true,
+      "sha256": "214e38c7e14df3d0ca212c2f25e20fd8c08ebf76959c9c2502eaff29e2a764bd",
+      "file": "lab_ex5_i2s\\src\\td_project\\log\\td_2026-04-03_14-14-25.log"
+    },
+    {
+      "member": "lab_ex5_i2s/src/td_project/log/td_2026-04-03_13-53-26.logw",
+      "bytes": 388,
+      "crc32": "ab98073f",
+      "extracted": true,
+      "sha256": "39b8a0b40d59d71765068b7c8f3354c104542687901254505f3dfbf641f07ac4",
+      "file": "lab_ex5_i2s\\src\\td_project\\log\\td_2026-04-03_13-53-26.logw"
+    },
+    {
+      "member": "lab_ex5_i2s/src/td_project/log/td_2026-04-03_13-53-26.log",
+      "bytes": 7484,
+      "crc32": "5362bcf6",
+      "extracted": true,
+      "sha256": "33911c501567b12eb2779d078113f355b47e1f487612c8c89362207c6514dc0c",
+      "file": "lab_ex5_i2s\\src\\td_project\\log\\td_2026-04-03_13-53-26.log"
+    },
+    {
+      "member": "lab_ex5_i2s/src/td_project/log/td_2026-04-01_12-57-42.logw",
+      "bytes": 388,
+      "crc32": "18c72f50",
+      "extracted": true,
+      "sha256": "ca927ed609f0a524f1afb6b1c6706c3425d2c84f6489f9d9b2955254b88bb2ad",
+      "file": "lab_ex5_i2s\\src\\td_project\\log\\td_2026-04-01_12-57-42.logw"
+    },
+    {
+      "member": "lab_ex5_i2s/src/td_project/log/td_2026-04-01_12-57-42.log",
+      "bytes": 388,
+      "crc32": "18c72f50",
+      "extracted": true,
+      "sha256": "ca927ed609f0a524f1afb6b1c6706c3425d2c84f6489f9d9b2955254b88bb2ad",
+      "file": "lab_ex5_i2s\\src\\td_project\\log\\td_2026-04-01_12-57-42.log"
+    },
+    {
+      "member": "lab_ex5_i2s/src/td_project/log/td_2026-03-31_16-08-13.logw",
+      "bytes": 388,
+      "crc32": "567cf2ab",
+      "extracted": true,
+      "sha256": "9d262c55968393109baaeb14b6a91b74a84a25c8bb5fdf706560381f5e35cc00",
+      "file": "lab_ex5_i2s\\src\\td_project\\log\\td_2026-03-31_16-08-13.logw"
+    },
+    {
+      "member": "lab_ex5_i2s/src/td_project/log/td_2026-03-31_16-08-13.log",
+      "bytes": 388,
+      "crc32": "567cf2ab",
+      "extracted": true,
+      "sha256": "9d262c55968393109baaeb14b6a91b74a84a25c8bb5fdf706560381f5e35cc00",
+      "file": "lab_ex5_i2s\\src\\td_project\\log\\td_2026-03-31_16-08-13.log"
+    },
+    {
+      "member": "lab_ex5_i2s/src/td_project/log/td_2026-03-26_14-05-52.logw",
+      "bytes": 388,
+      "crc32": "4391465e",
+      "extracted": true,
+      "sha256": "6706638d532398fc1983494d5aa92baea561e96620ea15ae31901d6f65790898",
+      "file": "lab_ex5_i2s\\src\\td_project\\log\\td_2026-03-26_14-05-52.logw"
+    },
+    {
+      "member": "lab_ex5_i2s/src/td_project/log/td_2026-03-26_14-05-52.log",
+      "bytes": 388,
+      "crc32": "4391465e",
+      "extracted": true,
+      "sha256": "6706638d532398fc1983494d5aa92baea561e96620ea15ae31901d6f65790898",
+      "file": "lab_ex5_i2s\\src\\td_project\\log\\td_2026-03-26_14-05-52.log"
+    },
+    {
+      "member": "lab_ex5_i2s/src/td_project/log/ipst.log",
+      "bytes": 231,
+      "crc32": "a68a04b4",
+      "extracted": true,
+      "sha256": "a7ed2237a3de9afb55908caeb410c67d39557cb89d1ebf796c9eb86b49e24e7d",
+      "file": "lab_ex5_i2s\\src\\td_project\\log\\ipst.log"
+    },
+    {
+      "member": "lab_ex5_i2s/src/td_project/al_ip/PLL_HDMI_AUDIO.vhd",
+      "bytes": 2941,
+      "crc32": "6d9fcd53",
+      "extracted": true,
+      "sha256": "1b5025b3fe29d4428c6aa58ef99e7c5d7c5d697e74dacd8ac8f2d068290e0e2f",
+      "file": "lab_ex5_i2s\\src\\td_project\\al_ip\\PLL_HDMI_AUDIO.vhd"
+    },
+    {
+      "member": "lab_ex5_i2s/src/td_project/al_ip/PLL_HDMI_AUDIO.v",
+      "bytes": 2757,
+      "crc32": "bf1e856f",
+      "extracted": true,
+      "sha256": "1e174c1dc4edbce9c61d6b390aca3b7b94022b60995a92981d5278247b7f5867",
+      "file": "lab_ex5_i2s\\src\\td_project\\al_ip\\PLL_HDMI_AUDIO.v"
+    },
+    {
+      "member": "lab_ex5_i2s/src/td_project/al_ip/PLL_HDMI_AUDIO.ipc",
+      "bytes": 1841,
+      "crc32": "f01a6393",
+      "extracted": true,
+      "sha256": "ce38f1b2917ef9df107be46e716767b7c8a78af079412b2988cf266b589bd645",
+      "file": "lab_ex5_i2s\\src\\td_project\\al_ip\\PLL_HDMI_AUDIO.ipc"
+    },
+    {
+      "member": "lab_ex5_i2s/src/td_project/al_ip/PLL.vhd",
+      "bytes": 2688,
+      "crc32": "11dcb8d6",
+      "extracted": true,
+      "sha256": "e46792bb3d2b72621b18b323c472213fd5880eb29e5e85f0b7d50e5117e47494",
+      "file": "lab_ex5_i2s\\src\\td_project\\al_ip\\PLL.vhd"
+    },
+    {
+      "member": "lab_ex5_i2s/src/td_project/al_ip/PLL.v",
+      "bytes": 2438,
+      "crc32": "321c7359",
+      "extracted": true,
+      "sha256": "4e873eef9499fa93508d8cf2cac90eea0e16c6f649ae29502cdc4c5886cd32aa",
+      "file": "lab_ex5_i2s\\src\\td_project\\al_ip\\PLL.v"
+    },
+    {
+      "member": "lab_ex5_i2s/src/td_project/al_ip/PLL.ipc",
+      "bytes": 1511,
+      "crc32": "0de8c3e9",
+      "extracted": true,
+      "sha256": "8cb6df3a1bb99cf2f95f9a535d7f33213b837207b36e336848a6ed0db29ab8b5",
+      "file": "lab_ex5_i2s\\src\\td_project\\al_ip\\PLL.ipc"
+    },
+    {
+      "member": "lab_ex5_i2s/src/td_project/al_ip/AUDIO_SAMPLE_ROM.vhd",
+      "bytes": 1621,
+      "crc32": "3d924299",
+      "extracted": true,
+      "sha256": "4c3d4ea17939b4d07a8d95c006174f94ced027b91daae5fd065e094d1e8071af",
+      "file": "lab_ex5_i2s\\src\\td_project\\al_ip\\AUDIO_SAMPLE_ROM.vhd"
+    },
+    {
+      "member": "lab_ex5_i2s/src/td_project/al_ip/AUDIO_SAMPLE_ROM.v",
+      "bytes": 1455,
+      "crc32": "98bd6ae6",
+      "extracted": true,
+      "sha256": "0bc4a18dfd8d598103faea82e9f02a85beaba5a3e21047a4e6baab063ca005bd",
+      "file": "lab_ex5_i2s\\src\\td_project\\al_ip\\AUDIO_SAMPLE_ROM.v"
+    },
+    {
+      "member": "lab_ex5_i2s/src/td_project/al_ip/AUDIO_SAMPLE_ROM.ipc",
+      "bytes": 1166,
+      "crc32": "bc1d5ee0",
+      "extracted": true,
+      "sha256": "650ab6133bd5b35260d34e3e984d15f0bfb45b74b8a88d323d46bb4ceab6aacc",
+      "file": "lab_ex5_i2s\\src\\td_project\\al_ip\\AUDIO_SAMPLE_ROM.ipc"
+    },
+    {
+      "member": "lab_ex5_i2s/src/td_project/HDMI1.4b_Transmitter_v1.0_Runs/syn_1/settings.cfg",
+      "bytes": 559,
+      "crc32": "2282ca69",
+      "extracted": false,
+      "reason": "重复演示视频或编译产物，保留在原ZIP"
+    },
+    {
+      "member": "lab_ex5_i2s/src/td_project/HDMI1.4b_Transmitter_v1.0_Runs/syn_1/run.logw",
+      "bytes": 14162,
+      "crc32": "4a9f524e",
+      "extracted": false,
+      "reason": "重复演示视频或编译产物，保留在原ZIP"
+    },
+    {
+      "member": "lab_ex5_i2s/src/td_project/HDMI1.4b_Transmitter_v1.0_Runs/syn_1/run.log",
+      "bytes": 74177,
+      "crc32": "06adc75f",
+      "extracted": false,
+      "reason": "重复演示视频或编译产物，保留在原ZIP"
+    },
+    {
+      "member": "lab_ex5_i2s/src/td_project/HDMI1.4b_Transmitter_v1.0_Runs/syn_1/run.bat",
+      "bytes": 267,
+      "crc32": "de62d8d3",
+      "extracted": false,
+      "reason": "重复演示视频或编译产物，保留在原ZIP"
+    },
+    {
+      "member": "lab_ex5_i2s/src/td_project/HDMI1.4b_Transmitter_v1.0_Runs/syn_1/gate.qor",
+      "bytes": 6079,
+      "crc32": "3e638992",
+      "extracted": false,
+      "reason": "重复演示视频或编译产物，保留在原ZIP"
+    },
+    {
+      "member": "lab_ex5_i2s/src/td_project/HDMI1.4b_Transmitter_v1.0_Runs/syn_1/flow.status",
+      "bytes": 1620,
+      "crc32": "26993fba",
+      "extracted": false,
+      "reason": "重复演示视频或编译产物，保留在原ZIP"
+    },
+    {
+      "member": "lab_ex5_i2s/src/td_project/HDMI1.4b_Transmitter_v1.0_Runs/syn_1/HDMI1.4b_Transmitter_v1.0_rtl.db",
+      "bytes": 2136578,
+      "crc32": "e5e2a2ee",
+      "extracted": false,
+      "reason": "重复演示视频或编译产物，保留在原ZIP"
+    },
+    {
+      "member": "lab_ex5_i2s/src/td_project/HDMI1.4b_Transmitter_v1.0_Runs/syn_1/HDMI1.4b_Transmitter_v1.0_rtl.area",
+      "bytes": 9390,
+      "crc32": "70a0631c",
+      "extracted": false,
+      "reason": "重复演示视频或编译产物，保留在原ZIP"
+    },
+    {
+      "member": "lab_ex5_i2s/src/td_project/HDMI1.4b_Transmitter_v1.0_Runs/syn_1/HDMI1.4b_Transmitter_v1.0_gate.ts",
+      "bytes": 66,
+      "crc32": "a2625660",
+      "extracted": false,
+      "reason": "重复演示视频或编译产物，保留在原ZIP"
+    },
+    {
+      "member": "lab_ex5_i2s/src/td_project/HDMI1.4b_Transmitter_v1.0_Runs/syn_1/HDMI1.4b_Transmitter_v1.0_gate.timing",
+      "bytes": 1463723,
+      "crc32": "7abc4801",
+      "extracted": false,
+      "reason": "重复演示视频或编译产物，保留在原ZIP"
+    },
+    {
+      "member": "lab_ex5_i2s/src/td_project/HDMI1.4b_Transmitter_v1.0_Runs/syn_1/HDMI1.4b_Transmitter_v1.0_gate.db",
+      "bytes": 2282802,
+      "crc32": "ad0c491f",
+      "extracted": false,
+      "reason": "重复演示视频或编译产物，保留在原ZIP"
+    },
+    {
+      "member": "lab_ex5_i2s/src/td_project/HDMI1.4b_Transmitter_v1.0_Runs/syn_1/HDMI1.4b_Transmitter_v1.0_gate.area",
+      "bytes": 11020,
+      "crc32": "65593b88",
+      "extracted": false,
+      "reason": "重复演示视频或编译产物，保留在原ZIP"
+    },
+    {
+      "member": "lab_ex5_i2s/src/td_project/HDMI1.4b_Transmitter_v1.0_Runs/syn_1/HDMI1.4b_Transmitter_v1.0_elaborate.db",
+      "bytes": 2817100,
+      "crc32": "81b33ce1",
+      "extracted": false,
+      "reason": "重复演示视频或编译产物，保留在原ZIP"
+    },
+    {
+      "member": "lab_ex5_i2s/src/td_project/HDMI1.4b_Transmitter_v1.0_Runs/syn_1/HDMI1.4b_Transmitter_v1.0.tcl",
+      "bytes": 7809,
+      "crc32": "1eae1074",
+      "extracted": false,
+      "reason": "重复演示视频或编译产物，保留在原ZIP"
+    },
+    {
+      "member": "lab_ex5_i2s/src/td_project/HDMI1.4b_Transmitter_v1.0_Runs/syn_1/HDMI1.4b_Transmitter_v1.0.prj",
+      "bytes": 19169,
+      "crc32": "178d34b7",
+      "extracted": false,
+      "reason": "重复演示视频或编译产物，保留在原ZIP"
+    },
+    {
+      "member": "lab_ex5_i2s/src/td_project/HDMI1.4b_Transmitter_v1.0_Runs/syn_1/.temp.f",
+      "bytes": 20,
+      "crc32": "30467bea",
+      "extracted": false,
+      "reason": "重复演示视频或编译产物，保留在原ZIP"
+    },
+    {
+      "member": "lab_ex5_i2s/src/td_project/HDMI1.4b_Transmitter_v1.0_Runs/syn_1/.read_design.end.f",
+      "bytes": 0,
+      "crc32": "00000000",
+      "extracted": false,
+      "reason": "重复演示视频或编译产物，保留在原ZIP"
+    },
+    {
+      "member": "lab_ex5_i2s/src/td_project/HDMI1.4b_Transmitter_v1.0_Runs/syn_1/.read_design.begin.f",
+      "bytes": 164,
+      "crc32": "06cdc227",
+      "extracted": false,
+      "reason": "重复演示视频或编译产物，保留在原ZIP"
+    },
+    {
+      "member": "lab_ex5_i2s/src/td_project/HDMI1.4b_Transmitter_v1.0_Runs/syn_1/.opt_rtl.end.f",
+      "bytes": 0,
+      "crc32": "00000000",
+      "extracted": false,
+      "reason": "重复演示视频或编译产物，保留在原ZIP"
+    },
+    {
+      "member": "lab_ex5_i2s/src/td_project/HDMI1.4b_Transmitter_v1.0_Runs/syn_1/.opt_rtl.begin.f",
+      "bytes": 164,
+      "crc32": "06cdc227",
+      "extracted": false,
+      "reason": "重复演示视频或编译产物，保留在原ZIP"
+    },
+    {
+      "member": "lab_ex5_i2s/src/td_project/HDMI1.4b_Transmitter_v1.0_Runs/syn_1/.opt_gate.end.f",
+      "bytes": 0,
+      "crc32": "00000000",
+      "extracted": false,
+      "reason": "重复演示视频或编译产物，保留在原ZIP"
+    },
+    {
+      "member": "lab_ex5_i2s/src/td_project/HDMI1.4b_Transmitter_v1.0_Runs/syn_1/.opt_gate.begin.f",
+      "bytes": 164,
+      "crc32": "06cdc227",
+      "extracted": false,
+      "reason": "重复演示视频或编译产物，保留在原ZIP"
+    },
+    {
+      "member": "lab_ex5_i2s/src/td_project/HDMI1.4b_Transmitter_v1.0_Runs/phy_1/settings.cfg",
+      "bytes": 616,
+      "crc32": "86de8a8a",
+      "extracted": false,
+      "reason": "重复演示视频或编译产物，保留在原ZIP"
+    },
+    {
+      "member": "lab_ex5_i2s/src/td_project/HDMI1.4b_Transmitter_v1.0_Runs/phy_1/run.logw",
+      "bytes": 1036,
+      "crc32": "18c95276",
+      "extracted": false,
+      "reason": "重复演示视频或编译产物，保留在原ZIP"
+    },
+    {
+      "member": "lab_ex5_i2s/src/td_project/HDMI1.4b_Transmitter_v1.0_Runs/phy_1/run.log",
+      "bytes": 86316,
+      "crc32": "7037506d",
+      "extracted": false,
+      "reason": "重复演示视频或编译产物，保留在原ZIP"
+    },
+    {
+      "member": "lab_ex5_i2s/src/td_project/HDMI1.4b_Transmitter_v1.0_Runs/phy_1/run.bat",
+      "bytes": 267,
+      "crc32": "de62d8d3",
+      "extracted": false,
+      "reason": "重复演示视频或编译产物，保留在原ZIP"
+    },
+    {
+      "member": "lab_ex5_i2s/src/td_project/HDMI1.4b_Transmitter_v1.0_Runs/phy_1/route_flow.status",
+      "bytes": 1520,
+      "crc32": "bf247e7d",
+      "extracted": false,
+      "reason": "重复演示视频或编译产物，保留在原ZIP"
+    },
+    {
+      "member": "lab_ex5_i2s/src/td_project/HDMI1.4b_Transmitter_v1.0_Runs/phy_1/route.qor",
+      "bytes": 1313,
+      "crc32": "798ccd41",
+      "extracted": false,
+      "reason": "重复演示视频或编译产物，保留在原ZIP"
+    },
+    {
+      "member": "lab_ex5_i2s/src/td_project/HDMI1.4b_Transmitter_v1.0_Runs/phy_1/place_flow.status",
+      "bytes": 1424,
+      "crc32": "b83ca73f",
+      "extracted": false,
+      "reason": "重复演示视频或编译产物，保留在原ZIP"
+    },
+    {
+      "member": "lab_ex5_i2s/src/td_project/HDMI1.4b_Transmitter_v1.0_Runs/phy_1/place.qor",
+      "bytes": 1741,
+      "crc32": "64720202",
+      "extracted": false,
+      "reason": "重复演示视频或编译产物，保留在原ZIP"
+    },
+    {
+      "member": "lab_ex5_i2s/src/td_project/HDMI1.4b_Transmitter_v1.0_Runs/phy_1/minidump-20260424-180732.dmp",
+      "bytes": 150118,
+      "crc32": "7183f5a0",
+      "extracted": false,
+      "reason": "重复演示视频或编译产物，保留在原ZIP"
+    },
+    {
+      "member": "lab_ex5_i2s/src/td_project/HDMI1.4b_Transmitter_v1.0_Runs/phy_1/minidump-20260424-180523.dmp",
+      "bytes": 159588,
+      "crc32": "3bb6e893",
+      "extracted": false,
+      "reason": "重复演示视频或编译产物，保留在原ZIP"
+    },
+    {
+      "member": "lab_ex5_i2s/src/td_project/HDMI1.4b_Transmitter_v1.0_Runs/phy_1/final_timing.rpt",
+      "bytes": 1321566,
+      "crc32": "bba630cd",
+      "extracted": false,
+      "reason": "重复演示视频或编译产物，保留在原ZIP"
+    },
+    {
+      "member": "lab_ex5_i2s/src/td_project/HDMI1.4b_Transmitter_v1.0_Runs/phy_1/HDMI1.4b_Transmitter_v1.0_pr.timing",
+      "bytes": 1321566,
+      "crc32": "9bc57b83",
+      "extracted": false,
+      "reason": "重复演示视频或编译产物，保留在原ZIP"
+    },
+    {
+      "member": "lab_ex5_i2s/src/td_project/HDMI1.4b_Transmitter_v1.0_Runs/phy_1/HDMI1.4b_Transmitter_v1.0_pr.db",
+      "bytes": 3648696,
+      "crc32": "0dde411f",
+      "extracted": false,
+      "reason": "重复演示视频或编译产物，保留在原ZIP"
+    },
+    {
+      "member": "lab_ex5_i2s/src/td_project/HDMI1.4b_Transmitter_v1.0_Runs/phy_1/HDMI1.4b_Transmitter_v1.0_place.timing",
+      "bytes": 1332191,
+      "crc32": "98551064",
+      "extracted": false,
+      "reason": "重复演示视频或编译产物，保留在原ZIP"
+    },
+    {
+      "member": "lab_ex5_i2s/src/td_project/HDMI1.4b_Transmitter_v1.0_Runs/phy_1/HDMI1.4b_Transmitter_v1.0_place.db",
+      "bytes": 2998136,
+      "crc32": "a8f8137f",
+      "extracted": false,
+      "reason": "重复演示视频或编译产物，保留在原ZIP"
+    },
+    {
+      "member": "lab_ex5_i2s/src/td_project/HDMI1.4b_Transmitter_v1.0_Runs/phy_1/HDMI1.4b_Transmitter_v1.0_phy.ts",
+      "bytes": 66,
+      "crc32": "6cdb0973",
+      "extracted": false,
+      "reason": "重复演示视频或编译产物，保留在原ZIP"
+    },
+    {
+      "member": "lab_ex5_i2s/src/td_project/HDMI1.4b_Transmitter_v1.0_Runs/phy_1/HDMI1.4b_Transmitter_v1.0_phy.area",
+      "bytes": 24107,
+      "crc32": "398f1d04",
+      "extracted": false,
+      "reason": "重复演示视频或编译产物，保留在原ZIP"
+    },
+    {
+      "member": "lab_ex5_i2s/src/td_project/HDMI1.4b_Transmitter_v1.0_Runs/phy_1/HDMI1.4b_Transmitter_v1.0_inst.bid",
+      "bytes": 30199,
+      "crc32": "2c9cee73",
+      "extracted": false,
+      "reason": "重复演示视频或编译产物，保留在原ZIP"
+    },
+    {
+      "member": "lab_ex5_i2s/src/td_project/HDMI1.4b_Transmitter_v1.0_Runs/phy_1/HDMI1.4b_Transmitter_v1.0_exception.timing",
+      "bytes": 2277,
+      "crc32": "44555033",
+      "extracted": false,
+      "reason": "重复演示视频或编译产物，保留在原ZIP"
+    },
+    {
+      "member": "lab_ex5_i2s/src/td_project/HDMI1.4b_Transmitter_v1.0_Runs/phy_1/HDMI1.4b_Transmitter_v1.0_eco_pr.db",
+      "bytes": 3648696,
+      "crc32": "66bc4ebd",
+      "extracted": false,
+      "reason": "重复演示视频或编译产物，保留在原ZIP"
+    },
+    {
+      "member": "lab_ex5_i2s/src/td_project/HDMI1.4b_Transmitter_v1.0_Runs/phy_1/HDMI1.4b_Transmitter_v1.0.tcl",
+      "bytes": 7809,
+      "crc32": "1eae1074",
+      "extracted": false,
+      "reason": "重复演示视频或编译产物，保留在原ZIP"
+    },
+    {
+      "member": "lab_ex5_i2s/src/td_project/HDMI1.4b_Transmitter_v1.0_Runs/phy_1/HDMI1.4b_Transmitter_v1.0.prj",
+      "bytes": 19169,
+      "crc32": "178d34b7",
+      "extracted": false,
+      "reason": "重复演示视频或编译产物，保留在原ZIP"
+    },
+    {
+      "member": "lab_ex5_i2s/src/td_project/HDMI1.4b_Transmitter_v1.0_Runs/phy_1/HDMI1.4b_Transmitter_v1.0.bit",
+      "bytes": 629624,
+      "crc32": "0e977aef",
+      "extracted": false,
+      "reason": "重复演示视频或编译产物，保留在原ZIP"
+    },
+    {
+      "member": "lab_ex5_i2s/src/td_project/HDMI1.4b_Transmitter_v1.0_Runs/phy_1/.temp.f",
+      "bytes": 20,
+      "crc32": "9b8dd956",
+      "extracted": false,
+      "reason": "重复演示视频或编译产物，保留在原ZIP"
+    },
+    {
+      "member": "lab_ex5_i2s/src/td_project/HDMI1.4b_Transmitter_v1.0_Runs/phy_1/.opt_route.end.f",
+      "bytes": 0,
+      "crc32": "00000000",
+      "extracted": false,
+      "reason": "重复演示视频或编译产物，保留在原ZIP"
+    },
+    {
+      "member": "lab_ex5_i2s/src/td_project/HDMI1.4b_Transmitter_v1.0_Runs/phy_1/.opt_route.begin.f",
+      "bytes": 164,
+      "crc32": "3d8f82cc",
+      "extracted": false,
+      "reason": "重复演示视频或编译产物，保留在原ZIP"
+    },
+    {
+      "member": "lab_ex5_i2s/src/td_project/HDMI1.4b_Transmitter_v1.0_Runs/phy_1/.opt_place.end.f",
+      "bytes": 0,
+      "crc32": "00000000",
+      "extracted": false,
+      "reason": "重复演示视频或编译产物，保留在原ZIP"
+    },
+    {
+      "member": "lab_ex5_i2s/src/td_project/HDMI1.4b_Transmitter_v1.0_Runs/phy_1/.opt_place.begin.f",
+      "bytes": 164,
+      "crc32": "3d8f82cc",
+      "extracted": false,
+      "reason": "重复演示视频或编译产物，保留在原ZIP"
+    },
+    {
+      "member": "lab_ex5_i2s/src/td_project/HDMI1.4b_Transmitter_v1.0_Runs/phy_1/.bitgen_param.f",
+      "bytes": 326,
+      "crc32": "e028ab9a",
+      "extracted": false,
+      "reason": "重复演示视频或编译产物，保留在原ZIP"
+    },
+    {
+      "member": "lab_ex5_i2s/src/td_project/HDMI1.4b_Transmitter_v1.0_Runs/phy_1/.bitgen.end.f",
+      "bytes": 0,
+      "crc32": "00000000",
+      "extracted": false,
+      "reason": "重复演示视频或编译产物，保留在原ZIP"
+    },
+    {
+      "member": "lab_ex5_i2s/src/td_project/HDMI1.4b_Transmitter_v1.0_Runs/phy_1/.bitgen.begin.f",
+      "bytes": 164,
+      "crc32": "3d8f82cc",
+      "extracted": false,
+      "reason": "重复演示视频或编译产物，保留在原ZIP"
+    },
+    {
+      "member": "lab_ex5_i2s/src/td_project/HDMI1.4b_Transmitter_v1.0_Runs/best_result/readMe.txt",
+      "bytes": 58,
+      "crc32": "248df0dc",
+      "extracted": false,
+      "reason": "重复演示视频或编译产物，保留在原ZIP"
+    },
+    {
+      "member": "lab_ex5_i2s/src/td_project/HDMI1.4b_Transmitter_v1.0_Runs/best_result/HDMI1.4b_Transmitter_v1.0_phy.ts",
+      "bytes": 66,
+      "crc32": "6cdb0973",
+      "extracted": false,
+      "reason": "重复演示视频或编译产物，保留在原ZIP"
+    },
+    {
+      "member": "lab_ex5_i2s/src/td_project/HDMI1.4b_Transmitter_v1.0_Runs/best_result/HDMI1.4b_Transmitter_v1.0_inst.bid",
+      "bytes": 30199,
+      "crc32": "2c9cee73",
+      "extracted": false,
+      "reason": "重复演示视频或编译产物，保留在原ZIP"
+    },
+    {
+      "member": "lab_ex5_i2s/src/td_project/HDMI1.4b_Transmitter_v1.0_Runs/best_result/HDMI1.4b_Transmitter_v1.0.bit",
+      "bytes": 629624,
+      "crc32": "0e977aef",
+      "extracted": false,
+      "reason": "重复演示视频或编译产物，保留在原ZIP"
+    },
+    {
+      "member": "lab_ex5_i2s/src/td_project/HDMI1.4b_Transmitter_v1.0.al",
+      "bytes": 19580,
+      "crc32": "993b9601",
+      "extracted": true,
+      "sha256": "34476b60ae600f9c212c279cc8459d0250addbaf441d40dbc177572768fd0608",
+      "file": "lab_ex5_i2s\\src\\td_project\\HDMI1.4b_Transmitter_v1.0.al"
+    },
+    {
+      "member": "lab_ex5_i2s/src/td_project/.recent_user_depot.ini",
+      "bytes": 0,
+      "crc32": "00000000",
+      "extracted": true,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "file": "lab_ex5_i2s\\src\\td_project\\.recent_user_depot.ini"
+    },
+    {
+      "member": "lab_ex5_i2s/doc/convert/sync_to_sd.py",
+      "bytes": 5594,
+      "crc32": "893e4e08",
+      "extracted": true,
+      "sha256": "c304534b3a29ab3cc3be79d1e75f51d37fc7a4fd9f238272a3782ce475b731ac",
+      "file": "lab_ex5_i2s\\doc\\convert\\sync_to_sd.py"
+    },
+    {
+      "member": "lab_ex5_i2s/doc/convert/output_bmp/4.bmp",
+      "bytes": 921654,
+      "crc32": "500c4b62",
+      "extracted": true,
+      "sha256": "78c9692b7c47af62e82220ba294e71548507da16990aa04f7c3dd58987b3ca06",
+      "file": "lab_ex5_i2s\\doc\\convert\\output_bmp\\4.bmp"
+    },
+    {
+      "member": "lab_ex5_i2s/doc/convert/output_bmp/3.bmp",
+      "bytes": 921654,
+      "crc32": "3c2adcf6",
+      "extracted": true,
+      "sha256": "e84c4a500b919251a0df1ab6b8448e2d94438065fca0fe14a520e3c658e06bdd",
+      "file": "lab_ex5_i2s\\doc\\convert\\output_bmp\\3.bmp"
+    },
+    {
+      "member": "lab_ex5_i2s/doc/convert/output_bmp/1.bmp",
+      "bytes": 921654,
+      "crc32": "f6bade32",
+      "extracted": true,
+      "sha256": "958c09c75d9c1c329419b59b74c5b338f299e05648b1f76c8b93a1e567bb7665",
+      "file": "lab_ex5_i2s\\doc\\convert\\output_bmp\\1.bmp"
+    },
+    {
+      "member": "lab_ex5_i2s/doc/convert/output_bmp/0.bmp",
+      "bytes": 921654,
+      "crc32": "597bacee",
+      "extracted": true,
+      "sha256": "f9938325dcf16100ef4cd08ab2827e1e646878ae54518cb1604dc04875dca218",
+      "file": "lab_ex5_i2s\\doc\\convert\\output_bmp\\0.bmp"
+    },
+    {
+      "member": "lab_ex5_i2s/doc/convert/convert_images_to_bmp.py",
+      "bytes": 4614,
+      "crc32": "c5c22096",
+      "extracted": true,
+      "sha256": "8dc1ec7eb91ecc2fabb74d18268660d629279794b210efa00e1f81434d93711d",
+      "file": "lab_ex5_i2s\\doc\\convert\\convert_images_to_bmp.py"
+    },
+    {
+      "member": "lab_ex5_i2s/doc/convert/README.md",
+      "bytes": 3782,
+      "crc32": "23a4db5b",
+      "extracted": true,
+      "sha256": "a6b3e104312a3562ebe40bb0ec4779cfe0153d7aedf290ddb026535f2a6751be",
+      "file": "lab_ex5_i2s\\doc\\convert\\README.md"
+    },
+    {
+      "member": "lab_ex5_i2s/doc/convert/3.png",
+      "bytes": 3709951,
+      "crc32": "fe45ee06",
+      "extracted": true,
+      "sha256": "3e2137277cc976a89a3e636ca499c12773940c202b8d70d2acef8666d3733003",
+      "file": "lab_ex5_i2s\\doc\\convert\\3.png"
+    },
+    {
+      "member": "lab_ex5_i2s/doc/convert/3.bmp",
+      "bytes": 921654,
+      "crc32": "3c2adcf6",
+      "extracted": true,
+      "sha256": "e84c4a500b919251a0df1ab6b8448e2d94438065fca0fe14a520e3c658e06bdd",
+      "file": "lab_ex5_i2s\\doc\\convert\\3.bmp"
+    },
+    {
+      "member": "lab_ex5_i2s/doc/convert/1.png",
+      "bytes": 2449351,
+      "crc32": "bbe381b4",
+      "extracted": true,
+      "sha256": "db31a64cf761b0061657d63b1c294ffe4b9fc29c39b1e6c21e441907f3101574",
+      "file": "lab_ex5_i2s\\doc\\convert\\1.png"
+    },
+    {
+      "member": "lab_ex5_i2s/doc/convert/1.bmp",
+      "bytes": 921654,
+      "crc32": "f6bade32",
+      "extracted": true,
+      "sha256": "958c09c75d9c1c329419b59b74c5b338f299e05648b1f76c8b93a1e567bb7665",
+      "file": "lab_ex5_i2s\\doc\\convert\\1.bmp"
+    },
+    {
+      "member": "lab_ex5_i2s/doc/TF卡图片/西瓜_640x480_24bit_显示正常_工程适配版.bmp",
+      "bytes": 921654,
+      "crc32": "1e1fdeb9",
+      "extracted": true,
+      "sha256": "bc7170e5c0d33b07c7f7a1622cd7a58084c2e4c7478d11b5ed29ee4ba8ec4297",
+      "file": "lab_ex5_i2s\\doc\\TF卡图片\\西瓜_640x480_24bit_显示正常_工程适配版.bmp"
+    },
+    {
+      "member": "lab_ex5_i2s/doc/TF卡图片/草莓_640x480_24bit_显示正常_工程适配版.bmp",
+      "bytes": 921654,
+      "crc32": "02830054",
+      "extracted": true,
+      "sha256": "a51b868d9e1c08ce599095a9a40048174cd35ce1c6ea3c74e370d3e6a6d87c2e",
+      "file": "lab_ex5_i2s\\doc\\TF卡图片\\草莓_640x480_24bit_显示正常_工程适配版.bmp"
+    },
+    {
+      "member": "lab_ex5_i2s/doc/TF卡图片/苹果_640x480_24bit_显示正常_工程适配版.bmp",
+      "bytes": 921654,
+      "crc32": "d698091a",
+      "extracted": true,
+      "sha256": "31a508b43bc3ec44f5814382a6dd12b5f379ca248b633120c25f1a6bf85239e1",
+      "file": "lab_ex5_i2s\\doc\\TF卡图片\\苹果_640x480_24bit_显示正常_工程适配版.bmp"
+    },
+    {
+      "member": "lab_ex5_i2s/doc/TF卡图片/logo_640x480_24bit_不翻转.bmp",
+      "bytes": 921654,
+      "crc32": "597bacee",
+      "extracted": true,
+      "sha256": "f9938325dcf16100ef4cd08ab2827e1e646878ae54518cb1604dc04875dca218",
+      "file": "lab_ex5_i2s\\doc\\TF卡图片\\logo_640x480_24bit_不翻转.bmp"
+    },
+    {
+      "member": "lab_ex5_i2s/doc/TF卡图片/A_工程适配版.bmp",
+      "bytes": 921654,
+      "crc32": "500c4b62",
+      "extracted": true,
+      "sha256": "78c9692b7c47af62e82220ba294e71548507da16990aa04f7c3dd58987b3ca06",
+      "file": "lab_ex5_i2s\\doc\\TF卡图片\\A_工程适配版.bmp"
+    },
+    {
+      "member": "lab_ex5_i2s/doc/APUG092_HDMI1.4b_Transmitter_V1.0.docx",
+      "bytes": 5325755,
+      "crc32": "5800e657",
+      "extracted": true,
+      "sha256": "070b22d3ff63e697ed7db39eee61e8653c60f58e0d6eb9cfdaf2ab16001b1543",
+      "file": "lab_ex5_i2s\\doc\\APUG092_HDMI1.4b_Transmitter_V1.0.docx"
+    },
+    {
+      "member": "lab_ex5_i2s/src/user_source/hdl_source/test/design_top_i2s_test_pll.v",
+      "bytes": 6443,
+      "crc32": "2ba987b5",
+      "extracted": true,
+      "sha256": "b6396c3e90c67d7e8aad8c83bfa8a1aa0b826db8f74a26936549cae57e86668c",
+      "file": "lab_ex5_i2s\\src\\user_source\\hdl_source\\test\\design_top_i2s_test_pll.v"
+    },
+    {
+      "member": "lab_ex5_i2s/src/user_source/hdl_source/test/i2s_test_tone_gen_pll.v",
+      "bytes": 3645,
+      "crc32": "47959749",
+      "extracted": true,
+      "sha256": "7614d4ca84c007a568e798b7c8cbc31eadd8a064bee53101194df13edb71e02f",
+      "file": "lab_ex5_i2s\\src\\user_source\\hdl_source\\test\\i2s_test_tone_gen_pll.v"
+    },
+    {
+      "member": "lab_ex5_i2s/src/user_source/hdl_source/top_tf_hdmi_audio.v",
+      "bytes": 12329,
+      "crc32": "95654673",
+      "extracted": true,
+      "sha256": "9dd5befa87d128be39ec7a70eab0f04c78440d11d8a6a18a789ccd535f90f3ab",
+      "file": "lab_ex5_i2s\\src\\user_source\\hdl_source\\top_tf_hdmi_audio.v"
+    },
+    {
+      "member": "lab_ex5_i2s/src/user_source/hdl_source/video_rgb_to_axis_640x480.v",
+      "bytes": 1749,
+      "crc32": "253897a7",
+      "extracted": true,
+      "sha256": "1c8fc26c789f87227036bea034f1ab6fc5633f2ab2684be422c54687a290fb96",
+      "file": "lab_ex5_i2s\\src\\user_source\\hdl_source\\video_rgb_to_axis_640x480.v"
+    },
+    {
+      "member": "lab_ex5_i2s/src/user_source/hdl_source/video_source_test.v",
+      "bytes": 2983,
+      "crc32": "f3ca5b08",
+      "extracted": true,
+      "sha256": "39cc05c9684a594d4254d11e66e97344053ab75bdb00f3f5a301643fd7aadbfc",
+      "file": "lab_ex5_i2s\\src\\user_source\\hdl_source\\video_source_test.v"
+    },
+    {
+      "member": "lab_ex5_i2s/src/user_source/ip_source/pll.ipc",
+      "bytes": 2124,
+      "crc32": "8261d462",
+      "extracted": true,
+      "sha256": "5d632bad332785258c35ca41ce2b4a2a550e6bfd75be0b63a3f72403ca2ce11e",
+      "file": "lab_ex5_i2s\\src\\user_source\\ip_source\\pll.ipc"
+    },
+    {
+      "member": "lab_ex5_i2s/src/user_source/ip_source/pll.v",
+      "bytes": 3333,
+      "crc32": "ad93147e",
+      "extracted": true,
+      "sha256": "202799f886f12cfc1d837afa932328b636c6c3dee70167be68c084133647b39c",
+      "file": "lab_ex5_i2s\\src\\user_source\\ip_source\\pll.v"
+    },
+    {
+      "member": "lab_ex5_i2s/src/user_source/ip_source/pll.vhd",
+      "bytes": 3559,
+      "crc32": "7673b54c",
+      "extracted": true,
+      "sha256": "a8166865b5aef9caaee525d4633aa1dec4172244a7bbff239e0d658c0ca775e4",
+      "file": "lab_ex5_i2s\\src\\user_source\\ip_source\\pll.vhd"
+    },
+    {
+      "member": "lab_ex5_i2s/代码说明.md",
+      "bytes": 4099,
+      "crc32": "4439d96d",
+      "extracted": true,
+      "sha256": "960ab04d6f0c8c779e202847bf646abc942326d0ebb32586077aefc88133fcc3",
+      "file": "lab_ex5_i2s\\代码说明.md"
+    },
+    {
+      "member": "lab_ex5_i2s/演示视频/VID_20260428_143508.mp4",
+      "bytes": 261438503,
+      "crc32": "7e24eef0",
+      "extracted": false,
+      "reason": "重复演示视频或编译产物，保留在原ZIP"
+    },
+    {
+      "member": "lab_ex5_i2s/设计参考例程文档.docx",
+      "bytes": 52069,
+      "crc32": "80fb9196",
+      "extracted": true,
+      "sha256": "2089a0ed9c4ea250e643612368080ed877d10de38709bfd4eea592c0e23b13a1",
+      "file": "lab_ex5_i2s\\设计参考例程文档.docx"
+    },
+    {
+      "member": "lab_ex5_i2s/设计参考例程文档.md",
+      "bytes": 20331,
+      "crc32": "a9162556",
+      "extracted": true,
+      "sha256": "147cf263abf7d0f4c5758e0330879c8d399c5a8a2d127c8b8ce83085857e43b9",
+      "file": "lab_ex5_i2s\\设计参考例程文档.md"
+    },
+    {
+      "member": "lab_ex4_tf/doc/APUG092_HDMI1.4b_Transmitter_V1.0.docx",
+      "bytes": 5325755,
+      "crc32": "5800e657",
+      "extracted": true,
+      "sha256": "070b22d3ff63e697ed7db39eee61e8653c60f58e0d6eb9cfdaf2ab16001b1543",
+      "file": "lab_ex4_tf\\doc\\APUG092_HDMI1.4b_Transmitter_V1.0.docx"
+    },
+    {
+      "member": "lab_ex4_tf/doc/TF卡图片/A_工程适配版.bmp",
+      "bytes": 921654,
+      "crc32": "500c4b62",
+      "extracted": true,
+      "sha256": "78c9692b7c47af62e82220ba294e71548507da16990aa04f7c3dd58987b3ca06",
+      "file": "lab_ex4_tf\\doc\\TF卡图片\\A_工程适配版.bmp"
+    },
+    {
+      "member": "lab_ex4_tf/doc/TF卡图片/logo_640x480_24bit_不翻转.bmp",
+      "bytes": 921654,
+      "crc32": "597bacee",
+      "extracted": true,
+      "sha256": "f9938325dcf16100ef4cd08ab2827e1e646878ae54518cb1604dc04875dca218",
+      "file": "lab_ex4_tf\\doc\\TF卡图片\\logo_640x480_24bit_不翻转.bmp"
+    },
+    {
+      "member": "lab_ex4_tf/doc/TF卡图片/苹果_640x480_24bit_显示正常_工程适配版.bmp",
+      "bytes": 921654,
+      "crc32": "d698091a",
+      "extracted": true,
+      "sha256": "31a508b43bc3ec44f5814382a6dd12b5f379ca248b633120c25f1a6bf85239e1",
+      "file": "lab_ex4_tf\\doc\\TF卡图片\\苹果_640x480_24bit_显示正常_工程适配版.bmp"
+    },
+    {
+      "member": "lab_ex4_tf/doc/TF卡图片/草莓_640x480_24bit_显示正常_工程适配版.bmp",
+      "bytes": 921654,
+      "crc32": "02830054",
+      "extracted": true,
+      "sha256": "a51b868d9e1c08ce599095a9a40048174cd35ce1c6ea3c74e370d3e6a6d87c2e",
+      "file": "lab_ex4_tf\\doc\\TF卡图片\\草莓_640x480_24bit_显示正常_工程适配版.bmp"
+    },
+    {
+      "member": "lab_ex4_tf/doc/TF卡图片/西瓜_640x480_24bit_显示正常_工程适配版.bmp",
+      "bytes": 921654,
+      "crc32": "1e1fdeb9",
+      "extracted": true,
+      "sha256": "bc7170e5c0d33b07c7f7a1622cd7a58084c2e4c7478d11b5ed29ee4ba8ec4297",
+      "file": "lab_ex4_tf\\doc\\TF卡图片\\西瓜_640x480_24bit_显示正常_工程适配版.bmp"
+    },
+    {
+      "member": "lab_ex4_tf/doc/convert/1.bmp",
+      "bytes": 921654,
+      "crc32": "f6bade32",
+      "extracted": true,
+      "sha256": "958c09c75d9c1c329419b59b74c5b338f299e05648b1f76c8b93a1e567bb7665",
+      "file": "lab_ex4_tf\\doc\\convert\\1.bmp"
+    },
+    {
+      "member": "lab_ex4_tf/doc/convert/1.png",
+      "bytes": 2449351,
+      "crc32": "bbe381b4",
+      "extracted": true,
+      "sha256": "db31a64cf761b0061657d63b1c294ffe4b9fc29c39b1e6c21e441907f3101574",
+      "file": "lab_ex4_tf\\doc\\convert\\1.png"
+    },
+    {
+      "member": "lab_ex4_tf/doc/convert/3.bmp",
+      "bytes": 921654,
+      "crc32": "3c2adcf6",
+      "extracted": true,
+      "sha256": "e84c4a500b919251a0df1ab6b8448e2d94438065fca0fe14a520e3c658e06bdd",
+      "file": "lab_ex4_tf\\doc\\convert\\3.bmp"
+    },
+    {
+      "member": "lab_ex4_tf/doc/convert/3.png",
+      "bytes": 3709951,
+      "crc32": "fe45ee06",
+      "extracted": true,
+      "sha256": "3e2137277cc976a89a3e636ca499c12773940c202b8d70d2acef8666d3733003",
+      "file": "lab_ex4_tf\\doc\\convert\\3.png"
+    },
+    {
+      "member": "lab_ex4_tf/doc/convert/README.md",
+      "bytes": 3782,
+      "crc32": "23a4db5b",
+      "extracted": true,
+      "sha256": "a6b3e104312a3562ebe40bb0ec4779cfe0153d7aedf290ddb026535f2a6751be",
+      "file": "lab_ex4_tf\\doc\\convert\\README.md"
+    },
+    {
+      "member": "lab_ex4_tf/doc/convert/convert_images_to_bmp.py",
+      "bytes": 4614,
+      "crc32": "c5c22096",
+      "extracted": true,
+      "sha256": "8dc1ec7eb91ecc2fabb74d18268660d629279794b210efa00e1f81434d93711d",
+      "file": "lab_ex4_tf\\doc\\convert\\convert_images_to_bmp.py"
+    },
+    {
+      "member": "lab_ex4_tf/doc/convert/output_bmp/0.bmp",
+      "bytes": 921654,
+      "crc32": "597bacee",
+      "extracted": true,
+      "sha256": "f9938325dcf16100ef4cd08ab2827e1e646878ae54518cb1604dc04875dca218",
+      "file": "lab_ex4_tf\\doc\\convert\\output_bmp\\0.bmp"
+    },
+    {
+      "member": "lab_ex4_tf/doc/convert/output_bmp/1.bmp",
+      "bytes": 921654,
+      "crc32": "f6bade32",
+      "extracted": true,
+      "sha256": "958c09c75d9c1c329419b59b74c5b338f299e05648b1f76c8b93a1e567bb7665",
+      "file": "lab_ex4_tf\\doc\\convert\\output_bmp\\1.bmp"
+    },
+    {
+      "member": "lab_ex4_tf/doc/convert/output_bmp/3.bmp",
+      "bytes": 921654,
+      "crc32": "3c2adcf6",
+      "extracted": true,
+      "sha256": "e84c4a500b919251a0df1ab6b8448e2d94438065fca0fe14a520e3c658e06bdd",
+      "file": "lab_ex4_tf\\doc\\convert\\output_bmp\\3.bmp"
+    },
+    {
+      "member": "lab_ex4_tf/doc/convert/output_bmp/4.bmp",
+      "bytes": 921654,
+      "crc32": "500c4b62",
+      "extracted": true,
+      "sha256": "78c9692b7c47af62e82220ba294e71548507da16990aa04f7c3dd58987b3ca06",
+      "file": "lab_ex4_tf\\doc\\convert\\output_bmp\\4.bmp"
+    },
+    {
+      "member": "lab_ex4_tf/doc/convert/sync_to_sd.py",
+      "bytes": 5594,
+      "crc32": "893e4e08",
+      "extracted": true,
+      "sha256": "c304534b3a29ab3cc3be79d1e75f51d37fc7a4fd9f238272a3782ce475b731ac",
+      "file": "lab_ex4_tf\\doc\\convert\\sync_to_sd.py"
+    },
+    {
+      "member": "lab_ex4_tf/src/td_project/.recent_user_depot.ini",
+      "bytes": 0,
+      "crc32": "00000000",
+      "extracted": true,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "file": "lab_ex4_tf\\src\\td_project\\.recent_user_depot.ini"
+    },
+    {
+      "member": "lab_ex4_tf/src/td_project/HDMI1.4b_Transmitter_v1.0_Runs/best_result/HDMI1.4b_Transmitter_v1.0.bit",
+      "bytes": 629624,
+      "crc32": "0e977aef",
+      "extracted": false,
+      "reason": "重复演示视频或编译产物，保留在原ZIP"
+    },
+    {
+      "member": "lab_ex4_tf/src/td_project/HDMI1.4b_Transmitter_v1.0_Runs/best_result/HDMI1.4b_Transmitter_v1.0_inst.bid",
+      "bytes": 30199,
+      "crc32": "2c9cee73",
+      "extracted": false,
+      "reason": "重复演示视频或编译产物，保留在原ZIP"
+    },
+    {
+      "member": "lab_ex4_tf/src/td_project/HDMI1.4b_Transmitter_v1.0_Runs/best_result/HDMI1.4b_Transmitter_v1.0_phy.ts",
+      "bytes": 66,
+      "crc32": "6cdb0973",
+      "extracted": false,
+      "reason": "重复演示视频或编译产物，保留在原ZIP"
+    },
+    {
+      "member": "lab_ex4_tf/src/td_project/HDMI1.4b_Transmitter_v1.0_Runs/best_result/readMe.txt",
+      "bytes": 58,
+      "crc32": "248df0dc",
+      "extracted": false,
+      "reason": "重复演示视频或编译产物，保留在原ZIP"
+    },
+    {
+      "member": "lab_ex4_tf/src/td_project/HDMI1.4b_Transmitter_v1.0_Runs/phy_1/.bitgen.begin.f",
+      "bytes": 164,
+      "crc32": "3d8f82cc",
+      "extracted": false,
+      "reason": "重复演示视频或编译产物，保留在原ZIP"
+    },
+    {
+      "member": "lab_ex4_tf/src/td_project/HDMI1.4b_Transmitter_v1.0_Runs/phy_1/.bitgen.end.f",
+      "bytes": 0,
+      "crc32": "00000000",
+      "extracted": false,
+      "reason": "重复演示视频或编译产物，保留在原ZIP"
+    },
+    {
+      "member": "lab_ex4_tf/src/td_project/HDMI1.4b_Transmitter_v1.0_Runs/phy_1/.bitgen_param.f",
+      "bytes": 326,
+      "crc32": "e028ab9a",
+      "extracted": false,
+      "reason": "重复演示视频或编译产物，保留在原ZIP"
+    },
+    {
+      "member": "lab_ex4_tf/src/td_project/HDMI1.4b_Transmitter_v1.0_Runs/phy_1/.opt_place.begin.f",
+      "bytes": 164,
+      "crc32": "3d8f82cc",
+      "extracted": false,
+      "reason": "重复演示视频或编译产物，保留在原ZIP"
+    },
+    {
+      "member": "lab_ex4_tf/src/td_project/HDMI1.4b_Transmitter_v1.0_Runs/phy_1/.opt_place.end.f",
+      "bytes": 0,
+      "crc32": "00000000",
+      "extracted": false,
+      "reason": "重复演示视频或编译产物，保留在原ZIP"
+    },
+    {
+      "member": "lab_ex4_tf/src/td_project/HDMI1.4b_Transmitter_v1.0_Runs/phy_1/.opt_route.begin.f",
+      "bytes": 164,
+      "crc32": "3d8f82cc",
+      "extracted": false,
+      "reason": "重复演示视频或编译产物，保留在原ZIP"
+    },
+    {
+      "member": "lab_ex4_tf/src/td_project/HDMI1.4b_Transmitter_v1.0_Runs/phy_1/.opt_route.end.f",
+      "bytes": 0,
+      "crc32": "00000000",
+      "extracted": false,
+      "reason": "重复演示视频或编译产物，保留在原ZIP"
+    },
+    {
+      "member": "lab_ex4_tf/src/td_project/HDMI1.4b_Transmitter_v1.0_Runs/phy_1/.temp.f",
+      "bytes": 20,
+      "crc32": "9b8dd956",
+      "extracted": false,
+      "reason": "重复演示视频或编译产物，保留在原ZIP"
+    },
+    {
+      "member": "lab_ex4_tf/src/td_project/HDMI1.4b_Transmitter_v1.0_Runs/phy_1/HDMI1.4b_Transmitter_v1.0.bit",
+      "bytes": 629624,
+      "crc32": "0e977aef",
+      "extracted": false,
+      "reason": "重复演示视频或编译产物，保留在原ZIP"
+    },
+    {
+      "member": "lab_ex4_tf/src/td_project/HDMI1.4b_Transmitter_v1.0_Runs/phy_1/HDMI1.4b_Transmitter_v1.0.prj",
+      "bytes": 19169,
+      "crc32": "178d34b7",
+      "extracted": false,
+      "reason": "重复演示视频或编译产物，保留在原ZIP"
+    },
+    {
+      "member": "lab_ex4_tf/src/td_project/HDMI1.4b_Transmitter_v1.0_Runs/phy_1/HDMI1.4b_Transmitter_v1.0.tcl",
+      "bytes": 7809,
+      "crc32": "1eae1074",
+      "extracted": false,
+      "reason": "重复演示视频或编译产物，保留在原ZIP"
+    },
+    {
+      "member": "lab_ex4_tf/src/td_project/HDMI1.4b_Transmitter_v1.0_Runs/phy_1/HDMI1.4b_Transmitter_v1.0_eco_pr.db",
+      "bytes": 3648696,
+      "crc32": "66bc4ebd",
+      "extracted": false,
+      "reason": "重复演示视频或编译产物，保留在原ZIP"
+    },
+    {
+      "member": "lab_ex4_tf/src/td_project/HDMI1.4b_Transmitter_v1.0_Runs/phy_1/HDMI1.4b_Transmitter_v1.0_exception.timing",
+      "bytes": 2277,
+      "crc32": "44555033",
+      "extracted": false,
+      "reason": "重复演示视频或编译产物，保留在原ZIP"
+    },
+    {
+      "member": "lab_ex4_tf/src/td_project/HDMI1.4b_Transmitter_v1.0_Runs/phy_1/HDMI1.4b_Transmitter_v1.0_inst.bid",
+      "bytes": 30199,
+      "crc32": "2c9cee73",
+      "extracted": false,
+      "reason": "重复演示视频或编译产物，保留在原ZIP"
+    },
+    {
+      "member": "lab_ex4_tf/src/td_project/HDMI1.4b_Transmitter_v1.0_Runs/phy_1/HDMI1.4b_Transmitter_v1.0_phy.area",
+      "bytes": 24107,
+      "crc32": "398f1d04",
+      "extracted": false,
+      "reason": "重复演示视频或编译产物，保留在原ZIP"
+    },
+    {
+      "member": "lab_ex4_tf/src/td_project/HDMI1.4b_Transmitter_v1.0_Runs/phy_1/HDMI1.4b_Transmitter_v1.0_phy.ts",
+      "bytes": 66,
+      "crc32": "6cdb0973",
+      "extracted": false,
+      "reason": "重复演示视频或编译产物，保留在原ZIP"
+    },
+    {
+      "member": "lab_ex4_tf/src/td_project/HDMI1.4b_Transmitter_v1.0_Runs/phy_1/HDMI1.4b_Transmitter_v1.0_place.db",
+      "bytes": 2998136,
+      "crc32": "a8f8137f",
+      "extracted": false,
+      "reason": "重复演示视频或编译产物，保留在原ZIP"
+    },
+    {
+      "member": "lab_ex4_tf/src/td_project/HDMI1.4b_Transmitter_v1.0_Runs/phy_1/HDMI1.4b_Transmitter_v1.0_place.timing",
+      "bytes": 1332191,
+      "crc32": "98551064",
+      "extracted": false,
+      "reason": "重复演示视频或编译产物，保留在原ZIP"
+    },
+    {
+      "member": "lab_ex4_tf/src/td_project/HDMI1.4b_Transmitter_v1.0_Runs/phy_1/HDMI1.4b_Transmitter_v1.0_pr.db",
+      "bytes": 3648696,
+      "crc32": "0dde411f",
+      "extracted": false,
+      "reason": "重复演示视频或编译产物，保留在原ZIP"
+    },
+    {
+      "member": "lab_ex4_tf/src/td_project/HDMI1.4b_Transmitter_v1.0_Runs/phy_1/HDMI1.4b_Transmitter_v1.0_pr.timing",
+      "bytes": 1321566,
+      "crc32": "9bc57b83",
+      "extracted": false,
+      "reason": "重复演示视频或编译产物，保留在原ZIP"
+    },
+    {
+      "member": "lab_ex4_tf/src/td_project/HDMI1.4b_Transmitter_v1.0_Runs/phy_1/final_timing.rpt",
+      "bytes": 1321566,
+      "crc32": "bba630cd",
+      "extracted": false,
+      "reason": "重复演示视频或编译产物，保留在原ZIP"
+    },
+    {
+      "member": "lab_ex4_tf/src/td_project/HDMI1.4b_Transmitter_v1.0_Runs/phy_1/minidump-20260424-180523.dmp",
+      "bytes": 159588,
+      "crc32": "3bb6e893",
+      "extracted": false,
+      "reason": "重复演示视频或编译产物，保留在原ZIP"
+    },
+    {
+      "member": "lab_ex4_tf/src/td_project/HDMI1.4b_Transmitter_v1.0_Runs/phy_1/minidump-20260424-180732.dmp",
+      "bytes": 150118,
+      "crc32": "7183f5a0",
+      "extracted": false,
+      "reason": "重复演示视频或编译产物，保留在原ZIP"
+    },
+    {
+      "member": "lab_ex4_tf/src/td_project/HDMI1.4b_Transmitter_v1.0_Runs/phy_1/place.qor",
+      "bytes": 1741,
+      "crc32": "64720202",
+      "extracted": false,
+      "reason": "重复演示视频或编译产物，保留在原ZIP"
+    },
+    {
+      "member": "lab_ex4_tf/src/td_project/HDMI1.4b_Transmitter_v1.0_Runs/phy_1/place_flow.status",
+      "bytes": 1424,
+      "crc32": "b83ca73f",
+      "extracted": false,
+      "reason": "重复演示视频或编译产物，保留在原ZIP"
+    },
+    {
+      "member": "lab_ex4_tf/src/td_project/HDMI1.4b_Transmitter_v1.0_Runs/phy_1/route.qor",
+      "bytes": 1313,
+      "crc32": "798ccd41",
+      "extracted": false,
+      "reason": "重复演示视频或编译产物，保留在原ZIP"
+    },
+    {
+      "member": "lab_ex4_tf/src/td_project/HDMI1.4b_Transmitter_v1.0_Runs/phy_1/route_flow.status",
+      "bytes": 1520,
+      "crc32": "bf247e7d",
+      "extracted": false,
+      "reason": "重复演示视频或编译产物，保留在原ZIP"
+    },
+    {
+      "member": "lab_ex4_tf/src/td_project/HDMI1.4b_Transmitter_v1.0_Runs/phy_1/run.bat",
+      "bytes": 267,
+      "crc32": "de62d8d3",
+      "extracted": false,
+      "reason": "重复演示视频或编译产物，保留在原ZIP"
+    },
+    {
+      "member": "lab_ex4_tf/src/td_project/HDMI1.4b_Transmitter_v1.0_Runs/phy_1/run.log",
+      "bytes": 86316,
+      "crc32": "7037506d",
+      "extracted": false,
+      "reason": "重复演示视频或编译产物，保留在原ZIP"
+    },
+    {
+      "member": "lab_ex4_tf/src/td_project/HDMI1.4b_Transmitter_v1.0_Runs/phy_1/run.logw",
+      "bytes": 1036,
+      "crc32": "18c95276",
+      "extracted": false,
+      "reason": "重复演示视频或编译产物，保留在原ZIP"
+    },
+    {
+      "member": "lab_ex4_tf/src/td_project/HDMI1.4b_Transmitter_v1.0_Runs/phy_1/settings.cfg",
+      "bytes": 616,
+      "crc32": "86de8a8a",
+      "extracted": false,
+      "reason": "重复演示视频或编译产物，保留在原ZIP"
+    },
+    {
+      "member": "lab_ex4_tf/src/td_project/HDMI1.4b_Transmitter_v1.0_Runs/syn_1/.opt_gate.begin.f",
+      "bytes": 164,
+      "crc32": "06cdc227",
+      "extracted": false,
+      "reason": "重复演示视频或编译产物，保留在原ZIP"
+    },
+    {
+      "member": "lab_ex4_tf/src/td_project/HDMI1.4b_Transmitter_v1.0_Runs/syn_1/.opt_gate.end.f",
+      "bytes": 0,
+      "crc32": "00000000",
+      "extracted": false,
+      "reason": "重复演示视频或编译产物，保留在原ZIP"
+    },
+    {
+      "member": "lab_ex4_tf/src/td_project/HDMI1.4b_Transmitter_v1.0_Runs/syn_1/.opt_rtl.begin.f",
+      "bytes": 164,
+      "crc32": "06cdc227",
+      "extracted": false,
+      "reason": "重复演示视频或编译产物，保留在原ZIP"
+    },
+    {
+      "member": "lab_ex4_tf/src/td_project/HDMI1.4b_Transmitter_v1.0_Runs/syn_1/.opt_rtl.end.f",
+      "bytes": 0,
+      "crc32": "00000000",
+      "extracted": false,
+      "reason": "重复演示视频或编译产物，保留在原ZIP"
+    },
+    {
+      "member": "lab_ex4_tf/src/td_project/HDMI1.4b_Transmitter_v1.0_Runs/syn_1/.read_design.begin.f",
+      "bytes": 164,
+      "crc32": "06cdc227",
+      "extracted": false,
+      "reason": "重复演示视频或编译产物，保留在原ZIP"
+    },
+    {
+      "member": "lab_ex4_tf/src/td_project/HDMI1.4b_Transmitter_v1.0_Runs/syn_1/.read_design.end.f",
+      "bytes": 0,
+      "crc32": "00000000",
+      "extracted": false,
+      "reason": "重复演示视频或编译产物，保留在原ZIP"
+    },
+    {
+      "member": "lab_ex4_tf/src/td_project/HDMI1.4b_Transmitter_v1.0_Runs/syn_1/.temp.f",
+      "bytes": 20,
+      "crc32": "30467bea",
+      "extracted": false,
+      "reason": "重复演示视频或编译产物，保留在原ZIP"
+    },
+    {
+      "member": "lab_ex4_tf/src/td_project/HDMI1.4b_Transmitter_v1.0_Runs/syn_1/HDMI1.4b_Transmitter_v1.0.prj",
+      "bytes": 19169,
+      "crc32": "178d34b7",
+      "extracted": false,
+      "reason": "重复演示视频或编译产物，保留在原ZIP"
+    },
+    {
+      "member": "lab_ex4_tf/src/td_project/HDMI1.4b_Transmitter_v1.0_Runs/syn_1/HDMI1.4b_Transmitter_v1.0.tcl",
+      "bytes": 7809,
+      "crc32": "1eae1074",
+      "extracted": false,
+      "reason": "重复演示视频或编译产物，保留在原ZIP"
+    },
+    {
+      "member": "lab_ex4_tf/src/td_project/HDMI1.4b_Transmitter_v1.0_Runs/syn_1/HDMI1.4b_Transmitter_v1.0_elaborate.db",
+      "bytes": 2817100,
+      "crc32": "81b33ce1",
+      "extracted": false,
+      "reason": "重复演示视频或编译产物，保留在原ZIP"
+    },
+    {
+      "member": "lab_ex4_tf/src/td_project/HDMI1.4b_Transmitter_v1.0_Runs/syn_1/HDMI1.4b_Transmitter_v1.0_gate.area",
+      "bytes": 11020,
+      "crc32": "65593b88",
+      "extracted": false,
+      "reason": "重复演示视频或编译产物，保留在原ZIP"
+    },
+    {
+      "member": "lab_ex4_tf/src/td_project/HDMI1.4b_Transmitter_v1.0_Runs/syn_1/HDMI1.4b_Transmitter_v1.0_gate.db",
+      "bytes": 2282802,
+      "crc32": "ad0c491f",
+      "extracted": false,
+      "reason": "重复演示视频或编译产物，保留在原ZIP"
+    },
+    {
+      "member": "lab_ex4_tf/src/td_project/HDMI1.4b_Transmitter_v1.0_Runs/syn_1/HDMI1.4b_Transmitter_v1.0_gate.timing",
+      "bytes": 1463723,
+      "crc32": "7abc4801",
+      "extracted": false,
+      "reason": "重复演示视频或编译产物，保留在原ZIP"
+    },
+    {
+      "member": "lab_ex4_tf/src/td_project/HDMI1.4b_Transmitter_v1.0_Runs/syn_1/HDMI1.4b_Transmitter_v1.0_gate.ts",
+      "bytes": 66,
+      "crc32": "a2625660",
+      "extracted": false,
+      "reason": "重复演示视频或编译产物，保留在原ZIP"
+    },
+    {
+      "member": "lab_ex4_tf/src/td_project/HDMI1.4b_Transmitter_v1.0_Runs/syn_1/HDMI1.4b_Transmitter_v1.0_rtl.area",
+      "bytes": 9390,
+      "crc32": "70a0631c",
+      "extracted": false,
+      "reason": "重复演示视频或编译产物，保留在原ZIP"
+    },
+    {
+      "member": "lab_ex4_tf/src/td_project/HDMI1.4b_Transmitter_v1.0_Runs/syn_1/HDMI1.4b_Transmitter_v1.0_rtl.db",
+      "bytes": 2136578,
+      "crc32": "e5e2a2ee",
+      "extracted": false,
+      "reason": "重复演示视频或编译产物，保留在原ZIP"
+    },
+    {
+      "member": "lab_ex4_tf/src/td_project/HDMI1.4b_Transmitter_v1.0_Runs/syn_1/flow.status",
+      "bytes": 1620,
+      "crc32": "26993fba",
+      "extracted": false,
+      "reason": "重复演示视频或编译产物，保留在原ZIP"
+    },
+    {
+      "member": "lab_ex4_tf/src/td_project/HDMI1.4b_Transmitter_v1.0_Runs/syn_1/gate.qor",
+      "bytes": 6079,
+      "crc32": "3e638992",
+      "extracted": false,
+      "reason": "重复演示视频或编译产物，保留在原ZIP"
+    },
+    {
+      "member": "lab_ex4_tf/src/td_project/HDMI1.4b_Transmitter_v1.0_Runs/syn_1/run.bat",
+      "bytes": 267,
+      "crc32": "de62d8d3",
+      "extracted": false,
+      "reason": "重复演示视频或编译产物，保留在原ZIP"
+    },
+    {
+      "member": "lab_ex4_tf/src/td_project/HDMI1.4b_Transmitter_v1.0_Runs/syn_1/run.log",
+      "bytes": 74177,
+      "crc32": "06adc75f",
+      "extracted": false,
+      "reason": "重复演示视频或编译产物，保留在原ZIP"
+    },
+    {
+      "member": "lab_ex4_tf/src/td_project/HDMI1.4b_Transmitter_v1.0_Runs/syn_1/run.logw",
+      "bytes": 14162,
+      "crc32": "4a9f524e",
+      "extracted": false,
+      "reason": "重复演示视频或编译产物，保留在原ZIP"
+    },
+    {
+      "member": "lab_ex4_tf/src/td_project/HDMI1.4b_Transmitter_v1.0_Runs/syn_1/settings.cfg",
+      "bytes": 559,
+      "crc32": "2282ca69",
+      "extracted": false,
+      "reason": "重复演示视频或编译产物，保留在原ZIP"
+    },
+    {
+      "member": "lab_ex4_tf/src/td_project/al_ip/PLL.ipc",
+      "bytes": 1511,
+      "crc32": "0de8c3e9",
+      "extracted": true,
+      "sha256": "8cb6df3a1bb99cf2f95f9a535d7f33213b837207b36e336848a6ed0db29ab8b5",
+      "file": "lab_ex4_tf\\src\\td_project\\al_ip\\PLL.ipc"
+    },
+    {
+      "member": "lab_ex4_tf/src/td_project/al_ip/PLL.v",
+      "bytes": 2438,
+      "crc32": "321c7359",
+      "extracted": true,
+      "sha256": "4e873eef9499fa93508d8cf2cac90eea0e16c6f649ae29502cdc4c5886cd32aa",
+      "file": "lab_ex4_tf\\src\\td_project\\al_ip\\PLL.v"
+    },
+    {
+      "member": "lab_ex4_tf/src/td_project/al_ip/PLL.vhd",
+      "bytes": 2688,
+      "crc32": "11dcb8d6",
+      "extracted": true,
+      "sha256": "e46792bb3d2b72621b18b323c472213fd5880eb29e5e85f0b7d50e5117e47494",
+      "file": "lab_ex4_tf\\src\\td_project\\al_ip\\PLL.vhd"
+    },
+    {
+      "member": "lab_ex4_tf/src/td_project/lab_ex5_i2s_v1.0.al",
+      "bytes": 16260,
+      "crc32": "7be5c678",
+      "extracted": true,
+      "sha256": "a10a58631c3a4297f5a36c4fead699776c260751ca10066d69a9debd20ae2da4",
+      "file": "lab_ex4_tf\\src\\td_project\\lab_ex5_i2s_v1.0.al"
+    },
+    {
+      "member": "lab_ex4_tf/src/td_project/lab_ex5_i2s_v1.0_Runs/best_result/lab_ex5_i2s_v1.0.bit",
+      "bytes": 629624,
+      "crc32": "e2ef7c67",
+      "extracted": false,
+      "reason": "重复演示视频或编译产物，保留在原ZIP"
+    },
+    {
+      "member": "lab_ex4_tf/src/td_project/lab_ex5_i2s_v1.0_Runs/best_result/lab_ex5_i2s_v1.0_inst.bid",
+      "bytes": 20882,
+      "crc32": "f143d69a",
+      "extracted": false,
+      "reason": "重复演示视频或编译产物，保留在原ZIP"
+    },
+    {
+      "member": "lab_ex4_tf/src/td_project/lab_ex5_i2s_v1.0_Runs/best_result/lab_ex5_i2s_v1.0_phy.ts",
+      "bytes": 66,
+      "crc32": "39cba13c",
+      "extracted": false,
+      "reason": "重复演示视频或编译产物，保留在原ZIP"
+    },
+    {
+      "member": "lab_ex4_tf/src/td_project/lab_ex5_i2s_v1.0_Runs/best_result/readMe.txt",
+      "bytes": 58,
+      "crc32": "248df0dc",
+      "extracted": false,
+      "reason": "重复演示视频或编译产物，保留在原ZIP"
+    },
+    {
+      "member": "lab_ex4_tf/src/td_project/lab_ex5_i2s_v1.0_Runs/phy_1/.bitgen.begin.f",
+      "bytes": 163,
+      "crc32": "48c0c0f7",
+      "extracted": false,
+      "reason": "重复演示视频或编译产物，保留在原ZIP"
+    },
+    {
+      "member": "lab_ex4_tf/src/td_project/lab_ex5_i2s_v1.0_Runs/phy_1/.bitgen.end.f",
+      "bytes": 0,
+      "crc32": "00000000",
+      "extracted": false,
+      "reason": "重复演示视频或编译产物，保留在原ZIP"
+    },
+    {
+      "member": "lab_ex4_tf/src/td_project/lab_ex5_i2s_v1.0_Runs/phy_1/.bitgen_param.f",
+      "bytes": 326,
+      "crc32": "e028ab9a",
+      "extracted": false,
+      "reason": "重复演示视频或编译产物，保留在原ZIP"
+    },
+    {
+      "member": "lab_ex4_tf/src/td_project/lab_ex5_i2s_v1.0_Runs/phy_1/.opt_place.begin.f",
+      "bytes": 163,
+      "crc32": "48c0c0f7",
+      "extracted": false,
+      "reason": "重复演示视频或编译产物，保留在原ZIP"
+    },
+    {
+      "member": "lab_ex4_tf/src/td_project/lab_ex5_i2s_v1.0_Runs/phy_1/.opt_place.end.f",
+      "bytes": 0,
+      "crc32": "00000000",
+      "extracted": false,
+      "reason": "重复演示视频或编译产物，保留在原ZIP"
+    },
+    {
+      "member": "lab_ex4_tf/src/td_project/lab_ex5_i2s_v1.0_Runs/phy_1/.opt_route.begin.f",
+      "bytes": 163,
+      "crc32": "48c0c0f7",
+      "extracted": false,
+      "reason": "重复演示视频或编译产物，保留在原ZIP"
+    },
+    {
+      "member": "lab_ex4_tf/src/td_project/lab_ex5_i2s_v1.0_Runs/phy_1/.opt_route.end.f",
+      "bytes": 0,
+      "crc32": "00000000",
+      "extracted": false,
+      "reason": "重复演示视频或编译产物，保留在原ZIP"
+    },
+    {
+      "member": "lab_ex4_tf/src/td_project/lab_ex5_i2s_v1.0_Runs/phy_1/.temp.f",
+      "bytes": 20,
+      "crc32": "e5844e02",
+      "extracted": false,
+      "reason": "重复演示视频或编译产物，保留在原ZIP"
+    },
+    {
+      "member": "lab_ex4_tf/src/td_project/lab_ex5_i2s_v1.0_Runs/phy_1/final_timing.rpt",
+      "bytes": 1575919,
+      "crc32": "3f3ac510",
+      "extracted": false,
+      "reason": "重复演示视频或编译产物，保留在原ZIP"
+    },
+    {
+      "member": "lab_ex4_tf/src/td_project/lab_ex5_i2s_v1.0_Runs/phy_1/lab_ex5_i2s_v1.0.bit",
+      "bytes": 629624,
+      "crc32": "e2ef7c67",
+      "extracted": false,
+      "reason": "重复演示视频或编译产物，保留在原ZIP"
+    },
+    {
+      "member": "lab_ex4_tf/src/td_project/lab_ex5_i2s_v1.0_Runs/phy_1/lab_ex5_i2s_v1.0.prj",
+      "bytes": 15802,
+      "crc32": "bd56e49d",
+      "extracted": false,
+      "reason": "重复演示视频或编译产物，保留在原ZIP"
+    },
+    {
+      "member": "lab_ex4_tf/src/td_project/lab_ex5_i2s_v1.0_Runs/phy_1/lab_ex5_i2s_v1.0.tcl",
+      "bytes": 7809,
+      "crc32": "1eae1074",
+      "extracted": false,
+      "reason": "重复演示视频或编译产物，保留在原ZIP"
+    },
+    {
+      "member": "lab_ex4_tf/src/td_project/lab_ex5_i2s_v1.0_Runs/phy_1/lab_ex5_i2s_v1.0_eco_pr.db",
+      "bytes": 3324082,
+      "crc32": "da4f3301",
+      "extracted": false,
+      "reason": "重复演示视频或编译产物，保留在原ZIP"
+    },
+    {
+      "member": "lab_ex4_tf/src/td_project/lab_ex5_i2s_v1.0_Runs/phy_1/lab_ex5_i2s_v1.0_exception.timing",
+      "bytes": 2267,
+      "crc32": "1ba30968",
+      "extracted": false,
+      "reason": "重复演示视频或编译产物，保留在原ZIP"
+    },
+    {
+      "member": "lab_ex4_tf/src/td_project/lab_ex5_i2s_v1.0_Runs/phy_1/lab_ex5_i2s_v1.0_inst.bid",
+      "bytes": 20882,
+      "crc32": "f143d69a",
+      "extracted": false,
+      "reason": "重复演示视频或编译产物，保留在原ZIP"
+    },
+    {
+      "member": "lab_ex4_tf/src/td_project/lab_ex5_i2s_v1.0_Runs/phy_1/lab_ex5_i2s_v1.0_phy.area",
+      "bytes": 22552,
+      "crc32": "e5c1c6c6",
+      "extracted": false,
+      "reason": "重复演示视频或编译产物，保留在原ZIP"
+    },
+    {
+      "member": "lab_ex4_tf/src/td_project/lab_ex5_i2s_v1.0_Runs/phy_1/lab_ex5_i2s_v1.0_phy.ts",
+      "bytes": 66,
+      "crc32": "39cba13c",
+      "extracted": false,
+      "reason": "重复演示视频或编译产物，保留在原ZIP"
+    },
+    {
+      "member": "lab_ex4_tf/src/td_project/lab_ex5_i2s_v1.0_Runs/phy_1/lab_ex5_i2s_v1.0_place.db",
+      "bytes": 2773712,
+      "crc32": "9ea35e1a",
+      "extracted": false,
+      "reason": "重复演示视频或编译产物，保留在原ZIP"
+    },
+    {
+      "member": "lab_ex4_tf/src/td_project/lab_ex5_i2s_v1.0_Runs/phy_1/lab_ex5_i2s_v1.0_place.timing",
+      "bytes": 1571838,
+      "crc32": "7c7c0bc8",
+      "extracted": false,
+      "reason": "重复演示视频或编译产物，保留在原ZIP"
+    },
+    {
+      "member": "lab_ex4_tf/src/td_project/lab_ex5_i2s_v1.0_Runs/phy_1/lab_ex5_i2s_v1.0_pr.db",
+      "bytes": 3324082,
+      "crc32": "67a97563",
+      "extracted": false,
+      "reason": "重复演示视频或编译产物，保留在原ZIP"
+    },
+    {
+      "member": "lab_ex4_tf/src/td_project/lab_ex5_i2s_v1.0_Runs/phy_1/lab_ex5_i2s_v1.0_pr.timing",
+      "bytes": 1575919,
+      "crc32": "3f3ac510",
+      "extracted": false,
+      "reason": "重复演示视频或编译产物，保留在原ZIP"
+    },
+    {
+      "member": "lab_ex4_tf/src/td_project/lab_ex5_i2s_v1.0_Runs/phy_1/place.qor",
+      "bytes": 1741,
+      "crc32": "230ceef8",
+      "extracted": false,
+      "reason": "重复演示视频或编译产物，保留在原ZIP"
+    },
+    {
+      "member": "lab_ex4_tf/src/td_project/lab_ex5_i2s_v1.0_Runs/phy_1/place_flow.status",
+      "bytes": 1405,
+      "crc32": "8170f24c",
+      "extracted": false,
+      "reason": "重复演示视频或编译产物，保留在原ZIP"
+    },
+    {
+      "member": "lab_ex4_tf/src/td_project/lab_ex5_i2s_v1.0_Runs/phy_1/route.qor",
+      "bytes": 1313,
+      "crc32": "bf02a30d",
+      "extracted": false,
+      "reason": "重复演示视频或编译产物，保留在原ZIP"
+    },
+    {
+      "member": "lab_ex4_tf/src/td_project/lab_ex5_i2s_v1.0_Runs/phy_1/route_flow.status",
+      "bytes": 1501,
+      "crc32": "e7875e8b",
+      "extracted": false,
+      "reason": "重复演示视频或编译产物，保留在原ZIP"
+    },
+    {
+      "member": "lab_ex4_tf/src/td_project/lab_ex5_i2s_v1.0_Runs/phy_1/run.bat",
+      "bytes": 267,
+      "crc32": "de62d8d3",
+      "extracted": false,
+      "reason": "重复演示视频或编译产物，保留在原ZIP"
+    },
+    {
+      "member": "lab_ex4_tf/src/td_project/lab_ex5_i2s_v1.0_Runs/phy_1/run.log",
+      "bytes": 82209,
+      "crc32": "a833d97b",
+      "extracted": false,
+      "reason": "重复演示视频或编译产物，保留在原ZIP"
+    },
+    {
+      "member": "lab_ex4_tf/src/td_project/lab_ex5_i2s_v1.0_Runs/phy_1/run.logw",
+      "bytes": 1036,
+      "crc32": "16cfe9c2",
+      "extracted": false,
+      "reason": "重复演示视频或编译产物，保留在原ZIP"
+    },
+    {
+      "member": "lab_ex4_tf/src/td_project/lab_ex5_i2s_v1.0_Runs/phy_1/settings.cfg",
+      "bytes": 607,
+      "crc32": "a04efb1d",
+      "extracted": false,
+      "reason": "重复演示视频或编译产物，保留在原ZIP"
+    },
+    {
+      "member": "lab_ex4_tf/src/td_project/lab_ex5_i2s_v1.0_Runs/syn_1/.opt_gate.begin.f",
+      "bytes": 164,
+      "crc32": "6f8e6429",
+      "extracted": false,
+      "reason": "重复演示视频或编译产物，保留在原ZIP"
+    },
+    {
+      "member": "lab_ex4_tf/src/td_project/lab_ex5_i2s_v1.0_Runs/syn_1/.opt_gate.end.f",
+      "bytes": 0,
+      "crc32": "00000000",
+      "extracted": false,
+      "reason": "重复演示视频或编译产物，保留在原ZIP"
+    },
+    {
+      "member": "lab_ex4_tf/src/td_project/lab_ex5_i2s_v1.0_Runs/syn_1/.opt_rtl.begin.f",
+      "bytes": 164,
+      "crc32": "6f8e6429",
+      "extracted": false,
+      "reason": "重复演示视频或编译产物，保留在原ZIP"
+    },
+    {
+      "member": "lab_ex4_tf/src/td_project/lab_ex5_i2s_v1.0_Runs/syn_1/.opt_rtl.end.f",
+      "bytes": 0,
+      "crc32": "00000000",
+      "extracted": false,
+      "reason": "重复演示视频或编译产物，保留在原ZIP"
+    },
+    {
+      "member": "lab_ex4_tf/src/td_project/lab_ex5_i2s_v1.0_Runs/syn_1/.read_design.begin.f",
+      "bytes": 164,
+      "crc32": "6f8e6429",
+      "extracted": false,
+      "reason": "重复演示视频或编译产物，保留在原ZIP"
+    },
+    {
+      "member": "lab_ex4_tf/src/td_project/lab_ex5_i2s_v1.0_Runs/syn_1/.read_design.end.f",
+      "bytes": 0,
+      "crc32": "00000000",
+      "extracted": false,
+      "reason": "重复演示视频或编译产物，保留在原ZIP"
+    },
+    {
+      "member": "lab_ex4_tf/src/td_project/lab_ex5_i2s_v1.0_Runs/syn_1/.temp.f",
+      "bytes": 20,
+      "crc32": "ea7e5953",
+      "extracted": false,
+      "reason": "重复演示视频或编译产物，保留在原ZIP"
+    },
+    {
+      "member": "lab_ex4_tf/src/td_project/lab_ex5_i2s_v1.0_Runs/syn_1/flow.status",
+      "bytes": 1601,
+      "crc32": "78997687",
+      "extracted": false,
+      "reason": "重复演示视频或编译产物，保留在原ZIP"
+    },
+    {
+      "member": "lab_ex4_tf/src/td_project/lab_ex5_i2s_v1.0_Runs/syn_1/gate.qor",
+      "bytes": 6555,
+      "crc32": "bc6f132e",
+      "extracted": false,
+      "reason": "重复演示视频或编译产物，保留在原ZIP"
+    },
+    {
+      "member": "lab_ex4_tf/src/td_project/lab_ex5_i2s_v1.0_Runs/syn_1/lab_ex5_i2s_v1.0.prj",
+      "bytes": 15802,
+      "crc32": "bd56e49d",
+      "extracted": false,
+      "reason": "重复演示视频或编译产物，保留在原ZIP"
+    },
+    {
+      "member": "lab_ex4_tf/src/td_project/lab_ex5_i2s_v1.0_Runs/syn_1/lab_ex5_i2s_v1.0.tcl",
+      "bytes": 7809,
+      "crc32": "1eae1074",
+      "extracted": false,
+      "reason": "重复演示视频或编译产物，保留在原ZIP"
+    },
+    {
+      "member": "lab_ex4_tf/src/td_project/lab_ex5_i2s_v1.0_Runs/syn_1/lab_ex5_i2s_v1.0_elaborate.db",
+      "bytes": 2683938,
+      "crc32": "adcaa20d",
+      "extracted": false,
+      "reason": "重复演示视频或编译产物，保留在原ZIP"
+    },
+    {
+      "member": "lab_ex4_tf/src/td_project/lab_ex5_i2s_v1.0_Runs/syn_1/lab_ex5_i2s_v1.0_gate.area",
+      "bytes": 9760,
+      "crc32": "59c400cf",
+      "extracted": false,
+      "reason": "重复演示视频或编译产物，保留在原ZIP"
+    },
+    {
+      "member": "lab_ex4_tf/src/td_project/lab_ex5_i2s_v1.0_Runs/syn_1/lab_ex5_i2s_v1.0_gate.db",
+      "bytes": 2158508,
+      "crc32": "39a97f20",
+      "extracted": false,
+      "reason": "重复演示视频或编译产物，保留在原ZIP"
+    },
+    {
+      "member": "lab_ex4_tf/src/td_project/lab_ex5_i2s_v1.0_Runs/syn_1/lab_ex5_i2s_v1.0_gate.timing",
+      "bytes": 1673262,
+      "crc32": "7f65e41f",
+      "extracted": false,
+      "reason": "重复演示视频或编译产物，保留在原ZIP"
+    },
+    {
+      "member": "lab_ex4_tf/src/td_project/lab_ex5_i2s_v1.0_Runs/syn_1/lab_ex5_i2s_v1.0_gate.ts",
+      "bytes": 66,
+      "crc32": "3a11d2f8",
+      "extracted": false,
+      "reason": "重复演示视频或编译产物，保留在原ZIP"
+    },
+    {
+      "member": "lab_ex4_tf/src/td_project/lab_ex5_i2s_v1.0_Runs/syn_1/lab_ex5_i2s_v1.0_rtl.area",
+      "bytes": 8296,
+      "crc32": "a225d43d",
+      "extracted": false,
+      "reason": "重复演示视频或编译产物，保留在原ZIP"
+    },
+    {
+      "member": "lab_ex4_tf/src/td_project/lab_ex5_i2s_v1.0_Runs/syn_1/lab_ex5_i2s_v1.0_rtl.db",
+      "bytes": 2020392,
+      "crc32": "8ed06f53",
+      "extracted": false,
+      "reason": "重复演示视频或编译产物，保留在原ZIP"
+    },
+    {
+      "member": "lab_ex4_tf/src/td_project/lab_ex5_i2s_v1.0_Runs/syn_1/run.bat",
+      "bytes": 267,
+      "crc32": "de62d8d3",
+      "extracted": false,
+      "reason": "重复演示视频或编译产物，保留在原ZIP"
+    },
+    {
+      "member": "lab_ex4_tf/src/td_project/lab_ex5_i2s_v1.0_Runs/syn_1/run.log",
+      "bytes": 71892,
+      "crc32": "01a75281",
+      "extracted": false,
+      "reason": "重复演示视频或编译产物，保留在原ZIP"
+    },
+    {
+      "member": "lab_ex4_tf/src/td_project/lab_ex5_i2s_v1.0_Runs/syn_1/run.logw",
+      "bytes": 14162,
+      "crc32": "67b6c553",
+      "extracted": false,
+      "reason": "重复演示视频或编译产物，保留在原ZIP"
+    },
+    {
+      "member": "lab_ex4_tf/src/td_project/lab_ex5_i2s_v1.0_Runs/syn_1/settings.cfg",
+      "bytes": 550,
+      "crc32": "3943ae35",
+      "extracted": false,
+      "reason": "重复演示视频或编译产物，保留在原ZIP"
+    },
+    {
+      "member": "lab_ex4_tf/src/td_project/log/ipst.log",
+      "bytes": 231,
+      "crc32": "a68a04b4",
+      "extracted": true,
+      "sha256": "a7ed2237a3de9afb55908caeb410c67d39557cb89d1ebf796c9eb86b49e24e7d",
+      "file": "lab_ex4_tf\\src\\td_project\\log\\ipst.log"
+    },
+    {
+      "member": "lab_ex4_tf/src/td_project/log/td_2026-03-26_14-05-52.log",
+      "bytes": 388,
+      "crc32": "4391465e",
+      "extracted": true,
+      "sha256": "6706638d532398fc1983494d5aa92baea561e96620ea15ae31901d6f65790898",
+      "file": "lab_ex4_tf\\src\\td_project\\log\\td_2026-03-26_14-05-52.log"
+    },
+    {
+      "member": "lab_ex4_tf/src/td_project/log/td_2026-03-26_14-05-52.logw",
+      "bytes": 388,
+      "crc32": "4391465e",
+      "extracted": true,
+      "sha256": "6706638d532398fc1983494d5aa92baea561e96620ea15ae31901d6f65790898",
+      "file": "lab_ex4_tf\\src\\td_project\\log\\td_2026-03-26_14-05-52.logw"
+    },
+    {
+      "member": "lab_ex4_tf/src/td_project/log/td_2026-03-31_16-08-13.log",
+      "bytes": 388,
+      "crc32": "567cf2ab",
+      "extracted": true,
+      "sha256": "9d262c55968393109baaeb14b6a91b74a84a25c8bb5fdf706560381f5e35cc00",
+      "file": "lab_ex4_tf\\src\\td_project\\log\\td_2026-03-31_16-08-13.log"
+    },
+    {
+      "member": "lab_ex4_tf/src/td_project/log/td_2026-03-31_16-08-13.logw",
+      "bytes": 388,
+      "crc32": "567cf2ab",
+      "extracted": true,
+      "sha256": "9d262c55968393109baaeb14b6a91b74a84a25c8bb5fdf706560381f5e35cc00",
+      "file": "lab_ex4_tf\\src\\td_project\\log\\td_2026-03-31_16-08-13.logw"
+    },
+    {
+      "member": "lab_ex4_tf/src/td_project/log/td_2026-04-01_12-57-42.log",
+      "bytes": 388,
+      "crc32": "18c72f50",
+      "extracted": true,
+      "sha256": "ca927ed609f0a524f1afb6b1c6706c3425d2c84f6489f9d9b2955254b88bb2ad",
+      "file": "lab_ex4_tf\\src\\td_project\\log\\td_2026-04-01_12-57-42.log"
+    },
+    {
+      "member": "lab_ex4_tf/src/td_project/log/td_2026-04-01_12-57-42.logw",
+      "bytes": 388,
+      "crc32": "18c72f50",
+      "extracted": true,
+      "sha256": "ca927ed609f0a524f1afb6b1c6706c3425d2c84f6489f9d9b2955254b88bb2ad",
+      "file": "lab_ex4_tf\\src\\td_project\\log\\td_2026-04-01_12-57-42.logw"
+    },
+    {
+      "member": "lab_ex4_tf/src/td_project/log/td_2026-04-03_13-53-26.log",
+      "bytes": 7484,
+      "crc32": "5362bcf6",
+      "extracted": true,
+      "sha256": "33911c501567b12eb2779d078113f355b47e1f487612c8c89362207c6514dc0c",
+      "file": "lab_ex4_tf\\src\\td_project\\log\\td_2026-04-03_13-53-26.log"
+    },
+    {
+      "member": "lab_ex4_tf/src/td_project/log/td_2026-04-03_13-53-26.logw",
+      "bytes": 388,
+      "crc32": "ab98073f",
+      "extracted": true,
+      "sha256": "39b8a0b40d59d71765068b7c8f3354c104542687901254505f3dfbf641f07ac4",
+      "file": "lab_ex4_tf\\src\\td_project\\log\\td_2026-04-03_13-53-26.logw"
+    },
+    {
+      "member": "lab_ex4_tf/src/td_project/log/td_2026-04-03_14-14-25.log",
+      "bytes": 388,
+      "crc32": "d99ede28",
+      "extracted": true,
+      "sha256": "214e38c7e14df3d0ca212c2f25e20fd8c08ebf76959c9c2502eaff29e2a764bd",
+      "file": "lab_ex4_tf\\src\\td_project\\log\\td_2026-04-03_14-14-25.log"
+    },
+    {
+      "member": "lab_ex4_tf/src/td_project/log/td_2026-04-03_14-14-25.logw",
+      "bytes": 388,
+      "crc32": "d99ede28",
+      "extracted": true,
+      "sha256": "214e38c7e14df3d0ca212c2f25e20fd8c08ebf76959c9c2502eaff29e2a764bd",
+      "file": "lab_ex4_tf\\src\\td_project\\log\\td_2026-04-03_14-14-25.logw"
+    },
+    {
+      "member": "lab_ex4_tf/src/td_project/log/td_2026-04-03_15-13-49.log",
+      "bytes": 388,
+      "crc32": "06bd5b35",
+      "extracted": true,
+      "sha256": "e5c03a773fecdf18f59d9ece1b626b9a268c6395d899342366bf1edc000fb97c",
+      "file": "lab_ex4_tf\\src\\td_project\\log\\td_2026-04-03_15-13-49.log"
+    },
+    {
+      "member": "lab_ex4_tf/src/td_project/log/td_2026-04-03_15-13-49.logw",
+      "bytes": 388,
+      "crc32": "06bd5b35",
+      "extracted": true,
+      "sha256": "e5c03a773fecdf18f59d9ece1b626b9a268c6395d899342366bf1edc000fb97c",
+      "file": "lab_ex4_tf\\src\\td_project\\log\\td_2026-04-03_15-13-49.logw"
+    },
+    {
+      "member": "lab_ex4_tf/src/td_project/log/td_2026-04-08_16-11-55.log",
+      "bytes": 388,
+      "crc32": "486ff2df",
+      "extracted": true,
+      "sha256": "87feab3f432c33b87cbd9105530753af2d824900b3aef1619755251624b24fcf",
+      "file": "lab_ex4_tf\\src\\td_project\\log\\td_2026-04-08_16-11-55.log"
+    },
+    {
+      "member": "lab_ex4_tf/src/td_project/log/td_2026-04-08_16-11-55.logw",
+      "bytes": 388,
+      "crc32": "486ff2df",
+      "extracted": true,
+      "sha256": "87feab3f432c33b87cbd9105530753af2d824900b3aef1619755251624b24fcf",
+      "file": "lab_ex4_tf\\src\\td_project\\log\\td_2026-04-08_16-11-55.logw"
+    },
+    {
+      "member": "lab_ex4_tf/src/td_project/log/td_2026-04-09_10-34-08.log",
+      "bytes": 117702,
+      "crc32": "d5cf58d9",
+      "extracted": true,
+      "sha256": "465cbbe0cf24c533894f4c92007c3df8106a6d26c5b6e70ea76abce20088ba7d",
+      "file": "lab_ex4_tf\\src\\td_project\\log\\td_2026-04-09_10-34-08.log"
+    },
+    {
+      "member": "lab_ex4_tf/src/td_project/log/td_2026-04-09_10-34-08.logw",
+      "bytes": 858,
+      "crc32": "3fb5fad9",
+      "extracted": true,
+      "sha256": "f0a7befd92c1d75202a5780890d74f5412136ae41a95baa492db5064a421fd86",
+      "file": "lab_ex4_tf\\src\\td_project\\log\\td_2026-04-09_10-34-08.logw"
+    },
+    {
+      "member": "lab_ex4_tf/src/td_project/log/td_2026-04-10_10-57-29.log",
+      "bytes": 99513,
+      "crc32": "36e081ed",
+      "extracted": true,
+      "sha256": "e3b3e1f1f8e4f10fef792eafe7f3bea0ca6ebda98fee6adaf484c1d18df658ef",
+      "file": "lab_ex4_tf\\src\\td_project\\log\\td_2026-04-10_10-57-29.log"
+    },
+    {
+      "member": "lab_ex4_tf/src/td_project/log/td_2026-04-10_10-57-29.logw",
+      "bytes": 902,
+      "crc32": "ed728694",
+      "extracted": true,
+      "sha256": "3a886ff52db3a834a208ea7e2e3675ed319edb695639215b954d7582b1847f68",
+      "file": "lab_ex4_tf\\src\\td_project\\log\\td_2026-04-10_10-57-29.logw"
+    },
+    {
+      "member": "lab_ex4_tf/src/td_project/log/td_2026-04-13_10-10-20.log",
+      "bytes": 2105,
+      "crc32": "6666c593",
+      "extracted": true,
+      "sha256": "3e7c1808dee6c2800dd3bd26febdfabc633ebc2668b3e426590d0870e62aa222",
+      "file": "lab_ex4_tf\\src\\td_project\\log\\td_2026-04-13_10-10-20.log"
+    },
+    {
+      "member": "lab_ex4_tf/src/td_project/log/td_2026-04-13_10-10-20.logw",
+      "bytes": 388,
+      "crc32": "95ea870a",
+      "extracted": true,
+      "sha256": "ed158a0e1e796d4933a0e54395110aa819d15f91b37aac6636e6c65cef811bd8",
+      "file": "lab_ex4_tf\\src\\td_project\\log\\td_2026-04-13_10-10-20.logw"
+    },
+    {
+      "member": "lab_ex4_tf/src/td_project/log/td_2026-04-13_12-45-43.log",
+      "bytes": 2107,
+      "crc32": "8a86dba7",
+      "extracted": true,
+      "sha256": "666c0f8bd4dcb823807311b34c33b9e9024e450d2e90d1ef4cdc8ddad47867e4",
+      "file": "lab_ex4_tf\\src\\td_project\\log\\td_2026-04-13_12-45-43.log"
+    },
+    {
+      "member": "lab_ex4_tf/src/td_project/log/td_2026-04-13_12-45-43.logw",
+      "bytes": 388,
+      "crc32": "2c6abf24",
+      "extracted": true,
+      "sha256": "acc5ab2159e6982cf068c2d09a8c1f0ca9915e65ccb778ffbd6d52009bb2ceb4",
+      "file": "lab_ex4_tf\\src\\td_project\\log\\td_2026-04-13_12-45-43.logw"
+    },
+    {
+      "member": "lab_ex4_tf/src/td_project/log/td_2026-04-13_15-26-47.log",
+      "bytes": 2107,
+      "crc32": "e16e4bc2",
+      "extracted": true,
+      "sha256": "30ad07e7ecfa0f402874a795cb9ab9b5bbdb69f752c1eb13cc2c3ec57c5d4c7a",
+      "file": "lab_ex4_tf\\src\\td_project\\log\\td_2026-04-13_15-26-47.log"
+    },
+    {
+      "member": "lab_ex4_tf/src/td_project/log/td_2026-04-13_15-26-47.logw",
+      "bytes": 388,
+      "crc32": "d4ba6634",
+      "extracted": true,
+      "sha256": "3f34d6dc77b8505d519200fded7a52b2d7492829337a74f258c8298b577df7e0",
+      "file": "lab_ex4_tf\\src\\td_project\\log\\td_2026-04-13_15-26-47.logw"
+    },
+    {
+      "member": "lab_ex4_tf/src/td_project/log/td_2026-04-14_10-54-42.log",
+      "bytes": 2106,
+      "crc32": "b6e76a6e",
+      "extracted": true,
+      "sha256": "f9b871789181160f02d2ff1bbc69f0cda230572b0729ea7271f876b4001f9511",
+      "file": "lab_ex4_tf\\src\\td_project\\log\\td_2026-04-14_10-54-42.log"
+    },
+    {
+      "member": "lab_ex4_tf/src/td_project/log/td_2026-04-14_10-54-42.logw",
+      "bytes": 388,
+      "crc32": "86cc167a",
+      "extracted": true,
+      "sha256": "355a8b716a0254d0d684b550ed27e113be5b5e5a733a7f6edefc3e74ddbd8a69",
+      "file": "lab_ex4_tf\\src\\td_project\\log\\td_2026-04-14_10-54-42.logw"
+    },
+    {
+      "member": "lab_ex4_tf/src/td_project/log/td_2026-04-14_16-24-06.log",
+      "bytes": 2107,
+      "crc32": "3848441f",
+      "extracted": true,
+      "sha256": "80a63a6f22fa136fc703c7b7fba26fcdf4e64c2ef7b16390c42446ac389476b5",
+      "file": "lab_ex4_tf\\src\\td_project\\log\\td_2026-04-14_16-24-06.log"
+    },
+    {
+      "member": "lab_ex4_tf/src/td_project/log/td_2026-04-14_16-24-06.logw",
+      "bytes": 388,
+      "crc32": "a5d021ce",
+      "extracted": true,
+      "sha256": "2081eb3f89bd0cefb2acdfe91630b40ab59fe686e36e1e6b327d29ff25684111",
+      "file": "lab_ex4_tf\\src\\td_project\\log\\td_2026-04-14_16-24-06.logw"
+    },
+    {
+      "member": "lab_ex4_tf/src/td_project/log/td_2026-04-20_18-35-53.log",
+      "bytes": 147554,
+      "crc32": "a9d490c0",
+      "extracted": true,
+      "sha256": "ce94bdb22ea8fb34ca805b26334ce5d8d97d83a6c660e3f589cd0d438f3bfeb0",
+      "file": "lab_ex4_tf\\src\\td_project\\log\\td_2026-04-20_18-35-53.log"
+    },
+    {
+      "member": "lab_ex4_tf/src/td_project/log/td_2026-04-20_18-35-53.logw",
+      "bytes": 34322,
+      "crc32": "f50efb4b",
+      "extracted": true,
+      "sha256": "9c7a3248dd8b9868d6b55406ce249ffacae2dda090e604d8cf5ce24c7ca4208b",
+      "file": "lab_ex4_tf\\src\\td_project\\log\\td_2026-04-20_18-35-53.logw"
+    },
+    {
+      "member": "lab_ex4_tf/src/td_project/log/td_2026-04-21_10-20-49.log",
+      "bytes": 247010,
+      "crc32": "0ec5cf1b",
+      "extracted": true,
+      "sha256": "2734e027600f0060fdc546ae98eca3e402cfa54023ce991c286fb6268536edef",
+      "file": "lab_ex4_tf\\src\\td_project\\log\\td_2026-04-21_10-20-49.log"
+    },
+    {
+      "member": "lab_ex4_tf/src/td_project/log/td_2026-04-21_10-20-49.logw",
+      "bytes": 6735,
+      "crc32": "3d6f5f1c",
+      "extracted": true,
+      "sha256": "6679d5f3ddc8dc0dcd2703289416c1c8d7e61ac79889de7dfc07878c6c3bfb3f",
+      "file": "lab_ex4_tf\\src\\td_project\\log\\td_2026-04-21_10-20-49.logw"
+    },
+    {
+      "member": "lab_ex4_tf/src/td_project/log/td_2026-04-24_14-50-39.log",
+      "bytes": 2407,
+      "crc32": "4f57ac89",
+      "extracted": true,
+      "sha256": "dd13ebb592af805ad4d37e7452b2c6e2a819e7968e733f6d2dfb2c92522fd411",
+      "file": "lab_ex4_tf\\src\\td_project\\log\\td_2026-04-24_14-50-39.log"
+    },
+    {
+      "member": "lab_ex4_tf/src/td_project/log/td_2026-04-24_14-50-39.logw",
+      "bytes": 388,
+      "crc32": "e7d13229",
+      "extracted": true,
+      "sha256": "3c839c516998d0a42ab2ba641ff8a828ca0ee8365907ad3c3d55de256735f6cb",
+      "file": "lab_ex4_tf\\src\\td_project\\log\\td_2026-04-24_14-50-39.logw"
+    },
+    {
+      "member": "lab_ex4_tf/src/td_project/log/td_2026-04-24_16-08-23.log",
+      "bytes": 226582,
+      "crc32": "ebc03482",
+      "extracted": true,
+      "sha256": "8aef2aa96b5fe7357c082258d31e36aa745178c2af70ae116de088e7a0198180",
+      "file": "lab_ex4_tf\\src\\td_project\\log\\td_2026-04-24_16-08-23.log"
+    },
+    {
+      "member": "lab_ex4_tf/src/td_project/log/td_2026-04-24_16-08-23.logw",
+      "bytes": 9438,
+      "crc32": "0635529e",
+      "extracted": true,
+      "sha256": "3ecd2401593e75d650aa0a43ce1d7474fa567d4d7dd86152e11f010f8cab0426",
+      "file": "lab_ex4_tf\\src\\td_project\\log\\td_2026-04-24_16-08-23.logw"
+    },
+    {
+      "member": "lab_ex4_tf/src/td_project/log/td_2026-04-27_10-41-29.log",
+      "bytes": 2405,
+      "crc32": "dae6ab2f",
+      "extracted": true,
+      "sha256": "bc24e1b61f6ac5e43fe8816e41db9e3c29c5664232870b3ecdf8d4d353a591af",
+      "file": "lab_ex4_tf\\src\\td_project\\log\\td_2026-04-27_10-41-29.log"
+    },
+    {
+      "member": "lab_ex4_tf/src/td_project/log/td_2026-04-27_10-41-29.logw",
+      "bytes": 388,
+      "crc32": "4e2159fc",
+      "extracted": true,
+      "sha256": "8f172a84a3b476fbd170a9f1a470dca9b14fba04f032bf4cb6cb092e84a0f9b2",
+      "file": "lab_ex4_tf\\src\\td_project\\log\\td_2026-04-27_10-41-29.logw"
+    },
+    {
+      "member": "lab_ex4_tf/src/td_project/log/td_2026-06-04_11-03-05.log",
+      "bytes": 2389,
+      "crc32": "4bae9ce9",
+      "extracted": true,
+      "sha256": "95f72b3f1c3eefac9c06558b2ce06ee1677a8117a5d29f77e5bfeb5c5d99cb9c",
+      "file": "lab_ex4_tf\\src\\td_project\\log\\td_2026-06-04_11-03-05.log"
+    },
+    {
+      "member": "lab_ex4_tf/src/td_project/log/td_2026-06-04_11-03-05.logw",
+      "bytes": 388,
+      "crc32": "4c9d5071",
+      "extracted": true,
+      "sha256": "b2ab1b84242ad96971b50d30af7c6d91efdd96c39da21f6bc3992b206aeb0bc6",
+      "file": "lab_ex4_tf\\src\\td_project\\log\\td_2026-06-04_11-03-05.logw"
+    },
+    {
+      "member": "lab_ex4_tf/src/td_project/log/td_2026-06-05_14-01-18.log",
+      "bytes": 20497,
+      "crc32": "ee287c37",
+      "extracted": true,
+      "sha256": "ba021244fbe80ba920b8b3e9c1605ed8813e85a9f7372240f1d08dbe30fe0a23",
+      "file": "lab_ex4_tf\\src\\td_project\\log\\td_2026-06-05_14-01-18.log"
+    },
+    {
+      "member": "lab_ex4_tf/src/td_project/log/td_2026-06-05_14-01-18.logw",
+      "bytes": 958,
+      "crc32": "e0c8eb86",
+      "extracted": true,
+      "sha256": "8495c561b3c05002b8a28afed479c847f8f9b43dba5f0a034913fd08b45bd24c",
+      "file": "lab_ex4_tf\\src\\td_project\\log\\td_2026-06-05_14-01-18.logw"
+    },
+    {
+      "member": "lab_ex4_tf/src/td_project/log/td_2026-06-05_14-32-05.log",
+      "bytes": 48080,
+      "crc32": "a862b2fa",
+      "extracted": true,
+      "sha256": "f83a0fca42197ea82673ec1fb7dc4e3a7f7ee519073c7ac3851c5f6c01b318d6",
+      "file": "lab_ex4_tf\\src\\td_project\\log\\td_2026-06-05_14-32-05.log"
+    },
+    {
+      "member": "lab_ex4_tf/src/td_project/log/td_2026-06-05_14-32-05.logw",
+      "bytes": 1813,
+      "crc32": "e9f992dc",
+      "extracted": true,
+      "sha256": "25182476b5b60519ac93c2ef2dca7fd4f2ed5368b53447678d25357e6cddb8cd",
+      "file": "lab_ex4_tf\\src\\td_project\\log\\td_2026-06-05_14-32-05.logw"
+    },
+    {
+      "member": "lab_ex4_tf/src/td_project/log/td_2026-06-05_21-38-46.log",
+      "bytes": 22625,
+      "crc32": "98c15856",
+      "extracted": true,
+      "sha256": "2d89df72e732af57666d15ff83b30576e1b803f0dfb81cb36726774947f7b38b",
+      "file": "lab_ex4_tf\\src\\td_project\\log\\td_2026-06-05_21-38-46.log"
+    },
+    {
+      "member": "lab_ex4_tf/src/td_project/log/td_2026-06-05_21-38-46.logw",
+      "bytes": 995,
+      "crc32": "2715e778",
+      "extracted": true,
+      "sha256": "87edf4dbb2e7d6ce9f2bd506c3492521ea63a9ceb20b9c8fa1d1a9643a2de627",
+      "file": "lab_ex4_tf\\src\\td_project\\log\\td_2026-06-05_21-38-46.logw"
+    },
+    {
+      "member": "lab_ex4_tf/src/user_source/constraints_source/.edid_debug_bak.cwc",
+      "bytes": 0,
+      "crc32": "00000000",
+      "extracted": true,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "file": "lab_ex4_tf\\src\\user_source\\constraints_source\\.edid_debug_bak.cwc"
+    },
+    {
+      "member": "lab_ex4_tf/src/user_source/constraints_source/edid_debug.cwc",
+      "bytes": 59256,
+      "crc32": "a325f0ae",
+      "extracted": true,
+      "sha256": "6716411e2346de08976e0ad8ed2e09eb93bdc0f60efc31bf75ba70e6cebe1f95",
+      "file": "lab_ex4_tf\\src\\user_source\\constraints_source\\edid_debug.cwc"
+    },
+    {
+      "member": "lab_ex4_tf/src/user_source/constraints_source/pin.adc",
+      "bytes": 5437,
+      "crc32": "42a30eec",
+      "extracted": true,
+      "sha256": "7da7aa5aff3bc147231d5808e832bc0b90f44d58bcdb51295714991c9acb1651",
+      "file": "lab_ex4_tf\\src\\user_source\\constraints_source\\pin.adc"
+    },
+    {
+      "member": "lab_ex4_tf/src/user_source/constraints_source/timing.sdc",
+      "bytes": 3760,
+      "crc32": "7b3b06e7",
+      "extracted": true,
+      "sha256": "49bacc6ae83e9f8a2c88cfaa4703827f4bc9991a033d832fac4287178bc79968",
+      "file": "lab_ex4_tf\\src\\user_source\\constraints_source\\timing.sdc"
+    },
+    {
+      "member": "lab_ex4_tf/src/user_source/hdl_source/IP/afifo_16_256.tcl",
+      "bytes": 554,
+      "crc32": "3a8b7467",
+      "extracted": true,
+      "sha256": "5807155b00f2f749328339e01a85b4bb836f91598286dd167513836b60af33db",
+      "file": "lab_ex4_tf\\src\\user_source\\hdl_source\\IP\\afifo_16_256.tcl"
+    },
+    {
+      "member": "lab_ex4_tf/src/user_source/hdl_source/IP/afifo_16_256.v",
+      "bytes": 34121,
+      "crc32": "a482822a",
+      "extracted": true,
+      "sha256": "dab43a76a35e21df4064a25edb940699b041427d70bae89cc03c5280b7bf4bf8",
+      "file": "lab_ex4_tf\\src\\user_source\\hdl_source\\IP\\afifo_16_256.v"
+    },
+    {
+      "member": "lab_ex4_tf/src/user_source/hdl_source/IP/afifo_16_256.vhd",
+      "bytes": 1405,
+      "crc32": "7f99df9e",
+      "extracted": true,
+      "sha256": "50d6d10017b63e1ce5a77bad4a80e9a3de81402909d30ca0818674a1887eb46d",
+      "file": "lab_ex4_tf\\src\\user_source\\hdl_source\\IP\\afifo_16_256.vhd"
+    },
+    {
+      "member": "lab_ex4_tf/src/user_source/hdl_source/IP/afifo_16_256_sim.v",
+      "bytes": 64027,
+      "crc32": "c4767fa6",
+      "extracted": true,
+      "sha256": "55b81ab3aa699902b6f11fe766658b852e0740844879a942dca81cd57b40f729",
+      "file": "lab_ex4_tf\\src\\user_source\\hdl_source\\IP\\afifo_16_256_sim.v"
+    },
+    {
+      "member": "lab_ex4_tf/src/user_source/hdl_source/IP/afifo_16_32_256.ipc",
+      "bytes": 856,
+      "crc32": "57836a56",
+      "extracted": true,
+      "sha256": "9df57c0b914f2f6222f88e356528947224fddb866be2468f1391c26d4e60d371",
+      "file": "lab_ex4_tf\\src\\user_source\\hdl_source\\IP\\afifo_16_32_256.ipc"
+    },
+    {
+      "member": "lab_ex4_tf/src/user_source/hdl_source/IP/afifo_16_32_256.tcl",
+      "bytes": 554,
+      "crc32": "3a8b7467",
+      "extracted": true,
+      "sha256": "5807155b00f2f749328339e01a85b4bb836f91598286dd167513836b60af33db",
+      "file": "lab_ex4_tf\\src\\user_source\\hdl_source\\IP\\afifo_16_32_256.tcl"
+    },
+    {
+      "member": "lab_ex4_tf/src/user_source/hdl_source/IP/afifo_16_32_256.v",
+      "bytes": 34123,
+      "crc32": "89809ffe",
+      "extracted": true,
+      "sha256": "3d29b06655482184a9ad157b9bd71b79032debe3199168d3b4d9570fdac31835",
+      "file": "lab_ex4_tf\\src\\user_source\\hdl_source\\IP\\afifo_16_32_256.v"
+    },
+    {
+      "member": "lab_ex4_tf/src/user_source/hdl_source/IP/afifo_32_16_256.ipc",
+      "bytes": 857,
+      "crc32": "67c60b0f",
+      "extracted": true,
+      "sha256": "a74955dc68a02bbfb36780127008c4737ec80e0888a4648e98e6eac9f5d2c349",
+      "file": "lab_ex4_tf\\src\\user_source\\hdl_source\\IP\\afifo_32_16_256.ipc"
+    },
+    {
+      "member": "lab_ex4_tf/src/user_source/hdl_source/IP/afifo_32_16_256.tcl",
+      "bytes": 554,
+      "crc32": "3a8b7467",
+      "extracted": true,
+      "sha256": "5807155b00f2f749328339e01a85b4bb836f91598286dd167513836b60af33db",
+      "file": "lab_ex4_tf\\src\\user_source\\hdl_source\\IP\\afifo_32_16_256.tcl"
+    },
+    {
+      "member": "lab_ex4_tf/src/user_source/hdl_source/IP/afifo_32_16_256.v",
+      "bytes": 34123,
+      "crc32": "1aa68d84",
+      "extracted": true,
+      "sha256": "7c3ee41f30be75ae686c9abff3a840fc5439209cda077e4aa275eac0dab9f564",
+      "file": "lab_ex4_tf\\src\\user_source\\hdl_source\\IP\\afifo_32_16_256.v"
+    },
+    {
+      "member": "lab_ex4_tf/src/user_source/hdl_source/IP/sdram.ipc",
+      "bytes": 385,
+      "crc32": "40723629",
+      "extracted": true,
+      "sha256": "c3092876d4a66739dfc52cbda4fe84eab75099218f65db7e7d922c41dee1c201",
+      "file": "lab_ex4_tf\\src\\user_source\\hdl_source\\IP\\sdram.ipc"
+    },
+    {
+      "member": "lab_ex4_tf/src/user_source/hdl_source/IP/sdram.v",
+      "bytes": 1108,
+      "crc32": "279e1317",
+      "extracted": true,
+      "sha256": "1487e8583bbf52fe6d079a2854c10ebff2e569a3872a9088c1c9717ba14d17fe",
+      "file": "lab_ex4_tf\\src\\user_source\\hdl_source\\IP\\sdram.v"
+    },
+    {
+      "member": "lab_ex4_tf/src/user_source/hdl_source/IP/sdram.vhd",
+      "bytes": 1336,
+      "crc32": "c987f248",
+      "extracted": true,
+      "sha256": "853170e99291fb6b2b1bf3f5f20cd1dd0cc723052864147810b674e18cd70705",
+      "file": "lab_ex4_tf\\src\\user_source\\hdl_source\\IP\\sdram.vhd"
+    },
+    {
+      "member": "lab_ex4_tf/src/user_source/hdl_source/IP/sys_pll.ipc",
+      "bytes": 1721,
+      "crc32": "0837f247",
+      "extracted": true,
+      "sha256": "5199d4459b3437892ed6be21a62f7528d3ce534bd9b1001a84e42074122266fe",
+      "file": "lab_ex4_tf\\src\\user_source\\hdl_source\\IP\\sys_pll.ipc"
+    },
+    {
+      "member": "lab_ex4_tf/src/user_source/hdl_source/IP/sys_pll.v",
+      "bytes": 2527,
+      "crc32": "7e6c53b4",
+      "extracted": true,
+      "sha256": "02da17afa1b3f23c880254924437b9529ef7ab872b888073fce43d3dce07a4f6",
+      "file": "lab_ex4_tf\\src\\user_source\\hdl_source\\IP\\sys_pll.v"
+    },
+    {
+      "member": "lab_ex4_tf/src/user_source/hdl_source/IP/sys_pll.vhd",
+      "bytes": 2820,
+      "crc32": "adde943b",
+      "extracted": true,
+      "sha256": "0ba7e030d4e3d459d6e411a037b731700f4cb259be92b2e444b4deba10d301d2",
+      "file": "lab_ex4_tf\\src\\user_source\\hdl_source\\IP\\sys_pll.vhd"
+    },
+    {
+      "member": "lab_ex4_tf/src/user_source/hdl_source/IP/video_pll.ipc",
+      "bytes": 1451,
+      "crc32": "e2abda87",
+      "extracted": true,
+      "sha256": "b717f646067025a69b4021ed85adeeb6531fad881bce5a49fcb2171ccf401076",
+      "file": "lab_ex4_tf\\src\\user_source\\hdl_source\\IP\\video_pll.ipc"
+    },
+    {
+      "member": "lab_ex4_tf/src/user_source/hdl_source/IP/video_pll.v",
+      "bytes": 2349,
+      "crc32": "48455ba7",
+      "extracted": true,
+      "sha256": "57e45a062814673e97773cf6c58ff1629fa45895e30de9d2c2b6bdd30bd9bb13",
+      "file": "lab_ex4_tf\\src\\user_source\\hdl_source\\IP\\video_pll.v"
+    },
+    {
+      "member": "lab_ex4_tf/src/user_source/hdl_source/IP/video_pll.vhd",
+      "bytes": 2619,
+      "crc32": "7d296445",
+      "extracted": true,
+      "sha256": "4c23a8a81b28c81bed4834e1e9a757db01eebd360c7fe3a7066f8f8f7b6a36c4",
+      "file": "lab_ex4_tf\\src\\user_source\\hdl_source\\IP\\video_pll.vhd"
+    },
+    {
+      "member": "lab_ex4_tf/src/user_source/hdl_source/SD/ax_debounce.v",
+      "bytes": 2201,
+      "crc32": "05f46ecd",
+      "extracted": true,
+      "sha256": "93aa6dd38051250cc7f777c88466ac180afe9bcdce7838b9ea506455d8cbc9b8",
+      "file": "lab_ex4_tf\\src\\user_source\\hdl_source\\SD\\ax_debounce.v"
+    },
+    {
+      "member": "lab_ex4_tf/src/user_source/hdl_source/SD/bmp_read.v",
+      "bytes": 11388,
+      "crc32": "8e6257e7",
+      "extracted": true,
+      "sha256": "ca3f998fc71b06c9409d2f21f47136bb2dcfe9bf56dcb033da63b431fcbe68f1",
+      "file": "lab_ex4_tf\\src\\user_source\\hdl_source\\SD\\bmp_read.v"
+    },
+    {
+      "member": "lab_ex4_tf/src/user_source/hdl_source/SD/color_bar.v",
+      "bytes": 9141,
+      "crc32": "8e2cec3e",
+      "extracted": true,
+      "sha256": "afe1f56714ec58d2477ba1717e5a36c5a0da5fe5c07d70d11aa5ace710c4b152",
+      "file": "lab_ex4_tf\\src\\user_source\\hdl_source\\SD\\color_bar.v"
+    },
+    {
+      "member": "lab_ex4_tf/src/user_source/hdl_source/SD/frame_fifo_read.v",
+      "bytes": 10172,
+      "crc32": "9aeaeba7",
+      "extracted": true,
+      "sha256": "5952075b213ec638f5c9bb238d4d4162685f9e9b5e752674f0e68a92dbec83ac",
+      "file": "lab_ex4_tf\\src\\user_source\\hdl_source\\SD\\frame_fifo_read.v"
+    },
+    {
+      "member": "lab_ex4_tf/src/user_source/hdl_source/SD/frame_fifo_write.v",
+      "bytes": 11551,
+      "crc32": "5859e45a",
+      "extracted": true,
+      "sha256": "ef0f46443b6f79ebb9fbba8f39b11dca90ee7e9ae4637c1d45786744d964e540",
+      "file": "lab_ex4_tf\\src\\user_source\\hdl_source\\SD\\frame_fifo_write.v"
+    },
+    {
+      "member": "lab_ex4_tf/src/user_source/hdl_source/SD/frame_read_write.v",
+      "bytes": 11057,
+      "crc32": "414cb61d",
+      "extracted": true,
+      "sha256": "f9d7d04d81a8c8a3e226f855387971cf2308421bdd4c08c0ab465e9e40aa5cbd",
+      "file": "lab_ex4_tf\\src\\user_source\\hdl_source\\SD\\frame_read_write.v"
+    },
+    {
+      "member": "lab_ex4_tf/src/user_source/hdl_source/SD/sd_card_bmp.v",
+      "bytes": 16622,
+      "crc32": "062f0ae5",
+      "extracted": true,
+      "sha256": "fdb06f8ec0126fdac0e5ae3311d9c1a1faede133342b0b10abc1f0ff4b71649b",
+      "file": "lab_ex4_tf\\src\\user_source\\hdl_source\\SD\\sd_card_bmp.v"
+    },
+    {
+      "member": "lab_ex4_tf/src/user_source/hdl_source/SD/sd_card_cmd.v",
+      "bytes": 8550,
+      "crc32": "afd67fe5",
+      "extracted": true,
+      "sha256": "a1a50502afd4e8b238b0627cd5f204c04738e761d49ab48f33da35e22ba4a5fa",
+      "file": "lab_ex4_tf\\src\\user_source\\hdl_source\\SD\\sd_card_cmd.v"
+    },
+    {
+      "member": "lab_ex4_tf/src/user_source/hdl_source/SD/sd_card_sec_read_write.v",
+      "bytes": 5620,
+      "crc32": "4a1743e4",
+      "extracted": true,
+      "sha256": "c245c07e3b0056808d86e06aad74348494e2a7050d493a3d4141d97ccf115203",
+      "file": "lab_ex4_tf\\src\\user_source\\hdl_source\\SD\\sd_card_sec_read_write.v"
+    },
+    {
+      "member": "lab_ex4_tf/src/user_source/hdl_source/SD/sd_card_top.v",
+      "bytes": 7277,
+      "crc32": "349452a5",
+      "extracted": true,
+      "sha256": "d5031b5b809a8df0a2c8cca194a511c5f74236e810cbe5e8436359f9e5f26a39",
+      "file": "lab_ex4_tf\\src\\user_source\\hdl_source\\SD\\sd_card_top.v"
+    },
+    {
+      "member": "lab_ex4_tf/src/user_source/hdl_source/SD/sdram.v",
+      "bytes": 2412,
+      "crc32": "57738d45",
+      "extracted": true,
+      "sha256": "2d985c2477384e677c25714241e1a50206def8916aa03189a5b313b2d22dfc99",
+      "file": "lab_ex4_tf\\src\\user_source\\hdl_source\\SD\\sdram.v"
+    },
+    {
+      "member": "lab_ex4_tf/src/user_source/hdl_source/SD/seg_decoder.v",
+      "bytes": 681,
+      "crc32": "7875a371",
+      "extracted": true,
+      "sha256": "62a2664be7db6d0dace31fc97a8faef0c43f44b639b1d5a6a2c49773812a3b5e",
+      "file": "lab_ex4_tf\\src\\user_source\\hdl_source\\SD\\seg_decoder.v"
+    },
+    {
+      "member": "lab_ex4_tf/src/user_source/hdl_source/SD/seg_scan.v",
+      "bytes": 1517,
+      "crc32": "0d734c2f",
+      "extracted": true,
+      "sha256": "c61d6b6808e06dd0edc6db2d8f214426a1fb96d546556ecd1f74ea9ca6889f52",
+      "file": "lab_ex4_tf\\src\\user_source\\hdl_source\\SD\\seg_scan.v"
+    },
+    {
+      "member": "lab_ex4_tf/src/user_source/hdl_source/SD/spi_master.v",
+      "bytes": 3655,
+      "crc32": "53ac06dd",
+      "extracted": true,
+      "sha256": "37f7a21144fa5cca3cc5c3b5f68a5ad40b3108336b600e45a1367734ac61403c",
+      "file": "lab_ex4_tf\\src\\user_source\\hdl_source\\SD\\spi_master.v"
+    },
+    {
+      "member": "lab_ex4_tf/src/user_source/hdl_source/SD/video_define.v",
+      "bytes": 21,
+      "crc32": "c8b32420",
+      "extracted": true,
+      "sha256": "77748966850a8f5af0d77f2cdb08006088ba5e1a31b98391fba6cc61c5247da2",
+      "file": "lab_ex4_tf\\src\\user_source\\hdl_source\\SD\\video_define.v"
+    },
+    {
+      "member": "lab_ex4_tf/src/user_source/hdl_source/SD/video_delay.v",
+      "bytes": 1595,
+      "crc32": "7a96473a",
+      "extracted": true,
+      "sha256": "f47c4b63f8baa6d8874c87dca5b72dfdadd19f4a107403da98752bce98936433",
+      "file": "lab_ex4_tf\\src\\user_source\\hdl_source\\SD\\video_delay.v"
+    },
+    {
+      "member": "lab_ex4_tf/src/user_source/hdl_source/SD/video_timing_data.v",
+      "bytes": 2432,
+      "crc32": "facf4386",
+      "extracted": true,
+      "sha256": "c6f75501e98dd5995f687aafb40455beffe45b426137b5089a73ac3a036f7282",
+      "file": "lab_ex4_tf\\src\\user_source\\hdl_source\\SD\\video_timing_data.v"
+    },
+    {
+      "member": "lab_ex4_tf/src/user_source/hdl_source/hdmi1.4b_transmitter_core/hdmi_1_4b_transmitter_core_wrapper.enc.v",
+      "bytes": 328975,
+      "crc32": "24315fa1",
+      "extracted": true,
+      "sha256": "867e0b0bdd874bc383d00918c9e1be3fe01edf41f343b6a0d73e262776596a63",
+      "file": "lab_ex4_tf\\src\\user_source\\hdl_source\\hdmi1.4b_transmitter_core\\hdmi_1_4b_transmitter_core_wrapper.enc.v"
+    },
+    {
+      "member": "lab_ex4_tf/src/user_source/hdl_source/hdmi_phy_warpper.v",
+      "bytes": 4017,
+      "crc32": "b4156fc6",
+      "extracted": true,
+      "sha256": "416b082b0987001bdbc0a7e20a557cb8fb1dca34e25dc881e6d28a8cb3cf4300",
+      "file": "lab_ex4_tf\\src\\user_source\\hdl_source\\hdmi_phy_warpper.v"
+    },
+    {
+      "member": "lab_ex4_tf/src/user_source/hdl_source/include/global_def.v",
+      "bytes": 373,
+      "crc32": "c0e780c0",
+      "extracted": true,
+      "sha256": "04f854d7fe2f7816705b988ec59822fc258e4ed3a13529e36d0b9e6233a2682f",
+      "file": "lab_ex4_tf\\src\\user_source\\hdl_source\\include\\global_def.v"
+    },
+    {
+      "member": "lab_ex4_tf/src/user_source/hdl_source/include/sdr_as_ram.enc.v",
+      "bytes": 7538,
+      "crc32": "be447501",
+      "extracted": true,
+      "sha256": "767dbdfbd83d42223b77dfa7deab42ce8216a8fd6f6cb41b7e7593d9a345ba57",
+      "file": "lab_ex4_tf\\src\\user_source\\hdl_source\\include\\sdr_as_ram.enc.v"
+    },
+    {
+      "member": "lab_ex4_tf/src/user_source/hdl_source/include/sdr_init_ref.enc.v",
+      "bytes": 9059,
+      "crc32": "077507c1",
+      "extracted": true,
+      "sha256": "6da5945f4af793610d0d64c65c7e5d2d1c86ed4c11bc5fdeacd27eb03178b9f6",
+      "file": "lab_ex4_tf\\src\\user_source\\hdl_source\\include\\sdr_init_ref.enc.v"
+    },
+    {
+      "member": "lab_ex4_tf/src/user_source/hdl_source/include/sdr_wrrd.enc.v",
+      "bytes": 15637,
+      "crc32": "54598c7d",
+      "extracted": true,
+      "sha256": "c7d7fe07d75f66aa88d9f986b3006319c995162434f104f9990664b374cdfdd2",
+      "file": "lab_ex4_tf\\src\\user_source\\hdl_source\\include\\sdr_wrrd.enc.v"
+    },
+    {
+      "member": "lab_ex4_tf/src/user_source/hdl_source/key_remove_shakes.v",
+      "bytes": 1762,
+      "crc32": "68ca28b6",
+      "extracted": true,
+      "sha256": "8832f59e7ba94bfb8cf31e4f5a772ef7177d5257a5a2532d53cbfa1d9b7f5cd9",
+      "file": "lab_ex4_tf\\src\\user_source\\hdl_source\\key_remove_shakes.v"
+    },
+    {
+      "member": "lab_ex4_tf/src/user_source/hdl_source/lane_lvds_10_1.v",
+      "bytes": 4421,
+      "crc32": "6e17713e",
+      "extracted": true,
+      "sha256": "de9529321354f04837e051d0ec1681cf44783d4be3284703a788e081147500bc",
+      "file": "lab_ex4_tf\\src\\user_source\\hdl_source\\lane_lvds_10_1.v"
+    },
+    {
+      "member": "lab_ex4_tf/src/user_source/hdl_source/startup_pulse.v",
+      "bytes": 713,
+      "crc32": "a5a62674",
+      "extracted": true,
+      "sha256": "396e1e56febb8028339e646bc2f06b83e07ab11ef840e447422fb941956741c9",
+      "file": "lab_ex4_tf\\src\\user_source\\hdl_source\\startup_pulse.v"
+    },
+    {
+      "member": "lab_ex4_tf/src/user_source/hdl_source/top_tf_hdmi_audio.v",
+      "bytes": 11475,
+      "crc32": "f97c90f6",
+      "extracted": true,
+      "sha256": "2262cc3cb4de26173b789ddcdc54956b6b9db77a9e863f470dd05ec431c2471f",
+      "file": "lab_ex4_tf\\src\\user_source\\hdl_source\\top_tf_hdmi_audio.v"
+    },
+    {
+      "member": "lab_ex4_tf/src/user_source/hdl_source/video_rgb_to_axis_640x480.v",
+      "bytes": 1749,
+      "crc32": "253897a7",
+      "extracted": true,
+      "sha256": "1c8fc26c789f87227036bea034f1ab6fc5633f2ab2684be422c54687a290fb96",
+      "file": "lab_ex4_tf\\src\\user_source\\hdl_source\\video_rgb_to_axis_640x480.v"
+    },
+    {
+      "member": "lab_ex4_tf/src/user_source/hdl_source/video_source_test.v",
+      "bytes": 2983,
+      "crc32": "f3ca5b08",
+      "extracted": true,
+      "sha256": "39cc05c9684a594d4254d11e66e97344053ab75bdb00f3f5a301643fd7aadbfc",
+      "file": "lab_ex4_tf\\src\\user_source\\hdl_source\\video_source_test.v"
+    },
+    {
+      "member": "lab_ex4_tf/src/user_source/ip_source/pll.ipc",
+      "bytes": 2124,
+      "crc32": "8261d462",
+      "extracted": true,
+      "sha256": "5d632bad332785258c35ca41ce2b4a2a550e6bfd75be0b63a3f72403ca2ce11e",
+      "file": "lab_ex4_tf\\src\\user_source\\ip_source\\pll.ipc"
+    },
+    {
+      "member": "lab_ex4_tf/src/user_source/ip_source/pll.v",
+      "bytes": 3333,
+      "crc32": "ad93147e",
+      "extracted": true,
+      "sha256": "202799f886f12cfc1d837afa932328b636c6c3dee70167be68c084133647b39c",
+      "file": "lab_ex4_tf\\src\\user_source\\ip_source\\pll.v"
+    },
+    {
+      "member": "lab_ex4_tf/src/user_source/ip_source/pll.vhd",
+      "bytes": 3559,
+      "crc32": "7673b54c",
+      "extracted": true,
+      "sha256": "a8166865b5aef9caaee525d4633aa1dec4172244a7bbff239e0d658c0ca775e4",
+      "file": "lab_ex4_tf\\src\\user_source\\ip_source\\pll.vhd"
+    },
+    {
+      "member": "lab_ex4_tf/代码说明.md",
+      "bytes": 4099,
+      "crc32": "4439d96d",
+      "extracted": true,
+      "sha256": "960ab04d6f0c8c779e202847bf646abc942326d0ebb32586077aefc88133fcc3",
+      "file": "lab_ex4_tf\\代码说明.md"
+    },
+    {
+      "member": "lab_ex4_tf/演示视频/VID_20260428_143508.mp4",
+      "bytes": 261438503,
+      "crc32": "7e24eef0",
+      "extracted": false,
+      "reason": "重复演示视频或编译产物，保留在原ZIP"
+    },
+    {
+      "member": "lab_ex4_tf/设计参考例程文档.docx",
+      "bytes": 52069,
+      "crc32": "80fb9196",
+      "extracted": true,
+      "sha256": "2089a0ed9c4ea250e643612368080ed877d10de38709bfd4eea592c0e23b13a1",
+      "file": "lab_ex4_tf\\设计参考例程文档.docx"
+    },
+    {
+      "member": "lab_ex4_tf/设计参考例程文档.md",
+      "bytes": 16571,
+      "crc32": "c8ce4fe6",
+      "extracted": true,
+      "sha256": "53f7d36a606c27992ee793e088c4d04e61d5196083c72b638294127b0298a054",
+      "file": "lab_ex4_tf\\设计参考例程文档.md"
+    },
+    {
+      "member": "全国大学生嵌入式芯片与系统设计竞赛'2026选题指南_康芯.docx",
+      "bytes": 2735408,
+      "crc32": "b309c9e1",
+      "extracted": true,
+      "sha256": "e04cc471f8ad4497cc65c0e6bba1530b37d4eda80d0b376866107de85de6b9e9",
+      "file": "全国大学生嵌入式芯片与系统设计竞赛'2026选题指南_康芯.docx"
+    }
+  ]
+}

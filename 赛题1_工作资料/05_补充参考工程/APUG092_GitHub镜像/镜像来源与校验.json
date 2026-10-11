@@ -1,0 +1,146 @@
+{
+  "repo": "czp-1-A1/FPGA_Component_Inspector",
+  "commit": "f87ccf1c6a38e84b58a4f86cecd532a71ae56e89",
+  "date": "2026-09-30T14:16:18Z",
+  "retrieved_date": "2026-10-04",
+  "source_type": "用户指定GitHub公开镜像，未经厂商发布认证",
+  "source_path": "官方资料/03_PH1P35芯片与MIPI/参考IP设计资料文档/APUG092_HDMI1.4b_Transmitter_V1.0/",
+  "files": [
+    {
+      "file": "doc/APUG092_HDMI1.4b_Transmitter_V1.0.docx",
+      "repository_path": "官方资料/03_PH1P35芯片与MIPI/参考IP设计资料文档/APUG092_HDMI1.4b_Transmitter_V1.0/doc/APUG092_HDMI1.4b_Transmitter_V1.0.docx",
+      "bytes": 5325755,
+      "git_blob_sha1": "665384f0191803f342bd189c4fd4c1cf3951fd14",
+      "sha256": "070b22d3ff63e697ed7db39eee61e8653c60f58e0d6eb9cfdaf2ab16001b1543",
+      "download_url": "https://raw.githubusercontent.com/czp-1-A1/FPGA_Component_Inspector/f87ccf1c6a38e84b58a4f86cecd532a71ae56e89/%E5%AE%98%E6%96%B9%E8%B5%84%E6%96%99/03_PH1P35%E8%8A%AF%E7%89%87%E4%B8%8EMIPI/%E5%8F%82%E8%80%83IP%E8%AE%BE%E8%AE%A1%E8%B5%84%E6%96%99%E6%96%87%E6%A1%A3/APUG092_HDMI1.4b_Transmitter_V1.0/doc/APUG092_HDMI1.4b_Transmitter_V1.0.docx"
+    },
+    {
+      "file": "src/td_project/HDMI1.4b_Transmitter_v1.0.al",
+      "repository_path": "官方资料/03_PH1P35芯片与MIPI/参考IP设计资料文档/APUG092_HDMI1.4b_Transmitter_V1.0/src/td_project/HDMI1.4b_Transmitter_v1.0.al",
+      "bytes": 6335,
+      "git_blob_sha1": "3e4b05aa578cd399d66a1a41552b1ee620cb79c7",
+      "sha256": "9b1e2ef756bcb11317471dacc3da4220ae9dddcb4fb438923950e80d59341ed4",
+      "download_url": "https://raw.githubusercontent.com/czp-1-A1/FPGA_Component_Inspector/f87ccf1c6a38e84b58a4f86cecd532a71ae56e89/%E5%AE%98%E6%96%B9%E8%B5%84%E6%96%99/03_PH1P35%E8%8A%AF%E7%89%87%E4%B8%8EMIPI/%E5%8F%82%E8%80%83IP%E8%AE%BE%E8%AE%A1%E8%B5%84%E6%96%99%E6%96%87%E6%A1%A3/APUG092_HDMI1.4b_Transmitter_V1.0/src/td_project/HDMI1.4b_Transmitter_v1.0.al"
+    },
+    {
+      "file": "src/user_source/constraints_source/.edid_debug_bak.cwc",
+      "repository_path": "官方资料/03_PH1P35芯片与MIPI/参考IP设计资料文档/APUG092_HDMI1.4b_Transmitter_V1.0/src/user_source/constraints_source/.edid_debug_bak.cwc",
+      "bytes": 0,
+      "git_blob_sha1": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "download_url": "https://raw.githubusercontent.com/czp-1-A1/FPGA_Component_Inspector/f87ccf1c6a38e84b58a4f86cecd532a71ae56e89/%E5%AE%98%E6%96%B9%E8%B5%84%E6%96%99/03_PH1P35%E8%8A%AF%E7%89%87%E4%B8%8EMIPI/%E5%8F%82%E8%80%83IP%E8%AE%BE%E8%AE%A1%E8%B5%84%E6%96%99%E6%96%87%E6%A1%A3/APUG092_HDMI1.4b_Transmitter_V1.0/src/user_source/constraints_source/.edid_debug_bak.cwc"
+    },
+    {
+      "file": "src/user_source/constraints_source/edid_debug.cwc",
+      "repository_path": "官方资料/03_PH1P35芯片与MIPI/参考IP设计资料文档/APUG092_HDMI1.4b_Transmitter_V1.0/src/user_source/constraints_source/edid_debug.cwc",
+      "bytes": 59123,
+      "git_blob_sha1": "803762d611c7e2edb66231f0cd5e3582bf1c5493",
+      "sha256": "aa50faa176776181ad6d98c32a573154d56eb76134d12cfc1a0dafbf666a43fa",
+      "download_url": "https://raw.githubusercontent.com/czp-1-A1/FPGA_Component_Inspector/f87ccf1c6a38e84b58a4f86cecd532a71ae56e89/%E5%AE%98%E6%96%B9%E8%B5%84%E6%96%99/03_PH1P35%E8%8A%AF%E7%89%87%E4%B8%8EMIPI/%E5%8F%82%E8%80%83IP%E8%AE%BE%E8%AE%A1%E8%B5%84%E6%96%99%E6%96%87%E6%A1%A3/APUG092_HDMI1.4b_Transmitter_V1.0/src/user_source/constraints_source/edid_debug.cwc"
+    },
+    {
+      "file": "src/user_source/constraints_source/pin.adc",
+      "repository_path": "官方资料/03_PH1P35芯片与MIPI/参考IP设计资料文档/APUG092_HDMI1.4b_Transmitter_V1.0/src/user_source/constraints_source/pin.adc",
+      "bytes": 867,
+      "git_blob_sha1": "a7ce675326ab8167cf4503d54417b4cc050f8851",
+      "sha256": "1bddfddc261ccab5650ee60ed650462a11ca51333a43d0d979817187f9038939",
+      "download_url": "https://raw.githubusercontent.com/czp-1-A1/FPGA_Component_Inspector/f87ccf1c6a38e84b58a4f86cecd532a71ae56e89/%E5%AE%98%E6%96%B9%E8%B5%84%E6%96%99/03_PH1P35%E8%8A%AF%E7%89%87%E4%B8%8EMIPI/%E5%8F%82%E8%80%83IP%E8%AE%BE%E8%AE%A1%E8%B5%84%E6%96%99%E6%96%87%E6%A1%A3/APUG092_HDMI1.4b_Transmitter_V1.0/src/user_source/constraints_source/pin.adc"
+    },
+    {
+      "file": "src/user_source/constraints_source/timing.sdc",
+      "repository_path": "官方资料/03_PH1P35芯片与MIPI/参考IP设计资料文档/APUG092_HDMI1.4b_Transmitter_V1.0/src/user_source/constraints_source/timing.sdc",
+      "bytes": 266,
+      "git_blob_sha1": "3a0e140dd559d15eca7c9f7affe164671b37a36f",
+      "sha256": "b982787bfe71cb37e846e2fadba14ae195ea5a2659b41265d36b65eabcd0ecb2",
+      "download_url": "https://raw.githubusercontent.com/czp-1-A1/FPGA_Component_Inspector/f87ccf1c6a38e84b58a4f86cecd532a71ae56e89/%E5%AE%98%E6%96%B9%E8%B5%84%E6%96%99/03_PH1P35%E8%8A%AF%E7%89%87%E4%B8%8EMIPI/%E5%8F%82%E8%80%83IP%E8%AE%BE%E8%AE%A1%E8%B5%84%E6%96%99%E6%96%87%E6%A1%A3/APUG092_HDMI1.4b_Transmitter_V1.0/src/user_source/constraints_source/timing.sdc"
+    },
+    {
+      "file": "src/user_source/hdl_source/I2S_receiver.v",
+      "repository_path": "官方资料/03_PH1P35芯片与MIPI/参考IP设计资料文档/APUG092_HDMI1.4b_Transmitter_V1.0/src/user_source/hdl_source/I2S_receiver.v",
+      "bytes": 4056,
+      "git_blob_sha1": "46af91c8eb3159607957bdb96afbd3da9bc298a3",
+      "sha256": "108ca069d6e5393a7267fe1f99090e1ef89f4939c7156eedebfafdaaaab93a69",
+      "download_url": "https://raw.githubusercontent.com/czp-1-A1/FPGA_Component_Inspector/f87ccf1c6a38e84b58a4f86cecd532a71ae56e89/%E5%AE%98%E6%96%B9%E8%B5%84%E6%96%99/03_PH1P35%E8%8A%AF%E7%89%87%E4%B8%8EMIPI/%E5%8F%82%E8%80%83IP%E8%AE%BE%E8%AE%A1%E8%B5%84%E6%96%99%E6%96%87%E6%A1%A3/APUG092_HDMI1.4b_Transmitter_V1.0/src/user_source/hdl_source/I2S_receiver.v"
+    },
+    {
+      "file": "src/user_source/hdl_source/audio_arc_calculate.v",
+      "repository_path": "官方资料/03_PH1P35芯片与MIPI/参考IP设计资料文档/APUG092_HDMI1.4b_Transmitter_V1.0/src/user_source/hdl_source/audio_arc_calculate.v",
+      "bytes": 1633,
+      "git_blob_sha1": "040bb74cd53834dccb3a75379cd1786221f310a7",
+      "sha256": "b3b55c90ad7ba679b0f4cb550cdf656230d15a3facab00ce7f561f32bd63eb0d",
+      "download_url": "https://raw.githubusercontent.com/czp-1-A1/FPGA_Component_Inspector/f87ccf1c6a38e84b58a4f86cecd532a71ae56e89/%E5%AE%98%E6%96%B9%E8%B5%84%E6%96%99/03_PH1P35%E8%8A%AF%E7%89%87%E4%B8%8EMIPI/%E5%8F%82%E8%80%83IP%E8%AE%BE%E8%AE%A1%E8%B5%84%E6%96%99%E6%96%87%E6%A1%A3/APUG092_HDMI1.4b_Transmitter_V1.0/src/user_source/hdl_source/audio_arc_calculate.v"
+    },
+    {
+      "file": "src/user_source/hdl_source/design_top_wrapper.v",
+      "repository_path": "官方资料/03_PH1P35芯片与MIPI/参考IP设计资料文档/APUG092_HDMI1.4b_Transmitter_V1.0/src/user_source/hdl_source/design_top_wrapper.v",
+      "bytes": 5960,
+      "git_blob_sha1": "299383cd06b4be2c7fa48f988f7fdf8abc4e0161",
+      "sha256": "e220022da7d33ff9dde76bde4c6cd228870a484976a99902a0c2daecc02a0266",
+      "download_url": "https://raw.githubusercontent.com/czp-1-A1/FPGA_Component_Inspector/f87ccf1c6a38e84b58a4f86cecd532a71ae56e89/%E5%AE%98%E6%96%B9%E8%B5%84%E6%96%99/03_PH1P35%E8%8A%AF%E7%89%87%E4%B8%8EMIPI/%E5%8F%82%E8%80%83IP%E8%AE%BE%E8%AE%A1%E8%B5%84%E6%96%99%E6%96%87%E6%A1%A3/APUG092_HDMI1.4b_Transmitter_V1.0/src/user_source/hdl_source/design_top_wrapper.v"
+    },
+    {
+      "file": "src/user_source/hdl_source/hdmi1.4b_transmitter_core/hdmi_1_4b_transmitter_core_wrapper.enc.v",
+      "repository_path": "官方资料/03_PH1P35芯片与MIPI/参考IP设计资料文档/APUG092_HDMI1.4b_Transmitter_V1.0/src/user_source/hdl_source/hdmi1.4b_transmitter_core/hdmi_1_4b_transmitter_core_wrapper.enc.v",
+      "bytes": 323934,
+      "git_blob_sha1": "cac594badf83323c505103a67fa0fb09548e0b9b",
+      "sha256": "25a28679c51d779a1c811772cf83e3092a3106b25e2e21f1560ba624ebd72bd0",
+      "download_url": "https://raw.githubusercontent.com/czp-1-A1/FPGA_Component_Inspector/f87ccf1c6a38e84b58a4f86cecd532a71ae56e89/%E5%AE%98%E6%96%B9%E8%B5%84%E6%96%99/03_PH1P35%E8%8A%AF%E7%89%87%E4%B8%8EMIPI/%E5%8F%82%E8%80%83IP%E8%AE%BE%E8%AE%A1%E8%B5%84%E6%96%99%E6%96%87%E6%A1%A3/APUG092_HDMI1.4b_Transmitter_V1.0/src/user_source/hdl_source/hdmi1.4b_transmitter_core/hdmi_1_4b_transmitter_core_wrapper.enc.v"
+    },
+    {
+      "file": "src/user_source/hdl_source/hdmi_phy_warpper.v",
+      "repository_path": "官方资料/03_PH1P35芯片与MIPI/参考IP设计资料文档/APUG092_HDMI1.4b_Transmitter_V1.0/src/user_source/hdl_source/hdmi_phy_warpper.v",
+      "bytes": 3893,
+      "git_blob_sha1": "99882c2a00da5bc1567ad570305dc7cde9500f59",
+      "sha256": "7665996d6504860ef2554fb8fc70df0746b54dcb2fe078883c2f72c898366ffb",
+      "download_url": "https://raw.githubusercontent.com/czp-1-A1/FPGA_Component_Inspector/f87ccf1c6a38e84b58a4f86cecd532a71ae56e89/%E5%AE%98%E6%96%B9%E8%B5%84%E6%96%99/03_PH1P35%E8%8A%AF%E7%89%87%E4%B8%8EMIPI/%E5%8F%82%E8%80%83IP%E8%AE%BE%E8%AE%A1%E8%B5%84%E6%96%99%E6%96%87%E6%A1%A3/APUG092_HDMI1.4b_Transmitter_V1.0/src/user_source/hdl_source/hdmi_phy_warpper.v"
+    },
+    {
+      "file": "src/user_source/hdl_source/key_remove_shakes.v",
+      "repository_path": "官方资料/03_PH1P35芯片与MIPI/参考IP设计资料文档/APUG092_HDMI1.4b_Transmitter_V1.0/src/user_source/hdl_source/key_remove_shakes.v",
+      "bytes": 1677,
+      "git_blob_sha1": "d30947f181f56f55ffb30e8e40afdb9e149e3d8e",
+      "sha256": "fddeb8835bddd9b967de8b2362ba01054d98ca10e29a661fd0df9925375681b5",
+      "download_url": "https://raw.githubusercontent.com/czp-1-A1/FPGA_Component_Inspector/f87ccf1c6a38e84b58a4f86cecd532a71ae56e89/%E5%AE%98%E6%96%B9%E8%B5%84%E6%96%99/03_PH1P35%E8%8A%AF%E7%89%87%E4%B8%8EMIPI/%E5%8F%82%E8%80%83IP%E8%AE%BE%E8%AE%A1%E8%B5%84%E6%96%99%E6%96%87%E6%A1%A3/APUG092_HDMI1.4b_Transmitter_V1.0/src/user_source/hdl_source/key_remove_shakes.v"
+    },
+    {
+      "file": "src/user_source/hdl_source/lane_lvds_10_1.v",
+      "repository_path": "官方资料/03_PH1P35芯片与MIPI/参考IP设计资料文档/APUG092_HDMI1.4b_Transmitter_V1.0/src/user_source/hdl_source/lane_lvds_10_1.v",
+      "bytes": 4265,
+      "git_blob_sha1": "e26f0ccfed18dd5b4c984006e36241e25d3ea53d",
+      "sha256": "fd61b139c3803a16d1a3ed33bbd9babd88af4c73702a98b406d7ea6b7771269b",
+      "download_url": "https://raw.githubusercontent.com/czp-1-A1/FPGA_Component_Inspector/f87ccf1c6a38e84b58a4f86cecd532a71ae56e89/%E5%AE%98%E6%96%B9%E8%B5%84%E6%96%99/03_PH1P35%E8%8A%AF%E7%89%87%E4%B8%8EMIPI/%E5%8F%82%E8%80%83IP%E8%AE%BE%E8%AE%A1%E8%B5%84%E6%96%99%E6%96%87%E6%A1%A3/APUG092_HDMI1.4b_Transmitter_V1.0/src/user_source/hdl_source/lane_lvds_10_1.v"
+    },
+    {
+      "file": "src/user_source/hdl_source/video_source_test.v",
+      "repository_path": "官方资料/03_PH1P35芯片与MIPI/参考IP设计资料文档/APUG092_HDMI1.4b_Transmitter_V1.0/src/user_source/hdl_source/video_source_test.v",
+      "bytes": 2863,
+      "git_blob_sha1": "cf3c199b9727ed2fc33f13193398411f7b50738a",
+      "sha256": "7ba887711a7d0dd20bff3abe0e31394bcb66c05d307f2da9b749ba32394c6462",
+      "download_url": "https://raw.githubusercontent.com/czp-1-A1/FPGA_Component_Inspector/f87ccf1c6a38e84b58a4f86cecd532a71ae56e89/%E5%AE%98%E6%96%B9%E8%B5%84%E6%96%99/03_PH1P35%E8%8A%AF%E7%89%87%E4%B8%8EMIPI/%E5%8F%82%E8%80%83IP%E8%AE%BE%E8%AE%A1%E8%B5%84%E6%96%99%E6%96%87%E6%A1%A3/APUG092_HDMI1.4b_Transmitter_V1.0/src/user_source/hdl_source/video_source_test.v"
+    },
+    {
+      "file": "src/user_source/ip_source/pll.ipc",
+      "repository_path": "官方资料/03_PH1P35芯片与MIPI/参考IP设计资料文档/APUG092_HDMI1.4b_Transmitter_V1.0/src/user_source/ip_source/pll.ipc",
+      "bytes": 2089,
+      "git_blob_sha1": "d144e0c0ffbab3d999634e45011f547adf111e12",
+      "sha256": "7e7597dbb81a9f0cce6ffd66cb4a8a8d0fd26bc752a4cd1448ea844b8e0cc491",
+      "download_url": "https://raw.githubusercontent.com/czp-1-A1/FPGA_Component_Inspector/f87ccf1c6a38e84b58a4f86cecd532a71ae56e89/%E5%AE%98%E6%96%B9%E8%B5%84%E6%96%99/03_PH1P35%E8%8A%AF%E7%89%87%E4%B8%8EMIPI/%E5%8F%82%E8%80%83IP%E8%AE%BE%E8%AE%A1%E8%B5%84%E6%96%99%E6%96%87%E6%A1%A3/APUG092_HDMI1.4b_Transmitter_V1.0/src/user_source/ip_source/pll.ipc"
+    },
+    {
+      "file": "src/user_source/ip_source/pll.v",
+      "repository_path": "官方资料/03_PH1P35芯片与MIPI/参考IP设计资料文档/APUG092_HDMI1.4b_Transmitter_V1.0/src/user_source/ip_source/pll.v",
+      "bytes": 3049,
+      "git_blob_sha1": "e245f5e885af014567da5f2937f6758b7004f26b",
+      "sha256": "40c3d2c484a182cc9f233df3ec3305e9e826e31a85fb7bf2bd273ceb564e49ec",
+      "download_url": "https://raw.githubusercontent.com/czp-1-A1/FPGA_Component_Inspector/f87ccf1c6a38e84b58a4f86cecd532a71ae56e89/%E5%AE%98%E6%96%B9%E8%B5%84%E6%96%99/03_PH1P35%E8%8A%AF%E7%89%87%E4%B8%8EMIPI/%E5%8F%82%E8%80%83IP%E8%AE%BE%E8%AE%A1%E8%B5%84%E6%96%99%E6%96%87%E6%A1%A3/APUG092_HDMI1.4b_Transmitter_V1.0/src/user_source/ip_source/pll.v"
+    },
+    {
+      "file": "src/user_source/ip_source/pll.vhd",
+      "repository_path": "官方资料/03_PH1P35芯片与MIPI/参考IP设计资料文档/APUG092_HDMI1.4b_Transmitter_V1.0/src/user_source/ip_source/pll.vhd",
+      "bytes": 3405,
+      "git_blob_sha1": "10d2ebd70d69f06938c44737a181b6a57efb1c15",
+      "sha256": "8ea4b99d6e4956a7f729d42f9e401d3e09c43de96b21197e69259a37e4dcee8b",
+      "download_url": "https://raw.githubusercontent.com/czp-1-A1/FPGA_Component_Inspector/f87ccf1c6a38e84b58a4f86cecd532a71ae56e89/%E5%AE%98%E6%96%B9%E8%B5%84%E6%96%99/03_PH1P35%E8%8A%AF%E7%89%87%E4%B8%8EMIPI/%E5%8F%82%E8%80%83IP%E8%AE%BE%E8%AE%A1%E8%B5%84%E6%96%99%E6%96%87%E6%A1%A3/APUG092_HDMI1.4b_Transmitter_V1.0/src/user_source/ip_source/pll.vhd"
+    }
+  ]
+}

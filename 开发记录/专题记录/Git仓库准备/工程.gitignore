@@ -1,0 +1,47 @@
+# 草案：供 FPGA-ANLU 根目录使用，目前未启用
+
+# TD 自动生成的运行目录与常规日志
+*_Runs/
+**/td_project/log/
+/td_*.log
+/td_*.logw
+**/td_project/td_*.log
+**/td_project/td_*.logw
+.recent_user_depot.ini
+
+# 已确认的编译数据库；保留 build 内的手写脚本和验证记录
+**/build/**/*.db
+**/checkpoints/**/*.db
+
+# 仿真生成物、崩溃转储与临时文件
+*.vvp
+*.vcd
+*.fst
+*.wlf
+*.dmp
+/top_inst.bid
+/tmp/
+
+# 本地工具安装目录及安装包；保留 tools 下的来源和校验记录
+/bringup/tf_wav_hdmi/tools/iverilog/
+/bringup/tf_wav_hdmi/tools/innoextract/
+/bringup/tf_wav_hdmi/tools/*.exe
+/bringup/tf_wav_hdmi/tools/*.zip
+
+# 发布压缩包；保留展开的发布内容、位流、清单和打包脚本
+/deliverables/*.zip
+
+# Python / 操作系统缓存与本地许可证
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+.venv/
+Thumbs.db
+Desktop.ini
+.DS_Store
+*.[lL][iI][cC]
+
+# 不整体忽略 build、checkpoints、sim、src、IP、download、deliverables。
+# 不按后缀忽略 .al、.adc、.sdc、.cwc、.ipc、.enc、.v、.vhd、
+# .hex、.mif、.mem、.dath、.bit、.rpt、.timing、.md、.json 和证据图片。

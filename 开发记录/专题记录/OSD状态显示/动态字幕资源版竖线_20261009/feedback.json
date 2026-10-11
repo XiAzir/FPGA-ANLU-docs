@@ -1,0 +1,24 @@
+{
+  "recorded_beijing": "2026-10-09 14:15:01",
+  "source": "user hardware feedback and supplied photo",
+  "candidate_inferred_from_last_delivery": "E:\\VSCODE-project\\FPGA-ANLU\\download\\dynamic_text_fit.bit",
+  "sha256": "028D9D9A742A2CD980ECBEA48FFBE824D89DA34CF6B2B3E66EA0AA42B6D6456D",
+  "result": "PARTIAL_PASS_VIDEO_STRIPES_FAIL",
+  "passed_user_report": [
+    "default music",
+    "long KEY1 internal tone",
+    "KEY0 manual switching",
+    "short KEY1 automatic switching"
+  ],
+  "failed_user_report": "regular faint vertical grey lines on background BMP only; user distinguishes them from curved camera moire; absent on OSD and scrolling bar",
+  "photo": "E:\\QQ CACHE\\Download\\安路资料\\开发记录\\专题记录\\OSD状态显示\\动态字幕资源版竖线_20261009\\image_1.jpg",
+  "photo_sha256": "6A93229E2B60C910A9BB779AC1DF106AC66E7ECF70C9362466D0274A51C3457C",
+  "same_condition_rollback": {
+    "bit": "E:\\VSCODE-project\\FPGA-ANLU\\download\\osd_phy_fix.bit",
+    "sha256": "9E893B0B6C86BF6FBEE19E74B5FB58933C1BEA6AA07F203786CCE96F3B60AE6F",
+    "user_report": "vertical lines disappear"
+  },
+  "runtime_and_long_duration": "NOT_MEASURED",
+  "root_cause": "NOT_CONFIRMED",
+  "agent_card_or_flash_operations": "NONE"
+}

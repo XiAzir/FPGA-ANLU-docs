@@ -1,0 +1,45 @@
+{
+  "recorded_beijing": "2026-10-09 12:40:37",
+  "source": "用户现场反馈与两张照片；代理未操作板卡或直接测量音频/物理时序",
+  "candidate": "E:\\VSCODE-project\\FPGA-ANLU\\download\\osd_phy_fix.bit",
+  "candidate_sha256": "9E893B0B6C86BF6FBEE19E74B5FB58933C1BEA6AA07F203786CCE96F3B60AE6F",
+  "bytes": 629624,
+  "user_report": "这次看起来一切正常了，点按切换正常，显示正常，自动轮切正常，音乐播放正常",
+  "long_key1_followup": "已测试，正常（回应长按KEY1约2秒切内部音阶是否清晰正常）",
+  "reported_checks": {
+    "image_display": "PASS（用户反馈）",
+    "key0_manual_switch": "PASS（用户反馈）",
+    "key1_auto_switch": "PASS（用户反馈）",
+    "default_real_music": "PASS（用户反馈）",
+    "long_key1_internal_tone": "PASS（用户补充反馈）"
+  },
+  "photo_observation": "两照片中红苹果、绿叶、棕色果梗、浅色背景与黑底白字状态栏正确；分别可读IMG 1/4 MANUAL和IMG 1/4 AUTO，未见首版明显噪点/花屏。照片不是逐像素测量。",
+  "photos": [
+    {
+      "source": "C:\\Users\\PENGYU~1\\AppData\\Local\\Temp\\codex-clipboard-84b527b1-76ef-4ac6-8f4b-15d747149d3d.jpg",
+      "archive": "E:\\QQ CACHE\\Download\\安路资料\\开发记录\\专题记录\\OSD状态显示\\修复版通过_20261009\\image_1.jpg",
+      "bytes": 104098,
+      "sha256": "79FE03934FC971876CF3C5BE9C47E8D31AF74FAA796CDD9D2E22F2585B71DF34"
+    },
+    {
+      "source": "C:\\Users\\PENGYU~1\\AppData\\Local\\Temp\\codex-clipboard-8323c941-865f-4016-ab84-777e09f2942b.jpg",
+      "archive": "E:\\QQ CACHE\\Download\\安路资料\\开发记录\\专题记录\\OSD状态显示\\修复版通过_20261009\\image_2.jpg",
+      "bytes": 186664,
+      "sha256": "BE1F0F491BE9B057049CDC1886463232EEA5E0171B4EB5A05FC0E72A4E4EE4BC"
+    }
+  ],
+  "duration_seconds": null,
+  "observed_music_loop_count": null,
+  "power_cycle_reload_test": "未验证",
+  "status": "实板功能回归通过（所反馈范围）；作为当前开发基线，保留packet_diag回退",
+  "cause_evidence": "输入混字机制在假设传播延迟模型中已复现并由pending采样避免；实板恢复支持修复有效。重综合及物理实现同时改变，不能唯一证明首版或更早故障的物理根因。",
+  "not_verified": [
+    "本版明确音乐循环次数及长时稳定性",
+    "重新上电后重新下载的重复启动",
+    "换文件/碎片卡实物测试",
+    "实际内部包/PHY逐位波形与延迟"
+  ],
+  "assistant_board_operations": "none",
+  "card_or_flash_writes": "none",
+  "frozen_checkpoint_and_zip": "原174文件checkpoint与原ZIP保持构建时元数据，不覆盖；最新结果在live文件与开发记录"
+}

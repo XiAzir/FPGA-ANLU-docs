@@ -1,0 +1,36 @@
+{
+  "recorded_beijing": "2026-10-09 11:57:40",
+  "source": "user现场反馈及四照片，代理未操作板卡",
+  "candidate": "E:/VSCODE-project/FPGA-ANLU/download/osd.bit",
+  "candidate_sha256": "16AD16157F5B8D1E3431750B9B81B6EB4B42A2E8559EE5F70C527FEDFB27950F",
+  "osd_index_and_manual_auto_response": "正常（用户反馈）",
+  "image": "四图严重花屏/条纹/像素损坏，黑色OSD底在照片中呈绿色",
+  "audio": "默认无声音（用户反馈），内部音源未单独确认",
+  "fallback": "download/packet_diag.bit",
+  "fallback_sha256": "C2B3DEAFB78355C124CE8958015EED31CEBA38CD4B0B41D9179A7190E4200818",
+  "fallback_same_conditions": "图像和天之弱音乐恢复正常（用户反馈）",
+  "photos": [
+    {
+      "source": "E:\\QQ CACHE\\LiaoTianJiLu\\Tencent Files\\1791081637\\nt_qq\\nt_data\\Pic\\2026-10\\Ori\\ef82571d187b8f5602fea1a99de942e8.jpg",
+      "archive": "E:\\QQ CACHE\\Download\\安路资料\\开发记录\\专题记录\\OSD状态显示\\首版失败_20261009\\image_1.jpg",
+      "sha256": "42F37EDCD5A91F8D2F59FA9227245928760B089D787BBFDEFEC4258F07FF92B6"
+    },
+    {
+      "source": "C:\\Users\\PENGYU~1\\AppData\\Local\\Temp\\codex-clipboard-eed84723-858b-402a-9eec-391d5f2fd212.jpg",
+      "archive": "E:\\QQ CACHE\\Download\\安路资料\\开发记录\\专题记录\\OSD状态显示\\首版失败_20261009\\image_2.jpg",
+      "sha256": "7E4FF2E3623F47AFE3C10C407B524FFF38C9B6488E635B8876C3E2EEE6B53DDF"
+    },
+    {
+      "source": "C:\\Users\\PENGYU~1\\AppData\\Local\\Temp\\codex-clipboard-c7cbd0de-7429-44b9-a2f6-fffa5847bce8.jpg",
+      "archive": "E:\\QQ CACHE\\Download\\安路资料\\开发记录\\专题记录\\OSD状态显示\\首版失败_20261009\\image_3.jpg",
+      "sha256": "C913FD4C1476752E01196A9166105A6C2E403D3D3FAA33A05EB4C3BE8438AC7E"
+    },
+    {
+      "source": "C:\\Users\\PENGYU~1\\AppData\\Local\\Temp\\codex-clipboard-ff9b179a-b1f6-4b51-add0-48939754e882.jpg",
+      "archive": "E:\\QQ CACHE\\Download\\安路资料\\开发记录\\专题记录\\OSD状态显示\\首版失败_20261009\\image_4.jpg",
+      "sha256": "E4EF51F4ABAD1D8CEDE3971452EB7F24C44979C87666B222B505C15BB85F7AA7"
+    }
+  ],
+  "cause": "尚未证实，优先审共用HDMI发送/串行化链",
+  "status": "OSD first candidate FAILED real-board regression"
+}

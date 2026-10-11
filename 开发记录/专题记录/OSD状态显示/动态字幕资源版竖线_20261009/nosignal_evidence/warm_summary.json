@@ -1,0 +1,40 @@
+{
+  "video": {
+    "path": "E:\\QQ CACHE\\LiaoTianJiLu\\Tencent Files\\1791081637\\nt_qq\\nt_data\\Video\\2026-10\\Ori\\614ca6d63c9bf6ac23731e3645134634.mp4",
+    "sha256": "78F5D8C603C0F1DFAD996CC1A9C88A99513B71F7E965E725A49514DBCD74055F",
+    "duration_s": 18.668044,
+    "video": {"codec": "h264", "width": 1280, "height": 720, "frame_rate": "30/1"},
+    "audio_metadata_only": {"codec": "aac", "sample_rate_hz": 48000, "channels": 2}
+  },
+  "bitstream": {
+    "path": "E:\\VSCODE-project\\FPGA-ANLU\\download\\dynamic_text_video_probe.bit",
+    "sha256": "1EFEB04BD50035789E4EBD1430B3CB8736B0F48D93DAF24FD4013AB8130F30DF"
+  },
+  "samples": [
+    {"time_s": 0.20, "hex": "79000000", "page": 3, "meaning": "packet_count", "flags": "9"},
+    {"time_s": 2.20, "hex": "89000000", "page": 4, "meaning": "bad_bch_count", "flags": "9"},
+    {"time_s": 4.20, "hex": "9900423E", "page": 5, "meaning": "bad_terc_count", "flags": "9"},
+    {"time_s": 5.35, "hex": "990045F8", "page": 5, "meaning": "bad_terc_count", "flags": "9"},
+    {"time_s": 6.20, "hex": "A9000000", "page": 6, "meaning": "tone_bad_count", "flags": "9"},
+    {"time_s": 8.20, "hex": "B9000000", "page": 7, "meaning": "acr_cts", "flags": "9", "first_digit_note": "Seven-segment b-like glyph; decoded as B from top-segment-off shape and page sequence."},
+    {"time_s": 10.20, "hex": "C9000000", "page": 8, "meaning": "acr_n", "flags": "9"},
+    {"time_s": 12.20, "hex": "1C000000", "page": 0, "meaning": "startup_and_file_status", "startup_nibble": "C", "sys_pll_lock": 1, "video_pll_lock": 1, "rst_all": 0, "card_init_done": 0, "file_flags_fs_code_wav_map_code": "000000"},
+    {"time_s": 14.20, "hex": "31000000", "page": 1, "meaning": "audio_mailbox_and_sample_count", "status_nibble": "1", "tone_mode": 0, "underflow": 0, "hdmi_video_locked": 0, "frame_seen": 1, "audio_valid_sample_count": 0},
+    {"time_s": 16.20, "hex": "69000000", "page": 2, "meaning": "packet_sample_count", "flags": "9"},
+    {"time_s": 18.20, "hex": "79000000", "page": 3, "meaning": "packet_count", "flags": "9"}
+  ],
+  "probe_flags_nibble_9": {
+    "source_order": "{island_seen,audio_seen,acr_seen,format_error_seen}",
+    "island_seen": 1,
+    "audio_seen": 0,
+    "acr_seen": 0,
+    "format_error_seen": 1
+  },
+  "conclusion": "The captured startup page shows both PLL locks high and rst_all low, while card_init_done is low. The next status page shows frame_seen=1 but hdmi_video_locked=0 and audio_valid sample count=0.",
+  "limits": [
+    "Internal RTL observation only; no direct electrical TMDS measurement.",
+    "AAC metadata was inspected; audio was not listened to or judged.",
+    "The user-reported all-off D3/D2/D1/D0 state is not decoded from these display frames."
+  ],
+  "evidence_dir": "E:\\VSCODE-project\\FPGA-ANLU\\build\\board_video_20261009_nosignal"
+}

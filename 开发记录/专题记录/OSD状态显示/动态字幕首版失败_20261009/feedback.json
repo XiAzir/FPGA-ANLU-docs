@@ -1,0 +1,129 @@
+{
+  "recorded_beijing": "2026-10-09 13:20:48",
+  "source": "用户现场反馈及照片，非代理实测",
+  "candidate": "E:\\VSCODE-project\\FPGA-ANLU\\download\\dynamic_text.bit",
+  "candidate_sha256": "D0559A203C0A775B2C70F7A1EA3E7F90BB7743F7ED463AF11409855D54CBF28F",
+  "result": "FAIL",
+  "observations": [
+    "无BMP画面及默认音频",
+    "KEY0无可见切图，IMG持续0/4",
+    "短KEY1可切MANUAL/AUTO但无图",
+    "长KEY1播放内部音阶，严重失真，用户描述类似人的嘶吼",
+    "照片可见RUN00:52及FPGA MEDIA PLAYER"
+  ],
+  "fallback": "E:\\VSCODE-project\\FPGA-ANLU\\download\\osd_phy_fix.bit",
+  "fallback_sha256": "9E893B0B6C86BF6FBEE19E74B5FB58933C1BEA6AA07F203786CCE96F3B60AE6F",
+  "fallback_request_checks": [
+    "四图",
+    "音乐",
+    "KEY0切图",
+    "长KEY1内部音阶"
+  ],
+  "fallback_user_answer": "恢复",
+  "conditions": "要求保持TF卡、供电、HDMI和音量不变；用户回载后确认恢复",
+  "photo_sha256": "2D93D0BEEA6C2ACDC9FDACA76227B51DDB6D6C8B86149DBB4BE59650EE5D6565",
+  "cause": "未证实，进行源/时钟复位/约束/物理实现审计",
+  "card_or_flash_writes": "none",
+  "status_readout": {
+    "user_value": "1d950007",
+    "mode": "default WAV",
+    "leds": "D3/D2/D1/D0 all off",
+    "startup": {
+      "sys_pll_lock": 1,
+      "video_pll_lock": 1,
+      "rst_all": 0,
+      "card_init_done": 1
+    },
+    "file_flags": {
+      "fs_ready": 1,
+      "fs_error": 0,
+      "display_valid": 0,
+      "bmp_error": 1,
+      "wav_primed": 0,
+      "wav_error": 1,
+      "bmp_map_error": 0,
+      "wav_map_error": 1
+    },
+    "fs_error_code": "00",
+    "wav_map_error_code": "07",
+    "wav_error_meaning": "E_EOC: mapper saw end-of-chain before requested cluster",
+    "boundary": "Status is user readout, not captured internal waveforms. Does not identify raw FAT bytes/cluster/sector or unique physical cause."
+  },
+  "status_recorded_beijing": "2026-10-09 13:28:13",
+  "video": {
+    "recorded_beijing": "2026-10-09 13:39:50",
+    "source": "E:\\QQ CACHE\\LiaoTianJiLu\\Tencent Files\\1791081637\\nt_qq\\nt_data\\Video\\2026-10\\Ori\\36a515ca7584d3232f0b781a3429140f.mp4",
+    "archived": "E:\\QQ CACHE\\Download\\安路资料\\开发记录\\专题记录\\OSD状态显示\\动态字幕首版失败_20261009\\board_video.mp4",
+    "sha256": "120C4F6564AE99A31D95FE2BFA7DFC78A38786F0D99A666E10B2C6A6E77BCCA0",
+    "duration_seconds": 30.046211,
+    "bytes": 10909204,
+    "method": "ffmpeg fps=1 extraction and visual seven-segment glyph review; no audio listening",
+    "pages": [
+      {
+        "frame": 7,
+        "value": "8D006615",
+        "meaning": "bad_bch",
+        "count": 26133
+      },
+      {
+        "frame": 9,
+        "value": "9D000056",
+        "meaning": "bad_terc",
+        "count": 86
+      },
+      {
+        "frame": 11,
+        "value": "AD000000",
+        "meaning": "tone_bad among accepted good packets",
+        "count": 0
+      },
+      {
+        "frame": 18,
+        "value": "3B00BB80",
+        "meaning": "input audio_valid samples",
+        "count": 48000,
+        "flags": {
+          "tone_mode": 1,
+          "underflow": 0,
+          "hdmi_locked": 1,
+          "frame_seen": 1
+        }
+      },
+      {
+        "frame": 22,
+        "value": "7D006603",
+        "meaning": "accepted audio packets",
+        "count": 26115
+      },
+      {
+        "frame": 24,
+        "value": "8D0066ED",
+        "meaning": "bad_bch",
+        "count": 26349
+      },
+      {
+        "frame": 26,
+        "value": "9D000057",
+        "meaning": "bad_terc",
+        "count": 87
+      }
+    ],
+    "packet_flags_D": {
+      "island_seen": 1,
+      "audio_seen": 1,
+      "acr_seen": 0,
+      "format_error_seen": 1
+    },
+    "cts_n_visible": [
+      0,
+      0
+    ],
+    "bounds": [
+      "Counts use separate nominal 25MHz one-second windows; pages are not simultaneous.",
+      "Probe is before PHY; core, probe implementation, clocks and resets not uniquely separated.",
+      "tone_bad=0 considers only accepted good audio packets.",
+      "Frame18 initial agent misread corrected to B/BB80; no PLL-loss/underflow inference."
+    ]
+  },
+  "additional_user_feedback": "长按KEY1后不仅声音变形，画面间歇缺失；OSD/滚动字幕消失时音频也停止。视频只拍板卡，显示器现象及听感来自用户反馈。"
+}

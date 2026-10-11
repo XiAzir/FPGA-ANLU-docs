@@ -1,0 +1,50 @@
+{
+  "recorded_beijing": "2026-10-09 15:20:00",
+  "hardware_result": "FAIL_HDMI_NO_SIGNAL_WARM_AND_COLD",
+  "source": "User board feedback plus manually decoded local video frames; no agent board operations",
+  "bitstream": "E:\\VSCODE-project\\FPGA-ANLU\\download\\dynamic_text_video_probe.bit",
+  "sha256": "1EFEB04BD50035789E4EBD1430B3CB8736B0F48D93DAF24FD4013AB8130F30DF",
+  "warm_run": {
+    "user_report": "HDMI no signal; D3/D2/D1/D0 all off; BitWriter succeeded; same-condition osd_phy_fix rollback normal",
+    "video": "E:\\QQ CACHE\\LiaoTianJiLu\\Tencent Files\\1791081637\\nt_qq\\nt_data\\Video\\2026-10\\Ori\\614ca6d63c9bf6ac23731e3645134634.mp4",
+    "video_sha256": "78F5D8C603C0F1DFAD996CC1A9C88A99513B71F7E965E725A49514DBCD74055F",
+    "decoded": {
+      "12.20": "1C000000",
+      "14.20": "31000000",
+      "16.20": "69000000",
+      "4.20": "9900423E",
+      "5.35": "990045F8"
+    },
+    "meaning": "Both PLL lock bits high, global reset low; card init incomplete. Frame start seen but HDMI core input video unlocked, input audio count 0; monitor accepted audio samples 0, TERC errors observed.",
+    "evidence": "E:\\VSCODE-project\\FPGA-ANLU\\build\\board_video_20261009_nosignal\\summary.json"
+  },
+  "cold_tone_run": {
+    "user_report": "5-second power cycle and same bit redownload: all LEDs on, still HDMI no signal; 1DA80000; long KEY1 makes D3 blink, others remain on, still no signal",
+    "video": "E:\\QQ CACHE\\LiaoTianJiLu\\Tencent Files\\1791081637\\nt_qq\\nt_data\\Video\\2026-10\\Ori\\3c9f7f88035a4f6e280bd5f928e3c91c.mp4",
+    "video_sha256": "459A8AE89C0FB0506172DCA3E588E711DFBD33C7CC70916A33F36BEFA14DDD4C",
+    "decoded": {
+      "0.20": "1DA80000",
+      "2.20/2.70/3.20/3.70": "3900BB80",
+      "4.20": "69000000",
+      "6.20": "79000000",
+      "8.20": "89000000",
+      "10.20": "99003232",
+      "11.20": "9900368F",
+      "12.20": "A9000000",
+      "14.20": "B9000000",
+      "16.20": "C9000000"
+    },
+    "meaning": "Card initialized, fs_ready/display_valid/wav_primed high and captured error fields zero. Internal tone input 48000 per nominal second; frame start seen, core video lock 0. Monitor accepted audio samples/packets and CTS/N 0; TERC errors observed.",
+    "glyph_note": "BB80, not 6680: B uses lower-case b-shaped seven-segment glyph with top segment off; checked multiple raw frames and status_hex595 RTL.",
+    "evidence": "E:\\VSCODE-project\\FPGA-ANLU\\development\\player_dynamic_text_video_probe\\build\\board_video_20261009_cold_tone"
+  },
+  "limits": [
+    "The two videos are different runs and are not combined into a simultaneous ratio.",
+    "PLL/core/status bits and packet observer are internal RTL observations, not electrical HDMI carrier measurements.",
+    "Zero BCH/tone_bad is not evidence of correct encoding when no audio packet is accepted.",
+    "Audio metadata was read; the agent did not listen to these recordings.",
+    "LEDs record events and cannot establish receiver audio/video correctness."
+  ],
+  "root_cause": "NOT_CONFIRMED",
+  "agent_card_or_flash_operations": "NONE"
+}

@@ -1,0 +1,37 @@
+# FPGA-ANLU-docs 资料仓库忽略规则
+
+# 本地许可证
+*.[lL][iI][cC]
+
+# 软件安装包和已解压安装程序
+/*.exe
+/*.msi
+/TD_6.2.1_SP1_178840_NL/
+
+# 原始资料压缩包：另行备份，忽略不等于可以删除
+/*.zip
+/*.rar
+/*.7z
+/小梅哥/*.zip
+/小梅哥/*.rar
+/小梅哥/*.7z
+/归档_非赛题1与重复资料/
+
+# 原厂参考工程的 TD 构建输出与常规日志
+/小梅哥/**/*_Runs/
+/小梅哥/**/log/
+/赛题1_工作资料/**/*_Runs/
+/赛题1_工作资料/**/td_project/log/
+.recent_user_depot.ini
+
+# Python / Windows / Office 临时文件
+__pycache__/
+*.pyc
+*.pyo
+Thumbs.db
+Desktop.ini
+.DS_Store
+~$*
+
+# 默认保留开发约定、开发记录、资料索引、PDF、Office 文档、
+# 源码、IP、初始化数据和图片/视频证据，不整体忽略这些内容。

@@ -1,0 +1,752 @@
+[
+  {
+    "file": "03_小梅哥硬件与例程\\AC201_AL_board_test_源码摘取\\AC201_AL_board_test.al",
+    "archive": "小梅哥/AC201_AL_board_test(不包含SD_SRAM_EEPROM).rar",
+    "sha256": "c474f34eb6d8acdefc05f4b29bff928f537b46eda9f8d5517984f266d56f84ba"
+  },
+  {
+    "file": "03_小梅哥硬件与例程\\AC201_AL_board_test_源码摘取\\al_ip\\BUFG_0\\BUFG_0.ipc",
+    "archive": "小梅哥/AC201_AL_board_test(不包含SD_SRAM_EEPROM).rar",
+    "sha256": "07fc15da6fa3ef991b1b00250aca721f3cbc4aa115c4abec944301ea95627c39"
+  },
+  {
+    "file": "03_小梅哥硬件与例程\\AC201_AL_board_test_源码摘取\\al_ip\\BUFG_0\\BUFG_0.v",
+    "archive": "小梅哥/AC201_AL_board_test(不包含SD_SRAM_EEPROM).rar",
+    "sha256": "19afe1b5b71ed6dcd4ef76778c6b2ea928789f14d61d7d4a06778e57fb35248f"
+  },
+  {
+    "file": "03_小梅哥硬件与例程\\AC201_AL_board_test_源码摘取\\al_ip\\BUFG_0\\BUFG_0.vhd",
+    "archive": "小梅哥/AC201_AL_board_test(不包含SD_SRAM_EEPROM).rar",
+    "sha256": "3bb40031b940b2e4623054837860c7e60fec9e9a7d21a769b18f0d246d7eaac8"
+  },
+  {
+    "file": "03_小梅哥硬件与例程\\AC201_AL_board_test_源码摘取\\al_ip\\eth_data_buf\\.m_params_eth_data_buf.txt",
+    "archive": "小梅哥/AC201_AL_board_test(不包含SD_SRAM_EEPROM).rar",
+    "sha256": "60dcad135efff2714a2b9b23eb257ac7f3a3046576de5aa7bd3c224c9d7d12d1"
+  },
+  {
+    "file": "03_小梅哥硬件与例程\\AC201_AL_board_test_源码摘取\\al_ip\\eth_data_buf\\.params_eth_data_buf.txt",
+    "archive": "小梅哥/AC201_AL_board_test(不包含SD_SRAM_EEPROM).rar",
+    "sha256": "998a7ddad3a1a3443904d9569461e8902aba01c6c6f4e730611136541c6dc8a0"
+  },
+  {
+    "file": "03_小梅哥硬件与例程\\AC201_AL_board_test_源码摘取\\al_ip\\eth_data_buf\\.ports_eth_data_buf.txt",
+    "archive": "小梅哥/AC201_AL_board_test(不包含SD_SRAM_EEPROM).rar",
+    "sha256": "af01510908d6b4e7e0139e8fa3312deb5644c461c1fd7a2d8e3822ad448fa64b"
+  },
+  {
+    "file": "03_小梅哥硬件与例程\\AC201_AL_board_test_源码摘取\\al_ip\\eth_data_buf\\Design.xml",
+    "archive": "小梅哥/AC201_AL_board_test(不包含SD_SRAM_EEPROM).rar",
+    "sha256": "a221acb70c43a25f6af755eccdbb56da1c524590552f8273291eb2ec65e9c46d"
+  },
+  {
+    "file": "03_小梅哥硬件与例程\\AC201_AL_board_test_源码摘取\\al_ip\\eth_data_buf\\DesignConfiguration.xml",
+    "archive": "小梅哥/AC201_AL_board_test(不包含SD_SRAM_EEPROM).rar",
+    "sha256": "c89fa42a3e931b365173786cd3888b5524e85ca532057710225fafe6bd1ad7db"
+  },
+  {
+    "file": "03_小梅哥硬件与例程\\AC201_AL_board_test_源码摘取\\al_ip\\eth_data_buf\\eth_data_buf.v",
+    "archive": "小梅哥/AC201_AL_board_test(不包含SD_SRAM_EEPROM).rar",
+    "sha256": "44de952145a53fe54e31a264162cc33bd5fa63b530dee77dc72a8ab40fbb7ce6"
+  },
+  {
+    "file": "03_小梅哥硬件与例程\\AC201_AL_board_test_源码摘取\\al_ip\\eth_data_buf\\eth_data_buf.xml",
+    "archive": "小梅哥/AC201_AL_board_test(不包含SD_SRAM_EEPROM).rar",
+    "sha256": "5ea26f1ebf4b3402ca74e90ea16ec83be618ecf31b934b4f711285121a049ac4"
+  },
+  {
+    "file": "03_小梅哥硬件与例程\\AC201_AL_board_test_源码摘取\\al_ip\\eth_data_buf\\RTL\\include\\define.v",
+    "archive": "小梅哥/AC201_AL_board_test(不包含SD_SRAM_EEPROM).rar",
+    "sha256": "78f5559ac584e44d1ecd757ae5e7b6c0281c2b23bd4aa110f0ce457124f19da9"
+  },
+  {
+    "file": "03_小梅哥硬件与例程\\AC201_AL_board_test_源码摘取\\al_ip\\eth_data_buf\\RTL\\soft_fifo_core_eth_data_buf.v",
+    "archive": "小梅哥/AC201_AL_board_test(不包含SD_SRAM_EEPROM).rar",
+    "sha256": "c37ec08bf8c0b699f3c1abdecf3077fe18cca934976dcfe233f561f7dc886da9"
+  },
+  {
+    "file": "03_小梅哥硬件与例程\\AC201_AL_board_test_源码摘取\\al_ip\\eth_data_buf\\RTL\\soft_fifo_eth_data_buf.v",
+    "archive": "小梅哥/AC201_AL_board_test(不包含SD_SRAM_EEPROM).rar",
+    "sha256": "b5623b0158e2164b2b631ff260a7591c0f8d7f76be20e1cccbce37accc1260af"
+  },
+  {
+    "file": "03_小梅哥硬件与例程\\AC201_AL_board_test_源码摘取\\al_ip\\eth_msg_buf\\.m_params_eth_msg_buf.txt",
+    "archive": "小梅哥/AC201_AL_board_test(不包含SD_SRAM_EEPROM).rar",
+    "sha256": "6dee89faf21c675b3d05de56d1db87d1e22b0ff4a608a90258c606c014417b84"
+  },
+  {
+    "file": "03_小梅哥硬件与例程\\AC201_AL_board_test_源码摘取\\al_ip\\eth_msg_buf\\.params_eth_msg_buf.txt",
+    "archive": "小梅哥/AC201_AL_board_test(不包含SD_SRAM_EEPROM).rar",
+    "sha256": "0577282bd9a85460bb14445e9bf4b15812729a5b716ec6cd90d3a8cf88be7c5d"
+  },
+  {
+    "file": "03_小梅哥硬件与例程\\AC201_AL_board_test_源码摘取\\al_ip\\eth_msg_buf\\.ports_eth_msg_buf.txt",
+    "archive": "小梅哥/AC201_AL_board_test(不包含SD_SRAM_EEPROM).rar",
+    "sha256": "af01510908d6b4e7e0139e8fa3312deb5644c461c1fd7a2d8e3822ad448fa64b"
+  },
+  {
+    "file": "03_小梅哥硬件与例程\\AC201_AL_board_test_源码摘取\\al_ip\\eth_msg_buf\\Design.xml",
+    "archive": "小梅哥/AC201_AL_board_test(不包含SD_SRAM_EEPROM).rar",
+    "sha256": "29c0fd87879242542e2eaea3c370c5770b7604807e91a74bea86164c5b59bd84"
+  },
+  {
+    "file": "03_小梅哥硬件与例程\\AC201_AL_board_test_源码摘取\\al_ip\\eth_msg_buf\\DesignConfiguration.xml",
+    "archive": "小梅哥/AC201_AL_board_test(不包含SD_SRAM_EEPROM).rar",
+    "sha256": "9d08aec30692580c20536fab5d20c6a20090c5efe16e3769e0faf9a59741dd06"
+  },
+  {
+    "file": "03_小梅哥硬件与例程\\AC201_AL_board_test_源码摘取\\al_ip\\eth_msg_buf\\eth_msg_buf.v",
+    "archive": "小梅哥/AC201_AL_board_test(不包含SD_SRAM_EEPROM).rar",
+    "sha256": "f8c3c0c99d1f1124d880ffbcc0b184852dafa176590f513e6517fb387ce48053"
+  },
+  {
+    "file": "03_小梅哥硬件与例程\\AC201_AL_board_test_源码摘取\\al_ip\\eth_msg_buf\\eth_msg_buf.xml",
+    "archive": "小梅哥/AC201_AL_board_test(不包含SD_SRAM_EEPROM).rar",
+    "sha256": "5a1767302b6970ad2ead62b4c6e15164fce6938416bc837b7ede79d0841b87ea"
+  },
+  {
+    "file": "03_小梅哥硬件与例程\\AC201_AL_board_test_源码摘取\\al_ip\\eth_msg_buf\\RTL\\include\\define.v",
+    "archive": "小梅哥/AC201_AL_board_test(不包含SD_SRAM_EEPROM).rar",
+    "sha256": "27c82473aee3e37b0f8b8f8631c1a6eff21d1ac0272804fe8d650c2ff669a3bc"
+  },
+  {
+    "file": "03_小梅哥硬件与例程\\AC201_AL_board_test_源码摘取\\al_ip\\eth_msg_buf\\RTL\\soft_fifo_core_eth_msg_buf.v",
+    "archive": "小梅哥/AC201_AL_board_test(不包含SD_SRAM_EEPROM).rar",
+    "sha256": "676ef70ac45d7efcd68e66c035f0d829ef9f6644535824d69b15d763264713e3"
+  },
+  {
+    "file": "03_小梅哥硬件与例程\\AC201_AL_board_test_源码摘取\\al_ip\\eth_msg_buf\\RTL\\soft_fifo_eth_msg_buf.v",
+    "archive": "小梅哥/AC201_AL_board_test(不包含SD_SRAM_EEPROM).rar",
+    "sha256": "33f3c3fbe661f9538f109db7d58725a7e9162c04fe2a85d6bafc341df9cef528"
+  },
+  {
+    "file": "03_小梅哥硬件与例程\\AC201_AL_board_test_源码摘取\\al_ip\\IDDR_0\\IDDR_0.ipc",
+    "archive": "小梅哥/AC201_AL_board_test(不包含SD_SRAM_EEPROM).rar",
+    "sha256": "2a559ec91562d99f3d7f532e5d797a712a0873954d396b2a76d5cde17c6b86d6"
+  },
+  {
+    "file": "03_小梅哥硬件与例程\\AC201_AL_board_test_源码摘取\\al_ip\\IDDR_0\\IDDR_0.v",
+    "archive": "小梅哥/AC201_AL_board_test(不包含SD_SRAM_EEPROM).rar",
+    "sha256": "5cf0d8335bc595071851415c663d0f990b07e7081be7fa9080fe519d65852a8f"
+  },
+  {
+    "file": "03_小梅哥硬件与例程\\AC201_AL_board_test_源码摘取\\al_ip\\IDDR_0\\IDDR_0.vhd",
+    "archive": "小梅哥/AC201_AL_board_test(不包含SD_SRAM_EEPROM).rar",
+    "sha256": "c0e355acdcb0c199f9830427e37f9a4b32791573beb0ac1e41bcdac70a0fc829"
+  },
+  {
+    "file": "03_小梅哥硬件与例程\\AC201_AL_board_test_源码摘取\\al_ip\\ODDR_0\\ODDR_0.ipc",
+    "archive": "小梅哥/AC201_AL_board_test(不包含SD_SRAM_EEPROM).rar",
+    "sha256": "70764c0a78699159210c5096e3a032e07ae84239df0b11dd050e2f1d3fa2f4ea"
+  },
+  {
+    "file": "03_小梅哥硬件与例程\\AC201_AL_board_test_源码摘取\\al_ip\\ODDR_0\\ODDR_0.v",
+    "archive": "小梅哥/AC201_AL_board_test(不包含SD_SRAM_EEPROM).rar",
+    "sha256": "e088648f6131c2b7f89475f34a04b714c44b2ed861a2c26ead30c27ee3dfafe6"
+  },
+  {
+    "file": "03_小梅哥硬件与例程\\AC201_AL_board_test_源码摘取\\al_ip\\ODDR_0\\ODDR_0.vhd",
+    "archive": "小梅哥/AC201_AL_board_test(不包含SD_SRAM_EEPROM).rar",
+    "sha256": "228610a8b1cdb0a345cc279540e8b0fb02c9f2762ca80253c0f7be4773b80d9f"
+  },
+  {
+    "file": "03_小梅哥硬件与例程\\AC201_AL_board_test_源码摘取\\al_ip\\pll\\pll.ipc",
+    "archive": "小梅哥/AC201_AL_board_test(不包含SD_SRAM_EEPROM).rar",
+    "sha256": "e735a6b762ac192a00a18e1b240d6da10ef1db8c41c5889c551b53c06fadca48"
+  },
+  {
+    "file": "03_小梅哥硬件与例程\\AC201_AL_board_test_源码摘取\\al_ip\\pll\\pll.v",
+    "archive": "小梅哥/AC201_AL_board_test(不包含SD_SRAM_EEPROM).rar",
+    "sha256": "ada96c7f5cc1928486b2ae4cf7635bed7e75bc47a4ad55d3184b91c608dd38b0"
+  },
+  {
+    "file": "03_小梅哥硬件与例程\\AC201_AL_board_test_源码摘取\\al_ip\\pll\\pll.vhd",
+    "archive": "小梅哥/AC201_AL_board_test(不包含SD_SRAM_EEPROM).rar",
+    "sha256": "5842a15b912fcd3a7609b96682c7491583f8b0843a29c3820528045fe56c2832"
+  },
+  {
+    "file": "03_小梅哥硬件与例程\\AC201_AL_board_test_源码摘取\\al_ip\\pll_hdmi\\pll_hdmi.ipc",
+    "archive": "小梅哥/AC201_AL_board_test(不包含SD_SRAM_EEPROM).rar",
+    "sha256": "05010fe05f91eae84a742f0c4b30b5c37de5c32dc690f2cf4f040ac2305510a9"
+  },
+  {
+    "file": "03_小梅哥硬件与例程\\AC201_AL_board_test_源码摘取\\al_ip\\pll_hdmi\\pll_hdmi.v",
+    "archive": "小梅哥/AC201_AL_board_test(不包含SD_SRAM_EEPROM).rar",
+    "sha256": "2456fce05f98ee8559352827cff6e9e15b2ade54fa7f0c52a1ab93818e5da18d"
+  },
+  {
+    "file": "03_小梅哥硬件与例程\\AC201_AL_board_test_源码摘取\\al_ip\\pll_hdmi\\pll_hdmi.vhd",
+    "archive": "小梅哥/AC201_AL_board_test(不包含SD_SRAM_EEPROM).rar",
+    "sha256": "f3ebe018a7e4a48f8b94b1ff8186de98a77537db0a882f92cdd867424f52b390"
+  },
+  {
+    "file": "03_小梅哥硬件与例程\\AC201_AL_board_test_源码摘取\\al_ip\\pll_hdmi1_4b\\pll_hdmi1_4b.ipc",
+    "archive": "小梅哥/AC201_AL_board_test(不包含SD_SRAM_EEPROM).rar",
+    "sha256": "d6295b5958f7d98a1420835dbc2cb7b3fa69f4935d021d5ea519256758e370ec"
+  },
+  {
+    "file": "03_小梅哥硬件与例程\\AC201_AL_board_test_源码摘取\\al_ip\\pll_hdmi1_4b\\pll_hdmi1_4b.v",
+    "archive": "小梅哥/AC201_AL_board_test(不包含SD_SRAM_EEPROM).rar",
+    "sha256": "83a3cec6635e340ac88dc18348f167cfeaa26a3eae1df272c9357e9d28ae6714"
+  },
+  {
+    "file": "03_小梅哥硬件与例程\\AC201_AL_board_test_源码摘取\\al_ip\\pll_hdmi1_4b\\pll_hdmi1_4b.vhd",
+    "archive": "小梅哥/AC201_AL_board_test(不包含SD_SRAM_EEPROM).rar",
+    "sha256": "ae021c37e5616f3e791fdc6508b8fddde4ca829ff09d9b672bee1f04c5fc8ac0"
+  },
+  {
+    "file": "03_小梅哥硬件与例程\\AC201_AL_board_test_源码摘取\\hardware_test.v",
+    "archive": "小梅哥/AC201_AL_board_test(不包含SD_SRAM_EEPROM).rar",
+    "sha256": "108220e66ac0bada9fd12240af35a817f026ea831eb14a577f28fe07f96905c9"
+  },
+  {
+    "file": "03_小梅哥硬件与例程\\AC201_AL_board_test_源码摘取\\IO.adc",
+    "archive": "小梅哥/AC201_AL_board_test(不包含SD_SRAM_EEPROM).rar",
+    "sha256": "7fd4b021116f4cd38e7f5e47fa01a60d89d2228361d71d2f0c0a1c20c16df9a8"
+  },
+  {
+    "file": "03_小梅哥硬件与例程\\AC201_AL_board_test_源码摘取\\src\\5640\\camera_init\\camera_init.v",
+    "archive": "小梅哥/AC201_AL_board_test(不包含SD_SRAM_EEPROM).rar",
+    "sha256": "340e6bd67f5eb8cd0cade62b84998fefe9c6ddfa2e28179e7eb53f9fbfdf4fff"
+  },
+  {
+    "file": "03_小梅哥硬件与例程\\AC201_AL_board_test_源码摘取\\src\\5640\\camera_init\\i2c_bit_shift.v",
+    "archive": "小梅哥/AC201_AL_board_test(不包含SD_SRAM_EEPROM).rar",
+    "sha256": "095062345e3574492f6ceb00df29f12ca0fc565c6b19bd728a863eee35d72363"
+  },
+  {
+    "file": "03_小梅哥硬件与例程\\AC201_AL_board_test_源码摘取\\src\\5640\\camera_init\\i2c_control.v",
+    "archive": "小梅哥/AC201_AL_board_test(不包含SD_SRAM_EEPROM).rar",
+    "sha256": "2b095136d9ad4bb9dec63549c71da913059a9a97d9f79b756dbba908aa9e1cb3"
+  },
+  {
+    "file": "03_小梅哥硬件与例程\\AC201_AL_board_test_源码摘取\\src\\5640\\camera_init\\ov5640_init_table_jpeg.v",
+    "archive": "小梅哥/AC201_AL_board_test(不包含SD_SRAM_EEPROM).rar",
+    "sha256": "179d6e94e145e1edba53247e9771f58ca88b9daebd44115309de385a2c18c195"
+  },
+  {
+    "file": "03_小梅哥硬件与例程\\AC201_AL_board_test_源码摘取\\src\\5640\\camera_init\\ov5640_init_table_rgb.v",
+    "archive": "小梅哥/AC201_AL_board_test(不包含SD_SRAM_EEPROM).rar",
+    "sha256": "efa21c703b8b54f492a8752a7ac9ce433f4e5ca4490fde94c8e88f64418af391"
+  },
+  {
+    "file": "03_小梅哥硬件与例程\\AC201_AL_board_test_源码摘取\\src\\5640\\camera_init\\Readme.txt",
+    "archive": "小梅哥/AC201_AL_board_test(不包含SD_SRAM_EEPROM).rar",
+    "sha256": "14079a94b9fee7f5b046f84a17fa0f3b87de386b09318ceb517c4743b4c1711b"
+  },
+  {
+    "file": "03_小梅哥硬件与例程\\AC201_AL_board_test_源码摘取\\src\\5640\\DVP_Capture.v",
+    "archive": "小梅哥/AC201_AL_board_test(不包含SD_SRAM_EEPROM).rar",
+    "sha256": "5cfe6630c71d90f69f27def231ea918cc5ba77eba261630c2b14c61d30fca551"
+  },
+  {
+    "file": "03_小梅哥硬件与例程\\AC201_AL_board_test_源码摘取\\src\\5640\\ov5640_sdram_vga.v",
+    "archive": "小梅哥/AC201_AL_board_test(不包含SD_SRAM_EEPROM).rar",
+    "sha256": "7f5727dcaebf981ddc71c188f3f7df431b7bbd88e099f6da0fce1b30623358a5"
+  },
+  {
+    "file": "03_小梅哥硬件与例程\\AC201_AL_board_test_源码摘取\\src\\5640\\sdram_ctrl_4p\\command.v",
+    "archive": "小梅哥/AC201_AL_board_test(不包含SD_SRAM_EEPROM).rar",
+    "sha256": "07d70de2d11d583a4d5f6200575401376b88f81c305670a73f49498a5e5e2aaa"
+  },
+  {
+    "file": "03_小梅哥硬件与例程\\AC201_AL_board_test_源码摘取\\src\\5640\\sdram_ctrl_4p\\control_interface.v",
+    "archive": "小梅哥/AC201_AL_board_test(不包含SD_SRAM_EEPROM).rar",
+    "sha256": "f263fa1d25cae4cb458c06c36018dbe77c175de8f103417a5b9d638790761def"
+  },
+  {
+    "file": "03_小梅哥硬件与例程\\AC201_AL_board_test_源码摘取\\src\\5640\\sdram_ctrl_4p\\sdr_data_path.v",
+    "archive": "小梅哥/AC201_AL_board_test(不包含SD_SRAM_EEPROM).rar",
+    "sha256": "d9ebca8618ece2a14db1321e74700434eb4982a3cc325db97c7f3001a81ae103"
+  },
+  {
+    "file": "03_小梅哥硬件与例程\\AC201_AL_board_test_源码摘取\\src\\5640\\sdram_ctrl_4p\\Sdram_Control_4Port.v",
+    "archive": "小梅哥/AC201_AL_board_test(不包含SD_SRAM_EEPROM).rar",
+    "sha256": "1db1dfcf1342c047adfc23ec05bb922a528b3f8f1dd84c62f308c224e6aef05a"
+  },
+  {
+    "file": "03_小梅哥硬件与例程\\AC201_AL_board_test_源码摘取\\src\\5640\\sdram_ctrl_4p\\sdram_ip.ipc",
+    "archive": "小梅哥/AC201_AL_board_test(不包含SD_SRAM_EEPROM).rar",
+    "sha256": "2bbcee7c683b5f630ac9b88421095772feb86399754e68ef8a862b5f58ab0831"
+  },
+  {
+    "file": "03_小梅哥硬件与例程\\AC201_AL_board_test_源码摘取\\src\\5640\\sdram_ctrl_4p\\sdram_ip.v",
+    "archive": "小梅哥/AC201_AL_board_test(不包含SD_SRAM_EEPROM).rar",
+    "sha256": "47c39f647afc87ded9cb54192c317a04720f9bd0cea6695a3e6c502a7c279758"
+  },
+  {
+    "file": "03_小梅哥硬件与例程\\AC201_AL_board_test_源码摘取\\src\\5640\\sdram_ctrl_4p\\Sdram_PLL.ipc",
+    "archive": "小梅哥/AC201_AL_board_test(不包含SD_SRAM_EEPROM).rar",
+    "sha256": "ebe49fdf6a49ba7f0997f405d3dd3d80604873aae0b43b8438f74f05a8870036"
+  },
+  {
+    "file": "03_小梅哥硬件与例程\\AC201_AL_board_test_源码摘取\\src\\5640\\sdram_ctrl_4p\\Sdram_PLL.v",
+    "archive": "小梅哥/AC201_AL_board_test(不包含SD_SRAM_EEPROM).rar",
+    "sha256": "fdc7f5bcfc67d5e6d1ae9a933808899704e823cf1b53efd5cabe9b16dce0f0f0"
+  },
+  {
+    "file": "03_小梅哥硬件与例程\\AC201_AL_board_test_源码摘取\\src\\5640\\sdram_ctrl_4p\\Sdram_RD_FIFO.ipc",
+    "archive": "小梅哥/AC201_AL_board_test(不包含SD_SRAM_EEPROM).rar",
+    "sha256": "74d0adc62759beb0edf80e895693648412cee2aedf4aa6001563c008f5a52f7c"
+  },
+  {
+    "file": "03_小梅哥硬件与例程\\AC201_AL_board_test_源码摘取\\src\\5640\\sdram_ctrl_4p\\Sdram_RD_FIFO.v",
+    "archive": "小梅哥/AC201_AL_board_test(不包含SD_SRAM_EEPROM).rar",
+    "sha256": "e3f359a4c13aa0128fc4952bd7a91f5ec294596c1c7d17c9b53d05ea877f815c"
+  },
+  {
+    "file": "03_小梅哥硬件与例程\\AC201_AL_board_test_源码摘取\\src\\5640\\sdram_ctrl_4p\\Sdram_WR_FIFO.ipc",
+    "archive": "小梅哥/AC201_AL_board_test(不包含SD_SRAM_EEPROM).rar",
+    "sha256": "925806e449b6dee22712d39a029a13b830251afc2938b0543b6be50fe4dbbd84"
+  },
+  {
+    "file": "03_小梅哥硬件与例程\\AC201_AL_board_test_源码摘取\\src\\5640\\sdram_ctrl_4p\\Sdram_WR_FIFO.v",
+    "archive": "小梅哥/AC201_AL_board_test(不包含SD_SRAM_EEPROM).rar",
+    "sha256": "38ab163e028ac932b79bcf00a01431ae8f221b6b7b9a985214ffe037b50a924c"
+  },
+  {
+    "file": "03_小梅哥硬件与例程\\AC201_AL_board_test_源码摘取\\src\\5640\\vga\\disp_driver.v",
+    "archive": "小梅哥/AC201_AL_board_test(不包含SD_SRAM_EEPROM).rar",
+    "sha256": "1e8017406bf829ce2c82aa67a0cf38c0b298a3f5d96fa4002570660b9d8d13d3"
+  },
+  {
+    "file": "03_小梅哥硬件与例程\\AC201_AL_board_test_源码摘取\\src\\5640\\vga\\disp_parameter_cfg.v",
+    "archive": "小梅哥/AC201_AL_board_test(不包含SD_SRAM_EEPROM).rar",
+    "sha256": "5dee04a349794ef70356d283de326c49992c548fc111584f723c469b8302d64b"
+  },
+  {
+    "file": "03_小梅哥硬件与例程\\AC201_AL_board_test_源码摘取\\src\\audio_loop_back.v",
+    "archive": "小梅哥/AC201_AL_board_test(不包含SD_SRAM_EEPROM).rar",
+    "sha256": "eaeaf852e3e620452d5dd026de6fc9a64df5b38918a72e5b94d57774bf02788f"
+  },
+  {
+    "file": "03_小梅哥硬件与例程\\AC201_AL_board_test_源码摘取\\src\\crc32_d8.v",
+    "archive": "小梅哥/AC201_AL_board_test(不包含SD_SRAM_EEPROM).rar",
+    "sha256": "c2bd0b5af84a7623ede3b67420e5435f2776987ff94f149b67f60a30e666b307"
+  },
+  {
+    "file": "03_小梅哥硬件与例程\\AC201_AL_board_test_源码摘取\\src\\delay_2s.v",
+    "archive": "小梅哥/AC201_AL_board_test(不包含SD_SRAM_EEPROM).rar",
+    "sha256": "e30b82e39271f770343ae0f0fde032bebe4ca90f560ecab84cd820234e98b433"
+  },
+  {
+    "file": "03_小梅哥硬件与例程\\AC201_AL_board_test_源码摘取\\src\\Edge_check.v",
+    "archive": "小梅哥/AC201_AL_board_test(不包含SD_SRAM_EEPROM).rar",
+    "sha256": "c50b44ff082f3387764f3798d9b2c885bf23e4b0ad4c5532607c642c7c4f486e"
+  },
+  {
+    "file": "03_小梅哥硬件与例程\\AC201_AL_board_test_源码摘取\\src\\ES8388_init_table.v",
+    "archive": "小梅哥/AC201_AL_board_test(不包含SD_SRAM_EEPROM).rar",
+    "sha256": "72d69275d338bd4381a0d7cce461645b2cd0f8d77ba3e968c26b40bb9a0816b0"
+  },
+  {
+    "file": "03_小梅哥硬件与例程\\AC201_AL_board_test_源码摘取\\src\\eth_udp_loopback_rgmii.v",
+    "archive": "小梅哥/AC201_AL_board_test(不包含SD_SRAM_EEPROM).rar",
+    "sha256": "a4e467b12f5327d579daddcf8b303e2b8c1f5fd83e0d562dbc07b0c48b46dc9e"
+  },
+  {
+    "file": "03_小梅哥硬件与例程\\AC201_AL_board_test_源码摘取\\src\\eth_udp_rx_gmii.v",
+    "archive": "小梅哥/AC201_AL_board_test(不包含SD_SRAM_EEPROM).rar",
+    "sha256": "bf12927ee2a6d210343e3618bd131b57aeaf4a1ccdafe080e3dab6c0437fd311"
+  },
+  {
+    "file": "03_小梅哥硬件与例程\\AC201_AL_board_test_源码摘取\\src\\eth_udp_tx_gmii.v",
+    "archive": "小梅哥/AC201_AL_board_test(不包含SD_SRAM_EEPROM).rar",
+    "sha256": "4cc31e48d6cbf8c30f5730d3371d17c97b59a3427d6c531b1bb5bb3e33fe0cf3"
+  },
+  {
+    "file": "03_小梅哥硬件与例程\\AC201_AL_board_test_源码摘取\\src\\function_pin.v",
+    "archive": "小梅哥/AC201_AL_board_test(不包含SD_SRAM_EEPROM).rar",
+    "sha256": "1149aba9a355a68b1e81312df79df58c35e6120a59ad05c6fe53c91f750ef9a0"
+  },
+  {
+    "file": "03_小梅哥硬件与例程\\AC201_AL_board_test_源码摘取\\src\\gmii_to_rgmii.v",
+    "archive": "小梅哥/AC201_AL_board_test(不包含SD_SRAM_EEPROM).rar",
+    "sha256": "605af796f94f6a989d63f09692d2abb104a5dae82334ac8defe2d64f3aa6965f"
+  },
+  {
+    "file": "03_小梅哥硬件与例程\\AC201_AL_board_test_源码摘取\\src\\HC595_Driver.v",
+    "archive": "小梅哥/AC201_AL_board_test(不包含SD_SRAM_EEPROM).rar",
+    "sha256": "cc9e4391684dba3f5e9b051b03b44f98e5b9c6292e5492fab5f2555e4ed61806"
+  },
+  {
+    "file": "03_小梅哥硬件与例程\\AC201_AL_board_test_源码摘取\\src\\HEX8.v",
+    "archive": "小梅哥/AC201_AL_board_test(不包含SD_SRAM_EEPROM).rar",
+    "sha256": "606b438354977bb4f186d4cddf445d41b69b85dbb25afeebb4463b70c9b04d29"
+  },
+  {
+    "file": "03_小梅哥硬件与例程\\AC201_AL_board_test_源码摘取\\src\\HEX_top.v",
+    "archive": "小梅哥/AC201_AL_board_test(不包含SD_SRAM_EEPROM).rar",
+    "sha256": "e03a3eb70a4f5946ea6fa503db6a4ecb268c1413e2b6f15a47c195f6dda84b9f"
+  },
+  {
+    "file": "03_小梅哥硬件与例程\\AC201_AL_board_test_源码摘取\\src\\i2c_bit_shift_8563.v",
+    "archive": "小梅哥/AC201_AL_board_test(不包含SD_SRAM_EEPROM).rar",
+    "sha256": "1c0f707f0e45041e858d51fa53f6c722720a11eeeea86bb60493dca51d547c50"
+  },
+  {
+    "file": "03_小梅哥硬件与例程\\AC201_AL_board_test_源码摘取\\src\\i2c_control_8563.v",
+    "archive": "小梅哥/AC201_AL_board_test(不包含SD_SRAM_EEPROM).rar",
+    "sha256": "09d4b021d603bf0dcaa240e8a0e9a4ef9bf63519361cc87a09b957d03590ad40"
+  },
+  {
+    "file": "03_小梅哥硬件与例程\\AC201_AL_board_test_源码摘取\\src\\i2s_bit_shift.v",
+    "archive": "小梅哥/AC201_AL_board_test(不包含SD_SRAM_EEPROM).rar",
+    "sha256": "505447e508f6f5a70af0818e5abb6ae52f3139f4d83d632caef52a7298b2d936"
+  },
+  {
+    "file": "03_小梅哥硬件与例程\\AC201_AL_board_test_源码摘取\\src\\i2s_control.v",
+    "archive": "小梅哥/AC201_AL_board_test(不包含SD_SRAM_EEPROM).rar",
+    "sha256": "8fd3add9db1d3438a7ec485525ecd3c765d1eac90f78231ac659ae6f42994549"
+  },
+  {
+    "file": "03_小梅哥硬件与例程\\AC201_AL_board_test_源码摘取\\src\\i2s_init_dev.v",
+    "archive": "小梅哥/AC201_AL_board_test(不包含SD_SRAM_EEPROM).rar",
+    "sha256": "88e70bbed793f062b83f0f4c4e13095b6a13fc72b14a0f26021ed04e6a10c113"
+  },
+  {
+    "file": "03_小梅哥硬件与例程\\AC201_AL_board_test_源码摘取\\src\\ibeep.v",
+    "archive": "小梅哥/AC201_AL_board_test(不包含SD_SRAM_EEPROM).rar",
+    "sha256": "bcc3f1cf730c4f42451c615b020ddefa5322602735b72cd299ed35e447bcfdec"
+  },
+  {
+    "file": "03_小梅哥硬件与例程\\AC201_AL_board_test_源码摘取\\src\\ip_checksum.v",
+    "archive": "小梅哥/AC201_AL_board_test(不包含SD_SRAM_EEPROM).rar",
+    "sha256": "142e1225195b18a1db7a305300fa86778c23eeb81f3c003a178fffb958593739"
+  },
+  {
+    "file": "03_小梅哥硬件与例程\\AC201_AL_board_test_源码摘取\\src\\ir_decode.v",
+    "archive": "小梅哥/AC201_AL_board_test(不包含SD_SRAM_EEPROM).rar",
+    "sha256": "0e4c2e331ea33db441b4cf8b97184a93f845991bbbc373d3ba2c58693c5f3fa7"
+  },
+  {
+    "file": "03_小梅哥硬件与例程\\AC201_AL_board_test_源码摘取\\src\\Key_filter.v",
+    "archive": "小梅哥/AC201_AL_board_test(不包含SD_SRAM_EEPROM).rar",
+    "sha256": "ddcf1fa7a35fda2e0266bd308384a1be4cb76350f67aee55e01b13694195da96"
+  },
+  {
+    "file": "03_小梅哥硬件与例程\\AC201_AL_board_test_源码摘取\\src\\key_handle.v",
+    "archive": "小梅哥/AC201_AL_board_test(不包含SD_SRAM_EEPROM).rar",
+    "sha256": "78bf1902760046f67604182e2fead1606f1bf60db2b1b59f62808ba1de752194"
+  },
+  {
+    "file": "03_小梅哥硬件与例程\\AC201_AL_board_test_源码摘取\\src\\led.v",
+    "archive": "小梅哥/AC201_AL_board_test(不包含SD_SRAM_EEPROM).rar",
+    "sha256": "a575af646c72e9b6b3e80aa5a0d94aa17f20fad36696d7cc2c150deba6f603b4"
+  },
+  {
+    "file": "03_小梅哥硬件与例程\\AC201_AL_board_test_源码摘取\\src\\mode.v",
+    "archive": "小梅哥/AC201_AL_board_test(不包含SD_SRAM_EEPROM).rar",
+    "sha256": "7ceb15aba3396b2f79c8d7d19382541dbd96bebf6811317a4664f3565bc58279"
+  },
+  {
+    "file": "03_小梅哥硬件与例程\\AC201_AL_board_test_源码摘取\\src\\rgmii_to_gmii.v",
+    "archive": "小梅哥/AC201_AL_board_test(不包含SD_SRAM_EEPROM).rar",
+    "sha256": "5c260f16faf286efb2d00d3843170ae536d951287b7ea30dd4aafd109d547f15"
+  },
+  {
+    "file": "03_小梅哥硬件与例程\\AC201_AL_board_test_源码摘取\\src\\RTC8563_Driver.v",
+    "archive": "小梅哥/AC201_AL_board_test(不包含SD_SRAM_EEPROM).rar",
+    "sha256": "640b5f522b80e57b42699762e913730eb5ef0dd3708145c2f189180fa88e1291"
+  },
+  {
+    "file": "03_小梅哥硬件与例程\\AC201_AL_board_test_源码摘取\\src\\time_adjust.v",
+    "archive": "小梅哥/AC201_AL_board_test(不包含SD_SRAM_EEPROM).rar",
+    "sha256": "c5013902536a0025366070867a65c43774500ba3a2ff83f40a509cc1c11821a1"
+  },
+  {
+    "file": "03_小梅哥硬件与例程\\AC201_AL_board_test_源码摘取\\src\\time_send.v",
+    "archive": "小梅哥/AC201_AL_board_test(不包含SD_SRAM_EEPROM).rar",
+    "sha256": "b7e60c40a2e8098fe3216e78b0f2339b7b53d79633db363f6d0ac65335499872"
+  },
+  {
+    "file": "03_小梅哥硬件与例程\\AC201_AL_board_test_源码摘取\\src\\uart_byte_rx.v",
+    "archive": "小梅哥/AC201_AL_board_test(不包含SD_SRAM_EEPROM).rar",
+    "sha256": "3d7f26481824f01f285e7cc2a66edb1b1fb07ab387fe0942ce65451bd9187c65"
+  },
+  {
+    "file": "03_小梅哥硬件与例程\\AC201_AL_board_test_源码摘取\\src\\uart_byte_tx.v",
+    "archive": "小梅哥/AC201_AL_board_test(不包含SD_SRAM_EEPROM).rar",
+    "sha256": "7dae97924f92b06d9fa3718a844c1efddaa33f5fcf735508eb42826f6949e2c2"
+  },
+  {
+    "file": "03_小梅哥硬件与例程\\AC201_AL_board_test_源码摘取\\src\\uart_pcf8563.v",
+    "archive": "小梅哥/AC201_AL_board_test(不包含SD_SRAM_EEPROM).rar",
+    "sha256": "67760a08a3d989090aa387ae13d8acdcfe3d6eb2f6361e08d35394aa2235a80d"
+  },
+  {
+    "file": "03_小梅哥硬件与例程\\AC201_AL_board_test_源码摘取\\src\\user_source\\constraints_source\\.edid_debug_bak.cwc",
+    "archive": "小梅哥/AC201_AL_board_test(不包含SD_SRAM_EEPROM).rar",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "file": "03_小梅哥硬件与例程\\AC201_AL_board_test_源码摘取\\src\\user_source\\constraints_source\\edid_debug.cwc",
+    "archive": "小梅哥/AC201_AL_board_test(不包含SD_SRAM_EEPROM).rar",
+    "sha256": "6716411e2346de08976e0ad8ed2e09eb93bdc0f60efc31bf75ba70e6cebe1f95"
+  },
+  {
+    "file": "03_小梅哥硬件与例程\\AC201_AL_board_test_源码摘取\\src\\user_source\\constraints_source\\pin.adc",
+    "archive": "小梅哥/AC201_AL_board_test(不包含SD_SRAM_EEPROM).rar",
+    "sha256": "ecacd72c1637d1fa5b8e4d29de8db99d4c75e3343dc8506c6dd05671edad05f9"
+  },
+  {
+    "file": "03_小梅哥硬件与例程\\AC201_AL_board_test_源码摘取\\src\\user_source\\constraints_source\\timing.sdc",
+    "archive": "小梅哥/AC201_AL_board_test(不包含SD_SRAM_EEPROM).rar",
+    "sha256": "2ac437236d04de649b4c9873fcb14479a7e8c936c0c9c80306684ae5066b5c65"
+  },
+  {
+    "file": "03_小梅哥硬件与例程\\AC201_AL_board_test_源码摘取\\src\\user_source\\hdl_source\\audio_arc_calculate.v",
+    "archive": "小梅哥/AC201_AL_board_test(不包含SD_SRAM_EEPROM).rar",
+    "sha256": "552d8d86afd237666b30ae08f31247808e89eb024efde5efc670b82eb617a7dc"
+  },
+  {
+    "file": "03_小梅哥硬件与例程\\AC201_AL_board_test_源码摘取\\src\\user_source\\hdl_source\\design_top_wrapper.v",
+    "archive": "小梅哥/AC201_AL_board_test(不包含SD_SRAM_EEPROM).rar",
+    "sha256": "69695151ab8269c9228acc43e00037ed84c203b3721071839ac5b4a674b34298"
+  },
+  {
+    "file": "03_小梅哥硬件与例程\\AC201_AL_board_test_源码摘取\\src\\user_source\\hdl_source\\hdmi1.4b_transmitter_core\\hdmi_1_4b_transmitter_core_wrapper.enc.v",
+    "archive": "小梅哥/AC201_AL_board_test(不包含SD_SRAM_EEPROM).rar",
+    "sha256": "867e0b0bdd874bc383d00918c9e1be3fe01edf41f343b6a0d73e262776596a63"
+  },
+  {
+    "file": "03_小梅哥硬件与例程\\AC201_AL_board_test_源码摘取\\src\\user_source\\hdl_source\\hdmi_phy_warpper.v",
+    "archive": "小梅哥/AC201_AL_board_test(不包含SD_SRAM_EEPROM).rar",
+    "sha256": "416b082b0987001bdbc0a7e20a557cb8fb1dca34e25dc881e6d28a8cb3cf4300"
+  },
+  {
+    "file": "03_小梅哥硬件与例程\\AC201_AL_board_test_源码摘取\\src\\user_source\\hdl_source\\I2S_receiver.v",
+    "archive": "小梅哥/AC201_AL_board_test(不包含SD_SRAM_EEPROM).rar",
+    "sha256": "08904598b42c2e1a4836cd9fb3293bc6c791ea2f79e35c7663a33127dc97f47b"
+  },
+  {
+    "file": "03_小梅哥硬件与例程\\AC201_AL_board_test_源码摘取\\src\\user_source\\hdl_source\\key_remove_shakes.v",
+    "archive": "小梅哥/AC201_AL_board_test(不包含SD_SRAM_EEPROM).rar",
+    "sha256": "8832f59e7ba94bfb8cf31e4f5a772ef7177d5257a5a2532d53cbfa1d9b7f5cd9"
+  },
+  {
+    "file": "03_小梅哥硬件与例程\\AC201_AL_board_test_源码摘取\\src\\user_source\\hdl_source\\lane_lvds_10_1.v",
+    "archive": "小梅哥/AC201_AL_board_test(不包含SD_SRAM_EEPROM).rar",
+    "sha256": "de9529321354f04837e051d0ec1681cf44783d4be3284703a788e081147500bc"
+  },
+  {
+    "file": "03_小梅哥硬件与例程\\AC201_AL_board_test_源码摘取\\src\\user_source\\hdl_source\\video_source_test.v",
+    "archive": "小梅哥/AC201_AL_board_test(不包含SD_SRAM_EEPROM).rar",
+    "sha256": "39cc05c9684a594d4254d11e66e97344053ab75bdb00f3f5a301643fd7aadbfc"
+  },
+  {
+    "file": "03_小梅哥硬件与例程\\AC201_AL_board_test_源码摘取\\timing.sdc",
+    "archive": "小梅哥/AC201_AL_board_test(不包含SD_SRAM_EEPROM).rar",
+    "sha256": "2ac437236d04de649b4c9873fcb14479a7e8c936c0c9c80306684ae5066b5c65"
+  },
+  {
+    "file": "03_小梅哥硬件与例程\\AC201_AL_uart_sd_rw_源码摘取\\io.adc",
+    "archive": "小梅哥/AC201_AL_uart_sd_rw(串口读写SD卡).rar",
+    "sha256": "657d02b1da465bde805829495b1c6ee73a13ea043da4c9f7ab71c49d909d2d45"
+  },
+  {
+    "file": "03_小梅哥硬件与例程\\AC201_AL_uart_sd_rw_源码摘取\\rtl\\bcd_to_hex.v",
+    "archive": "小梅哥/AC201_AL_uart_sd_rw(串口读写SD卡).rar",
+    "sha256": "950f0da5d1f0270c8a98c61b1f82f71ce15c64722beded6bc7a7cc3f63c13212"
+  },
+  {
+    "file": "03_小梅哥硬件与例程\\AC201_AL_uart_sd_rw_源码摘取\\rtl\\clk_div_var.v",
+    "archive": "小梅哥/AC201_AL_uart_sd_rw(串口读写SD卡).rar",
+    "sha256": "1c46715e2bb0e36659476c1918023ce3f675806e8f9d6bc1de053d9fa4a3e100"
+  },
+  {
+    "file": "03_小梅哥硬件与例程\\AC201_AL_uart_sd_rw_源码摘取\\rtl\\cnt.v",
+    "archive": "小梅哥/AC201_AL_uart_sd_rw(串口读写SD卡).rar",
+    "sha256": "ec0d817246d5c89e89da5ab0f8e1636b53c1b3f9df2a87d2b5cff199c1092979"
+  },
+  {
+    "file": "03_小梅哥硬件与例程\\AC201_AL_uart_sd_rw_源码摘取\\rtl\\delay.v",
+    "archive": "小梅哥/AC201_AL_uart_sd_rw(串口读写SD卡).rar",
+    "sha256": "d486ef8274824fb10144a49e7255d8e0c6f5b9bd2dc8fdbe6e147a5f79bbd0b3"
+  },
+  {
+    "file": "03_小梅哥硬件与例程\\AC201_AL_uart_sd_rw_源码摘取\\rtl\\numstr_to_bcd.v",
+    "archive": "小梅哥/AC201_AL_uart_sd_rw(串口读写SD卡).rar",
+    "sha256": "6f505ef3e45ef97b85036c4f0aa1b48cb969c5e7a0f4931147bbfa00cb67bc46"
+  },
+  {
+    "file": "03_小梅哥硬件与例程\\AC201_AL_uart_sd_rw_源码摘取\\rtl\\pulse_conver.v",
+    "archive": "小梅哥/AC201_AL_uart_sd_rw(串口读写SD卡).rar",
+    "sha256": "cfea12bb4b291473eaeb67d133e7f688ef8d4d3758a50dbd286ca4e908550e8e"
+  },
+  {
+    "file": "03_小梅哥硬件与例程\\AC201_AL_uart_sd_rw_源码摘取\\rtl\\ram_dual_port_simple.v",
+    "archive": "小梅哥/AC201_AL_uart_sd_rw(串口读写SD卡).rar",
+    "sha256": "141a83fc26849fdb6859fd0bfd52b23b274770dd07a99bd0784deeb2aa4f49b6"
+  },
+  {
+    "file": "03_小梅哥硬件与例程\\AC201_AL_uart_sd_rw_源码摘取\\rtl\\sd_card_control.v",
+    "archive": "小梅哥/AC201_AL_uart_sd_rw(串口读写SD卡).rar",
+    "sha256": "f4ed940d869c5b0aca0e8529016c82a4f674dc6ee40541f6c4853a441f6540b4"
+  },
+  {
+    "file": "03_小梅哥硬件与例程\\AC201_AL_uart_sd_rw_源码摘取\\rtl\\sd_cmd_rec.v",
+    "archive": "小梅哥/AC201_AL_uart_sd_rw(串口读写SD卡).rar",
+    "sha256": "0c022af315ea09247d38a89a1e817109e42d68144a3b783af6a73e656cf59d16"
+  },
+  {
+    "file": "03_小梅哥硬件与例程\\AC201_AL_uart_sd_rw_源码摘取\\rtl\\sd_cmd_send.v",
+    "archive": "小梅哥/AC201_AL_uart_sd_rw(串口读写SD卡).rar",
+    "sha256": "4d297fe191c60f79f0c6d0d3d7d86cb842ed3220669999581b25a09a19d9d2e2"
+  },
+  {
+    "file": "03_小梅哥硬件与例程\\AC201_AL_uart_sd_rw_源码摘取\\rtl\\sd_init.v",
+    "archive": "小梅哥/AC201_AL_uart_sd_rw(串口读写SD卡).rar",
+    "sha256": "e16795fe3e2d1c9cb18bb992123d199ef7da50d8947102b600604fbd3a452dfd"
+  },
+  {
+    "file": "03_小梅哥硬件与例程\\AC201_AL_uart_sd_rw_源码摘取\\rtl\\sd_read_data.v",
+    "archive": "小梅哥/AC201_AL_uart_sd_rw(串口读写SD卡).rar",
+    "sha256": "0686641b83dcf6032e30f25b589f5085f01513294799bdf5150349d099d034d9"
+  },
+  {
+    "file": "03_小梅哥硬件与例程\\AC201_AL_uart_sd_rw_源码摘取\\rtl\\sd_read_sector.v",
+    "archive": "小梅哥/AC201_AL_uart_sd_rw(串口读写SD卡).rar",
+    "sha256": "217123617e43b05d903b16c79eecd47c264cae9d4a349e322ac11028cd659ab3"
+  },
+  {
+    "file": "03_小梅哥硬件与例程\\AC201_AL_uart_sd_rw_源码摘取\\rtl\\sd_write_addr.v",
+    "archive": "小梅哥/AC201_AL_uart_sd_rw(串口读写SD卡).rar",
+    "sha256": "c8855140b5e6685411ffd8ce582148add8510f373b223eb4b46213ec06ca0752"
+  },
+  {
+    "file": "03_小梅哥硬件与例程\\AC201_AL_uart_sd_rw_源码摘取\\rtl\\sd_write_data.v",
+    "archive": "小梅哥/AC201_AL_uart_sd_rw(串口读写SD卡).rar",
+    "sha256": "52eaf6b67fd5c39cfdef0206813d83dd1edeef23806f2f4d2668c06921e438b0"
+  },
+  {
+    "file": "03_小梅哥硬件与例程\\AC201_AL_uart_sd_rw_源码摘取\\rtl\\sd_write_sector.v",
+    "archive": "小梅哥/AC201_AL_uart_sd_rw(串口读写SD卡).rar",
+    "sha256": "08cff35ffe1da8b338cf04b7297748f474d99e7c0f5b7afc8f24b24eac1c9991"
+  },
+  {
+    "file": "03_小梅哥硬件与例程\\AC201_AL_uart_sd_rw_源码摘取\\rtl\\sequence_comparator.v",
+    "archive": "小梅哥/AC201_AL_uart_sd_rw(串口读写SD卡).rar",
+    "sha256": "5a80abe17ec1c1e739427252066c5492d69436e252060d5b3d702150346eba80"
+  },
+  {
+    "file": "03_小梅哥硬件与例程\\AC201_AL_uart_sd_rw_源码摘取\\rtl\\spi_driver.v",
+    "archive": "小梅哥/AC201_AL_uart_sd_rw(串口读写SD卡).rar",
+    "sha256": "ce165aeea1f2d2ba2749a3f30de0553d7011a4223f9b34d947414dadc24fde74"
+  },
+  {
+    "file": "03_小梅哥硬件与例程\\AC201_AL_uart_sd_rw_源码摘取\\rtl\\string_compare.v",
+    "archive": "小梅哥/AC201_AL_uart_sd_rw(串口读写SD卡).rar",
+    "sha256": "7103f62d1b1b48a8d5ae319477c17d26977b543af67566f467c7d0d638e40627"
+  },
+  {
+    "file": "03_小梅哥硬件与例程\\AC201_AL_uart_sd_rw_源码摘取\\rtl\\string_param.v",
+    "archive": "小梅哥/AC201_AL_uart_sd_rw(串口读写SD卡).rar",
+    "sha256": "d6e62ac835a2ed927c3332335f1de176f5eb457b3972572043cc96d94360122b"
+  },
+  {
+    "file": "03_小梅哥硬件与例程\\AC201_AL_uart_sd_rw_源码摘取\\rtl\\string_save.v",
+    "archive": "小梅哥/AC201_AL_uart_sd_rw(串口读写SD卡).rar",
+    "sha256": "47d22fdc28ed95a1e82658a5e71b1ef8532a23268786bcb809846d2649b806f7"
+  },
+  {
+    "file": "03_小梅哥硬件与例程\\AC201_AL_uart_sd_rw_源码摘取\\rtl\\string_save_cmp.v",
+    "archive": "小梅哥/AC201_AL_uart_sd_rw(串口读写SD卡).rar",
+    "sha256": "1fdcdf510d60433e478a62dd5fbfe0d59c0c9b0d1f3a9e087c40f9f7ef261da0"
+  },
+  {
+    "file": "03_小梅哥硬件与例程\\AC201_AL_uart_sd_rw_源码摘取\\rtl\\top.v",
+    "archive": "小梅哥/AC201_AL_uart_sd_rw(串口读写SD卡).rar",
+    "sha256": "330d93bc963e353ae446b16720e7b8845a922664c81fbb4f3b21ae7ebd446cad"
+  },
+  {
+    "file": "03_小梅哥硬件与例程\\AC201_AL_uart_sd_rw_源码摘取\\rtl\\uart_const_baud.v",
+    "archive": "小梅哥/AC201_AL_uart_sd_rw(串口读写SD卡).rar",
+    "sha256": "595381fedc351294de50cf1f9790198e5b31d8341dc3a76a580eafcec7df8c77"
+  },
+  {
+    "file": "03_小梅哥硬件与例程\\AC201_AL_uart_sd_rw_源码摘取\\rtl\\uart_const_baud_rx.v",
+    "archive": "小梅哥/AC201_AL_uart_sd_rw(串口读写SD卡).rar",
+    "sha256": "291b9dda6cde5439bc5cc653c3a1df554b8423aeb69a5ebc6c1e5755f1db55a0"
+  },
+  {
+    "file": "03_小梅哥硬件与例程\\AC201_AL_uart_sd_rw_源码摘取\\rtl\\uart_const_baud_tx.v",
+    "archive": "小梅哥/AC201_AL_uart_sd_rw(串口读写SD卡).rar",
+    "sha256": "05013b867895b52fa3c29138e547667fa114e89f3545869f4d9a46b26eca9584"
+  },
+  {
+    "file": "03_小梅哥硬件与例程\\AC201_AL_uart_sd_rw_源码摘取\\rtl\\uart_sd_example.v",
+    "archive": "小梅哥/AC201_AL_uart_sd_rw(串口读写SD卡).rar",
+    "sha256": "a82fa4f7caa8a4cd1f9c06a0e832c3d90851c156f578e79950bd38bbdafb145a"
+  },
+  {
+    "file": "03_小梅哥硬件与例程\\AC201_AL_uart_sd_rw_源码摘取\\uart_sd_rw.al",
+    "archive": "小梅哥/AC201_AL_uart_sd_rw(串口读写SD卡).rar",
+    "sha256": "103b5e0065d523627a24edd038344b4e888935acf551f87045c43b58972e3c26"
+  },
+  {
+    "file": "03_小梅哥硬件与例程\\AC201_AL_SRAM_源码摘取\\AC201-240515.pdf",
+    "archive": "小梅哥/AC201_AL_SRAM(串口读写SRAM).rar",
+    "sha256": "7a248e14ed3f48d9b2b1520fe177f6d9db6a4ea1f23a154055e67b18d85b6249"
+  },
+  {
+    "file": "03_小梅哥硬件与例程\\AC201_AL_SRAM_源码摘取\\AC201_AL_Sram_Test.al",
+    "archive": "小梅哥/AC201_AL_SRAM(串口读写SRAM).rar",
+    "sha256": "7bde25f6c91fea600413e3ef589fd2f0dc563a4d698d81fcbfc9744b73868bd2"
+  },
+  {
+    "file": "03_小梅哥硬件与例程\\AC201_AL_SRAM_源码摘取\\doc\\sram_bist_notes.md",
+    "archive": "小梅哥/AC201_AL_SRAM(串口读写SRAM).rar",
+    "sha256": "690292be04a7a86b05466efaf4f140a61d728583e96c488d9a39f2e3a6013e1a"
+  },
+  {
+    "file": "03_小梅哥硬件与例程\\AC201_AL_SRAM_源码摘取\\doc\\sram_uart_notes.md",
+    "archive": "小梅哥/AC201_AL_SRAM(串口读写SRAM).rar",
+    "sha256": "4643698656bbd70e233f43b47edb834dcdfe3321835fe0777e2821693aa8943e"
+  },
+  {
+    "file": "03_小梅哥硬件与例程\\AC201_AL_SRAM_源码摘取\\IO.adc",
+    "archive": "小梅哥/AC201_AL_SRAM(串口读写SRAM).rar",
+    "sha256": "e7d59a2621afb9b55900a3dfca2af189366185859d3c1b79ee9cf25793750942"
+  },
+  {
+    "file": "03_小梅哥硬件与例程\\AC201_AL_SRAM_源码摘取\\rtl\\sram_async_ctrl.v",
+    "archive": "小梅哥/AC201_AL_SRAM(串口读写SRAM).rar",
+    "sha256": "92bbd24c88d3ad39dbb840e1955ddd7978b6d51ff5252380ed750d3ba5b4e26a"
+  },
+  {
+    "file": "03_小梅哥硬件与例程\\AC201_AL_SRAM_源码摘取\\rtl\\sram_bist_engine.v",
+    "archive": "小梅哥/AC201_AL_SRAM(串口读写SRAM).rar",
+    "sha256": "cb271f0d580baf43868acd0e5653266f97eeb65c76393c3dd22717dad4cc4597"
+  },
+  {
+    "file": "03_小梅哥硬件与例程\\AC201_AL_SRAM_源码摘取\\rtl\\sram_bist_top.v",
+    "archive": "小梅哥/AC201_AL_SRAM(串口读写SRAM).rar",
+    "sha256": "af7d2952dabb8f47650eeefac65bdeba3494334c9c552a48abf27de392410d5e"
+  },
+  {
+    "file": "03_小梅哥硬件与例程\\AC201_AL_SRAM_源码摘取\\rtl\\sram_uart_bridge.v",
+    "archive": "小梅哥/AC201_AL_SRAM(串口读写SRAM).rar",
+    "sha256": "baec218b046a93a70b51166b71ee66d8d7b96b068505e7a23641f2c6169ba8a9"
+  },
+  {
+    "file": "03_小梅哥硬件与例程\\AC201_AL_SRAM_源码摘取\\rtl\\sram_uart_top.v",
+    "archive": "小梅哥/AC201_AL_SRAM(串口读写SRAM).rar",
+    "sha256": "7e7556810b46676f3761dc5667c549b06b3beeb7987cb080473e46f5a14a07ec"
+  },
+  {
+    "file": "03_小梅哥硬件与例程\\AC201_AL_SRAM_源码摘取\\rtl\\uart_byte_rx.v",
+    "archive": "小梅哥/AC201_AL_SRAM(串口读写SRAM).rar",
+    "sha256": "c35eac925dc17df72cd804e04afef0c490c639587727d8969726340c484234ed"
+  },
+  {
+    "file": "03_小梅哥硬件与例程\\AC201_AL_SRAM_源码摘取\\rtl\\uart_byte_tx.v",
+    "archive": "小梅哥/AC201_AL_SRAM(串口读写SRAM).rar",
+    "sha256": "3697b9806e9d97b1e8219b6d79a95e39d6e127f2f7f1c8d827289bb5f803c6a3"
+  },
+  {
+    "file": "03_小梅哥硬件与例程\\AC201_AL_SRAM_源码摘取\\sram.md",
+    "archive": "小梅哥/AC201_AL_SRAM(串口读写SRAM).rar",
+    "sha256": "e6303f265a907ea62f82b0065a27eee39330aae48b30f9d4c3ddb02c22f46f7f"
+  }
+]
