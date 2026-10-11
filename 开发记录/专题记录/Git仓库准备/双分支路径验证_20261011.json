@@ -1,0 +1,46 @@
+{
+  "FPGA-ANLU": {
+    "files": 6304,
+    "bytes": 947431832,
+    "mismatches": [],
+    "commit": "4b84ae49f92d5406f9acd29e0ee6db550a03c065",
+    "core.autocrlf": "true",
+    "core.longpaths": "true"
+  },
+  "FPGA-ANLU-docs": {
+    "files": 590,
+    "bytes": 218612683,
+    "mismatches": [],
+    "commit": "a63837316a2117864d1b99ca91be35d0ca7d58a0",
+    "core.autocrlf": "true",
+    "core.longpaths": "true"
+  },
+  "tcl_and_project_paths": {
+    "tcl_statements_complete": 122,
+    "path_only_relocated_scripts_two_cwds": 244,
+    "resolved_path_checks": 418,
+    "tcl_changes_reversible_to_path_only": 122,
+    "xml_project_root_only_changes": 23,
+    "relative_source_references_checked": 1170,
+    "missing_source_references": [],
+    "scope": "Path resolution and XML-only validation; no synthesis, place/route, bitgen or hardware."
+  },
+  "static_checks": {
+    "powershell_parsed": 123,
+    "python_ast_parsed": 27
+  },
+  "entry_links": {
+    "files": 9,
+    "local_links": 144,
+    "missing": 0,
+    "agents_document_references": 10
+  },
+  "runtime_checks": {
+    "clean_clone_osd_state": "PASS coherent dual-clock mailbox and frame selection: 838 assertions",
+    "isolated_codec": "PASS: 12 packed words, 16 pixels, stalls/reset/starvation",
+    "td_import": "TD 6.2.178840 open_project -single_run -noanalyze succeeded for two isolated project copies",
+    "normalize_whatif": "Normalized 0 live TD project location(s)."
+  },
+  "scope": "Portable main checkout/path/import/static/model checks only; no synthesis, place/route, bitgen, board operation, or historical package replay. HDL, constraints, build evidence and frozen checkpoints unchanged.",
+  "recorded_at_local": "2026-10-11T13:40:44"
+}
