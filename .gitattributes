@@ -1,0 +1,3 @@
+# Preserve original bytes in reference sources, evidence and checksum records.
+# Disable checkout/commit newline conversion even when global core.autocrlf is set.
+* -text
