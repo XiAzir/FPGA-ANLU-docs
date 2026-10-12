@@ -31,7 +31,7 @@ E事件flags为island/audio/ACR已见且无粘滞格式/符号错误。计数是
 
 ### 2026-10-11 17:23:48｜C11108固定音乐数据窗口诊断候选交付｜本地验证/封存完成，实板待测
 
-- C11107实板记录完成：用户反馈显示/tone清晰、WAV严重杂音；两视频全部10页均已读，输入/包内样本48000、包数48000、BCH/TERC/内部tone负载错误0、CTS25000/N6144、DFC11107。这只证明所见结构/名义窗口，未证明WAV包内PCM或物理输出。当前成功基线仍osd_phy_fix；live C11107 info=FAIL_WAV_AUDIO_TONE_CLEAR，旧checkpoint/ZIP不覆盖。[证据](../专题记录/OSD状态显示/音频包诊断WAV杂音_20261011/README.md)。
+- C11107实板记录完成：用户反馈显示/tone清晰、WAV严重杂音；两视频全部10页均已读，输入/包内样本48000、包数48000、BCH/TERC/内部tone负载错误0、CTS25000/N6144、DFC11107。这只证明所见结构/名义窗口，未证明WAV包内PCM或物理输出。当前成功基线仍osd_phy_fix；live C11107 info=FAIL_WAV_AUDIO_TONE_CLEAR，旧checkpoint/ZIP不覆盖。[证据](README.md)。
 - 新独立C11108：相对C11107只新增player_pcm_prefix_probe、top换被动观察器/显示载荷、tf_wav_file_player只加四个debug alias、status仅版本/注释；.al路径/新增源条目归一化。桥/音源/媒体控制/FAT/SD/PHY/lane/PLL/引脚/原SDC保持，源/脚本四阶段hash一致。用户音乐前61477样本静音，故首32768方案仅综合后弃用、源码/报告封存build/preflight/silent_prefix_rejected，未生成位流。正式各阶段跳65536事件、采32768再冻结；CRC16初FFFF/poly1021、低byte再高byte。source/popup/HDMI输入按同ordinal对齐，完成bus两拍+ready三拍同步；早tone abort，不连续拼接；完成后mode不改CRC。首窗口高byte文件位置131117与dataoffset44均可显示。
 - 独立Python素材参考：本机TEST.WAV仍SHA D5244FD3935052A743379D9331EE78109C8A913241ED60DE472CB9E34A17FECF，样本65536..98303中31281非零、CRC F485。非本次远控TF新读取哈希。完整参考在build/model/host_music_reference.json。
 - gpt-6-luna只负责只读审计及build/model；root独立重跑正式src模型：合成跨扇区头/data、异步clock、bytegaps、短payload循环三CRC0DD5；仅被动支路pop/HDMI样本一bit注入使对应CRC98A6，低8格式故障计1、早tone abort/完成后freeze都PASS。真参数CRC单元直驱本机音乐首98304向量得F485/32768；不是全真参数播放器/bridge/加密HDMI实测。页面自检/10页/DFC11108/回绕PASS。日志在build/model/pipeline_model.log、pipeline_compile.log、status_pages.log、reference_generation.log；无compile警告。
