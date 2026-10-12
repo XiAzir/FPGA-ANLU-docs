@@ -1,0 +1,93 @@
+{
+  "recordedBeijing": "2026-10-12 09:57:30",
+  "clientDate": "2026-10-12",
+  "version": "C11109",
+  "boardStatus": "PASS_REPORTED_FUNCTIONS_AND_PCM_WINDOW",
+  "reportedByUser": {
+    "image": "normal",
+    "key0Manual": "normal",
+    "key1Auto": "normal",
+    "defaultMusic": "normal",
+    "internalTone": "normal"
+  },
+  "pages": {
+    "before": {
+      "1": "1DA80000",
+      "3": "3300BB80",
+      "6": "6700F485",
+      "7": "7700F485",
+      "8": "8700F485",
+      "9": "97000000",
+      "A": "A7008000",
+      "B": "B702002D",
+      "C": "C700002C",
+      "D": "DFC11109"
+    },
+    "after": {
+      "1": "1DA80000",
+      "3": "3B00BB80",
+      "6": "6700F485",
+      "7": "7700F485",
+      "8": "8700F485",
+      "9": "97000000",
+      "A": "A7008000",
+      "B": "B702002D",
+      "C": "C700002C",
+      "D": "DFC11109"
+    }
+  },
+  "decode": "Assistant manual full-frame/contact-sheet seven-segment reading at fps2; all 10 pages present in both videos.",
+  "selectedFramesAtFps2": {
+    "1": 1,
+    "3": 4,
+    "6": 8,
+    "7": 12,
+    "8": 16,
+    "9": 20,
+    "A": 24,
+    "B": 28,
+    "C": 32,
+    "D": 36
+  },
+  "videos": [
+    {
+      "mode": "before",
+      "origin": "E:\\QQ CACHE\\LiaoTianJiLu\\Tencent Files\\1791081637\\nt_qq\\nt_data\\Video\\2026-10\\Ori\\aae394d1427c6a5535dc3a6d1bbd6e78.mp4",
+      "archive": "E:\\QQ CACHE\\Download\\安路资料\\开发记录\\专题记录\\OSD状态显示\\同步BRAM实板通过与原因证据_20261012\\before\\board_video.mp4",
+      "bytes": 5170050,
+      "sha256": "A24D84F4FCA5EFC893D9E73C1F5FF841F0F22B87E974516FF54682A07C0ACBBA",
+      "durationSeconds": 19.833289
+    },
+    {
+      "mode": "after",
+      "origin": "E:\\QQ CACHE\\LiaoTianJiLu\\Tencent Files\\1791081637\\nt_qq\\nt_data\\Video\\2026-10\\Ori\\f97e07aada50f57f12de45be14a79246.mp4",
+      "archive": "E:\\QQ CACHE\\Download\\安路资料\\开发记录\\专题记录\\OSD状态显示\\同步BRAM实板通过与原因证据_20261012\\after\\board_video.mp4",
+      "bytes": 5263036,
+      "sha256": "02AB0213692AEC9366F3C7AE55AFBC88957C0EC3902338937CF39FCBB7EFC6B3",
+      "durationSeconds": 19.8667
+    }
+  ],
+  "localBitSha256": "A5F2C25BA1F65B05051419093BC78EC2DD05E510502D914450DD77673CB7E0C0",
+  "remoteBitHashIndependentlyRead": false,
+  "referenceMusicSha256": "D5244FD3935052A743379D9331EE78109C8A913241ED60DE472CB9E34A17FECF",
+  "comparison": {
+    "C11108": {
+      "push": "F485",
+      "pop": "D2D6",
+      "hdmiInput": "D2D6"
+    },
+    "C11109": {
+      "push": "F485",
+      "pop": "F485",
+      "hdmiInput": "F485"
+    }
+  },
+  "interpretation": "Observed FIFO/output CRC divergence disappeared after synchronous BRAM sample-storage rewrite, concurrent with user-reported audio/image recovery. Strong evidence for FIFO-related implementation/sampling/sequence boundary; not proof of unique physical failure mechanism or common cause for all historic failures.",
+  "limits": [
+    "CRC16 can collide; only 32768-sample window after skip65536, not whole music/long-run validation.",
+    "After-KEY1 CRC values are frozen prior WAV capture, not independent tone CRC.",
+    "Changed implementation also changes synthesis/place/route; no pin-level capture and no first erroneous sample ordinal from old hardware.",
+    "Display and listening outcomes come from user; board-only videos do not independently show every image or key action.",
+    "No fresh remote TF hash or hardware action by assistant."
+  ]
+}

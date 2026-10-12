@@ -1,0 +1,3296 @@
+{
+  "schemaVersion": 1,
+  "createdLocal": "2026-10-12 Asia/Shanghai",
+  "extractionRoot": "赛题1_工作资料/05_补充参考工程",
+  "pathSafety": "All archive paths checked for absolute paths, drive prefixes, invalid Windows characters, dot and parent traversal. Each copied destination was canonicalized inside extractionRoot; existing files were hash-verified before reuse.",
+  "packages": [
+    {
+      "sourceFile": "设计参考文档.zip",
+      "sourceSha256": "DBFA2ACDE352F9AF0CBFA0C384CE60A028DFB6F15F84B7355C1630592B8AFC9D",
+      "sourceBytes": 6227786,
+      "entryCount": 5,
+      "members": [
+        {
+          "path": "lab_ex_1.docx",
+          "length": 1688887,
+          "sha256": "890EA5EE5FAD12D97DCC381BAC2B3F046E4A83DAE7A727165E557419A026C24D",
+          "decision": "copied",
+          "destination": "赛题1_工作资料/05_补充参考工程/设计参考文档补充/lab_ex_1.docx",
+          "reason": "独有的lab_ex_1/2/3说明书"
+        },
+        {
+          "path": "lab_ex_2.docx",
+          "length": 366651,
+          "sha256": "7ECD7D2F51D249E8FB28CC8882E5035ADBF30B55F2D8D9CA90A1D4A20748005F",
+          "decision": "copied",
+          "destination": "赛题1_工作资料/05_补充参考工程/设计参考文档补充/lab_ex_2.docx",
+          "reason": "独有的lab_ex_1/2/3说明书"
+        },
+        {
+          "path": "lab_ex_3.docx",
+          "length": 363947,
+          "sha256": "0E1EB0FAAE170C4B1E2A5E2407ABFFE4CC4DFC54BA4E790668F79FF5EA0891C3",
+          "decision": "copied",
+          "destination": "赛题1_工作资料/05_补充参考工程/设计参考文档补充/lab_ex_3.docx",
+          "reason": "独有的lab_ex_1/2/3说明书"
+        },
+        {
+          "path": "lab_ex_4.docx",
+          "length": 1473979,
+          "sha256": "51174ACF9BCFA0EE1740F882B20534AB1D08B73AAEB0ADA9F545C82AB561DFB9",
+          "decision": "already-tracked",
+          "destination": "赛题1_工作资料/01_赛题与参考说明/lab_ex_4.docx",
+          "reason": "与已跟踪说明书逐字节相同；SHA256比对一致"
+        },
+        {
+          "path": "lab_ex_5.docx",
+          "length": 2456924,
+          "sha256": "7E9386F5BB196394CF7F7BD2E1AA6BD415E52A87333D028C0AD8BFA565F06017",
+          "decision": "already-tracked",
+          "destination": "赛题1_工作资料/01_赛题与参考说明/lab_ex_5.docx",
+          "reason": "与已跟踪说明书逐字节相同；SHA256比对一致"
+        }
+      ]
+    },
+    {
+      "sourceFile": "HX4S20安装驱动文档.zip",
+      "sourceSha256": "420C2F582B6C7BD3045ABAEA3E8729A1366EB0001582C23A94B3CE4EFDB0EEA8",
+      "sourceBytes": 1668022,
+      "entryCount": 4,
+      "members": [
+        {
+          "path": "安装前先看这个.txt",
+          "length": 691,
+          "sha256": "FDC958547B6F45784A1D1E050DBB91D565B6ABEE965524B3803A6C47B41F0C77",
+          "decision": "copied",
+          "destination": "赛题1_工作资料/05_补充参考工程/TD安装与前置说明/安装前先看这个.txt",
+          "reason": "安装前说明/TD安装教程；不包含驱动二进制或license"
+        },
+        {
+          "path": "安路TD开发工具软件安装教程.docx",
+          "length": 1088416,
+          "sha256": "3F3883DE282BAFEF011545A5E3704D048106F4BDFF0EA6A4AE086062C7241E77",
+          "decision": "copied",
+          "destination": "赛题1_工作资料/05_补充参考工程/TD安装与前置说明/安路TD开发工具软件安装教程.docx",
+          "reason": "安装前说明/TD安装教程；不包含驱动二进制或license"
+        },
+        {
+          "path": "Win10、Win11解决驱动签名问题.pdf",
+          "length": 637129,
+          "sha256": "9FDD0CDEE83FA166A43F3FCD3708111B2B43DD81C4846872AFA364E006C70B2C",
+          "decision": "excluded",
+          "destination": null,
+          "reason": "与本次参考资料提取范围无关"
+        },
+        {
+          "path": "Anlogic.lic",
+          "length": 258,
+          "sha256": "0CBE43852D957A9E98D17FAF1460924E69785AED7D454C7F93E373AB886BD01A",
+          "decision": "excluded-sensitive",
+          "destination": null,
+          "reason": "license不复制、不展示内容"
+        }
+      ]
+    },
+    {
+      "sourceFile": "HDMI环出实验.zip",
+      "sourceSha256": "4F617044B367E9E4935FC552CB800EB7FC8890AD920540BC38E7985522795541",
+      "sourceBytes": 36923699,
+      "entryCount": 299,
+      "members": [
+        {
+          "path": "eg4s324_hdmi_loop/",
+          "length": 0,
+          "sha256": null,
+          "decision": "directory",
+          "destination": null,
+          "reason": "目录项"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/al_ip/",
+          "length": 0,
+          "sha256": null,
+          "decision": "directory",
+          "destination": null,
+          "reason": "目录项"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_loop/",
+          "length": 0,
+          "sha256": null,
+          "decision": "directory",
+          "destination": null,
+          "reason": "目录项"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_loop/.recent_user_depot.ini",
+          "length": 0,
+          "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+          "decision": "excluded-generated",
+          "destination": null,
+          "reason": "工具数据库、构建/仿真输出、日志或本地状态文件"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_loop/al_ip/",
+          "length": 0,
+          "sha256": null,
+          "decision": "directory",
+          "destination": null,
+          "reason": "目录项"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_loop/al_ip/audio_pll.ipc",
+          "length": 1134,
+          "sha256": "36E8C38A5D12C29A460555DE040F0808F600EB60BDC336AE279D09EFD7FE37A2",
+          "decision": "copied",
+          "destination": "赛题1_工作资料/05_补充参考工程/HDMI环出实验/eg4s324_hdmi_loop/hdmi_loop/al_ip/audio_pll.ipc",
+          "reason": "HDMI环出源码、IP、约束、项目、仿真testbench/脚本或EDID MIF"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_loop/al_ip/audio_pll.v",
+          "length": 2251,
+          "sha256": "FFA36ABB4C7B87455DBF1ABFCFFC5EA1745E82917EEC6776DEBF139CCD9D8F07",
+          "decision": "copied",
+          "destination": "赛题1_工作资料/05_补充参考工程/HDMI环出实验/eg4s324_hdmi_loop/hdmi_loop/al_ip/audio_pll.v",
+          "reason": "HDMI环出源码、IP、约束、项目、仿真testbench/脚本或EDID MIF"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_loop/al_ip/audio_pll_sim.v",
+          "length": 2863,
+          "sha256": "82C279ACFDEA2DA29C781831464F3CF829AF5A505EF7E429F8E71FFBEB2A75DD",
+          "decision": "copied",
+          "destination": "赛题1_工作资料/05_补充参考工程/HDMI环出实验/eg4s324_hdmi_loop/hdmi_loop/al_ip/audio_pll_sim.v",
+          "reason": "HDMI环出源码、IP、约束、项目、仿真testbench/脚本或EDID MIF"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_loop/al_ip/BUFG_user.ipc",
+          "length": 452,
+          "sha256": "3FADD7E34F2F99E53694E9FEBB3859E5951442814102AB6A28F88C4D4111BF40",
+          "decision": "copied",
+          "destination": "赛题1_工作资料/05_补充参考工程/HDMI环出实验/eg4s324_hdmi_loop/hdmi_loop/al_ip/BUFG_user.ipc",
+          "reason": "HDMI环出源码、IP、约束、项目、仿真testbench/脚本或EDID MIF"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_loop/al_ip/BUFG_user.v",
+          "length": 664,
+          "sha256": "4D0E30DC6C119630E946702AB339109D8371C6109E55A64B3300F293EF614E8F",
+          "decision": "copied",
+          "destination": "赛题1_工作资料/05_补充参考工程/HDMI环出实验/eg4s324_hdmi_loop/hdmi_loop/al_ip/BUFG_user.v",
+          "reason": "HDMI环出源码、IP、约束、项目、仿真testbench/脚本或EDID MIF"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_loop/al_ip/BUFG_user.vhd",
+          "length": 806,
+          "sha256": "0B97CC5C8A3C8343D352CA9841F840B20317DCE238A433567227BE6CEF00E265",
+          "decision": "copied",
+          "destination": "赛题1_工作资料/05_补充参考工程/HDMI环出实验/eg4s324_hdmi_loop/hdmi_loop/al_ip/BUFG_user.vhd",
+          "reason": "HDMI环出源码、IP、约束、项目、仿真testbench/脚本或EDID MIF"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_loop/al_ip/DRAM16X1.ipc",
+          "length": 486,
+          "sha256": "7F69EAA3A040264DEEC6C8221481848D77B54EF6BF584023A5B1AF6C8E4B0BAE",
+          "decision": "copied",
+          "destination": "赛题1_工作资料/05_补充参考工程/HDMI环出实验/eg4s324_hdmi_loop/hdmi_loop/al_ip/DRAM16X1.ipc",
+          "reason": "HDMI环出源码、IP、约束、项目、仿真testbench/脚本或EDID MIF"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_loop/al_ip/DRAM16X1.v",
+          "length": 1313,
+          "sha256": "ADF2DCF4FDE50FA4C5CEB35AAB1D03C44C0EDBB77197D394603F880EFD0DCD5F",
+          "decision": "copied",
+          "destination": "赛题1_工作资料/05_补充参考工程/HDMI环出实验/eg4s324_hdmi_loop/hdmi_loop/al_ip/DRAM16X1.v",
+          "reason": "HDMI环出源码、IP、约束、项目、仿真testbench/脚本或EDID MIF"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_loop/al_ip/DRAM16X1_sim.v",
+          "length": 1319,
+          "sha256": "68C55EDA4BD9BEA7385520D5BF610E02839FBD618F4D720CFE7DC66EE6FAD949",
+          "decision": "copied",
+          "destination": "赛题1_工作资料/05_补充参考工程/HDMI环出实验/eg4s324_hdmi_loop/hdmi_loop/al_ip/DRAM16X1_sim.v",
+          "reason": "HDMI环出源码、IP、约束、项目、仿真testbench/脚本或EDID MIF"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_loop/al_ip/edid_mif/",
+          "length": 0,
+          "sha256": null,
+          "decision": "directory",
+          "destination": null,
+          "reason": "目录项"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_loop/al_ip/edid_mif/edid_1080.mif",
+          "length": 3173,
+          "sha256": "3CFAF04E6218C8A6F5AB646C3A962B4B66A3B318A8F110DD3A217D5A01CE2510",
+          "decision": "copied",
+          "destination": "赛题1_工作资料/05_补充参考工程/HDMI环出实验/eg4s324_hdmi_loop/hdmi_loop/al_ip/edid_mif/edid_1080.mif",
+          "reason": "HDMI环出源码、IP、约束、项目、仿真testbench/脚本或EDID MIF"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_loop/al_ip/edid_mif/edid_1280720.mif",
+          "length": 3177,
+          "sha256": "175CBBC61136E6B57F278A86BE9E34C8B537CDEC69A2B78DF0082B7FC8BFE0DA",
+          "decision": "copied",
+          "destination": "赛题1_工作资料/05_补充参考工程/HDMI环出实验/eg4s324_hdmi_loop/hdmi_loop/al_ip/edid_mif/edid_1280720.mif",
+          "reason": "HDMI环出源码、IP、约束、项目、仿真testbench/脚本或EDID MIF"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_loop/al_ip/edid_mif/edid_1280720_with_audio.mif",
+          "length": 3374,
+          "sha256": "798892BBCC43E0ABDBAE3F5B58B07C2D0C90B40965337EE950B1368D85B75EDE",
+          "decision": "copied",
+          "destination": "赛题1_工作资料/05_补充参考工程/HDMI环出实验/eg4s324_hdmi_loop/hdmi_loop/al_ip/edid_mif/edid_1280720_with_audio.mif",
+          "reason": "HDMI环出源码、IP、约束、项目、仿真testbench/脚本或EDID MIF"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_loop/al_ip/edid_mif/edid_800600.mif",
+          "length": 3177,
+          "sha256": "C4E18D2F0845136830F34CCD82E33EC6D2396A7180BDACDE8D3C8DB6EA9A09F5",
+          "decision": "copied",
+          "destination": "赛题1_工作资料/05_补充参考工程/HDMI环出实验/eg4s324_hdmi_loop/hdmi_loop/al_ip/edid_mif/edid_800600.mif",
+          "reason": "HDMI环出源码、IP、约束、项目、仿真testbench/脚本或EDID MIF"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_loop/al_ip/edid_mif/edid_rom.mif",
+          "length": 3163,
+          "sha256": "6383D4CCE266C8703C9C2246E560F2E9E9D68CAC439C83FF88DE2CE50F1364FA",
+          "decision": "copied",
+          "destination": "赛题1_工作资料/05_补充参考工程/HDMI环出实验/eg4s324_hdmi_loop/hdmi_loop/al_ip/edid_mif/edid_rom.mif",
+          "reason": "HDMI环出源码、IP、约束、项目、仿真testbench/脚本或EDID MIF"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_loop/al_ip/edid_mif/NEW_MIF.mif",
+          "length": 2901,
+          "sha256": "AE3CB0BA2162104C6E1D2AF79010006BD9761C0B5E71BF96DE8B4105CC107A1D",
+          "decision": "copied",
+          "destination": "赛题1_工作资料/05_补充参考工程/HDMI环出实验/eg4s324_hdmi_loop/hdmi_loop/al_ip/edid_mif/NEW_MIF.mif",
+          "reason": "HDMI环出源码、IP、约束、项目、仿真testbench/脚本或EDID MIF"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_loop/al_ip/fifo_24bit.ipc",
+          "length": 1093,
+          "sha256": "769B9AAD30992AD18C5E712F68AF453BD99D60E800A468D4D7DB0A570A8241CB",
+          "decision": "copied",
+          "destination": "赛题1_工作资料/05_补充参考工程/HDMI环出实验/eg4s324_hdmi_loop/hdmi_loop/al_ip/fifo_24bit.ipc",
+          "reason": "HDMI环出源码、IP、约束、项目、仿真testbench/脚本或EDID MIF"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_loop/al_ip/fifo_24bit.v",
+          "length": 1209,
+          "sha256": "86047CF265AFEA72E0D427560D988869CE3AEF2EECCD4F5FB7C92C99605C520C",
+          "decision": "copied",
+          "destination": "赛题1_工作资料/05_补充参考工程/HDMI环出实验/eg4s324_hdmi_loop/hdmi_loop/al_ip/fifo_24bit.v",
+          "reason": "HDMI环出源码、IP、约束、项目、仿真testbench/脚本或EDID MIF"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_loop/al_ip/fifo_24bit_sim.v",
+          "length": 6984,
+          "sha256": "08D39B7A5D74595D194193D7F142E46188FB65774CAD6EA73DB0D6CAE6FA0478",
+          "decision": "copied",
+          "destination": "赛题1_工作资料/05_补充参考工程/HDMI环出实验/eg4s324_hdmi_loop/hdmi_loop/al_ip/fifo_24bit_sim.v",
+          "reason": "HDMI环出源码、IP、约束、项目、仿真testbench/脚本或EDID MIF"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_loop/al_ip/hdmi_pll.ipc",
+          "length": 1398,
+          "sha256": "B29FBA87CA7411BCBA2C88EFBA366D2D220BFE988B77370D5D5A7FA367EC4031",
+          "decision": "copied",
+          "destination": "赛题1_工作资料/05_补充参考工程/HDMI环出实验/eg4s324_hdmi_loop/hdmi_loop/al_ip/hdmi_pll.ipc",
+          "reason": "HDMI环出源码、IP、约束、项目、仿真testbench/脚本或EDID MIF"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_loop/al_ip/hdmi_pll.v",
+          "length": 2720,
+          "sha256": "41FC3E74259720CDF2D5BF08A964F912B06DDC1F76247F5164278E0596FEC9D3",
+          "decision": "copied",
+          "destination": "赛题1_工作资料/05_补充参考工程/HDMI环出实验/eg4s324_hdmi_loop/hdmi_loop/al_ip/hdmi_pll.v",
+          "reason": "HDMI环出源码、IP、约束、项目、仿真testbench/脚本或EDID MIF"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_loop/al_ip/hdmi_pll_sim.v",
+          "length": 3177,
+          "sha256": "25BC176F513C41056BDCFCAC9198A1C3D768A407E1CC534187C4CAE81D171DDF",
+          "decision": "copied",
+          "destination": "赛题1_工作资料/05_补充参考工程/HDMI环出实验/eg4s324_hdmi_loop/hdmi_loop/al_ip/hdmi_pll_sim.v",
+          "reason": "HDMI环出源码、IP、约束、项目、仿真testbench/脚本或EDID MIF"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_loop/al_ip/myedid_new.ipc",
+          "length": 937,
+          "sha256": "00C7729E0B173184A99A4F72BB68800578C818CAF26F59034DFAFBC9FCCF665C",
+          "decision": "copied",
+          "destination": "赛题1_工作资料/05_补充参考工程/HDMI环出实验/eg4s324_hdmi_loop/hdmi_loop/al_ip/myedid_new.ipc",
+          "reason": "HDMI环出源码、IP、约束、项目、仿真testbench/脚本或EDID MIF"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_loop/al_ip/myedid_new.v",
+          "length": 1849,
+          "sha256": "0BF8F880F9CC30661E51430ED122DC2400CAC4847D537CA4639BF7C22B404856",
+          "decision": "copied",
+          "destination": "赛题1_工作资料/05_补充参考工程/HDMI环出实验/eg4s324_hdmi_loop/hdmi_loop/al_ip/myedid_new.v",
+          "reason": "HDMI环出源码、IP、约束、项目、仿真testbench/脚本或EDID MIF"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_loop/al_ip/myedid_new_sim.v",
+          "length": 4815,
+          "sha256": "718957459F09280C1288BC1AB5C53ECB509A979FAE2E8F14C7B294374DEFC4C9",
+          "decision": "copied",
+          "destination": "赛题1_工作资料/05_补充参考工程/HDMI环出实验/eg4s324_hdmi_loop/hdmi_loop/al_ip/myedid_new_sim.v",
+          "reason": "HDMI环出源码、IP、约束、项目、仿真testbench/脚本或EDID MIF"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_loop/al_ip/PLL_hdmi_rx_tx.ipc",
+          "length": 1896,
+          "sha256": "1ACC814535AA5BC947FEFF4703F11AC62F4AB46BA98BC36F0E37684B61DC2186",
+          "decision": "copied",
+          "destination": "赛题1_工作资料/05_补充参考工程/HDMI环出实验/eg4s324_hdmi_loop/hdmi_loop/al_ip/PLL_hdmi_rx_tx.ipc",
+          "reason": "HDMI环出源码、IP、约束、项目、仿真testbench/脚本或EDID MIF"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_loop/al_ip/PLL_hdmi_rx_tx.v",
+          "length": 2852,
+          "sha256": "047B9146328C864F3B0686DAC72427FB9D0D202D55EC167BDAC998876B71148A",
+          "decision": "copied",
+          "destination": "赛题1_工作资料/05_补充参考工程/HDMI环出实验/eg4s324_hdmi_loop/hdmi_loop/al_ip/PLL_hdmi_rx_tx.v",
+          "reason": "HDMI环出源码、IP、约束、项目、仿真testbench/脚本或EDID MIF"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_loop/al_ip/PLL_hdmi_rx_tx.vhd",
+          "length": 3090,
+          "sha256": "18BC8D9C6627FFDA44CDB77524CFF0A4CEFD89F4D3AC2479A311D38977BBD63D",
+          "decision": "copied",
+          "destination": "赛题1_工作资料/05_补充参考工程/HDMI环出实验/eg4s324_hdmi_loop/hdmi_loop/al_ip/PLL_hdmi_rx_tx.vhd",
+          "reason": "HDMI环出源码、IP、约束、项目、仿真testbench/脚本或EDID MIF"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_loop/al_ip/tx_pll.ipc",
+          "length": 1347,
+          "sha256": "7E3A1EB6348CA071FCF6460DB76979A03BDAEB884EBE98D5B5E879ECD5B08FA1",
+          "decision": "copied",
+          "destination": "赛题1_工作资料/05_补充参考工程/HDMI环出实验/eg4s324_hdmi_loop/hdmi_loop/al_ip/tx_pll.ipc",
+          "reason": "HDMI环出源码、IP、约束、项目、仿真testbench/脚本或EDID MIF"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_loop/al_ip/tx_pll.v",
+          "length": 2444,
+          "sha256": "9A9DD3D2B51CEED86EDB55DD8E125C740446E361B838340719BA94D83084181F",
+          "decision": "copied",
+          "destination": "赛题1_工作资料/05_补充参考工程/HDMI环出实验/eg4s324_hdmi_loop/hdmi_loop/al_ip/tx_pll.v",
+          "reason": "HDMI环出源码、IP、约束、项目、仿真testbench/脚本或EDID MIF"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_loop/al_ip/tx_pll_sim.v",
+          "length": 2880,
+          "sha256": "20C358F7A9E28350B2B392F7033009A0633E97FFC8F2DC08B9F9309A29010F16",
+          "decision": "copied",
+          "destination": "赛题1_工作资料/05_补充参考工程/HDMI环出实验/eg4s324_hdmi_loop/hdmi_loop/al_ip/tx_pll_sim.v",
+          "reason": "HDMI环出源码、IP、约束、项目、仿真testbench/脚本或EDID MIF"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_loop/audio.cwc",
+          "length": 120998,
+          "sha256": "A1E8A1EF74FE495275EED59F3AE2DA5717D41582D8C0074D82DA8CDED5B363CF",
+          "decision": "copied",
+          "destination": "赛题1_工作资料/05_补充参考工程/HDMI环出实验/eg4s324_hdmi_loop/hdmi_loop/audio.cwc",
+          "reason": "HDMI环出源码、IP、约束、项目、仿真testbench/脚本或EDID MIF"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_loop/chip_debugger/",
+          "length": 0,
+          "sha256": null,
+          "decision": "directory",
+          "destination": null,
+          "reason": "目录项"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_loop/chip_debugger/user.cfg",
+          "length": 3525,
+          "sha256": "B75868ACA02A64F0ACBF457ABC6F47692E4C7FCAA6A42E9B3113FD3294911A19",
+          "decision": "copied",
+          "destination": "赛题1_工作资料/05_补充参考工程/HDMI环出实验/eg4s324_hdmi_loop/hdmi_loop/chip_debugger/user.cfg",
+          "reason": "HDMI环出源码、IP、约束、项目、仿真testbench/脚本或EDID MIF"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_loop/dbg.cwc",
+          "length": 23778,
+          "sha256": "55D4A5340CD86585BB89A7BBFA4F70F0C3B1647CAEDD0AEFA5F4E7182C8850D0",
+          "decision": "copied",
+          "destination": "赛题1_工作资料/05_补充参考工程/HDMI环出实验/eg4s324_hdmi_loop/hdmi_loop/dbg.cwc",
+          "reason": "HDMI环出源码、IP、约束、项目、仿真testbench/脚本或EDID MIF"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_loop/dbg_rawdata.cwc",
+          "length": 86122,
+          "sha256": "2F580CA5D06577ACAE6D017D57880989132D9C2BE2146F09CBD1EB3A31F25F9E",
+          "decision": "copied",
+          "destination": "赛题1_工作资料/05_补充参考工程/HDMI环出实验/eg4s324_hdmi_loop/hdmi_loop/dbg_rawdata.cwc",
+          "reason": "HDMI环出源码、IP、约束、项目、仿真testbench/脚本或EDID MIF"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_loop/fifofull.cwc",
+          "length": 764,
+          "sha256": "AA3101BBAC6D82972FB37D2BAC63D350E420BFE1550A16773B9F3E542D0AE0BA",
+          "decision": "copied",
+          "destination": "赛题1_工作资料/05_补充参考工程/HDMI环出实验/eg4s324_hdmi_loop/hdmi_loop/fifofull.cwc",
+          "reason": "HDMI环出源码、IP、约束、项目、仿真testbench/脚本或EDID MIF"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_loop/Gr_congo.info",
+          "length": 1754060,
+          "sha256": "327E12C8EBE4D4BACC6C822786BB8B9CA0605058AFDB6A5309B69F6DA3DA16CC",
+          "decision": "excluded",
+          "destination": null,
+          "reason": "与本次参考资料提取范围无关"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_loop/hdmi_info_dbg.cwc",
+          "length": 19663,
+          "sha256": "BA63A3B8972D5DABCAADAA1651C024E13B64E0DC87A8AB3A2AF7C6E7B3FE2011",
+          "decision": "copied",
+          "destination": "赛题1_工作资料/05_补充参考工程/HDMI环出实验/eg4s324_hdmi_loop/hdmi_loop/hdmi_info_dbg.cwc",
+          "reason": "HDMI环出源码、IP、约束、项目、仿真testbench/脚本或EDID MIF"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_loop/hdmi_loop.al",
+          "length": 19991,
+          "sha256": "F821FCCD130512DE7129C6C12B2A758B7B081A4384CBA7015067E7E51C698FBC",
+          "decision": "copied",
+          "destination": "赛题1_工作资料/05_补充参考工程/HDMI环出实验/eg4s324_hdmi_loop/hdmi_loop/hdmi_loop.al",
+          "reason": "HDMI环出源码、IP、约束、项目、仿真testbench/脚本或EDID MIF"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_loop/hdmi_loop.al.back",
+          "length": 18120,
+          "sha256": "1151BA1E73326205B4695F2F575313AA03B71A0B458BA4FF2381F41EEF4F3580",
+          "decision": "excluded",
+          "destination": null,
+          "reason": "与本次参考资料提取范围无关"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_loop/hdmi_loop.bit",
+          "length": 630769,
+          "sha256": "AA3A482739626CBF554F7FF4D7D03D1DFF6B015A9ACF8372090F93F79EB09DA8",
+          "decision": "excluded-generated",
+          "destination": null,
+          "reason": "工具数据库、构建/仿真输出、日志或本地状态文件"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_loop/hdmi_loop.sdc",
+          "length": 1038,
+          "sha256": "52DBBFFE72AA6284F4D0E8A5E0E326AE53ABF715EA2F59B14DC8A4B68467D100",
+          "decision": "copied",
+          "destination": "赛题1_工作资料/05_补充参考工程/HDMI环出实验/eg4s324_hdmi_loop/hdmi_loop/hdmi_loop.sdc",
+          "reason": "HDMI环出源码、IP、约束、项目、仿真testbench/脚本或EDID MIF"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_loop/hdmi_loop_gate.area",
+          "length": 3057,
+          "sha256": "15BE6D3F5387046B0DF5DFA0B7F0A3C70DA1C5B04FE1691472C4B8352220C40C",
+          "decision": "excluded-generated",
+          "destination": null,
+          "reason": "工具数据库、构建/仿真输出、日志或本地状态文件"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_loop/hdmi_loop_gate.db",
+          "length": 40709381,
+          "sha256": "50F5A09C3E986BCC32CD531B586CD0DC374016CD17E88168E60EFC7B3953BAB7",
+          "decision": "excluded-generated",
+          "destination": null,
+          "reason": "工具数据库、构建/仿真输出、日志或本地状态文件"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_loop/hdmi_loop_inst.bid",
+          "length": 1425,
+          "sha256": "AB49DAC8A32AC31AD15F993C85E2D9D07BDF22B92D046E113D22ACD855FAA82D",
+          "decision": "excluded-generated",
+          "destination": null,
+          "reason": "工具数据库、构建/仿真输出、日志或本地状态文件"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_loop/hdmi_loop_phy.area",
+          "length": 4353,
+          "sha256": "78EBDBB6AAF6282C5F2C123082A11C34994F0AC53198C40846288F3BF9C4C9BB",
+          "decision": "excluded-generated",
+          "destination": null,
+          "reason": "工具数据库、构建/仿真输出、日志或本地状态文件"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_loop/hdmi_loop_phy.timing",
+          "length": 245846,
+          "sha256": "5A59860E6D7BE96EB7B6F13310D4F318F7082E9EB54D01A2C8FC3F924D151B37",
+          "decision": "excluded-generated",
+          "destination": null,
+          "reason": "工具数据库、构建/仿真输出、日志或本地状态文件"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_loop/hdmi_loop_phy.tsm",
+          "length": 37083,
+          "sha256": "75A84BFC1FDC9E88341C7B4E1716BED0DF52A8CD24484E13428ABC688C835FD7",
+          "decision": "copied",
+          "destination": "赛题1_工作资料/05_补充参考工程/HDMI环出实验/eg4s324_hdmi_loop/hdmi_loop/hdmi_loop_phy.tsm",
+          "reason": "HDMI环出源码、IP、约束、项目、仿真testbench/脚本或EDID MIF"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_loop/hdmi_loop_place.area",
+          "length": 3987,
+          "sha256": "289B68AB8F78127C97AD6C6BD507142F5A89723F383A0381A46D6A4CF73DE12D",
+          "decision": "excluded-generated",
+          "destination": null,
+          "reason": "工具数据库、构建/仿真输出、日志或本地状态文件"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_loop/hdmi_loop_pr.db",
+          "length": 42580490,
+          "sha256": "E83EF45E477C8704419BF1C28723A13BD1A05ED30822ABC2FB455E06793012BF",
+          "decision": "excluded-generated",
+          "destination": null,
+          "reason": "工具数据库、构建/仿真输出、日志或本地状态文件"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_loop/hdmi_loop_rtl.area",
+          "length": 1695,
+          "sha256": "8455BE42A4E46FA8F642F918F4667885D20377390CA9114A64F88458C1B0056E",
+          "decision": "excluded-generated",
+          "destination": null,
+          "reason": "工具数据库、构建/仿真输出、日志或本地状态文件"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_loop/hdmi_loop_rtl.db",
+          "length": 33613633,
+          "sha256": "E141A73D2E7294A93694BA8B6A80C200372B8D520049AAB0B43C5C7512D6BB03",
+          "decision": "excluded-generated",
+          "destination": null,
+          "reason": "工具数据库、构建/仿真输出、日志或本地状态文件"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_loop/hdmi_loop_Runs/",
+          "length": 0,
+          "sha256": null,
+          "decision": "directory",
+          "destination": null,
+          "reason": "目录项"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_loop/hdmi_loop_Runs/.logs/",
+          "length": 0,
+          "sha256": null,
+          "decision": "directory",
+          "destination": null,
+          "reason": "目录项"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_loop/hdmi_loop_Runs/.logs/syn_1/",
+          "length": 0,
+          "sha256": null,
+          "decision": "directory",
+          "destination": null,
+          "reason": "目录项"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_loop/hdmi_loop_Runs/.logs/syn_1/td_20251203_174701.log",
+          "length": 62544,
+          "sha256": "64DF7373C52360F204665E950EE0C0BD078D6C871506538739EBB1F38438616C",
+          "decision": "excluded-generated",
+          "destination": null,
+          "reason": "工具数据库、构建/仿真输出、日志或本地状态文件"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_loop/hdmi_loop_Runs/.logs/syn_1/td_20251203_174734.log",
+          "length": 62874,
+          "sha256": "85CE916B046113C328C1F6FE5A9ACE562043F2B36F96FA343010113E2ED097AC",
+          "decision": "excluded-generated",
+          "destination": null,
+          "reason": "工具数据库、构建/仿真输出、日志或本地状态文件"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_loop/hdmi_loop_Runs/best_result/",
+          "length": 0,
+          "sha256": null,
+          "decision": "directory",
+          "destination": null,
+          "reason": "目录项"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_loop/hdmi_loop_Runs/best_result/hdmi_loop.bit",
+          "length": 630794,
+          "sha256": "121FBF7F0AA6CB1E8D972933ED6365391C54146062CAD126B404D188C4A43CDF",
+          "decision": "excluded-generated",
+          "destination": null,
+          "reason": "工具数据库、构建/仿真输出、日志或本地状态文件"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_loop/hdmi_loop_Runs/best_result/hdmi_loop_inst.bid",
+          "length": 4220,
+          "sha256": "F0A7F1C541E24909A0DB9967BDD4866523D9D09642B5CD2821C232E2F6AE20DA",
+          "decision": "excluded-generated",
+          "destination": null,
+          "reason": "工具数据库、构建/仿真输出、日志或本地状态文件"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_loop/hdmi_loop_Runs/best_result/hdmi_loop_phy.ts",
+          "length": 64,
+          "sha256": "04E5645F43C7D9F56227BA3B89A519DB130A54FFBE2ADFE139B71C6347994352",
+          "decision": "excluded-generated",
+          "destination": null,
+          "reason": "工具数据库、构建/仿真输出、日志或本地状态文件"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_loop/hdmi_loop_Runs/best_result/readMe.txt",
+          "length": 58,
+          "sha256": "C1200B9149088B7981DA9E19D6C54782E120AC77CE218F52210DA2B13675F2B6",
+          "decision": "excluded-generated",
+          "destination": null,
+          "reason": "工具数据库、构建/仿真输出、日志或本地状态文件"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_loop/hdmi_loop_Runs/phy_1/",
+          "length": 0,
+          "sha256": null,
+          "decision": "directory",
+          "destination": null,
+          "reason": "目录项"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_loop/hdmi_loop_Runs/phy_1/.bitgen.begin.f",
+          "length": 158,
+          "sha256": "A7CE1212F17DAE84AD0F24E295198312FF4CF3F7031086688E4A7ED8066B3A08",
+          "decision": "excluded-generated",
+          "destination": null,
+          "reason": "工具数据库、构建/仿真输出、日志或本地状态文件"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_loop/hdmi_loop_Runs/phy_1/.bitgen.end.f",
+          "length": 0,
+          "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+          "decision": "excluded-generated",
+          "destination": null,
+          "reason": "工具数据库、构建/仿真输出、日志或本地状态文件"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_loop/hdmi_loop_Runs/phy_1/.bitgen_param.f",
+          "length": 326,
+          "sha256": "4782317C37138EDB5AF25475933F063500B7223FC4D9D0130AA2167A5BEFC37F",
+          "decision": "excluded-generated",
+          "destination": null,
+          "reason": "工具数据库、构建/仿真输出、日志或本地状态文件"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_loop/hdmi_loop_Runs/phy_1/.opt_place.begin.f",
+          "length": 158,
+          "sha256": "A7CE1212F17DAE84AD0F24E295198312FF4CF3F7031086688E4A7ED8066B3A08",
+          "decision": "excluded-generated",
+          "destination": null,
+          "reason": "工具数据库、构建/仿真输出、日志或本地状态文件"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_loop/hdmi_loop_Runs/phy_1/.opt_place.end.f",
+          "length": 0,
+          "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+          "decision": "excluded-generated",
+          "destination": null,
+          "reason": "工具数据库、构建/仿真输出、日志或本地状态文件"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_loop/hdmi_loop_Runs/phy_1/.opt_route.begin.f",
+          "length": 158,
+          "sha256": "A7CE1212F17DAE84AD0F24E295198312FF4CF3F7031086688E4A7ED8066B3A08",
+          "decision": "excluded-generated",
+          "destination": null,
+          "reason": "工具数据库、构建/仿真输出、日志或本地状态文件"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_loop/hdmi_loop_Runs/phy_1/.opt_route.end.f",
+          "length": 0,
+          "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+          "decision": "excluded-generated",
+          "destination": null,
+          "reason": "工具数据库、构建/仿真输出、日志或本地状态文件"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_loop/hdmi_loop_Runs/phy_1/.temp.f",
+          "length": 20,
+          "sha256": "D5DACF087820FB709BF35386F2462EB3DA285B3013AA3695F0BF6562518E447C",
+          "decision": "excluded-generated",
+          "destination": null,
+          "reason": "工具数据库、构建/仿真输出、日志或本地状态文件"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_loop/hdmi_loop_Runs/phy_1/cw/",
+          "length": 0,
+          "sha256": null,
+          "decision": "directory",
+          "destination": null,
+          "reason": "目录项"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_loop/hdmi_loop_Runs/phy_1/cw/auto_created_cwc1/",
+          "length": 0,
+          "sha256": null,
+          "decision": "directory",
+          "destination": null,
+          "reason": "目录项"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_loop/hdmi_loop_Runs/phy_1/cw/auto_created_cwc1/auto_created_cwc1_gate.area",
+          "length": 3377,
+          "sha256": "04B8117CB7BF45FA52527FF3CEC0EB39E860C42BD32B65A6DC735207B21030A4",
+          "decision": "excluded-generated",
+          "destination": null,
+          "reason": "工具数据库、构建/仿真输出、日志或本地状态文件"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_loop/hdmi_loop_Runs/phy_1/cw/auto_created_cwc1/auto_created_cwc1_ooc.db",
+          "length": 232934,
+          "sha256": "52B623EFDE1A0475A8FFA88096D7F9760237E035295470EF8B931C6D9620B541",
+          "decision": "excluded-generated",
+          "destination": null,
+          "reason": "工具数据库、构建/仿真输出、日志或本地状态文件"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_loop/hdmi_loop_Runs/phy_1/cw/auto_created_cwc1/auto_created_cwc1_ooc.log",
+          "length": 16418,
+          "sha256": "52DF6B452574D889652FB961DA9A26376F92E438549687EAA6859EE326B247B3",
+          "decision": "excluded-generated",
+          "destination": null,
+          "reason": "工具数据库、构建/仿真输出、日志或本地状态文件"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_loop/hdmi_loop_Runs/phy_1/cw/auto_created_cwc1/auto_created_cwc1_ooc.logw",
+          "length": 959,
+          "sha256": "188B83CA0AB9601657CFCFD24A932765CCFE35E84E5D24B05288B04DFFA93630",
+          "decision": "excluded-generated",
+          "destination": null,
+          "reason": "工具数据库、构建/仿真输出、日志或本地状态文件"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_loop/hdmi_loop_Runs/phy_1/cw/auto_created_cwc1/auto_created_cwc1_ooc.tcl",
+          "length": 263,
+          "sha256": "A21C64F4A01B2C1E04414D6C705437828B9A7948B20B174358404C65785B8E69",
+          "decision": "excluded-generated",
+          "destination": null,
+          "reason": "工具数据库、构建/仿真输出、日志或本地状态文件"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_loop/hdmi_loop_Runs/phy_1/cw/auto_created_cwc1/auto_created_cwc1_watcherInst.sv",
+          "length": 1800,
+          "sha256": "5750DA5465D060BD922CE626DCF320F9C45D90C1A9E8FFEB87C09AAA37F9B2B7",
+          "decision": "excluded-generated",
+          "destination": null,
+          "reason": "工具数据库、构建/仿真输出、日志或本地状态文件"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_loop/hdmi_loop_Runs/phy_1/cw/auto_created_cwc1/auto_created_cwc1_watcherInst.tcl",
+          "length": 774,
+          "sha256": "8E953935ACBB2185E1676570D80D75326A838CD3EB2DCE59148B1BBDBB501DB7",
+          "decision": "excluded-generated",
+          "destination": null,
+          "reason": "工具数据库、构建/仿真输出、日志或本地状态文件"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_loop/hdmi_loop_Runs/phy_1/cw/auto_created_cwc1/gate.qor",
+          "length": 4021,
+          "sha256": "B34EE810D665CE31BF4193008CEEF76725A648BDD7CEBD5387BAF19437DC4C19",
+          "decision": "excluded-generated",
+          "destination": null,
+          "reason": "工具数据库、构建/仿真输出、日志或本地状态文件"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_loop/hdmi_loop_Runs/phy_1/cw/compiled.bit",
+          "length": 630794,
+          "sha256": "121FBF7F0AA6CB1E8D972933ED6365391C54146062CAD126B404D188C4A43CDF",
+          "decision": "excluded-generated",
+          "destination": null,
+          "reason": "工具数据库、构建/仿真输出、日志或本地状态文件"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_loop/hdmi_loop_Runs/phy_1/cw/compiled.cwc",
+          "length": 4524,
+          "sha256": "EFC233897E257EB3D169B72F569BE59471FA183515A0117F80219F63BF41547C",
+          "decision": "excluded-generated",
+          "destination": null,
+          "reason": "工具数据库、构建/仿真输出、日志或本地状态文件"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_loop/hdmi_loop_Runs/phy_1/cw/debug_hub/",
+          "length": 0,
+          "sha256": null,
+          "decision": "directory",
+          "destination": null,
+          "reason": "目录项"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_loop/hdmi_loop_Runs/phy_1/cw/debug_hub/debug_hub_define.v",
+          "length": 288,
+          "sha256": "68382D64DD5AA7AD12A901A7AF4281FD62E8FCED838DEA042484689FE0697E9D",
+          "decision": "excluded-generated",
+          "destination": null,
+          "reason": "工具数据库、构建/仿真输出、日志或本地状态文件"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_loop/hdmi_loop_Runs/phy_1/cw/debug_hub/gate.qor",
+          "length": 3959,
+          "sha256": "F67A4051B75E57B42FDA53A153943826A279A7057CBD84DA150F576D80D459AA",
+          "decision": "excluded-generated",
+          "destination": null,
+          "reason": "工具数据库、构建/仿真输出、日志或本地状态文件"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_loop/hdmi_loop_Runs/phy_1/cw/debug_hub/top_debug_hub_gate.area",
+          "length": 2269,
+          "sha256": "6A34823530A7305E67149FF139B6B8852EC848173BA779C9440DEBC9FE4198C9",
+          "decision": "excluded-generated",
+          "destination": null,
+          "reason": "工具数据库、构建/仿真输出、日志或本地状态文件"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_loop/hdmi_loop_Runs/phy_1/cw/debug_hub/top_debug_hub_ooc.db",
+          "length": 169214,
+          "sha256": "12C262467CEFED46DDE8762285E8B691AD2DBEF7F72B64E51B9D22FB299DB336",
+          "decision": "excluded-generated",
+          "destination": null,
+          "reason": "工具数据库、构建/仿真输出、日志或本地状态文件"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_loop/hdmi_loop_Runs/phy_1/cw/debug_hub/top_debug_hub_ooc.log",
+          "length": 14819,
+          "sha256": "499B8DE79707F89E7BD210E7D2A1654EFCF908BC780675D86C03EFD9B86F3365",
+          "decision": "excluded-generated",
+          "destination": null,
+          "reason": "工具数据库、构建/仿真输出、日志或本地状态文件"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_loop/hdmi_loop_Runs/phy_1/cw/debug_hub/top_debug_hub_ooc.logw",
+          "length": 757,
+          "sha256": "DDB5ED266DC802B6B4930C12F139DBEA1876CAA05FB18081C4DF72825C655CBC",
+          "decision": "excluded-generated",
+          "destination": null,
+          "reason": "工具数据库、构建/仿真输出、日志或本地状态文件"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_loop/hdmi_loop_Runs/phy_1/cw/debug_hub/top_debug_hub_ooc.tcl",
+          "length": 333,
+          "sha256": "79EC3AB5D92F0CC434491E9159021FDEED9EB0F26602AB53CCC07FAF06CC487A",
+          "decision": "excluded-generated",
+          "destination": null,
+          "reason": "工具数据库、构建/仿真输出、日志或本地状态文件"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_loop/hdmi_loop_Runs/phy_1/cw/hdmi_loop_phy.ts",
+          "length": 64,
+          "sha256": "04E5645F43C7D9F56227BA3B89A519DB130A54FFBE2ADFE139B71C6347994352",
+          "decision": "excluded-generated",
+          "destination": null,
+          "reason": "工具数据库、构建/仿真输出、日志或本地状态文件"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_loop/hdmi_loop_Runs/phy_1/final_timing.rpt",
+          "length": 447641,
+          "sha256": "EB1CD6B61AE0ECBAB07840D907342A8A4EC37DD5313281E0B658F945D51C792C",
+          "decision": "excluded-generated",
+          "destination": null,
+          "reason": "工具数据库、构建/仿真输出、日志或本地状态文件"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_loop/hdmi_loop_Runs/phy_1/hdmi_loop.bit",
+          "length": 630794,
+          "sha256": "121FBF7F0AA6CB1E8D972933ED6365391C54146062CAD126B404D188C4A43CDF",
+          "decision": "excluded-generated",
+          "destination": null,
+          "reason": "工具数据库、构建/仿真输出、日志或本地状态文件"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_loop/hdmi_loop_Runs/phy_1/hdmi_loop.prj",
+          "length": 19445,
+          "sha256": "252690A13FE05C338B2E518340A5D38CF855E378972237B3CF7B2D732B934216",
+          "decision": "excluded-generated",
+          "destination": null,
+          "reason": "工具数据库、构建/仿真输出、日志或本地状态文件"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_loop/hdmi_loop_Runs/phy_1/hdmi_loop.tcl",
+          "length": 7809,
+          "sha256": "D1A5D4291706DAC224CC33008D8945E79ED2EB1ADF8CE86CCA46BE564975BADE",
+          "decision": "excluded-generated",
+          "destination": null,
+          "reason": "工具数据库、构建/仿真输出、日志或本地状态文件"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_loop/hdmi_loop_Runs/phy_1/hdmi_loop_eco_pr.db",
+          "length": 1558698,
+          "sha256": "B2D99ECE182EF46F1C833CC54D5EDE152312CB28FE9E731AE51D9CEA3C4EF0C8",
+          "decision": "excluded-generated",
+          "destination": null,
+          "reason": "工具数据库、构建/仿真输出、日志或本地状态文件"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_loop/hdmi_loop_Runs/phy_1/hdmi_loop_exception.timing",
+          "length": 142391,
+          "sha256": "425A7CB9DFFFDDA07EB1349ED2CBE814AD375892E48521D3CFB7B94EB253567E",
+          "decision": "excluded-generated",
+          "destination": null,
+          "reason": "工具数据库、构建/仿真输出、日志或本地状态文件"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_loop/hdmi_loop_Runs/phy_1/hdmi_loop_inst.bid",
+          "length": 4220,
+          "sha256": "F0A7F1C541E24909A0DB9967BDD4866523D9D09642B5CD2821C232E2F6AE20DA",
+          "decision": "excluded-generated",
+          "destination": null,
+          "reason": "工具数据库、构建/仿真输出、日志或本地状态文件"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_loop/hdmi_loop_Runs/phy_1/hdmi_loop_phy.area",
+          "length": 13955,
+          "sha256": "9079E3A3BAA988636BB5F541585A023DE6A74E92AAB573ABA7BE50A52E97BC29",
+          "decision": "excluded-generated",
+          "destination": null,
+          "reason": "工具数据库、构建/仿真输出、日志或本地状态文件"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_loop/hdmi_loop_Runs/phy_1/hdmi_loop_phy.ts",
+          "length": 64,
+          "sha256": "04E5645F43C7D9F56227BA3B89A519DB130A54FFBE2ADFE139B71C6347994352",
+          "decision": "excluded-generated",
+          "destination": null,
+          "reason": "工具数据库、构建/仿真输出、日志或本地状态文件"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_loop/hdmi_loop_Runs/phy_1/hdmi_loop_place.db",
+          "length": 1322098,
+          "sha256": "E60CA14CAD93C3401BBC5CC239AE1AEF452FF3B6DB0E953AEF594AB40A9C211F",
+          "decision": "excluded-generated",
+          "destination": null,
+          "reason": "工具数据库、构建/仿真输出、日志或本地状态文件"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_loop/hdmi_loop_Runs/phy_1/hdmi_loop_place.timing",
+          "length": 445328,
+          "sha256": "9F08DFEC2CC13A73ED25B3002947065E6914844DBC12A6C048735FDB39ED8ACC",
+          "decision": "excluded-generated",
+          "destination": null,
+          "reason": "工具数据库、构建/仿真输出、日志或本地状态文件"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_loop/hdmi_loop_Runs/phy_1/hdmi_loop_pr.db",
+          "length": 1558698,
+          "sha256": "30BF546674BD63DBB957DBE596360B3BAE2705B84BD4B77757A302417092D766",
+          "decision": "excluded-generated",
+          "destination": null,
+          "reason": "工具数据库、构建/仿真输出、日志或本地状态文件"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_loop/hdmi_loop_Runs/phy_1/hdmi_loop_pr.timing",
+          "length": 447641,
+          "sha256": "EB1CD6B61AE0ECBAB07840D907342A8A4EC37DD5313281E0B658F945D51C792C",
+          "decision": "excluded-generated",
+          "destination": null,
+          "reason": "工具数据库、构建/仿真输出、日志或本地状态文件"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_loop/hdmi_loop_Runs/phy_1/place.qor",
+          "length": 1741,
+          "sha256": "04C8C2F7619BBBD242BD0C6075C2CDDAB4ED3837800003C8EFA671D461171BA1",
+          "decision": "excluded-generated",
+          "destination": null,
+          "reason": "工具数据库、构建/仿真输出、日志或本地状态文件"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_loop/hdmi_loop_Runs/phy_1/place_flow.status",
+          "length": 1466,
+          "sha256": "11B227169BFEF4E65E5F459957F51C4915427942EA0F4286855F29685B003A69",
+          "decision": "excluded-generated",
+          "destination": null,
+          "reason": "工具数据库、构建/仿真输出、日志或本地状态文件"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_loop/hdmi_loop_Runs/phy_1/route.qor",
+          "length": 1313,
+          "sha256": "D12300B5914ED14CEAC609C0BD9E675415592C2A0602D5BB698CA11C26FA30D4",
+          "decision": "excluded-generated",
+          "destination": null,
+          "reason": "工具数据库、构建/仿真输出、日志或本地状态文件"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_loop/hdmi_loop_Runs/phy_1/route_flow.status",
+          "length": 1562,
+          "sha256": "8A2A7BD17E30C184C09860639C9D2C5243AE45B21B11E79E62724694338B90BB",
+          "decision": "excluded-generated",
+          "destination": null,
+          "reason": "工具数据库、构建/仿真输出、日志或本地状态文件"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_loop/hdmi_loop_Runs/phy_1/run.bat",
+          "length": 301,
+          "sha256": "06CD6B3AA2C1FEF476F23B7B4264ECD4D1AC0F5433EB61DCE503BFBF99B400A2",
+          "decision": "excluded-generated",
+          "destination": null,
+          "reason": "工具数据库、构建/仿真输出、日志或本地状态文件"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_loop/hdmi_loop_Runs/phy_1/run.log",
+          "length": 90025,
+          "sha256": "7B860E0020FA8173A4AE97A05391E9AFBFDD3115761BB9DAD98BBE5935BA3D52",
+          "decision": "excluded-generated",
+          "destination": null,
+          "reason": "工具数据库、构建/仿真输出、日志或本地状态文件"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_loop/hdmi_loop_Runs/phy_1/run.logw",
+          "length": 6722,
+          "sha256": "09B99315F765CEB360F98BDB3C5A1E1BB92E06086203F44644F9E089673D1188",
+          "decision": "excluded-generated",
+          "destination": null,
+          "reason": "工具数据库、构建/仿真输出、日志或本地状态文件"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_loop/hdmi_loop_Runs/phy_1/settings.cfg",
+          "length": 429,
+          "sha256": "B665F661757ECB787F1FA15702EAFF40B3B26DA0FFADBFEF1C50925348E2D2F3",
+          "decision": "excluded-generated",
+          "destination": null,
+          "reason": "工具数据库、构建/仿真输出、日志或本地状态文件"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_loop/hdmi_loop_Runs/phy_1/simulation/",
+          "length": 0,
+          "sha256": null,
+          "decision": "directory",
+          "destination": null,
+          "reason": "目录项"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_loop/hdmi_loop_Runs/syn_1/",
+          "length": 0,
+          "sha256": null,
+          "decision": "directory",
+          "destination": null,
+          "reason": "目录项"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_loop/hdmi_loop_Runs/syn_1/.opt_gate.begin.f",
+          "length": 158,
+          "sha256": "B01E756C48F820253B3ADBC9372C467943C5E11ACF579A566A23BDBB6B2333E2",
+          "decision": "excluded-generated",
+          "destination": null,
+          "reason": "工具数据库、构建/仿真输出、日志或本地状态文件"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_loop/hdmi_loop_Runs/syn_1/.opt_gate.end.f",
+          "length": 0,
+          "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+          "decision": "excluded-generated",
+          "destination": null,
+          "reason": "工具数据库、构建/仿真输出、日志或本地状态文件"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_loop/hdmi_loop_Runs/syn_1/.opt_rtl.begin.f",
+          "length": 158,
+          "sha256": "B01E756C48F820253B3ADBC9372C467943C5E11ACF579A566A23BDBB6B2333E2",
+          "decision": "excluded-generated",
+          "destination": null,
+          "reason": "工具数据库、构建/仿真输出、日志或本地状态文件"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_loop/hdmi_loop_Runs/syn_1/.opt_rtl.end.f",
+          "length": 0,
+          "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+          "decision": "excluded-generated",
+          "destination": null,
+          "reason": "工具数据库、构建/仿真输出、日志或本地状态文件"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_loop/hdmi_loop_Runs/syn_1/.read_design.begin.f",
+          "length": 158,
+          "sha256": "B01E756C48F820253B3ADBC9372C467943C5E11ACF579A566A23BDBB6B2333E2",
+          "decision": "excluded-generated",
+          "destination": null,
+          "reason": "工具数据库、构建/仿真输出、日志或本地状态文件"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_loop/hdmi_loop_Runs/syn_1/.read_design.end.f",
+          "length": 0,
+          "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+          "decision": "excluded-generated",
+          "destination": null,
+          "reason": "工具数据库、构建/仿真输出、日志或本地状态文件"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_loop/hdmi_loop_Runs/syn_1/.temp.f",
+          "length": 19,
+          "sha256": "2E45B69060F75187251F3264DA0B06676D8131BC53646E01DB4DCB5731A1C475",
+          "decision": "excluded-generated",
+          "destination": null,
+          "reason": "工具数据库、构建/仿真输出、日志或本地状态文件"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_loop/hdmi_loop_Runs/syn_1/flow.status",
+          "length": 1562,
+          "sha256": "2BA0B6ABD00DF8E244155C63AB95B07FB9C29E214976E1C046C08B7BDE48659B",
+          "decision": "excluded-generated",
+          "destination": null,
+          "reason": "工具数据库、构建/仿真输出、日志或本地状态文件"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_loop/hdmi_loop_Runs/syn_1/gate.qor",
+          "length": 4631,
+          "sha256": "69C932B62C5CA4CB5AE268B8E4D97402092847649CC052F3EB6DCC12D1F7CBF5",
+          "decision": "excluded-generated",
+          "destination": null,
+          "reason": "工具数据库、构建/仿真输出、日志或本地状态文件"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_loop/hdmi_loop_Runs/syn_1/hdmi_loop.prj",
+          "length": 19351,
+          "sha256": "5B7B5E9C6F4752FDB5BE9ED5212FE3CF46F216F94EF7A9D4460971C269FE972C",
+          "decision": "excluded-generated",
+          "destination": null,
+          "reason": "工具数据库、构建/仿真输出、日志或本地状态文件"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_loop/hdmi_loop_Runs/syn_1/hdmi_loop.tcl",
+          "length": 7809,
+          "sha256": "D1A5D4291706DAC224CC33008D8945E79ED2EB1ADF8CE86CCA46BE564975BADE",
+          "decision": "excluded-generated",
+          "destination": null,
+          "reason": "工具数据库、构建/仿真输出、日志或本地状态文件"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_loop/hdmi_loop_Runs/syn_1/hdmi_loop_elaborate.db",
+          "length": 1034616,
+          "sha256": "E696733AD7F4E69F4C33CAE0986E42B7173540FF96A1029D83092C93AC6348D3",
+          "decision": "excluded-generated",
+          "destination": null,
+          "reason": "工具数据库、构建/仿真输出、日志或本地状态文件"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_loop/hdmi_loop_Runs/syn_1/hdmi_loop_gate.area",
+          "length": 5927,
+          "sha256": "48C8E518354722E83911A9DE829A9DBA07860583FA16C1B93538B6D54F3B027F",
+          "decision": "excluded-generated",
+          "destination": null,
+          "reason": "工具数据库、构建/仿真输出、日志或本地状态文件"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_loop/hdmi_loop_Runs/syn_1/hdmi_loop_gate.db",
+          "length": 871340,
+          "sha256": "29F851CB8B5D5846AD6741E1CE43D0059E1F613BA1919C7CEF0B208028CD7971",
+          "decision": "excluded-generated",
+          "destination": null,
+          "reason": "工具数据库、构建/仿真输出、日志或本地状态文件"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_loop/hdmi_loop_Runs/syn_1/hdmi_loop_gate.timing",
+          "length": 269854,
+          "sha256": "C8D1CCB93ABE4ACCEED24C31CD1533E10EC7B31D9F76F3E251800047D53D07EB",
+          "decision": "excluded-generated",
+          "destination": null,
+          "reason": "工具数据库、构建/仿真输出、日志或本地状态文件"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_loop/hdmi_loop_Runs/syn_1/hdmi_loop_gate.ts",
+          "length": 62,
+          "sha256": "B88E24A96C34C230FC9DA30D65723EE8CC36C3D49D51D80332CF51609478CB0E",
+          "decision": "excluded-generated",
+          "destination": null,
+          "reason": "工具数据库、构建/仿真输出、日志或本地状态文件"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_loop/hdmi_loop_Runs/syn_1/hdmi_loop_rtl.area",
+          "length": 5029,
+          "sha256": "A0871D5D164E8C30E3A745F83FAA99F1C46395857894909EAE1AC7289AC99317",
+          "decision": "excluded-generated",
+          "destination": null,
+          "reason": "工具数据库、构建/仿真输出、日志或本地状态文件"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_loop/hdmi_loop_Runs/syn_1/hdmi_loop_rtl.db",
+          "length": 886212,
+          "sha256": "824256D0DD993C8BAAD78519281953B07CA23BF73B6B7F3F170EB86D730F4F23",
+          "decision": "excluded-generated",
+          "destination": null,
+          "reason": "工具数据库、构建/仿真输出、日志或本地状态文件"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_loop/hdmi_loop_Runs/syn_1/run.bat",
+          "length": 301,
+          "sha256": "06CD6B3AA2C1FEF476F23B7B4264ECD4D1AC0F5433EB61DCE503BFBF99B400A2",
+          "decision": "excluded-generated",
+          "destination": null,
+          "reason": "工具数据库、构建/仿真输出、日志或本地状态文件"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_loop/hdmi_loop_Runs/syn_1/run.log",
+          "length": 60195,
+          "sha256": "B32BBCAD3208A00FFA469DE37A74374374C26DDC0DEC3C81C1C0B1D8A0E28E5B",
+          "decision": "excluded-generated",
+          "destination": null,
+          "reason": "工具数据库、构建/仿真输出、日志或本地状态文件"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_loop/hdmi_loop_Runs/syn_1/run.logw",
+          "length": 18570,
+          "sha256": "7944EE67BC222A3211003ACA95B8865357F6B3F175C2A1924A03CFCA955D8BAE",
+          "decision": "excluded-generated",
+          "destination": null,
+          "reason": "工具数据库、构建/仿真输出、日志或本地状态文件"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_loop/hdmi_loop_Runs/syn_1/settings.cfg",
+          "length": 372,
+          "sha256": "4CB21512F21E88F90B467B44E86FF7DCBCC9B7BA50A2981D5F0E4D2AD73FC3EE",
+          "decision": "excluded-generated",
+          "destination": null,
+          "reason": "工具数据库、构建/仿真输出、日志或本地状态文件"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_loop/hdmi_loop_Runs/syn_1/simulation/",
+          "length": 0,
+          "sha256": null,
+          "decision": "directory",
+          "destination": null,
+          "reason": "目录项"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_loop/hdmi_loop_watcherInst.v",
+          "length": 1175,
+          "sha256": "7887BB4E32536CFF7286B8D563D16EBBB90956134041F38F904FD9ECDF1FB63B",
+          "decision": "copied",
+          "destination": "赛题1_工作资料/05_补充参考工程/HDMI环出实验/eg4s324_hdmi_loop/hdmi_loop/hdmi_loop_watcherInst.v",
+          "reason": "HDMI环出源码、IP、约束、项目、仿真testbench/脚本或EDID MIF"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_loop/hdmi_mipi_demo.adc",
+          "length": 2990,
+          "sha256": "7D7678982D47A03C90B9A5B4A1EFA76717B32489C59680D286B0B669BE32A249",
+          "decision": "copied",
+          "destination": "赛题1_工作资料/05_补充参考工程/HDMI环出实验/eg4s324_hdmi_loop/hdmi_loop/hdmi_mipi_demo.adc",
+          "reason": "HDMI环出源码、IP、约束、项目、仿真testbench/脚本或EDID MIF"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_loop/info.cwc",
+          "length": 70328,
+          "sha256": "E3AFF6BDF03D400AFDA9B7210DA5B4ED7CBCD285CB1A8CDD77B3C1DE790B8D66",
+          "decision": "copied",
+          "destination": "赛题1_工作资料/05_补充参考工程/HDMI环出实验/eg4s324_hdmi_loop/hdmi_loop/info.cwc",
+          "reason": "HDMI环出源码、IP、约束、项目、仿真testbench/脚本或EDID MIF"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_loop/minidump-20251015-165523.dmp",
+          "length": 217608,
+          "sha256": "1132F5846604444246ECE8B524891852B6FAF2FB311811F07807A0C87F81E20C",
+          "decision": "excluded-generated",
+          "destination": null,
+          "reason": "工具数据库、构建/仿真输出、日志或本地状态文件"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_loop/Placer_congo.info",
+          "length": 1754077,
+          "sha256": "8C5F47A6DEEEBB382ACC1A972A95D3C7BC2233133FF028BBFB0624E41F459B0E",
+          "decision": "excluded",
+          "destination": null,
+          "reason": "与本次参考资料提取范围无关"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_loop/simulation/",
+          "length": 0,
+          "sha256": null,
+          "decision": "directory",
+          "destination": null,
+          "reason": "目录项"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_loop/singf.cwc",
+          "length": 172613,
+          "sha256": "57D378D5B63D3447D0F767CA8C5C4C9F2EBE9EF08576664FB9B35D7964E5DEC9",
+          "decision": "copied",
+          "destination": "赛题1_工作资料/05_补充参考工程/HDMI环出实验/eg4s324_hdmi_loop/hdmi_loop/singf.cwc",
+          "reason": "HDMI环出源码、IP、约束、项目、仿真testbench/脚本或EDID MIF"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_lvds_rx/",
+          "length": 0,
+          "sha256": null,
+          "decision": "directory",
+          "destination": null,
+          "reason": "目录项"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_lvds_rx/hdmi_loop.v",
+          "length": 2949,
+          "sha256": "6ECEF14EF147B33427EE21501D2A2C59715EA429D23FABE63CF727BDE15F79ED",
+          "decision": "copied",
+          "destination": "赛题1_工作资料/05_补充参考工程/HDMI环出实验/eg4s324_hdmi_loop/hdmi_lvds_rx/hdmi_loop.v",
+          "reason": "HDMI环出源码、IP、约束、项目、仿真testbench/脚本或EDID MIF"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_lvds_rx/rtl/",
+          "length": 0,
+          "sha256": null,
+          "decision": "directory",
+          "destination": null,
+          "reason": "目录项"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_lvds_rx/rtl/audio/",
+          "length": 0,
+          "sha256": null,
+          "decision": "directory",
+          "destination": null,
+          "reason": "目录项"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_lvds_rx/rtl/audio/enc_file/",
+          "length": 0,
+          "sha256": null,
+          "decision": "directory",
+          "destination": null,
+          "reason": "目录项"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_lvds_rx/rtl/audio/enc_file/audio_store.enc.v",
+          "length": 8074,
+          "sha256": "6CEEB25B971F5195F44BD7AEF44D26D5D66A855F8F80FCD22B4217C1B4CC8D03",
+          "decision": "copied",
+          "destination": "赛题1_工作资料/05_补充参考工程/HDMI环出实验/eg4s324_hdmi_loop/hdmi_lvds_rx/rtl/audio/enc_file/audio_store.enc.v",
+          "reason": "HDMI环出源码、IP、约束、项目、仿真testbench/脚本或EDID MIF"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_lvds_rx/rtl/audio/enc_file/encrypted_file.log",
+          "length": 66,
+          "sha256": "7E6E530C3E9AC0CB3387184A51041DDDCA9D98A54D47224E3FF8A1995B7733F5",
+          "decision": "excluded-generated",
+          "destination": null,
+          "reason": "工具数据库、构建/仿真输出、日志或本地状态文件"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_lvds_rx/rtl/audio/enc_file/i2s_tx.enc.v",
+          "length": 10033,
+          "sha256": "E460FDF72CD21579C37F448C12B449D6186322504406932312D5570AA0373288",
+          "decision": "copied",
+          "destination": "赛题1_工作资料/05_补充参考工程/HDMI环出实验/eg4s324_hdmi_loop/hdmi_lvds_rx/rtl/audio/enc_file/i2s_tx.enc.v",
+          "reason": "HDMI环出源码、IP、约束、项目、仿真testbench/脚本或EDID MIF"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_lvds_rx/rtl/audio/enc_file/packet_type_checker.enc.v",
+          "length": 5208,
+          "sha256": "E2712D2BD79E8C002E8C0474D5F7A558F1EC83A91878520AB3CB528D8FC6E1CA",
+          "decision": "copied",
+          "destination": "赛题1_工作资料/05_补充参考工程/HDMI环出实验/eg4s324_hdmi_loop/hdmi_lvds_rx/rtl/audio/enc_file/packet_type_checker.enc.v",
+          "reason": "HDMI环出源码、IP、约束、项目、仿真testbench/脚本或EDID MIF"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_lvds_rx/rtl/dataisland_rx/",
+          "length": 0,
+          "sha256": null,
+          "decision": "directory",
+          "destination": null,
+          "reason": "目录项"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_lvds_rx/rtl/dataisland_rx/enc_file/",
+          "length": 0,
+          "sha256": null,
+          "decision": "directory",
+          "destination": null,
+          "reason": "目录项"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_lvds_rx/rtl/dataisland_rx/enc_file/Control_Signal_Decoder.enc.v",
+          "length": 4772,
+          "sha256": "266A455969750B01735B36D29390D36795E1D3EDC19360FB82AB1C3A40DA7B8F",
+          "decision": "copied",
+          "destination": "赛题1_工作资料/05_补充参考工程/HDMI环出实验/eg4s324_hdmi_loop/hdmi_lvds_rx/rtl/dataisland_rx/enc_file/Control_Signal_Decoder.enc.v",
+          "reason": "HDMI环出源码、IP、约束、项目、仿真testbench/脚本或EDID MIF"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_lvds_rx/rtl/dataisland_rx/enc_file/data_island_extract.enc.v",
+          "length": 5249,
+          "sha256": "839A1D61DB3730BE206936E755F9AE609A22AB54E695ACCDBFB35B5BA7566F81",
+          "decision": "copied",
+          "destination": "赛题1_工作资料/05_补充参考工程/HDMI环出实验/eg4s324_hdmi_loop/hdmi_lvds_rx/rtl/dataisland_rx/enc_file/data_island_extract.enc.v",
+          "reason": "HDMI环出源码、IP、约束、项目、仿真testbench/脚本或EDID MIF"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_lvds_rx/rtl/dataisland_rx/enc_file/Data_Island_rsv.enc.v",
+          "length": 4574,
+          "sha256": "29394550EC9D60AA6A2709CBCE7D7ED47FFDB5F1DEE55661B31B474EF43B61B5",
+          "decision": "copied",
+          "destination": "赛题1_工作资料/05_补充参考工程/HDMI环出实验/eg4s324_hdmi_loop/hdmi_lvds_rx/rtl/dataisland_rx/enc_file/Data_Island_rsv.enc.v",
+          "reason": "HDMI环出源码、IP、约束、项目、仿真testbench/脚本或EDID MIF"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_lvds_rx/rtl/dataisland_rx/enc_file/encrypted_file.log",
+          "length": 66,
+          "sha256": "7E6E530C3E9AC0CB3387184A51041DDDCA9D98A54D47224E3FF8A1995B7733F5",
+          "decision": "excluded-generated",
+          "destination": null,
+          "reason": "工具数据库、构建/仿真输出、日志或本地状态文件"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_lvds_rx/rtl/dataisland_rx/enc_file/GB_Check.enc.v",
+          "length": 4111,
+          "sha256": "4A53FC9D699ACD8EE68D1BB2C1431CEF99F267AC64C33E14AFFF083BF775DD6A",
+          "decision": "copied",
+          "destination": "赛题1_工作资料/05_补充参考工程/HDMI环出实验/eg4s324_hdmi_loop/hdmi_lvds_rx/rtl/dataisland_rx/enc_file/GB_Check.enc.v",
+          "reason": "HDMI环出源码、IP、约束、项目、仿真testbench/脚本或EDID MIF"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_lvds_rx/rtl/dataisland_rx/enc_file/GB_Check_A.enc.v",
+          "length": 5518,
+          "sha256": "E8BF604F2E145435680F9D1594B3A2AC1A463EBD503A66F4FD5BF042FA48018C",
+          "decision": "copied",
+          "destination": "赛题1_工作资料/05_补充参考工程/HDMI环出实验/eg4s324_hdmi_loop/hdmi_lvds_rx/rtl/dataisland_rx/enc_file/GB_Check_A.enc.v",
+          "reason": "HDMI环出源码、IP、约束、项目、仿真testbench/脚本或EDID MIF"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_lvds_rx/rtl/dataisland_rx/enc_file/Packer.enc.v",
+          "length": 6970,
+          "sha256": "9B4B8D836C000D11622C72CC0FF9A586924B7913C72A21BC6FD20F3DB536F6A9",
+          "decision": "copied",
+          "destination": "赛题1_工作资料/05_补充参考工程/HDMI环出实验/eg4s324_hdmi_loop/hdmi_lvds_rx/rtl/dataisland_rx/enc_file/Packer.enc.v",
+          "reason": "HDMI环出源码、IP、约束、项目、仿真testbench/脚本或EDID MIF"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_lvds_rx/rtl/dataisland_rx/enc_file/PC.enc.v",
+          "length": 3715,
+          "sha256": "ACBAF476F62B69175E968A7332F7C7C473952C286FA5A8AC45A4B9D3D7ED32AA",
+          "decision": "copied",
+          "destination": "赛题1_工作资料/05_补充参考工程/HDMI环出实验/eg4s324_hdmi_loop/hdmi_lvds_rx/rtl/dataisland_rx/enc_file/PC.enc.v",
+          "reason": "HDMI环出源码、IP、约束、项目、仿真testbench/脚本或EDID MIF"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_lvds_rx/rtl/dataisland_rx/enc_file/Preamble_Check.enc.v",
+          "length": 4416,
+          "sha256": "FD4DBF3163F7A4C9C0C88DDBCFEAEE65A51B92AA9018E886EDFF1C2129E58EE8",
+          "decision": "copied",
+          "destination": "赛题1_工作资料/05_补充参考工程/HDMI环出实验/eg4s324_hdmi_loop/hdmi_lvds_rx/rtl/dataisland_rx/enc_file/Preamble_Check.enc.v",
+          "reason": "HDMI环出源码、IP、约束、项目、仿真testbench/脚本或EDID MIF"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_lvds_rx/rtl/dataisland_rx/enc_file/TERC4_DEC.enc.v",
+          "length": 3715,
+          "sha256": "EA97E70F6430303858A2AF35E647E040336AA1C248B615031951652FDBB5E7CD",
+          "decision": "copied",
+          "destination": "赛题1_工作资料/05_补充参考工程/HDMI环出实验/eg4s324_hdmi_loop/hdmi_lvds_rx/rtl/dataisland_rx/enc_file/TERC4_DEC.enc.v",
+          "reason": "HDMI环出源码、IP、约束、项目、仿真testbench/脚本或EDID MIF"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_lvds_rx/rtl/dataisland_rx/enc_file/terc4_sc.enc.v",
+          "length": 3953,
+          "sha256": "8BC6ED8D21A633F44D175F7DADB4E57588062807FE539335437E43B5BAC5D9CC",
+          "decision": "copied",
+          "destination": "赛题1_工作资料/05_补充参考工程/HDMI环出实验/eg4s324_hdmi_loop/hdmi_lvds_rx/rtl/dataisland_rx/enc_file/terc4_sc.enc.v",
+          "reason": "HDMI环出源码、IP、约束、项目、仿真testbench/脚本或EDID MIF"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_lvds_rx/rtl/eg_phy_glbl.v",
+          "length": 951,
+          "sha256": "4771093B1137DEA412D9FBD00F8EE59DAD6D8D6DC34234EAA653DC552106BF1E",
+          "decision": "copied",
+          "destination": "赛题1_工作资料/05_补充参考工程/HDMI环出实验/eg4s324_hdmi_loop/hdmi_lvds_rx/rtl/eg_phy_glbl.v",
+          "reason": "HDMI环出源码、IP、约束、项目、仿真testbench/脚本或EDID MIF"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_lvds_rx/rtl/glbl.v",
+          "length": 1366,
+          "sha256": "FD18DD4FF89C96BC62C5B08BC0FCF9E8B75D436A2C4E68C7BC4177BF2A47513B",
+          "decision": "copied",
+          "destination": "赛题1_工作资料/05_补充参考工程/HDMI环出实验/eg4s324_hdmi_loop/hdmi_lvds_rx/rtl/glbl.v",
+          "reason": "HDMI环出源码、IP、约束、项目、仿真testbench/脚本或EDID MIF"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_lvds_rx/rtl/hdmi_rx_top.v",
+          "length": 11575,
+          "sha256": "0667207FFAB4F657B9D90E5C69499F06A00AAC7117172BC1E0E96DA153B74887",
+          "decision": "copied",
+          "destination": "赛题1_工作资料/05_补充参考工程/HDMI环出实验/eg4s324_hdmi_loop/hdmi_lvds_rx/rtl/hdmi_rx_top.v",
+          "reason": "HDMI环出源码、IP、约束、项目、仿真testbench/脚本或EDID MIF"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_lvds_rx/rtl/iddr_rx/",
+          "length": 0,
+          "sha256": null,
+          "decision": "directory",
+          "destination": null,
+          "reason": "目录项"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_lvds_rx/rtl/iddr_rx/enc_file/",
+          "length": 0,
+          "sha256": null,
+          "decision": "directory",
+          "destination": null,
+          "reason": "目录项"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_lvds_rx/rtl/iddr_rx/enc_file/btslp.enc.v",
+          "length": 7482,
+          "sha256": "29116B0C5821F7D8E3B37DEE8EE33CE4FFA2012FE68B99E034C1891016CA2285",
+          "decision": "copied",
+          "destination": "赛题1_工作资料/05_补充参考工程/HDMI环出实验/eg4s324_hdmi_loop/hdmi_lvds_rx/rtl/iddr_rx/enc_file/btslp.enc.v",
+          "reason": "HDMI环出源码、IP、约束、项目、仿真testbench/脚本或EDID MIF"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_lvds_rx/rtl/iddr_rx/enc_file/ch_n_2_1.enc.v",
+          "length": 5192,
+          "sha256": "6010C43E712B0D09F806027769FDA5A23C78D15BB08039776AF6E70A9D7D20A3",
+          "decision": "copied",
+          "destination": "赛题1_工作资料/05_补充参考工程/HDMI环出实验/eg4s324_hdmi_loop/hdmi_lvds_rx/rtl/iddr_rx/enc_file/ch_n_2_1.enc.v",
+          "reason": "HDMI环出源码、IP、约束、项目、仿真testbench/脚本或EDID MIF"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_lvds_rx/rtl/iddr_rx/enc_file/DRAM16XN.enc.v",
+          "length": 5832,
+          "sha256": "99B5942809FFA2F9D0825F291F8E4520A0D74AA13B489BB0EE1B3D3BFDF21B38",
+          "decision": "copied",
+          "destination": "赛题1_工作资料/05_补充参考工程/HDMI环出实验/eg4s324_hdmi_loop/hdmi_lvds_rx/rtl/iddr_rx/enc_file/DRAM16XN.enc.v",
+          "reason": "HDMI环出源码、IP、约束、项目、仿真testbench/脚本或EDID MIF"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_lvds_rx/rtl/iddr_rx/enc_file/dvi_decoder.enc.v",
+          "length": 12004,
+          "sha256": "E63C0DB1EB5A972061B207B0DF28E1FCB53651E832AAA8935EF9122BEF2AEB7D",
+          "decision": "copied",
+          "destination": "赛题1_工作资料/05_补充参考工程/HDMI环出实验/eg4s324_hdmi_loop/hdmi_lvds_rx/rtl/iddr_rx/enc_file/dvi_decoder.enc.v",
+          "reason": "HDMI环出源码、IP、约束、项目、仿真testbench/脚本或EDID MIF"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_lvds_rx/rtl/iddr_rx/enc_file/encrypted_file.log",
+          "length": 66,
+          "sha256": "7E6E530C3E9AC0CB3387184A51041DDDCA9D98A54D47224E3FF8A1995B7733F5",
+          "decision": "excluded-generated",
+          "destination": null,
+          "reason": "工具数据库、构建/仿真输出、日志或本地状态文件"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_lvds_rx/rtl/iddr_rx/enc_file/iddr_decode.enc.v",
+          "length": 6446,
+          "sha256": "1C54D0A3B0B72B351D247ADA08C371B0CC92476CDFA504BD4B3A7B4FB26B5E73",
+          "decision": "copied",
+          "destination": "赛题1_工作资料/05_补充参考工程/HDMI环出实验/eg4s324_hdmi_loop/hdmi_lvds_rx/rtl/iddr_rx/enc_file/iddr_decode.enc.v",
+          "reason": "HDMI环出源码、IP、约束、项目、仿真testbench/脚本或EDID MIF"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_lvds_rx/rtl/iddr_rx/enc_file/pcfg_chk_timing.enc.v",
+          "length": 13790,
+          "sha256": "77B7A39367FDA812090AF1BE079788B049466F32B99A72E7900FD8E0BA42FADD",
+          "decision": "copied",
+          "destination": "赛题1_工作资料/05_补充参考工程/HDMI环出实验/eg4s324_hdmi_loop/hdmi_lvds_rx/rtl/iddr_rx/enc_file/pcfg_chk_timing.enc.v",
+          "reason": "HDMI环出源码、IP、约束、项目、仿真testbench/脚本或EDID MIF"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_lvds_rx/rtl/iddr_rx/enc_file/tmds_decoder.enc.v",
+          "length": 6690,
+          "sha256": "451CFC3CBD82870469712B7CAA1735724C9A0FF5A3A0F4A124942F3C6978E22A",
+          "decision": "copied",
+          "destination": "赛题1_工作资料/05_补充参考工程/HDMI环出实验/eg4s324_hdmi_loop/hdmi_lvds_rx/rtl/iddr_rx/enc_file/tmds_decoder.enc.v",
+          "reason": "HDMI环出源码、IP、约束、项目、仿真testbench/脚本或EDID MIF"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_lvds_rx/rtl/iddr_rx/enc_file/tmds_info_dec.enc.v",
+          "length": 56417,
+          "sha256": "BC9962D87D92D5E0DE445DCC3A8F7B7B1F08263505766893133C13C1CFF7F2A5",
+          "decision": "copied",
+          "destination": "赛题1_工作资料/05_补充参考工程/HDMI环出实验/eg4s324_hdmi_loop/hdmi_lvds_rx/rtl/iddr_rx/enc_file/tmds_info_dec.enc.v",
+          "reason": "HDMI环出源码、IP、约束、项目、仿真testbench/脚本或EDID MIF"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_lvds_rx/rtl/iddr_rx/enc_file/video_info_dec.enc.v",
+          "length": 19845,
+          "sha256": "E017F8BABB17469ED887F840E797A07058CC4A3A389F38ADF1BC70B65FB07ECD",
+          "decision": "copied",
+          "destination": "赛题1_工作资料/05_补充参考工程/HDMI环出实验/eg4s324_hdmi_loop/hdmi_lvds_rx/rtl/iddr_rx/enc_file/video_info_dec.enc.v",
+          "reason": "HDMI环出源码、IP、约束、项目、仿真testbench/脚本或EDID MIF"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_lvds_rx/rtl/iddr_rx/enc_file/video_info_dec.enc.vhd",
+          "length": 60587,
+          "sha256": "A21D42C0D7489F852F230646B8E0CAC8F0AAE24F764B7AFCA3A36BC7ABA45CDD",
+          "decision": "copied",
+          "destination": "赛题1_工作资料/05_补充参考工程/HDMI环出实验/eg4s324_hdmi_loop/hdmi_lvds_rx/rtl/iddr_rx/enc_file/video_info_dec.enc.vhd",
+          "reason": "HDMI环出源码、IP、约束、项目、仿真testbench/脚本或EDID MIF"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_lvds_rx/rtl/iic/",
+          "length": 0,
+          "sha256": null,
+          "decision": "directory",
+          "destination": null,
+          "reason": "目录项"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_lvds_rx/rtl/iic/i2cSlaveTop.v",
+          "length": 1840,
+          "sha256": "7F5B67B17AAB07BC638DB8C46FD9E053B18FDCDDB7CBC12B74A5EC64406F38E9",
+          "decision": "copied",
+          "destination": "赛题1_工作资料/05_补充参考工程/HDMI环出实验/eg4s324_hdmi_loop/hdmi_lvds_rx/rtl/iic/i2cSlaveTop.v",
+          "reason": "HDMI环出源码、IP、约束、项目、仿真testbench/脚本或EDID MIF"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_lvds_rx/rtl/iic/i2c_edid.v",
+          "length": 3943,
+          "sha256": "4A3B5075584B48715EA262E896955F3E2FEB17A345DC856C96C03743869BE91E",
+          "decision": "copied",
+          "destination": "赛题1_工作资料/05_补充参考工程/HDMI环出实验/eg4s324_hdmi_loop/hdmi_lvds_rx/rtl/iic/i2c_edid.v",
+          "reason": "HDMI环出源码、IP、约束、项目、仿真testbench/脚本或EDID MIF"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_lvds_rx/rtl/info/",
+          "length": 0,
+          "sha256": null,
+          "decision": "directory",
+          "destination": null,
+          "reason": "目录项"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_lvds_rx/rtl/info/info_audio.v",
+          "length": 0,
+          "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+          "decision": "copied",
+          "destination": "赛题1_工作资料/05_补充参考工程/HDMI环出实验/eg4s324_hdmi_loop/hdmi_lvds_rx/rtl/info/info_audio.v",
+          "reason": "HDMI环出源码、IP、约束、项目、仿真testbench/脚本或EDID MIF"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_lvds_rx/rtl/info/info_AVI.v",
+          "length": 14150,
+          "sha256": "EE6106E37E364130803B37EF7A00C848BF629BC420B4591F2C84AC23939B5C8F",
+          "decision": "copied",
+          "destination": "赛题1_工作资料/05_补充参考工程/HDMI环出实验/eg4s324_hdmi_loop/hdmi_lvds_rx/rtl/info/info_AVI.v",
+          "reason": "HDMI环出源码、IP、约束、项目、仿真testbench/脚本或EDID MIF"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_lvds_rx/rtl/info/PacketByteDecoder.v",
+          "length": 10675,
+          "sha256": "C6011A38638077773D8C95B6C18741319909AA3DC24015B32232EBB831331226",
+          "decision": "copied",
+          "destination": "赛题1_工作资料/05_补充参考工程/HDMI环出实验/eg4s324_hdmi_loop/hdmi_lvds_rx/rtl/info/PacketByteDecoder.v",
+          "reason": "HDMI环出源码、IP、约束、项目、仿真testbench/脚本或EDID MIF"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_lvds_rx/rtl/ip/",
+          "length": 0,
+          "sha256": null,
+          "decision": "directory",
+          "destination": null,
+          "reason": "目录项"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_lvds_rx/rtl/ip/clk_pll.ipc",
+          "length": 1348,
+          "sha256": "BBB3603EFD2F6B55C8118CCDDA91178951D7E8A8B4DA618799897C00216E88AE",
+          "decision": "copied",
+          "destination": "赛题1_工作资料/05_补充参考工程/HDMI环出实验/eg4s324_hdmi_loop/hdmi_lvds_rx/rtl/ip/clk_pll.ipc",
+          "reason": "HDMI环出源码、IP、约束、项目、仿真testbench/脚本或EDID MIF"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_lvds_rx/rtl/ip/clk_pll.vx",
+          "length": 2434,
+          "sha256": "98A30E7B1F13CD20F6DE32F4848B9E8744DE43A25C60D2057AC3E765A3ABCB5E",
+          "decision": "copied",
+          "destination": "赛题1_工作资料/05_补充参考工程/HDMI环出实验/eg4s324_hdmi_loop/hdmi_lvds_rx/rtl/ip/clk_pll.vx",
+          "reason": "HDMI环出源码、IP、约束、项目、仿真testbench/脚本或EDID MIF"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_lvds_rx/rtl/ip/clk_pll_sim.v",
+          "length": 2935,
+          "sha256": "E8E5C0C2AA2DBABA2644BD4CC849BDB689FAADF7DC75816EA20FDC657B005670",
+          "decision": "copied",
+          "destination": "赛题1_工作资料/05_补充参考工程/HDMI环出实验/eg4s324_hdmi_loop/hdmi_lvds_rx/rtl/ip/clk_pll_sim.v",
+          "reason": "HDMI环出源码、IP、约束、项目、仿真testbench/脚本或EDID MIF"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_lvds_rx/rtl/ip/DRAM16X1.ipc",
+          "length": 486,
+          "sha256": "1CF84071AB6254E5161AD0907ACDBDFF431E1AB991BE8B99AFD7DCDA2DECF416",
+          "decision": "copied",
+          "destination": "赛题1_工作资料/05_补充参考工程/HDMI环出实验/eg4s324_hdmi_loop/hdmi_lvds_rx/rtl/ip/DRAM16X1.ipc",
+          "reason": "HDMI环出源码、IP、约束、项目、仿真testbench/脚本或EDID MIF"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_lvds_rx/rtl/ip/DRAM16X1.vx",
+          "length": 1324,
+          "sha256": "603F6316D5127E64BF33C4993E2338C169473E174A4489BA55DD2BF3208946FF",
+          "decision": "copied",
+          "destination": "赛题1_工作资料/05_补充参考工程/HDMI环出实验/eg4s324_hdmi_loop/hdmi_lvds_rx/rtl/ip/DRAM16X1.vx",
+          "reason": "HDMI环出源码、IP、约束、项目、仿真testbench/脚本或EDID MIF"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_lvds_rx/rtl/ip/DRAM16X1_sim.v",
+          "length": 1298,
+          "sha256": "5D0A5F178C4EDEAEB6C810DDA628191770E9B81A02A50C2FCD666C415FD4BF27",
+          "decision": "copied",
+          "destination": "赛题1_工作资料/05_补充参考工程/HDMI环出实验/eg4s324_hdmi_loop/hdmi_lvds_rx/rtl/ip/DRAM16X1_sim.v",
+          "reason": "HDMI环出源码、IP、约束、项目、仿真testbench/脚本或EDID MIF"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_lvds_rx/rtl/ip/eg_phy_glbl.vx",
+          "length": 943,
+          "sha256": "F61A74545BB493BE9920BE107DFFDB7751CF94511B804F65876432B63D7C6748",
+          "decision": "copied",
+          "destination": "赛题1_工作资料/05_补充参考工程/HDMI环出实验/eg4s324_hdmi_loop/hdmi_lvds_rx/rtl/ip/eg_phy_glbl.vx",
+          "reason": "HDMI环出源码、IP、约束、项目、仿真testbench/脚本或EDID MIF"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_lvds_rx/rtl/ip/pll_ip.ipc",
+          "length": 1604,
+          "sha256": "B4740A5D391246089D951A09DBE77B20F918FDF367D83F4C50D08FDADD432333",
+          "decision": "copied",
+          "destination": "赛题1_工作资料/05_补充参考工程/HDMI环出实验/eg4s324_hdmi_loop/hdmi_lvds_rx/rtl/ip/pll_ip.ipc",
+          "reason": "HDMI环出源码、IP、约束、项目、仿真testbench/脚本或EDID MIF"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_lvds_rx/rtl/ip/pll_ip.vx",
+          "length": 2624,
+          "sha256": "8BAEAF73E3BCD0EF4DA7B60145680669D8A3F08C43F8A2D85CFD4496E19270D6",
+          "decision": "copied",
+          "destination": "赛题1_工作资料/05_补充参考工程/HDMI环出实验/eg4s324_hdmi_loop/hdmi_lvds_rx/rtl/ip/pll_ip.vx",
+          "reason": "HDMI环出源码、IP、约束、项目、仿真testbench/脚本或EDID MIF"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_lvds_rx/rtl/ip/pll_ip_sim.v",
+          "length": 3025,
+          "sha256": "A188FD3D9081DB699AC96E391FF569B9860DFB93FE7584E88EA832CF20E8E72B",
+          "decision": "copied",
+          "destination": "赛题1_工作资料/05_补充参考工程/HDMI环出实验/eg4s324_hdmi_loop/hdmi_lvds_rx/rtl/ip/pll_ip_sim.v",
+          "reason": "HDMI环出源码、IP、约束、项目、仿真testbench/脚本或EDID MIF"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_lvds_rx/rtl/packet_solver/",
+          "length": 0,
+          "sha256": null,
+          "decision": "directory",
+          "destination": null,
+          "reason": "目录项"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_lvds_rx/rtl/packet_solver/packet_solver.v",
+          "length": 49,
+          "sha256": "860911CF9D725DFEAC0EBD2A7412BFF6D0BA508E371726E884934955FB0B9535",
+          "decision": "copied",
+          "destination": "赛题1_工作资料/05_补充参考工程/HDMI环出实验/eg4s324_hdmi_loop/hdmi_lvds_rx/rtl/packet_solver/packet_solver.v",
+          "reason": "HDMI环出源码、IP、约束、项目、仿真testbench/脚本或EDID MIF"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_lvds_rx/rtl/timing_chk.v",
+          "length": 2972,
+          "sha256": "4B5E6096FC6D06B5B3DDBBF85FA583E26C374160C9A496A08A97CA89EC62F0A3",
+          "decision": "copied",
+          "destination": "赛题1_工作资料/05_补充参考工程/HDMI环出实验/eg4s324_hdmi_loop/hdmi_lvds_rx/rtl/timing_chk.v",
+          "reason": "HDMI环出源码、IP、约束、项目、仿真testbench/脚本或EDID MIF"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_lvds_tx/",
+          "length": 0,
+          "sha256": null,
+          "decision": "directory",
+          "destination": null,
+          "reason": "目录项"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_lvds_tx/doc/",
+          "length": 0,
+          "sha256": null,
+          "decision": "directory",
+          "destination": null,
+          "reason": "目录项"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_lvds_tx/sim_do/",
+          "length": 0,
+          "sha256": null,
+          "decision": "directory",
+          "destination": null,
+          "reason": "目录项"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_lvds_tx/sim_do/ac_check.err",
+          "length": 0,
+          "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+          "decision": "excluded",
+          "destination": null,
+          "reason": "与本次参考资料提取范围无关"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_lvds_tx/sim_do/sim.bat",
+          "length": 67,
+          "sha256": "56E854841AED63FD1A1BCD159A685E3B3304EDF2E5D86E849ED4DEE38B6814D1",
+          "decision": "copied",
+          "destination": "赛题1_工作资料/05_补充参考工程/HDMI环出实验/eg4s324_hdmi_loop/hdmi_lvds_tx/sim_do/sim.bat",
+          "reason": "HDMI环出源码、IP、约束、项目、仿真testbench/脚本或EDID MIF"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_lvds_tx/sim_do/sim.do",
+          "length": 4092,
+          "sha256": "558C2D360C3C3DCF9283FB16F18BB1A6B42FE300FB6186C12742684046A0D5B9",
+          "decision": "copied",
+          "destination": "赛题1_工作资料/05_补充参考工程/HDMI环出实验/eg4s324_hdmi_loop/hdmi_lvds_tx/sim_do/sim.do",
+          "reason": "HDMI环出源码、IP、约束、项目、仿真testbench/脚本或EDID MIF"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_lvds_tx/sim_do/vsim_stacktrace.vstf",
+          "length": 1452,
+          "sha256": "B7999B84F4FAD5A268597D7B1F964E08667F6BE173D2C72F9D060ED7D22DE73B",
+          "decision": "excluded-generated",
+          "destination": null,
+          "reason": "工具数据库、构建/仿真输出、日志或本地状态文件"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_lvds_tx/sim_do/wave.do",
+          "length": 347,
+          "sha256": "0923C202424F3BD25827B6F7B7CD4B3465C1F40DB2214695764B6EA720C6747F",
+          "decision": "copied",
+          "destination": "赛题1_工作资料/05_补充参考工程/HDMI环出实验/eg4s324_hdmi_loop/hdmi_lvds_tx/sim_do/wave.do",
+          "reason": "HDMI环出源码、IP、约束、项目、仿真testbench/脚本或EDID MIF"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_lvds_tx/sim_do/work/",
+          "length": 0,
+          "sha256": null,
+          "decision": "directory",
+          "destination": null,
+          "reason": "目录项"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_lvds_tx/sim_do/work/@_opt/",
+          "length": 0,
+          "sha256": null,
+          "decision": "directory",
+          "destination": null,
+          "reason": "目录项"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_lvds_tx/sim_do/work/@_opt1/",
+          "length": 0,
+          "sha256": null,
+          "decision": "directory",
+          "destination": null,
+          "reason": "目录项"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_lvds_tx/sim_do/work/@_opt1/_lib.qdb",
+          "length": 65536,
+          "sha256": "3DDFEBA7380099D979AC2191A6AE711710797E523A845055B3ED2F34A6624A38",
+          "decision": "excluded-generated",
+          "destination": null,
+          "reason": "工具数据库、构建/仿真输出、日志或本地状态文件"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_lvds_tx/sim_do/work/@_opt1/_lib1_0.qdb",
+          "length": 32768,
+          "sha256": "A0769AD585446ABEA922DD639580082CC60D3D2CDA45E4DFB072F5AE28389FFA",
+          "decision": "excluded-generated",
+          "destination": null,
+          "reason": "工具数据库、构建/仿真输出、日志或本地状态文件"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_lvds_tx/sim_do/work/@_opt1/_lib1_0.qpg",
+          "length": 1376256,
+          "sha256": "EC4A75F27A13618FF72D12B8D22FA42F3C1153126ACBCA8FFC9D46ADDEDE92FE",
+          "decision": "excluded-generated",
+          "destination": null,
+          "reason": "工具数据库、构建/仿真输出、日志或本地状态文件"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_lvds_tx/sim_do/work/@_opt1/_lib1_0.qtl",
+          "length": 137154,
+          "sha256": "6EBC1DB4BF48AAE084A2C72843FF8B197B468039BFDEFBFE90056646BE82ED55",
+          "decision": "excluded-generated",
+          "destination": null,
+          "reason": "工具数据库、构建/仿真输出、日志或本地状态文件"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_lvds_tx/sim_do/work/@_opt1/_lib2_0.qdb",
+          "length": 32768,
+          "sha256": "08CD7851316D767476A68AB5961D9655CD65DDC3FD53EC5B2DE8D6B56A441409",
+          "decision": "excluded-generated",
+          "destination": null,
+          "reason": "工具数据库、构建/仿真输出、日志或本地状态文件"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_lvds_tx/sim_do/work/@_opt1/_lib2_0.qpg",
+          "length": 1007616,
+          "sha256": "66D63EAC6B93FEEADB75598CD11E6E3CAA23A397A4791E201F2EFB9501E1A8A1",
+          "decision": "excluded-generated",
+          "destination": null,
+          "reason": "工具数据库、构建/仿真输出、日志或本地状态文件"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_lvds_tx/sim_do/work/@_opt1/_lib2_0.qtl",
+          "length": 137012,
+          "sha256": "B93BD8833E4D7E573206CCDED707256AA0424E64B184152D624C1155E2726D4C",
+          "decision": "excluded-generated",
+          "destination": null,
+          "reason": "工具数据库、构建/仿真输出、日志或本地状态文件"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_lvds_tx/sim_do/work/@_opt1/_lib3_0.qdb",
+          "length": 32768,
+          "sha256": "D124E0792EE34B94D8591789015D8DC54954BE42AB528853FDA64A473B224DB8",
+          "decision": "excluded-generated",
+          "destination": null,
+          "reason": "工具数据库、构建/仿真输出、日志或本地状态文件"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_lvds_tx/sim_do/work/@_opt1/_lib3_0.qpg",
+          "length": 458752,
+          "sha256": "3898ADA608DB76E0F6250170EEBD60CADDDB6A1B42E8265BC3A5DF3AF53A55B2",
+          "decision": "excluded-generated",
+          "destination": null,
+          "reason": "工具数据库、构建/仿真输出、日志或本地状态文件"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_lvds_tx/sim_do/work/@_opt1/_lib3_0.qtl",
+          "length": 63380,
+          "sha256": "8914DD25ED262194F8C6953B0E444EA0E664451CBAEAB6CAF8C8592D7386709E",
+          "decision": "excluded-generated",
+          "destination": null,
+          "reason": "工具数据库、构建/仿真输出、日志或本地状态文件"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_lvds_tx/sim_do/work/@_opt1/_lib4_0.qdb",
+          "length": 106496,
+          "sha256": "F34F1A14841CF56D721E39BAE6DC70107BA2F6253BBF74B66A9005B2B28F35F4",
+          "decision": "excluded-generated",
+          "destination": null,
+          "reason": "工具数据库、构建/仿真输出、日志或本地状态文件"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_lvds_tx/sim_do/work/@_opt1/_lib4_0.qpg",
+          "length": 18202624,
+          "sha256": "FE1E076DB104AC9C8F19F9E0C1B9A4AE9A07E130EEAE3F455641F75A55C13101",
+          "decision": "excluded-generated",
+          "destination": null,
+          "reason": "工具数据库、构建/仿真输出、日志或本地状态文件"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_lvds_tx/sim_do/work/@_opt1/_lib4_0.qtl",
+          "length": 13535,
+          "sha256": "D6DE117ED72F312637C93D2634337A628EB60DBA6F2F1F0AAB5043AA97A1E2A2",
+          "decision": "excluded-generated",
+          "destination": null,
+          "reason": "工具数据库、构建/仿真输出、日志或本地状态文件"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_lvds_tx/sim_do/work/@_opt1/_lib5_0.qdb",
+          "length": 65536,
+          "sha256": "7946513050155B2B228FB98F91ED90F0613D1FFF9C866891CE01A35A037DA21A",
+          "decision": "excluded-generated",
+          "destination": null,
+          "reason": "工具数据库、构建/仿真输出、日志或本地状态文件"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_lvds_tx/sim_do/work/@_opt1/_lib5_0.qpg",
+          "length": 7225344,
+          "sha256": "8B5996D7BFC5ADD9285788F03110712A54B7E036163BB798C9C52FC5DC11CDCE",
+          "decision": "excluded-generated",
+          "destination": null,
+          "reason": "工具数据库、构建/仿真输出、日志或本地状态文件"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_lvds_tx/sim_do/work/@_opt1/_lib5_0.qtl",
+          "length": 273594,
+          "sha256": "05370F0CCC5DAB65A6052593F7F8E3EEF40BA758E39FA284AE9F621F1282A3AA",
+          "decision": "excluded-generated",
+          "destination": null,
+          "reason": "工具数据库、构建/仿真输出、日志或本地状态文件"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_lvds_tx/sim_do/work/@_opt1/_lib6_0.qdb",
+          "length": 32768,
+          "sha256": "4B52F9E072A410AA306D07D2B60880E4D9905E0F26DC260A050BF8E66FC7BBDE",
+          "decision": "excluded-generated",
+          "destination": null,
+          "reason": "工具数据库、构建/仿真输出、日志或本地状态文件"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_lvds_tx/sim_do/work/@_opt1/_lib6_0.qpg",
+          "length": 352256,
+          "sha256": "600D1DDBBD4F28F6791065DC6976F724173D70EC51AD2E1E1DDC56FDAEA81456",
+          "decision": "excluded-generated",
+          "destination": null,
+          "reason": "工具数据库、构建/仿真输出、日志或本地状态文件"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_lvds_tx/sim_do/work/@_opt1/_lib6_0.qtl",
+          "length": 30439,
+          "sha256": "EE9A79116E8D25D7E7198688844E075A8D9108862AE9FD9E8C234E98245872F7",
+          "decision": "excluded-generated",
+          "destination": null,
+          "reason": "工具数据库、构建/仿真输出、日志或本地状态文件"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_lvds_tx/sim_do/work/@_opt/_lib.qdb",
+          "length": 65536,
+          "sha256": "16CDE1A0EF5B88B256B1144E89AB0F232547EF27EBE550456EB9886A8F4B57E6",
+          "decision": "excluded-generated",
+          "destination": null,
+          "reason": "工具数据库、构建/仿真输出、日志或本地状态文件"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_lvds_tx/sim_do/work/@_opt/_lib1_0.qdb",
+          "length": 32768,
+          "sha256": "A92A67FEA431348B6EC373342EACF4038A3674CFA0B9E74C921D6F727E0D6792",
+          "decision": "excluded-generated",
+          "destination": null,
+          "reason": "工具数据库、构建/仿真输出、日志或本地状态文件"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_lvds_tx/sim_do/work/@_opt/_lib1_0.qpg",
+          "length": 1376256,
+          "sha256": "BA4C74835E1F407B1AD5C71C8EDCF5FD4D8CD262A092A798AF15413C01FB46BE",
+          "decision": "excluded-generated",
+          "destination": null,
+          "reason": "工具数据库、构建/仿真输出、日志或本地状态文件"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_lvds_tx/sim_do/work/@_opt/_lib1_0.qtl",
+          "length": 136910,
+          "sha256": "67476ACE7DC269731AFCACF11792FC02A421A20E0F5CA9180705A9D68036976E",
+          "decision": "excluded-generated",
+          "destination": null,
+          "reason": "工具数据库、构建/仿真输出、日志或本地状态文件"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_lvds_tx/sim_do/work/@_opt/_lib2_0.qdb",
+          "length": 32768,
+          "sha256": "98BA946E3C45748EE4CA134DE36FDC3C5FE540EFB68D2FA55631836DC7B72EE5",
+          "decision": "excluded-generated",
+          "destination": null,
+          "reason": "工具数据库、构建/仿真输出、日志或本地状态文件"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_lvds_tx/sim_do/work/@_opt/_lib2_0.qpg",
+          "length": 1007616,
+          "sha256": "ED95301C98701F09A6BC47CE2CEE53C847CC464B5D588CB6D7FACB33B9ED263E",
+          "decision": "excluded-generated",
+          "destination": null,
+          "reason": "工具数据库、构建/仿真输出、日志或本地状态文件"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_lvds_tx/sim_do/work/@_opt/_lib2_0.qtl",
+          "length": 137001,
+          "sha256": "2B6C6A4B73BCD43E1DF9D8F5F42AE5C43FA235237430C11FA57BAFFE2DB3F611",
+          "decision": "excluded-generated",
+          "destination": null,
+          "reason": "工具数据库、构建/仿真输出、日志或本地状态文件"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_lvds_tx/sim_do/work/@_opt/_lib3_0.qdb",
+          "length": 32768,
+          "sha256": "D124E0792EE34B94D8591789015D8DC54954BE42AB528853FDA64A473B224DB8",
+          "decision": "excluded-generated",
+          "destination": null,
+          "reason": "工具数据库、构建/仿真输出、日志或本地状态文件"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_lvds_tx/sim_do/work/@_opt/_lib3_0.qpg",
+          "length": 458752,
+          "sha256": "9237333151A096E44E4FA77058AEC0A21AF391D53965E3CE99FE2788909887F7",
+          "decision": "excluded-generated",
+          "destination": null,
+          "reason": "工具数据库、构建/仿真输出、日志或本地状态文件"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_lvds_tx/sim_do/work/@_opt/_lib3_0.qtl",
+          "length": 63380,
+          "sha256": "8776FF84F64141474E13FC4F0EBE841C18F4913DDC7AA40F389B7B4DAF0C7BEE",
+          "decision": "excluded-generated",
+          "destination": null,
+          "reason": "工具数据库、构建/仿真输出、日志或本地状态文件"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_lvds_tx/sim_do/work/@_opt/_lib4_0.qdb",
+          "length": 106496,
+          "sha256": "F34F1A14841CF56D721E39BAE6DC70107BA2F6253BBF74B66A9005B2B28F35F4",
+          "decision": "excluded-generated",
+          "destination": null,
+          "reason": "工具数据库、构建/仿真输出、日志或本地状态文件"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_lvds_tx/sim_do/work/@_opt/_lib4_0.qpg",
+          "length": 18202624,
+          "sha256": "311AE0A3A1AFD55B3172882D16F16C13F6B4E265F95299E4D964AC4F2E8ABB8A",
+          "decision": "excluded-generated",
+          "destination": null,
+          "reason": "工具数据库、构建/仿真输出、日志或本地状态文件"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_lvds_tx/sim_do/work/@_opt/_lib4_0.qtl",
+          "length": 13535,
+          "sha256": "30BF7E7112FFC61190BD24B4BD039F87B7A5ED2AABC97D556A19D3CD713ABB59",
+          "decision": "excluded-generated",
+          "destination": null,
+          "reason": "工具数据库、构建/仿真输出、日志或本地状态文件"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_lvds_tx/sim_do/work/@_opt/_lib5_0.qdb",
+          "length": 65536,
+          "sha256": "0C1D5293A0912429AC91D9551496FEDA2C41EA73A640DA0A850124A3F672054A",
+          "decision": "excluded-generated",
+          "destination": null,
+          "reason": "工具数据库、构建/仿真输出、日志或本地状态文件"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_lvds_tx/sim_do/work/@_opt/_lib5_0.qpg",
+          "length": 7225344,
+          "sha256": "C78010DDB2600DC88B408B41C76FB0E6D683D93BE8DC092DA0C3835F04DEE765",
+          "decision": "excluded-generated",
+          "destination": null,
+          "reason": "工具数据库、构建/仿真输出、日志或本地状态文件"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_lvds_tx/sim_do/work/@_opt/_lib5_0.qtl",
+          "length": 272891,
+          "sha256": "8BF8D605FD265D7C99900780A6A73A1CCE72BE625D415F4AB8057DA3AD010D63",
+          "decision": "excluded-generated",
+          "destination": null,
+          "reason": "工具数据库、构建/仿真输出、日志或本地状态文件"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_lvds_tx/sim_do/work/@_opt/_lib6_0.qdb",
+          "length": 32768,
+          "sha256": "4B52F9E072A410AA306D07D2B60880E4D9905E0F26DC260A050BF8E66FC7BBDE",
+          "decision": "excluded-generated",
+          "destination": null,
+          "reason": "工具数据库、构建/仿真输出、日志或本地状态文件"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_lvds_tx/sim_do/work/@_opt/_lib6_0.qpg",
+          "length": 352256,
+          "sha256": "600D1DDBBD4F28F6791065DC6976F724173D70EC51AD2E1E1DDC56FDAEA81456",
+          "decision": "excluded-generated",
+          "destination": null,
+          "reason": "工具数据库、构建/仿真输出、日志或本地状态文件"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_lvds_tx/sim_do/work/@_opt/_lib6_0.qtl",
+          "length": 30439,
+          "sha256": "EE9A79116E8D25D7E7198688844E075A8D9108862AE9FD9E8C234E98245872F7",
+          "decision": "excluded-generated",
+          "destination": null,
+          "reason": "工具数据库、构建/仿真输出、日志或本地状态文件"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_lvds_tx/sim_do/work/_info",
+          "length": 12813,
+          "sha256": "234BFC1E993D5F8BEB4E510F937395E58CCDFE2BBC806152EC047D392C2CF422",
+          "decision": "excluded-generated",
+          "destination": null,
+          "reason": "工具数据库、构建/仿真输出、日志或本地状态文件"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_lvds_tx/sim_do/work/_lib.qdb",
+          "length": 49152,
+          "sha256": "839705D9718AA41C22241741E610B43E62C45EDC9530EA69B5D3D9A3F6AD60FE",
+          "decision": "excluded-generated",
+          "destination": null,
+          "reason": "工具数据库、构建/仿真输出、日志或本地状态文件"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_lvds_tx/sim_do/work/_lib1_4.qdb",
+          "length": 32768,
+          "sha256": "E499F59669B8DDF4526C8B5AEB7A786AFF6F0D2FB80A44E748B23A78E05E36AE",
+          "decision": "excluded-generated",
+          "destination": null,
+          "reason": "工具数据库、构建/仿真输出、日志或本地状态文件"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_lvds_tx/sim_do/work/_lib1_4.qpg",
+          "length": 1359872,
+          "sha256": "11D93FDB6068441760EB2AA43F8E00EEF612EF66EAB6C178D6FC9CC312D0B33D",
+          "decision": "excluded-generated",
+          "destination": null,
+          "reason": "工具数据库、构建/仿真输出、日志或本地状态文件"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_lvds_tx/sim_do/work/_lib1_4.qtl",
+          "length": 418367,
+          "sha256": "AA7A21641D5894A9BF6A8888957CA5426D05D935533E5CCCAE37BF94E65D14CB",
+          "decision": "excluded-generated",
+          "destination": null,
+          "reason": "工具数据库、构建/仿真输出、日志或本地状态文件"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_lvds_tx/sim_do/work/_opt__lock",
+          "length": 32,
+          "sha256": "0C0554457FD105E669F20AE3D9E22C7C5DDC575D4FB68FB5219DDD6EEFCA5D6F",
+          "decision": "excluded-generated",
+          "destination": null,
+          "reason": "工具数据库、构建/仿真输出、日志或本地状态文件"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_lvds_tx/sim_do/work/_temp/",
+          "length": 0,
+          "sha256": null,
+          "decision": "directory",
+          "destination": null,
+          "reason": "目录项"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_lvds_tx/sim_do/work/_tempmsg/",
+          "length": 0,
+          "sha256": null,
+          "decision": "directory",
+          "destination": null,
+          "reason": "目录项"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_lvds_tx/sim_do/work/_vmake",
+          "length": 29,
+          "sha256": "D287F8A335408D3F94FEA840AD628F2CBED3775952C49131049EF8F60FD337C9",
+          "decision": "excluded-generated",
+          "destination": null,
+          "reason": "工具数据库、构建/仿真输出、日志或本地状态文件"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_lvds_tx/source_code/",
+          "length": 0,
+          "sha256": null,
+          "decision": "directory",
+          "destination": null,
+          "reason": "目录项"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_lvds_tx/source_code/rtl/",
+          "length": 0,
+          "sha256": null,
+          "decision": "directory",
+          "destination": null,
+          "reason": "目录项"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_lvds_tx/source_code/rtl/DVITransmitter.vhd",
+          "length": 4657,
+          "sha256": "35B68D3C2DE6E9373994E340B3942E7F3D432A9BBC827A7906E3480557E99ED8",
+          "decision": "copied",
+          "destination": "赛题1_工作资料/05_补充参考工程/HDMI环出实验/eg4s324_hdmi_loop/hdmi_lvds_tx/source_code/rtl/DVITransmitter.vhd",
+          "reason": "HDMI环出源码、IP、约束、项目、仿真testbench/脚本或EDID MIF"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_lvds_tx/source_code/rtl/enc_file/",
+          "length": 0,
+          "sha256": null,
+          "decision": "directory",
+          "destination": null,
+          "reason": "目录项"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_lvds_tx/source_code/rtl/enc_file/DVITransmitter.enc.vhd",
+          "length": 9344,
+          "sha256": "215F8E729CEF0BFE1A1A12248BACA1EACCF466A63791C46EE45B3FFE45D92133",
+          "decision": "copied",
+          "destination": "赛题1_工作资料/05_补充参考工程/HDMI环出实验/eg4s324_hdmi_loop/hdmi_lvds_tx/source_code/rtl/enc_file/DVITransmitter.enc.vhd",
+          "reason": "HDMI环出源码、IP、约束、项目、仿真testbench/脚本或EDID MIF"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_lvds_tx/source_code/rtl/enc_file/hdmi_tx.enc.vhd",
+          "length": 5436,
+          "sha256": "98E22C3BBBC282C49F0C94E2FC9DF4A3D35096B9EBF85109FC22850FE5C3C0C8",
+          "decision": "copied",
+          "destination": "赛题1_工作资料/05_补充参考工程/HDMI环出实验/eg4s324_hdmi_loop/hdmi_lvds_tx/source_code/rtl/enc_file/hdmi_tx.enc.vhd",
+          "reason": "HDMI环出源码、IP、约束、项目、仿真testbench/脚本或EDID MIF"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_lvds_tx/source_code/rtl/enc_file/hdmi_tx_display.enc.v",
+          "length": 5700,
+          "sha256": "8065170E11DE688877ED91D4BEAF3D01C4E7ABAC788150160E0AF24003B43AD0",
+          "decision": "copied",
+          "destination": "赛题1_工作资料/05_补充参考工程/HDMI环出实验/eg4s324_hdmi_loop/hdmi_lvds_tx/source_code/rtl/enc_file/hdmi_tx_display.enc.v",
+          "reason": "HDMI环出源码、IP、约束、项目、仿真testbench/脚本或EDID MIF"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_lvds_tx/source_code/rtl/enc_file/SerializerN_1_lvds.enc.vhd",
+          "length": 8644,
+          "sha256": "FBC9480DD55887412F832E2226FFA5CD0C6952463F0ACCBA6036461F2C6CA6E2",
+          "decision": "copied",
+          "destination": "赛题1_工作资料/05_补充参考工程/HDMI环出实验/eg4s324_hdmi_loop/hdmi_lvds_tx/source_code/rtl/enc_file/SerializerN_1_lvds.enc.vhd",
+          "reason": "HDMI环出源码、IP、约束、项目、仿真testbench/脚本或EDID MIF"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_lvds_tx/source_code/rtl/enc_file/SerializerN_1_lvds_dat.enc.vhd",
+          "length": 8818,
+          "sha256": "7105AD3C726D0E81EEC09487CAA784AF17F6A7BFB788ED2615B9DD5D017A9BC8",
+          "decision": "copied",
+          "destination": "赛题1_工作资料/05_补充参考工程/HDMI环出实验/eg4s324_hdmi_loop/hdmi_lvds_tx/source_code/rtl/enc_file/SerializerN_1_lvds_dat.enc.vhd",
+          "reason": "HDMI环出源码、IP、约束、项目、仿真testbench/脚本或EDID MIF"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_lvds_tx/source_code/rtl/enc_file/TMDSEncoder.enc.vhd",
+          "length": 9344,
+          "sha256": "BEF8299C6319765FAAC2AB84A27B6865E4962AA00D374A1FF7B5D8E8DE2F650C",
+          "decision": "copied",
+          "destination": "赛题1_工作资料/05_补充参考工程/HDMI环出实验/eg4s324_hdmi_loop/hdmi_lvds_tx/source_code/rtl/enc_file/TMDSEncoder.enc.vhd",
+          "reason": "HDMI环出源码、IP、约束、项目、仿真testbench/脚本或EDID MIF"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_lvds_tx/source_code/rtl/enc_file/video_tpg_1024768.enc.v",
+          "length": 14346,
+          "sha256": "61450B97C0A3C0D902EFD679E2D4477F5DEE329F4A89364FBA17F4F2EB2DA958",
+          "decision": "copied",
+          "destination": "赛题1_工作资料/05_补充参考工程/HDMI环出实验/eg4s324_hdmi_loop/hdmi_lvds_tx/source_code/rtl/enc_file/video_tpg_1024768.enc.v",
+          "reason": "HDMI环出源码、IP、约束、项目、仿真testbench/脚本或EDID MIF"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_lvds_tx/source_code/rtl/enc_file/video_tpg_1080p.enc.v",
+          "length": 13858,
+          "sha256": "2418930929422EB5A942FD4EED9CF08227865F332DD8B81BBC7A12D502437C02",
+          "decision": "copied",
+          "destination": "赛题1_工作资料/05_补充参考工程/HDMI环出实验/eg4s324_hdmi_loop/hdmi_lvds_tx/source_code/rtl/enc_file/video_tpg_1080p.enc.v",
+          "reason": "HDMI环出源码、IP、约束、项目、仿真testbench/脚本或EDID MIF"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_lvds_tx/source_code/rtl/enc_file/video_tpg_12801024p.enc.v",
+          "length": 13772,
+          "sha256": "A3384F8A6DE33FB501100C92A74E212D06AEAF2F660D46CDA71F098AE3827036",
+          "decision": "copied",
+          "destination": "赛题1_工作资料/05_补充参考工程/HDMI环出实验/eg4s324_hdmi_loop/hdmi_lvds_tx/source_code/rtl/enc_file/video_tpg_12801024p.enc.v",
+          "reason": "HDMI环出源码、IP、约束、项目、仿真testbench/脚本或EDID MIF"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_lvds_tx/source_code/rtl/enc_file/video_tpg_1280800.enc.v",
+          "length": 14386,
+          "sha256": "DE5AB14EA801EF5C168FBF90CA5FDD7BF2BF28F6B7669F682DB6AECEF2FA4175",
+          "decision": "copied",
+          "destination": "赛题1_工作资料/05_补充参考工程/HDMI环出实验/eg4s324_hdmi_loop/hdmi_lvds_tx/source_code/rtl/enc_file/video_tpg_1280800.enc.v",
+          "reason": "HDMI环出源码、IP、约束、项目、仿真testbench/脚本或EDID MIF"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_lvds_tx/source_code/rtl/enc_file/video_tpg_16801050p.enc.v",
+          "length": 13924,
+          "sha256": "4B4DD0138F06B1A299BD80F7019B876FAEF99D153B87FA1CE6A491865455A672",
+          "decision": "copied",
+          "destination": "赛题1_工作资料/05_补充参考工程/HDMI环出实验/eg4s324_hdmi_loop/hdmi_lvds_tx/source_code/rtl/enc_file/video_tpg_16801050p.enc.v",
+          "reason": "HDMI环出源码、IP、约束、项目、仿真testbench/脚本或EDID MIF"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_lvds_tx/source_code/rtl/enc_file/video_tpg_800600.enc.v",
+          "length": 14036,
+          "sha256": "EB27F66680E94F870162CB29F7A28DD87039A11083FC08A49C72B9BAD732F9B7",
+          "decision": "copied",
+          "destination": "赛题1_工作资料/05_补充参考工程/HDMI环出实验/eg4s324_hdmi_loop/hdmi_lvds_tx/source_code/rtl/enc_file/video_tpg_800600.enc.v",
+          "reason": "HDMI环出源码、IP、约束、项目、仿真testbench/脚本或EDID MIF"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_lvds_tx/source_code/rtl/hdmi_top.v",
+          "length": 1733,
+          "sha256": "116D78DEB9188D9631A940C8976BDF3487D3FD117DFDA1DD02FCA914F1C12E9E",
+          "decision": "copied",
+          "destination": "赛题1_工作资料/05_补充参考工程/HDMI环出实验/eg4s324_hdmi_loop/hdmi_lvds_tx/source_code/rtl/hdmi_top.v",
+          "reason": "HDMI环出源码、IP、约束、项目、仿真testbench/脚本或EDID MIF"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_lvds_tx/source_code/rtl/hdmi_tx.vhd",
+          "length": 1873,
+          "sha256": "FF9CC80CC74B4DD53DA3509E75D7617BF5CF707F39740C84F997CA8E8EE87E3B",
+          "decision": "copied",
+          "destination": "赛题1_工作资料/05_补充参考工程/HDMI环出实验/eg4s324_hdmi_loop/hdmi_lvds_tx/source_code/rtl/hdmi_tx.vhd",
+          "reason": "HDMI环出源码、IP、约束、项目、仿真testbench/脚本或EDID MIF"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_lvds_tx/source_code/rtl/hdmi_tx_display.v",
+          "length": 1774,
+          "sha256": "4337B8E570DA21CCD3C7746E587E57AFE4E6073346721EACC1C583733A366141",
+          "decision": "copied",
+          "destination": "赛题1_工作资料/05_补充参考工程/HDMI环出实验/eg4s324_hdmi_loop/hdmi_lvds_tx/source_code/rtl/hdmi_tx_display.v",
+          "reason": "HDMI环出源码、IP、约束、项目、仿真testbench/脚本或EDID MIF"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_lvds_tx/source_code/rtl/SerializerN_1_lvds.vhd",
+          "length": 4212,
+          "sha256": "B8FF40649D58A9061D08EF6545580C03A0AA81887CD72747BB41B6BF3177603C",
+          "decision": "copied",
+          "destination": "赛题1_工作资料/05_补充参考工程/HDMI环出实验/eg4s324_hdmi_loop/hdmi_lvds_tx/source_code/rtl/SerializerN_1_lvds.vhd",
+          "reason": "HDMI环出源码、IP、约束、项目、仿真testbench/脚本或EDID MIF"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_lvds_tx/source_code/rtl/SerializerN_1_lvds_dat.vhd",
+          "length": 4340,
+          "sha256": "FEB36DF852F00843B8A3C98D640D3E359DE7FA26C210619A150AED9B1930A157",
+          "decision": "copied",
+          "destination": "赛题1_工作资料/05_补充参考工程/HDMI环出实验/eg4s324_hdmi_loop/hdmi_lvds_tx/source_code/rtl/SerializerN_1_lvds_dat.vhd",
+          "reason": "HDMI环出源码、IP、约束、项目、仿真testbench/脚本或EDID MIF"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_lvds_tx/source_code/rtl/TMDSEncoder.vhd",
+          "length": 4607,
+          "sha256": "144771645CEFD8397F2A3F28B7EA12F94CFC281AB4F9067EA045035B441CC61F",
+          "decision": "copied",
+          "destination": "赛题1_工作资料/05_补充参考工程/HDMI环出实验/eg4s324_hdmi_loop/hdmi_lvds_tx/source_code/rtl/TMDSEncoder.vhd",
+          "reason": "HDMI环出源码、IP、约束、项目、仿真testbench/脚本或EDID MIF"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_lvds_tx/source_code/rtl/video_tpg_1024768.v",
+          "length": 8227,
+          "sha256": "EF1E39B4B6B9FA3939EAE122DC6C613EB309BD001D63EF6AF6C3BF757E930B1D",
+          "decision": "copied",
+          "destination": "赛题1_工作资料/05_补充参考工程/HDMI环出实验/eg4s324_hdmi_loop/hdmi_lvds_tx/source_code/rtl/video_tpg_1024768.v",
+          "reason": "HDMI环出源码、IP、约束、项目、仿真testbench/脚本或EDID MIF"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_lvds_tx/source_code/rtl/video_tpg_1080p.v",
+          "length": 7859,
+          "sha256": "152D6BBDE7066509E37E7C58561F842D3F054A8F3BE9481566369233C6582B95",
+          "decision": "copied",
+          "destination": "赛题1_工作资料/05_补充参考工程/HDMI环出实验/eg4s324_hdmi_loop/hdmi_lvds_tx/source_code/rtl/video_tpg_1080p.v",
+          "reason": "HDMI环出源码、IP、约束、项目、仿真testbench/脚本或EDID MIF"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_lvds_tx/source_code/rtl/video_tpg_12801024p.v",
+          "length": 7804,
+          "sha256": "A9D51F3B2EC8884137B50AD2727F6E9CF36CDDE82A6ECB98FBA5E5605B95A836",
+          "decision": "copied",
+          "destination": "赛题1_工作资料/05_补充参考工程/HDMI环出实验/eg4s324_hdmi_loop/hdmi_lvds_tx/source_code/rtl/video_tpg_12801024p.v",
+          "reason": "HDMI环出源码、IP、约束、项目、仿真testbench/脚本或EDID MIF"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_lvds_tx/source_code/rtl/video_tpg_1280800.v",
+          "length": 8262,
+          "sha256": "220F84BF07CD706DAA6D742F10AD4E5746867C00AAD23BE372654D61BB75B8D3",
+          "decision": "copied",
+          "destination": "赛题1_工作资料/05_补充参考工程/HDMI环出实验/eg4s324_hdmi_loop/hdmi_lvds_tx/source_code/rtl/video_tpg_1280800.v",
+          "reason": "HDMI环出源码、IP、约束、项目、仿真testbench/脚本或EDID MIF"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_lvds_tx/source_code/rtl/video_tpg_16801050p.v",
+          "length": 7914,
+          "sha256": "D0ABF9FCB8A4F3880E7A48266386D1AD896CFF3D0656F876D7D945708A93AA4F",
+          "decision": "copied",
+          "destination": "赛题1_工作资料/05_补充参考工程/HDMI环出实验/eg4s324_hdmi_loop/hdmi_lvds_tx/source_code/rtl/video_tpg_16801050p.v",
+          "reason": "HDMI环出源码、IP、约束、项目、仿真testbench/脚本或EDID MIF"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_lvds_tx/source_code/rtl/video_tpg_800600.v",
+          "length": 8001,
+          "sha256": "ABFA57B095D6F6A87744FFA1A27A105048D4843FB74D0251526838D2D8C102A7",
+          "decision": "copied",
+          "destination": "赛题1_工作资料/05_补充参考工程/HDMI环出实验/eg4s324_hdmi_loop/hdmi_lvds_tx/source_code/rtl/video_tpg_800600.v",
+          "reason": "HDMI环出源码、IP、约束、项目、仿真testbench/脚本或EDID MIF"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_lvds_tx/source_code/tb/",
+          "length": 0,
+          "sha256": null,
+          "decision": "directory",
+          "destination": null,
+          "reason": "目录项"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/hdmi_lvds_tx/source_code/tb/tb.v",
+          "length": 1411,
+          "sha256": "4062F72BDB2C7500793EA6943E4411FC9A1C37A9E6790578587FD85728915AED",
+          "decision": "copied",
+          "destination": "赛题1_工作资料/05_补充参考工程/HDMI环出实验/eg4s324_hdmi_loop/hdmi_lvds_tx/source_code/tb/tb.v",
+          "reason": "HDMI环出源码、IP、约束、项目、仿真testbench/脚本或EDID MIF"
+        },
+        {
+          "path": "eg4s324_hdmi_loop/loop_test.txt",
+          "length": 1128,
+          "sha256": "FCEC1C4E6EE7C0752461E3C39B16DD1B2FB3B387982C9579A639A15E5ABFA326",
+          "decision": "copied",
+          "destination": "赛题1_工作资料/05_补充参考工程/HDMI环出实验/eg4s324_hdmi_loop/loop_test.txt",
+          "reason": "HDMI环出源码、IP、约束、项目、仿真testbench/脚本或EDID MIF"
+        }
+      ]
+    },
+    {
+      "sourceFile": "APUG011_high_performance_sdram_read_write_reference_design_v1.2.zip",
+      "sourceSha256": "41E0D9361E222A91265923C65CED09E405EC43B1ADF90D22837F712E56AD6C19",
+      "sourceBytes": 2958767,
+      "entryCount": 99,
+      "members": [
+        {
+          "path": "APUG011_high_performance_sdram_read_write_reference_design_v1.2/",
+          "length": 0,
+          "sha256": null,
+          "decision": "directory",
+          "destination": null,
+          "reason": "目录项"
+        },
+        {
+          "path": "APUG011_high_performance_sdram_read_write_reference_design_v1.2/doc/",
+          "length": 0,
+          "sha256": null,
+          "decision": "directory",
+          "destination": null,
+          "reason": "目录项"
+        },
+        {
+          "path": "APUG011_high_performance_sdram_read_write_reference_design_v1.2/doc/APUG011_基于ERAM接口实现的高性能SDRAM读写v1.2.pdf",
+          "length": 846059,
+          "sha256": "E20D565E0776BF91EDDFD0062DF6CB03EC6F6B4DC4A255B7FE57BAD05D4E2294",
+          "decision": "already-tracked",
+          "destination": "赛题1_工作资料/02_关键IP与工具手册/APUG011_基于ERAM接口实现的高性能SDRAM读写v1.2.pdf",
+          "reason": "PDF已在02_关键IP与工具手册跟踪，SHA256比对一致"
+        },
+        {
+          "path": "APUG011_high_performance_sdram_read_write_reference_design_v1.2/prj/",
+          "length": 0,
+          "sha256": null,
+          "decision": "directory",
+          "destination": null,
+          "reason": "目录项"
+        },
+        {
+          "path": "APUG011_high_performance_sdram_read_write_reference_design_v1.2/prj/al_ip/",
+          "length": 0,
+          "sha256": null,
+          "decision": "directory",
+          "destination": null,
+          "reason": "目录项"
+        },
+        {
+          "path": "APUG011_high_performance_sdram_read_write_reference_design_v1.2/prj/al_ip/clk_pll.ipc",
+          "length": 1349,
+          "sha256": "A90BEF5BB9F9CE18F715101073727EB3A1E23BE1D4C10FF653B2943ADDE25D87",
+          "decision": "copied",
+          "destination": "赛题1_工作资料/05_补充参考工程/APUG011_SDRAM参考工程/prj/al_ip/clk_pll.ipc",
+          "reason": "SDRAM参考工程源码、IP、约束、项目或仿真文件"
+        },
+        {
+          "path": "APUG011_high_performance_sdram_read_write_reference_design_v1.2/prj/al_ip/clk_pll.v",
+          "length": 2440,
+          "sha256": "D9346BB481945B12CC6915887D30C1EDFB0CB1BA20FD8DD60DF1F57A353F048A",
+          "decision": "copied",
+          "destination": "赛题1_工作资料/05_补充参考工程/APUG011_SDRAM参考工程/prj/al_ip/clk_pll.v",
+          "reason": "SDRAM参考工程源码、IP、约束、项目或仿真文件"
+        },
+        {
+          "path": "APUG011_high_performance_sdram_read_write_reference_design_v1.2/prj/al_ip/clk_pll_sim.v",
+          "length": 2891,
+          "sha256": "458CB2B39287E06F3410480E58218EEE74F3B20B26E59D705431F397C2E41908",
+          "decision": "copied",
+          "destination": "赛题1_工作资料/05_补充参考工程/APUG011_SDRAM参考工程/prj/al_ip/clk_pll_sim.v",
+          "reason": "SDRAM参考工程源码、IP、约束、项目或仿真文件"
+        },
+        {
+          "path": "APUG011_high_performance_sdram_read_write_reference_design_v1.2/prj/dbg.cwc",
+          "length": 274991,
+          "sha256": "ACC2296C2CDFAC05E37FE6391016FBAF4D4D5EEA115C70B15FDE567701DA31A4",
+          "decision": "copied",
+          "destination": "赛题1_工作资料/05_补充参考工程/APUG011_SDRAM参考工程/prj/dbg.cwc",
+          "reason": "SDRAM参考工程源码、IP、约束、项目或仿真文件"
+        },
+        {
+          "path": "APUG011_high_performance_sdram_read_write_reference_design_v1.2/prj/sdram_as_ram.al",
+          "length": 5118,
+          "sha256": "6C66BAF85DD68C1C93EDD0499D3B0441CF4D0264FC765B85B00B1C6DC117731C",
+          "decision": "copied",
+          "destination": "赛题1_工作资料/05_补充参考工程/APUG011_SDRAM参考工程/prj/sdram_as_ram.al",
+          "reason": "SDRAM参考工程源码、IP、约束、项目或仿真文件"
+        },
+        {
+          "path": "APUG011_high_performance_sdram_read_write_reference_design_v1.2/prj/sdram_as_ram.bit",
+          "length": 662215,
+          "sha256": "97434FDA09306E6CAFF1FCBF954AF9A613433EEEDB938DCC40D848CDB39CE076",
+          "decision": "excluded-generated",
+          "destination": null,
+          "reason": "工具数据库、构建/仿真输出、日志或本地状态文件"
+        },
+        {
+          "path": "APUG011_high_performance_sdram_read_write_reference_design_v1.2/prj/sdram_as_ram_Runs/",
+          "length": 0,
+          "sha256": null,
+          "decision": "directory",
+          "destination": null,
+          "reason": "目录项"
+        },
+        {
+          "path": "APUG011_high_performance_sdram_read_write_reference_design_v1.2/prj/sdram_as_ram_Runs/.logs/",
+          "length": 0,
+          "sha256": null,
+          "decision": "directory",
+          "destination": null,
+          "reason": "目录项"
+        },
+        {
+          "path": "APUG011_high_performance_sdram_read_write_reference_design_v1.2/prj/sdram_as_ram_Runs/.logs/phy_1/",
+          "length": 0,
+          "sha256": null,
+          "decision": "directory",
+          "destination": null,
+          "reason": "目录项"
+        },
+        {
+          "path": "APUG011_high_performance_sdram_read_write_reference_design_v1.2/prj/sdram_as_ram_Runs/.logs/phy_1/td_20230626_222036.log",
+          "length": 84588,
+          "sha256": "8D37C8C212F419972B2863E4DCF1D7FEC10A6442CF579F6FA7702EB3DC842188",
+          "decision": "excluded-generated",
+          "destination": null,
+          "reason": "工具数据库、构建/仿真输出、日志或本地状态文件"
+        },
+        {
+          "path": "APUG011_high_performance_sdram_read_write_reference_design_v1.2/prj/sdram_as_ram_Runs/.logs/phy_1/td_20230626_222339.log",
+          "length": 84267,
+          "sha256": "841A9CD4870546275D04CE60579310D7275DFD31CEB083769657D75E7F93E819",
+          "decision": "excluded-generated",
+          "destination": null,
+          "reason": "工具数据库、构建/仿真输出、日志或本地状态文件"
+        },
+        {
+          "path": "APUG011_high_performance_sdram_read_write_reference_design_v1.2/prj/sdram_as_ram_Runs/.logs/phy_1/td_20230626_222704.log",
+          "length": 84665,
+          "sha256": "0763F4B3037873D8B4EC4B5DFF5DC0BDA8A1FF7A4030DA5E7A24463CD0FC57E9",
+          "decision": "excluded-generated",
+          "destination": null,
+          "reason": "工具数据库、构建/仿真输出、日志或本地状态文件"
+        },
+        {
+          "path": "APUG011_high_performance_sdram_read_write_reference_design_v1.2/prj/sdram_as_ram_Runs/.logs/phy_1/td_20230626_222757.log",
+          "length": 84874,
+          "sha256": "1B4C4069094FBD4CB4463071324ECF34AE8D0A26202DCC7FD07488AE93EAF862",
+          "decision": "excluded-generated",
+          "destination": null,
+          "reason": "工具数据库、构建/仿真输出、日志或本地状态文件"
+        },
+        {
+          "path": "APUG011_high_performance_sdram_read_write_reference_design_v1.2/prj/sdram_as_ram_Runs/.logs/phy_1/td_20230626_231315.log",
+          "length": 84273,
+          "sha256": "ABD6C1EEC97B4DBE6E087B6077115275E8725308E7F7F64BB81A4A03576A25B1",
+          "decision": "excluded-generated",
+          "destination": null,
+          "reason": "工具数据库、构建/仿真输出、日志或本地状态文件"
+        },
+        {
+          "path": "APUG011_high_performance_sdram_read_write_reference_design_v1.2/prj/sdram_as_ram_Runs/.logs/phy_1/td_20230626_231452.log",
+          "length": 58589,
+          "sha256": "E8F881BE83ACFC4C61E45414F1791E74A0D26B13524F0E4B8726584AD4B5E422",
+          "decision": "excluded-generated",
+          "destination": null,
+          "reason": "工具数据库、构建/仿真输出、日志或本地状态文件"
+        },
+        {
+          "path": "APUG011_high_performance_sdram_read_write_reference_design_v1.2/prj/sdram_as_ram_Runs/.logs/syn_1/",
+          "length": 0,
+          "sha256": null,
+          "decision": "directory",
+          "destination": null,
+          "reason": "目录项"
+        },
+        {
+          "path": "APUG011_high_performance_sdram_read_write_reference_design_v1.2/prj/sdram_as_ram_Runs/.logs/syn_1/td_20230626_221118.log",
+          "length": 15236,
+          "sha256": "1E921A2C0E59CDB210848F43CD0E3633F913B080ADE5041DB579C1EA08A9DE81",
+          "decision": "excluded-generated",
+          "destination": null,
+          "reason": "工具数据库、构建/仿真输出、日志或本地状态文件"
+        },
+        {
+          "path": "APUG011_high_performance_sdram_read_write_reference_design_v1.2/prj/sdram_as_ram_Runs/.logs/syn_1/td_20230626_221302.log",
+          "length": 15189,
+          "sha256": "B52A7D6B97FA2CD98B7BF18D439E87F696B8BA9F8D4E34F70C0714AA52906CD4",
+          "decision": "excluded-generated",
+          "destination": null,
+          "reason": "工具数据库、构建/仿真输出、日志或本地状态文件"
+        },
+        {
+          "path": "APUG011_high_performance_sdram_read_write_reference_design_v1.2/prj/sdram_as_ram_Runs/.logs/syn_1/td_20230626_221341.log",
+          "length": 15189,
+          "sha256": "6613D5B3A4B774B94BA0F2B3C08B5CF9C929FC7B931A983CE0FCC5CB9C250925",
+          "decision": "excluded-generated",
+          "destination": null,
+          "reason": "工具数据库、构建/仿真输出、日志或本地状态文件"
+        },
+        {
+          "path": "APUG011_high_performance_sdram_read_write_reference_design_v1.2/prj/sdram_as_ram_Runs/.logs/syn_1/td_20230626_221523.log",
+          "length": 15622,
+          "sha256": "65367CBB3D86E7132B9B049ED5169936611D08140E16BAD1EB33B672355718F7",
+          "decision": "excluded-generated",
+          "destination": null,
+          "reason": "工具数据库、构建/仿真输出、日志或本地状态文件"
+        },
+        {
+          "path": "APUG011_high_performance_sdram_read_write_reference_design_v1.2/prj/sdram_as_ram_Runs/.logs/syn_1/td_20230626_221654.log",
+          "length": 15622,
+          "sha256": "EDC809EE03F64FCD8E660FE9391DE62BD523E2456D4BF3C03B8652095E4C9327",
+          "decision": "excluded-generated",
+          "destination": null,
+          "reason": "工具数据库、构建/仿真输出、日志或本地状态文件"
+        },
+        {
+          "path": "APUG011_high_performance_sdram_read_write_reference_design_v1.2/prj/sdram_as_ram_Runs/.logs/syn_1/td_20230626_221850.log",
+          "length": 15622,
+          "sha256": "AE683E3256F177980242FD91C8A3828AC92ADE37F7DE445976BF20C8E2177C0B",
+          "decision": "excluded-generated",
+          "destination": null,
+          "reason": "工具数据库、构建/仿真输出、日志或本地状态文件"
+        },
+        {
+          "path": "APUG011_high_performance_sdram_read_write_reference_design_v1.2/prj/sdram_as_ram_Runs/.logs/syn_1/td_20230626_222033.log",
+          "length": 33247,
+          "sha256": "4D643940C6AEA37AB947FAB460C9BD00D116CE12A13F8F50556F1E82BFB5D33D",
+          "decision": "excluded-generated",
+          "destination": null,
+          "reason": "工具数据库、构建/仿真输出、日志或本地状态文件"
+        },
+        {
+          "path": "APUG011_high_performance_sdram_read_write_reference_design_v1.2/prj/sdram_as_ram_Runs/.logs/syn_1/td_20230626_222216.log",
+          "length": 15622,
+          "sha256": "4FCDF98368D140534E21A46398E8C15CAC723B352BCCD4CC40FE88AC8B78FCA6",
+          "decision": "excluded-generated",
+          "destination": null,
+          "reason": "工具数据库、构建/仿真输出、日志或本地状态文件"
+        },
+        {
+          "path": "APUG011_high_performance_sdram_read_write_reference_design_v1.2/prj/sdram_as_ram_Runs/.logs/syn_1/td_20230626_222236.log",
+          "length": 33248,
+          "sha256": "FE0D191DFD9B430C66BC25058FB35761A8573F3B3481A8753664FED43AC6EA42",
+          "decision": "excluded-generated",
+          "destination": null,
+          "reason": "工具数据库、构建/仿真输出、日志或本地状态文件"
+        },
+        {
+          "path": "APUG011_high_performance_sdram_read_write_reference_design_v1.2/prj/sdram_as_ram_Runs/.logs/syn_1/td_20230626_222314.log",
+          "length": 33246,
+          "sha256": "F5B722ACB750793434487F83F8ECF664628A862BEC95705C62E4DBD7B5283C81",
+          "decision": "excluded-generated",
+          "destination": null,
+          "reason": "工具数据库、构建/仿真输出、日志或本地状态文件"
+        },
+        {
+          "path": "APUG011_high_performance_sdram_read_write_reference_design_v1.2/prj/sdram_as_ram_Runs/.logs/syn_1/td_20230626_222336.log",
+          "length": 33285,
+          "sha256": "DDABC4D62D3ED82EDD82593E03592D75EED1205191A57173620626B73A772B9C",
+          "decision": "excluded-generated",
+          "destination": null,
+          "reason": "工具数据库、构建/仿真输出、日志或本地状态文件"
+        },
+        {
+          "path": "APUG011_high_performance_sdram_read_write_reference_design_v1.2/prj/sdram_as_ram_Runs/.logs/syn_1/td_20230626_222701.log",
+          "length": 33699,
+          "sha256": "B1013759FC553FD2BE9FD695CD95F2CAE4812F9FC105EC50961404CCC4382B70",
+          "decision": "excluded-generated",
+          "destination": null,
+          "reason": "工具数据库、构建/仿真输出、日志或本地状态文件"
+        },
+        {
+          "path": "APUG011_high_performance_sdram_read_write_reference_design_v1.2/prj/sdram_as_ram_Runs/.logs/syn_1/td_20230626_222755.log",
+          "length": 33699,
+          "sha256": "A77E57571F6C99DC282341AF6605E51E462C7E028E4F7E3624BAC15EFF2C3A48",
+          "decision": "excluded-generated",
+          "destination": null,
+          "reason": "工具数据库、构建/仿真输出、日志或本地状态文件"
+        },
+        {
+          "path": "APUG011_high_performance_sdram_read_write_reference_design_v1.2/prj/sdram_as_ram_Runs/.logs/syn_1/td_20230626_231100.log",
+          "length": 33603,
+          "sha256": "DCA9C113595FDF5FB2961E48552601B9386A617352D4072BCB0B5132BC227F1B",
+          "decision": "excluded-generated",
+          "destination": null,
+          "reason": "工具数据库、构建/仿真输出、日志或本地状态文件"
+        },
+        {
+          "path": "APUG011_high_performance_sdram_read_write_reference_design_v1.2/prj/sdram_as_ram_Runs/.logs/syn_1/td_20230626_231142.log",
+          "length": 14258,
+          "sha256": "2A5196FEDA790C5DE01B5EC53F51A3345517D2C937F2DC4AFB6616CBEF8B4C8D",
+          "decision": "excluded-generated",
+          "destination": null,
+          "reason": "工具数据库、构建/仿真输出、日志或本地状态文件"
+        },
+        {
+          "path": "APUG011_high_performance_sdram_read_write_reference_design_v1.2/prj/sdram_as_ram_Runs/.logs/syn_1/td_20230626_231312.log",
+          "length": 33285,
+          "sha256": "3074B530CB3F5C0AF0F834BB78502F68CF312C20F52031020E431620E4B0950E",
+          "decision": "excluded-generated",
+          "destination": null,
+          "reason": "工具数据库、构建/仿真输出、日志或本地状态文件"
+        },
+        {
+          "path": "APUG011_high_performance_sdram_read_write_reference_design_v1.2/prj/sdram_as_ram_Runs/.logs/syn_1/td_20230626_231450.log",
+          "length": 33285,
+          "sha256": "E1B696685811C2076F39C5692C1E65748E4C65DE4E22E1ADD287E30CC8EEF6B1",
+          "decision": "excluded-generated",
+          "destination": null,
+          "reason": "工具数据库、构建/仿真输出、日志或本地状态文件"
+        },
+        {
+          "path": "APUG011_high_performance_sdram_read_write_reference_design_v1.2/prj/sdram_as_ram_Runs/phy_1/",
+          "length": 0,
+          "sha256": null,
+          "decision": "directory",
+          "destination": null,
+          "reason": "目录项"
+        },
+        {
+          "path": "APUG011_high_performance_sdram_read_write_reference_design_v1.2/prj/sdram_as_ram_Runs/phy_1/.bitgen.begin.f",
+          "length": 158,
+          "sha256": "043F07B6F45B541FE43CFE32B542A5F9FF7B0A91F766C5D86E072BD31EF3A82F",
+          "decision": "excluded-generated",
+          "destination": null,
+          "reason": "工具数据库、构建/仿真输出、日志或本地状态文件"
+        },
+        {
+          "path": "APUG011_high_performance_sdram_read_write_reference_design_v1.2/prj/sdram_as_ram_Runs/phy_1/.bitgen.end.f",
+          "length": 0,
+          "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+          "decision": "excluded-generated",
+          "destination": null,
+          "reason": "工具数据库、构建/仿真输出、日志或本地状态文件"
+        },
+        {
+          "path": "APUG011_high_performance_sdram_read_write_reference_design_v1.2/prj/sdram_as_ram_Runs/phy_1/.opt_place.begin.f",
+          "length": 158,
+          "sha256": "043F07B6F45B541FE43CFE32B542A5F9FF7B0A91F766C5D86E072BD31EF3A82F",
+          "decision": "excluded-generated",
+          "destination": null,
+          "reason": "工具数据库、构建/仿真输出、日志或本地状态文件"
+        },
+        {
+          "path": "APUG011_high_performance_sdram_read_write_reference_design_v1.2/prj/sdram_as_ram_Runs/phy_1/.opt_place.end.f",
+          "length": 0,
+          "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+          "decision": "excluded-generated",
+          "destination": null,
+          "reason": "工具数据库、构建/仿真输出、日志或本地状态文件"
+        },
+        {
+          "path": "APUG011_high_performance_sdram_read_write_reference_design_v1.2/prj/sdram_as_ram_Runs/phy_1/.opt_route.begin.f",
+          "length": 158,
+          "sha256": "043F07B6F45B541FE43CFE32B542A5F9FF7B0A91F766C5D86E072BD31EF3A82F",
+          "decision": "excluded-generated",
+          "destination": null,
+          "reason": "工具数据库、构建/仿真输出、日志或本地状态文件"
+        },
+        {
+          "path": "APUG011_high_performance_sdram_read_write_reference_design_v1.2/prj/sdram_as_ram_Runs/phy_1/.opt_route.end.f",
+          "length": 0,
+          "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+          "decision": "excluded-generated",
+          "destination": null,
+          "reason": "工具数据库、构建/仿真输出、日志或本地状态文件"
+        },
+        {
+          "path": "APUG011_high_performance_sdram_read_write_reference_design_v1.2/prj/sdram_as_ram_Runs/phy_1/run.log",
+          "length": 58636,
+          "sha256": "9E22950B0899871E0A69EDA19F12EEB3279040C138AE86A46B78A7F178ADED50",
+          "decision": "excluded-generated",
+          "destination": null,
+          "reason": "工具数据库、构建/仿真输出、日志或本地状态文件"
+        },
+        {
+          "path": "APUG011_high_performance_sdram_read_write_reference_design_v1.2/prj/sdram_as_ram_Runs/phy_1/sdram_as_ram.bit",
+          "length": 629623,
+          "sha256": "EDE3F273994DC802AFD889C20C60CB43D0F8B367ED3DF12B62A997D52BFD2957",
+          "decision": "excluded-generated",
+          "destination": null,
+          "reason": "工具数据库、构建/仿真输出、日志或本地状态文件"
+        },
+        {
+          "path": "APUG011_high_performance_sdram_read_write_reference_design_v1.2/prj/sdram_as_ram_Runs/phy_1/sdram_as_ram.prj",
+          "length": 4490,
+          "sha256": "DAB1EF2ED3E3C712D090E0B801EE7A4819CDDC51BECF6AD4059F8DD2DAE570E1",
+          "decision": "excluded-generated",
+          "destination": null,
+          "reason": "工具数据库、构建/仿真输出、日志或本地状态文件"
+        },
+        {
+          "path": "APUG011_high_performance_sdram_read_write_reference_design_v1.2/prj/sdram_as_ram_Runs/phy_1/sdram_as_ram.tcl",
+          "length": 2135,
+          "sha256": "80418C55C0D80D00773B0EF5A14E97F44A581064E6281E48DD7DAAD199FBB3E0",
+          "decision": "excluded-generated",
+          "destination": null,
+          "reason": "工具数据库、构建/仿真输出、日志或本地状态文件"
+        },
+        {
+          "path": "APUG011_high_performance_sdram_read_write_reference_design_v1.2/prj/sdram_as_ram_Runs/phy_1/sdram_as_ram_phy.area",
+          "length": 8312,
+          "sha256": "CC0AC0006016152E407089AE3C5B0CA4A30F659D76BA4AAD02414AF26032FA65",
+          "decision": "excluded-generated",
+          "destination": null,
+          "reason": "工具数据库、构建/仿真输出、日志或本地状态文件"
+        },
+        {
+          "path": "APUG011_high_performance_sdram_read_write_reference_design_v1.2/prj/sdram_as_ram_Runs/phy_1/sdram_as_ram_phy.timing",
+          "length": 55234,
+          "sha256": "99626F369BE73C72411E4FE3B3AF2F55A2FD01C1FDD6D8AC3E99B197CD2A14A8",
+          "decision": "excluded-generated",
+          "destination": null,
+          "reason": "工具数据库、构建/仿真输出、日志或本地状态文件"
+        },
+        {
+          "path": "APUG011_high_performance_sdram_read_write_reference_design_v1.2/prj/sdram_as_ram_Runs/phy_1/sdram_as_ram_phy.tsm",
+          "length": 5715,
+          "sha256": "B5411B401F3E1F7AEDA225074607CF983CA305CAC57C691456D9C5EE6C41759C",
+          "decision": "excluded-generated",
+          "destination": null,
+          "reason": "工具数据库、构建/仿真输出、日志或本地状态文件"
+        },
+        {
+          "path": "APUG011_high_performance_sdram_read_write_reference_design_v1.2/prj/sdram_as_ram_Runs/phy_1/sdram_as_ram_place.db",
+          "length": 528414,
+          "sha256": "7894D10BB27FE607542494004535877EC3AFF242F2FDAE67FE91F520075EBEA1",
+          "decision": "excluded-generated",
+          "destination": null,
+          "reason": "工具数据库、构建/仿真输出、日志或本地状态文件"
+        },
+        {
+          "path": "APUG011_high_performance_sdram_read_write_reference_design_v1.2/prj/sdram_as_ram_Runs/phy_1/sdram_as_ram_pr.db",
+          "length": 575991,
+          "sha256": "9135D1A0B7EE4DBC8DE0FF581AA16FD6170F3FE79864EBF71CEDFA856FDB1582",
+          "decision": "excluded-generated",
+          "destination": null,
+          "reason": "工具数据库、构建/仿真输出、日志或本地状态文件"
+        },
+        {
+          "path": "APUG011_high_performance_sdram_read_write_reference_design_v1.2/prj/sdram_as_ram_Runs/phy_1/simulation/",
+          "length": 0,
+          "sha256": null,
+          "decision": "directory",
+          "destination": null,
+          "reason": "目录项"
+        },
+        {
+          "path": "APUG011_high_performance_sdram_read_write_reference_design_v1.2/prj/sdram_as_ram_Runs/syn_1/",
+          "length": 0,
+          "sha256": null,
+          "decision": "directory",
+          "destination": null,
+          "reason": "目录项"
+        },
+        {
+          "path": "APUG011_high_performance_sdram_read_write_reference_design_v1.2/prj/sdram_as_ram_Runs/syn_1/.opt_gate.begin.f",
+          "length": 158,
+          "sha256": "A4DC95C7B9002125D6051EEDC4187A8ABCA48CF3A0721AEEC820959E87C86ADA",
+          "decision": "excluded-generated",
+          "destination": null,
+          "reason": "工具数据库、构建/仿真输出、日志或本地状态文件"
+        },
+        {
+          "path": "APUG011_high_performance_sdram_read_write_reference_design_v1.2/prj/sdram_as_ram_Runs/syn_1/.opt_gate.end.f",
+          "length": 0,
+          "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+          "decision": "excluded-generated",
+          "destination": null,
+          "reason": "工具数据库、构建/仿真输出、日志或本地状态文件"
+        },
+        {
+          "path": "APUG011_high_performance_sdram_read_write_reference_design_v1.2/prj/sdram_as_ram_Runs/syn_1/.opt_rtl.begin.f",
+          "length": 158,
+          "sha256": "A4DC95C7B9002125D6051EEDC4187A8ABCA48CF3A0721AEEC820959E87C86ADA",
+          "decision": "excluded-generated",
+          "destination": null,
+          "reason": "工具数据库、构建/仿真输出、日志或本地状态文件"
+        },
+        {
+          "path": "APUG011_high_performance_sdram_read_write_reference_design_v1.2/prj/sdram_as_ram_Runs/syn_1/.opt_rtl.end.f",
+          "length": 0,
+          "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+          "decision": "excluded-generated",
+          "destination": null,
+          "reason": "工具数据库、构建/仿真输出、日志或本地状态文件"
+        },
+        {
+          "path": "APUG011_high_performance_sdram_read_write_reference_design_v1.2/prj/sdram_as_ram_Runs/syn_1/.read_design.begin.f",
+          "length": 158,
+          "sha256": "A4DC95C7B9002125D6051EEDC4187A8ABCA48CF3A0721AEEC820959E87C86ADA",
+          "decision": "excluded-generated",
+          "destination": null,
+          "reason": "工具数据库、构建/仿真输出、日志或本地状态文件"
+        },
+        {
+          "path": "APUG011_high_performance_sdram_read_write_reference_design_v1.2/prj/sdram_as_ram_Runs/syn_1/.read_design.end.f",
+          "length": 0,
+          "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+          "decision": "excluded-generated",
+          "destination": null,
+          "reason": "工具数据库、构建/仿真输出、日志或本地状态文件"
+        },
+        {
+          "path": "APUG011_high_performance_sdram_read_write_reference_design_v1.2/prj/sdram_as_ram_Runs/syn_1/run.log",
+          "length": 33332,
+          "sha256": "0EAA6447E6A1CE6C909760220D8A23009B6CFEB7320C4522CF64579334D147A8",
+          "decision": "excluded-generated",
+          "destination": null,
+          "reason": "工具数据库、构建/仿真输出、日志或本地状态文件"
+        },
+        {
+          "path": "APUG011_high_performance_sdram_read_write_reference_design_v1.2/prj/sdram_as_ram_Runs/syn_1/sdram_as_ram.prj",
+          "length": 4490,
+          "sha256": "C7AD70765B8E015E04501482ADED9F0FF9AD5818938552D0F9160C17A851D192",
+          "decision": "excluded-generated",
+          "destination": null,
+          "reason": "工具数据库、构建/仿真输出、日志或本地状态文件"
+        },
+        {
+          "path": "APUG011_high_performance_sdram_read_write_reference_design_v1.2/prj/sdram_as_ram_Runs/syn_1/sdram_as_ram.tcl",
+          "length": 2096,
+          "sha256": "8EC51547FABDB9F51D585F7ABEDC46A30BFC475C6F6DC236DA5614628DDA1E7D",
+          "decision": "excluded-generated",
+          "destination": null,
+          "reason": "工具数据库、构建/仿真输出、日志或本地状态文件"
+        },
+        {
+          "path": "APUG011_high_performance_sdram_read_write_reference_design_v1.2/prj/sdram_as_ram_Runs/syn_1/sdram_as_ram_elaborate.db",
+          "length": 236044,
+          "sha256": "718E5FF0808E2F17D74C0F0F32401EA3C9077499B62A977C2D0F67D727AF8CA4",
+          "decision": "excluded-generated",
+          "destination": null,
+          "reason": "工具数据库、构建/仿真输出、日志或本地状态文件"
+        },
+        {
+          "path": "APUG011_high_performance_sdram_read_write_reference_design_v1.2/prj/sdram_as_ram_Runs/syn_1/sdram_as_ram_gate.area",
+          "length": 1820,
+          "sha256": "9D7A2D843B5405F4CC2F8285E6A4BB8D2F286A8EDBDB0DC38366CA4C7304F25D",
+          "decision": "excluded-generated",
+          "destination": null,
+          "reason": "工具数据库、构建/仿真输出、日志或本地状态文件"
+        },
+        {
+          "path": "APUG011_high_performance_sdram_read_write_reference_design_v1.2/prj/sdram_as_ram_Runs/syn_1/sdram_as_ram_gate.db",
+          "length": 486749,
+          "sha256": "B2B00ACCD92192926AED729149C5A1A084F726A4855C951C06A696393194AE32",
+          "decision": "excluded-generated",
+          "destination": null,
+          "reason": "工具数据库、构建/仿真输出、日志或本地状态文件"
+        },
+        {
+          "path": "APUG011_high_performance_sdram_read_write_reference_design_v1.2/prj/sdram_as_ram_Runs/syn_1/sdram_as_ram_rtl.area",
+          "length": 1379,
+          "sha256": "B1DE9353046FEB702658C1AC74EDF4F7B95554F4580209E29F8B65A3570753AB",
+          "decision": "excluded-generated",
+          "destination": null,
+          "reason": "工具数据库、构建/仿真输出、日志或本地状态文件"
+        },
+        {
+          "path": "APUG011_high_performance_sdram_read_write_reference_design_v1.2/prj/sdram_as_ram_Runs/syn_1/sdram_as_ram_rtl.db",
+          "length": 333713,
+          "sha256": "5603CD50D2F1D696E538EF68236FFCF5EC0DE15A619ACA45484BD2DC7D499EF3",
+          "decision": "excluded-generated",
+          "destination": null,
+          "reason": "工具数据库、构建/仿真输出、日志或本地状态文件"
+        },
+        {
+          "path": "APUG011_high_performance_sdram_read_write_reference_design_v1.2/prj/sdram_as_ram_Runs/syn_1/simulation/",
+          "length": 0,
+          "sha256": null,
+          "decision": "directory",
+          "destination": null,
+          "reason": "目录项"
+        },
+        {
+          "path": "APUG011_high_performance_sdram_read_write_reference_design_v1.2/prj/td_2023-06-26_23-13-08.log",
+          "length": 2833,
+          "sha256": "B5F50AEBBA70A84AD3F63238B864E76172F578F655DBABF5C91EE81795C85D06",
+          "decision": "excluded-generated",
+          "destination": null,
+          "reason": "工具数据库、构建/仿真输出、日志或本地状态文件"
+        },
+        {
+          "path": "APUG011_high_performance_sdram_read_write_reference_design_v1.2/sim_do/",
+          "length": 0,
+          "sha256": null,
+          "decision": "directory",
+          "destination": null,
+          "reason": "目录项"
+        },
+        {
+          "path": "APUG011_high_performance_sdram_read_write_reference_design_v1.2/sim_do/modelsim.ini",
+          "length": 93969,
+          "sha256": "C2EA0FC8A76920E58EED133E6122A346E8D6AD44BE428AE4E81EA83A91DFDC29",
+          "decision": "copied",
+          "destination": "赛题1_工作资料/05_补充参考工程/APUG011_SDRAM参考工程/sim_do/modelsim.ini",
+          "reason": "SDRAM参考工程源码、IP、约束、项目或仿真文件"
+        },
+        {
+          "path": "APUG011_high_performance_sdram_read_write_reference_design_v1.2/sim_do/sim.bat",
+          "length": 67,
+          "sha256": "56E854841AED63FD1A1BCD159A685E3B3304EDF2E5D86E849ED4DEE38B6814D1",
+          "decision": "copied",
+          "destination": "赛题1_工作资料/05_补充参考工程/APUG011_SDRAM参考工程/sim_do/sim.bat",
+          "reason": "SDRAM参考工程源码、IP、约束、项目或仿真文件"
+        },
+        {
+          "path": "APUG011_high_performance_sdram_read_write_reference_design_v1.2/sim_do/sim.do",
+          "length": 1318,
+          "sha256": "44D5409EA1A5BED9974A97407AB0E4A1977992306522BDB8CC9453FABAFA6FF6",
+          "decision": "copied",
+          "destination": "赛题1_工作资料/05_补充参考工程/APUG011_SDRAM参考工程/sim_do/sim.do",
+          "reason": "SDRAM参考工程源码、IP、约束、项目或仿真文件"
+        },
+        {
+          "path": "APUG011_high_performance_sdram_read_write_reference_design_v1.2/sim_do/transcript",
+          "length": 13006,
+          "sha256": "F78573057932C2AABC2EBB0E731143D765C3564A958A1BEB114FEDAD3315E81A",
+          "decision": "excluded-generated",
+          "destination": null,
+          "reason": "工具数据库、构建/仿真输出、日志或本地状态文件"
+        },
+        {
+          "path": "APUG011_high_performance_sdram_read_write_reference_design_v1.2/sim_do/vish_stacktrace.vstf",
+          "length": 25108,
+          "sha256": "98A09E676F92E6D8E3B0B0CECC60F4E0D6DFBC87364AEB0D7DDE1DA1B2F4F26C",
+          "decision": "excluded-generated",
+          "destination": null,
+          "reason": "工具数据库、构建/仿真输出、日志或本地状态文件"
+        },
+        {
+          "path": "APUG011_high_performance_sdram_read_write_reference_design_v1.2/sim_do/vsim_stacktrace.vstf",
+          "length": 50578,
+          "sha256": "C4062F5B74932AE9E1B69BA820B655D5A826688B8623197A7E278F6E41BF1E74",
+          "decision": "excluded-generated",
+          "destination": null,
+          "reason": "工具数据库、构建/仿真输出、日志或本地状态文件"
+        },
+        {
+          "path": "APUG011_high_performance_sdram_read_write_reference_design_v1.2/sim_do/wave.do",
+          "length": 413,
+          "sha256": "E7A6871071C4B932CAE2531C9D821687453FEC606C4A99B99149261CED015519",
+          "decision": "copied",
+          "destination": "赛题1_工作资料/05_补充参考工程/APUG011_SDRAM参考工程/sim_do/wave.do",
+          "reason": "SDRAM参考工程源码、IP、约束、项目或仿真文件"
+        },
+        {
+          "path": "APUG011_high_performance_sdram_read_write_reference_design_v1.2/source_code/",
+          "length": 0,
+          "sha256": null,
+          "decision": "directory",
+          "destination": null,
+          "reason": "目录项"
+        },
+        {
+          "path": "APUG011_high_performance_sdram_read_write_reference_design_v1.2/source_code/adcsdc/",
+          "length": 0,
+          "sha256": null,
+          "decision": "directory",
+          "destination": null,
+          "reason": "目录项"
+        },
+        {
+          "path": "APUG011_high_performance_sdram_read_write_reference_design_v1.2/source_code/adcsdc/io.adc",
+          "length": 169,
+          "sha256": "C33FE476FC2C1628550BB90094C9E085BD9A27170739EE93BBC6FDA5BF534E20",
+          "decision": "copied",
+          "destination": "赛题1_工作资料/05_补充参考工程/APUG011_SDRAM参考工程/source_code/adcsdc/io.adc",
+          "reason": "SDRAM参考工程源码、IP、约束、项目或仿真文件"
+        },
+        {
+          "path": "APUG011_high_performance_sdram_read_write_reference_design_v1.2/source_code/adcsdc/io.sdc",
+          "length": 216,
+          "sha256": "A21640483A1DD51095BD2F0B41433A87BC41094FCF23C8596484D645B33B922E",
+          "decision": "copied",
+          "destination": "赛题1_工作资料/05_补充参考工程/APUG011_SDRAM参考工程/source_code/adcsdc/io.sdc",
+          "reason": "SDRAM参考工程源码、IP、约束、项目或仿真文件"
+        },
+        {
+          "path": "APUG011_high_performance_sdram_read_write_reference_design_v1.2/source_code/include/",
+          "length": 0,
+          "sha256": null,
+          "decision": "directory",
+          "destination": null,
+          "reason": "目录项"
+        },
+        {
+          "path": "APUG011_high_performance_sdram_read_write_reference_design_v1.2/source_code/include/global_def.v",
+          "length": 373,
+          "sha256": "C4C7A02C5C70C9A6B75D2710C97706886A9DD22F10587A7F466C3A5206563F31",
+          "decision": "copied",
+          "destination": "赛题1_工作资料/05_补充参考工程/APUG011_SDRAM参考工程/source_code/include/global_def.v",
+          "reason": "SDRAM参考工程源码、IP、约束、项目或仿真文件"
+        },
+        {
+          "path": "APUG011_high_performance_sdram_read_write_reference_design_v1.2/source_code/model/",
+          "length": 0,
+          "sha256": null,
+          "decision": "directory",
+          "destination": null,
+          "reason": "目录项"
+        },
+        {
+          "path": "APUG011_high_performance_sdram_read_write_reference_design_v1.2/source_code/model/IS42s32200.v",
+          "length": 40558,
+          "sha256": "6AAD09C411B00E319EA6E7FF5A85453EB990532541AE368084406F78A276690B",
+          "decision": "copied",
+          "destination": "赛题1_工作资料/05_补充参考工程/APUG011_SDRAM参考工程/source_code/model/IS42s32200.v",
+          "reason": "SDRAM参考工程源码、IP、约束、项目或仿真文件"
+        },
+        {
+          "path": "APUG011_high_performance_sdram_read_write_reference_design_v1.2/source_code/rtl/",
+          "length": 0,
+          "sha256": null,
+          "decision": "directory",
+          "destination": null,
+          "reason": "目录项"
+        },
+        {
+          "path": "APUG011_high_performance_sdram_read_write_reference_design_v1.2/source_code/rtl/app_wrrd.v",
+          "length": 2864,
+          "sha256": "EA466EB607B53CA52E78495EAB7642E3F930828C801CB4328E551D448441DC24",
+          "decision": "copied",
+          "destination": "赛题1_工作资料/05_补充参考工程/APUG011_SDRAM参考工程/source_code/rtl/app_wrrd.v",
+          "reason": "SDRAM参考工程源码、IP、约束、项目或仿真文件"
+        },
+        {
+          "path": "APUG011_high_performance_sdram_read_write_reference_design_v1.2/source_code/rtl/enc_file/",
+          "length": 0,
+          "sha256": null,
+          "decision": "directory",
+          "destination": null,
+          "reason": "目录项"
+        },
+        {
+          "path": "APUG011_high_performance_sdram_read_write_reference_design_v1.2/source_code/rtl/enc_file/encrypted_file.log",
+          "length": 66,
+          "sha256": "7E6E530C3E9AC0CB3387184A51041DDDCA9D98A54D47224E3FF8A1995B7733F5",
+          "decision": "excluded-generated",
+          "destination": null,
+          "reason": "工具数据库、构建/仿真输出、日志或本地状态文件"
+        },
+        {
+          "path": "APUG011_high_performance_sdram_read_write_reference_design_v1.2/source_code/rtl/enc_file/sdr_as_ram.enc.v",
+          "length": 7515,
+          "sha256": "A3555C3D2A6675DA55055651F00CB60102239042ED3E5DF06970BFEE88FFD7F1",
+          "decision": "copied",
+          "destination": "赛题1_工作资料/05_补充参考工程/APUG011_SDRAM参考工程/source_code/rtl/enc_file/sdr_as_ram.enc.v",
+          "reason": "SDRAM参考工程源码、IP、约束、项目或仿真文件"
+        },
+        {
+          "path": "APUG011_high_performance_sdram_read_write_reference_design_v1.2/source_code/rtl/enc_file/sdr_init_ref.enc.v",
+          "length": 9000,
+          "sha256": "622432952E6838AAD5A10BC8092FDF2C89E60173E04310ABFE442EF98AD52F7D",
+          "decision": "copied",
+          "destination": "赛题1_工作资料/05_补充参考工程/APUG011_SDRAM参考工程/source_code/rtl/enc_file/sdr_init_ref.enc.v",
+          "reason": "SDRAM参考工程源码、IP、约束、项目或仿真文件"
+        },
+        {
+          "path": "APUG011_high_performance_sdram_read_write_reference_design_v1.2/source_code/rtl/enc_file/sdr_wrrd.enc.v",
+          "length": 15637,
+          "sha256": "C7D7FE07D75F66AA88D9F986B3006319C995162434F104F9990664B374CDFDD2",
+          "decision": "copied",
+          "destination": "赛题1_工作资料/05_补充参考工程/APUG011_SDRAM参考工程/source_code/rtl/enc_file/sdr_wrrd.enc.v",
+          "reason": "SDRAM参考工程源码、IP、约束、项目或仿真文件"
+        },
+        {
+          "path": "APUG011_high_performance_sdram_read_write_reference_design_v1.2/source_code/rtl/top.v",
+          "length": 2927,
+          "sha256": "A2AC5C577E03EF277F337628E3381D0A419A0DE0C12E6C866E8780B0C167BA0F",
+          "decision": "copied",
+          "destination": "赛题1_工作资料/05_补充参考工程/APUG011_SDRAM参考工程/source_code/rtl/top.v",
+          "reason": "SDRAM参考工程源码、IP、约束、项目或仿真文件"
+        },
+        {
+          "path": "APUG011_high_performance_sdram_read_write_reference_design_v1.2/source_code/tb/",
+          "length": 0,
+          "sha256": null,
+          "decision": "directory",
+          "destination": null,
+          "reason": "目录项"
+        },
+        {
+          "path": "APUG011_high_performance_sdram_read_write_reference_design_v1.2/source_code/tb/eg_phy_glbl.v",
+          "length": 943,
+          "sha256": "F61A74545BB493BE9920BE107DFFDB7751CF94511B804F65876432B63D7C6748",
+          "decision": "copied",
+          "destination": "赛题1_工作资料/05_补充参考工程/APUG011_SDRAM参考工程/source_code/tb/eg_phy_glbl.v",
+          "reason": "SDRAM参考工程源码、IP、约束、项目或仿真文件"
+        },
+        {
+          "path": "APUG011_high_performance_sdram_read_write_reference_design_v1.2/source_code/tb/tb.v",
+          "length": 1981,
+          "sha256": "E4D7865828293A42BF976A36DB7246C53A8E48B0CB3A0D6B38AE1A48BBD6E8EC",
+          "decision": "copied",
+          "destination": "赛题1_工作资料/05_补充参考工程/APUG011_SDRAM参考工程/source_code/tb/tb.v",
+          "reason": "SDRAM参考工程源码、IP、约束、项目或仿真文件"
+        }
+      ]
+    }
+  ]
+}

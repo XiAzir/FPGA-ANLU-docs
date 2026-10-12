@@ -1,0 +1,69 @@
+{
+  "version": "C11201",
+  "kind": "T22_BRIGHTNESS_CONTRAST_CANDIDATE",
+  "boardStatus": "PENDING_BOARD_VALIDATION",
+  "createdBeijing": "2026-10-12 10:22:04",
+  "sourceProject": "E:\\VSCODE-project\\FPGA-ANLU\\development\\player_image_adjust",
+  "parentVersion": "C11109",
+  "canonicalBit": "E:\\VSCODE-project\\FPGA-ANLU\\development\\player_image_adjust\\build\\manual\\AC201_player_image_adjust.bit",
+  "deliveryBitName": "image_adjust.bit",
+  "bitBytes": 629624,
+  "bitSha256": "5482E8E2D2AE912E47D9EA21F93892559F39AF77C907D025EBDA46AE9994C2FA",
+  "rollbackBitName": "pcm_bram_candidate.bit",
+  "rollbackSha256": "A5F2C25BA1F65B05051419093BC78EC2DD05E510502D914450DD77673CB7E0C0",
+  "scopeHash": "6fd5430eb1ae9c77e48ee322b918c2bebbd70a28bd058a84a40daa6ea12d7853",
+  "scriptHash": "11acd3e4181a1f4d15d91df1b51b7f63aee9a26783ce2b7b59b84f1a837c6337",
+  "stageRunIds": {
+    "synthesis": "6a43ac82-a81a-4b22-b3cd-d993022ce04a",
+    "physical": "18f156d3-1dd1-49ff-afa5-a0a7b6735b06",
+    "bitstream": "88c1b860-b6de-4a79-a6d8-22024b4aa4e8"
+  },
+  "timing": {
+    "SWNSns": 0.576,
+    "STNSns": 0.0,
+    "HWNSns": 0.011,
+    "HTNSns": 0.0
+  },
+  "timingCoveragePercent": 99.96,
+  "resource": {
+    "LUT": 12944,
+    "reg": 8151,
+    "LE": 14388,
+    "BRAM9K": 23,
+    "DSP": 0,
+    "GCLK": 2
+  },
+  "holdFixPerformed": false,
+  "models": {
+    "tb_player_rgb_adjust.log": "C38B73BFBC6ECB76FC4B8DDA593D662F93C902C80E85011495974B92C1811CEE",
+    "tb_player_adjust_control.log": "1989B5566D1975E6852E6E26B787A9D11EEAB509AEB9727A4CE6FBB025667D05",
+    "overlay.log": "5B8E855D5AA9E3A6F11250551918FDAC144E6B12B8F6B35A9D01FDC321670DFB"
+  },
+  "inheritedSourceAudit": "D75C5E93186B2DFA687D992117DDF5701FBEE16B79411B918D8DB6EC92C1EBCB",
+  "sampleFifoBram": "4 EG_PHY_BRAM DP8K, 2048x4 = 2048x16; inherited C11109 unchanged",
+  "format": "640x480 existing BMP/48kHz mono PCM16 TEST.WAV, existing TF files",
+  "brightnessOffsets": [
+    -64,
+    -48,
+    -32,
+    -16,
+    0,
+    16,
+    32,
+    48,
+    64
+  ],
+  "contrastGains": [
+    0.5,
+    0.75,
+    1.0,
+    1.25,
+    1.5
+  ],
+  "pixelFormula": "clip(floor((p-128)*C)+128+B,0,255), default identity, active base pixels only",
+  "parameterCommit": "VS rise, frame constant; OSD mode frame-latched",
+  "controlLimit": "PLAY short actions on release; long KEY1 no AUTO side-effect; busy taps coalesce in one-entry pending; combo video probe disabled",
+  "checkpoint": "E:\\VSCODE-project\\FPGA-ANLU\\development\\player_image_adjust\\checkpoints\\image_adjust_20261012_candidate",
+  "hardwareActions": "No local JTAG, TF writes or Flash programming",
+  "evidenceLimit": "Models/STA and source equivalence do not prove board PHY/long-term operation. Original unconstrained IO/CDC/IP warning boundaries preserved."
+}

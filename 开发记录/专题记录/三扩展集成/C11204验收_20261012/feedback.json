@@ -1,0 +1,30 @@
+{
+  "recordedBeijing": "2026-10-12 12:18:26",
+  "version": "C11204",
+  "bitSha256": "A16326B8266ED6CB52CE27E163B89DC1C2B37551B393AE5F1116BA16C6F54790",
+  "source": "User report, no agent hardware operation",
+  "question": "请在当前waveform_keyfreeze.bit上补一轮组合确认：音乐播放时切图、开自动轮播、冻结/恢复波形；再调亮度和对比度、双键长按恢复默认；最后长按KEY1切内部音阶，并冻结/恢复。图片、两种音源、字幕及这些操作是否都正常？动态双线按已知问题保留，不算本轮失败。",
+  "answer": "已补测，以上都正常",
+  "reportedPassed": [
+    "Image display andKEY0 switching",
+    "KEY1automatic slideshow",
+    "Brightness/contrast edit andchord default restore",
+    "Static/dynamic text",
+    "Music andinternal tone",
+    "Waveform freeze/resume during combined operations"
+  ],
+  "knownIssues": [
+    "Live waveform double trace; HOLD removes it; unique root cause unconfirmed and user deferred",
+    "128x4 horizontal bins and57 vertical levels; display quality improvement deferred"
+  ],
+  "notValidated": [
+    "Timed long run",
+    "Coldstart repeat/newdownload matrix",
+    "Alternate files/cards andfragmentation regression",
+    "Flash persistence",
+    "Actual capture of HDMI pixels or screen response"
+  ],
+  "boardStatus": "PASS_REPORTED_INTEGRATED_FUNCTIONS_WITH_KNOWN_WAVEFORM_ISSUES",
+  "T24": "Control map andoperation card complete",
+  "T25": "Combined user-reported function regression andverified snapshot complete; known issues/longrun limits retained"
+}

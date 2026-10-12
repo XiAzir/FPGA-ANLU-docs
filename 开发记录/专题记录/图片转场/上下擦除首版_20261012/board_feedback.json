@@ -1,0 +1,28 @@
+{
+  "recordedBeijing": "2026-10-12 12:47:24",
+  "version": "C11205",
+  "bitSha256": "748E0AF0F9BF0656410C09735E371F655BEDD330C259E43858B614B1D95AE8F9",
+  "source": "User report; no agent hardware operation or direct measurement",
+  "testRequest": "上一轮要求：KEY0四图完整上下擦除；KEY1 AUTO至少两轮；音乐与内部音阶下切图/轮播；字幕、亮度/对比度、波形冻结/恢复。动态波形双线与低清晰度保留。",
+  "answer": "都没问题",
+  "reportedPassed": [
+    "Four images with top-down wipe and correct display",
+    "Automatic slideshow and complete transitions",
+    "Music and internal tone during switching/slideshow",
+    "Text overlays",
+    "Brightness/contrast and waveform freeze/resume"
+  ],
+  "boardStatus": "PASS_REPORTED_WIPE_AND_INTEGRATED_FUNCTIONS_WITH_KNOWN_WAVEFORM_ISSUES",
+  "knownIssues": [
+    "Dynamic waveform double trace disappears under HOLD; unique cause unconfirmed, deferred",
+    "Low waveform display resolution; optimization deferred"
+  ],
+  "notValidated": [
+    "Measured transition duration or captured HDMI pixels",
+    "Timed long run",
+    "Repeated coldstart/download matrix",
+    "Alternate media/card and fragmentation regression",
+    "Flash persistence"
+  ],
+  "taskScope": "T26 ownership audit and T27 one continuous top-down wipe locally verified and user-reported board functions passed; not all transition types or unrestricted media."
+}

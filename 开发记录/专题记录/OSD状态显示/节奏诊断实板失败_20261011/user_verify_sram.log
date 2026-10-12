@@ -1,0 +1,44 @@
+RUN-1002 : start command "download -bit ..\..\anlu\bit\cadence_probe.bit -mode jtag -spd 7 -cable 0"
+PRG-2014 : Chip validation success: EG4S20BG256
+RUN-1002 : start command "bit_to_vec -chip EG4S20BG256 -m jtag_burst -freq 5.000000 -bit ../../anlu/bit/cadence_probe.bit"
+RUN-1003 : finish command "bit_to_vec -chip EG4S20BG256 -m jtag_burst -freq 5.000000 -bit ../../anlu/bit/cadence_probe.bit" in  0.116869s wall, 0.109375s user + 0.015625s system = 0.125000s CPU (107.0%)
+
+RUN-1004 : used memory is 150 MB, reserved memory is 86 MB, peak memory is 164 MB
+RUN-1002 : start command "program -cable 0 -mode svf -spd 7 -p"
+RUN-1003 : finish command "program -cable 0 -mode svf -spd 7 -p" in  14.747829s wall, 0.218750s user + 0.500000s system = 0.718750s CPU (4.9%)
+
+RUN-1004 : used memory is 136 MB, reserved memory is 71 MB, peak memory is 164 MB
+RUN-1003 : finish command "download -bit ..\..\anlu\bit\cadence_probe.bit -mode jtag -spd 7 -cable 0" in  15.105271s wall, 0.328125s user + 0.515625s system = 0.843750s CPU (5.6%)
+
+RUN-1004 : used memory is 136 MB, reserved memory is 71 MB, peak memory is 164 MB
+GUI-1001 : Downloading succeeded!
+RUN-1002 : start command "download -bit ..\..\anlu\bit\cadence_probe.bit -mode jtag -spd 7 -cable 0"
+PRG-2014 : Chip validation success: EG4S20BG256
+RUN-1002 : start command "bit_to_vec -chip EG4S20BG256 -m jtag_burst -freq 5.000000 -bit ../../anlu/bit/cadence_probe.bit"
+RUN-1003 : finish command "bit_to_vec -chip EG4S20BG256 -m jtag_burst -freq 5.000000 -bit ../../anlu/bit/cadence_probe.bit" in  0.117347s wall, 0.078125s user + 0.031250s system = 0.109375s CPU (93.2%)
+
+RUN-1004 : used memory is 150 MB, reserved memory is 86 MB, peak memory is 165 MB
+RUN-1002 : start command "program -cable 0 -mode svf -spd 7 -p"
+RUN-1003 : finish command "program -cable 0 -mode svf -spd 7 -p" in  14.686291s wall, 0.156250s user + 0.343750s system = 0.500000s CPU (3.4%)
+
+RUN-1004 : used memory is 137 MB, reserved memory is 73 MB, peak memory is 165 MB
+RUN-1003 : finish command "download -bit ..\..\anlu\bit\cadence_probe.bit -mode jtag -spd 7 -cable 0" in  15.044707s wall, 0.234375s user + 0.390625s system = 0.625000s CPU (4.2%)
+
+RUN-1004 : used memory is 137 MB, reserved memory is 73 MB, peak memory is 165 MB
+GUI-1001 : Downloading succeeded!
+RUN-1002 : start command "download -bit ..\..\anlu\bit\cadence_probe.bit -mode x_rdbk -spd 6 -cable 0"
+PRG-2014 : Chip validation success: EG4S20BG256
+RUN-1002 : start command "bit_to_vec -chip EG4S20BG256 -m x_rdbk -freq 3.000000 -bit ../../anlu/bit/cadence_probe.bit"
+PRG-5006 WARNING: Cannot find mask file for ../../anlu/bit/cadence_probe.bit
+PRG-3001 : BIT2VEC::ReadBack: completed, 0 bits have been masked.
+RUN-1003 : finish command "bit_to_vec -chip EG4S20BG256 -m x_rdbk -freq 3.000000 -bit ../../anlu/bit/cadence_probe.bit" in  0.327596s wall, 0.296875s user + 0.031250s system = 0.328125s CPU (100.2%)
+
+RUN-1004 : used memory is 235 MB, reserved memory is 189 MB, peak memory is 249 MB
+RUN-1002 : start command "program -cable 0 -spd 6 -p"
+RUN-1003 : finish command "program -cable 0 -spd 6 -p" in  14.300072s wall, 0.328125s user + 0.375000s system = 0.703125s CPU (4.9%)
+
+RUN-1004 : used memory is 259 MB, reserved memory is 212 MB, peak memory is 260 MB
+RUN-1003 : finish command "download -bit ..\..\anlu\bit\cadence_probe.bit -mode x_rdbk -spd 6 -cable 0" in  14.748383s wall, 0.625000s user + 0.406250s system = 1.031250s CPU (7.0%)
+
+RUN-1004 : used memory is 259 MB, reserved memory is 212 MB, peak memory is 260 MB
+GUI-1001 : Downloading succeeded!

@@ -15,3 +15,5 @@ GitHub原来源：[用户指定APUG092目录](https://github.com/czp-1-A1/FPGA_C
 官网下载入口仍保留作为来源：[APUG092手册](https://www.anlogic.com/cn/skippower/downloadFile/id/921/mid/15.html)、[工程ZIP](https://www.anlogic.com/cn/skippower/downloadFile/id/922/mid/15.html)。当前无需继续下载才能开展工作。
 
 `lab_ex_4_5_检索记录.md` 是取得文件前的历史检索记录，不代表当前缺项状态。
+
+本目录后来补充了从原始包提取的 lab_ex_1～3 说明书、TD 安装前置文档、HDMI 环出和 APUG011 SDRAM 参考；入口与筛选范围见[补充参考资料](README_包内参考资料.md)。原始 ZIP 仍作为本机外置备份，不随仓库克隆提供。

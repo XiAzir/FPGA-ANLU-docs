@@ -1,0 +1,49 @@
+{
+  "date": "2026-10-12",
+  "scope": "Both original XiAzir workspaces; nested verification repositories counted as directory entries, not recursively inventoried",
+  "afterManifestExceptions": true,
+  "repositories": [
+    {
+      "repository": "FPGA-ANLU",
+      "ignoredEntries": 11664,
+      "directoryEntries": 5,
+      "fileBytesExcludingNestedDirectories": 2947460560,
+      "rules": {
+        "*_Runs/": 124,
+        "**/build/**/*.db": 344,
+        "*.vvp": 165,
+        "/bringup/tf_wav_hdmi/tools/*.zip": 1,
+        "/bringup/tf_wav_hdmi/tools/innoextract/": 10,
+        "/bringup/tf_wav_hdmi/tools/*.exe": 1,
+        "/bringup/tf_wav_hdmi/tools/iverilog/": 1228,
+        "**/checkpoints/**/*.db": 2,
+        "__pycache__/": 5,
+        "*.dmp": 14,
+        "**/td_project/log/": 2,
+        "*.vcd": 4,
+        "/td_*.log": 302,
+        "/td_*.logw": 302,
+        "/tmp/": 9159,
+        "/top_inst.bid": 1
+      }
+    },
+    {
+      "repository": "FPGA-ANLU-docs",
+      "ignoredEntries": 290,
+      "directoryEntries": 0,
+      "fileBytesExcludingNestedDirectories": 9377783267,
+      "rules": {
+        "/*.zip": 10,
+        "*.[lL][iI][cC]": 1,
+        "/TD_6.2.1_SP1_178840_NL/": 1,
+        "/*.rar": 2,
+        "/小梅哥/*.rar": 6,
+        ".recent_user_depot.ini": 3,
+        "/小梅哥/**/*_Runs/": 27,
+        "/小梅哥/**/log/": 127,
+        "/归档_非赛题1与重复资料/": 17,
+        "/赛题1_工作资料/**/td_project/log/": 96
+      }
+    }
+  ]
+}

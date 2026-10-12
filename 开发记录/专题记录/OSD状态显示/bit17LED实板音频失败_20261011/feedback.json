@@ -1,0 +1,91 @@
+{
+  "recordedBeijing": "2026-10-11 16:42:13",
+  "version": "C11106",
+  "status": "BOARD_FAIL_AUDIO",
+  "boardBuildIdObserved": "CFC11106",
+  "buildIdIsNotConfigurationReadback": true,
+  "localBitSha256": "62749E0485A34671D6FDF3B761B00DA17981768084482BEF7942F0C38A5DADB5",
+  "userReport": {
+    "image": "正常",
+    "wav": "天之弱可辨识，但炸音/大量杂音",
+    "tone": "长按KEY1后仅沙沙底噪，未听到音阶",
+    "ledBefore": "D3/D2/D1/D0全灭",
+    "ledAfter": "D3/D2/D1/D0全灭",
+    "sameConditionRollback": "用户反馈osd_phy_fix两种音源都恢复清晰"
+  },
+  "videos": {
+    "before": {
+      "source": "E:/QQ CACHE/LiaoTianJiLu/Tencent Files/1791081637/nt_qq/nt_data/Video/2026-10/Ori/86870e40012ed61e6d38ac0af173b7de.mp4",
+      "archived": "E:\\QQ CACHE\\Download\\安路资料\\开发记录\\专题记录\\OSD状态显示\\bit17LED实板音频失败_20261011\\before\\board_video.mp4",
+      "sha256": "CC296673134D8C2D4C04C2905462B2681CAEEE3D2B56A53C4ACA623EF6E6BDAC",
+      "bytes": 5096019,
+      "durationSeconds": 18.566367,
+      "pages": [
+        {
+          "page": "1",
+          "hex": "1DA80000",
+          "frameIndexFps2": 1,
+          "nominalGridSeconds": 0.0,
+          "evidence": "E:\\QQ CACHE\\Download\\安路资料\\开发记录\\专题记录\\OSD状态显示\\bit17LED实板音频失败_20261011\\before\\page_1.png"
+        },
+        {
+          "page": "3",
+          "hex": "3300BB80",
+          "frameIndexFps2": 5,
+          "nominalGridSeconds": 2.0,
+          "evidence": "E:\\QQ CACHE\\Download\\安路资料\\开发记录\\专题记录\\OSD状态显示\\bit17LED实板音频失败_20261011\\before\\page_3.png"
+        },
+        {
+          "page": "C",
+          "hex": "CFC11106",
+          "frameIndexFps2": 33,
+          "nominalGridSeconds": 16.0,
+          "evidence": "E:\\QQ CACHE\\Download\\安路资料\\开发记录\\专题记录\\OSD状态显示\\bit17LED实板音频失败_20261011\\before\\page_C.png"
+        }
+      ]
+    },
+    "after": {
+      "source": "E:/QQ CACHE/LiaoTianJiLu/Tencent Files/1791081637/nt_qq/nt_data/Video/2026-10/Ori/8de0e2a149184dbfa5e930fa5dfe107a.mp4",
+      "archived": "E:\\QQ CACHE\\Download\\安路资料\\开发记录\\专题记录\\OSD状态显示\\bit17LED实板音频失败_20261011\\after\\board_video.mp4",
+      "sha256": "8A2F2426B054AB26CF7F526C6E48A4B12FDD0BE14B892533C6B7FF30473C14C2",
+      "bytes": 5022482,
+      "durationSeconds": 18.268589,
+      "pages": [
+        {
+          "page": "1",
+          "hex": "1DA80000",
+          "frameIndexFps2": 1,
+          "nominalGridSeconds": 0.0,
+          "evidence": "E:\\QQ CACHE\\Download\\安路资料\\开发记录\\专题记录\\OSD状态显示\\bit17LED实板音频失败_20261011\\after\\page_1.png"
+        },
+        {
+          "page": "3",
+          "hex": "3B00BB80",
+          "frameIndexFps2": 5,
+          "nominalGridSeconds": 2.0,
+          "evidence": "E:\\QQ CACHE\\Download\\安路资料\\开发记录\\专题记录\\OSD状态显示\\bit17LED实板音频失败_20261011\\after\\page_3.png"
+        },
+        {
+          "page": "C",
+          "hex": "CFC11106",
+          "frameIndexFps2": 33,
+          "nominalGridSeconds": 16.0,
+          "evidence": "E:\\QQ CACHE\\Download\\安路资料\\开发记录\\专题记录\\OSD状态显示\\bit17LED实板音频失败_20261011\\after\\page_C.png"
+        }
+      ]
+    }
+  },
+  "readingMethod": "ffmpeg fps2 frames; root manual segment reading. B is lowercase b glyph; times are sampling-grid labels, not exact PTS. No rotation needed.",
+  "interpreted": {
+    "toneBefore": false,
+    "toneAfter": true,
+    "audioValidPerNominalWindowBefore": 48000,
+    "audioValidPerNominalWindowAfter": 48000,
+    "unexpectedBit17InDisplayedCounts": false,
+    "sourceFlagsBefore": "3 = tone0, underflow0, hdmi_locked1, frame_seen1",
+    "sourceFlagsAfter": "B = tone1, underflow0, hdmi_locked1, frame_seen1",
+    "fileFlags": "A8 = fs_ready/display_valid/wav_primed; no encoded fs/BMP/WAV mapper errors",
+    "rootCause": "UNCONFIRMED"
+  },
+  "boundary": "Valid pulse counts do not establish PCM, packet or physical output correctness. All-off LEDs only indicate no sampled bit17 highs reported. Placeholder pages6..B excluded. Audio descriptions from user; no calibrated HDMI audio capture."
+}

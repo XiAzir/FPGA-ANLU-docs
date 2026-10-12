@@ -1,0 +1,732 @@
+{
+  "recordedBeijing": "2026-10-12 14:22:03",
+  "baseline": "C11206",
+  "bitSha256": "C60464C0D4396D316DB7622E4CB0B70B5DE12C25148AFE234AC7C795C818625D",
+  "assemblyStatus": "COMPLETE_EXISTING_EVIDENCE_INDEX",
+  "G4Status": "FUNCTIONS_REPORTED_PASS_WITH_KNOWN_ISSUES_DYNAMIC_DEMONSTRATION_EVIDENCE_PENDING",
+  "T36Status": "RETAINED_SCOPE_DRAFT_FINAL_FREEZE_NOT_EXECUTED",
+  "sourceIdentityComparisons": [
+    {
+      "module": "player_dynamic_text.v",
+      "currentSource": "E:\\VSCODE-project\\FPGA-ANLU\\development\\player_bmp_scale\\checkpoints\\bmp_scale_20261012_verified\\src\\user_source\\hdl_source\\player_dynamic_text.v",
+      "ancestorSource": "E:\\VSCODE-project\\FPGA-ANLU\\development\\player_pcm_waveform_keyfreeze\\checkpoints\\waveform_keyfreeze_20261012_verified\\src\\user_source\\hdl_source\\player_dynamic_text.v",
+      "ancestorVersion": "C11204",
+      "sha256": "8CD40DCC12F7A1B88C3A2F7FC0CAD62C7DBF198FE9C9D735C5B75BC40E4FED3B",
+      "identicalBytes": true,
+      "limit": "Source identity only; does not establish netlist equivalence or current hardware behavior."
+    },
+    {
+      "module": "player_osd.v",
+      "currentSource": "E:\\VSCODE-project\\FPGA-ANLU\\development\\player_bmp_scale\\checkpoints\\bmp_scale_20261012_verified\\src\\user_source\\hdl_source\\player_osd.v",
+      "ancestorSource": "E:\\VSCODE-project\\FPGA-ANLU\\development\\player_pcm_waveform_keyfreeze\\checkpoints\\waveform_keyfreeze_20261012_verified\\src\\user_source\\hdl_source\\player_osd.v",
+      "ancestorVersion": "C11204",
+      "sha256": "BAF10DA3489A8EACEBAF2BCAD44F978EE708C0843D2FDF4FFBFB6AE0546E37D7",
+      "identicalBytes": true,
+      "limit": "Source identity only; does not establish netlist equivalence or current hardware behavior."
+    },
+    {
+      "module": "player_adjust_control.v",
+      "currentSource": "E:\\VSCODE-project\\FPGA-ANLU\\development\\player_bmp_scale\\checkpoints\\bmp_scale_20261012_verified\\src\\user_source\\hdl_source\\player_adjust_control.v",
+      "ancestorSource": "E:\\VSCODE-project\\FPGA-ANLU\\development\\player_pcm_waveform_keyfreeze\\checkpoints\\waveform_keyfreeze_20261012_verified\\src\\user_source\\hdl_source\\player_adjust_control.v",
+      "ancestorVersion": "C11204",
+      "sha256": "653375957BC72C2AE0DCAADEAC634A40267DE3E521B8B8EFCECEE1148764E1F7",
+      "identicalBytes": true,
+      "limit": "Source identity only; does not establish netlist equivalence or current hardware behavior."
+    },
+    {
+      "module": "player_pcm_waveform.v",
+      "currentSource": "E:\\VSCODE-project\\FPGA-ANLU\\development\\player_bmp_scale\\checkpoints\\bmp_scale_20261012_verified\\src\\user_source\\hdl_source\\player_pcm_waveform.v",
+      "ancestorSource": "E:\\VSCODE-project\\FPGA-ANLU\\development\\player_pcm_waveform_keyfreeze\\checkpoints\\waveform_keyfreeze_20261012_verified\\src\\user_source\\hdl_source\\player_pcm_waveform.v",
+      "ancestorVersion": "C11204",
+      "sha256": "1378643357A6EF6486577BABFEE8686B8095AC0C7F8B043D427B0DE7614736C4",
+      "identicalBytes": true,
+      "limit": "Source identity only; does not establish netlist equivalence or current hardware behavior."
+    },
+    {
+      "module": "player_rgb_adjust.v",
+      "currentSource": "E:\\VSCODE-project\\FPGA-ANLU\\development\\player_bmp_scale\\checkpoints\\bmp_scale_20261012_verified\\src\\user_source\\hdl_source\\player_rgb_adjust.v",
+      "ancestorSource": "E:\\VSCODE-project\\FPGA-ANLU\\development\\player_image_adjust\\checkpoints\\image_adjust_20261012_verified\\src\\user_source\\hdl_source\\player_rgb_adjust.v",
+      "ancestorVersion": "C11201",
+      "sha256": "B99F143623B1BCB7AB9BE98748905D36EB4D9EBE6835D08146C997EA0C8395C3",
+      "identicalBytes": true,
+      "limit": "Source identity only; does not establish netlist equivalence or current hardware behavior."
+    },
+    {
+      "module": "player_adjust_osd.v",
+      "currentSource": "E:\\VSCODE-project\\FPGA-ANLU\\development\\player_bmp_scale\\checkpoints\\bmp_scale_20261012_verified\\src\\user_source\\hdl_source\\player_adjust_osd.v",
+      "ancestorSource": "E:\\VSCODE-project\\FPGA-ANLU\\development\\player_image_adjust\\checkpoints\\image_adjust_20261012_verified\\src\\user_source\\hdl_source\\player_adjust_osd.v",
+      "ancestorVersion": "C11201",
+      "sha256": "B4BBB95B2B98949DC25EB0FEEF1116BCD3E35898C4D999FEF57F73893BC3BE41",
+      "identicalBytes": true,
+      "limit": "Source identity only; does not establish netlist equivalence or current hardware behavior."
+    },
+    {
+      "module": "player_wipe_address.v",
+      "currentSource": "E:\\VSCODE-project\\FPGA-ANLU\\development\\player_bmp_scale\\checkpoints\\bmp_scale_20261012_verified\\src\\user_source\\hdl_source\\player_wipe_address.v",
+      "ancestorSource": "E:\\VSCODE-project\\FPGA-ANLU\\development\\player_transition_wipe\\checkpoints\\transition_wipe_20261012_verified\\src\\user_source\\hdl_source\\player_wipe_address.v",
+      "ancestorVersion": "C11205",
+      "sha256": "8712E3490C0EC01FDF1A719BB74EEE2BC2D7269AE51119E338F0EB0FBD143F4F",
+      "identicalBytes": true,
+      "limit": "Source identity only; does not establish netlist equivalence or current hardware behavior."
+    },
+    {
+      "module": "player_osd_state.v",
+      "currentSource": "E:\\VSCODE-project\\FPGA-ANLU\\development\\player_bmp_scale\\checkpoints\\bmp_scale_20261012_verified\\src\\user_source\\hdl_source\\player_osd_state.v",
+      "ancestorSource": "E:\\VSCODE-project\\FPGA-ANLU\\development\\player_transition_wipe\\checkpoints\\transition_wipe_20261012_verified\\src\\user_source\\hdl_source\\player_osd_state.v",
+      "ancestorVersion": "C11205",
+      "sha256": "E9476042E52B27881A0268E9E684A50A60B2EB87A9F5BAA4E8E445B75BBE8307",
+      "identicalBytes": true,
+      "limit": "Source identity only; does not establish netlist equivalence or current hardware behavior."
+    }
+  ],
+  "files": [
+    {
+      "path": "E:\\VSCODE-project\\FPGA-ANLU\\development\\player_bmp_scale\\checkpoints\\bmp_scale_20261012_verified\\src\\user_source\\hdl_source\\top_tf_hdmi_audio.v",
+      "kind": "current_frozen_source",
+      "version": "C11206",
+      "bytes": 23527,
+      "sha256": "DB211234F22FBCADCFAC039DC8D81964DC274148719B830D3B076C8D70C91F4C",
+      "uses": [
+        "TC24/同位流集成与音频像素连线"
+      ]
+    },
+    {
+      "path": "E:\\VSCODE-project\\FPGA-ANLU\\development\\player_bmp_scale\\checkpoints\\bmp_scale_20261012_verified\\src\\user_source\\hdl_source\\player_dynamic_text.v",
+      "kind": "current_frozen_source",
+      "version": "C11206",
+      "bytes": 14859,
+      "sha256": "8CD40DCC12F7A1B88C3A2F7FC0CAD62C7DBF198FE9C9D735C5B75BC40E4FED3B",
+      "uses": [
+        "E01/TC16"
+      ]
+    },
+    {
+      "path": "E:\\VSCODE-project\\FPGA-ANLU\\development\\player_bmp_scale\\checkpoints\\bmp_scale_20261012_verified\\src\\user_source\\hdl_source\\player_osd.v",
+      "kind": "current_frozen_source",
+      "version": "C11206",
+      "bytes": 11523,
+      "sha256": "BAF10DA3489A8EACEBAF2BCAD44F978EE708C0843D2FDF4FFBFB6AE0546E37D7",
+      "uses": [
+        "E01/TC15"
+      ]
+    },
+    {
+      "path": "E:\\VSCODE-project\\FPGA-ANLU\\development\\player_bmp_scale\\checkpoints\\bmp_scale_20261012_verified\\src\\user_source\\hdl_source\\player_adjust_control.v",
+      "kind": "current_frozen_source",
+      "version": "C11206",
+      "bytes": 12407,
+      "sha256": "653375957BC72C2AE0DCAADEAC634A40267DE3E521B8B8EFCECEE1148764E1F7",
+      "uses": [
+        "E04/E05/统一按键"
+      ]
+    },
+    {
+      "path": "E:\\VSCODE-project\\FPGA-ANLU\\development\\player_bmp_scale\\checkpoints\\bmp_scale_20261012_verified\\src\\user_source\\hdl_source\\player_rgb_adjust.v",
+      "kind": "current_frozen_source",
+      "version": "C11206",
+      "bytes": 3049,
+      "sha256": "B99F143623B1BCB7AB9BE98748905D36EB4D9EBE6835D08146C997EA0C8395C3",
+      "uses": [
+        "E04/TC17"
+      ]
+    },
+    {
+      "path": "E:\\VSCODE-project\\FPGA-ANLU\\development\\player_bmp_scale\\checkpoints\\bmp_scale_20261012_verified\\src\\user_source\\hdl_source\\player_adjust_osd.v",
+      "kind": "current_frozen_source",
+      "version": "C11206",
+      "bytes": 12241,
+      "sha256": "B4BBB95B2B98949DC25EB0FEEF1116BCD3E35898C4D999FEF57F73893BC3BE41",
+      "uses": [
+        "E04/TC18"
+      ]
+    },
+    {
+      "path": "E:\\VSCODE-project\\FPGA-ANLU\\development\\player_bmp_scale\\checkpoints\\bmp_scale_20261012_verified\\src\\user_source\\hdl_source\\player_pcm_waveform.v",
+      "kind": "current_frozen_source",
+      "version": "C11206",
+      "bytes": 19469,
+      "sha256": "1378643357A6EF6486577BABFEE8686B8095AC0C7F8B043D427B0DE7614736C4",
+      "uses": [
+        "E05/TC19/HOLD"
+      ]
+    },
+    {
+      "path": "E:\\VSCODE-project\\FPGA-ANLU\\development\\player_bmp_scale\\checkpoints\\bmp_scale_20261012_verified\\src\\user_source\\hdl_source\\player_wipe_address.v",
+      "kind": "current_frozen_source",
+      "version": "C11206",
+      "bytes": 2086,
+      "sha256": "8712E3490C0EC01FDF1A719BB74EEE2BC2D7269AE51119E338F0EB0FBD143F4F",
+      "uses": [
+        "E02/TC20"
+      ]
+    },
+    {
+      "path": "E:\\VSCODE-project\\FPGA-ANLU\\development\\player_bmp_scale\\checkpoints\\bmp_scale_20261012_verified\\src\\user_source\\hdl_source\\player_osd_state.v",
+      "kind": "current_frozen_source",
+      "version": "C11206",
+      "bytes": 6170,
+      "sha256": "E9476042E52B27881A0268E9E684A50A60B2EB87A9F5BAA4E8E445B75BBE8307",
+      "uses": [
+        "E02/TC20"
+      ]
+    },
+    {
+      "path": "E:\\VSCODE-project\\FPGA-ANLU\\development\\player_bmp_scale\\checkpoints\\bmp_scale_20261012_verified\\src\\user_source\\hdl_source\\bmp_scale_engine.v",
+      "kind": "current_frozen_source",
+      "version": "C11206",
+      "bytes": 11213,
+      "sha256": "A6C607738DB921E02C3D717F9C6CC9044CC3DDBC4FA02DD90B253FB541EF2C4D",
+      "uses": [
+        "E03/TC21"
+      ]
+    },
+    {
+      "path": "E:\\VSCODE-project\\FPGA-ANLU\\development\\player_bmp_scale\\checkpoints\\bmp_scale_20261012_verified\\src\\user_source\\hdl_source\\tf_bmp_file_player.v",
+      "kind": "current_frozen_source",
+      "version": "C11206",
+      "bytes": 10167,
+      "sha256": "9CDDACB2F20A36D2E066EB74BF8FE55C5D675115281CE73B7D64EDAD3B8F93DF",
+      "uses": [
+        "E03/TC09/TC21"
+      ]
+    },
+    {
+      "path": "E:\\VSCODE-project\\FPGA-ANLU\\development\\player_bmp_scale\\checkpoints\\bmp_scale_20261012_verified\\src\\user_source\\hdl_source\\tf_wav_file_player.v",
+      "kind": "current_frozen_source",
+      "version": "C11206",
+      "bytes": 20167,
+      "sha256": "EF77371DBC8928AE6CDD3708B4FC555F253F0E6C727333AFFF9527416DADE082",
+      "uses": [
+        "基础/WAV规格"
+      ]
+    },
+    {
+      "path": "E:\\VSCODE-project\\FPGA-ANLU\\development\\player_bmp_scale\\checkpoints\\bmp_scale_20261012_verified\\src\\user_source\\hdl_source\\fat32_catalog.v",
+      "kind": "current_frozen_source",
+      "version": "C11206",
+      "bytes": 16521,
+      "sha256": "6B5F8EFE4CA4C82F55FB0DC6A0293AB26BB4D719262BE67D8696438ED72A089E",
+      "uses": [
+        "基础/FAT目录规格"
+      ]
+    },
+    {
+      "path": "E:\\VSCODE-project\\FPGA-ANLU\\development\\player_bmp_scale\\checkpoints\\bmp_scale_20261012_verified\\src\\user_source\\hdl_source\\fat32_file_sector.v",
+      "kind": "current_frozen_source",
+      "version": "C11206",
+      "bytes": 13579,
+      "sha256": "3F52481C29001B4489F5CBD0A54ACB0B209EA1DD073CB351A19EB8E00C9A6105",
+      "uses": [
+        "基础/FAT文件规格"
+      ]
+    },
+    {
+      "path": "E:\\VSCODE-project\\FPGA-ANLU\\development\\player_bmp_scale\\checkpoints\\bmp_scale_20261012_verified\\manifest.json",
+      "kind": "current_manifest",
+      "version": "C11206",
+      "bytes": 47055,
+      "sha256": "71F87A4B82F974092F63102E0D7522B6C5577BD367B6789C6AD0DDDA37A76FB7",
+      "uses": [
+        "版本绑定"
+      ]
+    },
+    {
+      "path": "E:\\VSCODE-project\\FPGA-ANLU\\development\\player_bmp_scale\\checkpoints\\bmp_scale_20261012_verified\\build\\manual\\AC201_player_bmp_scale.info.json",
+      "kind": "current_frozen_build_info",
+      "version": "C11206",
+      "bytes": 11227,
+      "sha256": "F05EE5109511817E36D074A97DA8D39B7BFB5C3698AE2CFEBD54E3FFFB3ED8F1",
+      "uses": [
+        "正式构建与验收"
+      ]
+    },
+    {
+      "path": "E:\\VSCODE-project\\FPGA-ANLU\\development\\player_bmp_scale\\checkpoints\\bmp_scale_20261012_verified\\build\\model\\scaler_validation_receipt.json",
+      "kind": "current_model_receipt",
+      "version": "C11206",
+      "bytes": 6973,
+      "sha256": "791BB5A7B37469D99928813AE57D0B03358AD604905FAFA51523C8CEC725C55F",
+      "uses": [
+        "E03/TC09/TC21"
+      ]
+    },
+    {
+      "path": "E:\\VSCODE-project\\FPGA-ANLU\\development\\player_bmp_scale\\checkpoints\\bmp_scale_20261012_verified\\build\\model\\scaler_full_loader.log",
+      "kind": "current_model_log",
+      "version": "C11206",
+      "bytes": 1746,
+      "sha256": "786555C243772200AEA843397CE1E70C114E0C1E2CA3BA0549F827F70679ED11",
+      "uses": [
+        "E03/TC09/TC21"
+      ]
+    },
+    {
+      "path": "E:\\VSCODE-project\\FPGA-ANLU\\development\\player_bmp_scale\\checkpoints\\bmp_scale_20261012_verified\\build\\model\\write_backpressure.log",
+      "kind": "current_model_log",
+      "version": "C11206",
+      "bytes": 151,
+      "sha256": "A96882075B862E3A9EE4856F9754DD33BEC8D59E852F3C4AF43B6099DA52DCD4",
+      "uses": [
+        "E03/写侧FIFO反压"
+      ]
+    },
+    {
+      "path": "E:\\VSCODE-project\\FPGA-ANLU\\development\\player_bmp_scale\\checkpoints\\bmp_scale_20261012_verified\\build\\model\\verification_scope.md",
+      "kind": "candidate_time_scope_document",
+      "version": "C11206",
+      "bytes": 4024,
+      "sha256": "34B8E57BEB34DFB6480F6C800E4BDA0BAE3736DA6DB975176677940A37681208",
+      "uses": [
+        "本版/祖先模型覆盖边界"
+      ]
+    },
+    {
+      "path": "E:\\VSCODE-project\\FPGA-ANLU\\development\\player_bmp_scale\\checkpoints\\bmp_scale_20261012_verified\\build\\model\\parent_source_audit.json",
+      "kind": "current_source_lineage_audit",
+      "version": "C11206",
+      "bytes": 4575,
+      "sha256": "B47A2DC377ABCD94DB9CEB2779F92CABE7B3728EEA167BDC4DAF8A5EE887EE7C",
+      "uses": [
+        "继承与变更范围"
+      ]
+    },
+    {
+      "path": "E:\\VSCODE-project\\FPGA-ANLU\\development\\player_bmp_scale\\checkpoints\\bmp_scale_20261012_verified\\build\\audit\\scaler_final_audit.md",
+      "kind": "current_static_audit",
+      "version": "C11206",
+      "bytes": 5980,
+      "sha256": "6DF00CA2F88DC5E16C223CF68D3CCFEF37FED5FE17517EEE211679C5E16FA999",
+      "uses": [
+        "资源/同步RAM/集成"
+      ]
+    },
+    {
+      "path": "E:\\VSCODE-project\\FPGA-ANLU\\development\\player_bmp_scale\\checkpoints\\bmp_scale_20261012_verified\\build\\manual\\AC201_tf_hdmi_pr.timing",
+      "kind": "current_formal_timing_report",
+      "version": "C11206",
+      "bytes": 1962008,
+      "sha256": "82A0333DA13FC3803CC5530EBE61D530CA2A1EE80B15152D7C1F1EAA663649FD",
+      "uses": [
+        "原约束setup/hold"
+      ]
+    },
+    {
+      "path": "E:\\VSCODE-project\\FPGA-ANLU\\development\\player_bmp_scale\\checkpoints\\bmp_scale_20261012_verified\\build\\delivery\\media_manifest.json",
+      "kind": "candidate_media_manifest",
+      "version": "C11206",
+      "bytes": 3412,
+      "sha256": "6D308108B5C9C3B403D53D0E42BE276EAFE0E47F45E7F58A9AD7CB1376AB3C69",
+      "uses": [
+        "四尺寸原BMP和预览范围"
+      ]
+    },
+    {
+      "path": "E:\\VSCODE-project\\FPGA-ANLU\\development\\player_bmp_scale\\checkpoints\\bmp_scale_20261012_verified\\build\\board_feedback_20261012\\functions_feedback.json",
+      "kind": "current_user_report",
+      "version": "C11206",
+      "bytes": 5610,
+      "sha256": "7050FF6A7563862C8EF11DF8639F8DDE974BC61CD49A4B318FECBE9F79F1C459",
+      "uses": [
+        "五扩展总体反馈/四图外观"
+      ]
+    },
+    {
+      "path": "E:\\VSCODE-project\\FPGA-ANLU\\development\\player_bmp_scale\\checkpoints\\bmp_scale_20261012_verified\\build\\manual\\stage_evidence\\synthesis_03c1c1aa-4c00-4a51-8a44-44c994410696.json",
+      "kind": "current_build_stage_binding",
+      "version": "C11206",
+      "bytes": 1321,
+      "sha256": "1173BB40C624E7B329058F258E6F14EE169FCE376BC64B4E79BD1B1172257DEB",
+      "uses": [
+        "正式构建来源"
+      ]
+    },
+    {
+      "path": "E:\\VSCODE-project\\FPGA-ANLU\\development\\player_bmp_scale\\checkpoints\\bmp_scale_20261012_verified\\build\\manual\\stage_evidence\\physical_4c02438d-3657-4bd4-a4ce-6bdad4aa7cef.json",
+      "kind": "current_build_stage_binding",
+      "version": "C11206",
+      "bytes": 1977,
+      "sha256": "E2C8C696A524EB677EEAE7E4099F4890F18173D550083ECBA642DF46FCEF02BA",
+      "uses": [
+        "正式构建来源"
+      ]
+    },
+    {
+      "path": "E:\\VSCODE-project\\FPGA-ANLU\\development\\player_bmp_scale\\checkpoints\\bmp_scale_20261012_verified\\build\\manual\\stage_evidence\\bitstream_363e2765-ce3c-4bbe-8aae-266761446b35.json",
+      "kind": "current_build_stage_binding",
+      "version": "C11206",
+      "bytes": 1466,
+      "sha256": "1A0522B5F6A634B0298E1D3B68D39B9DAAC479CDE89B0A223DDEB55A7F36BE30",
+      "uses": [
+        "正式构建来源"
+      ]
+    },
+    {
+      "path": "E:\\VSCODE-project\\FPGA-ANLU\\development\\player_bmp_scale\\checkpoints\\bmp_scale_20261012_verified\\build\\delivery\\TF_ROOT\\SCALE1.BMP",
+      "kind": "supplied_original_bmp_not_card_readback",
+      "version": "C11206",
+      "bytes": 230454,
+      "sha256": "D5BD5A31EB4FEF3BF93B5EEB2E6494F071E0980F1B18F83CBA1D5CF8EF65FDAE",
+      "uses": [
+        "E03/TC21"
+      ]
+    },
+    {
+      "path": "E:\\VSCODE-project\\FPGA-ANLU\\development\\player_bmp_scale\\checkpoints\\bmp_scale_20261012_verified\\build\\delivery\\TF_ROOT\\SCALE2.BMP",
+      "kind": "supplied_original_bmp_not_card_readback",
+      "version": "C11206",
+      "bytes": 1440054,
+      "sha256": "3E1CECFAB75839594DFCC4BD37E7A1178A7D0EBF6E95618F60885DF0F1B44735",
+      "uses": [
+        "E03/TC21"
+      ]
+    },
+    {
+      "path": "E:\\VSCODE-project\\FPGA-ANLU\\development\\player_bmp_scale\\checkpoints\\bmp_scale_20261012_verified\\build\\delivery\\TF_ROOT\\SCALE3.BMP",
+      "kind": "supplied_original_bmp_not_card_readback",
+      "version": "C11206",
+      "bytes": 184950,
+      "sha256": "F3BEEEF3ADD7904620B10D3D70561A2E65DF295ABFEFCDDC667C3CC8CE23E7DE",
+      "uses": [
+        "E03/TC21"
+      ]
+    },
+    {
+      "path": "E:\\VSCODE-project\\FPGA-ANLU\\development\\player_bmp_scale\\checkpoints\\bmp_scale_20261012_verified\\build\\delivery\\TF_ROOT\\SCALE4.BMP",
+      "kind": "supplied_original_bmp_not_card_readback",
+      "version": "C11206",
+      "bytes": 196662,
+      "sha256": "E14B2FD1A28CC1617750D09E8FCCCBFE38C424D4C49942C769D8475BEA45EBCB",
+      "uses": [
+        "E03/TC21"
+      ]
+    },
+    {
+      "path": "E:\\QQ CACHE\\Download\\安路资料\\开发记录\\专题记录\\图片缩放\\多尺寸最近邻首版_20261012\\实板照片\\scale4_512x128.jpg",
+      "kind": "current_user_photo",
+      "version": "C11206_context_association",
+      "bytes": 309886,
+      "sha256": "9238927A8C001FCE7886726EFFA5E720BE7FDFE73912F0E273074375251063E7",
+      "uses": [
+        "E03布局/静态叠加外观；非动态或音频测量"
+      ]
+    },
+    {
+      "path": "E:\\QQ CACHE\\Download\\安路资料\\开发记录\\专题记录\\图片缩放\\多尺寸最近邻首版_20261012\\实板照片\\scale1_320x240.jpg",
+      "kind": "current_user_photo",
+      "version": "C11206_context_association",
+      "bytes": 286044,
+      "sha256": "EE6637D73E2E373D6DA709367ABE0F09F67781AEA0698224C61E6631A0BCFE70",
+      "uses": [
+        "E03布局/静态叠加外观；非动态或音频测量"
+      ]
+    },
+    {
+      "path": "E:\\QQ CACHE\\Download\\安路资料\\开发记录\\专题记录\\图片缩放\\多尺寸最近邻首版_20261012\\实板照片\\scale2_800x600.jpg",
+      "kind": "current_user_photo",
+      "version": "C11206_context_association",
+      "bytes": 243606,
+      "sha256": "3424464A94169A683148B01A7DC096C54AEEE58FEFAAD935D2EBF3F757FA25B8",
+      "uses": [
+        "E03布局/静态叠加外观；非动态或音频测量"
+      ]
+    },
+    {
+      "path": "E:\\QQ CACHE\\Download\\安路资料\\开发记录\\专题记录\\图片缩放\\多尺寸最近邻首版_20261012\\实板照片\\scale3_191x321_topdown.jpg",
+      "kind": "current_user_photo",
+      "version": "C11206_context_association",
+      "bytes": 279955,
+      "sha256": "0271A411C81EF9E1A9DA08C59C45DE69FE229B2C01E634912C1CA201F28AD611",
+      "uses": [
+        "E03布局/静态叠加外观；非动态或音频测量"
+      ]
+    },
+    {
+      "path": "E:\\VSCODE-project\\FPGA-ANLU\\development\\player_pcm_waveform_keyfreeze\\checkpoints\\waveform_keyfreeze_20261012_verified\\src\\user_source\\hdl_source\\player_dynamic_text.v",
+      "kind": "ancestor_frozen_source",
+      "version": "C11204",
+      "bytes": 14859,
+      "sha256": "8CD40DCC12F7A1B88C3A2F7FC0CAD62C7DBF198FE9C9D735C5B75BC40E4FED3B",
+      "uses": [
+        "E01/TC16"
+      ]
+    },
+    {
+      "path": "E:\\VSCODE-project\\FPGA-ANLU\\development\\player_pcm_waveform_keyfreeze\\checkpoints\\waveform_keyfreeze_20261012_verified\\src\\user_source\\hdl_source\\player_osd.v",
+      "kind": "ancestor_frozen_source",
+      "version": "C11204",
+      "bytes": 11523,
+      "sha256": "BAF10DA3489A8EACEBAF2BCAD44F978EE708C0843D2FDF4FFBFB6AE0546E37D7",
+      "uses": [
+        "E01/TC15"
+      ]
+    },
+    {
+      "path": "E:\\VSCODE-project\\FPGA-ANLU\\development\\player_pcm_waveform_keyfreeze\\checkpoints\\waveform_keyfreeze_20261012_verified\\src\\user_source\\hdl_source\\player_adjust_control.v",
+      "kind": "ancestor_frozen_source",
+      "version": "C11204",
+      "bytes": 12407,
+      "sha256": "653375957BC72C2AE0DCAADEAC634A40267DE3E521B8B8EFCECEE1148764E1F7",
+      "uses": [
+        "E04/E05/统一按键"
+      ]
+    },
+    {
+      "path": "E:\\VSCODE-project\\FPGA-ANLU\\development\\player_pcm_waveform_keyfreeze\\checkpoints\\waveform_keyfreeze_20261012_verified\\src\\user_source\\hdl_source\\player_pcm_waveform.v",
+      "kind": "ancestor_frozen_source",
+      "version": "C11204",
+      "bytes": 19469,
+      "sha256": "1378643357A6EF6486577BABFEE8686B8095AC0C7F8B043D427B0DE7614736C4",
+      "uses": [
+        "E05/TC19/HOLD"
+      ]
+    },
+    {
+      "path": "E:\\VSCODE-project\\FPGA-ANLU\\development\\player_image_adjust\\checkpoints\\image_adjust_20261012_verified\\src\\user_source\\hdl_source\\player_rgb_adjust.v",
+      "kind": "ancestor_frozen_source",
+      "version": "C11201",
+      "bytes": 3049,
+      "sha256": "B99F143623B1BCB7AB9BE98748905D36EB4D9EBE6835D08146C997EA0C8395C3",
+      "uses": [
+        "E04/TC17"
+      ]
+    },
+    {
+      "path": "E:\\VSCODE-project\\FPGA-ANLU\\development\\player_image_adjust\\checkpoints\\image_adjust_20261012_verified\\src\\user_source\\hdl_source\\player_adjust_osd.v",
+      "kind": "ancestor_frozen_source",
+      "version": "C11201",
+      "bytes": 12241,
+      "sha256": "B4BBB95B2B98949DC25EB0FEEF1116BCD3E35898C4D999FEF57F73893BC3BE41",
+      "uses": [
+        "E04/TC18"
+      ]
+    },
+    {
+      "path": "E:\\VSCODE-project\\FPGA-ANLU\\development\\player_transition_wipe\\checkpoints\\transition_wipe_20261012_verified\\src\\user_source\\hdl_source\\player_wipe_address.v",
+      "kind": "ancestor_frozen_source",
+      "version": "C11205",
+      "bytes": 2086,
+      "sha256": "8712E3490C0EC01FDF1A719BB74EEE2BC2D7269AE51119E338F0EB0FBD143F4F",
+      "uses": [
+        "E02/TC20"
+      ]
+    },
+    {
+      "path": "E:\\VSCODE-project\\FPGA-ANLU\\development\\player_transition_wipe\\checkpoints\\transition_wipe_20261012_verified\\src\\user_source\\hdl_source\\player_osd_state.v",
+      "kind": "ancestor_frozen_source",
+      "version": "C11205",
+      "bytes": 6170,
+      "sha256": "E9476042E52B27881A0268E9E684A50A60B2EB87A9F5BAA4E8E445B75BBE8307",
+      "uses": [
+        "E02/TC20"
+      ]
+    },
+    {
+      "path": "E:\\VSCODE-project\\FPGA-ANLU\\development\\player_image_adjust\\checkpoints\\image_adjust_20261012_verified\\build\\model\\tb_player_rgb_adjust.log",
+      "kind": "ancestor_model_evidence_not_rerun_on_C11206",
+      "version": "C11201",
+      "bytes": 175,
+      "sha256": "C38B73BFBC6ECB76FC4B8DDA593D662F93C902C80E85011495974B92C1811CEE",
+      "uses": [
+        "功能/算法/控制历史模型"
+      ]
+    },
+    {
+      "path": "E:\\VSCODE-project\\FPGA-ANLU\\development\\player_image_adjust\\checkpoints\\image_adjust_20261012_verified\\build\\model\\tb_player_adjust_control.log",
+      "kind": "ancestor_model_evidence_not_rerun_on_C11206",
+      "version": "C11201",
+      "bytes": 168,
+      "sha256": "1989B5566D1975E6852E6E26B787A9D11EEAB509AEB9727A4CE6FBB025667D05",
+      "uses": [
+        "功能/算法/控制历史模型"
+      ]
+    },
+    {
+      "path": "E:\\VSCODE-project\\FPGA-ANLU\\development\\player_pcm_waveform_keyfreeze\\checkpoints\\waveform_keyfreeze_20261012_verified\\build\\model\\player_pcm_waveform_model.log",
+      "kind": "ancestor_model_evidence_not_rerun_on_C11206",
+      "version": "C11204",
+      "bytes": 196,
+      "sha256": "6DDB043E823DFE7CCBC8CC447D2CFB20B6AB090FC4FDCC22D6C6CE143C9C8C10",
+      "uses": [
+        "功能/算法/控制历史模型"
+      ]
+    },
+    {
+      "path": "E:\\VSCODE-project\\FPGA-ANLU\\development\\player_pcm_waveform_keyfreeze\\checkpoints\\waveform_keyfreeze_20261012_verified\\build\\model\\keyfreeze_music.log",
+      "kind": "ancestor_model_evidence_not_rerun_on_C11206",
+      "version": "C11204",
+      "bytes": 361,
+      "sha256": "21AC0D0EB6F70E2FE26FCC9D075956D4DF2783BBCF87E5D6635353757E05F611",
+      "uses": [
+        "功能/算法/控制历史模型"
+      ]
+    },
+    {
+      "path": "E:\\VSCODE-project\\FPGA-ANLU\\development\\player_pcm_waveform_keyfreeze\\checkpoints\\waveform_keyfreeze_20261012_verified\\build\\model\\tb_waveform_chord_control.log",
+      "kind": "ancestor_model_evidence_not_rerun_on_C11206",
+      "version": "C11204",
+      "bytes": 180,
+      "sha256": "B905620D5F80610E73AA3753809352DEFA27875EC0F68DF53C1CF28B69E144C6",
+      "uses": [
+        "功能/算法/控制历史模型"
+      ]
+    },
+    {
+      "path": "E:\\VSCODE-project\\FPGA-ANLU\\development\\player_pcm_waveform_keyfreeze\\checkpoints\\waveform_keyfreeze_20261012_verified\\build\\model\\integration.log",
+      "kind": "ancestor_model_evidence_not_rerun_on_C11206",
+      "version": "C11204",
+      "bytes": 275,
+      "sha256": "A6EE4F647FF8586D23BA2D8093A5698D51A1EF832D47FA470F3CDECF84C981E7",
+      "uses": [
+        "功能/算法/控制历史模型"
+      ]
+    },
+    {
+      "path": "E:\\VSCODE-project\\FPGA-ANLU\\development\\player_transition_wipe\\checkpoints\\transition_wipe_20261012_verified\\build\\model\\wipe_address.log",
+      "kind": "ancestor_model_evidence_not_rerun_on_C11206",
+      "version": "C11205",
+      "bytes": 142,
+      "sha256": "4AE460D7B4E3312C67DF519EB194AEC8F8D3DF7B53956888FB5DF608C0363972",
+      "uses": [
+        "功能/算法/控制历史模型"
+      ]
+    },
+    {
+      "path": "E:\\VSCODE-project\\FPGA-ANLU\\development\\player_transition_wipe\\checkpoints\\transition_wipe_20261012_verified\\build\\model\\wipe_rgb888.log",
+      "kind": "ancestor_model_evidence_not_rerun_on_C11206",
+      "version": "C11205",
+      "bytes": 142,
+      "sha256": "D7D72794AD3C7619E3AB4A1C20434886AC27C60DDA053EF64387A76A4BCCF565",
+      "uses": [
+        "功能/算法/控制历史模型"
+      ]
+    },
+    {
+      "path": "E:\\VSCODE-project\\FPGA-ANLU\\development\\player_transition_wipe\\checkpoints\\transition_wipe_20261012_verified\\build\\model\\wipe_backend.log",
+      "kind": "ancestor_model_evidence_not_rerun_on_C11206",
+      "version": "C11205",
+      "bytes": 8622,
+      "sha256": "F835A6264605727B1FAF5FEA418736B4EAE9495791F4ED2FBB56C0877DB850D8",
+      "uses": [
+        "功能/算法/控制历史模型"
+      ]
+    },
+    {
+      "path": "E:\\VSCODE-project\\FPGA-ANLU\\development\\player_transition_wipe\\checkpoints\\transition_wipe_20261012_verified\\build\\model\\verification_scope.md",
+      "kind": "ancestor_model_evidence_not_rerun_on_C11206",
+      "version": "C11205",
+      "bytes": 2212,
+      "sha256": "D966B8F92737E321363691ACF587B96B5FC433B604359A1CC8F89A4F59271E7B",
+      "uses": [
+        "功能/算法/控制历史模型"
+      ]
+    },
+    {
+      "path": "E:\\QQ CACHE\\Download\\安路资料\\开发记录\\专题记录\\图像实时调节\\亮度对比度首版_20261012\\board_feedback.json",
+      "kind": "archived_user_report_or_receipt",
+      "version": "C11201",
+      "bytes": 1193,
+      "sha256": "66ED49FBE77E180591D256B0CC83DCA5CBCB607C080F77E6E083F04D50A573A8",
+      "uses": [
+        "E04/用户反馈"
+      ]
+    },
+    {
+      "path": "E:\\QQ CACHE\\Download\\安路资料\\开发记录\\专题记录\\三扩展集成\\C11204验收_20261012\\feedback.json",
+      "kind": "archived_user_report_or_receipt",
+      "version": "C11204",
+      "bytes": 1612,
+      "sha256": "4C656A716549DDFCDB1C64956FAC7C765E3E25CEEE41688BD8E50B5D9439DEDF",
+      "uses": [
+        "E01/E04/E05组合用户反馈"
+      ]
+    },
+    {
+      "path": "E:\\QQ CACHE\\Download\\安路资料\\开发记录\\专题记录\\音频可视化\\真实PCM波形首版_20261012\\keyfreeze_board_feedback.json",
+      "kind": "archived_user_report_or_receipt",
+      "version": "C11204",
+      "bytes": 1911,
+      "sha256": "A13FA00C6B70C34BB1FB98FF985FB9AFE1508A6B8F379E21FE6FEECB2FDDD0BA",
+      "uses": [
+        "E05动态/HOLD对照与已知项"
+      ]
+    },
+    {
+      "path": "E:\\QQ CACHE\\Download\\安路资料\\开发记录\\专题记录\\音频可视化\\真实PCM波形首版_20261012\\photo_findings.json",
+      "kind": "archived_user_report_or_receipt",
+      "version": "C11202",
+      "bytes": 3248,
+      "sha256": "571B94634FE36C2FAEA5FAB19E0F4D9464B64A2495BCC9EE245D69EC0580C208",
+      "uses": [
+        "E05祖先重影照片分析"
+      ]
+    },
+    {
+      "path": "E:\\QQ CACHE\\Download\\安路资料\\开发记录\\专题记录\\图片转场\\上下擦除首版_20261012\\board_feedback.json",
+      "kind": "archived_user_report_or_receipt",
+      "version": "C11205",
+      "bytes": 1463,
+      "sha256": "B53B2359CC931506DE6BCAC909542D2C13570C170F5CD0F97F689F98B74B60FB",
+      "uses": [
+        "E02转场及集成用户反馈"
+      ]
+    },
+    {
+      "path": "E:\\QQ CACHE\\Download\\安路资料\\开发记录\\专题记录\\图片缩放\\多尺寸最近邻首版_20261012\\board_feedback.json",
+      "kind": "archived_user_report_or_receipt",
+      "version": "C11206",
+      "bytes": 5610,
+      "sha256": "7050FF6A7563862C8EF11DF8639F8DDE974BC61CD49A4B318FECBE9F79F1C459",
+      "uses": [
+        "当前总体功能反馈/四照片"
+      ]
+    },
+    {
+      "path": "E:\\QQ CACHE\\Download\\安路资料\\开发记录\\专题记录\\图片缩放\\多尺寸最近邻首版_20261012\\verified_receipt.json",
+      "kind": "archived_user_report_or_receipt",
+      "version": "C11206",
+      "bytes": 879,
+      "sha256": "112A7B900D3F219C34DDA75D0AE91F31CA2574B382EF36CECF556969776606C9",
+      "uses": [
+        "封存凭据"
+      ]
+    },
+    {
+      "path": "E:\\VSCODE-project\\FPGA-ANLU\\deliverables\\real_music_20261008.package_audit.json",
+      "kind": "supplied_music_audit_not_card_readback",
+      "version": "music_package_20261008",
+      "bytes": 2266,
+      "sha256": "1BC8926971E27F7EB0E8A8203B210663F4C0681ED67019CADB9BD149D2AB1834",
+      "uses": [
+        "60秒PCM16单声道TEST.WAV源包"
+      ]
+    },
+    {
+      "path": "E:\\VSCODE-project\\FPGA-ANLU\\planning\\20261007\\执行规划.md",
+      "kind": "internal_execution_plan",
+      "version": "20261007_with_later_notes",
+      "bytes": 14456,
+      "sha256": "1F46DCB7CB98AF91D294A2AEB3218307A6E0D0AFB9913E29C5F8EDE185D4F060",
+      "uses": [
+        "范围与可选增强/稳定建议"
+      ]
+    },
+    {
+      "path": "E:\\VSCODE-project\\FPGA-ANLU\\planning\\20261007\\source\\安路赛题一_开发到提交规划_20261007.md",
+      "kind": "original_internal_plan",
+      "version": "20261007",
+      "bytes": 68059,
+      "sha256": "922D73D34F9557E04AD0B537B8E83BD7928BEBAD69573DC0F7D0E006292C0224",
+      "uses": [
+        "T32/T33/T36/TC详细用例"
+      ]
+    }
+  ],
+  "userReportScope": "用户笼统确认本轮功能验过且无问题，按上一轮操作卡所要求范围记通过（用户反馈）；未逐项复述操作次数/时长，不补造测试过程。",
+  "limits": [
+    "No new RTL/model/TD execution or board tests in this collection.",
+    "Inherited model results retain their ancestor version.",
+    "Current photos are static/context-associated; not a bit readback, audio measurement or animation recording.",
+    "Known dynamic waveform double trace and low display resolution retained.",
+    "No hardware/TF/Flash operation; no timed long-run or maximum-format hardware claim."
+  ]
+}

@@ -1,0 +1,663 @@
+eagle_s20
+12 1406 1219 3629 25927 9 0
+-0.961 0.092 hdmi_loop eagle_s20 CG324 Detail 12 5
+clock: SYS_CLK
+12 2677 215 3
+Setup check
+22 3
+Endpoint: u1_rx/_al_u941|u1_rx/iic/u2_iic/reg0_b1
+22 34.932000 15 3
+Timing path: u1_rx/iic/u2_iic/reg4_b0.clk->u1_rx/_al_u941|u1_rx/iic/u2_iic/reg0_b1
+u1_rx/iic/u2_iic/reg4_b0.clk
+u1_rx/_al_u941|u1_rx/iic/u2_iic/reg0_b1
+24 34.932000 43.478000 8.546000 5 5
+u1_rx/iic/u2_iic/scl_data[0] u1_rx/ux_DIE/ux_Packer/reg6_b12|u1_rx/ux_DIE/ux_Packer/reg6_b13.a[1]
+u1_rx/iic/u2_iic/scl_posedge_lutinv u1_rx/_al_u653|u1_rx/iic/u2_iic/reg5_b3.d[1]
+u1_rx/_al_u653_o u1_rx/_al_u744|u1_rx/iic/u2_iic/reg2_b0.a[1]
+u1_rx/_al_u744_o u1_rx/_al_u746|u1_rx/ux_DIE/ux_Packer/reg5_b5.d[1]
+u1_rx/_al_u746_o u1_rx/_al_u941|u1_rx/iic/u2_iic/reg0_b1.c[0]
+
+Timing path: u1_rx/iic/u2_iic/reg4_b2|u1_rx/iic/u2_iic/reg5_b0.clk->u1_rx/_al_u941|u1_rx/iic/u2_iic/reg0_b1
+u1_rx/iic/u2_iic/reg4_b2|u1_rx/iic/u2_iic/reg5_b0.clk
+u1_rx/_al_u941|u1_rx/iic/u2_iic/reg0_b1
+69 35.284000 43.478000 8.194000 5 5
+u1_rx/iic/u2_iic/scl_data[2] u1_rx/ux_DIE/ux_Packer/reg6_b12|u1_rx/ux_DIE/ux_Packer/reg6_b13.c[1]
+u1_rx/iic/u2_iic/scl_posedge_lutinv u1_rx/_al_u653|u1_rx/iic/u2_iic/reg5_b3.d[1]
+u1_rx/_al_u653_o u1_rx/_al_u744|u1_rx/iic/u2_iic/reg2_b0.a[1]
+u1_rx/_al_u744_o u1_rx/_al_u746|u1_rx/ux_DIE/ux_Packer/reg5_b5.d[1]
+u1_rx/_al_u746_o u1_rx/_al_u941|u1_rx/iic/u2_iic/reg0_b1.c[0]
+
+Timing path: u1_rx/iic/u2_iic/reg4_b0.clk->u1_rx/_al_u941|u1_rx/iic/u2_iic/reg0_b1
+u1_rx/iic/u2_iic/reg4_b0.clk
+u1_rx/_al_u941|u1_rx/iic/u2_iic/reg0_b1
+114 35.312000 43.478000 8.166000 5 5
+u1_rx/iic/u2_iic/scl_data[0] u1_rx/iic/u2_iic/reg4_b2|u1_rx/iic/u2_iic/reg5_b0.c[1]
+u1_rx/_al_u736_o u1_rx/_al_u738|u1_rx/iic/u2_iic/reg6_b2.d[1]
+u1_rx/_al_u738_o u1_rx/_al_u744|u1_rx/iic/u2_iic/reg2_b0.b[1]
+u1_rx/_al_u744_o u1_rx/_al_u746|u1_rx/ux_DIE/ux_Packer/reg5_b5.d[1]
+u1_rx/_al_u746_o u1_rx/_al_u941|u1_rx/iic/u2_iic/reg0_b1.c[0]
+
+
+Endpoint: u1_rx/iic/u2_iic/reg0_b0|u1_rx/iic/u2_iic/reg0_b2
+159 34.978000 16 3
+Timing path: u1_rx/iic/u2_iic/reg4_b0.clk->u1_rx/iic/u2_iic/reg0_b0|u1_rx/iic/u2_iic/reg0_b2
+u1_rx/iic/u2_iic/reg4_b0.clk
+u1_rx/iic/u2_iic/reg0_b0|u1_rx/iic/u2_iic/reg0_b2
+161 34.978000 43.478000 8.500000 5 5
+u1_rx/iic/u2_iic/scl_data[0] u1_rx/ux_DIE/ux_Packer/reg6_b12|u1_rx/ux_DIE/ux_Packer/reg6_b13.a[1]
+u1_rx/iic/u2_iic/scl_posedge_lutinv u1_rx/_al_u653|u1_rx/iic/u2_iic/reg5_b3.d[1]
+u1_rx/_al_u653_o u1_rx/_al_u744|u1_rx/iic/u2_iic/reg2_b0.a[1]
+u1_rx/_al_u744_o u1_rx/_al_u746|u1_rx/ux_DIE/ux_Packer/reg5_b5.d[1]
+u1_rx/_al_u746_o u1_rx/iic/u2_iic/reg0_b0|u1_rx/iic/u2_iic/reg0_b2.d[0]
+
+Timing path: u1_rx/iic/u2_iic/reg4_b2|u1_rx/iic/u2_iic/reg5_b0.clk->u1_rx/iic/u2_iic/reg0_b0|u1_rx/iic/u2_iic/reg0_b2
+u1_rx/iic/u2_iic/reg4_b2|u1_rx/iic/u2_iic/reg5_b0.clk
+u1_rx/iic/u2_iic/reg0_b0|u1_rx/iic/u2_iic/reg0_b2
+206 35.330000 43.478000 8.148000 5 5
+u1_rx/iic/u2_iic/scl_data[2] u1_rx/ux_DIE/ux_Packer/reg6_b12|u1_rx/ux_DIE/ux_Packer/reg6_b13.c[1]
+u1_rx/iic/u2_iic/scl_posedge_lutinv u1_rx/_al_u653|u1_rx/iic/u2_iic/reg5_b3.d[1]
+u1_rx/_al_u653_o u1_rx/_al_u744|u1_rx/iic/u2_iic/reg2_b0.a[1]
+u1_rx/_al_u744_o u1_rx/_al_u746|u1_rx/ux_DIE/ux_Packer/reg5_b5.d[1]
+u1_rx/_al_u746_o u1_rx/iic/u2_iic/reg0_b0|u1_rx/iic/u2_iic/reg0_b2.d[0]
+
+Timing path: u1_rx/iic/u2_iic/reg4_b0.clk->u1_rx/iic/u2_iic/reg0_b0|u1_rx/iic/u2_iic/reg0_b2
+u1_rx/iic/u2_iic/reg4_b0.clk
+u1_rx/iic/u2_iic/reg0_b0|u1_rx/iic/u2_iic/reg0_b2
+251 35.358000 43.478000 8.120000 5 5
+u1_rx/iic/u2_iic/scl_data[0] u1_rx/iic/u2_iic/reg4_b2|u1_rx/iic/u2_iic/reg5_b0.c[1]
+u1_rx/_al_u736_o u1_rx/_al_u738|u1_rx/iic/u2_iic/reg6_b2.d[1]
+u1_rx/_al_u738_o u1_rx/_al_u744|u1_rx/iic/u2_iic/reg2_b0.b[1]
+u1_rx/_al_u744_o u1_rx/_al_u746|u1_rx/ux_DIE/ux_Packer/reg5_b5.d[1]
+u1_rx/_al_u746_o u1_rx/iic/u2_iic/reg0_b0|u1_rx/iic/u2_iic/reg0_b2.d[0]
+
+
+Endpoint: u1_rx/_al_u744|u1_rx/iic/u2_iic/reg2_b0
+296 35.045000 24 3
+Timing path: u1_rx/iic/u2_iic/reg4_b0.clk->u1_rx/_al_u744|u1_rx/iic/u2_iic/reg2_b0
+u1_rx/iic/u2_iic/reg4_b0.clk
+u1_rx/_al_u744|u1_rx/iic/u2_iic/reg2_b0
+298 35.045000 43.397000 8.352000 4 4
+u1_rx/iic/u2_iic/scl_data[0] u1_rx/ux_DIE/ux_Packer/reg6_b12|u1_rx/ux_DIE/ux_Packer/reg6_b13.a[1]
+u1_rx/iic/u2_iic/scl_posedge_lutinv u1_rx/_al_u653|u1_rx/iic/u2_iic/reg5_b3.d[1]
+u1_rx/_al_u653_o u1_rx/iic/u2_iic/reg1_b0|u1_rx/iic/u2_iic/reg1_b1.a[1]
+u1_rx/_al_u914_o u1_rx/_al_u744|u1_rx/iic/u2_iic/reg2_b0.c[0]
+
+Timing path: u1_rx/iic/u2_iic/reg4_b2|u1_rx/iic/u2_iic/reg5_b0.clk->u1_rx/_al_u744|u1_rx/iic/u2_iic/reg2_b0
+u1_rx/iic/u2_iic/reg4_b2|u1_rx/iic/u2_iic/reg5_b0.clk
+u1_rx/_al_u744|u1_rx/iic/u2_iic/reg2_b0
+341 35.397000 43.397000 8.000000 4 4
+u1_rx/iic/u2_iic/scl_data[2] u1_rx/ux_DIE/ux_Packer/reg6_b12|u1_rx/ux_DIE/ux_Packer/reg6_b13.c[1]
+u1_rx/iic/u2_iic/scl_posedge_lutinv u1_rx/_al_u653|u1_rx/iic/u2_iic/reg5_b3.d[1]
+u1_rx/_al_u653_o u1_rx/iic/u2_iic/reg1_b0|u1_rx/iic/u2_iic/reg1_b1.a[1]
+u1_rx/_al_u914_o u1_rx/_al_u744|u1_rx/iic/u2_iic/reg2_b0.c[0]
+
+Timing path: u1_rx/iic/u2_iic/reg4_b1|u1_rx/iic/u2_iic/reg4_b3.clk->u1_rx/_al_u744|u1_rx/iic/u2_iic/reg2_b0
+u1_rx/iic/u2_iic/reg4_b1|u1_rx/iic/u2_iic/reg4_b3.clk
+u1_rx/_al_u744|u1_rx/iic/u2_iic/reg2_b0
+384 35.593000 43.397000 7.804000 4 4
+u1_rx/iic/u2_iic/scl_data[1] u1_rx/ux_DIE/ux_Packer/reg6_b12|u1_rx/ux_DIE/ux_Packer/reg6_b13.b[1]
+u1_rx/iic/u2_iic/scl_posedge_lutinv u1_rx/_al_u653|u1_rx/iic/u2_iic/reg5_b3.d[1]
+u1_rx/_al_u653_o u1_rx/iic/u2_iic/reg1_b0|u1_rx/iic/u2_iic/reg1_b1.a[1]
+u1_rx/_al_u914_o u1_rx/_al_u744|u1_rx/iic/u2_iic/reg2_b0.c[0]
+
+
+
+Hold check
+427 3
+Endpoint: u1_rx/_al_u924|u1_rx/iic/u2_iic/reg1_b3
+429 0.256000 1 1
+Timing path: u1_rx/iic/u2_iic/reg1_b2|u1_rx/iic/u2_iic/reg1_b4.clk->u1_rx/_al_u924|u1_rx/iic/u2_iic/reg1_b3
+u1_rx/iic/u2_iic/reg1_b2|u1_rx/iic/u2_iic/reg1_b4.clk
+u1_rx/_al_u924|u1_rx/iic/u2_iic/reg1_b3
+431 0.256000 3.673000 3.929000 0 1
+u1_rx/iic/u2_iic/rdata[2] u1_rx/_al_u924|u1_rx/iic/u2_iic/reg1_b3.mi[0]
+
+
+Endpoint: u1_rx/iic/u2_iic/myedid_new_ram/inst_256x8_sub_000000_000
+468 0.298000 8 3
+Timing path: u1_rx/_al_u916|u1_rx/iic/u2_iic/reg2_b1.clk->u1_rx/iic/u2_iic/myedid_new_ram/inst_256x8_sub_000000_000
+u1_rx/_al_u916|u1_rx/iic/u2_iic/reg2_b1.clk
+u1_rx/iic/u2_iic/myedid_new_ram/inst_256x8_sub_000000_000
+470 0.298000 3.718000 4.016000 0 1
+u1_rx/iic/u2_iic/addr[1] u1_rx/iic/u2_iic/myedid_new_ram/inst_256x8_sub_000000_000.addra[4]
+
+Timing path: u1_rx/_al_u918|u1_rx/iic/u2_iic/reg2_b7.clk->u1_rx/iic/u2_iic/myedid_new_ram/inst_256x8_sub_000000_000
+u1_rx/_al_u918|u1_rx/iic/u2_iic/reg2_b7.clk
+u1_rx/iic/u2_iic/myedid_new_ram/inst_256x8_sub_000000_000
+507 0.432000 3.718000 4.150000 0 1
+u1_rx/iic/u2_iic/addr[7] u1_rx/iic/u2_iic/myedid_new_ram/inst_256x8_sub_000000_000.addra[10]
+
+Timing path: u1_rx/iic/u2_iic/reg2_b2|u1_rx/iic/u2_iic/reg2_b3.clk->u1_rx/iic/u2_iic/myedid_new_ram/inst_256x8_sub_000000_000
+u1_rx/iic/u2_iic/reg2_b2|u1_rx/iic/u2_iic/reg2_b3.clk
+u1_rx/iic/u2_iic/myedid_new_ram/inst_256x8_sub_000000_000
+544 0.437000 3.718000 4.155000 0 1
+u1_rx/iic/u2_iic/addr[2] u1_rx/iic/u2_iic/myedid_new_ram/inst_256x8_sub_000000_000.addra[5]
+
+
+Endpoint: u1_rx/_al_u920|u1_rx/iic/u2_iic/reg1_b6
+581 0.337000 1 1
+Timing path: u1_rx/iic/u2_iic/reg1_b5.clk->u1_rx/_al_u920|u1_rx/iic/u2_iic/reg1_b6
+u1_rx/iic/u2_iic/reg1_b5.clk
+u1_rx/_al_u920|u1_rx/iic/u2_iic/reg1_b6
+583 0.337000 3.592000 3.929000 0 1
+u1_rx/iic/u2_iic/rdata[5] u1_rx/_al_u920|u1_rx/iic/u2_iic/reg1_b6.mi[0]
+
+
+
+Period check
+620 1
+Endpoint: u1_rx/iic/u2_iic/myedid_new_ram/inst_256x8_sub_000000_000.clka
+624 36.600000 1 0
+
+
+
+clock: u1_rx/u_audio_pll/pll_inst.clkc[1]
+625 228 48 2
+Setup check
+635 3
+Endpoint: u1_rx/u_i2s_tx/reg0_b2|u_i2s_tx/reg0_b1
+635 77.621000 8 3
+Timing path: u1_rx/u_i2s_tx/reg0_b4|u_i2s_tx/reg0_b3.clk->u1_rx/u_i2s_tx/reg0_b2|u_i2s_tx/reg0_b1
+u1_rx/u_i2s_tx/reg0_b4|u_i2s_tx/reg0_b3.clk
+u1_rx/u_i2s_tx/reg0_b2|u_i2s_tx/reg0_b1
+637 77.621000 83.582000 5.961000 3 4
+u1_rx/u_i2s_tx/clk_cnt1[3] u1_rx/dvi_rx0/dec_g/u1_raw_rxbit_slip/reg0_b7|u1_rx/dvi_rx0/dec_g/u1_raw_rxbit_slip/reg0_b1.c[0]
+u1_rx/_al_u668_o u1_rx/_al_u669.a[0]
+u1_rx/u_i2s_tx/n11 u1_rx/dvi_rx0/dec_g/u1_raw_rxbit_slip/reg0_b7|u1_rx/dvi_rx0/dec_g/u1_raw_rxbit_slip/reg0_b1.d[1]
+u1_rx/u_i2s_tx/n3 u1_rx/u_i2s_tx/reg0_b2|u_i2s_tx/reg0_b1.sr
+
+Timing path: u1_rx/u_i2s_tx/reg0_b0|u_i2s_tx/add1/ucin.clk->u1_rx/u_i2s_tx/reg0_b2|u_i2s_tx/reg0_b1
+u1_rx/u_i2s_tx/reg0_b0|u_i2s_tx/add1/ucin.clk
+u1_rx/u_i2s_tx/reg0_b2|u_i2s_tx/reg0_b1
+674 77.682000 83.582000 5.900000 3 4
+u1_rx/u_i2s_tx/clk_cnt1[0] u1_rx/dvi_rx0/dec_g/u1_raw_rxbit_slip/reg0_b7|u1_rx/dvi_rx0/dec_g/u1_raw_rxbit_slip/reg0_b1.a[0]
+u1_rx/_al_u668_o u1_rx/_al_u669.a[0]
+u1_rx/u_i2s_tx/n11 u1_rx/dvi_rx0/dec_g/u1_raw_rxbit_slip/reg0_b7|u1_rx/dvi_rx0/dec_g/u1_raw_rxbit_slip/reg0_b1.d[1]
+u1_rx/u_i2s_tx/n3 u1_rx/u_i2s_tx/reg0_b2|u_i2s_tx/reg0_b1.sr
+
+Timing path: u1_rx/u_i2s_tx/reg0_b2|u_i2s_tx/reg0_b1.clk->u1_rx/u_i2s_tx/reg0_b2|u_i2s_tx/reg0_b1
+u1_rx/u_i2s_tx/reg0_b2|u_i2s_tx/reg0_b1.clk
+u1_rx/u_i2s_tx/reg0_b2|u_i2s_tx/reg0_b1
+711 77.696000 83.582000 5.886000 3 4
+u1_rx/u_i2s_tx/clk_cnt1[2] u1_rx/dvi_rx0/dec_g/u1_raw_rxbit_slip/reg0_b7|u1_rx/dvi_rx0/dec_g/u1_raw_rxbit_slip/reg0_b1.b[0]
+u1_rx/_al_u668_o u1_rx/_al_u669.a[0]
+u1_rx/u_i2s_tx/n11 u1_rx/dvi_rx0/dec_g/u1_raw_rxbit_slip/reg0_b7|u1_rx/dvi_rx0/dec_g/u1_raw_rxbit_slip/reg0_b1.d[1]
+u1_rx/u_i2s_tx/n3 u1_rx/u_i2s_tx/reg0_b2|u_i2s_tx/reg0_b1.sr
+
+
+Endpoint: u1_rx/u_i2s_tx/reg0_b0|u_i2s_tx/add1/ucin
+748 77.621000 8 3
+Timing path: u1_rx/u_i2s_tx/reg0_b4|u_i2s_tx/reg0_b3.clk->u1_rx/u_i2s_tx/reg0_b0|u_i2s_tx/add1/ucin
+u1_rx/u_i2s_tx/reg0_b4|u_i2s_tx/reg0_b3.clk
+u1_rx/u_i2s_tx/reg0_b0|u_i2s_tx/add1/ucin
+750 77.621000 83.582000 5.961000 3 4
+u1_rx/u_i2s_tx/clk_cnt1[3] u1_rx/dvi_rx0/dec_g/u1_raw_rxbit_slip/reg0_b7|u1_rx/dvi_rx0/dec_g/u1_raw_rxbit_slip/reg0_b1.c[0]
+u1_rx/_al_u668_o u1_rx/_al_u669.a[0]
+u1_rx/u_i2s_tx/n11 u1_rx/dvi_rx0/dec_g/u1_raw_rxbit_slip/reg0_b7|u1_rx/dvi_rx0/dec_g/u1_raw_rxbit_slip/reg0_b1.d[1]
+u1_rx/u_i2s_tx/n3 u1_rx/u_i2s_tx/reg0_b0|u_i2s_tx/add1/ucin.sr
+
+Timing path: u1_rx/u_i2s_tx/reg0_b2|u_i2s_tx/reg0_b1.clk->u1_rx/u_i2s_tx/reg0_b0|u_i2s_tx/add1/ucin
+u1_rx/u_i2s_tx/reg0_b2|u_i2s_tx/reg0_b1.clk
+u1_rx/u_i2s_tx/reg0_b0|u_i2s_tx/add1/ucin
+787 77.675000 83.582000 5.907000 3 4
+u1_rx/u_i2s_tx/clk_cnt1[2] u1_rx/dvi_rx0/dec_g/u1_raw_rxbit_slip/reg0_b7|u1_rx/dvi_rx0/dec_g/u1_raw_rxbit_slip/reg0_b1.b[0]
+u1_rx/_al_u668_o u1_rx/_al_u669.a[0]
+u1_rx/u_i2s_tx/n11 u1_rx/dvi_rx0/dec_g/u1_raw_rxbit_slip/reg0_b7|u1_rx/dvi_rx0/dec_g/u1_raw_rxbit_slip/reg0_b1.d[1]
+u1_rx/u_i2s_tx/n3 u1_rx/u_i2s_tx/reg0_b0|u_i2s_tx/add1/ucin.sr
+
+Timing path: u1_rx/u_i2s_tx/reg0_b0|u_i2s_tx/add1/ucin.clk->u1_rx/u_i2s_tx/reg0_b0|u_i2s_tx/add1/ucin
+u1_rx/u_i2s_tx/reg0_b0|u_i2s_tx/add1/ucin.clk
+u1_rx/u_i2s_tx/reg0_b0|u_i2s_tx/add1/ucin
+824 77.703000 83.582000 5.879000 3 4
+u1_rx/u_i2s_tx/clk_cnt1[0] u1_rx/dvi_rx0/dec_g/u1_raw_rxbit_slip/reg0_b7|u1_rx/dvi_rx0/dec_g/u1_raw_rxbit_slip/reg0_b1.a[0]
+u1_rx/_al_u668_o u1_rx/_al_u669.a[0]
+u1_rx/u_i2s_tx/n11 u1_rx/dvi_rx0/dec_g/u1_raw_rxbit_slip/reg0_b7|u1_rx/dvi_rx0/dec_g/u1_raw_rxbit_slip/reg0_b1.d[1]
+u1_rx/u_i2s_tx/n3 u1_rx/u_i2s_tx/reg0_b0|u_i2s_tx/add1/ucin.sr
+
+
+Endpoint: u1_rx/u_i2s_tx/reg0_b7_al_u1022
+861 77.640000 8 3
+Timing path: u1_rx/u_i2s_tx/reg0_b4|u_i2s_tx/reg0_b3.clk->u1_rx/u_i2s_tx/reg0_b7_al_u1022
+u1_rx/u_i2s_tx/reg0_b4|u_i2s_tx/reg0_b3.clk
+u1_rx/u_i2s_tx/reg0_b7_al_u1022
+863 77.640000 83.582000 5.942000 3 4
+u1_rx/u_i2s_tx/clk_cnt1[3] u1_rx/dvi_rx0/dec_g/u1_raw_rxbit_slip/reg0_b7|u1_rx/dvi_rx0/dec_g/u1_raw_rxbit_slip/reg0_b1.c[0]
+u1_rx/_al_u668_o u1_rx/_al_u669.a[0]
+u1_rx/u_i2s_tx/n11 u1_rx/dvi_rx0/dec_g/u1_raw_rxbit_slip/reg0_b7|u1_rx/dvi_rx0/dec_g/u1_raw_rxbit_slip/reg0_b1.d[1]
+u1_rx/u_i2s_tx/n3 u1_rx/u_i2s_tx/reg0_b7_al_u1022.sr
+
+Timing path: u1_rx/u_i2s_tx/reg0_b2|u_i2s_tx/reg0_b1.clk->u1_rx/u_i2s_tx/reg0_b7_al_u1022
+u1_rx/u_i2s_tx/reg0_b2|u_i2s_tx/reg0_b1.clk
+u1_rx/u_i2s_tx/reg0_b7_al_u1022
+900 77.694000 83.582000 5.888000 3 4
+u1_rx/u_i2s_tx/clk_cnt1[2] u1_rx/dvi_rx0/dec_g/u1_raw_rxbit_slip/reg0_b7|u1_rx/dvi_rx0/dec_g/u1_raw_rxbit_slip/reg0_b1.b[0]
+u1_rx/_al_u668_o u1_rx/_al_u669.a[0]
+u1_rx/u_i2s_tx/n11 u1_rx/dvi_rx0/dec_g/u1_raw_rxbit_slip/reg0_b7|u1_rx/dvi_rx0/dec_g/u1_raw_rxbit_slip/reg0_b1.d[1]
+u1_rx/u_i2s_tx/n3 u1_rx/u_i2s_tx/reg0_b7_al_u1022.sr
+
+Timing path: u1_rx/u_i2s_tx/reg0_b0|u_i2s_tx/add1/ucin.clk->u1_rx/u_i2s_tx/reg0_b7_al_u1022
+u1_rx/u_i2s_tx/reg0_b0|u_i2s_tx/add1/ucin.clk
+u1_rx/u_i2s_tx/reg0_b7_al_u1022
+937 77.701000 83.582000 5.881000 3 4
+u1_rx/u_i2s_tx/clk_cnt1[0] u1_rx/dvi_rx0/dec_g/u1_raw_rxbit_slip/reg0_b7|u1_rx/dvi_rx0/dec_g/u1_raw_rxbit_slip/reg0_b1.a[0]
+u1_rx/_al_u668_o u1_rx/_al_u669.a[0]
+u1_rx/u_i2s_tx/n11 u1_rx/dvi_rx0/dec_g/u1_raw_rxbit_slip/reg0_b7|u1_rx/dvi_rx0/dec_g/u1_raw_rxbit_slip/reg0_b1.d[1]
+u1_rx/u_i2s_tx/n3 u1_rx/u_i2s_tx/reg0_b7_al_u1022.sr
+
+
+
+Hold check
+974 3
+Endpoint: u1_rx/u_i2s_tx/reg4_b0|u_i2s_tx/add0/ucin
+976 0.660000 1 1
+Timing path: u1_rx/u_i2s_tx/reg4_b0|u_i2s_tx/add0/ucin.clk->u1_rx/u_i2s_tx/reg4_b0|u_i2s_tx/add0/ucin
+u1_rx/u_i2s_tx/reg4_b0|u_i2s_tx/add0/ucin.clk
+u1_rx/u_i2s_tx/reg4_b0|u_i2s_tx/add0/ucin
+978 0.660000 2.141000 2.801000 1 1
+u1_rx/u_i2s_tx/clk_cnt0[0] u1_rx/u_i2s_tx/reg4_b0|u_i2s_tx/add0/ucin.a[1]
+
+
+Endpoint: u1_rx/u_i2s_tx/reg0_b0|u_i2s_tx/add1/ucin
+1009 0.660000 1 1
+Timing path: u1_rx/u_i2s_tx/reg0_b0|u_i2s_tx/add1/ucin.clk->u1_rx/u_i2s_tx/reg0_b0|u_i2s_tx/add1/ucin
+u1_rx/u_i2s_tx/reg0_b0|u_i2s_tx/add1/ucin.clk
+u1_rx/u_i2s_tx/reg0_b0|u_i2s_tx/add1/ucin
+1011 0.660000 2.141000 2.801000 1 1
+u1_rx/u_i2s_tx/clk_cnt1[0] u1_rx/u_i2s_tx/reg0_b0|u_i2s_tx/add1/ucin.a[1]
+
+
+Endpoint: u1_rx/u_i2s_tx/reg4_b2|u_i2s_tx/reg4_b1
+1042 0.660000 2 2
+Timing path: u1_rx/u_i2s_tx/reg4_b2|u_i2s_tx/reg4_b1.clk->u1_rx/u_i2s_tx/reg4_b2|u_i2s_tx/reg4_b1
+u1_rx/u_i2s_tx/reg4_b2|u_i2s_tx/reg4_b1.clk
+u1_rx/u_i2s_tx/reg4_b2|u_i2s_tx/reg4_b1
+1044 0.660000 2.141000 2.801000 1 1
+u1_rx/u_i2s_tx/clk_cnt0[2] u1_rx/u_i2s_tx/reg4_b2|u_i2s_tx/reg4_b1.a[1]
+
+Timing path: u1_rx/u_i2s_tx/reg4_b0|u_i2s_tx/add0/ucin.clk->u1_rx/u_i2s_tx/reg4_b2|u_i2s_tx/reg4_b1
+u1_rx/u_i2s_tx/reg4_b0|u_i2s_tx/add0/ucin.clk
+u1_rx/u_i2s_tx/reg4_b2|u_i2s_tx/reg4_b1
+1075 0.973000 2.141000 3.114000 2 2
+u1_rx/u_i2s_tx/clk_cnt0[0] u1_rx/u_i2s_tx/reg4_b0|u_i2s_tx/add0/ucin.a[1]
+u1_rx/u_i2s_tx/add0/c1 u1_rx/u_i2s_tx/reg4_b2|u_i2s_tx/reg4_b1.fci
+
+
+
+
+clock: u1_rx/u1_pll/pll_inst.clkc[0]
+1108 19910 2540 3
+Setup check
+1118 3
+Endpoint: u1_rx/dvi_rx0/dec_r/u1_raw_rxbit_slip/reg9_b9|u1_rx/dvi_rx0/dec_r/u1_raw_rxbit_slip/reg9_b8
+1118 0.345000 1 1
+Timing path: u1_rx/dvi_rx0/dec_r/u1_raw_rxbit_slip/reg8_b8|u1_rx/dvi_rx0/dec_r/u1_raw_rxbit_slip/reg8_b9.clk->u1_rx/dvi_rx0/dec_r/u1_raw_rxbit_slip/reg9_b9|u1_rx/dvi_rx0/dec_r/u1_raw_rxbit_slip/reg9_b8
+u1_rx/dvi_rx0/dec_r/u1_raw_rxbit_slip/reg8_b8|u1_rx/dvi_rx0/dec_r/u1_raw_rxbit_slip/reg8_b9.clk
+u1_rx/dvi_rx0/dec_r/u1_raw_rxbit_slip/reg9_b9|u1_rx/dvi_rx0/dec_r/u1_raw_rxbit_slip/reg9_b8
+1120 0.345000 3.951000 3.606000 0 1
+u1_rx/dvi_rx0/dec_r/u1_raw_rxbit_slip/tmds_pdata[9] u1_rx/dvi_rx0/dec_r/u1_raw_rxbit_slip/reg9_b9|u1_rx/dvi_rx0/dec_r/u1_raw_rxbit_slip/reg9_b8.mi[1]
+
+
+Endpoint: u1_rx/dvi_rx0/dec_r/u1_raw_rxbit_slip/reg9_b9|u1_rx/dvi_rx0/dec_r/u1_raw_rxbit_slip/reg9_b8
+1151 0.480000 1 1
+Timing path: u1_rx/dvi_rx0/dec_r/u1_raw_rxbit_slip/reg8_b8|u1_rx/dvi_rx0/dec_r/u1_raw_rxbit_slip/reg8_b9.clk->u1_rx/dvi_rx0/dec_r/u1_raw_rxbit_slip/reg9_b9|u1_rx/dvi_rx0/dec_r/u1_raw_rxbit_slip/reg9_b8
+u1_rx/dvi_rx0/dec_r/u1_raw_rxbit_slip/reg8_b8|u1_rx/dvi_rx0/dec_r/u1_raw_rxbit_slip/reg8_b9.clk
+u1_rx/dvi_rx0/dec_r/u1_raw_rxbit_slip/reg9_b9|u1_rx/dvi_rx0/dec_r/u1_raw_rxbit_slip/reg9_b8
+1153 0.480000 3.951000 3.471000 0 1
+u1_rx/dvi_rx0/dec_r/u1_raw_rxbit_slip/tmds_pdata[8] u1_rx/dvi_rx0/dec_r/u1_raw_rxbit_slip/reg9_b9|u1_rx/dvi_rx0/dec_r/u1_raw_rxbit_slip/reg9_b8.mi[0]
+
+
+Endpoint: u1_rx/_al_u821|u1_rx/dvi_rx0/dec_g/u1_raw_rxbit_slip/reg9_b2
+1184 0.480000 1 1
+Timing path: u1_rx/dvi_rx0/dec_g/u1_raw_rxbit_slip/reg8_b2.clk->u1_rx/_al_u821|u1_rx/dvi_rx0/dec_g/u1_raw_rxbit_slip/reg9_b2
+u1_rx/dvi_rx0/dec_g/u1_raw_rxbit_slip/reg8_b2.clk
+u1_rx/_al_u821|u1_rx/dvi_rx0/dec_g/u1_raw_rxbit_slip/reg9_b2
+1186 0.480000 3.951000 3.471000 0 1
+u1_rx/dvi_rx0/dec_g/u1_raw_rxbit_slip/tmds_pdata[2] u1_rx/_al_u821|u1_rx/dvi_rx0/dec_g/u1_raw_rxbit_slip/reg9_b2.mi[0]
+
+
+
+Hold check
+1217 3
+Endpoint: u1_rx/fifo_r/fifo_inst_5_
+1219 0.092000 4 3
+Timing path: u1_rx/u_audio_store/reg1_b22|u1_rx/u_audio_store/reg1_b23.clk->u1_rx/fifo_r/fifo_inst_5_
+u1_rx/u_audio_store/reg1_b22|u1_rx/u_audio_store/reg1_b23.clk
+u1_rx/fifo_r/fifo_inst_5_
+1221 0.092000 2.395000 2.487000 0 1
+u1_rx/right_o[23] u1_rx/fifo_r/fifo_inst_5_.dia[3]
+
+Timing path: u1_rx/u_audio_store/reg1_b20|u1_rx/u_audio_store/reg1_b21.clk->u1_rx/fifo_r/fifo_inst_5_
+u1_rx/u_audio_store/reg1_b20|u1_rx/u_audio_store/reg1_b21.clk
+u1_rx/fifo_r/fifo_inst_5_
+1252 0.143000 2.395000 2.538000 0 1
+u1_rx/right_o[21] u1_rx/fifo_r/fifo_inst_5_.dia[1]
+
+Timing path: u1_rx/u_audio_store/reg1_b20|u1_rx/u_audio_store/reg1_b21.clk->u1_rx/fifo_r/fifo_inst_5_
+u1_rx/u_audio_store/reg1_b20|u1_rx/u_audio_store/reg1_b21.clk
+u1_rx/fifo_r/fifo_inst_5_
+1283 0.268000 2.395000 2.663000 0 1
+u1_rx/right_o[20] u1_rx/fifo_r/fifo_inst_5_.dia[0]
+
+
+Endpoint: u1_rx/ux_DIE/ux_DI/ux_GB_Check_A/reg0_b0|u1_rx/dvi_rx0/dec_g/u1_raw_rxbit_slip/reg9_b3
+1314 0.110000 1 1
+Timing path: u1_rx/dvi_rx0/dec_g/u1_raw_rxbit_slip/reg8_b3|u1_rx/dvi_rx0/dec_g/u1_raw_rxbit_slip/reg8_b4.clk->u1_rx/ux_DIE/ux_DI/ux_GB_Check_A/reg0_b0|u1_rx/dvi_rx0/dec_g/u1_raw_rxbit_slip/reg9_b3
+u1_rx/dvi_rx0/dec_g/u1_raw_rxbit_slip/reg8_b3|u1_rx/dvi_rx0/dec_g/u1_raw_rxbit_slip/reg8_b4.clk
+u1_rx/ux_DIE/ux_DI/ux_GB_Check_A/reg0_b0|u1_rx/dvi_rx0/dec_g/u1_raw_rxbit_slip/reg9_b3
+1316 0.110000 2.484000 2.594000 0 1
+u1_rx/dvi_rx0/dec_g/u1_raw_rxbit_slip/tmds_pdata[3] u1_rx/ux_DIE/ux_DI/ux_GB_Check_A/reg0_b0|u1_rx/dvi_rx0/dec_g/u1_raw_rxbit_slip/reg9_b3.mi[0]
+
+
+Endpoint: u1_rx/dvi_rx0/dec_b/u1_raw_rxbit_slip/reg9_b1|u1_rx/dvi_rx0/dec_b/u1_raw_rxbit_slip/reg9_b6
+1347 0.110000 1 1
+Timing path: u1_rx/dvi_rx0/dec_b/u1_raw_rxbit_slip/reg8_b2|u1_rx/dvi_rx0/dec_b/u1_raw_rxbit_slip/reg8_b6.clk->u1_rx/dvi_rx0/dec_b/u1_raw_rxbit_slip/reg9_b1|u1_rx/dvi_rx0/dec_b/u1_raw_rxbit_slip/reg9_b6
+u1_rx/dvi_rx0/dec_b/u1_raw_rxbit_slip/reg8_b2|u1_rx/dvi_rx0/dec_b/u1_raw_rxbit_slip/reg8_b6.clk
+u1_rx/dvi_rx0/dec_b/u1_raw_rxbit_slip/reg9_b1|u1_rx/dvi_rx0/dec_b/u1_raw_rxbit_slip/reg9_b6
+1349 0.110000 2.484000 2.594000 0 1
+u1_rx/dvi_rx0/dec_b/u1_raw_rxbit_slip/tmds_pdata[6] u1_rx/dvi_rx0/dec_b/u1_raw_rxbit_slip/reg9_b1|u1_rx/dvi_rx0/dec_b/u1_raw_rxbit_slip/reg9_b6.mi[0]
+
+
+
+Period check
+1380 12
+Endpoint: u1_rx/fifo_r/fifo_inst_5_.clkw
+1384 6.700000 1 0
+
+Endpoint: u1_rx/fifo_r/fifo_inst_4_.clkw
+1385 6.700000 1 0
+
+Endpoint: u1_rx/fifo_r/fifo_inst_3_.clkw
+1386 6.700000 1 0
+
+Endpoint: u1_rx/fifo_r/fifo_inst_2_.clkw
+1387 6.700000 1 0
+
+Endpoint: u1_rx/fifo_r/fifo_inst_1_.clkw
+1388 6.700000 1 0
+
+Endpoint: u1_rx/fifo_r/fifo_inst_0_.clkw
+1389 6.700000 1 0
+
+Endpoint: u1_rx/fifo_l/fifo_inst_5_.clkw
+1390 6.700000 1 0
+
+Endpoint: u1_rx/fifo_l/fifo_inst_4_.clkw
+1391 6.700000 1 0
+
+Endpoint: u1_rx/fifo_l/fifo_inst_3_.clkw
+1392 6.700000 1 0
+
+Endpoint: u1_rx/fifo_l/fifo_inst_2_.clkw
+1393 6.700000 1 0
+
+Endpoint: u1_rx/fifo_l/fifo_inst_1_.clkw
+1394 6.700000 1 0
+
+Endpoint: u1_rx/fifo_l/fifo_inst_0_.clkw
+1395 6.700000 1 0
+
+
+
+clock: u1_rx/u1_pll/pll_inst.clkc[1]
+1396 1132 596 2
+Setup check
+1406 3
+Endpoint: u1_rx/dvi_rx0/dec_g/u1_raw_rxbit_slip/reg4_b0|u1_rx/dvi_rx0/dec_g/u1_raw_rxbit_slip/reg0_b8
+1406 -0.961000 20 3
+Timing path: u1_rx/dvi_rx0/dec_g/u1_raw_rxbit_slip/reg0_b0|u1_rx/dvi_rx0/dec_g/u1_raw_rxbit_slip/reg0_b4.clk->u1_rx/dvi_rx0/dec_g/u1_raw_rxbit_slip/reg4_b0|u1_rx/dvi_rx0/dec_g/u1_raw_rxbit_slip/reg0_b8
+u1_rx/dvi_rx0/dec_g/u1_raw_rxbit_slip/reg0_b0|u1_rx/dvi_rx0/dec_g/u1_raw_rxbit_slip/reg0_b4.clk
+u1_rx/dvi_rx0/dec_g/u1_raw_rxbit_slip/reg4_b0|u1_rx/dvi_rx0/dec_g/u1_raw_rxbit_slip/reg0_b8
+1408 -0.961000 4.273000 5.234000 3 3
+u1_rx/dvi_rx0/dec_g/u1_raw_rxbit_slip/tmds_pdat12bit_odd[2] u1_rx/dvi_rx0/dec_g/u1_raw_rxbit_slip/reg1_b1|u1_rx/dvi_rx0/dec_g/u1_raw_rxbit_slip/reg0_b9.b[1]
+u1_rx/dvi_rx0/dec_g/_al_u29_o u1_rx/dvi_rx0/dec_g/u1_raw_rxbit_slip/reg5_b1.a[0]
+u1_rx/dvi_rx0/dec_g/u1_raw_rxbit_slip/n4_lutinv u1_rx/dvi_rx0/dec_g/u1_raw_rxbit_slip/reg4_b0|u1_rx/dvi_rx0/dec_g/u1_raw_rxbit_slip/reg0_b8.d[1]
+
+Timing path: u1_rx/dvi_rx0/dec_g/u1_raw_rxbit_slip/reg0_b7|u1_rx/dvi_rx0/dec_g/u1_raw_rxbit_slip/reg0_b1.clk->u1_rx/dvi_rx0/dec_g/u1_raw_rxbit_slip/reg4_b0|u1_rx/dvi_rx0/dec_g/u1_raw_rxbit_slip/reg0_b8
+u1_rx/dvi_rx0/dec_g/u1_raw_rxbit_slip/reg0_b7|u1_rx/dvi_rx0/dec_g/u1_raw_rxbit_slip/reg0_b1.clk
+u1_rx/dvi_rx0/dec_g/u1_raw_rxbit_slip/reg4_b0|u1_rx/dvi_rx0/dec_g/u1_raw_rxbit_slip/reg0_b8
+1443 -0.877000 4.273000 5.150000 3 3
+u1_rx/dvi_rx0/dec_g/u1_raw_rxbit_slip/tmds_pdat[7] u1_rx/dvi_rx0/dec_g/u1_raw_rxbit_slip/reg1_b1|u1_rx/dvi_rx0/dec_g/u1_raw_rxbit_slip/reg0_b9.c[1]
+u1_rx/dvi_rx0/dec_g/_al_u29_o u1_rx/dvi_rx0/dec_g/u1_raw_rxbit_slip/reg5_b1.a[0]
+u1_rx/dvi_rx0/dec_g/u1_raw_rxbit_slip/n4_lutinv u1_rx/dvi_rx0/dec_g/u1_raw_rxbit_slip/reg4_b0|u1_rx/dvi_rx0/dec_g/u1_raw_rxbit_slip/reg0_b8.d[1]
+
+Timing path: u1_rx/dvi_rx0/dec_g/u1_raw_rxbit_slip/reg0_b7|u1_rx/dvi_rx0/dec_g/u1_raw_rxbit_slip/reg0_b1.clk->u1_rx/dvi_rx0/dec_g/u1_raw_rxbit_slip/reg4_b0|u1_rx/dvi_rx0/dec_g/u1_raw_rxbit_slip/reg0_b8
+u1_rx/dvi_rx0/dec_g/u1_raw_rxbit_slip/reg0_b7|u1_rx/dvi_rx0/dec_g/u1_raw_rxbit_slip/reg0_b1.clk
+u1_rx/dvi_rx0/dec_g/u1_raw_rxbit_slip/reg4_b0|u1_rx/dvi_rx0/dec_g/u1_raw_rxbit_slip/reg0_b8
+1478 -0.753000 4.273000 5.026000 3 3
+u1_rx/dvi_rx0/dec_g/u1_raw_rxbit_slip/tmds_pdat12bit_odd[3] u1_rx/dvi_rx0/dec_g/u1_raw_rxbit_slip/reg8_b8|u1_rx/dvi_rx0/dec_g/u1_raw_rxbit_slip/reg8_b9.b[0]
+u1_rx/dvi_rx0/dec_g/_al_u27_o u1_rx/dvi_rx0/dec_g/u1_raw_rxbit_slip/reg5_b1.d[0]
+u1_rx/dvi_rx0/dec_g/u1_raw_rxbit_slip/n4_lutinv u1_rx/dvi_rx0/dec_g/u1_raw_rxbit_slip/reg4_b0|u1_rx/dvi_rx0/dec_g/u1_raw_rxbit_slip/reg0_b8.d[1]
+
+
+Endpoint: u1_rx/dvi_rx0/dec_r/u1_raw_rxbit_slip/reg3_b0|u1_rx/dvi_rx0/dec_r/u1_raw_rxbit_slip/reg0_b9
+1513 -0.914000 20 3
+Timing path: u1_rx/dvi_rx0/dec_r/u1_raw_rxbit_slip/reg0_b0|u1_rx/dvi_rx0/dec_r/u1_raw_rxbit_slip/reg0_b5.clk->u1_rx/dvi_rx0/dec_r/u1_raw_rxbit_slip/reg3_b0|u1_rx/dvi_rx0/dec_r/u1_raw_rxbit_slip/reg0_b9
+u1_rx/dvi_rx0/dec_r/u1_raw_rxbit_slip/reg0_b0|u1_rx/dvi_rx0/dec_r/u1_raw_rxbit_slip/reg0_b5.clk
+u1_rx/dvi_rx0/dec_r/u1_raw_rxbit_slip/reg3_b0|u1_rx/dvi_rx0/dec_r/u1_raw_rxbit_slip/reg0_b9
+1515 -0.914000 4.166000 5.080000 3 3
+u1_rx/dvi_rx0/dec_r/u1_raw_rxbit_slip/tmds_pdat[5] u1_rx/dvi_rx0/dec_r/u1_raw_rxbit_slip/reg9_b7|u1_rx/dvi_rx0/dec_r/u1_raw_rxbit_slip/reg9_b6.d[0]
+u1_rx/dvi_rx0/dec_r/_al_u28_o u1_rx/dvi_rx0/dec_r/u1_raw_rxbit_slip/reg0_b8|u1_rx/dvi_rx0/dec_r/u1_raw_rxbit_slip/reg1_b1.d[1]
+u1_rx/dvi_rx0/dec_r/_al_u34_o u1_rx/dvi_rx0/dec_r/u1_raw_rxbit_slip/reg3_b0|u1_rx/dvi_rx0/dec_r/u1_raw_rxbit_slip/reg0_b9.b[1]
+
+Timing path: u1_rx/dvi_rx0/dec_r/u1_raw_rxbit_slip/reg3_b1|u1_rx/dvi_rx0/dec_r/u1_raw_rxbit_slip/reg0_b6.clk->u1_rx/dvi_rx0/dec_r/u1_raw_rxbit_slip/reg3_b0|u1_rx/dvi_rx0/dec_r/u1_raw_rxbit_slip/reg0_b9
+u1_rx/dvi_rx0/dec_r/u1_raw_rxbit_slip/reg3_b1|u1_rx/dvi_rx0/dec_r/u1_raw_rxbit_slip/reg0_b6.clk
+u1_rx/dvi_rx0/dec_r/u1_raw_rxbit_slip/reg3_b0|u1_rx/dvi_rx0/dec_r/u1_raw_rxbit_slip/reg0_b9
+1550 -0.583000 4.166000 4.749000 3 3
+u1_rx/dvi_rx0/dec_r/u1_raw_rxbit_slip/tmds_pdat[6] u1_rx/dvi_rx0/dec_r/u1_raw_rxbit_slip/reg9_b7|u1_rx/dvi_rx0/dec_r/u1_raw_rxbit_slip/reg9_b6.c[0]
+u1_rx/dvi_rx0/dec_r/_al_u28_o u1_rx/dvi_rx0/dec_r/u1_raw_rxbit_slip/reg0_b8|u1_rx/dvi_rx0/dec_r/u1_raw_rxbit_slip/reg1_b1.d[1]
+u1_rx/dvi_rx0/dec_r/_al_u34_o u1_rx/dvi_rx0/dec_r/u1_raw_rxbit_slip/reg3_b0|u1_rx/dvi_rx0/dec_r/u1_raw_rxbit_slip/reg0_b9.b[1]
+
+Timing path: u1_rx/dvi_rx0/dec_r/u1_raw_rxbit_slip/reg0_b3|u1_rx/dvi_rx0/dec_r/u1_raw_rxbit_slip/reg0_b2.clk->u1_rx/dvi_rx0/dec_r/u1_raw_rxbit_slip/reg3_b0|u1_rx/dvi_rx0/dec_r/u1_raw_rxbit_slip/reg0_b9
+u1_rx/dvi_rx0/dec_r/u1_raw_rxbit_slip/reg0_b3|u1_rx/dvi_rx0/dec_r/u1_raw_rxbit_slip/reg0_b2.clk
+u1_rx/dvi_rx0/dec_r/u1_raw_rxbit_slip/reg3_b0|u1_rx/dvi_rx0/dec_r/u1_raw_rxbit_slip/reg0_b9
+1585 -0.579000 4.166000 4.745000 3 3
+u1_rx/dvi_rx0/dec_r/u1_raw_rxbit_slip/tmds_pdat[3] u1_rx/dvi_rx0/dec_r/u1_raw_rxbit_slip/reg9_b7|u1_rx/dvi_rx0/dec_r/u1_raw_rxbit_slip/reg9_b6.c[1]
+u1_rx/dvi_rx0/dec_r/_al_u24_o u1_rx/dvi_rx0/dec_r/u1_raw_rxbit_slip/reg8_b8|u1_rx/dvi_rx0/dec_r/u1_raw_rxbit_slip/reg8_b9.a[0]
+u1_rx/dvi_rx0/dec_r/_al_u25_o u1_rx/dvi_rx0/dec_r/u1_raw_rxbit_slip/reg3_b0|u1_rx/dvi_rx0/dec_r/u1_raw_rxbit_slip/reg0_b9.d[1]
+
+
+Endpoint: u1_rx/dvi_rx0/dec_r/u1_raw_rxbit_slip/odd_clr_reg|u1_rx/dvi_rx0/dec_r/u1_raw_rxbit_slip/reg4_b0
+1620 -0.836000 20 3
+Timing path: u1_rx/dvi_rx0/dec_r/u1_raw_rxbit_slip/reg0_b3|u1_rx/dvi_rx0/dec_r/u1_raw_rxbit_slip/reg0_b2.clk->u1_rx/dvi_rx0/dec_r/u1_raw_rxbit_slip/odd_clr_reg|u1_rx/dvi_rx0/dec_r/u1_raw_rxbit_slip/reg4_b0
+u1_rx/dvi_rx0/dec_r/u1_raw_rxbit_slip/reg0_b3|u1_rx/dvi_rx0/dec_r/u1_raw_rxbit_slip/reg0_b2.clk
+u1_rx/dvi_rx0/dec_r/u1_raw_rxbit_slip/odd_clr_reg|u1_rx/dvi_rx0/dec_r/u1_raw_rxbit_slip/reg4_b0
+1622 -0.836000 4.273000 5.109000 3 3
+u1_rx/dvi_rx0/dec_r/u1_raw_rxbit_slip/tmds_pdat[3] u1_rx/dvi_rx0/dec_r/u1_raw_rxbit_slip/reg9_b7|u1_rx/dvi_rx0/dec_r/u1_raw_rxbit_slip/reg9_b6.c[1]
+u1_rx/dvi_rx0/dec_r/_al_u24_o u1_rx/dvi_rx0/dec_r/u1_raw_rxbit_slip/reg8_b8|u1_rx/dvi_rx0/dec_r/u1_raw_rxbit_slip/reg8_b9.a[0]
+u1_rx/dvi_rx0/dec_r/_al_u25_o u1_rx/dvi_rx0/dec_r/u1_raw_rxbit_slip/odd_clr_reg|u1_rx/dvi_rx0/dec_r/u1_raw_rxbit_slip/reg4_b0.d[0]
+
+Timing path: u1_rx/dvi_rx0/dec_r/u1_raw_rxbit_slip/reg0_b0|u1_rx/dvi_rx0/dec_r/u1_raw_rxbit_slip/reg0_b5.clk->u1_rx/dvi_rx0/dec_r/u1_raw_rxbit_slip/odd_clr_reg|u1_rx/dvi_rx0/dec_r/u1_raw_rxbit_slip/reg4_b0
+u1_rx/dvi_rx0/dec_r/u1_raw_rxbit_slip/reg0_b0|u1_rx/dvi_rx0/dec_r/u1_raw_rxbit_slip/reg0_b5.clk
+u1_rx/dvi_rx0/dec_r/u1_raw_rxbit_slip/odd_clr_reg|u1_rx/dvi_rx0/dec_r/u1_raw_rxbit_slip/reg4_b0
+1657 -0.811000 4.273000 5.084000 3 3
+u1_rx/dvi_rx0/dec_r/u1_raw_rxbit_slip/tmds_pdat[5] u1_rx/dvi_rx0/dec_r/u1_raw_rxbit_slip/reg9_b7|u1_rx/dvi_rx0/dec_r/u1_raw_rxbit_slip/reg9_b6.d[0]
+u1_rx/dvi_rx0/dec_r/_al_u28_o u1_rx/ux_DIE/ux_Packer/reg6_b43|u1_rx/ux_DIE/ux_Packer/reg6_b42.b[1]
+u1_rx/dvi_rx0/dec_r/u1_raw_rxbit_slip/n4_lutinv u1_rx/dvi_rx0/dec_r/u1_raw_rxbit_slip/odd_clr_reg|u1_rx/dvi_rx0/dec_r/u1_raw_rxbit_slip/reg4_b0.c[0]
+
+Timing path: u1_rx/dvi_rx0/dec_r/u1_raw_rxbit_slip/reg0_b8|u1_rx/dvi_rx0/dec_r/u1_raw_rxbit_slip/reg1_b1.clk->u1_rx/dvi_rx0/dec_r/u1_raw_rxbit_slip/odd_clr_reg|u1_rx/dvi_rx0/dec_r/u1_raw_rxbit_slip/reg4_b0
+u1_rx/dvi_rx0/dec_r/u1_raw_rxbit_slip/reg0_b8|u1_rx/dvi_rx0/dec_r/u1_raw_rxbit_slip/reg1_b1.clk
+u1_rx/dvi_rx0/dec_r/u1_raw_rxbit_slip/odd_clr_reg|u1_rx/dvi_rx0/dec_r/u1_raw_rxbit_slip/reg4_b0
+1692 -0.801000 4.273000 5.074000 3 3
+u1_rx/dvi_rx0/dec_r/u1_raw_rxbit_slip/tmds_pdat12bit_odd[1] u1_rx/dvi_rx0/dec_r/u1_raw_rxbit_slip/reg8_b7.d[0]
+u1_rx/dvi_rx0/dec_r/_al_u29_o u1_rx/ux_DIE/ux_Packer/reg6_b43|u1_rx/ux_DIE/ux_Packer/reg6_b42.d[1]
+u1_rx/dvi_rx0/dec_r/u1_raw_rxbit_slip/n4_lutinv u1_rx/dvi_rx0/dec_r/u1_raw_rxbit_slip/odd_clr_reg|u1_rx/dvi_rx0/dec_r/u1_raw_rxbit_slip/reg4_b0.c[0]
+
+
+
+Hold check
+1727 3
+Endpoint: u2_tx/Inst_DVITransmitter/Inst_green_serializer_10_1/reg0_b1
+1729 0.122000 1 1
+Timing path: u2_tx/Inst_DVITransmitter/Inst_TMDSEncoder_green/reg6_b8.clk->u2_tx/Inst_DVITransmitter/Inst_green_serializer_10_1/reg0_b1
+u2_tx/Inst_DVITransmitter/Inst_TMDSEncoder_green/reg6_b8.clk
+u2_tx/Inst_DVITransmitter/Inst_green_serializer_10_1/reg0_b1
+1731 0.122000 2.484000 2.606000 0 1
+u2_tx/Inst_DVITransmitter/intTmdsGreen[8] u2_tx/Inst_DVITransmitter/Inst_green_serializer_10_1/reg0_b1.mi[0]
+
+
+Endpoint: u2_tx/Inst_DVITransmitter/Inst_green_serializer_10_1/reg0_b5|u2_tx/Inst_DVITransmitter/Inst_red_serializer_10_1/reg0_b5
+1762 0.196000 1 1
+Timing path: u2_tx/Inst_DVITransmitter/Inst_TMDSEncoder_green/reg6_b2|u2_tx/Inst_DVITransmitter/Inst_TMDSEncoder_green/reg6_b4.clk->u2_tx/Inst_DVITransmitter/Inst_green_serializer_10_1/reg0_b5|u2_tx/Inst_DVITransmitter/Inst_red_serializer_10_1/reg0_b5
+u2_tx/Inst_DVITransmitter/Inst_TMDSEncoder_green/reg6_b2|u2_tx/Inst_DVITransmitter/Inst_TMDSEncoder_green/reg6_b4.clk
+u2_tx/Inst_DVITransmitter/Inst_green_serializer_10_1/reg0_b5|u2_tx/Inst_DVITransmitter/Inst_red_serializer_10_1/reg0_b5
+1764 0.196000 2.484000 2.680000 1 1
+u2_tx/Inst_DVITransmitter/intTmdsGreen[4] u2_tx/Inst_DVITransmitter/Inst_green_serializer_10_1/reg0_b5|u2_tx/Inst_DVITransmitter/Inst_red_serializer_10_1/reg0_b5.d[1]
+
+
+Endpoint: u2_tx/Inst_DVITransmitter/Inst_blue_serializer_10_1/reg0_b0
+1795 0.243000 1 1
+Timing path: u2_tx/Inst_DVITransmitter/Inst_TMDSEncoder_blue/reg6_b3|u2_tx/Inst_DVITransmitter/Inst_TMDSEncoder_blue/reg6_b9.clk->u2_tx/Inst_DVITransmitter/Inst_blue_serializer_10_1/reg0_b0
+u2_tx/Inst_DVITransmitter/Inst_TMDSEncoder_blue/reg6_b3|u2_tx/Inst_DVITransmitter/Inst_TMDSEncoder_blue/reg6_b9.clk
+u2_tx/Inst_DVITransmitter/Inst_blue_serializer_10_1/reg0_b0
+1797 0.243000 2.484000 2.727000 0 1
+u2_tx/Inst_DVITransmitter/intTmdsBlue[9] u2_tx/Inst_DVITransmitter/Inst_blue_serializer_10_1/reg0_b0.mi[0]
+
+
+
+
+clock: u1_rx/u1_pll/pll_inst.clkc[2]
+1828 1980 230 2
+Setup check
+1838 3
+Endpoint: u1_rx/_al_u705|u1_rx/u2_cfg/setp_middle_over_reg
+1838 4.894000 47 3
+Timing path: u1_rx/u2_cfg/reg5_b2|u1_rx/u2_cfg/reg5_b3.clk->u1_rx/_al_u705|u1_rx/u2_cfg/setp_middle_over_reg
+u1_rx/u2_cfg/reg5_b2|u1_rx/u2_cfg/reg5_b3.clk
+u1_rx/_al_u705|u1_rx/u2_cfg/setp_middle_over_reg
+1840 4.894000 12.085000 7.191000 5 6
+u1_rx/u2_cfg/sft_left_cnt[2] u1_rx/u2_cfg/sub0/u2|u2_cfg/sub0/u1.a[0]
+u1_rx/u2_cfg/sub0/c3 u1_rx/u2_cfg/sub0/u4|u2_cfg/sub0/u3.fci
+u1_rx/u2_cfg/sub0/c5 u1_rx/u2_cfg/sub0/u6|u2_cfg/sub0/u5.fci
+u1_rx/u2_cfg/n37[5] u1_rx/u2_cfg/reg7_b2|u1_rx/u2_cfg/reg7_b3.a[1]
+u1_rx/_al_u867_o u1_rx/u2_cfg/reg7_b1|u1_rx/u2_cfg/reg7_b0.b[1]
+u1_rx/u2_cfg/n38_lutinv u1_rx/_al_u705|u1_rx/u2_cfg/setp_middle_over_reg.e[0]
+
+Timing path: u1_rx/u2_cfg/reg5_b2|u1_rx/u2_cfg/reg5_b3.clk->u1_rx/_al_u705|u1_rx/u2_cfg/setp_middle_over_reg
+u1_rx/u2_cfg/reg5_b2|u1_rx/u2_cfg/reg5_b3.clk
+u1_rx/_al_u705|u1_rx/u2_cfg/setp_middle_over_reg
+1885 4.973000 12.085000 7.112000 5 6
+u1_rx/u2_cfg/sft_left_cnt[3] u1_rx/u2_cfg/sub0/u2|u2_cfg/sub0/u1.a[1]
+u1_rx/u2_cfg/sub0/c3 u1_rx/u2_cfg/sub0/u4|u2_cfg/sub0/u3.fci
+u1_rx/u2_cfg/sub0/c5 u1_rx/u2_cfg/sub0/u6|u2_cfg/sub0/u5.fci
+u1_rx/u2_cfg/n37[5] u1_rx/u2_cfg/reg7_b2|u1_rx/u2_cfg/reg7_b3.a[1]
+u1_rx/_al_u867_o u1_rx/u2_cfg/reg7_b1|u1_rx/u2_cfg/reg7_b0.b[1]
+u1_rx/u2_cfg/n38_lutinv u1_rx/_al_u705|u1_rx/u2_cfg/setp_middle_over_reg.e[0]
+
+Timing path: u1_rx/u2_cfg/reg5_b0|u1_rx/u2_cfg/reg5_b1.clk->u1_rx/_al_u705|u1_rx/u2_cfg/setp_middle_over_reg
+u1_rx/u2_cfg/reg5_b0|u1_rx/u2_cfg/reg5_b1.clk
+u1_rx/_al_u705|u1_rx/u2_cfg/setp_middle_over_reg
+1930 5.043000 12.085000 7.042000 5 7
+u1_rx/u2_cfg/sft_left_cnt[1] u1_rx/u2_cfg/sub0/u0|u2_cfg/sub0/ucin.a[1]
+u1_rx/u2_cfg/sub0/c1 u1_rx/u2_cfg/sub0/u2|u2_cfg/sub0/u1.fci
+u1_rx/u2_cfg/sub0/c3 u1_rx/u2_cfg/sub0/u4|u2_cfg/sub0/u3.fci
+u1_rx/u2_cfg/sub0/c5 u1_rx/u2_cfg/sub0/u6|u2_cfg/sub0/u5.fci
+u1_rx/u2_cfg/n37[5] u1_rx/u2_cfg/reg7_b2|u1_rx/u2_cfg/reg7_b3.a[1]
+u1_rx/_al_u867_o u1_rx/u2_cfg/reg7_b1|u1_rx/u2_cfg/reg7_b0.b[1]
+u1_rx/u2_cfg/n38_lutinv u1_rx/_al_u705|u1_rx/u2_cfg/setp_middle_over_reg.e[0]
+
+
+Endpoint: u1_rx/u2_cfg/reg4_b6|u1_rx/u2_cfg/reg4_b7
+1977 5.260000 23 3
+Timing path: u1_rx/u2_cfg/rx_eor_reg|_al_u149.clk->u1_rx/u2_cfg/reg4_b6|u1_rx/u2_cfg/reg4_b7
+u1_rx/u2_cfg/rx_eor_reg|_al_u149.clk
+u1_rx/u2_cfg/reg4_b6|u1_rx/u2_cfg/reg4_b7
+1979 5.260000 12.085000 6.825000 4 4
+u1_rx/u2_cfg/rx_eor u1_rx/dvi_rx0/dec_b/u2_tmds_info_dec/ctl_valid_reg|u1_rx/dvi_rx0/dec_b/u1_raw_rxbit_slip/reg10_b5.d[0]
+u1_rx/u2_cfg/n30 u1_rx/_al_u648|u1_rx/_al_u676.d[0]
+u1_rx/_al_u676_o u1_rx/ux_DIE/ux_Packer/reg3_b41|u1_rx/ux_DIE/ux_Packer/reg3_b40.d[0]
+u1_rx/_al_u678_o u1_rx/u2_cfg/reg4_b6|u1_rx/u2_cfg/reg4_b7.a[0]
+
+Timing path: u1_rx/u2_cfg/step_en_reg|u1_rx/u2_cfg/pll_psstep_2d_reg.clk->u1_rx/u2_cfg/reg4_b6|u1_rx/u2_cfg/reg4_b7
+u1_rx/u2_cfg/step_en_reg|u1_rx/u2_cfg/pll_psstep_2d_reg.clk
+u1_rx/u2_cfg/reg4_b6|u1_rx/u2_cfg/reg4_b7
+2020 5.674000 12.085000 6.411000 4 4
+u1_rx/u2_cfg/step_en u1_rx/dvi_rx0/dec_b/u2_tmds_info_dec/ctl_valid_reg|u1_rx/dvi_rx0/dec_b/u1_raw_rxbit_slip/reg10_b5.c[0]
+u1_rx/u2_cfg/n30 u1_rx/_al_u648|u1_rx/_al_u676.d[0]
+u1_rx/_al_u676_o u1_rx/ux_DIE/ux_Packer/reg3_b41|u1_rx/ux_DIE/ux_Packer/reg3_b40.d[0]
+u1_rx/_al_u678_o u1_rx/u2_cfg/reg4_b6|u1_rx/u2_cfg/reg4_b7.a[0]
+
+Timing path: u1_rx/u2_cfg/reg3_b1|u1_rx/u2_cfg/reg3_b0.clk->u1_rx/u2_cfg/reg4_b6|u1_rx/u2_cfg/reg4_b7
+u1_rx/u2_cfg/reg3_b1|u1_rx/u2_cfg/reg3_b0.clk
+u1_rx/u2_cfg/reg4_b6|u1_rx/u2_cfg/reg4_b7
+2061 6.181000 12.085000 5.904000 3 3
+u1_rx/u2_cfg/state[1] u1_rx/_al_u677|u1_rx/_al_u679.b[1]
+u1_rx/_al_u677_o u1_rx/ux_DIE/ux_Packer/reg3_b41|u1_rx/ux_DIE/ux_Packer/reg3_b40.b[0]
+u1_rx/_al_u678_o u1_rx/u2_cfg/reg4_b6|u1_rx/u2_cfg/reg4_b7.a[0]
+
+
+Endpoint: u1_rx/u2_cfg/reg4_b4|u1_rx/u2_cfg/reg4_b5
+2100 5.276000 21 3
+Timing path: u1_rx/u2_cfg/rx_eor_reg|_al_u149.clk->u1_rx/u2_cfg/reg4_b4|u1_rx/u2_cfg/reg4_b5
+u1_rx/u2_cfg/rx_eor_reg|_al_u149.clk
+u1_rx/u2_cfg/reg4_b4|u1_rx/u2_cfg/reg4_b5
+2102 5.276000 12.085000 6.809000 4 4
+u1_rx/u2_cfg/rx_eor u1_rx/dvi_rx0/dec_b/u2_tmds_info_dec/ctl_valid_reg|u1_rx/dvi_rx0/dec_b/u1_raw_rxbit_slip/reg10_b5.d[0]
+u1_rx/u2_cfg/n30 u1_rx/_al_u648|u1_rx/_al_u676.d[0]
+u1_rx/_al_u676_o u1_rx/ux_DIE/ux_Packer/reg3_b41|u1_rx/ux_DIE/ux_Packer/reg3_b40.d[1]
+u1_rx/_al_u683_o u1_rx/u2_cfg/reg4_b4|u1_rx/u2_cfg/reg4_b5.a[0]
+
+Timing path: u1_rx/u2_cfg/step_en_reg|u1_rx/u2_cfg/pll_psstep_2d_reg.clk->u1_rx/u2_cfg/reg4_b4|u1_rx/u2_cfg/reg4_b5
+u1_rx/u2_cfg/step_en_reg|u1_rx/u2_cfg/pll_psstep_2d_reg.clk
+u1_rx/u2_cfg/reg4_b4|u1_rx/u2_cfg/reg4_b5
+2143 5.690000 12.085000 6.395000 4 4
+u1_rx/u2_cfg/step_en u1_rx/dvi_rx0/dec_b/u2_tmds_info_dec/ctl_valid_reg|u1_rx/dvi_rx0/dec_b/u1_raw_rxbit_slip/reg10_b5.c[0]
+u1_rx/u2_cfg/n30 u1_rx/_al_u648|u1_rx/_al_u676.d[0]
+u1_rx/_al_u676_o u1_rx/ux_DIE/ux_Packer/reg3_b41|u1_rx/ux_DIE/ux_Packer/reg3_b40.d[1]
+u1_rx/_al_u683_o u1_rx/u2_cfg/reg4_b4|u1_rx/u2_cfg/reg4_b5.a[0]
+
+Timing path: u1_rx/u2_cfg/reg3_b1|u1_rx/u2_cfg/reg3_b0.clk->u1_rx/u2_cfg/reg4_b4|u1_rx/u2_cfg/reg4_b5
+u1_rx/u2_cfg/reg3_b1|u1_rx/u2_cfg/reg3_b0.clk
+u1_rx/u2_cfg/reg4_b4|u1_rx/u2_cfg/reg4_b5
+2184 6.197000 12.085000 5.888000 3 3
+u1_rx/u2_cfg/state[1] u1_rx/_al_u677|u1_rx/_al_u679.b[1]
+u1_rx/_al_u677_o u1_rx/ux_DIE/ux_Packer/reg3_b41|u1_rx/ux_DIE/ux_Packer/reg3_b40.b[1]
+u1_rx/_al_u683_o u1_rx/u2_cfg/reg4_b4|u1_rx/u2_cfg/reg4_b5.a[0]
+
+
+
+Hold check
+2223 3
+Endpoint: _al_u160|u1_rx/u2_cfg/reg2_b0
+2225 0.255000 1 1
+Timing path: u1_rx/_al_u873|u1_rx/u2_timging_chk/reg7_b0.clk->_al_u160|u1_rx/u2_cfg/reg2_b0
+u1_rx/_al_u873|u1_rx/u2_timging_chk/reg7_b0.clk
+_al_u160|u1_rx/u2_cfg/reg2_b0
+2227 0.255000 2.484000 2.739000 0 1
+u1_rx/u2_timging_chk/test_flag[0] _al_u160|u1_rx/u2_cfg/reg2_b0.mi[0]
+
+
+Endpoint: u1_rx/u2_cfg/reg7_b4|u1_rx/u2_cfg/reg7_b5
+2260 0.335000 1 1
+Timing path: u1_rx/u2_cfg/reg6_b6|u1_rx/u2_cfg/reg6_b5.clk->u1_rx/u2_cfg/reg7_b4|u1_rx/u2_cfg/reg7_b5
+u1_rx/u2_cfg/reg6_b6|u1_rx/u2_cfg/reg6_b5.clk
+u1_rx/u2_cfg/reg7_b4|u1_rx/u2_cfg/reg7_b5
+2262 0.335000 2.269000 2.604000 0 1
+u1_rx/u2_cfg/setp_cnt[5] u1_rx/u2_cfg/reg7_b4|u1_rx/u2_cfg/reg7_b5.mi[0]
+
+
+Endpoint: u1_rx/u2_cfg/reg0_b7|u1_rx/u2_cfg/reg0_b9
+2297 0.453000 1 1
+Timing path: u1_rx/u2_cfg/reg0_b10|u1_rx/u2_cfg/reg0_b11.clk->u1_rx/u2_cfg/reg0_b7|u1_rx/u2_cfg/reg0_b9
+u1_rx/u2_cfg/reg0_b10|u1_rx/u2_cfg/reg0_b11.clk
+u1_rx/u2_cfg/reg0_b7|u1_rx/u2_cfg/reg0_b9
+2299 0.453000 2.162000 2.615000 0 1
+u1_rx/u2_cfg/pll_lock_dly_cnt[11] u1_rx/u2_cfg/reg0_b7|u1_rx/u2_cfg/reg0_b9.ce
+
+
+
+
+
+Timing group statistics: 
+	Clock constraints: 
+	  Clock Name                                  Min Period     Max Freq           Skew      Fanout            TNS
+	  u1_rx/u1_pll/pll_inst.clkc[0] (100.0MHz)        9.655ns         103MHz        0.211ns       550        0.000ns
+	  u1_rx/u1_pll/pll_inst.clkc[1] (500.0MHz)        2.961ns         337MHz        0.399ns       133       -5.626ns
+	  u1_rx/u1_pll/pll_inst.clkc[2] (100.0MHz)        5.106ns         195MHz        0.211ns        56        0.000ns
+	  SYS_CLK (25.0MHz)                              5.068ns         197MHz        0.211ns        44        0.000ns
+	  u1_rx/u_audio_pll/pll_inst.clkc[1] (12.3MHz)        3.759ns         266MHz        0.128ns        12        0.000ns
+	Minimum input arrival time before clock: no constraint path
+	Maximum output required time after clock: no constraint path
+	Maximum combinational path delay: no constraint path
+Warning: No clock constraint on 1 clock net(s): 
+	u1_rx/iis_sclk_pad
+

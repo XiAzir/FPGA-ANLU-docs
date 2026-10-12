@@ -1,0 +1,22 @@
+##rx
+set_pin_assignment	{ HDMI_CLK_P }	{ LOCATION = H26; IOSTANDARD = LVDS25;  }
+set_pin_assignment	{ HDMI_D0_P }	{ LOCATION = J25; IOSTANDARD = LVDS25;  }
+set_pin_assignment	{ HDMI_D1_P }	{ LOCATION = G25; IOSTANDARD = LVDS25;  }
+set_pin_assignment	{ HDMI_D2_P }	{ LOCATION = E26; IOSTANDARD = LVDS25;  }
+
+
+
+##loop rx
+set_pin_assignment	{ HDMI_CLK_P }	{ LOCATION = J6; IOSTANDARD = LVDS25;  }
+set_pin_assignment	{ HDMI_D0_P }	{ LOCATION = D3; IOSTANDARD = LVDS25;  }
+set_pin_assignment	{ HDMI_D1_P }	{ LOCATION = K7; IOSTANDARD = LVDS25;  }
+set_pin_assignment	{ HDMI_D2_P }	{ LOCATION = E1; IOSTANDARD = LVDS25;  }
+##loop tx
+##USER2_IO9P~12,tx: clk,d0,d1,d2
+##USER2_IO13P~16,tx: clk,d0,d1,d2
+set_pin_assignment	{ FPGA_SYS_25M_CLK }	{ LOCATION = D19; }
+set_pin_assignment	{ HDMI_TX_CLK_P }	{ LOCATION = J4; IOSTANDARD = LVDS25;  }
+set_pin_assignment	{ HDMI_TX_D0_P }	{ LOCATION = B4;IOSTANDARD = LVDS25;  }
+set_pin_assignment	{ HDMI_TX_D1_P }	{ LOCATION = H9; IOSTANDARD = LVDS25;  }
+set_pin_assignment	{ HDMI_TX_D2_P }	{ LOCATION = C1; IOSTANDARD = LVDS25;  }
+set_pin_assignment	{ LED }	{ LOCATION = A20; }

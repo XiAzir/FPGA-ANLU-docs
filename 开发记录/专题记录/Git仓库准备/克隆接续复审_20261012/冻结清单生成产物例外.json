@@ -1,0 +1,2391 @@
+{
+  "purpose": "Exact ignored .db/.vvp files referenced by file inventory manifests; use repoRelativePath for explicit ignore exceptions.",
+  "manifestCountWithIgnoredArtifacts": 18,
+  "manifestReferenceCount": 179,
+  "uniqueFileCount": 178,
+  "files": [
+    {
+      "repoRelativePath": "development/player_480p/checkpoints/compact_data_d1_verified/AC201_tf_hdmi_pr.db",
+      "bytes": 5925660,
+      "sha256": "4BB0C55E2B41F991FB1265DBF915E5FAC9FC13C610114504EA2F438C6BB077FB",
+      "sources": [
+        {
+          "manifest": "development/player_480p/checkpoints/compact_data_d1_verified/manifest.json",
+          "manifestEntryPathField": "Path",
+          "manifestEntryBytesField": "Bytes",
+          "manifestEntrySha256Field": "SHA256"
+        }
+      ]
+    },
+    {
+      "repoRelativePath": "development/player_dynamic_text/checkpoints/dynamic_text_20261009_candidate/build/dynamic_sim/tb_dynamic_text_pixels.vvp",
+      "bytes": 193570,
+      "sha256": "70FB27C9AB21350CA05F6334BE67A33FE3EA9EEA6B8ED564609B10F930BC7AB7",
+      "sources": [
+        {
+          "manifest": "development/player_dynamic_text/checkpoints/dynamic_text_20261009_candidate/manifest.json",
+          "manifestEntryPathField": "path",
+          "manifestEntryBytesField": "bytes",
+          "manifestEntrySha256Field": "sha256"
+        }
+      ]
+    },
+    {
+      "repoRelativePath": "development/player_dynamic_text/checkpoints/dynamic_text_20261009_candidate/build/dynamic_sim/tb_dynamic_text_timer.vvp",
+      "bytes": 84560,
+      "sha256": "7DAF1F4C8A146E9FB91FDA0529D8013478DECFA415A3205C3538BF9A5D118D78",
+      "sources": [
+        {
+          "manifest": "development/player_dynamic_text/checkpoints/dynamic_text_20261009_candidate/manifest.json",
+          "manifestEntryPathField": "path",
+          "manifestEntryBytesField": "bytes",
+          "manifestEntrySha256Field": "sha256"
+        }
+      ]
+    },
+    {
+      "repoRelativePath": "development/player_dynamic_text/checkpoints/dynamic_text_20261009_candidate/build/manual/AC201_tf_hdmi_elaborate.db",
+      "bytes": 6796166,
+      "sha256": "AB4E010CF31777E910068CFC3FB54F3739A5098789191092DB5225ABF421BD56",
+      "sources": [
+        {
+          "manifest": "development/player_dynamic_text/checkpoints/dynamic_text_20261009_candidate/manifest.json",
+          "manifestEntryPathField": "path",
+          "manifestEntryBytesField": "bytes",
+          "manifestEntrySha256Field": "sha256"
+        }
+      ]
+    },
+    {
+      "repoRelativePath": "development/player_dynamic_text/checkpoints/dynamic_text_20261009_candidate/build/manual/AC201_tf_hdmi_gate.db",
+      "bytes": 6617264,
+      "sha256": "BE693ED0EBD8BD6175195309149A04DEC03025CDC7B090BF02035A903E0DFF7C",
+      "sources": [
+        {
+          "manifest": "development/player_dynamic_text/checkpoints/dynamic_text_20261009_candidate/manifest.json",
+          "manifestEntryPathField": "path",
+          "manifestEntryBytesField": "bytes",
+          "manifestEntrySha256Field": "sha256"
+        }
+      ]
+    },
+    {
+      "repoRelativePath": "development/player_dynamic_text/checkpoints/dynamic_text_20261009_candidate/build/manual/AC201_tf_hdmi_place.db",
+      "bytes": 8821788,
+      "sha256": "1AE53D7ADBF79E1084B32CFA430E49F7DBFCC18DFB2A399D5377411A2F319AD3",
+      "sources": [
+        {
+          "manifest": "development/player_dynamic_text/checkpoints/dynamic_text_20261009_candidate/manifest.json",
+          "manifestEntryPathField": "path",
+          "manifestEntryBytesField": "bytes",
+          "manifestEntrySha256Field": "sha256"
+        }
+      ]
+    },
+    {
+      "repoRelativePath": "development/player_dynamic_text/checkpoints/dynamic_text_20261009_candidate/build/manual/AC201_tf_hdmi_pr.db",
+      "bytes": 11564614,
+      "sha256": "F04EAE94E339AA152E56C9ECD3411B70E7D4AB0C1A12D04DC6E34FDD37920534",
+      "sources": [
+        {
+          "manifest": "development/player_dynamic_text/checkpoints/dynamic_text_20261009_candidate/manifest.json",
+          "manifestEntryPathField": "path",
+          "manifestEntryBytesField": "bytes",
+          "manifestEntrySha256Field": "sha256"
+        }
+      ]
+    },
+    {
+      "repoRelativePath": "development/player_dynamic_text/checkpoints/dynamic_text_20261009_candidate/build/manual/AC201_tf_hdmi_rtl.db",
+      "bytes": 5584276,
+      "sha256": "1B82C4039F856F3FF3F1B756D51ECD1EF3E410BEAEAA93F95547514475D6FBAC",
+      "sources": [
+        {
+          "manifest": "development/player_dynamic_text/checkpoints/dynamic_text_20261009_candidate/manifest.json",
+          "manifestEntryPathField": "path",
+          "manifestEntryBytesField": "bytes",
+          "manifestEntrySha256Field": "sha256"
+        }
+      ]
+    },
+    {
+      "repoRelativePath": "development/player_dynamic_text/checkpoints/dynamic_text_20261009_candidate/build/osd_sim/model.vvp",
+      "bytes": 95160,
+      "sha256": "2100C28F30C68F1547C1B91136601BEF059073774A4C2EDBD28B48D921147565",
+      "sources": [
+        {
+          "manifest": "development/player_dynamic_text/checkpoints/dynamic_text_20261009_candidate/manifest.json",
+          "manifestEntryPathField": "path",
+          "manifestEntryBytesField": "bytes",
+          "manifestEntrySha256Field": "sha256"
+        }
+      ]
+    },
+    {
+      "repoRelativePath": "development/player_dynamic_text/checkpoints/dynamic_text_20261009_candidate/build/prehold/AC201_tf_hdmi_pr.db",
+      "bytes": 11563064,
+      "sha256": "8658394FFA3EB1E84540C3D0DABBF00B928D1475B8FBE88DE42CB430C803EEC4",
+      "sources": [
+        {
+          "manifest": "development/player_dynamic_text/checkpoints/dynamic_text_20261009_candidate/manifest.json",
+          "manifestEntryPathField": "path",
+          "manifestEntryBytesField": "bytes",
+          "manifestEntrySha256Field": "sha256"
+        }
+      ]
+    },
+    {
+      "repoRelativePath": "development/player_dynamic_text/checkpoints/dynamic_text_20261009_candidate/build/state_sim/model.vvp",
+      "bytes": 24347,
+      "sha256": "4543A0CE6C19DA1FC3840382AB5A05279C8BEBDAAE9AB19A567D04EECAD0FF0E",
+      "sources": [
+        {
+          "manifest": "development/player_dynamic_text/checkpoints/dynamic_text_20261009_candidate/manifest.json",
+          "manifestEntryPathField": "path",
+          "manifestEntryBytesField": "bytes",
+          "manifestEntrySha256Field": "sha256"
+        }
+      ]
+    },
+    {
+      "repoRelativePath": "development/player_dynamic_text_audio_packet_probe/checkpoints/audio_packet_probe_20261011_candidate/build/manual/AC201_tf_hdmi_elaborate.db",
+      "bytes": 6745512,
+      "sha256": "57885F841DE296D10E5BD881066364C26BC1857F184F066198FD2383FB49B341",
+      "sources": [
+        {
+          "manifest": "development/player_dynamic_text_audio_packet_probe/checkpoints/audio_packet_probe_20261011_candidate/manifest.json",
+          "manifestEntryPathField": "path",
+          "manifestEntryBytesField": "bytes",
+          "manifestEntrySha256Field": "sha256"
+        }
+      ]
+    },
+    {
+      "repoRelativePath": "development/player_dynamic_text_audio_packet_probe/checkpoints/audio_packet_probe_20261011_candidate/build/manual/AC201_tf_hdmi_gate.db",
+      "bytes": 6574662,
+      "sha256": "0CE6C28BABF2B0D1E4382E35E08EAD04FA1C7283016C21D9D5BBCD8689EA19C0",
+      "sources": [
+        {
+          "manifest": "development/player_dynamic_text_audio_packet_probe/checkpoints/audio_packet_probe_20261011_candidate/manifest.json",
+          "manifestEntryPathField": "path",
+          "manifestEntryBytesField": "bytes",
+          "manifestEntrySha256Field": "sha256"
+        }
+      ]
+    },
+    {
+      "repoRelativePath": "development/player_dynamic_text_audio_packet_probe/checkpoints/audio_packet_probe_20261011_candidate/build/manual/AC201_tf_hdmi_place.db",
+      "bytes": 8797864,
+      "sha256": "0398733D65A5DD70CB9C80D496AD336A38C7D8FBB56F6BEDF223C1F33252A046",
+      "sources": [
+        {
+          "manifest": "development/player_dynamic_text_audio_packet_probe/checkpoints/audio_packet_probe_20261011_candidate/manifest.json",
+          "manifestEntryPathField": "path",
+          "manifestEntryBytesField": "bytes",
+          "manifestEntrySha256Field": "sha256"
+        }
+      ]
+    },
+    {
+      "repoRelativePath": "development/player_dynamic_text_audio_packet_probe/checkpoints/audio_packet_probe_20261011_candidate/build/manual/AC201_tf_hdmi_pr.db",
+      "bytes": 11561340,
+      "sha256": "230C9B41D6FDF79B554B1E503F94942394412C1A2BD00C07505636A06D202670",
+      "sources": [
+        {
+          "manifest": "development/player_dynamic_text_audio_packet_probe/checkpoints/audio_packet_probe_20261011_candidate/manifest.json",
+          "manifestEntryPathField": "path",
+          "manifestEntryBytesField": "bytes",
+          "manifestEntrySha256Field": "sha256"
+        }
+      ]
+    },
+    {
+      "repoRelativePath": "development/player_dynamic_text_audio_packet_probe/checkpoints/audio_packet_probe_20261011_candidate/build/manual/AC201_tf_hdmi_rtl.db",
+      "bytes": 5547122,
+      "sha256": "74397A55E0EFAC6162BD68AC2009B546A52EF0086CA41D4810E2B01E72BA3E68",
+      "sources": [
+        {
+          "manifest": "development/player_dynamic_text_audio_packet_probe/checkpoints/audio_packet_probe_20261011_candidate/manifest.json",
+          "manifestEntryPathField": "path",
+          "manifestEntryBytesField": "bytes",
+          "manifestEntrySha256Field": "sha256"
+        }
+      ]
+    },
+    {
+      "repoRelativePath": "development/player_dynamic_text_audio_packet_probe/checkpoints/audio_packet_probe_20261011_candidate/build/model/packet_monitor.vvp",
+      "bytes": 194136,
+      "sha256": "87BE5D869C34999218075C8470A1BDABD4AF51C2A130E62710674F1C82F19203",
+      "sources": [
+        {
+          "manifest": "development/player_dynamic_text_audio_packet_probe/checkpoints/audio_packet_probe_20261011_candidate/manifest.json",
+          "manifestEntryPathField": "path",
+          "manifestEntryBytesField": "bytes",
+          "manifestEntrySha256Field": "sha256"
+        }
+      ]
+    },
+    {
+      "repoRelativePath": "development/player_dynamic_text_audio_packet_probe/checkpoints/audio_packet_probe_20261011_candidate/build/model/status_pages.vvp",
+      "bytes": 27804,
+      "sha256": "195F553D06D454182D775519CF5788B92EE2362AE800D915ADC0D5772B8B7E59",
+      "sources": [
+        {
+          "manifest": "development/player_dynamic_text_audio_packet_probe/checkpoints/audio_packet_probe_20261011_candidate/manifest.json",
+          "manifestEntryPathField": "path",
+          "manifestEntryBytesField": "bytes",
+          "manifestEntrySha256Field": "sha256"
+        }
+      ]
+    },
+    {
+      "repoRelativePath": "development/player_dynamic_text_axis_probe/checkpoints/axis_probe_20261009_candidate/build/axis_probe_model/axis_probe.vvp",
+      "bytes": 161567,
+      "sha256": "9917CA3ACCC53D46593F5687E94D31FDD29CD0A8BAB80A3ABF2D9625016889AC",
+      "sources": [
+        {
+          "manifest": "development/player_dynamic_text_axis_probe/checkpoints/axis_probe_20261009_candidate/manifest.json",
+          "manifestEntryPathField": "path",
+          "manifestEntryBytesField": "bytes",
+          "manifestEntrySha256Field": "sha256"
+        }
+      ]
+    },
+    {
+      "repoRelativePath": "development/player_dynamic_text_axis_probe/checkpoints/axis_probe_20261009_candidate/build/manual/AC201_tf_hdmi_pr.db",
+      "bytes": 11471338,
+      "sha256": "2CF6E165EA45FBF4C4EF9066A9A4DF19BA6C558C569CC9E0EF397A8A90D4F233",
+      "sources": [
+        {
+          "manifest": "development/player_dynamic_text_axis_probe/checkpoints/axis_probe_20261009_candidate/manifest.json",
+          "manifestEntryPathField": "path",
+          "manifestEntryBytesField": "bytes",
+          "manifestEntrySha256Field": "sha256"
+        }
+      ]
+    },
+    {
+      "repoRelativePath": "development/player_dynamic_text_axis_probe/checkpoints/axis_probe_20261009_candidate/build/prehold/AC201_tf_hdmi_pr.db",
+      "bytes": 11470164,
+      "sha256": "D0FEB9C1E8940CA8D4E3BAF349B4D64B5EAA0586884BF40D18F44212904B295C",
+      "sources": [
+        {
+          "manifest": "development/player_dynamic_text_axis_probe/checkpoints/axis_probe_20261009_candidate/build/prehold/manifest.json",
+          "manifestEntryPathField": "name",
+          "manifestEntryBytesField": "length",
+          "manifestEntrySha256Field": "sha256"
+        },
+        {
+          "manifest": "development/player_dynamic_text_axis_probe/checkpoints/axis_probe_20261009_candidate/manifest.json",
+          "manifestEntryPathField": "path",
+          "manifestEntryBytesField": "bytes",
+          "manifestEntrySha256Field": "sha256"
+        }
+      ]
+    },
+    {
+      "repoRelativePath": "development/player_dynamic_text_axis_probe/checkpoints/axis_probe_20261009_candidate/build/status_axis_model/status_axis.vvp",
+      "bytes": 45032,
+      "sha256": "797E5FEB60375F023276CE019020A49AE1A9D6B8656D5E32BF7F40717C2C7291",
+      "sources": [
+        {
+          "manifest": "development/player_dynamic_text_axis_probe/checkpoints/axis_probe_20261009_candidate/manifest.json",
+          "manifestEntryPathField": "path",
+          "manifestEntryBytesField": "bytes",
+          "manifestEntrySha256Field": "sha256"
+        }
+      ]
+    },
+    {
+      "repoRelativePath": "development/player_dynamic_text_bit17_led_probe/checkpoints/bit17_led_probe_20261011_candidate/build/manual/AC201_tf_hdmi_elaborate.db",
+      "bytes": 6524078,
+      "sha256": "EBF8122B5D424AF1B3596EDA9350DD0538560E5ACD38549ADAFEB653AEDEC1D8",
+      "sources": [
+        {
+          "manifest": "development/player_dynamic_text_bit17_led_probe/checkpoints/bit17_led_probe_20261011_candidate/manifest.json",
+          "manifestEntryPathField": "path",
+          "manifestEntryBytesField": "bytes",
+          "manifestEntrySha256Field": "sha256"
+        }
+      ]
+    },
+    {
+      "repoRelativePath": "development/player_dynamic_text_bit17_led_probe/checkpoints/bit17_led_probe_20261011_candidate/build/manual/AC201_tf_hdmi_gate.db",
+      "bytes": 6361658,
+      "sha256": "964CC21857A0FB8E7C67C63543689CA52873153EBFFB76E3F77758D4C87B585F",
+      "sources": [
+        {
+          "manifest": "development/player_dynamic_text_bit17_led_probe/checkpoints/bit17_led_probe_20261011_candidate/manifest.json",
+          "manifestEntryPathField": "path",
+          "manifestEntryBytesField": "bytes",
+          "manifestEntrySha256Field": "sha256"
+        }
+      ]
+    },
+    {
+      "repoRelativePath": "development/player_dynamic_text_bit17_led_probe/checkpoints/bit17_led_probe_20261011_candidate/build/manual/AC201_tf_hdmi_place.db",
+      "bytes": 8454092,
+      "sha256": "0C626633636F42296EB514E6EC33B234ABF71F02936D8FC05E4B2CDAF220956A",
+      "sources": [
+        {
+          "manifest": "development/player_dynamic_text_bit17_led_probe/checkpoints/bit17_led_probe_20261011_candidate/manifest.json",
+          "manifestEntryPathField": "path",
+          "manifestEntryBytesField": "bytes",
+          "manifestEntrySha256Field": "sha256"
+        }
+      ]
+    },
+    {
+      "repoRelativePath": "development/player_dynamic_text_bit17_led_probe/checkpoints/bit17_led_probe_20261011_candidate/build/manual/AC201_tf_hdmi_pr.db",
+      "bytes": 10986740,
+      "sha256": "779EE410CC11B2DFF1E6AAD1DDF399FD517C704A28B1258FC6E14D0ABCFAAE2D",
+      "sources": [
+        {
+          "manifest": "development/player_dynamic_text_bit17_led_probe/checkpoints/bit17_led_probe_20261011_candidate/manifest.json",
+          "manifestEntryPathField": "path",
+          "manifestEntryBytesField": "bytes",
+          "manifestEntrySha256Field": "sha256"
+        }
+      ]
+    },
+    {
+      "repoRelativePath": "development/player_dynamic_text_bit17_led_probe/checkpoints/bit17_led_probe_20261011_candidate/build/manual/AC201_tf_hdmi_rtl.db",
+      "bytes": 5355992,
+      "sha256": "EBD0264F15655B045F21080088DF6EC9CD7BB7A1F57AEEDB2F51FAED4CF61814",
+      "sources": [
+        {
+          "manifest": "development/player_dynamic_text_bit17_led_probe/checkpoints/bit17_led_probe_20261011_candidate/manifest.json",
+          "manifestEntryPathField": "path",
+          "manifestEntryBytesField": "bytes",
+          "manifestEntrySha256Field": "sha256"
+        }
+      ]
+    },
+    {
+      "repoRelativePath": "development/player_dynamic_text_bit17_led_probe/checkpoints/bit17_led_probe_20261011_candidate/build/model/player_bit17_led_probe.vvp",
+      "bytes": 27026,
+      "sha256": "C212E3B047F9379423755E30393470C4E148018032ACADEBC051BA07924D80EC",
+      "sources": [
+        {
+          "manifest": "development/player_dynamic_text_bit17_led_probe/checkpoints/bit17_led_probe_20261011_candidate/manifest.json",
+          "manifestEntryPathField": "path",
+          "manifestEntryBytesField": "bytes",
+          "manifestEntrySha256Field": "sha256"
+        }
+      ]
+    },
+    {
+      "repoRelativePath": "development/player_dynamic_text_cadence_probe/checkpoints/cadence_probe_20261010_candidate/build/cadence_model/cadence.vvp",
+      "bytes": 99077,
+      "sha256": "70985A077B1A6E892B2D68D53C13ED2485BC488D183BF17744E325CF3202FBBA",
+      "sources": [
+        {
+          "manifest": "development/player_dynamic_text_cadence_probe/checkpoints/cadence_probe_20261010_candidate/manifest.json",
+          "manifestEntryPathField": "path",
+          "manifestEntryBytesField": "bytes",
+          "manifestEntrySha256Field": "sha256"
+        }
+      ]
+    },
+    {
+      "repoRelativePath": "development/player_dynamic_text_cadence_probe/checkpoints/cadence_probe_20261010_candidate/build/manual/AC201_tf_hdmi_elaborate.db",
+      "bytes": 6597742,
+      "sha256": "8ABAD3786D34A0CA7B122120063631C8DB23699CFABB935A77506A8989075F92",
+      "sources": [
+        {
+          "manifest": "development/player_dynamic_text_cadence_probe/checkpoints/cadence_probe_20261010_candidate/manifest.json",
+          "manifestEntryPathField": "path",
+          "manifestEntryBytesField": "bytes",
+          "manifestEntrySha256Field": "sha256"
+        }
+      ]
+    },
+    {
+      "repoRelativePath": "development/player_dynamic_text_cadence_probe/checkpoints/cadence_probe_20261010_candidate/build/manual/AC201_tf_hdmi_gate.db",
+      "bytes": 6489702,
+      "sha256": "C3B0E91030539B6B453C93CF85585C12D8373B4364FD51FAC856CEC28A16108C",
+      "sources": [
+        {
+          "manifest": "development/player_dynamic_text_cadence_probe/checkpoints/cadence_probe_20261010_candidate/manifest.json",
+          "manifestEntryPathField": "path",
+          "manifestEntryBytesField": "bytes",
+          "manifestEntrySha256Field": "sha256"
+        }
+      ]
+    },
+    {
+      "repoRelativePath": "development/player_dynamic_text_cadence_probe/checkpoints/cadence_probe_20261010_candidate/build/manual/AC201_tf_hdmi_place.db",
+      "bytes": 8687692,
+      "sha256": "1B3FC4098115108CA2426D2EEBA7EBA55DBD3F2F10A97375AC7D61091EFB4C4D",
+      "sources": [
+        {
+          "manifest": "development/player_dynamic_text_cadence_probe/checkpoints/cadence_probe_20261010_candidate/manifest.json",
+          "manifestEntryPathField": "path",
+          "manifestEntryBytesField": "bytes",
+          "manifestEntrySha256Field": "sha256"
+        }
+      ]
+    },
+    {
+      "repoRelativePath": "development/player_dynamic_text_cadence_probe/checkpoints/cadence_probe_20261010_candidate/build/manual/AC201_tf_hdmi_pr.db",
+      "bytes": 11398802,
+      "sha256": "0CAAAA5CEF0893200D102DED9D6558FE80B0995A18C61A896EF7F21D788C144B",
+      "sources": [
+        {
+          "manifest": "development/player_dynamic_text_cadence_probe/checkpoints/cadence_probe_20261010_candidate/manifest.json",
+          "manifestEntryPathField": "path",
+          "manifestEntryBytesField": "bytes",
+          "manifestEntrySha256Field": "sha256"
+        }
+      ]
+    },
+    {
+      "repoRelativePath": "development/player_dynamic_text_cadence_probe/checkpoints/cadence_probe_20261010_candidate/build/manual/AC201_tf_hdmi_rtl.db",
+      "bytes": 5436206,
+      "sha256": "986427AB6D99CF032FD264CA0DF13379B43F908238F82AC2261D56BC4E7D6A8A",
+      "sources": [
+        {
+          "manifest": "development/player_dynamic_text_cadence_probe/checkpoints/cadence_probe_20261010_candidate/manifest.json",
+          "manifestEntryPathField": "path",
+          "manifestEntryBytesField": "bytes",
+          "manifestEntrySha256Field": "sha256"
+        }
+      ]
+    },
+    {
+      "repoRelativePath": "development/player_dynamic_text_cadence_probe/checkpoints/cadence_probe_20261010_candidate/build/prehold/AC201_tf_hdmi_pr.db",
+      "bytes": 11396268,
+      "sha256": "831C33C824790F18474106ED4DAB35F29AE3D24565DDD2FF9F609F8718C926B3",
+      "sources": [
+        {
+          "manifest": "development/player_dynamic_text_cadence_probe/checkpoints/cadence_probe_20261010_candidate/manifest.json",
+          "manifestEntryPathField": "path",
+          "manifestEntryBytesField": "bytes",
+          "manifestEntrySha256Field": "sha256"
+        }
+      ]
+    },
+    {
+      "repoRelativePath": "development/player_dynamic_text_cadence_probe/checkpoints/cadence_probe_20261010_candidate/build/status_integration_model/integration.vvp",
+      "bytes": 79970,
+      "sha256": "7435A054EB08FC4719BC8B03E4A8607E7B6F9E2EDB30FB582C5964AAF1299476",
+      "sources": [
+        {
+          "manifest": "development/player_dynamic_text_cadence_probe/checkpoints/cadence_probe_20261010_candidate/manifest.json",
+          "manifestEntryPathField": "path",
+          "manifestEntryBytesField": "bytes",
+          "manifestEntrySha256Field": "sha256"
+        }
+      ]
+    },
+    {
+      "repoRelativePath": "development/player_dynamic_text_fit/checkpoints/dynamic_text_fit_20261009_candidate/build/axis_readonly_audit/tb_axis_readonly_audit.vvp",
+      "bytes": 34876,
+      "sha256": "C38C79DF7702EC5E53403D3D5281D774D5971DF1290ABC98AF2EB104EDF8DCF7",
+      "sources": [
+        {
+          "manifest": "development/player_dynamic_text_fit/checkpoints/dynamic_text_fit_20261009_candidate/manifest.json",
+          "manifestEntryPathField": "path",
+          "manifestEntryBytesField": "bytes",
+          "manifestEntrySha256Field": "sha256"
+        }
+      ]
+    },
+    {
+      "repoRelativePath": "development/player_dynamic_text_fit/checkpoints/dynamic_text_fit_20261009_candidate/build/manual/AC201_tf_hdmi_elaborate.db",
+      "bytes": 6743054,
+      "sha256": "4AA296564D98A828EFFCBC2A35DB53836AD840B953FE6DD9D66C9DD1C6106EE4",
+      "sources": [
+        {
+          "manifest": "development/player_dynamic_text_fit/checkpoints/dynamic_text_fit_20261009_candidate/manifest.json",
+          "manifestEntryPathField": "path",
+          "manifestEntryBytesField": "bytes",
+          "manifestEntrySha256Field": "sha256"
+        }
+      ]
+    },
+    {
+      "repoRelativePath": "development/player_dynamic_text_fit/checkpoints/dynamic_text_fit_20261009_candidate/build/manual/AC201_tf_hdmi_gate.db",
+      "bytes": 6574424,
+      "sha256": "1E2480EC4701ADADB3CC5F3DA51C87239862EC9719BCCCEE7ADD65E60C913BC6",
+      "sources": [
+        {
+          "manifest": "development/player_dynamic_text_fit/checkpoints/dynamic_text_fit_20261009_candidate/manifest.json",
+          "manifestEntryPathField": "path",
+          "manifestEntryBytesField": "bytes",
+          "manifestEntrySha256Field": "sha256"
+        }
+      ]
+    },
+    {
+      "repoRelativePath": "development/player_dynamic_text_fit/checkpoints/dynamic_text_fit_20261009_candidate/build/manual/AC201_tf_hdmi_place.db",
+      "bytes": 8773188,
+      "sha256": "C5791F2E1E444A7E7E12CB398D43E5A4F5732B0741246EF0C668981130DB4AE1",
+      "sources": [
+        {
+          "manifest": "development/player_dynamic_text_fit/checkpoints/dynamic_text_fit_20261009_candidate/manifest.json",
+          "manifestEntryPathField": "path",
+          "manifestEntryBytesField": "bytes",
+          "manifestEntrySha256Field": "sha256"
+        }
+      ]
+    },
+    {
+      "repoRelativePath": "development/player_dynamic_text_fit/checkpoints/dynamic_text_fit_20261009_candidate/build/manual/AC201_tf_hdmi_pr.db",
+      "bytes": 11499148,
+      "sha256": "CA1626334A2E844F4E3EE3B444A9795A7DC443A673585B278EA1F3E520A25581",
+      "sources": [
+        {
+          "manifest": "development/player_dynamic_text_fit/checkpoints/dynamic_text_fit_20261009_candidate/manifest.json",
+          "manifestEntryPathField": "path",
+          "manifestEntryBytesField": "bytes",
+          "manifestEntrySha256Field": "sha256"
+        }
+      ]
+    },
+    {
+      "repoRelativePath": "development/player_dynamic_text_fit/checkpoints/dynamic_text_fit_20261009_candidate/build/manual/AC201_tf_hdmi_rtl.db",
+      "bytes": 5540524,
+      "sha256": "2A5EF09EAC4D86CC4B51AD6180DD858D866A995DE6AE17B1F49C5431BB9F29C1",
+      "sources": [
+        {
+          "manifest": "development/player_dynamic_text_fit/checkpoints/dynamic_text_fit_20261009_candidate/manifest.json",
+          "manifestEntryPathField": "path",
+          "manifestEntryBytesField": "bytes",
+          "manifestEntrySha256Field": "sha256"
+        }
+      ]
+    },
+    {
+      "repoRelativePath": "development/player_dynamic_text_fit/checkpoints/dynamic_text_fit_20261009_candidate/build/prehold/AC201_tf_hdmi_pr.db",
+      "bytes": 11498016,
+      "sha256": "14F594EA9B4778A48D94435D1C686AD1998AA292BA703D14C857B8507F878B2E",
+      "sources": [
+        {
+          "manifest": "development/player_dynamic_text_fit/checkpoints/dynamic_text_fit_20261009_candidate/manifest.json",
+          "manifestEntryPathField": "path",
+          "manifestEntryBytesField": "bytes",
+          "manifestEntrySha256Field": "sha256"
+        }
+      ]
+    },
+    {
+      "repoRelativePath": "development/player_dynamic_text_video_probe/checkpoints/dynamic_text_video_probe_20261009_candidate/build/initial_project_normalization/AC201_tf_hdmi_elaborate.db",
+      "bytes": 6748700,
+      "sha256": "B5D03A85B34DD1129DF0738289491BB5D7D5A5711149B13650F5EB1F94C2C2F4",
+      "sources": [
+        {
+          "manifest": "development/player_dynamic_text_video_probe/checkpoints/dynamic_text_video_probe_20261009_candidate/manifest.json",
+          "manifestEntryPathField": "path",
+          "manifestEntryBytesField": "bytes",
+          "manifestEntrySha256Field": "sha256"
+        }
+      ]
+    },
+    {
+      "repoRelativePath": "development/player_dynamic_text_video_probe/checkpoints/dynamic_text_video_probe_20261009_candidate/build/initial_project_normalization/AC201_tf_hdmi_gate.db",
+      "bytes": 6567878,
+      "sha256": "5BE25FDEF054FA36C4943587E1CCC862C0B50A504BB33AB2CE1286A26897B230",
+      "sources": [
+        {
+          "manifest": "development/player_dynamic_text_video_probe/checkpoints/dynamic_text_video_probe_20261009_candidate/manifest.json",
+          "manifestEntryPathField": "path",
+          "manifestEntryBytesField": "bytes",
+          "manifestEntrySha256Field": "sha256"
+        }
+      ]
+    },
+    {
+      "repoRelativePath": "development/player_dynamic_text_video_probe/checkpoints/dynamic_text_video_probe_20261009_candidate/build/initial_project_normalization/AC201_tf_hdmi_rtl.db",
+      "bytes": 5545044,
+      "sha256": "FCF477221B87B263C4D8E6235F526D547C43C2E26EF7CBAE3877EF89050B9056",
+      "sources": [
+        {
+          "manifest": "development/player_dynamic_text_video_probe/checkpoints/dynamic_text_video_probe_20261009_candidate/manifest.json",
+          "manifestEntryPathField": "path",
+          "manifestEntryBytesField": "bytes",
+          "manifestEntrySha256Field": "sha256"
+        }
+      ]
+    },
+    {
+      "repoRelativePath": "development/player_dynamic_text_video_probe/checkpoints/dynamic_text_video_probe_20261009_candidate/build/manual/AC201_tf_hdmi_elaborate.db",
+      "bytes": 6748700,
+      "sha256": "B5D03A85B34DD1129DF0738289491BB5D7D5A5711149B13650F5EB1F94C2C2F4",
+      "sources": [
+        {
+          "manifest": "development/player_dynamic_text_video_probe/checkpoints/dynamic_text_video_probe_20261009_candidate/manifest.json",
+          "manifestEntryPathField": "path",
+          "manifestEntryBytesField": "bytes",
+          "manifestEntrySha256Field": "sha256"
+        }
+      ]
+    },
+    {
+      "repoRelativePath": "development/player_dynamic_text_video_probe/checkpoints/dynamic_text_video_probe_20261009_candidate/build/manual/AC201_tf_hdmi_gate.db",
+      "bytes": 6567878,
+      "sha256": "5BE25FDEF054FA36C4943587E1CCC862C0B50A504BB33AB2CE1286A26897B230",
+      "sources": [
+        {
+          "manifest": "development/player_dynamic_text_video_probe/checkpoints/dynamic_text_video_probe_20261009_candidate/manifest.json",
+          "manifestEntryPathField": "path",
+          "manifestEntryBytesField": "bytes",
+          "manifestEntrySha256Field": "sha256"
+        }
+      ]
+    },
+    {
+      "repoRelativePath": "development/player_dynamic_text_video_probe/checkpoints/dynamic_text_video_probe_20261009_candidate/build/manual/AC201_tf_hdmi_place.db",
+      "bytes": 8769638,
+      "sha256": "3060C4BC4212A1F1F52577E45F500DFC8C23182237D2E47AA5F9BE7322410903",
+      "sources": [
+        {
+          "manifest": "development/player_dynamic_text_video_probe/checkpoints/dynamic_text_video_probe_20261009_candidate/manifest.json",
+          "manifestEntryPathField": "path",
+          "manifestEntryBytesField": "bytes",
+          "manifestEntrySha256Field": "sha256"
+        }
+      ]
+    },
+    {
+      "repoRelativePath": "development/player_dynamic_text_video_probe/checkpoints/dynamic_text_video_probe_20261009_candidate/build/manual/AC201_tf_hdmi_pr.db",
+      "bytes": 11482546,
+      "sha256": "00EBA80D4149E4445F9BFA156DA225D9E3D954AF643614AD27C81FFF7C9DA404",
+      "sources": [
+        {
+          "manifest": "development/player_dynamic_text_video_probe/checkpoints/dynamic_text_video_probe_20261009_candidate/manifest.json",
+          "manifestEntryPathField": "path",
+          "manifestEntryBytesField": "bytes",
+          "manifestEntrySha256Field": "sha256"
+        }
+      ]
+    },
+    {
+      "repoRelativePath": "development/player_dynamic_text_video_probe/checkpoints/dynamic_text_video_probe_20261009_candidate/build/manual/AC201_tf_hdmi_rtl.db",
+      "bytes": 5545044,
+      "sha256": "FCF477221B87B263C4D8E6235F526D547C43C2E26EF7CBAE3877EF89050B9056",
+      "sources": [
+        {
+          "manifest": "development/player_dynamic_text_video_probe/checkpoints/dynamic_text_video_probe_20261009_candidate/manifest.json",
+          "manifestEntryPathField": "path",
+          "manifestEntryBytesField": "bytes",
+          "manifestEntrySha256Field": "sha256"
+        }
+      ]
+    },
+    {
+      "repoRelativePath": "development/player_dynamic_text_video_probe/checkpoints/dynamic_text_video_probe_20261009_candidate/build/prehold/AC201_tf_hdmi_pr.db",
+      "bytes": 11481396,
+      "sha256": "22AD812AFAA3300C0B07867744B9CCC92E5A6EF1FB4BB64E0EB231119CE1EF16",
+      "sources": [
+        {
+          "manifest": "development/player_dynamic_text_video_probe/checkpoints/dynamic_text_video_probe_20261009_candidate/manifest.json",
+          "manifestEntryPathField": "path",
+          "manifestEntryBytesField": "bytes",
+          "manifestEntrySha256Field": "sha256"
+        }
+      ]
+    },
+    {
+      "repoRelativePath": "development/player_dynamic_text_video_probe/checkpoints/dynamic_text_video_probe_20261009_candidate/build/probe_model/pixels_probe.vvp",
+      "bytes": 267320,
+      "sha256": "4DF4C19C7CFA7455465AC96A7BFAB065F1855C136DE62BEEFF221EED841B22BB",
+      "sources": [
+        {
+          "manifest": "development/player_dynamic_text_video_probe/checkpoints/dynamic_text_video_probe_20261009_candidate/manifest.json",
+          "manifestEntryPathField": "path",
+          "manifestEntryBytesField": "bytes",
+          "manifestEntrySha256Field": "sha256"
+        }
+      ]
+    },
+    {
+      "repoRelativePath": "development/player_dynamic_text_video_probe/checkpoints/dynamic_text_video_probe_20261009_candidate/build/probe_model/source_probe.vvp",
+      "bytes": 49644,
+      "sha256": "5AEEFC811E93FACF091D40A7C7BA94545FDA24B67327BD73B566C62871385F2C",
+      "sources": [
+        {
+          "manifest": "development/player_dynamic_text_video_probe/checkpoints/dynamic_text_video_probe_20261009_candidate/manifest.json",
+          "manifestEntryPathField": "path",
+          "manifestEntryBytesField": "bytes",
+          "manifestEntrySha256Field": "sha256"
+        }
+      ]
+    },
+    {
+      "repoRelativePath": "development/player_dynamic_text_video_probe/checkpoints/dynamic_text_video_probe_20261009_candidate/build/probe_model/timer_probe.vvp",
+      "bytes": 85225,
+      "sha256": "38E1A5366292C46722C4F212E32CE5ED06B91A798A7BC49C32E0568A81B1F874",
+      "sources": [
+        {
+          "manifest": "development/player_dynamic_text_video_probe/checkpoints/dynamic_text_video_probe_20261009_candidate/manifest.json",
+          "manifestEntryPathField": "path",
+          "manifestEntryBytesField": "bytes",
+          "manifestEntrySha256Field": "sha256"
+        }
+      ]
+    },
+    {
+      "repoRelativePath": "development/player_fat32/checkpoints/fat32_candidate_v1/build/manual/AC201_tf_hdmi_elaborate.db",
+      "bytes": 6045346,
+      "sha256": "529D6FC42ED5A3B7F3B88D168A7B6713057D299CA7F0FE9AF92D9E78D3B3AD9E",
+      "sources": [
+        {
+          "manifest": "development/player_fat32/checkpoints/fat32_candidate_v1/manifest.json",
+          "manifestEntryPathField": "path",
+          "manifestEntryBytesField": "bytes",
+          "manifestEntrySha256Field": "sha256"
+        }
+      ]
+    },
+    {
+      "repoRelativePath": "development/player_fat32/checkpoints/fat32_candidate_v1/build/manual/AC201_tf_hdmi_gate.db",
+      "bytes": 5966836,
+      "sha256": "39F3ABD74F9709B275FB25D58042BFB3E1B0F4E8A7925AA35A75AACE5B18F252",
+      "sources": [
+        {
+          "manifest": "development/player_fat32/checkpoints/fat32_candidate_v1/manifest.json",
+          "manifestEntryPathField": "path",
+          "manifestEntryBytesField": "bytes",
+          "manifestEntrySha256Field": "sha256"
+        }
+      ]
+    },
+    {
+      "repoRelativePath": "development/player_fat32/checkpoints/fat32_candidate_v1/build/manual/AC201_tf_hdmi_place.db",
+      "bytes": 7981906,
+      "sha256": "BBEE2D82F894111AF80C4F50D47093C84332C05FFFA9DBCAA2E599707620B604",
+      "sources": [
+        {
+          "manifest": "development/player_fat32/checkpoints/fat32_candidate_v1/manifest.json",
+          "manifestEntryPathField": "path",
+          "manifestEntryBytesField": "bytes",
+          "manifestEntrySha256Field": "sha256"
+        }
+      ]
+    },
+    {
+      "repoRelativePath": "development/player_fat32/checkpoints/fat32_candidate_v1/build/manual/AC201_tf_hdmi_pr.db",
+      "bytes": 10387020,
+      "sha256": "55C7DC24D278B1250C277E9662F441573629850724FD5F411C65268BAAD9D015",
+      "sources": [
+        {
+          "manifest": "development/player_fat32/checkpoints/fat32_candidate_v1/manifest.json",
+          "manifestEntryPathField": "path",
+          "manifestEntryBytesField": "bytes",
+          "manifestEntrySha256Field": "sha256"
+        }
+      ]
+    },
+    {
+      "repoRelativePath": "development/player_fat32/checkpoints/fat32_candidate_v1/build/manual/AC201_tf_hdmi_rtl.db",
+      "bytes": 5177074,
+      "sha256": "A1D1B08130961E7889872180D7E1BB99F9366B6F4A19642ADC518E7ADCCA94B2",
+      "sources": [
+        {
+          "manifest": "development/player_fat32/checkpoints/fat32_candidate_v1/manifest.json",
+          "manifestEntryPathField": "path",
+          "manifestEntryBytesField": "bytes",
+          "manifestEntrySha256Field": "sha256"
+        }
+      ]
+    },
+    {
+      "repoRelativePath": "development/player_fat32_audio_probe/checkpoints/audio_probe_20261008_verified/build/manual/AC201_tf_hdmi_elaborate.db",
+      "bytes": 6221638,
+      "sha256": "B222CC4DB14048545A4F7A7B07B87096EBFE87A1D16641303615960F002D0FEA",
+      "sources": [
+        {
+          "manifest": "development/player_fat32_audio_probe/checkpoints/audio_probe_20261008_verified/manifest.json",
+          "manifestEntryPathField": "path",
+          "manifestEntryBytesField": "bytes",
+          "manifestEntrySha256Field": "sha256"
+        }
+      ]
+    },
+    {
+      "repoRelativePath": "development/player_fat32_audio_probe/checkpoints/audio_probe_20261008_verified/build/manual/AC201_tf_hdmi_gate.db",
+      "bytes": 6079052,
+      "sha256": "12A6B48618D6BF8AB39686D215764ED0C13FD02B5909ADEC61312B12AFCB59B8",
+      "sources": [
+        {
+          "manifest": "development/player_fat32_audio_probe/checkpoints/audio_probe_20261008_verified/manifest.json",
+          "manifestEntryPathField": "path",
+          "manifestEntryBytesField": "bytes",
+          "manifestEntrySha256Field": "sha256"
+        }
+      ]
+    },
+    {
+      "repoRelativePath": "development/player_fat32_audio_probe/checkpoints/audio_probe_20261008_verified/build/manual/AC201_tf_hdmi_place.db",
+      "bytes": 8089292,
+      "sha256": "EB468B42BBC81F66B2E1E90ED2D68595E249CAE99A7818E7D84D248A066823FA",
+      "sources": [
+        {
+          "manifest": "development/player_fat32_audio_probe/checkpoints/audio_probe_20261008_verified/manifest.json",
+          "manifestEntryPathField": "path",
+          "manifestEntryBytesField": "bytes",
+          "manifestEntrySha256Field": "sha256"
+        }
+      ]
+    },
+    {
+      "repoRelativePath": "development/player_fat32_audio_probe/checkpoints/audio_probe_20261008_verified/build/manual/AC201_tf_hdmi_pr.db",
+      "bytes": 10500640,
+      "sha256": "20E3A22378FB0A45F0B7C86B08B11C37B0F6D1B934A4343FB8F37B6A947A957D",
+      "sources": [
+        {
+          "manifest": "development/player_fat32_audio_probe/checkpoints/audio_probe_20261008_verified/manifest.json",
+          "manifestEntryPathField": "path",
+          "manifestEntryBytesField": "bytes",
+          "manifestEntrySha256Field": "sha256"
+        }
+      ]
+    },
+    {
+      "repoRelativePath": "development/player_fat32_audio_probe/checkpoints/audio_probe_20261008_verified/build/manual/AC201_tf_hdmi_rtl.db",
+      "bytes": 5002004,
+      "sha256": "E8982F8DBE6F6A8B44A856B11DF5E2D83EF826930A2106DBE8A0FE6C206FECF2",
+      "sources": [
+        {
+          "manifest": "development/player_fat32_audio_probe/checkpoints/audio_probe_20261008_verified/manifest.json",
+          "manifestEntryPathField": "path",
+          "manifestEntryBytesField": "bytes",
+          "manifestEntrySha256Field": "sha256"
+        }
+      ]
+    },
+    {
+      "repoRelativePath": "development/player_fat32_autoplay/checkpoints/autoplay_20261008_candidate/build/attempt_hold_violation/AC201_tf_hdmi_pr.db",
+      "bytes": 10469172,
+      "sha256": "8812ED3BA82432301856ED980F7978857A113126B4F61095192FE429320FFE7D",
+      "sources": [
+        {
+          "manifest": "development/player_fat32_autoplay/checkpoints/autoplay_20261008_candidate/manifest.json",
+          "manifestEntryPathField": "path",
+          "manifestEntryBytesField": "bytes",
+          "manifestEntrySha256Field": "sha256"
+        }
+      ]
+    },
+    {
+      "repoRelativePath": "development/player_fat32_autoplay/checkpoints/autoplay_20261008_candidate/build/manual/AC201_tf_hdmi_elaborate.db",
+      "bytes": 6211390,
+      "sha256": "2120DFD935F9F824CA2C28BB39DAEF337830734B9F5D978FC38D43B684D5E584",
+      "sources": [
+        {
+          "manifest": "development/player_fat32_autoplay/checkpoints/autoplay_20261008_candidate/manifest.json",
+          "manifestEntryPathField": "path",
+          "manifestEntryBytesField": "bytes",
+          "manifestEntrySha256Field": "sha256"
+        }
+      ]
+    },
+    {
+      "repoRelativePath": "development/player_fat32_autoplay/checkpoints/autoplay_20261008_candidate/build/manual/AC201_tf_hdmi_gate.db",
+      "bytes": 6011532,
+      "sha256": "559D80E03CEAA6725958B9B6964BAC9923C51D0CC3C845B26D69DC7AFD2011C9",
+      "sources": [
+        {
+          "manifest": "development/player_fat32_autoplay/checkpoints/autoplay_20261008_candidate/manifest.json",
+          "manifestEntryPathField": "path",
+          "manifestEntryBytesField": "bytes",
+          "manifestEntrySha256Field": "sha256"
+        }
+      ]
+    },
+    {
+      "repoRelativePath": "development/player_fat32_autoplay/checkpoints/autoplay_20261008_candidate/build/manual/AC201_tf_hdmi_place.db",
+      "bytes": 8054258,
+      "sha256": "6CD2C0B3C7D23DEFC64F67FCC82674A81A24C9E74E375D29B3FBF6C052A9BC4D",
+      "sources": [
+        {
+          "manifest": "development/player_fat32_autoplay/checkpoints/autoplay_20261008_candidate/manifest.json",
+          "manifestEntryPathField": "path",
+          "manifestEntryBytesField": "bytes",
+          "manifestEntrySha256Field": "sha256"
+        }
+      ]
+    },
+    {
+      "repoRelativePath": "development/player_fat32_autoplay/checkpoints/autoplay_20261008_candidate/build/manual/AC201_tf_hdmi_pr.db",
+      "bytes": 10469568,
+      "sha256": "D121306BD188A5EC55B945158A55021E0DF32DD00AC2126F312FCF46F91D1EAD",
+      "sources": [
+        {
+          "manifest": "development/player_fat32_autoplay/checkpoints/autoplay_20261008_candidate/manifest.json",
+          "manifestEntryPathField": "path",
+          "manifestEntryBytesField": "bytes",
+          "manifestEntrySha256Field": "sha256"
+        }
+      ]
+    },
+    {
+      "repoRelativePath": "development/player_fat32_autoplay/checkpoints/autoplay_20261008_candidate/build/manual/AC201_tf_hdmi_rtl.db",
+      "bytes": 4993890,
+      "sha256": "53AA73C9E1BFD32259E250F7C685ABCB760045518A3AF3B0B5E1723A0856FD28",
+      "sources": [
+        {
+          "manifest": "development/player_fat32_autoplay/checkpoints/autoplay_20261008_candidate/manifest.json",
+          "manifestEntryPathField": "path",
+          "manifestEntryBytesField": "bytes",
+          "manifestEntrySha256Field": "sha256"
+        }
+      ]
+    },
+    {
+      "repoRelativePath": "development/player_fat32_autoplay_keepaudio/checkpoints/keepaudio_20261008_candidate/build/attempt_hold_violation/AC201_tf_hdmi_pr.db",
+      "bytes": 10595860,
+      "sha256": "9B2C3460DCAA4829AF95FBD046D064BD6D96D5363173810F457C1246A78EEDAC",
+      "sources": [
+        {
+          "manifest": "development/player_fat32_autoplay_keepaudio/checkpoints/keepaudio_20261008_candidate/manifest.json",
+          "manifestEntryPathField": "path",
+          "manifestEntryBytesField": "bytes",
+          "manifestEntrySha256Field": "sha256"
+        }
+      ]
+    },
+    {
+      "repoRelativePath": "development/player_fat32_autoplay_keepaudio/checkpoints/keepaudio_20261008_candidate/build/manual/AC201_tf_hdmi_elaborate.db",
+      "bytes": 6221672,
+      "sha256": "7213387DF8315CD0CBA11039BC0D077F7440477B986DB78F83B8568E809FCF01",
+      "sources": [
+        {
+          "manifest": "development/player_fat32_autoplay_keepaudio/checkpoints/keepaudio_20261008_candidate/manifest.json",
+          "manifestEntryPathField": "path",
+          "manifestEntryBytesField": "bytes",
+          "manifestEntrySha256Field": "sha256"
+        }
+      ]
+    },
+    {
+      "repoRelativePath": "development/player_fat32_autoplay_keepaudio/checkpoints/keepaudio_20261008_candidate/build/manual/AC201_tf_hdmi_gate.db",
+      "bytes": 6104720,
+      "sha256": "6100F0FE2D380F6F1002F73C932A23AD89CE5B058952812CC34879FA970ED78A",
+      "sources": [
+        {
+          "manifest": "development/player_fat32_autoplay_keepaudio/checkpoints/keepaudio_20261008_candidate/manifest.json",
+          "manifestEntryPathField": "path",
+          "manifestEntryBytesField": "bytes",
+          "manifestEntrySha256Field": "sha256"
+        }
+      ]
+    },
+    {
+      "repoRelativePath": "development/player_fat32_autoplay_keepaudio/checkpoints/keepaudio_20261008_candidate/build/manual/AC201_tf_hdmi_place.db",
+      "bytes": 8173992,
+      "sha256": "0F705089489BDE8024C6CF7E93967691BE0D9D9BFFA2F9236CDAD8AF711D9F0D",
+      "sources": [
+        {
+          "manifest": "development/player_fat32_autoplay_keepaudio/checkpoints/keepaudio_20261008_candidate/manifest.json",
+          "manifestEntryPathField": "path",
+          "manifestEntryBytesField": "bytes",
+          "manifestEntrySha256Field": "sha256"
+        }
+      ]
+    },
+    {
+      "repoRelativePath": "development/player_fat32_autoplay_keepaudio/checkpoints/keepaudio_20261008_candidate/build/manual/AC201_tf_hdmi_pr.db",
+      "bytes": 10597142,
+      "sha256": "C9270BC4F516B8CE4C6651F874EDED9588DC94E7C828530FAC5FC9A636BCCCE1",
+      "sources": [
+        {
+          "manifest": "development/player_fat32_autoplay_keepaudio/checkpoints/keepaudio_20261008_candidate/manifest.json",
+          "manifestEntryPathField": "path",
+          "manifestEntryBytesField": "bytes",
+          "manifestEntrySha256Field": "sha256"
+        }
+      ]
+    },
+    {
+      "repoRelativePath": "development/player_fat32_autoplay_keepaudio/checkpoints/keepaudio_20261008_candidate/build/manual/AC201_tf_hdmi_rtl.db",
+      "bytes": 5035810,
+      "sha256": "F6068196C160A2F23ECFF2C6BFD1209DB0A0D3F5FDA0BF60F861919E387B6435",
+      "sources": [
+        {
+          "manifest": "development/player_fat32_autoplay_keepaudio/checkpoints/keepaudio_20261008_candidate/manifest.json",
+          "manifestEntryPathField": "path",
+          "manifestEntryBytesField": "bytes",
+          "manifestEntrySha256Field": "sha256"
+        }
+      ]
+    },
+    {
+      "repoRelativePath": "development/player_fat32_packet_diag/checkpoints/packet_diag_20261008_candidate/build/attempt_capacity_595/manual/AC201_tf_hdmi_elaborate.db",
+      "bytes": 6879530,
+      "sha256": "3621DF9984EB19D59A85968C0A19216949BC6FDF7E5CC1C5F6C3B5C3C3D2374F",
+      "sources": [
+        {
+          "manifest": "development/player_fat32_packet_diag/checkpoints/packet_diag_20261008_candidate/manifest.json",
+          "manifestEntryPathField": "path",
+          "manifestEntryBytesField": "bytes",
+          "manifestEntrySha256Field": "sha256"
+        }
+      ]
+    },
+    {
+      "repoRelativePath": "development/player_fat32_packet_diag/checkpoints/packet_diag_20261008_candidate/build/attempt_capacity_595/manual/AC201_tf_hdmi_gate.db",
+      "bytes": 6599072,
+      "sha256": "F66C21A118EF00A2821B92F9739564170F01BE8FA30D856070327E235ED4719D",
+      "sources": [
+        {
+          "manifest": "development/player_fat32_packet_diag/checkpoints/packet_diag_20261008_candidate/manifest.json",
+          "manifestEntryPathField": "path",
+          "manifestEntryBytesField": "bytes",
+          "manifestEntrySha256Field": "sha256"
+        }
+      ]
+    },
+    {
+      "repoRelativePath": "development/player_fat32_packet_diag/checkpoints/packet_diag_20261008_candidate/build/attempt_capacity_595/manual/AC201_tf_hdmi_rtl.db",
+      "bytes": 5533982,
+      "sha256": "79C0B386DD6FCB0C370D39CF27CCC69A33065F501B138ED8C37BECD1B9BC6041",
+      "sources": [
+        {
+          "manifest": "development/player_fat32_packet_diag/checkpoints/packet_diag_20261008_candidate/manifest.json",
+          "manifestEntryPathField": "path",
+          "manifestEntryBytesField": "bytes",
+          "manifestEntrySha256Field": "sha256"
+        }
+      ]
+    },
+    {
+      "repoRelativePath": "development/player_fat32_packet_diag/checkpoints/packet_diag_20261008_candidate/build/attempt_capacity_compact/manual/AC201_tf_hdmi_elaborate.db",
+      "bytes": 6894826,
+      "sha256": "BE4C8782A474D38F06E9C6C86CD4F41BB42B6066550E908FCE37A37F78C1AEE1",
+      "sources": [
+        {
+          "manifest": "development/player_fat32_packet_diag/checkpoints/packet_diag_20261008_candidate/manifest.json",
+          "manifestEntryPathField": "path",
+          "manifestEntryBytesField": "bytes",
+          "manifestEntrySha256Field": "sha256"
+        }
+      ]
+    },
+    {
+      "repoRelativePath": "development/player_fat32_packet_diag/checkpoints/packet_diag_20261008_candidate/build/attempt_capacity_compact/manual/AC201_tf_hdmi_gate.db",
+      "bytes": 6589134,
+      "sha256": "D6355263E569E4126890494113B3B40146BF71DE8C4E441941C7E262D0BB7455",
+      "sources": [
+        {
+          "manifest": "development/player_fat32_packet_diag/checkpoints/packet_diag_20261008_candidate/manifest.json",
+          "manifestEntryPathField": "path",
+          "manifestEntryBytesField": "bytes",
+          "manifestEntrySha256Field": "sha256"
+        }
+      ]
+    },
+    {
+      "repoRelativePath": "development/player_fat32_packet_diag/checkpoints/packet_diag_20261008_candidate/build/attempt_capacity_compact/manual/AC201_tf_hdmi_rtl.db",
+      "bytes": 5540068,
+      "sha256": "6EA1CF065497DE496656ADF3C5ADCA21602866DFE4E33E07B30FE2D51ECD25D4",
+      "sources": [
+        {
+          "manifest": "development/player_fat32_packet_diag/checkpoints/packet_diag_20261008_candidate/manifest.json",
+          "manifestEntryPathField": "path",
+          "manifestEntryBytesField": "bytes",
+          "manifestEntrySha256Field": "sha256"
+        }
+      ]
+    },
+    {
+      "repoRelativePath": "development/player_fat32_packet_diag/checkpoints/packet_diag_20261008_candidate/build/attempt_capacity_full/manual/AC201_tf_hdmi_elaborate.db",
+      "bytes": 7042710,
+      "sha256": "1D8422C5A8996841F8843CCF5F9BBA3BA6592EB1F10115866BC325399C778103",
+      "sources": [
+        {
+          "manifest": "development/player_fat32_packet_diag/checkpoints/packet_diag_20261008_candidate/manifest.json",
+          "manifestEntryPathField": "path",
+          "manifestEntryBytesField": "bytes",
+          "manifestEntrySha256Field": "sha256"
+        }
+      ]
+    },
+    {
+      "repoRelativePath": "development/player_fat32_packet_diag/checkpoints/packet_diag_20261008_candidate/build/attempt_capacity_full/manual/AC201_tf_hdmi_gate.db",
+      "bytes": 6734268,
+      "sha256": "E32982A8DCBEC9036B7C10ABB91045DBD4480AFED22BEB2F12B17DBDDD46A4C3",
+      "sources": [
+        {
+          "manifest": "development/player_fat32_packet_diag/checkpoints/packet_diag_20261008_candidate/manifest.json",
+          "manifestEntryPathField": "path",
+          "manifestEntryBytesField": "bytes",
+          "manifestEntrySha256Field": "sha256"
+        }
+      ]
+    },
+    {
+      "repoRelativePath": "development/player_fat32_packet_diag/checkpoints/packet_diag_20261008_candidate/build/attempt_capacity_full/manual/AC201_tf_hdmi_rtl.db",
+      "bytes": 5688266,
+      "sha256": "C57475243D13080F2270D76C5E8471FD940240FD74CCC41AAED702E233A9B8F7",
+      "sources": [
+        {
+          "manifest": "development/player_fat32_packet_diag/checkpoints/packet_diag_20261008_candidate/manifest.json",
+          "manifestEntryPathField": "path",
+          "manifestEntryBytesField": "bytes",
+          "manifestEntrySha256Field": "sha256"
+        }
+      ]
+    },
+    {
+      "repoRelativePath": "development/player_fat32_packet_diag/checkpoints/packet_diag_20261008_candidate/build/attempt_packet_hfn_collection/AC201_tf_hdmi_hfn.db",
+      "bytes": 8059296,
+      "sha256": "D9BF76C7780C66C539C474E51805A546196C51B8370873F95D89E690C8D99F29",
+      "sources": [
+        {
+          "manifest": "development/player_fat32_packet_diag/checkpoints/packet_diag_20261008_candidate/manifest.json",
+          "manifestEntryPathField": "path",
+          "manifestEntryBytesField": "bytes",
+          "manifestEntrySha256Field": "sha256"
+        }
+      ]
+    },
+    {
+      "repoRelativePath": "development/player_fat32_packet_diag/checkpoints/packet_diag_20261008_candidate/build/attempt_packet_prehold/manual/AC201_tf_hdmi_elaborate.db",
+      "bytes": 6804268,
+      "sha256": "FB4F0CB8973275B4C15FD2A4D93D81969825257AD66D7D9EA62A08814EBA7F9C",
+      "sources": [
+        {
+          "manifest": "development/player_fat32_packet_diag/checkpoints/packet_diag_20261008_candidate/manifest.json",
+          "manifestEntryPathField": "path",
+          "manifestEntryBytesField": "bytes",
+          "manifestEntrySha256Field": "sha256"
+        }
+      ]
+    },
+    {
+      "repoRelativePath": "development/player_fat32_packet_diag/checkpoints/packet_diag_20261008_candidate/build/attempt_packet_prehold/manual/AC201_tf_hdmi_gate.db",
+      "bytes": 6516624,
+      "sha256": "A85D6A5ECD9DBC04F1D22F2085A61AAFE293D9D08EBB5786FF2E6A2F461300E1",
+      "sources": [
+        {
+          "manifest": "development/player_fat32_packet_diag/checkpoints/packet_diag_20261008_candidate/manifest.json",
+          "manifestEntryPathField": "path",
+          "manifestEntryBytesField": "bytes",
+          "manifestEntrySha256Field": "sha256"
+        }
+      ]
+    },
+    {
+      "repoRelativePath": "development/player_fat32_packet_diag/checkpoints/packet_diag_20261008_candidate/build/attempt_packet_prehold/manual/AC201_tf_hdmi_place.db",
+      "bytes": 8732578,
+      "sha256": "76D322E5333895498D84444F5ACC36DD0E4807AE910113AE222B0BCA262484E5",
+      "sources": [
+        {
+          "manifest": "development/player_fat32_packet_diag/checkpoints/packet_diag_20261008_candidate/manifest.json",
+          "manifestEntryPathField": "path",
+          "manifestEntryBytesField": "bytes",
+          "manifestEntrySha256Field": "sha256"
+        }
+      ]
+    },
+    {
+      "repoRelativePath": "development/player_fat32_packet_diag/checkpoints/packet_diag_20261008_candidate/build/attempt_packet_prehold/manual/AC201_tf_hdmi_pr.db",
+      "bytes": 11441510,
+      "sha256": "F999D48FDDB830370FA0C761B7B1A3F16C3C392718F439D14499EAA50CC6EB3A",
+      "sources": [
+        {
+          "manifest": "development/player_fat32_packet_diag/checkpoints/packet_diag_20261008_candidate/manifest.json",
+          "manifestEntryPathField": "path",
+          "manifestEntryBytesField": "bytes",
+          "manifestEntrySha256Field": "sha256"
+        }
+      ]
+    },
+    {
+      "repoRelativePath": "development/player_fat32_packet_diag/checkpoints/packet_diag_20261008_candidate/build/attempt_packet_prehold/manual/AC201_tf_hdmi_rtl.db",
+      "bytes": 5467706,
+      "sha256": "782BBC9CC37383870C77B8E4DD1CF3B4F255ECD26B9678CB198E67B7E06B9ADE",
+      "sources": [
+        {
+          "manifest": "development/player_fat32_packet_diag/checkpoints/packet_diag_20261008_candidate/manifest.json",
+          "manifestEntryPathField": "path",
+          "manifestEntryBytesField": "bytes",
+          "manifestEntrySha256Field": "sha256"
+        }
+      ]
+    },
+    {
+      "repoRelativePath": "development/player_fat32_packet_diag/checkpoints/packet_diag_20261008_candidate/build/attempt_packet_replicated_placed/AC201_tf_hdmi_pr.db",
+      "bytes": 11442980,
+      "sha256": "DEAD5495011BA038E4967B576F458394E85A0A390BBD66B19F0BFC59130E2B96",
+      "sources": [
+        {
+          "manifest": "development/player_fat32_packet_diag/checkpoints/packet_diag_20261008_candidate/manifest.json",
+          "manifestEntryPathField": "path",
+          "manifestEntryBytesField": "bytes",
+          "manifestEntrySha256Field": "sha256"
+        }
+      ]
+    },
+    {
+      "repoRelativePath": "development/player_fat32_packet_diag/checkpoints/packet_diag_20261008_candidate/build/attempt_packet_replicated_placed/AC201_tf_hdmi_replicated.db",
+      "bytes": 8059296,
+      "sha256": "D9BF76C7780C66C539C474E51805A546196C51B8370873F95D89E690C8D99F29",
+      "sources": [
+        {
+          "manifest": "development/player_fat32_packet_diag/checkpoints/packet_diag_20261008_candidate/manifest.json",
+          "manifestEntryPathField": "path",
+          "manifestEntryBytesField": "bytes",
+          "manifestEntrySha256Field": "sha256"
+        }
+      ]
+    },
+    {
+      "repoRelativePath": "development/player_fat32_packet_diag/checkpoints/packet_diag_20261008_candidate/build/attempt_packet_routability/AC201_tf_hdmi_pr.db",
+      "bytes": 11471598,
+      "sha256": "4CD7411519DD38F4E2A4692047BABCE798A689D834DAEDF2273936F645331818",
+      "sources": [
+        {
+          "manifest": "development/player_fat32_packet_diag/checkpoints/packet_diag_20261008_candidate/manifest.json",
+          "manifestEntryPathField": "path",
+          "manifestEntryBytesField": "bytes",
+          "manifestEntrySha256Field": "sha256"
+        }
+      ]
+    },
+    {
+      "repoRelativePath": "development/player_fat32_packet_diag/checkpoints/packet_diag_20261008_candidate/build/attempt_packet_setup_input/AC201_tf_hdmi_pr.db",
+      "bytes": 11443012,
+      "sha256": "EB19CC64497ADFFC3DCEDDC8E3F3B368E4EE9EB1133FED3418607AC2C63D1085",
+      "sources": [
+        {
+          "manifest": "development/player_fat32_packet_diag/checkpoints/packet_diag_20261008_candidate/manifest.json",
+          "manifestEntryPathField": "path",
+          "manifestEntryBytesField": "bytes",
+          "manifestEntrySha256Field": "sha256"
+        }
+      ]
+    },
+    {
+      "repoRelativePath": "development/player_fat32_packet_diag/checkpoints/packet_diag_20261008_candidate/build/attempt_streaming_default/manual/AC201_tf_hdmi_elaborate.db",
+      "bytes": 6640414,
+      "sha256": "5D23FF1306AB0A11D264F00107E0428340E3ACCF7BFE486E3BC16B769A897352",
+      "sources": [
+        {
+          "manifest": "development/player_fat32_packet_diag/checkpoints/packet_diag_20261008_candidate/manifest.json",
+          "manifestEntryPathField": "path",
+          "manifestEntryBytesField": "bytes",
+          "manifestEntrySha256Field": "sha256"
+        }
+      ]
+    },
+    {
+      "repoRelativePath": "development/player_fat32_packet_diag/checkpoints/packet_diag_20261008_candidate/build/attempt_streaming_default/manual/AC201_tf_hdmi_gate.db",
+      "bytes": 6430524,
+      "sha256": "D3335C5678C0A502748121A1E6350A417B5DA637FED5F187499E31734163548E",
+      "sources": [
+        {
+          "manifest": "development/player_fat32_packet_diag/checkpoints/packet_diag_20261008_candidate/manifest.json",
+          "manifestEntryPathField": "path",
+          "manifestEntryBytesField": "bytes",
+          "manifestEntrySha256Field": "sha256"
+        }
+      ]
+    },
+    {
+      "repoRelativePath": "development/player_fat32_packet_diag/checkpoints/packet_diag_20261008_candidate/build/attempt_streaming_default/manual/AC201_tf_hdmi_place.db",
+      "bytes": 8558980,
+      "sha256": "928452AC3095AD2B5EEBE54BE25E5F23481BE9F06F5D263AA60612056FD8831F",
+      "sources": [
+        {
+          "manifest": "development/player_fat32_packet_diag/checkpoints/packet_diag_20261008_candidate/manifest.json",
+          "manifestEntryPathField": "path",
+          "manifestEntryBytesField": "bytes",
+          "manifestEntrySha256Field": "sha256"
+        }
+      ]
+    },
+    {
+      "repoRelativePath": "development/player_fat32_packet_diag/checkpoints/packet_diag_20261008_candidate/build/attempt_streaming_default/manual/AC201_tf_hdmi_pr.db",
+      "bytes": 11174590,
+      "sha256": "5538019765A8745D297E5B53D7FDC22564ACD3E39F8C5F21BF4BBEF44E7F79E5",
+      "sources": [
+        {
+          "manifest": "development/player_fat32_packet_diag/checkpoints/packet_diag_20261008_candidate/manifest.json",
+          "manifestEntryPathField": "path",
+          "manifestEntryBytesField": "bytes",
+          "manifestEntrySha256Field": "sha256"
+        }
+      ]
+    },
+    {
+      "repoRelativePath": "development/player_fat32_packet_diag/checkpoints/packet_diag_20261008_candidate/build/attempt_streaming_default/manual/AC201_tf_hdmi_rtl.db",
+      "bytes": 5387886,
+      "sha256": "8194EF07B1FA45D0AF7246ABACF27E2D335676773760611773A5EC04DDA3B9BC",
+      "sources": [
+        {
+          "manifest": "development/player_fat32_packet_diag/checkpoints/packet_diag_20261008_candidate/manifest.json",
+          "manifestEntryPathField": "path",
+          "manifestEntryBytesField": "bytes",
+          "manifestEntrySha256Field": "sha256"
+        }
+      ]
+    },
+    {
+      "repoRelativePath": "development/player_fat32_packet_diag/checkpoints/packet_diag_20261008_candidate/build/attempt_streaming_move_glob/AC201_tf_hdmi_moved.db",
+      "bytes": 7925878,
+      "sha256": "2839A8D330ED7FACC2148F9C78C554956778AEC68879691B87A3C927FAA167E1",
+      "sources": [
+        {
+          "manifest": "development/player_fat32_packet_diag/checkpoints/packet_diag_20261008_candidate/manifest.json",
+          "manifestEntryPathField": "path",
+          "manifestEntryBytesField": "bytes",
+          "manifestEntrySha256Field": "sha256"
+        }
+      ]
+    },
+    {
+      "repoRelativePath": "development/player_fat32_packet_diag/checkpoints/packet_diag_20261008_candidate/build/attempt_streaming_move_plain/AC201_tf_hdmi_moved.db",
+      "bytes": 7925878,
+      "sha256": "2839A8D330ED7FACC2148F9C78C554956778AEC68879691B87A3C927FAA167E1",
+      "sources": [
+        {
+          "manifest": "development/player_fat32_packet_diag/checkpoints/packet_diag_20261008_candidate/manifest.json",
+          "manifestEntryPathField": "path",
+          "manifestEntryBytesField": "bytes",
+          "manifestEntrySha256Field": "sha256"
+        }
+      ]
+    },
+    {
+      "repoRelativePath": "development/player_fat32_packet_diag/checkpoints/packet_diag_20261008_candidate/build/attempt_streaming_move_x16y30/AC201_tf_hdmi_moved.db",
+      "bytes": 7925878,
+      "sha256": "2839A8D330ED7FACC2148F9C78C554956778AEC68879691B87A3C927FAA167E1",
+      "sources": [
+        {
+          "manifest": "development/player_fat32_packet_diag/checkpoints/packet_diag_20261008_candidate/manifest.json",
+          "manifestEntryPathField": "path",
+          "manifestEntryBytesField": "bytes",
+          "manifestEntrySha256Field": "sha256"
+        }
+      ]
+    },
+    {
+      "repoRelativePath": "development/player_fat32_packet_diag/checkpoints/packet_diag_20261008_candidate/build/attempt_streaming_move_x17y36/AC201_tf_hdmi_moved.db",
+      "bytes": 7925878,
+      "sha256": "17304402134C756361A9E51D61986841AFEB6B42A7816BCF06FCD7FAEFC2129E",
+      "sources": [
+        {
+          "manifest": "development/player_fat32_packet_diag/checkpoints/packet_diag_20261008_candidate/manifest.json",
+          "manifestEntryPathField": "path",
+          "manifestEntryBytesField": "bytes",
+          "manifestEntrySha256Field": "sha256"
+        }
+      ]
+    },
+    {
+      "repoRelativePath": "development/player_fat32_packet_diag/checkpoints/packet_diag_20261008_candidate/build/attempt_streaming_move_x17y36/AC201_tf_hdmi_pr.db",
+      "bytes": 11178226,
+      "sha256": "30FD59F47628FEC376F5E011961AE72295E51254BB58EC979DF66B2E49B0D10E",
+      "sources": [
+        {
+          "manifest": "development/player_fat32_packet_diag/checkpoints/packet_diag_20261008_candidate/manifest.json",
+          "manifestEntryPathField": "path",
+          "manifestEntryBytesField": "bytes",
+          "manifestEntrySha256Field": "sha256"
+        }
+      ]
+    },
+    {
+      "repoRelativePath": "development/player_fat32_packet_diag/checkpoints/packet_diag_20261008_candidate/build/attempt_streaming_move_x17y36/prehold.db",
+      "bytes": 11177478,
+      "sha256": "335244722FC5B75D6DDCE8C11FFA5D7C1B04F596915D3B1D2BC1C9ED360082A6",
+      "sources": [
+        {
+          "manifest": "development/player_fat32_packet_diag/checkpoints/packet_diag_20261008_candidate/manifest.json",
+          "manifestEntryPathField": "path",
+          "manifestEntryBytesField": "bytes",
+          "manifestEntrySha256Field": "sha256"
+        }
+      ]
+    },
+    {
+      "repoRelativePath": "development/player_fat32_packet_diag/checkpoints/packet_diag_20261008_candidate/build/attempt_streaming_move_x18y32/AC201_tf_hdmi_moved.db",
+      "bytes": 7925878,
+      "sha256": "2839A8D330ED7FACC2148F9C78C554956778AEC68879691B87A3C927FAA167E1",
+      "sources": [
+        {
+          "manifest": "development/player_fat32_packet_diag/checkpoints/packet_diag_20261008_candidate/manifest.json",
+          "manifestEntryPathField": "path",
+          "manifestEntryBytesField": "bytes",
+          "manifestEntrySha256Field": "sha256"
+        }
+      ]
+    },
+    {
+      "repoRelativePath": "development/player_fat32_packet_diag/checkpoints/packet_diag_20261008_candidate/build/attempt_streaming_move_x24y32/AC201_tf_hdmi_moved.db",
+      "bytes": 7925878,
+      "sha256": "2839A8D330ED7FACC2148F9C78C554956778AEC68879691B87A3C927FAA167E1",
+      "sources": [
+        {
+          "manifest": "development/player_fat32_packet_diag/checkpoints/packet_diag_20261008_candidate/manifest.json",
+          "manifestEntryPathField": "path",
+          "manifestEntryBytesField": "bytes",
+          "manifestEntrySha256Field": "sha256"
+        }
+      ]
+    },
+    {
+      "repoRelativePath": "development/player_fat32_packet_diag/checkpoints/packet_diag_20261008_candidate/build/attempt_streaming_move_x26y34/AC201_tf_hdmi_moved.db",
+      "bytes": 7925878,
+      "sha256": "2839A8D330ED7FACC2148F9C78C554956778AEC68879691B87A3C927FAA167E1",
+      "sources": [
+        {
+          "manifest": "development/player_fat32_packet_diag/checkpoints/packet_diag_20261008_candidate/manifest.json",
+          "manifestEntryPathField": "path",
+          "manifestEntryBytesField": "bytes",
+          "manifestEntrySha256Field": "sha256"
+        }
+      ]
+    },
+    {
+      "repoRelativePath": "development/player_fat32_packet_diag/checkpoints/packet_diag_20261008_candidate/build/attempt_streaming_seed_2/AC201_tf_hdmi_place.db",
+      "bytes": 8548910,
+      "sha256": "6E8A6174E8239A0D9F4E2D92E5637E81947D0F9BBBCC0D45C5EA80F5F151391F",
+      "sources": [
+        {
+          "manifest": "development/player_fat32_packet_diag/checkpoints/packet_diag_20261008_candidate/manifest.json",
+          "manifestEntryPathField": "path",
+          "manifestEntryBytesField": "bytes",
+          "manifestEntrySha256Field": "sha256"
+        }
+      ]
+    },
+    {
+      "repoRelativePath": "development/player_fat32_packet_diag/checkpoints/packet_diag_20261008_candidate/build/attempt_streaming_seed_2/AC201_tf_hdmi_pr.db",
+      "bytes": 11182262,
+      "sha256": "6E93BE677EEFC249F59D30F56980ED5A2B9468FBC539D51993D7C2D004C17E7D",
+      "sources": [
+        {
+          "manifest": "development/player_fat32_packet_diag/checkpoints/packet_diag_20261008_candidate/manifest.json",
+          "manifestEntryPathField": "path",
+          "manifestEntryBytesField": "bytes",
+          "manifestEntrySha256Field": "sha256"
+        }
+      ]
+    },
+    {
+      "repoRelativePath": "development/player_fat32_packet_diag/checkpoints/packet_diag_20261008_candidate/build/attempt_streaming_seed_2/prehold.db",
+      "bytes": 11181992,
+      "sha256": "E22C7877E1A50C32EFEA9929FC99455471DF9A63777B227B3CA9DDE3EB564BF8",
+      "sources": [
+        {
+          "manifest": "development/player_fat32_packet_diag/checkpoints/packet_diag_20261008_candidate/manifest.json",
+          "manifestEntryPathField": "path",
+          "manifestEntryBytesField": "bytes",
+          "manifestEntrySha256Field": "sha256"
+        }
+      ]
+    },
+    {
+      "repoRelativePath": "development/player_fat32_packet_diag/checkpoints/packet_diag_20261008_candidate/build/attempt_streaming_seed_3/AC201_tf_hdmi_place.db",
+      "bytes": 8556628,
+      "sha256": "C12B6325900C5A29A41CDF49C47E006B535F659A789F23EF44DA537CB0970332",
+      "sources": [
+        {
+          "manifest": "development/player_fat32_packet_diag/checkpoints/packet_diag_20261008_candidate/manifest.json",
+          "manifestEntryPathField": "path",
+          "manifestEntryBytesField": "bytes",
+          "manifestEntrySha256Field": "sha256"
+        }
+      ]
+    },
+    {
+      "repoRelativePath": "development/player_fat32_packet_diag/checkpoints/packet_diag_20261008_candidate/build/attempt_streaming_seed_3/AC201_tf_hdmi_pr.db",
+      "bytes": 11170474,
+      "sha256": "B2DAB5402047B412E04635C815CA909A5B4C68220DBA33DEE850A244366406C0",
+      "sources": [
+        {
+          "manifest": "development/player_fat32_packet_diag/checkpoints/packet_diag_20261008_candidate/manifest.json",
+          "manifestEntryPathField": "path",
+          "manifestEntryBytesField": "bytes",
+          "manifestEntrySha256Field": "sha256"
+        }
+      ]
+    },
+    {
+      "repoRelativePath": "development/player_fat32_packet_diag/checkpoints/packet_diag_20261008_candidate/build/attempt_streaming_seed_3/prehold.db",
+      "bytes": 11169714,
+      "sha256": "5D2AD4CEA5FDE84E883D1B8069BE2B0596458599F956D26BCB0EAD3D923C8BBC",
+      "sources": [
+        {
+          "manifest": "development/player_fat32_packet_diag/checkpoints/packet_diag_20261008_candidate/manifest.json",
+          "manifestEntryPathField": "path",
+          "manifestEntryBytesField": "bytes",
+          "manifestEntrySha256Field": "sha256"
+        }
+      ]
+    },
+    {
+      "repoRelativePath": "development/player_fat32_packet_diag/checkpoints/packet_diag_20261008_candidate/build/manual/AC201_tf_hdmi_elaborate.db",
+      "bytes": 6640414,
+      "sha256": "5D23FF1306AB0A11D264F00107E0428340E3ACCF7BFE486E3BC16B769A897352",
+      "sources": [
+        {
+          "manifest": "development/player_fat32_packet_diag/checkpoints/packet_diag_20261008_candidate/manifest.json",
+          "manifestEntryPathField": "path",
+          "manifestEntryBytesField": "bytes",
+          "manifestEntrySha256Field": "sha256"
+        }
+      ]
+    },
+    {
+      "repoRelativePath": "development/player_fat32_packet_diag/checkpoints/packet_diag_20261008_candidate/build/manual/AC201_tf_hdmi_gate.db",
+      "bytes": 6430524,
+      "sha256": "D3335C5678C0A502748121A1E6350A417B5DA637FED5F187499E31734163548E",
+      "sources": [
+        {
+          "manifest": "development/player_fat32_packet_diag/checkpoints/packet_diag_20261008_candidate/manifest.json",
+          "manifestEntryPathField": "path",
+          "manifestEntryBytesField": "bytes",
+          "manifestEntrySha256Field": "sha256"
+        }
+      ]
+    },
+    {
+      "repoRelativePath": "development/player_fat32_packet_diag/checkpoints/packet_diag_20261008_candidate/build/manual/AC201_tf_hdmi_place.db",
+      "bytes": 8558980,
+      "sha256": "928452AC3095AD2B5EEBE54BE25E5F23481BE9F06F5D263AA60612056FD8831F",
+      "sources": [
+        {
+          "manifest": "development/player_fat32_packet_diag/checkpoints/packet_diag_20261008_candidate/manifest.json",
+          "manifestEntryPathField": "path",
+          "manifestEntryBytesField": "bytes",
+          "manifestEntrySha256Field": "sha256"
+        }
+      ]
+    },
+    {
+      "repoRelativePath": "development/player_fat32_packet_diag/checkpoints/packet_diag_20261008_candidate/build/manual/AC201_tf_hdmi_pr.db",
+      "bytes": 11178226,
+      "sha256": "30FD59F47628FEC376F5E011961AE72295E51254BB58EC979DF66B2E49B0D10E",
+      "sources": [
+        {
+          "manifest": "development/player_fat32_packet_diag/checkpoints/packet_diag_20261008_candidate/manifest.json",
+          "manifestEntryPathField": "path",
+          "manifestEntryBytesField": "bytes",
+          "manifestEntrySha256Field": "sha256"
+        }
+      ]
+    },
+    {
+      "repoRelativePath": "development/player_fat32_packet_diag/checkpoints/packet_diag_20261008_candidate/build/manual/AC201_tf_hdmi_rtl.db",
+      "bytes": 5387886,
+      "sha256": "8194EF07B1FA45D0AF7246ABACF27E2D335676773760611773A5EC04DDA3B9BC",
+      "sources": [
+        {
+          "manifest": "development/player_fat32_packet_diag/checkpoints/packet_diag_20261008_candidate/manifest.json",
+          "manifestEntryPathField": "path",
+          "manifestEntryBytesField": "bytes",
+          "manifestEntrySha256Field": "sha256"
+        }
+      ]
+    },
+    {
+      "repoRelativePath": "development/player_fat32_packet_diag/checkpoints/packet_diag_20261008_candidate/build/status_hex_sim/hex.vvp",
+      "bytes": 32434,
+      "sha256": "CD072DA81E9038EE50C33A31A4CDD2776549468AE8AC9B5117B7908F98E02CC2",
+      "sources": [
+        {
+          "manifest": "development/player_fat32_packet_diag/checkpoints/packet_diag_20261008_candidate/manifest.json",
+          "manifestEntryPathField": "path",
+          "manifestEntryBytesField": "bytes",
+          "manifestEntrySha256Field": "sha256"
+        }
+      ]
+    },
+    {
+      "repoRelativePath": "development/player_fat32_packet_diag/checkpoints/packet_diag_20261008_candidate/build/status_monitor_sim/status.vvp",
+      "bytes": 27129,
+      "sha256": "EF49E8CCB80BAD5635D8CA5D853FD58A8A717FC5F4E17B65FDB8990C6459C26A",
+      "sources": [
+        {
+          "manifest": "development/player_fat32_packet_diag/checkpoints/packet_diag_20261008_candidate/manifest.json",
+          "manifestEntryPathField": "path",
+          "manifestEntryBytesField": "bytes",
+          "manifestEntrySha256Field": "sha256"
+        }
+      ]
+    },
+    {
+      "repoRelativePath": "development/player_fat32_packet_diag/checkpoints/packet_diag_20261008_incomplete/build/attempt_capacity_595/manual/AC201_tf_hdmi_elaborate.db",
+      "bytes": 6879530,
+      "sha256": "3621DF9984EB19D59A85968C0A19216949BC6FDF7E5CC1C5F6C3B5C3C3D2374F",
+      "sources": [
+        {
+          "manifest": "development/player_fat32_packet_diag/checkpoints/packet_diag_20261008_incomplete/manifest.json",
+          "manifestEntryPathField": "path",
+          "manifestEntryBytesField": "bytes",
+          "manifestEntrySha256Field": "sha256"
+        }
+      ]
+    },
+    {
+      "repoRelativePath": "development/player_fat32_packet_diag/checkpoints/packet_diag_20261008_incomplete/build/attempt_capacity_595/manual/AC201_tf_hdmi_gate.db",
+      "bytes": 6599072,
+      "sha256": "F66C21A118EF00A2821B92F9739564170F01BE8FA30D856070327E235ED4719D",
+      "sources": [
+        {
+          "manifest": "development/player_fat32_packet_diag/checkpoints/packet_diag_20261008_incomplete/manifest.json",
+          "manifestEntryPathField": "path",
+          "manifestEntryBytesField": "bytes",
+          "manifestEntrySha256Field": "sha256"
+        }
+      ]
+    },
+    {
+      "repoRelativePath": "development/player_fat32_packet_diag/checkpoints/packet_diag_20261008_incomplete/build/attempt_capacity_595/manual/AC201_tf_hdmi_rtl.db",
+      "bytes": 5533982,
+      "sha256": "79C0B386DD6FCB0C370D39CF27CCC69A33065F501B138ED8C37BECD1B9BC6041",
+      "sources": [
+        {
+          "manifest": "development/player_fat32_packet_diag/checkpoints/packet_diag_20261008_incomplete/manifest.json",
+          "manifestEntryPathField": "path",
+          "manifestEntryBytesField": "bytes",
+          "manifestEntrySha256Field": "sha256"
+        }
+      ]
+    },
+    {
+      "repoRelativePath": "development/player_fat32_packet_diag/checkpoints/packet_diag_20261008_incomplete/build/attempt_capacity_compact/manual/AC201_tf_hdmi_elaborate.db",
+      "bytes": 6894826,
+      "sha256": "BE4C8782A474D38F06E9C6C86CD4F41BB42B6066550E908FCE37A37F78C1AEE1",
+      "sources": [
+        {
+          "manifest": "development/player_fat32_packet_diag/checkpoints/packet_diag_20261008_incomplete/manifest.json",
+          "manifestEntryPathField": "path",
+          "manifestEntryBytesField": "bytes",
+          "manifestEntrySha256Field": "sha256"
+        }
+      ]
+    },
+    {
+      "repoRelativePath": "development/player_fat32_packet_diag/checkpoints/packet_diag_20261008_incomplete/build/attempt_capacity_compact/manual/AC201_tf_hdmi_gate.db",
+      "bytes": 6589134,
+      "sha256": "D6355263E569E4126890494113B3B40146BF71DE8C4E441941C7E262D0BB7455",
+      "sources": [
+        {
+          "manifest": "development/player_fat32_packet_diag/checkpoints/packet_diag_20261008_incomplete/manifest.json",
+          "manifestEntryPathField": "path",
+          "manifestEntryBytesField": "bytes",
+          "manifestEntrySha256Field": "sha256"
+        }
+      ]
+    },
+    {
+      "repoRelativePath": "development/player_fat32_packet_diag/checkpoints/packet_diag_20261008_incomplete/build/attempt_capacity_compact/manual/AC201_tf_hdmi_rtl.db",
+      "bytes": 5540068,
+      "sha256": "6EA1CF065497DE496656ADF3C5ADCA21602866DFE4E33E07B30FE2D51ECD25D4",
+      "sources": [
+        {
+          "manifest": "development/player_fat32_packet_diag/checkpoints/packet_diag_20261008_incomplete/manifest.json",
+          "manifestEntryPathField": "path",
+          "manifestEntryBytesField": "bytes",
+          "manifestEntrySha256Field": "sha256"
+        }
+      ]
+    },
+    {
+      "repoRelativePath": "development/player_fat32_packet_diag/checkpoints/packet_diag_20261008_incomplete/build/attempt_capacity_full/manual/AC201_tf_hdmi_elaborate.db",
+      "bytes": 7042710,
+      "sha256": "1D8422C5A8996841F8843CCF5F9BBA3BA6592EB1F10115866BC325399C778103",
+      "sources": [
+        {
+          "manifest": "development/player_fat32_packet_diag/checkpoints/packet_diag_20261008_incomplete/manifest.json",
+          "manifestEntryPathField": "path",
+          "manifestEntryBytesField": "bytes",
+          "manifestEntrySha256Field": "sha256"
+        }
+      ]
+    },
+    {
+      "repoRelativePath": "development/player_fat32_packet_diag/checkpoints/packet_diag_20261008_incomplete/build/attempt_capacity_full/manual/AC201_tf_hdmi_gate.db",
+      "bytes": 6734268,
+      "sha256": "E32982A8DCBEC9036B7C10ABB91045DBD4480AFED22BEB2F12B17DBDDD46A4C3",
+      "sources": [
+        {
+          "manifest": "development/player_fat32_packet_diag/checkpoints/packet_diag_20261008_incomplete/manifest.json",
+          "manifestEntryPathField": "path",
+          "manifestEntryBytesField": "bytes",
+          "manifestEntrySha256Field": "sha256"
+        }
+      ]
+    },
+    {
+      "repoRelativePath": "development/player_fat32_packet_diag/checkpoints/packet_diag_20261008_incomplete/build/attempt_capacity_full/manual/AC201_tf_hdmi_rtl.db",
+      "bytes": 5688266,
+      "sha256": "C57475243D13080F2270D76C5E8471FD940240FD74CCC41AAED702E233A9B8F7",
+      "sources": [
+        {
+          "manifest": "development/player_fat32_packet_diag/checkpoints/packet_diag_20261008_incomplete/manifest.json",
+          "manifestEntryPathField": "path",
+          "manifestEntryBytesField": "bytes",
+          "manifestEntrySha256Field": "sha256"
+        }
+      ]
+    },
+    {
+      "repoRelativePath": "development/player_fat32_packet_diag/checkpoints/packet_diag_20261008_incomplete/build/attempt_packet_hfn_collection/AC201_tf_hdmi_hfn.db",
+      "bytes": 8059296,
+      "sha256": "D9BF76C7780C66C539C474E51805A546196C51B8370873F95D89E690C8D99F29",
+      "sources": [
+        {
+          "manifest": "development/player_fat32_packet_diag/checkpoints/packet_diag_20261008_incomplete/manifest.json",
+          "manifestEntryPathField": "path",
+          "manifestEntryBytesField": "bytes",
+          "manifestEntrySha256Field": "sha256"
+        }
+      ]
+    },
+    {
+      "repoRelativePath": "development/player_fat32_packet_diag/checkpoints/packet_diag_20261008_incomplete/build/attempt_packet_prehold/manual/AC201_tf_hdmi_elaborate.db",
+      "bytes": 6804268,
+      "sha256": "FB4F0CB8973275B4C15FD2A4D93D81969825257AD66D7D9EA62A08814EBA7F9C",
+      "sources": [
+        {
+          "manifest": "development/player_fat32_packet_diag/checkpoints/packet_diag_20261008_incomplete/manifest.json",
+          "manifestEntryPathField": "path",
+          "manifestEntryBytesField": "bytes",
+          "manifestEntrySha256Field": "sha256"
+        }
+      ]
+    },
+    {
+      "repoRelativePath": "development/player_fat32_packet_diag/checkpoints/packet_diag_20261008_incomplete/build/attempt_packet_prehold/manual/AC201_tf_hdmi_gate.db",
+      "bytes": 6516624,
+      "sha256": "A85D6A5ECD9DBC04F1D22F2085A61AAFE293D9D08EBB5786FF2E6A2F461300E1",
+      "sources": [
+        {
+          "manifest": "development/player_fat32_packet_diag/checkpoints/packet_diag_20261008_incomplete/manifest.json",
+          "manifestEntryPathField": "path",
+          "manifestEntryBytesField": "bytes",
+          "manifestEntrySha256Field": "sha256"
+        }
+      ]
+    },
+    {
+      "repoRelativePath": "development/player_fat32_packet_diag/checkpoints/packet_diag_20261008_incomplete/build/attempt_packet_prehold/manual/AC201_tf_hdmi_place.db",
+      "bytes": 8732578,
+      "sha256": "76D322E5333895498D84444F5ACC36DD0E4807AE910113AE222B0BCA262484E5",
+      "sources": [
+        {
+          "manifest": "development/player_fat32_packet_diag/checkpoints/packet_diag_20261008_incomplete/manifest.json",
+          "manifestEntryPathField": "path",
+          "manifestEntryBytesField": "bytes",
+          "manifestEntrySha256Field": "sha256"
+        }
+      ]
+    },
+    {
+      "repoRelativePath": "development/player_fat32_packet_diag/checkpoints/packet_diag_20261008_incomplete/build/attempt_packet_prehold/manual/AC201_tf_hdmi_pr.db",
+      "bytes": 11441510,
+      "sha256": "F999D48FDDB830370FA0C761B7B1A3F16C3C392718F439D14499EAA50CC6EB3A",
+      "sources": [
+        {
+          "manifest": "development/player_fat32_packet_diag/checkpoints/packet_diag_20261008_incomplete/manifest.json",
+          "manifestEntryPathField": "path",
+          "manifestEntryBytesField": "bytes",
+          "manifestEntrySha256Field": "sha256"
+        }
+      ]
+    },
+    {
+      "repoRelativePath": "development/player_fat32_packet_diag/checkpoints/packet_diag_20261008_incomplete/build/attempt_packet_prehold/manual/AC201_tf_hdmi_rtl.db",
+      "bytes": 5467706,
+      "sha256": "782BBC9CC37383870C77B8E4DD1CF3B4F255ECD26B9678CB198E67B7E06B9ADE",
+      "sources": [
+        {
+          "manifest": "development/player_fat32_packet_diag/checkpoints/packet_diag_20261008_incomplete/manifest.json",
+          "manifestEntryPathField": "path",
+          "manifestEntryBytesField": "bytes",
+          "manifestEntrySha256Field": "sha256"
+        }
+      ]
+    },
+    {
+      "repoRelativePath": "development/player_fat32_packet_diag/checkpoints/packet_diag_20261008_incomplete/build/attempt_packet_replicated_placed/AC201_tf_hdmi_pr.db",
+      "bytes": 11442980,
+      "sha256": "DEAD5495011BA038E4967B576F458394E85A0A390BBD66B19F0BFC59130E2B96",
+      "sources": [
+        {
+          "manifest": "development/player_fat32_packet_diag/checkpoints/packet_diag_20261008_incomplete/manifest.json",
+          "manifestEntryPathField": "path",
+          "manifestEntryBytesField": "bytes",
+          "manifestEntrySha256Field": "sha256"
+        }
+      ]
+    },
+    {
+      "repoRelativePath": "development/player_fat32_packet_diag/checkpoints/packet_diag_20261008_incomplete/build/attempt_packet_replicated_placed/AC201_tf_hdmi_replicated.db",
+      "bytes": 8059296,
+      "sha256": "D9BF76C7780C66C539C474E51805A546196C51B8370873F95D89E690C8D99F29",
+      "sources": [
+        {
+          "manifest": "development/player_fat32_packet_diag/checkpoints/packet_diag_20261008_incomplete/manifest.json",
+          "manifestEntryPathField": "path",
+          "manifestEntryBytesField": "bytes",
+          "manifestEntrySha256Field": "sha256"
+        }
+      ]
+    },
+    {
+      "repoRelativePath": "development/player_fat32_packet_diag/checkpoints/packet_diag_20261008_incomplete/build/attempt_packet_routability/AC201_tf_hdmi_pr.db",
+      "bytes": 11471598,
+      "sha256": "4CD7411519DD38F4E2A4692047BABCE798A689D834DAEDF2273936F645331818",
+      "sources": [
+        {
+          "manifest": "development/player_fat32_packet_diag/checkpoints/packet_diag_20261008_incomplete/manifest.json",
+          "manifestEntryPathField": "path",
+          "manifestEntryBytesField": "bytes",
+          "manifestEntrySha256Field": "sha256"
+        }
+      ]
+    },
+    {
+      "repoRelativePath": "development/player_fat32_packet_diag/checkpoints/packet_diag_20261008_incomplete/build/attempt_packet_setup_input/AC201_tf_hdmi_pr.db",
+      "bytes": 11443012,
+      "sha256": "EB19CC64497ADFFC3DCEDDC8E3F3B368E4EE9EB1133FED3418607AC2C63D1085",
+      "sources": [
+        {
+          "manifest": "development/player_fat32_packet_diag/checkpoints/packet_diag_20261008_incomplete/manifest.json",
+          "manifestEntryPathField": "path",
+          "manifestEntryBytesField": "bytes",
+          "manifestEntrySha256Field": "sha256"
+        }
+      ]
+    },
+    {
+      "repoRelativePath": "development/player_fat32_packet_diag/checkpoints/packet_diag_20261008_incomplete/build/manual/AC201_tf_hdmi_elaborate.db",
+      "bytes": 6804268,
+      "sha256": "FB4F0CB8973275B4C15FD2A4D93D81969825257AD66D7D9EA62A08814EBA7F9C",
+      "sources": [
+        {
+          "manifest": "development/player_fat32_packet_diag/checkpoints/packet_diag_20261008_incomplete/manifest.json",
+          "manifestEntryPathField": "path",
+          "manifestEntryBytesField": "bytes",
+          "manifestEntrySha256Field": "sha256"
+        }
+      ]
+    },
+    {
+      "repoRelativePath": "development/player_fat32_packet_diag/checkpoints/packet_diag_20261008_incomplete/build/manual/AC201_tf_hdmi_gate.db",
+      "bytes": 6516624,
+      "sha256": "A85D6A5ECD9DBC04F1D22F2085A61AAFE293D9D08EBB5786FF2E6A2F461300E1",
+      "sources": [
+        {
+          "manifest": "development/player_fat32_packet_diag/checkpoints/packet_diag_20261008_incomplete/manifest.json",
+          "manifestEntryPathField": "path",
+          "manifestEntryBytesField": "bytes",
+          "manifestEntrySha256Field": "sha256"
+        }
+      ]
+    },
+    {
+      "repoRelativePath": "development/player_fat32_packet_diag/checkpoints/packet_diag_20261008_incomplete/build/manual/AC201_tf_hdmi_place.db",
+      "bytes": 8732578,
+      "sha256": "76D322E5333895498D84444F5ACC36DD0E4807AE910113AE222B0BCA262484E5",
+      "sources": [
+        {
+          "manifest": "development/player_fat32_packet_diag/checkpoints/packet_diag_20261008_incomplete/manifest.json",
+          "manifestEntryPathField": "path",
+          "manifestEntryBytesField": "bytes",
+          "manifestEntrySha256Field": "sha256"
+        }
+      ]
+    },
+    {
+      "repoRelativePath": "development/player_fat32_packet_diag/checkpoints/packet_diag_20261008_incomplete/build/manual/AC201_tf_hdmi_pr.db",
+      "bytes": 11443012,
+      "sha256": "EB19CC64497ADFFC3DCEDDC8E3F3B368E4EE9EB1133FED3418607AC2C63D1085",
+      "sources": [
+        {
+          "manifest": "development/player_fat32_packet_diag/checkpoints/packet_diag_20261008_incomplete/manifest.json",
+          "manifestEntryPathField": "path",
+          "manifestEntryBytesField": "bytes",
+          "manifestEntrySha256Field": "sha256"
+        }
+      ]
+    },
+    {
+      "repoRelativePath": "development/player_fat32_packet_diag/checkpoints/packet_diag_20261008_incomplete/build/manual/AC201_tf_hdmi_rtl.db",
+      "bytes": 5467706,
+      "sha256": "782BBC9CC37383870C77B8E4DD1CF3B4F255ECD26B9678CB198E67B7E06B9ADE",
+      "sources": [
+        {
+          "manifest": "development/player_fat32_packet_diag/checkpoints/packet_diag_20261008_incomplete/manifest.json",
+          "manifestEntryPathField": "path",
+          "manifestEntryBytesField": "bytes",
+          "manifestEntrySha256Field": "sha256"
+        }
+      ]
+    },
+    {
+      "repoRelativePath": "development/player_fat32_packet_diag/checkpoints/packet_diag_20261008_incomplete/build/status_hex_sim/hex.vvp",
+      "bytes": 32434,
+      "sha256": "CD072DA81E9038EE50C33A31A4CDD2776549468AE8AC9B5117B7908F98E02CC2",
+      "sources": [
+        {
+          "manifest": "development/player_fat32_packet_diag/checkpoints/packet_diag_20261008_incomplete/manifest.json",
+          "manifestEntryPathField": "path",
+          "manifestEntryBytesField": "bytes",
+          "manifestEntrySha256Field": "sha256"
+        }
+      ]
+    },
+    {
+      "repoRelativePath": "development/player_fat32_packet_diag/checkpoints/packet_diag_20261008_incomplete/build/status_monitor_sim/status.vvp",
+      "bytes": 27129,
+      "sha256": "EF49E8CCB80BAD5635D8CA5D853FD58A8A717FC5F4E17B65FDB8990C6459C26A",
+      "sources": [
+        {
+          "manifest": "development/player_fat32_packet_diag/checkpoints/packet_diag_20261008_incomplete/manifest.json",
+          "manifestEntryPathField": "path",
+          "manifestEntryBytesField": "bytes",
+          "manifestEntrySha256Field": "sha256"
+        }
+      ]
+    },
+    {
+      "repoRelativePath": "development/player_fat32_status_diag/checkpoints/status_diag_20261008_candidate/build/attempt_initial/AC201_tf_hdmi_pr.db",
+      "bytes": 10964300,
+      "sha256": "9AEABD481D39F31EA455F7B43C224B345D254E96F13BDBFA81FFE548CC47AF43",
+      "sources": [
+        {
+          "manifest": "development/player_fat32_status_diag/checkpoints/status_diag_20261008_candidate/manifest.json",
+          "manifestEntryPathField": "path",
+          "manifestEntryBytesField": "bytes",
+          "manifestEntrySha256Field": "sha256"
+        }
+      ]
+    },
+    {
+      "repoRelativePath": "development/player_fat32_status_diag/checkpoints/status_diag_20261008_candidate/build/attempt_pixel_prehold/AC201_tf_hdmi_pr.db",
+      "bytes": 10919652,
+      "sha256": "1F1BDAD04855329BD8830DFB45E2DE26C808287EBB58B8D774D77F58AEA85DD9",
+      "sources": [
+        {
+          "manifest": "development/player_fat32_status_diag/checkpoints/status_diag_20261008_candidate/manifest.json",
+          "manifestEntryPathField": "path",
+          "manifestEntryBytesField": "bytes",
+          "manifestEntrySha256Field": "sha256"
+        }
+      ]
+    },
+    {
+      "repoRelativePath": "development/player_fat32_status_diag/checkpoints/status_diag_20261008_candidate/build/attempt_status_bufg/AC201_tf_hdmi_pr.db",
+      "bytes": 10963728,
+      "sha256": "3F680D2D3AD48FEE3CBC9B674DD45D518D12A559AE9210F5D53757EDB0C05E36",
+      "sources": [
+        {
+          "manifest": "development/player_fat32_status_diag/checkpoints/status_diag_20261008_candidate/manifest.json",
+          "manifestEntryPathField": "path",
+          "manifestEntryBytesField": "bytes",
+          "manifestEntrySha256Field": "sha256"
+        }
+      ]
+    },
+    {
+      "repoRelativePath": "development/player_fat32_status_diag/checkpoints/status_diag_20261008_candidate/build/attempt_status_negedge/AC201_tf_hdmi_pr.db",
+      "bytes": 11000854,
+      "sha256": "B1F8592E456AA031C87160EA7C74850A169C672D0BDFBFB730DC5588F945D47F",
+      "sources": [
+        {
+          "manifest": "development/player_fat32_status_diag/checkpoints/status_diag_20261008_candidate/manifest.json",
+          "manifestEntryPathField": "path",
+          "manifestEntryBytesField": "bytes",
+          "manifestEntrySha256Field": "sha256"
+        }
+      ]
+    },
+    {
+      "repoRelativePath": "development/player_fat32_status_diag/checkpoints/status_diag_20261008_candidate/build/manual/AC201_tf_hdmi_elaborate.db",
+      "bytes": 6472486,
+      "sha256": "F4C1B33029B6059488C76F371A91C4B4AFAB149EA82497F7584BD51EDB68378B",
+      "sources": [
+        {
+          "manifest": "development/player_fat32_status_diag/checkpoints/status_diag_20261008_candidate/manifest.json",
+          "manifestEntryPathField": "path",
+          "manifestEntryBytesField": "bytes",
+          "manifestEntrySha256Field": "sha256"
+        }
+      ]
+    },
+    {
+      "repoRelativePath": "development/player_fat32_status_diag/checkpoints/status_diag_20261008_candidate/build/manual/AC201_tf_hdmi_gate.db",
+      "bytes": 6327750,
+      "sha256": "9FF2D564CBF51DD52CE40CC5EA5F4A7D4F0FD9820B52314A688FE6728EF0866B",
+      "sources": [
+        {
+          "manifest": "development/player_fat32_status_diag/checkpoints/status_diag_20261008_candidate/manifest.json",
+          "manifestEntryPathField": "path",
+          "manifestEntryBytesField": "bytes",
+          "manifestEntrySha256Field": "sha256"
+        }
+      ]
+    },
+    {
+      "repoRelativePath": "development/player_fat32_status_diag/checkpoints/status_diag_20261008_candidate/build/manual/AC201_tf_hdmi_place.db",
+      "bytes": 8392968,
+      "sha256": "1B28C7475B82CDD619C32A20139A663852588547C8C1355F3675E59F1B81EFD9",
+      "sources": [
+        {
+          "manifest": "development/player_fat32_status_diag/checkpoints/status_diag_20261008_candidate/manifest.json",
+          "manifestEntryPathField": "path",
+          "manifestEntryBytesField": "bytes",
+          "manifestEntrySha256Field": "sha256"
+        }
+      ]
+    },
+    {
+      "repoRelativePath": "development/player_fat32_status_diag/checkpoints/status_diag_20261008_candidate/build/manual/AC201_tf_hdmi_pr.db",
+      "bytes": 10921962,
+      "sha256": "24F8C84B10A42EC7AE456DCE9B75860C0A56D0D7F11D33D8F914B293E2C9C818",
+      "sources": [
+        {
+          "manifest": "development/player_fat32_status_diag/checkpoints/status_diag_20261008_candidate/manifest.json",
+          "manifestEntryPathField": "path",
+          "manifestEntryBytesField": "bytes",
+          "manifestEntrySha256Field": "sha256"
+        }
+      ]
+    },
+    {
+      "repoRelativePath": "development/player_fat32_status_diag/checkpoints/status_diag_20261008_candidate/build/manual/AC201_tf_hdmi_rtl.db",
+      "bytes": 5278186,
+      "sha256": "759277266BEA6BF79091F9AB9D3FE508EA525D19D363F8E6946636F1ED928705",
+      "sources": [
+        {
+          "manifest": "development/player_fat32_status_diag/checkpoints/status_diag_20261008_candidate/manifest.json",
+          "manifestEntryPathField": "path",
+          "manifestEntryBytesField": "bytes",
+          "manifestEntrySha256Field": "sha256"
+        }
+      ]
+    },
+    {
+      "repoRelativePath": "development/player_fat32_status_diag/checkpoints/status_diag_20261008_candidate/build/status_hex_sim/status.vvp",
+      "bytes": 32378,
+      "sha256": "626EF2100158D25716EAFA738F7A94DCBB99D0FFED27AD6CD7278B5BCDF459A3",
+      "sources": [
+        {
+          "manifest": "development/player_fat32_status_diag/checkpoints/status_diag_20261008_candidate/manifest.json",
+          "manifestEntryPathField": "path",
+          "manifestEntryBytesField": "bytes",
+          "manifestEntrySha256Field": "sha256"
+        }
+      ]
+    },
+    {
+      "repoRelativePath": "development/player_fat32_status_diag/checkpoints/status_diag_20261008_candidate/build/status_hex_sim/tb_status_hex595.vvp",
+      "bytes": 32339,
+      "sha256": "F1F31A8CD0652CB75AFA453AD126B30A8D3BF96662AB4CD851658A8D7C503ADF",
+      "sources": [
+        {
+          "manifest": "development/player_fat32_status_diag/checkpoints/status_diag_20261008_candidate/manifest.json",
+          "manifestEntryPathField": "path",
+          "manifestEntryBytesField": "bytes",
+          "manifestEntrySha256Field": "sha256"
+        }
+      ]
+    },
+    {
+      "repoRelativePath": "development/player_fat32_status_diag/checkpoints/status_diag_20261008_candidate/build/status_monitor_sim/status.vvp",
+      "bytes": 28154,
+      "sha256": "3081BC0327D4D4483C793F716C2FB54B10C0EDBEEB0A120A5AAA6E6060C1DA27",
+      "sources": [
+        {
+          "manifest": "development/player_fat32_status_diag/checkpoints/status_diag_20261008_candidate/manifest.json",
+          "manifestEntryPathField": "path",
+          "manifestEntryBytesField": "bytes",
+          "manifestEntrySha256Field": "sha256"
+        }
+      ]
+    },
+    {
+      "repoRelativePath": "development/player_osd/checkpoints/osd_20261009_candidate/build/manual/AC201_tf_hdmi_elaborate.db",
+      "bytes": 6693968,
+      "sha256": "7FB66A932FF82821B0861B069A936FF21A7AEF848F28359C5BB6859BF2F35E16",
+      "sources": [
+        {
+          "manifest": "development/player_osd/checkpoints/osd_20261009_candidate/manifest.json",
+          "manifestEntryPathField": "path",
+          "manifestEntryBytesField": "bytes",
+          "manifestEntrySha256Field": "sha256"
+        }
+      ]
+    },
+    {
+      "repoRelativePath": "development/player_osd/checkpoints/osd_20261009_candidate/build/manual/AC201_tf_hdmi_gate.db",
+      "bytes": 6462072,
+      "sha256": "9CFF9314CFAF9184787D8790542D8FD18D522F29DF6A9006005CA35A7F8A1AF9",
+      "sources": [
+        {
+          "manifest": "development/player_osd/checkpoints/osd_20261009_candidate/manifest.json",
+          "manifestEntryPathField": "path",
+          "manifestEntryBytesField": "bytes",
+          "manifestEntrySha256Field": "sha256"
+        }
+      ]
+    },
+    {
+      "repoRelativePath": "development/player_osd/checkpoints/osd_20261009_candidate/build/manual/AC201_tf_hdmi_place.db",
+      "bytes": 8623058,
+      "sha256": "CB048FD50CE74D8DF2DCA63508FC56432CB500D4FAB51C23CA2C4C69565E4B8A",
+      "sources": [
+        {
+          "manifest": "development/player_osd/checkpoints/osd_20261009_candidate/manifest.json",
+          "manifestEntryPathField": "path",
+          "manifestEntryBytesField": "bytes",
+          "manifestEntrySha256Field": "sha256"
+        }
+      ]
+    },
+    {
+      "repoRelativePath": "development/player_osd/checkpoints/osd_20261009_candidate/build/manual/AC201_tf_hdmi_pr.db",
+      "bytes": 11275272,
+      "sha256": "BB6F561BD5A24B405A056BDB587A2520F7E282DDFE4C741089FC4DF005F82CEA",
+      "sources": [
+        {
+          "manifest": "development/player_osd/checkpoints/osd_20261009_candidate/manifest.json",
+          "manifestEntryPathField": "path",
+          "manifestEntryBytesField": "bytes",
+          "manifestEntrySha256Field": "sha256"
+        }
+      ]
+    },
+    {
+      "repoRelativePath": "development/player_osd/checkpoints/osd_20261009_candidate/build/manual/AC201_tf_hdmi_rtl.db",
+      "bytes": 5440438,
+      "sha256": "5D0BC5A9F2EA9A0B2A0FB914DB0392F2A6E527FBEDA5E02289E7AEFCB60447C2",
+      "sources": [
+        {
+          "manifest": "development/player_osd/checkpoints/osd_20261009_candidate/manifest.json",
+          "manifestEntryPathField": "path",
+          "manifestEntryBytesField": "bytes",
+          "manifestEntrySha256Field": "sha256"
+        }
+      ]
+    },
+    {
+      "repoRelativePath": "development/player_osd/checkpoints/osd_20261009_candidate/build/osd_sim/tb_player_osd.vvp",
+      "bytes": 95216,
+      "sha256": "2B92A85C26F658FA608E6BEFC350C3E119E0DE77E62D6871484835A1B25B2784",
+      "sources": [
+        {
+          "manifest": "development/player_osd/checkpoints/osd_20261009_candidate/manifest.json",
+          "manifestEntryPathField": "path",
+          "manifestEntryBytesField": "bytes",
+          "manifestEntrySha256Field": "sha256"
+        }
+      ]
+    },
+    {
+      "repoRelativePath": "development/player_osd/checkpoints/osd_20261009_candidate/build/state_sim/state.vvp",
+      "bytes": 24332,
+      "sha256": "9A26E991F05E8E3E22CC545B06EFD9942C61A580D29B1C7710B43AD061CEBB41",
+      "sources": [
+        {
+          "manifest": "development/player_osd/checkpoints/osd_20261009_candidate/manifest.json",
+          "manifestEntryPathField": "path",
+          "manifestEntryBytesField": "bytes",
+          "manifestEntrySha256Field": "sha256"
+        }
+      ]
+    },
+    {
+      "repoRelativePath": "development/player_osd_phy_fix/checkpoints/osd_phy_fix_20261009_candidate/build/attempt_timing_high/AC201_tf_hdmi_place.db",
+      "bytes": 8622006,
+      "sha256": "218DDA1E33544AB232A966096396506FCB654ABE1BA23178D133F91A5CAF441F",
+      "sources": [
+        {
+          "manifest": "development/player_osd_phy_fix/checkpoints/osd_phy_fix_20261009_candidate/manifest.json",
+          "manifestEntryPathField": "path",
+          "manifestEntryBytesField": "bytes",
+          "manifestEntrySha256Field": "sha256"
+        }
+      ]
+    },
+    {
+      "repoRelativePath": "development/player_osd_phy_fix/checkpoints/osd_phy_fix_20261009_candidate/build/attempt_timing_high_routability/AC201_tf_hdmi_pr.db",
+      "bytes": 11321034,
+      "sha256": "ECAD033FCE64E85CD95988F73D75212DE9255F55B5A5B09911E724EF1724F5F7",
+      "sources": [
+        {
+          "manifest": "development/player_osd_phy_fix/checkpoints/osd_phy_fix_20261009_candidate/manifest.json",
+          "manifestEntryPathField": "path",
+          "manifestEntryBytesField": "bytes",
+          "manifestEntrySha256Field": "sha256"
+        }
+      ]
+    },
+    {
+      "repoRelativePath": "development/player_osd_phy_fix/checkpoints/osd_phy_fix_20261009_candidate/build/attempt_timing_high_routability/prehold.db",
+      "bytes": 11319458,
+      "sha256": "3035B28B0448A4B7636AEC336F6B8DF3F8800670B9B9AF58A4BCECF22DFB2977",
+      "sources": [
+        {
+          "manifest": "development/player_osd_phy_fix/checkpoints/osd_phy_fix_20261009_candidate/manifest.json",
+          "manifestEntryPathField": "path",
+          "manifestEntryBytesField": "bytes",
+          "manifestEntrySha256Field": "sha256"
+        }
+      ]
+    },
+    {
+      "repoRelativePath": "development/player_osd_phy_fix/checkpoints/osd_phy_fix_20261009_candidate/build/manual/AC201_tf_hdmi_elaborate.db",
+      "bytes": 6695202,
+      "sha256": "631F34022A07E4DC598A08F7F5F811A6F142CE46586F3C0468E0BC5A35778EA1",
+      "sources": [
+        {
+          "manifest": "development/player_osd_phy_fix/checkpoints/osd_phy_fix_20261009_candidate/manifest.json",
+          "manifestEntryPathField": "path",
+          "manifestEntryBytesField": "bytes",
+          "manifestEntrySha256Field": "sha256"
+        }
+      ]
+    },
+    {
+      "repoRelativePath": "development/player_osd_phy_fix/checkpoints/osd_phy_fix_20261009_candidate/build/manual/AC201_tf_hdmi_gate.db",
+      "bytes": 6470852,
+      "sha256": "5CD9DA3411993D05A070C1BBB9D88A7EA140E35176C0915DFB09403882083E08",
+      "sources": [
+        {
+          "manifest": "development/player_osd_phy_fix/checkpoints/osd_phy_fix_20261009_candidate/manifest.json",
+          "manifestEntryPathField": "path",
+          "manifestEntryBytesField": "bytes",
+          "manifestEntrySha256Field": "sha256"
+        }
+      ]
+    },
+    {
+      "repoRelativePath": "development/player_osd_phy_fix/checkpoints/osd_phy_fix_20261009_candidate/build/manual/AC201_tf_hdmi_place.db",
+      "bytes": 8590556,
+      "sha256": "4F3018D7853A0C8EDED9F4772215A6CB860621C8DD18F7AF67BCE97E3EA511ED",
+      "sources": [
+        {
+          "manifest": "development/player_osd_phy_fix/checkpoints/osd_phy_fix_20261009_candidate/manifest.json",
+          "manifestEntryPathField": "path",
+          "manifestEntryBytesField": "bytes",
+          "manifestEntrySha256Field": "sha256"
+        }
+      ]
+    },
+    {
+      "repoRelativePath": "development/player_osd_phy_fix/checkpoints/osd_phy_fix_20261009_candidate/build/manual/AC201_tf_hdmi_pr.db",
+      "bytes": 11321034,
+      "sha256": "ECAD033FCE64E85CD95988F73D75212DE9255F55B5A5B09911E724EF1724F5F7",
+      "sources": [
+        {
+          "manifest": "development/player_osd_phy_fix/checkpoints/osd_phy_fix_20261009_candidate/manifest.json",
+          "manifestEntryPathField": "path",
+          "manifestEntryBytesField": "bytes",
+          "manifestEntrySha256Field": "sha256"
+        }
+      ]
+    },
+    {
+      "repoRelativePath": "development/player_osd_phy_fix/checkpoints/osd_phy_fix_20261009_candidate/build/manual/AC201_tf_hdmi_rtl.db",
+      "bytes": 5441122,
+      "sha256": "666697C0632812F1E21B69144D214C377E780E21F2C17EE57171174329B21132",
+      "sources": [
+        {
+          "manifest": "development/player_osd_phy_fix/checkpoints/osd_phy_fix_20261009_candidate/manifest.json",
+          "manifestEntryPathField": "path",
+          "manifestEntryBytesField": "bytes",
+          "manifestEntrySha256Field": "sha256"
+        }
+      ]
+    },
+    {
+      "repoRelativePath": "development/player_osd_phy_fix/checkpoints/osd_phy_fix_20261009_candidate/build/osd_sim/tb_player_osd.vvp",
+      "bytes": 95248,
+      "sha256": "8C17D1F2C83B0FF8AD46FBCF691E8745F1CD8142BCE030516592F61864D49801",
+      "sources": [
+        {
+          "manifest": "development/player_osd_phy_fix/checkpoints/osd_phy_fix_20261009_candidate/manifest.json",
+          "manifestEntryPathField": "path",
+          "manifestEntryBytesField": "bytes",
+          "manifestEntrySha256Field": "sha256"
+        }
+      ]
+    },
+    {
+      "repoRelativePath": "development/player_osd_phy_fix/checkpoints/osd_phy_fix_20261009_candidate/build/state_sim/state.vvp",
+      "bytes": 24348,
+      "sha256": "149852719A50FA298000D18A637CBC83334E21E37AF5C4837D0066C809D1A617",
+      "sources": [
+        {
+          "manifest": "development/player_osd_phy_fix/checkpoints/osd_phy_fix_20261009_candidate/manifest.json",
+          "manifestEntryPathField": "path",
+          "manifestEntryBytesField": "bytes",
+          "manifestEntrySha256Field": "sha256"
+        }
+      ]
+    }
+  ],
+  "additionalManifestRequiredFiles": [
+    {
+      "repoRelativePath": "development/player_dynamic_text_pcm_crc_probe/checkpoints/pcm_crc_probe_20261011_candidate/build/model/__pycache__/generate_reference.cpython-312.pyc",
+      "bytes": 11679,
+      "sha256": "33F0D2AD2D070A6D91086F79B28F35E32936AA7D44F6EF0A7AB4DE1E7ED7EA57",
+      "manifest": "development/player_dynamic_text_pcm_crc_probe/checkpoints/pcm_crc_probe_20261011_candidate/manifest.json"
+    },
+    {
+      "repoRelativePath": "development/player_fat32_packet_diag/checkpoints/packet_diag_20261008_candidate/build/attempt_packet_reroute/minidump-20261008-185941.dmp",
+      "bytes": 125877,
+      "sha256": "AF51DA926CF15BB0A6A2885B68798AA60469A2532D81DBD33D58AA4BFA40AC7D",
+      "manifest": "development/player_fat32_packet_diag/checkpoints/packet_diag_20261008_candidate/manifest.json"
+    },
+    {
+      "repoRelativePath": "development/player_fat32_packet_diag/checkpoints/packet_diag_20261008_candidate/src/td_project/minidump-20261008-172852.dmp",
+      "bytes": 130917,
+      "sha256": "3B55EBEDEFCD45F4110974FE96F5C0AF9077053721C3551117416D1EDFB56BE1",
+      "manifest": "development/player_fat32_packet_diag/checkpoints/packet_diag_20261008_candidate/manifest.json"
+    },
+    {
+      "repoRelativePath": "development/player_fat32_packet_diag/checkpoints/packet_diag_20261008_candidate/src/td_project/minidump-20261008-185941.dmp",
+      "bytes": 125877,
+      "sha256": "AF51DA926CF15BB0A6A2885B68798AA60469A2532D81DBD33D58AA4BFA40AC7D",
+      "manifest": "development/player_fat32_packet_diag/checkpoints/packet_diag_20261008_candidate/manifest.json"
+    },
+    {
+      "repoRelativePath": "development/player_fat32_packet_diag/checkpoints/packet_diag_20261008_incomplete/build/attempt_packet_reroute/minidump-20261008-185941.dmp",
+      "bytes": 125877,
+      "sha256": "AF51DA926CF15BB0A6A2885B68798AA60469A2532D81DBD33D58AA4BFA40AC7D",
+      "manifest": "development/player_fat32_packet_diag/checkpoints/packet_diag_20261008_incomplete/manifest.json"
+    },
+    {
+      "repoRelativePath": "development/player_fat32_packet_diag/checkpoints/packet_diag_20261008_incomplete/src/td_project/minidump-20261008-172852.dmp",
+      "bytes": 130917,
+      "sha256": "3B55EBEDEFCD45F4110974FE96F5C0AF9077053721C3551117416D1EDFB56BE1",
+      "manifest": "development/player_fat32_packet_diag/checkpoints/packet_diag_20261008_incomplete/manifest.json"
+    },
+    {
+      "repoRelativePath": "development/player_fat32_packet_diag/checkpoints/packet_diag_20261008_incomplete/src/td_project/minidump-20261008-185941.dmp",
+      "bytes": 125877,
+      "sha256": "AF51DA926CF15BB0A6A2885B68798AA60469A2532D81DBD33D58AA4BFA40AC7D",
+      "manifest": "development/player_fat32_packet_diag/checkpoints/packet_diag_20261008_incomplete/manifest.json"
+    },
+    {
+      "repoRelativePath": "development/player_fat32_status_diag/checkpoints/status_diag_20261008_candidate/src/td_project/minidump-20261008-172852.dmp",
+      "bytes": 130917,
+      "sha256": "3B55EBEDEFCD45F4110974FE96F5C0AF9077053721C3551117416D1EDFB56BE1",
+      "manifest": "development/player_fat32_status_diag/checkpoints/status_diag_20261008_candidate/manifest.json"
+    },
+    {
+      "repoRelativePath": "development/player_osd_phy_fix/checkpoints/osd_phy_fix_20261009_candidate/build/serializer_tests/delay_repro_baseline.vcd",
+      "bytes": 47769,
+      "sha256": "EBEE7D80710ED9C386E4D55EDF2CD115E6301EAEECFF015988B8FC12C66DF3CD",
+      "manifest": "development/player_osd_phy_fix/checkpoints/osd_phy_fix_20261009_candidate/manifest.json"
+    },
+    {
+      "repoRelativePath": "development/player_osd_phy_fix/checkpoints/osd_phy_fix_20261009_candidate/build/serializer_tests/delay_repro_candidate.vcd",
+      "bytes": 47381,
+      "sha256": "8D0BCECE947962767803868E65A744CCC4359DE6A31919508947EA74CFAA5DBE",
+      "manifest": "development/player_osd_phy_fix/checkpoints/osd_phy_fix_20261009_candidate/manifest.json"
+    }
+  ],
+  "uniqueFileCountIncludingAllTypes": 188
+}

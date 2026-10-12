@@ -1,0 +1,236 @@
+{
+  "version": "C11206",
+  "kind": "BMP24_NEAREST_NEIGHBOUR_ASPECT_FIT",
+  "boardStatus": "PENDING_BOARD_VALIDATION",
+  "createdBeijing": "2026-10-12 13:34:22",
+  "sourceProject": "E:\\VSCODE-project\\FPGA-ANLU\\development\\player_bmp_scale",
+  "parentVersion": "C11205",
+  "successfulBaseline": "C11205 transition_wipe.bit with known waveform display issues",
+  "canonicalBit": "E:\\VSCODE-project\\FPGA-ANLU\\development\\player_bmp_scale\\build\\manual\\AC201_player_bmp_scale.bit",
+  "deliveryBitName": "bmp_scale.bit",
+  "bitBytes": 629624,
+  "bitSha256": "C60464C0D4396D316DB7622E4CB0B70B5DE12C25148AFE234AC7C795C818625D",
+  "rollbackBitName": "transition_wipe.bit",
+  "rollbackSha256": "748E0AF0F9BF0656410C09735E371F655BEDD330C259E43858B614B1D95AE8F9",
+  "scopeHash": "955b37cbc38f46ca68595f3e55589ab6c6568fc75ec1cd06925623f86d290c24",
+  "scriptHash": "c61192bd76dc49352258fc0f2ea9fe218994785ddb3246079f212718622a2080",
+  "stageRunIds": {
+    "synthesis": "03c1c1aa-4c00-4a51-8a44-44c994410696",
+    "physical": "4c02438d-3657-4bd4-a4ce-6bdad4aa7cef",
+    "bitstream": "363e2765-ce3c-4bbe-8aae-266761446b35"
+  },
+  "timing": {
+    "SWNSns": 0.628,
+    "STNSns": 0.0,
+    "HWNSns": 0.004,
+    "HTNSns": 0.0
+  },
+  "timingCoveragePercent": 99.97,
+  "resource": {
+    "LUT": 15031,
+    "reg": 8803,
+    "LE": 16520,
+    "BRAM9K": 28,
+    "DSP": 8,
+    "GCLK": 2
+  },
+  "holdFixPerformed": false,
+  "goldReceipt": {
+    "status": "PASS",
+    "completeFrames": 6,
+    "checkedPixels": 1843200,
+    "productionAssets": 4,
+    "nativeRegressionFrames": 1,
+    "oddVerticalFrames": 1,
+    "errorFixtureCases": 4,
+    "sourceSha256": {
+      "bmp_scale_engine.v": "a6c607738db921e02c3d717f9c6cc9044cc3ddbc4fa02dd90b253fb541ef2c4d",
+      "tf_bmp_file_player.v": "9cddacb2f20a36d2e066eb74bf8fe55c5d675115281ce73b7d64edad3b8f93df"
+    },
+    "currentSourceSha256": {
+      "bmp_scale_engine.v": "a6c607738db921e02c3d717f9c6cc9044cc3ddbc4fa02dd90b253fb541ef2c4d",
+      "tf_bmp_file_player.v": "9cddacb2f20a36d2e066eb74bf8fe55c5d675115281ce73b7d64edad3b8f93df"
+    },
+    "sourceSnapshot": "scaler_source_snapshot_20261012_132640_324.json",
+    "testSha256": {
+      "tb_scaler_full_loader.v": "f7779c3d75fbd1e02278869f3042094e0da72d7e3f54b349633a5004336210c0",
+      "tb_scaler_bad_inputs.v": "3214fd05cd0bb8afaec4128da3b0b77eb5133a81398f9c61fba41e8ca028991a",
+      "scaler_make_media.py": "eb6df6693ce567c9c143e31d3481761913b214414dbdcf52304d3d1952e429dd",
+      "scaler_full_loader.ps1": "2813d1fee3432b776a6e9feaf43e147f8d4d5f4f26b1954ee0fd96ff4b614e2b",
+      "scaler_bad_inputs.ps1": "5fe0bcd00d5d0acb5e1a9b8a2791a2728c60aa7a04e34495360d110cf7a8a198",
+      "scaler_write_receipt.ps1": "1d114f080aff08eaf58b588bdd583907728a2e3c07a0fdffc81484d9fb2876a5"
+    },
+    "successfulRunLog": "scaler_full_loader_run_20261012_132640_324.log",
+    "successfulRunLogSha256": "e83d9cad5ea1a6b34d3f50de9af2793cca7505019e6402d7a0759a3d20e1a87b",
+    "successfulErrorRunLog": "scaler_bad_inputs_run_20261012_133144_308.log",
+    "successfulErrorRunLogSha256": "38043489d6cfba0a321507bbc193ba7ba6e29855386223dce592823f293f95a6",
+    "assetGold": [
+      {
+        "bmp": "bmp_320x240_bottomup.bmp",
+        "width": 320,
+        "height": 240,
+        "heightSign": "positive/bottom-up",
+        "stride": 960,
+        "rowPaddingBytes": 0,
+        "geometry": {
+          "dw": 640,
+          "dh": 480,
+          "offx": 0,
+          "offy": 0
+        },
+        "bmpSha256": "d5bd5a31eb4fef3bf93b5eeb2e6494f071e0980f1b18f83cba1d5cf8ef65fdae",
+        "sourceBytesMemSha256": "4078df66212fe3e0931267b4831f04206d167e01383eb23df8291371fc5ed4b0",
+        "expectedBottomupRgb24MemSha256": "750e0431edb09b49cee3f99d8d2c30e61e6ac2fb06e2aca43fd2ec5c5619d1b9"
+      },
+      {
+        "bmp": "bmp_800x600_bottomup.bmp",
+        "width": 800,
+        "height": 600,
+        "heightSign": "positive/bottom-up",
+        "stride": 2400,
+        "rowPaddingBytes": 0,
+        "geometry": {
+          "dw": 640,
+          "dh": 480,
+          "offx": 0,
+          "offy": 0
+        },
+        "bmpSha256": "3e1cecfab75839594dfcc4bd37e7a1178a7d0ebf6e95618f60885df0f1b44735",
+        "sourceBytesMemSha256": "d28a7f2f6a284f3a1ef95d036aab4b7717e5d1f65421e849204216308b08db6c",
+        "expectedBottomupRgb24MemSha256": "958001b1aab1de4f472d91905c9a45db587d7431616206794254ddc4df0500cd"
+      },
+      {
+        "bmp": "bmp_191x321_topdown.bmp",
+        "width": 191,
+        "height": 321,
+        "heightSign": "negative/top-down",
+        "stride": 576,
+        "rowPaddingBytes": 3,
+        "geometry": {
+          "dw": 285,
+          "dh": 480,
+          "offx": 177,
+          "offy": 0
+        },
+        "bmpSha256": "f3beeef3add7904620b10d3d70561a2e65df295abfefcddc667c3cc8ce23e7de",
+        "sourceBytesMemSha256": "11a7e5e689d129b61094756dedc4c7101994c283123358609c6f9ea62b52e946",
+        "expectedBottomupRgb24MemSha256": "22e7c085cc0f3f70d16fa546af9341b7f3a919530a0cf29b7aaa7ff4a2d87701"
+      },
+      {
+        "bmp": "bmp_512x128_bottomup.bmp",
+        "width": 512,
+        "height": 128,
+        "heightSign": "positive/bottom-up",
+        "stride": 1536,
+        "rowPaddingBytes": 0,
+        "geometry": {
+          "dw": 640,
+          "dh": 160,
+          "offx": 0,
+          "offy": 160
+        },
+        "bmpSha256": "e14b2fd1a28cc1617750d09e8fcccbfe38c424d4c49942c769d8475bea45ebcb",
+        "sourceBytesMemSha256": "b94903867833aee3bfb35ffd5b11abee25965c5169234c17b859c85b34a217f6",
+        "expectedBottomupRgb24MemSha256": "31c19228cddfb210d12ca261624516a6938fc879c627d30d5258d6974b1bfcd9"
+      },
+      {
+        "bmp": "scaler_native_640x480.bmp",
+        "width": 640,
+        "height": 480,
+        "heightSign": "positive/bottom-up",
+        "stride": 1920,
+        "rowPaddingBytes": 0,
+        "geometry": {
+          "dw": 640,
+          "dh": 480,
+          "offx": 0,
+          "offy": 0
+        },
+        "bmpSha256": "738d09ccde4f6ead183b8967f91d008b92d68c442ba68fed082389b63c2ec721",
+        "sourceBytesMemSha256": "b1c1defbfc1221f762c6d55c8639c029173e285e12d73c0e80879b90a68dae8f",
+        "expectedBottomupRgb24MemSha256": "8231d3cf670bfca0dc423aded9c261813edac3f19dd65f069e4cda4a00cb8895"
+      },
+      {
+        "bmp": "scaler_odd_vertical_800x599.bmp",
+        "width": 800,
+        "height": 599,
+        "heightSign": "positive/bottom-up",
+        "stride": 2400,
+        "rowPaddingBytes": 0,
+        "geometry": {
+          "dw": 640,
+          "dh": 479,
+          "offx": 0,
+          "offy": 0
+        },
+        "bmpSha256": "c286d37ae4335c126cbfed5ff3c41221ecc06737aca4473ce892281b27f28394",
+        "sourceBytesMemSha256": "61f920a35364feca90c2d12f83a2e9a343cc937de26de664737a38783bf229d1",
+        "expectedBottomupRgb24MemSha256": "c2113b42de7532fe541d8d686322dc3668fcf85493cc58a4ed05e37230b02de4"
+      }
+    ],
+    "failedFixtures": [
+      {
+        "name": "zero_dimension",
+        "result": "PASS retained old image/buffer; no new publication"
+      },
+      {
+        "name": "unsupported_width_1025",
+        "result": "PASS retained old image/buffer; no new publication"
+      },
+      {
+        "name": "short_511_byte_sector",
+        "result": "PASS retained old image/buffer; no new publication"
+      },
+      {
+        "name": "truncated_payload_transport_error",
+        "result": "PASS retained old image/buffer; no new publication"
+      }
+    ],
+    "coverage": [
+      "real tf_bmp_file_player header/sector/payload/COMMIT path",
+      "640x480 every write_en output compared against independent BMP-derived bottom-up RGB24 gold",
+      "positive and negative BMP height; odd-width 3-byte row padding; source sectors at 512-byte boundaries",
+      "non-integer horizontal/vertical nearest-neighbor mapping; repeated source rows; centered horizontal black bars",
+      "odd vertical letterbox: 800x599 -> 640x479, top black rows=0 and bottom black rows=1",
+      "periodic write_ready stalls and a continuous 300-cycle write stall; all pixels retained",
+      "write_finish_toggle sent only after all accepted output words are drained and >256 clocks elapsed",
+      "WAIT_DISPLAY with queued NEXT does not request another sector before a real display_finish_toggle",
+      "all four malformed/error inputs preserve previously committed display identity and buffer"
+    ],
+    "limitations": [
+      "host-only card sector and frame-writer models; no physical TF, encrypted SDRAM, HDMI, or board validation",
+      "preview/gold files are host reference artifacts and are not TF payloads"
+    ]
+  },
+  "models": {
+    "scaler_full_loader.log": "786555C243772200AEA843397CE1E70C114E0C1E2CA3BA0549F827F70679ED11",
+    "write_backpressure.log": "A96882075B862E3A9EE4856F9754DD33BEC8D59E852F3C4AF43B6099DA52DCD4"
+  },
+  "inheritedSourceAudit": "B47A2DC377ABCD94DB9CEB2779F92CABE7B3728EEA167BDC4DAF8A5EE887EE7C",
+  "supported": {
+    "bmp": "24-bit BI_RGB",
+    "widthMax": 1024,
+    "heightMax": 768,
+    "signedHeight": true,
+    "rowPadding": true,
+    "aspectFitBlackBorders": true,
+    "display": [
+      640,
+      480
+    ]
+  },
+  "backpressure": {
+    "thresholdWords": 480,
+    "usableCapacityWords": 511,
+    "observedPeakWords": 481,
+    "pressureModelPixels": 4096,
+    "pressureModelStalls": 5908
+  },
+  "knownIssues": [
+    "Dynamic waveform double trace disappears under HOLD; unique cause unconfirmed",
+    "Low waveform display resolution; optimization deferred"
+  ],
+  "hardwareActions": "No local JTAG, TF write or Flash programming; copying supplied BMP media is a future user action",
+  "checkpoint": "E:\\VSCODE-project\\FPGA-ANLU\\development\\player_bmp_scale\\checkpoints\\bmp_scale_20261012_candidate",
+  "evidenceLimit": "Complete BMP loader/gold and actual pack/backend/FIFO pressure models, static audit and original-constraint TD timing. Encrypted SDRAM, real TF/card fragmented reverse access, physical BRAM/HDMI and board unverified."
+}
