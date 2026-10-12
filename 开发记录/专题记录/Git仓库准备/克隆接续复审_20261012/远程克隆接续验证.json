@@ -1,0 +1,372 @@
+{
+  "repo": "E:\\VSCODE-project\\FPGA-ANLU\\tmp\\handoff_remote_clean_20261012\\FPGA-ANLU",
+  "docs_root": "E:\\VSCODE-project\\FPGA-ANLU\\tmp\\handoff_remote_clean_20261012\\FPGA-ANLU-docs",
+  "failed": false,
+  "results": [
+    {
+      "status": "PASS",
+      "name": "PowerShell 7",
+      "detail": "major version 7"
+    },
+    {
+      "status": "PASS",
+      "name": "Git",
+      "detail": "2.55.0.windows.3"
+    },
+    {
+      "status": "PASS",
+      "name": "Python",
+      "detail": "3.12.13 (C:\\Users\\PENGYUHAO\\AppData\\Roaming\\uv\\python\\cpython-3.12.13-windows-x86_64-none\\python.exe)"
+    },
+    {
+      "status": "PASS",
+      "name": "iverilog",
+      "detail": "Icarus 12.0 (E:\\VSCODE-project\\FPGA-ANLU\\tmp\\handoff_main_20261012\\FPGA-ANLU\\bringup\\tf_wav_hdmi\\tools\\iverilog\\app\\bin\\iverilog.exe)"
+    },
+    {
+      "status": "PASS",
+      "name": "vvp",
+      "detail": "Icarus 12.0 (E:\\VSCODE-project\\FPGA-ANLU\\tmp\\handoff_main_20261012\\FPGA-ANLU\\bringup\\tf_wav_hdmi\\tools\\iverilog\\app\\bin\\vvp.exe)"
+    },
+    {
+      "status": "PASS",
+      "name": "ANLU_IVERILOG_BIN",
+      "detail": "E:\\VSCODE-project\\FPGA-ANLU\\tmp\\handoff_main_20261012\\FPGA-ANLU\\bringup\\tf_wav_hdmi\\tools\\iverilog\\app\\bin"
+    },
+    {
+      "status": "PASS",
+      "name": "Tang Dynasty command wrapper",
+      "detail": "找到 td_commands_prompt.exe：C:\\Anlogic\\TD_6.2.1_SP1_6.2.178.840\\bin\\td_commands_prompt.exe；检查器未启动工具。"
+    },
+    {
+      "status": "PASS",
+      "name": "C11206 verified checkpoint",
+      "detail": "268 项文件字节数/SHA256一致；manifest SHA256 71F87A4B82F974092F63102E0D7522B6C5577BD367B6789C6AD0DDDA37A76FB7"
+    },
+    {
+      "status": "PASS",
+      "name": "C11206 acceptance_verified",
+      "detail": "版本为 C11206，封存状态凭据存在。"
+    },
+    {
+      "status": "PASS",
+      "name": "C11206 live bit",
+      "detail": "SHA256 C60464C0D4396D316DB7622E4CB0B70B5DE12C25148AFE234AC7C795C818625D 与 acceptance_verified 一致。"
+    },
+    {
+      "status": "PASS",
+      "name": "C11206 docs receipt",
+      "detail": "资料仓 verified_receipt 与工程 acceptance_verified 匹配。"
+    },
+    {
+      "status": "PASS",
+      "name": "C11205 parent verified checkpoint",
+      "detail": "169 项文件字节数/SHA256一致；manifest SHA256 A6B0AE1DBCAF1A92D360FA7F6E4AA935C1777A06D705940ED1364999A239A4A9"
+    },
+    {
+      "status": "PASS",
+      "name": "TF SCALE1.BMP",
+      "detail": "SHA256 与 media_manifest 一致（230454 bytes）。"
+    },
+    {
+      "status": "PASS",
+      "name": "TF SCALE2.BMP",
+      "detail": "SHA256 与 media_manifest 一致（1440054 bytes）。"
+    },
+    {
+      "status": "PASS",
+      "name": "TF SCALE3.BMP",
+      "detail": "SHA256 与 media_manifest 一致（184950 bytes）。"
+    },
+    {
+      "status": "PASS",
+      "name": "TF SCALE4.BMP",
+      "detail": "SHA256 与 media_manifest 一致（196662 bytes）。"
+    },
+    {
+      "status": "PASS",
+      "name": "C11206 TEST.WAV source reference",
+      "detail": "参考 SHA256 D5244FD3935052A743379D9331EE78109C8A913241ED60DE472CB9E34A17FECF 与 real_music package audit 一致。"
+    },
+    {
+      "status": "PASS",
+      "name": "60秒音乐 TEST.WAV",
+      "detail": "SHA256 与 real_music package audit 一致：deliverables\\real_music_20261008\\card\\TEST.WAV"
+    },
+    {
+      "status": "PASS",
+      "name": "8秒音阶 TEST.WAV provenance",
+      "detail": "历史记录一致，参考 SHA256 B29C1669416DA2C492187A9DB66E0E97BFCD2E6FA9812B33ED300C1C21CA80A7。"
+    },
+    {
+      "status": "PASS",
+      "name": "8秒音阶 TEST.WAV",
+      "detail": "SHA256 与自己的历史验证记录一致：bringup\\tf_wav_hdmi\\card_media\\TEST.WAV"
+    },
+    {
+      "status": "PASS",
+      "name": "资料仓当前状态",
+      "detail": "E:\\VSCODE-project\\FPGA-ANLU\\tmp\\handoff_remote_clean_20261012\\FPGA-ANLU-docs\\开发记录\\当前状态.md"
+    },
+    {
+      "status": "PASS",
+      "name": "C11206五扩展验收资料",
+      "detail": "E:\\VSCODE-project\\FPGA-ANLU\\tmp\\handoff_remote_clean_20261012\\FPGA-ANLU-docs\\开发记录\\专题记录\\整机集成\\C11206五扩展验收_20261012\\README.md"
+    },
+    {
+      "status": "INFO",
+      "name": "checkpoint .db/.vvp 遮蔽盘点",
+      "detail": "检查 31 个 manifest；明确引用 179 项，其中缺文件 0 项；磁盘上存在但未列入 manifest 的忽略类文件 0 项。"
+    },
+    {
+      "status": "INFO",
+      "name": "development\\player_480p\\checkpoints\\compact_data_d1_verified\\manifest.json",
+      "detail": "manifest 引用 1 项 .db/.vvp"
+    },
+    {
+      "status": "INFO",
+      "name": "development\\player_dynamic_text\\checkpoints\\dynamic_text_20261009_candidate\\manifest.json",
+      "detail": "manifest 引用 10 项 .db/.vvp"
+    },
+    {
+      "status": "INFO",
+      "name": "development\\player_dynamic_text_audio_packet_probe\\checkpoints\\audio_packet_probe_20261011_candidate\\manifest.json",
+      "detail": "manifest 引用 7 项 .db/.vvp"
+    },
+    {
+      "status": "INFO",
+      "name": "development\\player_dynamic_text_axis_probe\\checkpoints\\axis_probe_20261009_candidate\\build\\prehold\\manifest.json",
+      "detail": "manifest 引用 1 项 .db/.vvp"
+    },
+    {
+      "status": "INFO",
+      "name": "development\\player_dynamic_text_axis_probe\\checkpoints\\axis_probe_20261009_candidate\\manifest.json",
+      "detail": "manifest 引用 4 项 .db/.vvp"
+    },
+    {
+      "status": "INFO",
+      "name": "development\\player_dynamic_text_bit17_led_probe\\checkpoints\\bit17_led_probe_20261011_candidate\\manifest.json",
+      "detail": "manifest 引用 6 项 .db/.vvp"
+    },
+    {
+      "status": "INFO",
+      "name": "development\\player_dynamic_text_cadence_probe\\checkpoints\\cadence_probe_20261010_candidate\\manifest.json",
+      "detail": "manifest 引用 8 项 .db/.vvp"
+    },
+    {
+      "status": "INFO",
+      "name": "development\\player_dynamic_text_fit\\checkpoints\\dynamic_text_fit_20261009_candidate\\manifest.json",
+      "detail": "manifest 引用 7 项 .db/.vvp"
+    },
+    {
+      "status": "INFO",
+      "name": "development\\player_dynamic_text_video_probe\\checkpoints\\dynamic_text_video_probe_20261009_candidate\\manifest.json",
+      "detail": "manifest 引用 12 项 .db/.vvp"
+    },
+    {
+      "status": "INFO",
+      "name": "development\\player_fat32\\checkpoints\\fat32_candidate_v1\\manifest.json",
+      "detail": "manifest 引用 5 项 .db/.vvp"
+    },
+    {
+      "status": "INFO",
+      "name": "development\\player_fat32_audio_probe\\checkpoints\\audio_probe_20261008_verified\\manifest.json",
+      "detail": "manifest 引用 5 项 .db/.vvp"
+    },
+    {
+      "status": "INFO",
+      "name": "development\\player_fat32_autoplay\\checkpoints\\autoplay_20261008_candidate\\manifest.json",
+      "detail": "manifest 引用 6 项 .db/.vvp"
+    },
+    {
+      "status": "INFO",
+      "name": "development\\player_fat32_autoplay_keepaudio\\checkpoints\\keepaudio_20261008_candidate\\manifest.json",
+      "detail": "manifest 引用 6 项 .db/.vvp"
+    },
+    {
+      "status": "INFO",
+      "name": "development\\player_fat32_packet_diag\\checkpoints\\packet_diag_20261008_candidate\\manifest.json",
+      "detail": "manifest 引用 46 项 .db/.vvp"
+    },
+    {
+      "status": "INFO",
+      "name": "development\\player_fat32_packet_diag\\checkpoints\\packet_diag_20261008_incomplete\\manifest.json",
+      "detail": "manifest 引用 26 项 .db/.vvp"
+    },
+    {
+      "status": "INFO",
+      "name": "development\\player_fat32_status_diag\\checkpoints\\status_diag_20261008_candidate\\manifest.json",
+      "detail": "manifest 引用 12 项 .db/.vvp"
+    },
+    {
+      "status": "INFO",
+      "name": "development\\player_osd\\checkpoints\\osd_20261009_candidate\\manifest.json",
+      "detail": "manifest 引用 7 项 .db/.vvp"
+    },
+    {
+      "status": "INFO",
+      "name": "development\\player_osd_phy_fix\\checkpoints\\osd_phy_fix_20261009_candidate\\manifest.json",
+      "detail": "manifest 引用 10 项 .db/.vvp"
+    },
+    {
+      "status": "PASS",
+      "name": "历史 checkpoint development\\player_480p\\checkpoints\\compact_data_d1_verified",
+      "detail": "112 项文件字节数/SHA256一致；manifest SHA256 BE09A894226DC074E1456A24AD15BD1689C3E4EC5C2405BB511BF38C6B413879"
+    },
+    {
+      "status": "PASS",
+      "name": "历史 checkpoint development\\player_bmp_scale\\checkpoints\\bmp_scale_20261012_candidate",
+      "detail": "260 项文件字节数/SHA256一致；manifest SHA256 6082AB5E2A40CE8DD6FD73265CF59CECB35B35B883DD6466BB839CE68A1B1A9D"
+    },
+    {
+      "status": "PASS",
+      "name": "历史 checkpoint development\\player_bmp_scale\\checkpoints\\bmp_scale_20261012_verified",
+      "detail": "268 项文件字节数/SHA256一致；manifest SHA256 71F87A4B82F974092F63102E0D7522B6C5577BD367B6789C6AD0DDDA37A76FB7"
+    },
+    {
+      "status": "PASS",
+      "name": "历史 checkpoint development\\player_dynamic_text\\checkpoints\\dynamic_text_20261009_candidate",
+      "detail": "136 项文件字节数/SHA256一致；manifest SHA256 5B8153191DEDB5BE573159CD2E1333B4E7B8FCB2DCD75406EF7D80C9B67B4FB3"
+    },
+    {
+      "status": "PASS",
+      "name": "历史 checkpoint development\\player_dynamic_text_audio_packet_probe\\checkpoints\\audio_packet_probe_20261011_candidate",
+      "detail": "142 项文件字节数/SHA256一致；manifest SHA256 FC288ACE94B1698D2AAFDD283BB10C6E4884B1F3569CCB2ED2EF81EF88F7D101"
+    },
+    {
+      "status": "PASS",
+      "name": "历史 checkpoint development\\player_dynamic_text_axis_probe\\checkpoints\\axis_probe_20261009_candidate\\build\\prehold",
+      "detail": "8 项文件字节数/SHA256一致；manifest SHA256 A6B183438AB44CBA6BEA0CB000D6189ED57C41C6EC3926EDBF71C481A0DA0081"
+    },
+    {
+      "status": "PASS",
+      "name": "历史 checkpoint development\\player_dynamic_text_axis_probe\\checkpoints\\axis_probe_20261009_candidate",
+      "detail": "137 项文件字节数/SHA256一致；manifest SHA256 F87573D36AC4831ADF0FD95F95BECB1C1D13033A9296740876700BC9C646070B"
+    },
+    {
+      "status": "PASS",
+      "name": "历史 checkpoint development\\player_dynamic_text_bit17_led_probe\\checkpoints\\bit17_led_probe_20261011_candidate",
+      "detail": "136 项文件字节数/SHA256一致；manifest SHA256 A1C81FD98AD9251E37E0E656C6E9775483788D3E7CA2571662AC1873B5DEC639"
+    },
+    {
+      "status": "PASS",
+      "name": "历史 checkpoint development\\player_dynamic_text_cadence_probe\\checkpoints\\cadence_probe_20261010_candidate",
+      "detail": "124 项文件字节数/SHA256一致；manifest SHA256 9A720DC5DBDAE96D7B72819DD2E54E3F7D3618D34EBF288DED58A01BD801C6AD"
+    },
+    {
+      "status": "PASS",
+      "name": "历史 checkpoint development\\player_dynamic_text_fit\\checkpoints\\dynamic_text_fit_20261009_candidate",
+      "detail": "148 项文件字节数/SHA256一致；manifest SHA256 92CE5257EFF129CCF6194737F5390485568E20241EB44EA81E06F343CC335B68"
+    },
+    {
+      "status": "PASS",
+      "name": "历史 checkpoint development\\player_dynamic_text_pcm_bram_candidate\\checkpoints\\pcm_bram_20261012_verified",
+      "detail": "141 项文件字节数/SHA256一致；manifest SHA256 AFDE441ECC995E9E51A254F87249BB31BDD4587F4AE43FF04CE0AB94AF762937"
+    },
+    {
+      "status": "PASS",
+      "name": "历史 checkpoint development\\player_dynamic_text_pcm_bram_candidate\\checkpoints\\pcm_bram_candidate_20261011_candidate",
+      "detail": "139 项文件字节数/SHA256一致；manifest SHA256 E24D02BD582353B8E19797ABF1DB96A38306091CB1B2ED2B10552CACCBEEF218"
+    },
+    {
+      "status": "PASS",
+      "name": "历史 checkpoint development\\player_dynamic_text_pcm_crc_probe\\checkpoints\\pcm_crc_probe_20261011_candidate",
+      "detail": "134 项文件字节数/SHA256一致；manifest SHA256 191AB52A84F4E2E00E0EDB9CE6EEDAA7792720B32FC2A1C2EBF8D7E66ECCBA1C"
+    },
+    {
+      "status": "PASS",
+      "name": "历史 checkpoint development\\player_dynamic_text_video_probe\\checkpoints\\dynamic_text_video_probe_20261009_candidate",
+      "detail": "140 项文件字节数/SHA256一致；manifest SHA256 DEE939D3B233FD9053AD11D7C150C84F61755F6828318C8FD08DED8C27CFF936"
+    },
+    {
+      "status": "PASS",
+      "name": "历史 checkpoint development\\player_fat32\\checkpoints\\fat32_candidate_v1",
+      "detail": "157 项文件字节数/SHA256一致；manifest SHA256 3F8A5C615B17EFBF7CE88779F0876DE333EE625A67065ADEBBC0278F3EEB233F"
+    },
+    {
+      "status": "PASS",
+      "name": "历史 checkpoint development\\player_fat32_audio_probe\\checkpoints\\audio_probe_20261008_verified",
+      "detail": "139 项文件字节数/SHA256一致；manifest SHA256 090BCFE1C47D23BC2C0BABB30FCF0A73C6D65CD9F8234F6CD4A8F3DB3C97EF3C"
+    },
+    {
+      "status": "PASS",
+      "name": "历史 checkpoint development\\player_fat32_autoplay\\checkpoints\\autoplay_20261008_candidate",
+      "detail": "153 项文件字节数/SHA256一致；manifest SHA256 01948857081266CFA4BEFBC3E86A38CA7ACD92E5676F9664205390607106541B"
+    },
+    {
+      "status": "PASS",
+      "name": "历史 checkpoint development\\player_fat32_autoplay_keepaudio\\checkpoints\\keepaudio_20261008_candidate",
+      "detail": "152 项文件字节数/SHA256一致；manifest SHA256 D8758699104750E0D533D91BDBDFC6D92A8CEFF332F4D081BC5824D6F28BBFE5"
+    },
+    {
+      "status": "PASS",
+      "name": "历史 checkpoint development\\player_fat32_packet_diag\\checkpoints\\packet_diag_20261008_candidate",
+      "detail": "310 项文件字节数/SHA256一致；manifest SHA256 71C984A7892792DFDE2161AC9A5978D1371019E1C554EAFEA89F2DA4B656BE5A"
+    },
+    {
+      "status": "PASS",
+      "name": "历史 checkpoint development\\player_fat32_packet_diag\\checkpoints\\packet_diag_20261008_incomplete",
+      "detail": "211 项文件字节数/SHA256一致；manifest SHA256 28766814CA7711DCA4AE0CC7102A6D8DBB05A4E22DD872D6F157CDDC85D100D4"
+    },
+    {
+      "status": "PASS",
+      "name": "历史 checkpoint development\\player_fat32_status_diag\\checkpoints\\status_diag_20261008_candidate",
+      "detail": "142 项文件字节数/SHA256一致；manifest SHA256 C206489FBBEFED0CEFE0007A0CF285F4602F034200344E8904FF29A93B926A0C"
+    },
+    {
+      "status": "PASS",
+      "name": "历史 checkpoint development\\player_image_adjust\\checkpoints\\image_adjust_20261012_candidate",
+      "detail": "131 项文件字节数/SHA256一致；manifest SHA256 E747D5E092573226971A531F4FC91FAE852E201EB32302132D55DD94D9062760"
+    },
+    {
+      "status": "PASS",
+      "name": "历史 checkpoint development\\player_image_adjust\\checkpoints\\image_adjust_20261012_verified",
+      "detail": "133 项文件字节数/SHA256一致；manifest SHA256 52E1D0B64D95D71BDF6C2568E74A0B25CB9BC6C245E21F208C650421DC595DA4"
+    },
+    {
+      "status": "PASS",
+      "name": "历史 checkpoint development\\player_osd\\checkpoints\\osd_20261009_candidate",
+      "detail": "121 项文件字节数/SHA256一致；manifest SHA256 7F2D1E9D55CB4CC0BE6B0D3DED081379A7C7E87C0FEAB88AADD1616047A346E7"
+    },
+    {
+      "status": "PASS",
+      "name": "历史 checkpoint development\\player_osd_phy_fix\\checkpoints\\osd_phy_fix_20261009_candidate",
+      "detail": "174 项文件字节数/SHA256一致；manifest SHA256 A1CD61FECFBF1E2BFA0E537C5987AA6E22985D824E52CEAFE81F87E0ED6DCEAF"
+    },
+    {
+      "status": "PASS",
+      "name": "历史 checkpoint development\\player_pcm_waveform\\checkpoints\\pcm_waveform_20261012_candidate",
+      "detail": "133 项文件字节数/SHA256一致；manifest SHA256 C5B58E2F7FE26E8E88638F62E0FCD888ECE7BBB73C667DECFFE567BE07519E72"
+    },
+    {
+      "status": "PASS",
+      "name": "历史 checkpoint development\\player_pcm_waveform_freeze\\checkpoints\\waveform_freeze_20261012_candidate",
+      "detail": "143 项文件字节数/SHA256一致；manifest SHA256 FB9BE10F216026114DB434CEDFAC99545054CF871B1B5BC6C6F8212AC951861B"
+    },
+    {
+      "status": "PASS",
+      "name": "历史 checkpoint development\\player_pcm_waveform_keyfreeze\\checkpoints\\waveform_keyfreeze_20261012_candidate",
+      "detail": "154 项文件字节数/SHA256一致；manifest SHA256 3F1C818A7B23D509BEE072430A20F65BA8F7E70548541D79B28E6AFB2CB7A420"
+    },
+    {
+      "status": "PASS",
+      "name": "历史 checkpoint development\\player_pcm_waveform_keyfreeze\\checkpoints\\waveform_keyfreeze_20261012_verified",
+      "detail": "158 项文件字节数/SHA256一致；manifest SHA256 384BCED087F68A0DE5380816F1B0700E6194C8B22D1219FB318DE511D2B1BC36"
+    },
+    {
+      "status": "PASS",
+      "name": "历史 checkpoint development\\player_transition_wipe\\checkpoints\\transition_wipe_20261012_candidate",
+      "detail": "165 项文件字节数/SHA256一致；manifest SHA256 55BDA6F491CCF5B7B15E70BD0E12B6F6F225EB4964B67ACAA7801ECE0824A82F"
+    },
+    {
+      "status": "PASS",
+      "name": "历史 checkpoint development\\player_transition_wipe\\checkpoints\\transition_wipe_20261012_verified",
+      "detail": "169 项文件字节数/SHA256一致；manifest SHA256 A6B0AE1DBCAF1A92D360FA7F6E4AA935C1777A06D705940ED1364999A239A4A9"
+    },
+    {
+      "status": "INFO",
+      "name": "全历史 checkpoint 校验",
+      "detail": "已检查 31 个 manifest 的全部文件。"
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+Icarus: E:\VSCODE-project\FPGA-ANLU\tmp\handoff_main_20261012\FPGA-ANLU\bringup\tf_wav_hdmi\tools\iverilog\app\bin\iverilog.exe
+Compile exit: 0
+Run exit: 0
+PASS pixels=48 source_rows_built=2 sectors=2 bottom_offset=2 backpressure=exercised
+E:\VSCODE-project\FPGA-ANLU\tmp\handoff_remote_clean_20261012\FPGA-ANLU\development\player_bmp_scale\build\model\tb_engine_smoke.v:64: $finish called at 35510000 (1ps)

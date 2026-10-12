@@ -5,9 +5,9 @@
   "repositories": [
     {
       "repository": "FPGA-ANLU",
-      "ignoredEntries": 11664,
-      "directoryEntries": 5,
-      "fileBytesExcludingNestedDirectories": 2947460560,
+      "ignoredEntries": 11672,
+      "directoryEntries": 7,
+      "fileBytesExcludingNestedDirectories": 2947486747,
       "rules": {
         "*_Runs/": 124,
         "**/build/**/*.db": 344,
@@ -17,13 +17,13 @@
         "/bringup/tf_wav_hdmi/tools/*.exe": 1,
         "/bringup/tf_wav_hdmi/tools/iverilog/": 1228,
         "**/checkpoints/**/*.db": 2,
-        "__pycache__/": 5,
+        "__pycache__/": 4,
         "*.dmp": 14,
         "**/td_project/log/": 2,
         "*.vcd": 4,
         "/td_*.log": 302,
         "/td_*.logw": 302,
-        "/tmp/": 9159,
+        "/tmp/": 9168,
         "/top_inst.bid": 1
       }
     },
