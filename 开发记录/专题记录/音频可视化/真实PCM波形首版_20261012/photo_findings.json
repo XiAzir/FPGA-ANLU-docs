@@ -1,0 +1,40 @@
+{
+  "recordedBeijing": "2026-10-12 11:14:45",
+  "version": "C11202",
+  "source": "USER_PHOTOS_AND_DIRECT_OBSERVATION",
+  "boardStatus": "WAVEFORM_GHOSTING_REPORTED_PENDING_DIAGNOSIS",
+  "photos": [
+    {
+      "order": 1,
+      "source": "C:\\Users\\PENGYU~1\\AppData\\Local\\Temp\\codex-clipboard-6ca08271-3942-42ae-a667-60915b66dad4.jpg",
+      "archived": "E:\\QQ CACHE\\Download\\安路资料\\开发记录\\专题记录\\音频可视化\\真实PCM波形首版_20261012\\波形重影照片\\waveform_1.jpg",
+      "bytes": 101544,
+      "sha256": "533A08511CAF8A4CF010F2B09F7BA070A470BDD75D1C149F6BE391D85E7C9951"
+    },
+    {
+      "order": 2,
+      "source": "C:\\Users\\PENGYU~1\\AppData\\Local\\Temp\\codex-clipboard-b28964fa-bcd8-4976-9db1-9525a0457c32.jpg",
+      "archived": "E:\\QQ CACHE\\Download\\安路资料\\开发记录\\专题记录\\音频可视化\\真实PCM波形首版_20261012\\波形重影照片\\waveform_2.jpg",
+      "bytes": 108168,
+      "sha256": "5C91002FCCB0EAB1AE11C161C6321E66D943FF49FC9FD47911C5C1B681FD888F"
+    },
+    {
+      "order": 3,
+      "source": "C:\\Users\\PENGYU~1\\AppData\\Local\\Temp\\codex-clipboard-eafd7200-56e0-4aaa-9d64-d7ec7e6ec6ef.jpg",
+      "archived": "E:\\QQ CACHE\\Download\\安路资料\\开发记录\\专题记录\\音频可视化\\真实PCM波形首版_20261012\\波形重影照片\\waveform_3.jpg",
+      "bytes": 105203,
+      "sha256": "94D235E9DC272B74DFE938BAE8F7197AE2EB715469863E3282A5AE6BE6F71A22"
+    }
+  ],
+  "observed": "Photo2 has two separated cyan waveform traces with black gaps between them; photo3 has one bright trace and a fainter second trace. These are distinct from a filled min/max vertical span.",
+  "userDirectObservation": "直接看显示器，不通过手机相机，也会同时看到两条分离的完整青色曲线吗？答：肉眼也明显有。",
+  "correction": "The previous min/max explanation covers thick/stair-step single traces, but cannot explain the separate full curves in these photos. Naked-eye observation rules out a solely phone-camera-generated effect.",
+  "codeEvidence": "bar_pixel uses y>=412-max AND y<=412-min. With stable display-bank/read data each x has one filled interval; there is no intentional old-trace overlay. Display bank switches only at VS. Code/model intent does not prove board memory/read/physical behavior.",
+  "hypothesesNotProven": [
+    "Display temporal response or perception of successive moving frames",
+    "Actual waveform update/read or other physical implementation behavior"
+  ],
+  "pending": "Distinguish static rendering from dynamic update/display response; retain all previous unconfirmed original-function/audio regression items.",
+  "nextProposedNotExecuted": "Isolated freeze-front diagnostic: hold one complete displayed waveform while audio continues. If separated curves remain after settling, investigate static pixel/read chain; if they disappear, investigate dynamic update and display temporal response. Freeze outcome alone cannot uniquely prove display or FPGA cause.",
+  "actions": "Archived three original photos without editing; read RTL; no new RTL, model run, bitstream, JTAG, TF or Flash actions. Successful baseline remains C11201."
+}

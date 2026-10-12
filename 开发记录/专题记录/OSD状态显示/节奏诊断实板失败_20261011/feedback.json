@@ -1,0 +1,170 @@
+{
+  "recorded_beijing": "2026-10-11T13:53:34+08:00",
+  "status": "BOARD_FAIL_NO_HDMI_SIGNAL",
+  "user_report": {
+    "display": "仍无信号",
+    "before_leds": "D3 D2 D1 D0全灭",
+    "cold_start": "用户明确确认已断电再上电下载"
+  },
+  "expected_bitstream": "E:\\VSCODE-project\\FPGA-ANLU\\download\\cadence_probe.bit",
+  "local_bit_sha256": "8C56A7D24F2D719835369720D7403DE3F55150E07C454CBA3182EE47D230E17C",
+  "board_build_id_observed": "C10902",
+  "build_id_is_not_configuration_readback": true,
+  "videos": {
+    "before": {
+      "source": "E:\\QQ CACHE\\LiaoTianJiLu\\Tencent Files\\1791081637\\nt_qq\\nt_data\\Video\\2026-10\\Ori\\8239fea9aa8c4a7c5c092759c0da52d5.mp4",
+      "archived": "E:\\QQ CACHE\\Download\\安路资料\\开发记录\\专题记录\\OSD状态显示\\节奏诊断实板失败_20261011\\before\\board_video.mp4",
+      "sha256": "C2A1B225EC4FEDF044DCFA3AFFD2857C711CB4F28B57DF7186292C6F2AE8973F",
+      "bytes": 7159460,
+      "duration_seconds": 25.567056,
+      "pages": [
+        {
+          "page": "1",
+          "hex": "1D400800",
+          "frame_index_fps2": 8,
+          "nominal_seconds": 3.5,
+          "evidence": "E:\\QQ CACHE\\Download\\安路资料\\开发记录\\专题记录\\OSD状态显示\\节奏诊断实板失败_20261011\\before\\page_1_frame_008.png"
+        },
+        {
+          "page": "3",
+          "hex": "33020000",
+          "frame_index_fps2": 12,
+          "nominal_seconds": 5.5,
+          "evidence": "E:\\QQ CACHE\\Download\\安路资料\\开发记录\\专题记录\\OSD状态显示\\节奏诊断实板失败_20261011\\before\\page_3_frame_012.png"
+        },
+        {
+          "page": "6",
+          "hex": "65FFF000",
+          "frame_index_fps2": 16,
+          "nominal_seconds": 7.5,
+          "evidence": "E:\\QQ CACHE\\Download\\安路资料\\开发记录\\专题记录\\OSD状态显示\\节奏诊断实板失败_20261011\\before\\page_6_frame_016.png"
+        },
+        {
+          "page": "7",
+          "hex": "75000000",
+          "frame_index_fps2": 20,
+          "nominal_seconds": 9.5,
+          "evidence": "E:\\QQ CACHE\\Download\\安路资料\\开发记录\\专题记录\\OSD状态显示\\节奏诊断实板失败_20261011\\before\\page_7_frame_020.png"
+        },
+        {
+          "page": "8",
+          "hex": "85BEBC20",
+          "frame_index_fps2": 24,
+          "nominal_seconds": 11.5,
+          "evidence": "E:\\QQ CACHE\\Download\\安路资料\\开发记录\\专题记录\\OSD状态显示\\节奏诊断实板失败_20261011\\before\\page_8_frame_024.png"
+        },
+        {
+          "page": "9",
+          "hex": "950668A0",
+          "frame_index_fps2": 28,
+          "nominal_seconds": 13.5,
+          "evidence": "E:\\QQ CACHE\\Download\\安路资料\\开发记录\\专题记录\\OSD状态显示\\节奏诊断实板失败_20261011\\before\\page_9_frame_028.png"
+        },
+        {
+          "page": "A",
+          "hex": "A5000000",
+          "frame_index_fps2": 32,
+          "nominal_seconds": 15.5,
+          "evidence": "E:\\QQ CACHE\\Download\\安路资料\\开发记录\\专题记录\\OSD状态显示\\节奏诊断实板失败_20261011\\before\\page_A_frame_032.png"
+        },
+        {
+          "page": "B",
+          "hex": "B500001F",
+          "frame_index_fps2": 36,
+          "nominal_seconds": 17.5,
+          "evidence": "E:\\QQ CACHE\\Download\\安路资料\\开发记录\\专题记录\\OSD状态显示\\节奏诊断实板失败_20261011\\before\\page_B_frame_036.png"
+        },
+        {
+          "page": "C",
+          "hex": "C5C10902",
+          "frame_index_fps2": 40,
+          "nominal_seconds": 19.5,
+          "evidence": "E:\\QQ CACHE\\Download\\安路资料\\开发记录\\专题记录\\OSD状态显示\\节奏诊断实板失败_20261011\\before\\page_C_frame_040.png"
+        }
+      ]
+    },
+    "after": {
+      "source": "E:\\QQ CACHE\\LiaoTianJiLu\\Tencent Files\\1791081637\\nt_qq\\nt_data\\Video\\2026-10\\Ori\\6a481f77ad742393486554fe841615e2.mp4",
+      "archived": "E:\\QQ CACHE\\Download\\安路资料\\开发记录\\专题记录\\OSD状态显示\\节奏诊断实板失败_20261011\\after\\board_video.mp4",
+      "sha256": "A459EBCB0D3F10B7F26C81F46988ABB21F8B67736C5C1401EEDEB62774A013A9",
+      "bytes": 5095013,
+      "duration_seconds": 18.068544,
+      "pages": [
+        {
+          "page": "1",
+          "hex": "1D400800",
+          "frame_index_fps2": 2,
+          "nominal_seconds": 0.5,
+          "evidence": "E:\\QQ CACHE\\Download\\安路资料\\开发记录\\专题记录\\OSD状态显示\\节奏诊断实板失败_20261011\\after\\page_1_frame_002.png"
+        },
+        {
+          "page": "3",
+          "hex": "3B02BB80",
+          "frame_index_fps2": 4,
+          "nominal_seconds": 1.5,
+          "evidence": "E:\\QQ CACHE\\Download\\安路资料\\开发记录\\专题记录\\OSD状态显示\\节奏诊断实板失败_20261011\\after\\page_3_frame_004.png"
+        },
+        {
+          "page": "6",
+          "hex": "6F208209",
+          "frame_index_fps2": 8,
+          "nominal_seconds": 3.5,
+          "evidence": "E:\\QQ CACHE\\Download\\安路资料\\开发记录\\专题记录\\OSD状态显示\\节奏诊断实板失败_20261011\\after\\page_6_frame_008.png"
+        },
+        {
+          "page": "7",
+          "hex": "7F000326",
+          "frame_index_fps2": 12,
+          "nominal_seconds": 5.5,
+          "evidence": "E:\\QQ CACHE\\Download\\安路资料\\开发记录\\专题记录\\OSD状态显示\\节奏诊断实板失败_20261011\\after\\page_7_frame_012.png"
+        },
+        {
+          "page": "8",
+          "hex": "8FBEBC20",
+          "frame_index_fps2": 16,
+          "nominal_seconds": 7.5,
+          "evidence": "E:\\QQ CACHE\\Download\\安路资料\\开发记录\\专题记录\\OSD状态显示\\节奏诊断实板失败_20261011\\after\\page_8_frame_016.png"
+        },
+        {
+          "page": "9",
+          "hex": "9F0668A0",
+          "frame_index_fps2": 20,
+          "nominal_seconds": 9.5,
+          "evidence": "E:\\QQ CACHE\\Download\\安路资料\\开发记录\\专题记录\\OSD状态显示\\节奏诊断实板失败_20261011\\after\\page_9_frame_020.png"
+        },
+        {
+          "page": "A",
+          "hex": "AF00BB80",
+          "frame_index_fps2": 24,
+          "nominal_seconds": 11.5,
+          "evidence": "E:\\QQ CACHE\\Download\\安路资料\\开发记录\\专题记录\\OSD状态显示\\节奏诊断实板失败_20261011\\after\\page_A_frame_024.png"
+        },
+        {
+          "page": "B",
+          "hex": "BF00001F",
+          "frame_index_fps2": 28,
+          "nominal_seconds": 13.5,
+          "evidence": "E:\\QQ CACHE\\Download\\安路资料\\开发记录\\专题记录\\OSD状态显示\\节奏诊断实板失败_20261011\\after\\page_B_frame_028.png"
+        },
+        {
+          "page": "C",
+          "hex": "CFC10902",
+          "frame_index_fps2": 32,
+          "nominal_seconds": 15.5,
+          "evidence": "E:\\QQ CACHE\\Download\\安路资料\\开发记录\\专题记录\\OSD状态显示\\节奏诊断实板失败_20261011\\after\\page_C_frame_032.png"
+        }
+      ]
+    }
+  },
+  "interpretation": {
+    "file_status": "1D400800: both PLL locks reported, rst_all low, SD init done; FS error and code08 timeout, not mounted",
+    "default_audio": "Observer reports no valid audio; 6 FFF000 is uninitialized gap history, not measured 4095-cycle interval",
+    "internal_tone": "520/521 cycles between events, zero bad gaps,806 samples/frame,420000 cycles/frame;12500000 half ticks and48000 samples/window",
+    "clock_word": "01F and no observed locked clock-word errors, before serializer only",
+    "legacy_page3": "Before 020000, after 02BB80 vs observer A 000000/00BB80; fixed extra bit17=0x020000. Anomaly is in reported data; stage not yet localized",
+    "scope": "This build does not reproduce old axis_probe471xx; old bitstream cause remains unknown. Do not infer absolute25MHz or electrical HDMI output from counters."
+  },
+  "actions": "Read-only source/netlist/video analysis; no card, JTAG or Flash operations; no new bitstream generated",
+  "root_cause": "NOT_CONFIRMED",
+  "reading_method": "ffmpeg fps=2 extraction, manual segment reading. Hex B is lower-case b glyph (top a segment off); self-test numeral6 has top segment on. Original full frames retained. Time values are filter-grid labels, not exact source frame PTS."
+}

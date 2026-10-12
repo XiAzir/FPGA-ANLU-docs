@@ -1,0 +1,36 @@
+{
+  "recordedBeijing": "2026-10-12 11:09:06",
+  "version": "C11202",
+  "source": "USER_REPORTED",
+  "boardStatus": "PARTIAL_PASS_REPORTED_WAVEFORM",
+  "userStatement": "波形显示正常，确实如你所说，会显示波形，弱音/静音时接近平线，播放音阶时则是方波。但是刷新率问题吗？会导致同一个x轴坐标有两个y轴的值，而且分辨率很低导致波形是锯齿状的。这些是否是未来优化的方向？接下来做什么？",
+  "confirmed": [
+    "WAV waveform visibly present",
+    "Weak/silent segments near flat",
+    "Internal tone visibly square"
+  ],
+  "reportedVisualConcerns": [
+    "Multiple y values at same x",
+    "Low visual resolution and jagged shape"
+  ],
+  "pending": [
+    "Explicit current-version audio clarity for both sources",
+    "KEY0 image change",
+    "KEY1 AUTO",
+    "Brightness/contrast and reset",
+    "Original status/RUN/scroll regression",
+    "Long-term and cold-start regression"
+  ],
+  "interpretation": "Code renders each 8-sample min/max interval as a filled vertical span, replicated across 4 pixels. This explains multiple y values per x for a span, but without a picture/video it does not prove the observed phenomenon is not separate curves/ghosting. 128 bins across512 pixels; graph57 vertical positions. Tone source RTL generates square waves.",
+  "refreshInference": "Under continuous48kHz events:1024 samples=21.333ms, capture resumes afterVS bank swap. Nominal25MHz/(800*525)=59.524 video frames/s; complete window requires two16.8ms frames, yielding about29.762 waveform updates/s. Code-derived estimate, not a measured display/board refresh rate.",
+  "proposedOptimizationsNotImplemented": [
+    "256/512 horizontal bins and per-pixel connected trace",
+    "Larger graph height and selectable visual gain",
+    "Trigger alignment for tone",
+    "Shorter window or rolling capture to permit one update each frame"
+  ],
+  "next": "Finish previous annotated current-version regression; then seal verified T23 and complete T24/T25 controls/integrated acceptance, followed by T26/T27 frame ownership and one transition. Keep waveform appearance improvements as separate follow-up; no new RTL authorized by this question.",
+  "noNewEvidence": "No new video, numeric pages or board instrument measurements supplied; no local JTAG/TF/Flash, RTL edit or rebuild.",
+  "successfulBaseline": "C11201 image_adjust.bit",
+  "frozenCandidateAndZipReverified": true
+}

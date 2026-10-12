@@ -1,0 +1,29 @@
+{
+  "recordedBeijing": "2026-10-12 12:11:31",
+  "version": "C11204",
+  "deliveredBitSha256": "A16326B8266ED6CB52CE27E163B89DC1C2B37551B393AE5F1116BA16C6F54790",
+  "source": "User report, not direct agent measurement",
+  "userReport": "确实没有出现双线的情况，我判断是跟屏幕的硬件条件有关，你觉得呢",
+  "clarificationQuestion": "当前按键冻结版中，再次双键短按恢复动态后，双线会重新出现吗？",
+  "clarificationAnswer": "动态时有双线，HOLD后消失",
+  "observed": {
+    "liveDynamic": "Two separated curves reported",
+    "heldStatic": "Double curve disappears reported"
+  },
+  "notEstablished": [
+    "WAV and TONE separately",
+    "Exact hold duration",
+    "Both-source audio quality",
+    "Complete original controls regression",
+    "Monitor model/response time/processing configuration",
+    "Actual FPGA dynamic pixel stream or HDMI capture"
+  ],
+  "assessment": "Same-bit dynamic/HOLD contrast supports a temporal or dynamic-update dependent phenomenon. Display response/processing or visual integration are plausible; static duplicate trace is less likely. Does not uniquely prove monitor hardware or rule out dynamic bank/read/update behaviour.",
+  "reference": "https://www.eizo.com/library/basics/response_time_figures/",
+  "referenceLimit": "General LCD motion blur/ghosting mechanism; does not measure this display.",
+  "boardStatus": "PARTIAL_PASS_REPORTED_STATIC_TRACE_DYNAMIC_GHOSTING",
+  "successfulBaselineUnchanged": "C11201 image_adjust.bit",
+  "next": "Continue mainline after appropriate original-feature/audio regression; retain keyfreeze tool. Compare unchanged bit/settings on another already available display later if useful; no new instrument purchase or repeated old video needed.",
+  "hardwareActions": "No local JTAG/TF/Flash; no RTL rebuild",
+  "frozenCandidateAndZipUnchanged": true
+}

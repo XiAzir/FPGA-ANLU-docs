@@ -1,0 +1,57 @@
+{
+  "pages": {
+    "after": {
+      "p6": "6E00BB80",
+      "p7": "7E00BB80",
+      "p1": "1DA80000",
+      "p8": "8E000000",
+      "p9": "9E000000",
+      "p3": "3B00BB80",
+      "pA": "AE000000",
+      "pB": "BE0061A8",
+      "pD": "DFC11107",
+      "pC": "CE001800"
+    },
+    "before": {
+      "p6": "6E00BB80",
+      "p7": "7E00BB80",
+      "p1": "1DA80000",
+      "p8": "8E000000",
+      "p9": "9E000000",
+      "p3": "3300BB80",
+      "pA": "AE000000",
+      "pB": "BE0061A8",
+      "pD": "DFC11107",
+      "pC": "CE001800"
+    }
+  },
+  "evidenceType": "User hearing/display feedback and assistant manual seven-segment video decoding; no board operation or physical waveform measurement",
+  "userFeedback": "画面正常；默认天之弱能辨识但杂音重且音色与上次不同；长按KEY1后内部音阶清晰，与osd_phy_fix相同。",
+  "bitSha256": "F60D473DA14C2EC813B80534CDE228E8B05B1E630AD81664E35B9B456B32224D",
+  "version": "C11107",
+  "limits": [
+    "20.297733/19.533411 second videos each cover all ten pages without self-test; counters are sampled nominal windows, not full recording lifetime",
+    "BCH/TERC valid packets do not prove musical PCM matches file",
+    "Tone payload validation is meaningful only in tone mode",
+    "Tap is pre serialization, no physical HDMI waveform capture",
+    "No same-condition C11107 rollback newly requested; prior C11106 rollback clear is separate feedback"
+  ],
+  "videos": [
+    {
+      "origin": "E:/QQ CACHE/LiaoTianJiLu/Tencent Files/1791081637/nt_qq/nt_data/Video/2026-10/Ori/395e29bc1b8eebf6f4982d8fbc9451cd.mp4",
+      "archive": "E:/QQ CACHE/Download/安路资料/开发记录/专题记录/OSD状态显示/音频包诊断WAV杂音_20261011/before/board_video.mp4",
+      "sha256": "EA3D2128FC382E81287543AE2A3246FD2E1B5EA312647CAAE42237FBF32EB1FA",
+      "mode": "before",
+      "bytes": 5538743
+    },
+    {
+      "origin": "E:/QQ CACHE/LiaoTianJiLu/Tencent Files/1791081637/nt_qq/nt_data/Video/2026-10/Ori/ba1e8abb636219fae4e4ea6ebbbbfec3.mp4",
+      "archive": "E:/QQ CACHE/Download/安路资料/开发记录/专题记录/OSD状态显示/音频包诊断WAV杂音_20261011/after/board_video.mp4",
+      "sha256": "7E8854F8E39816AD40D3CD92FC6B58CFE0CC0474FA884700B2F4F9568A153570",
+      "mode": "after",
+      "bytes": 5295574
+    }
+  ],
+  "recordedBeijing": "2026-10-11 17:08:47",
+  "boardStatus": "FAIL_WAV_AUDIO_TONE_CLEAR"
+}

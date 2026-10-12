@@ -1,0 +1,26 @@
+{
+  "recordedBeijing": "2026-10-12 10:37:00",
+  "version": "C11201",
+  "status": "PASS_REPORTED_T22_FUNCTIONS",
+  "evidenceSource": "user_report",
+  "userStatement": "每个功能都测试过了，完全正常，画面显示正常，音频播放正常。",
+  "context": "回复上一轮T22验收步骤；未提供新增数码管视频/照片或测量时长。",
+  "reportedScope": [
+    "默认图片与音乐",
+    "KEY0切图/KEY1轮播",
+    "PLAY/BRI/CON模式切换",
+    "亮度增减/参数显示",
+    "对比度增减/参数显示",
+    "双键恢复默认",
+    "长KEY1切音源",
+    "画面与音频正常"
+  ],
+  "bitSha256": "5482E8E2D2AE912E47D9EA21F93892559F39AF77C907D025EBDA46AE9994C2FA",
+  "remoteUserBitHashIndependentlyChecked": false,
+  "agentDirectBoardMeasurement": false,
+  "freshPcmCrcObserved": false,
+  "longRunDurationMeasured": false,
+  "limit": "不把C11109的30分钟短稳继承为C11201长稳；未新增冷启动/换文件碎片/整曲/实测频率或历史唯一物理根因证据。",
+  "hardwareActionsByAgent": "无JTAG/TF/Flash操作",
+  "newSuccessfulBaseline": "E:\\VSCODE-project\\FPGA-ANLU\\download\\image_adjust.bit"
+}

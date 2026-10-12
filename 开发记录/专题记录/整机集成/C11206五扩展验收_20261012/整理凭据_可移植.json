@@ -1,0 +1,38 @@
+{
+  "recordedBeijing": "2026-10-12 15:48:57",
+  "task": "T32/T33 evidence collection; no final G4 or T36 freeze claim",
+  "baselineBitSha256": "C60464C0D4396D316DB7622E4CB0B70B5DE12C25148AFE234AC7C795C818625D",
+  "verifiedSnapshot": {
+    "path": "development/player_bmp_scale/checkpoints/bmp_scale_20261012_verified",
+    "files": 268,
+    "manifestSha256": "71F87A4B82F974092F63102E0D7522B6C5577BD367B6789C6AD0DDDA37A76FB7",
+    "allEntriesMatched": true
+  },
+  "candidateSnapshot": {
+    "path": "development/player_bmp_scale/checkpoints/bmp_scale_20261012_candidate",
+    "files": 260,
+    "manifestSha256": "6082AB5E2A40CE8DD6FD73265CF59CECB35B35B883DD6466BB839CE68A1B1A9D",
+    "allEntriesMatched": true
+  },
+  "originalZipSha256": "9371A293616AAF37FD72E2DFD9466616FADD7BCB583E06FC84357146B2D380D5",
+  "originalSourceBitSnapshotsAndZipUnchanged": true,
+  "indexedFiles": 64,
+  "sourceIdentityComparisons": 8,
+  "existingLocalLinksChecked": 31,
+  "evidenceIndexSha256": "C177741E88C07F1FA3FB65075BB9C37481807692B93363030D5EA211DDCEE886",
+  "documents": [
+    {
+      "path": "../FPGA-ANLU-docs/开发记录/专题记录/整机集成/C11206五扩展验收_20261012/README.md",
+      "sha256": "1C04B4767959329B368EBCBF73CD9AF71E7573BAFAAFC8040689207F486556B8"
+    },
+    {
+      "path": "../FPGA-ANLU-docs/开发记录/专题记录/整机集成/C11206五扩展验收_20261012/后续验证清单.md",
+      "sha256": "58B29F957BC8C3EF37383610AE1D7C44E3521BC4A51FA2505EF199006A1F1264"
+    }
+  ],
+  "remaining": "Waveform clarity optimization, timed stability/error regression, final dynamic demonstrations, T36 final freeze and Flash/submission remain unexecuted.",
+  "originalEvidenceIndexSha256": "BB33F51031219C7E3C12B5263D447C2310107A613736AD5CF8D47E98697236E3",
+  "staticRecheckDate": "2026-10-12",
+  "portableView": true,
+  "view": "portable"
+}

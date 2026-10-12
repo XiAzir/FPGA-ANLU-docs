@@ -1,0 +1,58 @@
+{
+  "recordedBeijing": "2026-10-11 17:38:19",
+  "boardStatus": "FAIL_NO_SIGNAL_CRC_DIVERGENCE",
+  "limits": [
+    "CRC16 can collide; fixed one music window only",
+    "No fresh remote card hash, local reference from original delivered music",
+    "hdmi_locked flag does not prove monitor lock",
+    "CRC results freeze before KEY1 switch; after tone video is not tone CRC",
+    "101 simple offline fingerprints (bit stuck/invert,byte swap,shifts,repeat/decimate,amplitude bit shifts) did not match D2D6; not an exhaustive fault test"
+  ],
+  "userFeedback": "新版直接无信号。保持TF/供电/HDMI回载同包osd_phy_fix后三项(图片/WAV/内部tone)都恢复正常。",
+  "version": "C11108",
+  "pages": {
+    "after": {
+      "pC": "C700002C",
+      "p9": "97000000",
+      "pD": "DFC11108",
+      "p1": "1DA80000",
+      "p8": "8700D2D6",
+      "pB": "B702002D",
+      "p7": "7700D2D6",
+      "p3": "3B00BB80",
+      "pA": "A7008000",
+      "p6": "6700F485"
+    },
+    "before": {
+      "pC": "C700002C",
+      "p9": "97000000",
+      "pD": "DFC11108",
+      "p1": "1DA80000",
+      "p8": "8700D2D6",
+      "pB": "B702002D",
+      "p7": "7700D2D6",
+      "p3": "3300BB80",
+      "pA": "A7008000",
+      "p6": "6700F485"
+    }
+  },
+  "videos": [
+    {
+      "archive": "E:/QQ CACHE/Download/安路资料/开发记录/专题记录/OSD状态显示/PCM校验FIFO分歧与无信号_20261011/before/board_video.mp4",
+      "bytes": 5362292,
+      "sha256": "B93C5A25B7086D4FBC106CEBF489D9DAA27C434B590830598E7EA9F0A9E0CBAB",
+      "origin": "E:/QQ CACHE/LiaoTianJiLu/Tencent Files/1791081637/nt_qq/nt_data/Video/2026-10/Ori/af836336cf3a431b54b26d4788529878.mp4",
+      "mode": "before"
+    },
+    {
+      "archive": "E:/QQ CACHE/Download/安路资料/开发记录/专题记录/OSD状态显示/PCM校验FIFO分歧与无信号_20261011/after/board_video.mp4",
+      "bytes": 5338951,
+      "sha256": "7FBFDF92EAA9EA4046BBE7C2E8FF9A2EDB04DBA5655DBDA8D9BEBF533189875B",
+      "origin": "E:/QQ CACHE/LiaoTianJiLu/Tencent Files/1791081637/nt_qq/nt_data/Video/2026-10/Ori/1cf0c3ca270cbc7af6cf26e33c6a2aaf.mp4",
+      "mode": "after"
+    }
+  ],
+  "interpretation": "All three prefix captures complete without early-tone abort; source CRC matches local reference F485, FIFO pop CRC D2D6 differs, HDMI input CRC equals FIFO pop. Prioritize FIFO read/write/head/request boundary, but CRC16/observer correctness and sequence alignment still require audit. Video no-signal cause not uniquely established by audio CRC.",
+  "bitSha256": "F467BA1C05D27BB762E735016AFC7CF02D404B1E724D23203F56100C879749E4",
+  "evidenceType": "User monitor/rollback feedback and assistant manual full-frame seven-segment video decoding; no agent hardware operation"
+}

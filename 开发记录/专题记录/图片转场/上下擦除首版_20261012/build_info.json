@@ -1,0 +1,66 @@
+{
+  "version": "C11205",
+  "kind": "TOP_DOWN_EIGHT_ROW_WIPE",
+  "boardStatus": "PENDING_BOARD_VALIDATION",
+  "createdBeijing": "2026-10-12 12:42:08",
+  "sourceProject": "E:\\VSCODE-project\\FPGA-ANLU\\development\\player_transition_wipe",
+  "parentVersion": "C11204",
+  "successfulBaseline": "C11204 waveform_keyfreeze.bit with known waveform display issues",
+  "canonicalBit": "E:\\VSCODE-project\\FPGA-ANLU\\development\\player_transition_wipe\\build\\manual\\AC201_player_transition_wipe.bit",
+  "deliveryBitName": "transition_wipe.bit",
+  "bitBytes": 629624,
+  "bitSha256": "748E0AF0F9BF0656410C09735E371F655BEDD330C259E43858B614B1D95AE8F9",
+  "rollbackBitName": "waveform_keyfreeze.bit",
+  "rollbackSha256": "A16326B8266ED6CB52CE27E163B89DC1C2B37551B393AE5F1116BA16C6F54790",
+  "scopeHash": "98bf6bdaee335084e834a0d9c7747941d22edbae5bfb6b1d6893adcb226730cf",
+  "scriptHash": "f49bdc855931095957f3d9e5bbbaf16e48cbdb592f784e033c088ce196f68e7b",
+  "stageRunIds": {
+    "synthesis": "90802b03-acea-4afb-b685-7d3d0fc1c3cb",
+    "physical": "f19c5868-0c10-41db-973d-39eb71fefe78",
+    "bitstream": "3aba4432-7fa5-48ac-9727-5c384a07b077"
+  },
+  "timing": {
+    "SWNSns": 0.247,
+    "STNSns": 0.0,
+    "HWNSns": 0.011,
+    "HTNSns": 0.0
+  },
+  "timingCoveragePercent": 99.97,
+  "resource": {
+    "LUT": 13131,
+    "reg": 8238,
+    "LE": 14651,
+    "BRAM9K": 24,
+    "DSP": 1,
+    "GCLK": 2
+  },
+  "holdFixPerformed": false,
+  "models": {
+    "wipe_address.log": "4AE460D7B4E3312C67DF519EB194AEC8F8D3DF7B53956888FB5DF608C0363972",
+    "wipe_rgb888.log": "D7D72794AD3C7619E3AB4A1C20434886AC27C60DDA053EF64387A76A4BCCF565",
+    "tb_display_ownership.log": "B8B126374F251EC60A2022BBD3835A26370397D80DF8AFEF6E41BA3BF3B5329A",
+    "wipe_backend.log": "F835A6264605727B1FAF5FEA418736B4EAE9495791F4ED2FBB56C0877DB850D8"
+  },
+  "inheritedSourceAudit": "3BD8141003FA119DCC2076A6343744DD7924DF7F4B17DED865B7D65521BAD126",
+  "wipe": {
+    "width": 640,
+    "height": 480,
+    "rowsPerFrame": 8,
+    "frameEdges": 60,
+    "wordStride": 480,
+    "wordsPerFrame": 230400,
+    "burstsPerFrame": 900,
+    "burstWords": 256
+  },
+  "ownership": "Loader waits after full target write; releases old buffer only after final full-new-frame request-accept ACK, after previous burst drain. ACK is not full-frame read completion.",
+  "busyInput": "One next request retained/coalesced; AUTO state may toggle; WAIT_DISPLAY pauses AUTO interval.",
+  "firstImage": "Direct full image, no wipe",
+  "error": "Original HALT, no failed target publication, old image stays",
+  "knownIssues": [
+    "Dynamic waveform double trace disappears under HOLD; unique cause unconfirmed",
+    "Low waveform display resolution; optimization deferred"
+  ],
+  "hardwareActions": "No local JTAG, TF write or Flash programming; original TF media unchanged",
+  "checkpoint": "E:\\VSCODE-project\\FPGA-ANLU\\development\\player_transition_wipe\\checkpoints\\transition_wipe_20261012_candidate",
+  "evidenceLimit": "New behavior models and static integration audit plus original-constraint TD timing; encrypted SDRAM, actual BRAM/HDMI PHY and board unverified. Parent feature evidence inherited only for unchanged source files."
+}

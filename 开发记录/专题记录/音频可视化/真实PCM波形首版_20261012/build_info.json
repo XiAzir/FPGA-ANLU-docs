@@ -1,0 +1,81 @@
+{
+  "version": "C11202",
+  "kind": "T23_REAL_PCM_WAVEFORM_CANDIDATE",
+  "boardStatus": "PENDING_BOARD_VALIDATION",
+  "createdBeijing": "2026-10-12 10:59:17",
+  "sourceProject": "E:\\VSCODE-project\\FPGA-ANLU\\development\\player_pcm_waveform",
+  "parentVersion": "C11201",
+  "parentVerifiedFiles": 133,
+  "canonicalBit": "E:\\VSCODE-project\\FPGA-ANLU\\development\\player_pcm_waveform\\build\\manual\\AC201_player_pcm_waveform.bit",
+  "deliveryBitName": "pcm_waveform.bit",
+  "bitBytes": 629624,
+  "bitSha256": "D753D6893AA6C1EB98323C189FC7889A7FBCB96D3C12ECA5966AF515AE397D49",
+  "rollbackBitName": "image_adjust.bit",
+  "rollbackSha256": "5482E8E2D2AE912E47D9EA21F93892559F39AF77C907D025EBDA46AE9994C2FA",
+  "scopeHash": "aad4796d4a53a05716308279cdc22447367a3a72ea87374012fc969c7b19e05a",
+  "scriptHash": "cdbcdb1edef5d66d7e175d2005fda3377f8c8c1b12d00ebfc8a0680c2647b931",
+  "stageRunIds": {
+    "synthesis": "dfe98c82-29be-4ab9-b635-63f9e98fc833",
+    "physical": "bde5519c-6b54-4b93-b2c4-4b0e733d78e0",
+    "bitstream": "5082e36b-bb32-4656-b02f-f266663daf9b"
+  },
+  "timing": {
+    "SWNSns": 0.66,
+    "STNSns": 0.0,
+    "HWNSns": 0.003,
+    "HTNSns": 0.0
+  },
+  "timingCoveragePercent": 99.97,
+  "resource": {
+    "LUT": 13097,
+    "reg": 8221,
+    "LE": 14688,
+    "BRAM9K": 24,
+    "DSP": 0,
+    "GCLK": 2
+  },
+  "holdFixPerformed": false,
+  "models": {
+    "player_pcm_waveform_model.log": "5994A6388226A758480165B6DAFADAC78F3C7052629D0043EE3E2C3E4C1282A9",
+    "integration.log": "A6EE4F647FF8586D23BA2D8093A5698D51A1EF832D47FA470F3CDECF84C981E7"
+  },
+  "inheritedSourceAudit": "43E6EBA2C06DD0098FAB894DE074EA7504E648A6F93602D731D56637419E738C",
+  "integrationReview": "715DF8EE70252DDA46B318A838AEB8222C9DAA7D790A0C2A6E5530F9CE74B725",
+  "waveformBram": "1 EG_PHY_BRAM PDPW8K: logical 256x14 -> constant-bit reduced 256x12; two 128-bin banks",
+  "sampleFifoBram": "4 EG_PHY_BRAM DP8K 2048x4; inherited unchanged",
+  "format": "Existing 640x480 BMP and 48kHz mono PCM16 TEST.WAV; no TF change",
+  "observerInput": "Same audio_valid/audio_left_data as HDMI core, PCM16 = signed [23:8], no backpressure",
+  "window": {
+    "bins": 128,
+    "samplesPerBin": 8,
+    "samples": 1024,
+    "nominalMsAt48kHz": 21.3333333333,
+    "displayBinWidthPixels": 4
+  },
+  "verticalFormula": "code=clip(floor(PCM16/256)+28,0,56), visual X4 relative to 1024 PCM counts/pixel; no audio gain change",
+  "panel": {
+    "x": [
+      16,
+      623
+    ],
+    "y": [
+      320,
+      423
+    ],
+    "graphX": [
+      64,
+      575
+    ],
+    "graphY": [
+      356,
+      412
+    ],
+    "centerY": 384
+  },
+  "commit": "Complete windows at VS rise; clear stale/source-change front at VS; no DE/RGB pipeline delay",
+  "observerLimit": "Waiting-ready observations discarded; no effect on playback samples. Min/max visualization, not a trigger-stabilized scope or spectrum.",
+  "noSamplesTimeoutMs": 100,
+  "checkpoint": "E:\\VSCODE-project\\FPGA-ANLU\\development\\player_pcm_waveform\\checkpoints\\pcm_waveform_20261012_candidate",
+  "hardwareActions": "No local JTAG, TF writes or Flash programming",
+  "evidenceLimit": "Local model/review/TD STA do not prove board audio/video/PHY or long-term operation; original IO/CDC/IP warning boundaries preserved."
+}

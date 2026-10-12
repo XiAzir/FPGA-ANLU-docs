@@ -1,0 +1,98 @@
+{
+  "recordedBeijing": "2026-10-12 14:06:00",
+  "version": "C11206",
+  "bitSha256": "C60464C0D4396D316DB7622E4CB0B70B5DE12C25148AFE234AC7C795C818625D",
+  "versionAssociation": "Associated with the C11206 package by conversation context; photos do not show build ID or independently verify the downloaded bit hash.",
+  "userQuote": "看起来没什么问题，功能也验过了没问题",
+  "boardStatus": "PASS_REPORTED_SCALE_AND_INTEGRATED_FUNCTIONS_WITH_KNOWN_WAVEFORM_ISSUES",
+  "testRequestContext": "四尺寸BMP方向/颜色/黑边；KEY0与AUTO上下擦除；WAV和内部音阶；字幕、亮度/对比度、默认恢复、波形冻结/恢复。",
+  "reportedFunctions": "用户笼统确认本轮功能验过且无问题，按上一轮操作卡所要求范围记通过（用户反馈）；未逐项复述操作次数/时长，不补造测试过程。",
+  "photos": [
+    {
+      "source": "C:\\Users\\PENGYU~1\\AppData\\Local\\Temp\\codex-clipboard-8789c60b-e787-40dd-b640-afe894fe5164.jpg",
+      "projectCopy": "E:\\VSCODE-project\\FPGA-ANLU\\development\\player_bmp_scale\\build\\board_feedback_20261012\\photos\\scale4_512x128.jpg",
+      "docsCopy": "E:\\QQ CACHE\\Download\\安路资料\\开发记录\\专题记录\\图片缩放\\多尺寸最近邻首版_20261012\\实板照片\\scale4_512x128.jpg",
+      "sha256": "9238927A8C001FCE7886726EFFA5E720BE7FDFE73912F0E273074375251063E7",
+      "bytes": 309886,
+      "testAsset": "SCALE4.BMP",
+      "displayedImageIndex": 4,
+      "sourceDimensions": [
+        512,
+        128
+      ],
+      "expectedOutputDimensionsFromSpecification": [
+        640,
+        160
+      ],
+      "visualObservation": "上下黑边，宽图居中；彩块和对角线方向符合预期。"
+    },
+    {
+      "source": "C:\\Users\\PENGYU~1\\AppData\\Local\\Temp\\codex-clipboard-5c1b7eee-32ff-47e1-99bd-3d34f78ba233.jpg",
+      "projectCopy": "E:\\VSCODE-project\\FPGA-ANLU\\development\\player_bmp_scale\\build\\board_feedback_20261012\\photos\\scale1_320x240.jpg",
+      "docsCopy": "E:\\QQ CACHE\\Download\\安路资料\\开发记录\\专题记录\\图片缩放\\多尺寸最近邻首版_20261012\\实板照片\\scale1_320x240.jpg",
+      "sha256": "EE6637D73E2E373D6DA709367ABE0F09F67781AEA0698224C61E6631A0BCFE70",
+      "bytes": 286044,
+      "testAsset": "SCALE1.BMP",
+      "displayedImageIndex": 1,
+      "sourceDimensions": [
+        320,
+        240
+      ],
+      "expectedOutputDimensionsFromSpecification": [
+        640,
+        480
+      ],
+      "visualObservation": "小图放大铺满，彩块与角标方向符合预期。"
+    },
+    {
+      "source": "C:\\Users\\PENGYU~1\\AppData\\Local\\Temp\\codex-clipboard-79846dbb-8bfa-4706-836c-90c453caaf83.jpg",
+      "projectCopy": "E:\\VSCODE-project\\FPGA-ANLU\\development\\player_bmp_scale\\build\\board_feedback_20261012\\photos\\scale2_800x600.jpg",
+      "docsCopy": "E:\\QQ CACHE\\Download\\安路资料\\开发记录\\专题记录\\图片缩放\\多尺寸最近邻首版_20261012\\实板照片\\scale2_800x600.jpg",
+      "sha256": "3424464A94169A683148B01A7DC096C54AEEE58FEFAAD935D2EBF3F757FA25B8",
+      "bytes": 243606,
+      "testAsset": "SCALE2.BMP",
+      "displayedImageIndex": 2,
+      "sourceDimensions": [
+        800,
+        600
+      ],
+      "expectedOutputDimensionsFromSpecification": [
+        640,
+        480
+      ],
+      "visualObservation": "大图缩小铺满，彩块和对角线方向符合预期。"
+    },
+    {
+      "source": "C:\\Users\\PENGYU~1\\AppData\\Local\\Temp\\codex-clipboard-39372667-7152-423f-ab4a-6bc7cceed487.jpg",
+      "projectCopy": "E:\\VSCODE-project\\FPGA-ANLU\\development\\player_bmp_scale\\build\\board_feedback_20261012\\photos\\scale3_191x321_topdown.jpg",
+      "docsCopy": "E:\\QQ CACHE\\Download\\安路资料\\开发记录\\专题记录\\图片缩放\\多尺寸最近邻首版_20261012\\实板照片\\scale3_191x321_topdown.jpg",
+      "sha256": "0271A411C81EF9E1A9DA08C59C45DE69FE229B2C01E634912C1CA201F28AD611",
+      "bytes": 279955,
+      "testAsset": "SCALE3.BMP",
+      "displayedImageIndex": 3,
+      "sourceDimensions": [
+        191,
+        321
+      ],
+      "expectedOutputDimensionsFromSpecification": [
+        285,
+        480
+      ],
+      "visualObservation": "竖图左右黑边并居中，top-down素材方向符合预期。"
+    }
+  ],
+  "photoEvidenceLimits": "照片支持四种尺寸的宏观布局、方向与叠加显示。透视、反光及摩尔纹限制逐像素判断；静态照片不能证明音质、AUTO、转场或具体按键过程。RUN数值不作为计时长稳起止证据。输出尺寸取自规格，不是照片像素测量。",
+  "knownIssues": [
+    "动态波形可见双线，HOLD后消失；用户同意暂留，唯一成因未确认。",
+    "波形显示分辨率与线条清晰度优化留到后续。"
+  ],
+  "notValidated": [
+    "本版计时长稳、重复冷启动和下载矩阵",
+    "实板最大1024×768尺寸及任意受支持图片/异常文件/换卡/碎片矩阵",
+    "HDMI逐像素采集、实物音频仪器测量、转场或加载实测时长",
+    "Flash固化与掉电持久启动",
+    "T33正式五扩展逐项证据矩阵与最终提交验收"
+  ],
+  "scope": "T29/T30四种素材最近邻缩放首版实板功能通过；当前同位流集成功能获用户总体正常反馈。不是全格式/全部边界或正式G4签核。",
+  "agentHardwareActions": "None. Board and AL-LINK are on the remote laboratory PC; no local JTAG, TF write or Flash operation."
+}

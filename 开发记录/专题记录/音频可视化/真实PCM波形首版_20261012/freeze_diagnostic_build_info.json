@@ -1,0 +1,60 @@
+{
+  "version": "C11203",
+  "kind": "FREEZE_FRONT_DIAGNOSTIC",
+  "boardStatus": "PENDING_DIAGNOSTIC_BOARD_VALIDATION",
+  "createdBeijing": "2026-10-12 11:27:44",
+  "sourceProject": "E:\\VSCODE-project\\FPGA-ANLU\\development\\player_pcm_waveform_freeze",
+  "parentVersion": "C11202",
+  "successfulBaseline": "C11201 image_adjust.bit",
+  "canonicalBit": "E:\\VSCODE-project\\FPGA-ANLU\\development\\player_pcm_waveform_freeze\\build\\manual\\AC201_player_pcm_waveform_freeze.bit",
+  "deliveryBitName": "waveform_freeze.bit",
+  "bitBytes": 629624,
+  "bitSha256": "2761C212E7F59C52846003F026AEB0286DFC45E2AD3FA3085D89268938C5E88F",
+  "rollbackBitName": "image_adjust.bit",
+  "rollbackSha256": "5482E8E2D2AE912E47D9EA21F93892559F39AF77C907D025EBDA46AE9994C2FA",
+  "dynamicComparisonBit": "pcm_waveform.bit",
+  "dynamicComparisonSha256": "D753D6893AA6C1EB98323C189FC7889A7FBCB96D3C12ECA5966AF515AE397D49",
+  "scopeHash": "72e644a34b5fe6651bebe8fd7efbe38834df0b224b0e4bd668db6b02779a6b66",
+  "scriptHash": "2b7ecdcc40055151a61034d482abd88d71fd420a30cf13c6cfdbc62c89368953",
+  "stageRunIds": {
+    "synthesis": "6cef9d9f-67c6-4f99-9dc7-e0e9988cd8d6",
+    "physical": "aa7e5fa6-846a-4b56-bf79-ab0d67ed7e31",
+    "bitstream": "2a080c27-7c4d-43e3-8e81-8cbc857a251c"
+  },
+  "timing": {
+    "SWNSns": 0.304,
+    "STNSns": 0.0,
+    "HWNSns": 0.019,
+    "HTNSns": 0.0
+  },
+  "timingCoveragePercent": 99.97,
+  "resource": {
+    "LUT": 13342,
+    "reg": 8231,
+    "LE": 14990,
+    "BRAM9K": 24,
+    "DSP": 0,
+    "GCLK": 2
+  },
+  "holdFixPerformed": false,
+  "models": {
+    "player_pcm_waveform_model.log": "C4F20D4BDA08EE9702B074745A0F6E29ECBBB3ECDA7169DE3324B03920CD0136",
+    "integration.log": "A6EE4F647FF8586D23BA2D8093A5698D51A1EF832D47FA470F3CDECF84C981E7",
+    "freeze_model_root.log": "18961F393A524209A329581A17759CAFD801882AEFCDEB48E9E1055E4F0A7CC0",
+    "frozen_music_integration.log": "1BB2F327EFE82B746E194FDE4BD924A110E8578D05601734612819F148794666"
+  },
+  "inheritedSourceAudit": "A9F5D764CDC96D099C93E03B59D44FD16E2C729F52362A9F3FC6EC66C6857BC4",
+  "freezeReview": "CAD7D49BE098EEE9FBAEF5DC834F2230AD4C0B087D716C6E8FE7CFABE13F7C20",
+  "freezeAfterEvents": 144000,
+  "nominalSecondsAt48kHz": 3,
+  "freezeCommit": "Complete capture bank at VS after registered request; coincident threshold/VS may wait another complete window",
+  "freezeBehavior": "Both RAM banks and front display held; audio continues; stale ignored after freeze; source change/reset rearm",
+  "title": "PCM WAV/TONE X4 while live; HOLD WAV/TONE X4 after front freeze",
+  "observerInput": "Unchanged passive audio_valid/audio_left_data used by HDMI core",
+  "waveBram": "1 physical PDPW8K (256x12 after constant-bit reduction)",
+  "audioFifoBram": "4 physical DP8K, inherited unchanged",
+  "format": "Existing 640x480 BMP and48kHz mono PCM16 TEST.WAV; no TF change",
+  "checkpoint": "E:\\VSCODE-project\\FPGA-ANLU\\development\\player_pcm_waveform_freeze\\checkpoints\\waveform_freeze_20261012_candidate",
+  "hardwareActions": "No local JTAG, TF writes or Flash programming",
+  "evidenceLimit": "Diagnostic, not a fix. Dense default-threshold counting and local raster models are not board48kHz/actual BRAM/HDMI PHY measurement. Static clean result does not uniquely prove monitor cause; implementation placement also changes."
+}

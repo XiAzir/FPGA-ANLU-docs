@@ -1,0 +1,41 @@
+{
+  "result": "PASS",
+  "checks": 64,
+  "scope": "Five actual routed LUT INIT tables, page=1 (display page 3), all 64 boundary combinations",
+  "relation": "frame_value_b[17]_syn_9 == NOT received[17]",
+  "netlist_sha256": "fd07de05dcc1541af6089d3ec597867daa738a65290e93d95b1866cd88f3f0d0",
+  "instances": {
+    "file_received": "u_status_monitor/received_reg[21]_syn_4",
+    "low_page": "u_frame_buffer/u_sdram/u2_ram/u2_wrrd/app_wr_din_4d_reg[17]_syn_4",
+    "page_gate": "u_hdmi_1_4b_transmitter_core_wrapper/u_hdmi_tx_controller_wrapper/u_hdmi_island_data_gen/U_audio_sample_packet_2_channel/u_w96_d1024_fifo/u_logic_ramfifo[6]__3_syn_4",
+    "high_page": "u_status_hex/frame_value_b[17]_syn_13",
+    "final_prefix": "u_frame_buffer/u_sdram/u2_ram/u2_wrrd/app_wr_din_4d_reg[22]_syn_4"
+  },
+  "init_tables": {
+    "file_received": {
+      "INIT_LUT0": 13085,
+      "INIT_LUT1": 255
+    },
+    "low_page": {
+      "INIT_LUTF0": 51727,
+      "INIT_LUTG0": 51727
+    },
+    "page_gate": {
+      "INIT_LUTF0": 21775,
+      "INIT_LUTF1": 240,
+      "INIT_LUTG0": 65331,
+      "INIT_LUTG1": 240
+    },
+    "high_page": {
+      "INIT_LUT0": 13085,
+      "INIT_LUT1": 34976
+    },
+    "final_prefix": {
+      "INIT_LUTF0": 21775,
+      "INIT_LUTF1": 243,
+      "INIT_LUTG0": 65331,
+      "INIT_LUTG1": 243
+    }
+  },
+  "limits": "Boundary connectivity transcribed from named primitive ports; no reset, FF, self-test gating, serial display, timing/SDF or hardware simulation."
+}

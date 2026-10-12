@@ -1,0 +1,23 @@
+{
+  "recorded_beijing": "2026-10-11T14:05:56.786567+08:00",
+  "evidence_source": "USER_PASTED_BITWRITER_LOG",
+  "result": "VERIFY_SRAM_TOOL_REPORTED_SUCCESS_NO_MISMATCH_REPORTED",
+  "mode": "x_rdbk",
+  "chip": "EG4S20BG256",
+  "jtag_tck_mhz": 3,
+  "user_bit_reference": "../../anlu/bit/cadence_probe.bit",
+  "user_bit_sha256": null,
+  "local_candidate_sha256": "8C56A7D24F2D719835369720D7403DE3F55150E07C454CBA3182EE47D230E17C",
+  "warning": "PRG-5006 Cannot find mask file",
+  "reported_masked_bits": 0,
+  "raw_log": "E:\\VSCODE-project\\FPGA-ANLU\\development\\player_dynamic_text_cadence_probe\\build\\board_feedback_20261011\\config_verify_review\\user_verify_sram.log",
+  "raw_log_sha256": "de81e8681cd19d9b756aca70d3a5dfd9e4d5f88dfe3f988559bc4caf9c634674",
+  "limits": [
+    "User-side bit copy is not present on this host; no independent hash of it.",
+    "Tool success for the selected Verify SRAM operation is not functional board success.",
+    "Official manual excludes user ERAM; exact coverage without mask is undocumented.",
+    "No independent configuration dump comparison or physical HDMI measurement."
+  ],
+  "next": "Check anomalous status bit17 against actual mapped primitives before additional board instrumentation.",
+  "board_function_status": "FAIL_NO_SIGNAL_ROOT_CAUSE_UNCONFIRMED"
+}

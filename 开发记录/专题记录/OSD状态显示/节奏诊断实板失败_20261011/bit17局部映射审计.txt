@@ -1,0 +1,37 @@
+Mapped status bit-17 local audit
+Scope: final_pr_routed.v exact parameter/port extraction plus exhaustive Boolean decoding of two actual INIT LUTs.
+Classification: mapped-netlist parameter audit; NOT a behavioral simulation of the original full netlist or official EG primitive model.
+
+Netlist SHA256: fd07de05dcc1541af6089d3ec597867daa738a65290e93d95b1866cd88f3f0d0
+RTL SHA256: 210b44d7014f1e3df07dc8288a78c4af4c62e7700f15ed4f21d3a55e9c221538
+Official MSLICE model SHA256: ec4dadd99381db70f31e6c63378b72f9ebd025c257cd115c5bc4abf15c853b81
+
+Extracted instances:
+  audio_count_reg[15]_syn_4: q[0] = audio_count[17], d[0] = audio_count_b1[17], async SR input startup_flags[1]_dup_4336, REG*_REGSET RESET.
+  mailbox_reg[17]_syn_4: LUT1 INIT=0xCCF0, f[1]=audio_count_b1[17], q[1]=mailbox[17], CE=mux5_syn_2[27], async SR=startup_flags[1]_dup_4336.
+  rst_all_reg_reg_syn_217: LUTF0 INIT=0x7F00, d[0]=audio_valid, f[0]=audio_count_b1_n.
+
+  mailbox LUT truth/comment exhaustive match: 16/16 inputs; comment=(C*~(B)*~(D)+C*B*~(D)+~(C)*B*D+C*B*D); INIT=0xCCF0.
+  selector LUT truth/comment exhaustive match: 16/16 inputs; comment=(D*~(C*B*A)); INIT=0x7F00.
+  no-audio selector boundary D=audio_valid=0: output 0 for all A/B/C combinations (8/8).
+  selector=0 no-audio bit-17 mux truth: sum17 x count17 x unused A, 8/8 combinations yield f17=count17.
+  At 48,000 samples, count17=0; 48,001 also has bit17=0. This local mapped LUT therefore does not introduce bit17=1 when selector is held at no-audio value 0.
+
+Exhaustive no-audio rows:
+A=0 sum17=0 count17=0 selector=0 -> mapped f17=0
+A=0 sum17=0 count17=1 selector=0 -> mapped f17=1
+A=0 sum17=1 count17=0 selector=0 -> mapped f17=0
+A=0 sum17=1 count17=1 selector=0 -> mapped f17=1
+A=1 sum17=0 count17=0 selector=0 -> mapped f17=0
+A=1 sum17=0 count17=1 selector=0 -> mapped f17=1
+A=1 sum17=1 count17=0 selector=0 -> mapped f17=0
+A=1 sum17=1 count17=1 selector=0 -> mapped f17=1
+
+Sequential boundary evidence (connectivity only):
+  Count FF receives mapped f17 via audio_count_b1[17]; async reset parameter says RESET and reset pin is connected. This script does not simulate FF behavior.
+  Mailbox FF CE and SR pins plus q17 connectivity were extracted. This script does not simulate CE/hold/reset behavior.
+
+Limitations:
+  Tang Dynasty official eg_phy_mslice.v and eg_phy_lslice.v contain protected functional model blocks. Icarus cannot provide an official-model primitive simulation from those encrypted internals; stripping protect blocks would remove behavior and is not accepted as validation.
+  The full final netlist is not compiled (known Icarus crash not retried). This is an actual mapped INIT/connection audit, not an RTL-copy verification and not a full mapped-netlist simulation.
+  No root/central development record modified.
