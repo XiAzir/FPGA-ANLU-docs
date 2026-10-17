@@ -1,6 +1,6 @@
 {
   "reviewed_beijing": "2026-10-17T19:34:23.242824",
-  "status": "REVIEWED_READY_TO_COMMIT",
+  "status": "REVIEWED_AND_ARCHIVE_PUSH_CONFIRMED",
   "branch": "XiAzir",
   "security_scan": [
     {
@@ -166,5 +166,12 @@
     "Review of hand-written code was targeted, not a proof of all archived FPGA behavior",
     "Local experimental script absolute paths retained; compiled ModelSim work must be rebuilt",
     "C11310 board failure remains unresolved; C11312 diagnostic not board-tested"
-  ]
+  ],
+  "publication": {
+    "engineering_commit": "cf3694d23e26b83baf5f1c1f53959e57d3029235",
+    "documentation_archive_commit": "1db3d84f47bc7c5f8d4a39df0efcd78a0ed1c73e",
+    "branch": "XiAzir",
+    "both_archive_pushes_accepted": true,
+    "note": "Final documentation bookkeeping commit follows this archive commit"
+  }
 }

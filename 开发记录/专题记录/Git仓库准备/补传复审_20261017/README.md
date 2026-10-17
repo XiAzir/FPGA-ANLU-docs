@@ -1,6 +1,6 @@
 # 两仓未跟踪筛选与diff复审（2026-10-17）
 
-状态：筛选、diff复审、上传前核查完成，提交推送进行中。两仓当前分支均XiAzir；main保留原稳定入口。
+状态：筛选、diff复审与提交推送完成；两仓XiAzir远端已确认，收尾核验记录另随资料提交上传。两仓当前分支均XiAzir；main保留原稳定入口。
 
 ## 范围与分类
 
@@ -27,3 +27,10 @@
 - 排除一个无入口/清单引用的一次性失败补丁patch_seq_boundary.py，原件未删，SHA见validation_summary.json。另一个旧探索脚本patch_cone.py有invalid escape SyntaxWarning，当前Python可解析，作为历史材料保留，未为归档修改旧代码。
 - 两仓已有修改及新增ignore规则diff已复审；使用允许CRLF的空白规则检查通过，冻结/原厂源码不做格式化。
 - 归档不等于新的FPGA功能验收；不重跑既有大仿真来把已知板端失败改成成功，实物未验证范围继续保留。
+
+## 远端发布结果
+
+- 工程归档提交：`cf3694d23e26b83baf5f1c1f53959e57d3029235`，已push至`origin/XiAzir`，包含8309个路径变化（8308新增及ignore修改）。
+- 资料归档提交：`1db3d84f47bc7c5f8d4a39df0efcd78a0ed1c73e`，已push至`origin/XiAzir`；本条收尾记录另做文档提交。该首次资料提交含91个路径变化（89新增、2修改）。
+- 两仓服务器均明确接受推送；资料ls-remote返回完整提交一致，工程已接受`46ca8cf..cf3694d`。收尾后再次核远端HEAD与工作区干净状态，机器结果保留工程忽略目录`tmp/git_review_20261017/`。
+- 无force push、未改main、未删除本地被忽略文件、未改生产/冻结源码或旧bit。上传不构成新的实板验收。
