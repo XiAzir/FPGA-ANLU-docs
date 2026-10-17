@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "createdBeijing": "2026-10-13 16:13:29",
+  "boardStatus": "PENDING_BOARD_VALIDATION",
+  "bitSha256": "30C45D0A9B82B9C4F78C5A14A81CEFA13C704AF9C91C34EB4C625974FDAA4B96",
+  "checkpointFiles": 175,
+  "manifestSha256": "F6F5DA1F9228DF3231EB46CC0113E81894D3E99B412C528F3684BBED8F0EA0EE",
+  "zip": "E:\\VSCODE-project\\FPGA-ANLU\\deliverables\\waveform_fine_20261013.zip",
+  "zipBytes": 615896,
+  "zipSha256": "AB54BB8B8501787EA557E6FFED6934C0C5D3784A95D5CAE0D49DEA19BD48C2C2",
+  "parentVerified268AndCandidate260AndZipUnchanged": true,
+  "unchangedSources": 85,
+  "changedSources": 3
+}

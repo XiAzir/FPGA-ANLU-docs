@@ -1,0 +1,24 @@
+{
+  "createdBeijing": "2026-10-13 20:51:25",
+  "status": "LOCAL_DELIVERY_VERIFIED_BOARD_PENDING",
+  "zip": "E:\\VSCODE-project\\FPGA-ANLU\\deliverables\\music_spectrum_20261013.zip",
+  "zipSha256": "2E8F934195D94A96CB122922C5D41C16FA98E7C23378EC98338969578AD188A7",
+  "bitSha256": "789913A1C0E332E3FB5ED73C55252BBECB1ABF7A1C19F7E3319AC56AE09EEB17",
+  "checkpoint": "E:\\VSCODE-project\\FPGA-ANLU\\development\\player_spectrum\\checkpoints\\music_spectrum_20261013_candidate",
+  "checkpointFiles": 325,
+  "manifestSha256": "365ECA09CB3BB988FCA500519C45317661063EC24F5317E6DEC94B65F19C2A7A",
+  "resource": {
+    "LUT": 16383,
+    "reg": 9833,
+    "LE": 18049,
+    "BRAM9K": 44,
+    "DSP": 11,
+    "GCLK": 2
+  },
+  "timing": {
+    "SWNSns": 0.557,
+    "STNSns": 0.0,
+    "HWNSns": 0.021,
+    "HTNSns": 0.0
+  }
+}

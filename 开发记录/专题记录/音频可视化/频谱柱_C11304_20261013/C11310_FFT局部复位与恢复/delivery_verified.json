@@ -1,0 +1,26 @@
+{
+  "createdBeijing": "2026-10-14 20:34:50",
+  "status": "LOCAL_CANDIDATE_DELIVERED_BOARD_PENDING",
+  "zip": "E:\\VSCODE-project\\FPGA-ANLU\\deliverables\\music_spectrum_fft_recover_20261014.zip",
+  "zipSha256": "330659006C9D8DFE3D6DB72310C9790ECBB7C192F6280EF8575FBC442584A864",
+  "bitSha256": "9A076C4170DEB9BA84526B61E9F086A12EF59399DB7721EAFB5F7A80186BFA0C",
+  "bitBytes": 634280,
+  "checkpoint": "E:\\VSCODE-project\\FPGA-ANLU\\development\\player_spectrum_fft_recover\\checkpoints\\music_spectrum_fft_recover_20261014_candidate",
+  "files": 266,
+  "manifestSha256": "B72108D1DEFF5615D322661F1306485A389B908A00E45FC18AA39F5D704B7522",
+  "timing": {
+    "SWNSns": 0.236,
+    "STNSns": 0.0,
+    "HWNSns": 0.027,
+    "HTNSns": 0.0
+  },
+  "resource": {
+    "LUT": 17001,
+    "reg": 10085,
+    "LE": 18508,
+    "BRAM9K": 44,
+    "DSP": 12,
+    "GCLK": 3
+  },
+  "parentFrozenFilesVerified": 240
+}

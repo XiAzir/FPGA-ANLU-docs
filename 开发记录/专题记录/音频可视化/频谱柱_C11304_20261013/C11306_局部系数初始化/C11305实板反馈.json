@@ -1,0 +1,29 @@
+{
+  "createdBeijing": "2026-10-13 21:33:46",
+  "version": "C11305",
+  "status": "FAILED_BOARD_VALIDATION",
+  "reportedBy": "user",
+  "default": "UI/spectrum panel visible; no BMP/music; all LEDs off",
+  "afterKEY1": "Monitor dark/no backlight/no signal; D3 blink, D2/D1/D0 on",
+  "videoBefore": "E:\\QQ CACHE\\LiaoTianJiLu\\Tencent Files\\1791081637\\nt_qq\\nt_data\\Video\\2026-10\\Ori\\4a35f0908e2f3e595ea59d8c21473468.mp4",
+  "videoAfter": "E:\\QQ CACHE\\LiaoTianJiLu\\Tencent Files\\1791081637\\nt_qq\\nt_data\\Video\\2026-10\\Ori\\561495ab9fdb4cc07ccd45366b2b91d6.mp4",
+  "observedBefore": [
+    "DFC11305",
+    "1D97000A",
+    "33000000",
+    "6800FFFF",
+    "7800FFFF",
+    "98000000",
+    "A8000000",
+    "C800002C"
+  ],
+  "observedAfter": [
+    "DFC11305",
+    "1D97000A",
+    "3B00BB80",
+    "prefix early_tone_abort=1"
+  ],
+  "decode": "fs_ready=1/fs_error=0/display_valid=0/BMP error=1/WAV primed=0/WAV error=1/both file mappers error=1/WAV mapper 0A timeout. Default valid PCM=0; tone valid PCM=48000 nominal second and internal video locked/frame seen.",
+  "limits": "No proof of unique electrical or synthesis root cause. Prefix flag8/count0 after tone is intentional early abort, not evidence of absent tone PCM.",
+  "next": "C11306 local explicit coefficient ROM plus global eram_init off, preserve baseline PHY; implementation/verification underway"
+}

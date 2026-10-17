@@ -1,0 +1,416 @@
+{
+  "schema": "fpga-anlu-spectrum-model-result/v2",
+  "status": "PASS",
+  "generated_utc": "2026-10-13T14:30:55.027835+00:00",
+  "verification_kind": "Local Icarus PRIVATE_ROM_BEHAVIORAL_SIM and independent Python gold models; coefficient primitive INIT audited separately, no official protected primitive simulation or board validation.",
+  "bound_sources": {
+    "private_coefficient_rom_rtl": {
+      "path": "development/player_spectrum_observed/src/user_source/hdl_source/spectrum_coeff_rom.v",
+      "sha256": "975f99493b1a2d47e9131f0be6b61154cc8d31e6d4017e3bf2515f63cb6fdd04"
+    },
+    "private_rom_generator": {
+      "path": "development/player_spectrum_observed/src/user_source/hdl_source/gen_private_spectrum_rom.py",
+      "sha256": "58adf8e8d3181973de172a5b0a1a0a9d59078c975a8dc3b41afa533568739a3f"
+    },
+    "private_rom_manifest": {
+      "path": "development/player_spectrum_observed/src/user_source/hdl_source/spectrum_coeff_rom_manifest.json",
+      "sha256": "31a61e039e5b83bce3b73cc2d015bf92e0c3773071dcfa8385e2aea970a61ee1"
+    },
+    "analyzer_rtl": {
+      "path": "development/player_spectrum_observed/src/user_source/hdl_source/player_spectrum_analyzer.v",
+      "sha256": "ad4425806607c0a24634f38dd47120a41cb7e61b34d4d948eb4c135aab93dfc1"
+    },
+    "overlay_rtl": {
+      "path": "development/player_spectrum_observed/src/user_source/hdl_source/player_pcm_waveform.v",
+      "sha256": "d99e17252bead794d6fc77316e95fd5a45907e15ba38bb34c748c787ee2e9abb"
+    },
+    "top_level_rtl": {
+      "path": "development/player_spectrum_observed/src/user_source/hdl_source/top_tf_hdmi_audio.v",
+      "sha256": "af709ab0e361abd04a80d85197e7267aaf6e29d3665b1a076ae364576be93125"
+    },
+    "band_edges": {
+      "path": "development/player_spectrum_observed/src/user_source/hdl_source/player_spectrum_bands.vh",
+      "sha256": "7681a4aaae6fea83ec28cc94c8a9fdf816a17cacf8ee720200e138803b8fef4d"
+    },
+    "hann_rom": {
+      "path": "development/player_spectrum_observed/src/user_source/hdl_source/spectrum_hann.mem",
+      "sha256": "56541dd5f3fb244efbf913046049b82e15da33484e61ffead975c35beff69f3f"
+    },
+    "twiddle_rom": {
+      "path": "development/player_spectrum_observed/src/user_source/hdl_source/spectrum_twiddle.mem",
+      "sha256": "c760d33a88c692b2ea87a748cec155e94a97bdfbe2176fd9e64d666b90edc772"
+    },
+    "coefficient_generator": {
+      "path": "development/player_spectrum_observed/src/user_source/hdl_source/gen_player_spectrum_coeffs.py",
+      "sha256": "fcd5393efd771e0cc7008de8b2f8b57509c9ecf4aa94a9ce2e70763b2f795618"
+    },
+    "analyzer_tb": {
+      "path": "development/player_spectrum_observed/sim/tb_player_spectrum_analyzer.v",
+      "sha256": "5833c019efd3bff781859537d7dde360a9dc027d97dfa53fd938011dff069478"
+    },
+    "pixel_tb": {
+      "path": "development/player_spectrum_observed/sim/tb_spectrum_overlay_pixels.v",
+      "sha256": "6431c6100a7d079b3dd9313b8e7100f3a16ea7a8af01271f8fd44b29818bac3c"
+    },
+    "integrated_control_tb": {
+      "path": "development/player_spectrum_observed/sim/tb_spectrum_overlay_integration.v",
+      "sha256": "048392f075fb8e0112368f8a7462ff519c78cd1e1d0632a2831df2323d0aa5b1"
+    },
+    "real_music_tb": {
+      "path": "development/player_spectrum_observed/sim/tb_spectrum_real_music.v",
+      "sha256": "097886efe543787c33c8a1bbd023571bb5d26cb33a3013215f54c493277c955f"
+    },
+    "analyzer_oracle": {
+      "path": "development/player_spectrum_observed/sim/spectrum_oracle.py",
+      "sha256": "c7459ba9b0c10656ed8b68370a25b7ba97a7db9b79592cf3cd2c2c480adc2bff"
+    },
+    "pixel_gold": {
+      "path": "development/player_spectrum_observed/sim/spectrum_render_gold.py",
+      "sha256": "f3fa7908b06e559c7bf68e71bf9ca9f50836bd8d3a5be6bb76ad6a235aa2cb90"
+    },
+    "integrated_state_gold": {
+      "path": "development/player_spectrum_observed/sim/verify_spectrum_overlay_integration.py",
+      "sha256": "d4522f63fa02882927e5ee3188bb9295a7f5d195544bfb0951bfa8ea59943fa2"
+    },
+    "real_music_vector_preparer": {
+      "path": "development/player_spectrum_observed/sim/prepare_real_music_vectors.py",
+      "sha256": "13c29d69496672932e470ae1c81a0716fb7a9f359a432abd2af7fab0ea4012d3"
+    },
+    "analyzer_runner": {
+      "path": "development/player_spectrum_observed/sim/run_spectrum_model.ps1",
+      "sha256": "505717f7da56e59ed1576e2294613f563c44e792200943c45da522a3ae4da9fa"
+    },
+    "pixel_runner": {
+      "path": "development/player_spectrum_observed/sim/run_spectrum_render_pixels.ps1",
+      "sha256": "7a132fb49592c62a92a72aaee6412d43709adb69aef1adfba343c5374281833c"
+    },
+    "integrated_runner": {
+      "path": "development/player_spectrum_observed/sim/run_spectrum_overlay_integration.ps1",
+      "sha256": "edf70895a57aaeca958d237e1ed7d3d6e69c7d934eee08726776cafe7db6b41c"
+    },
+    "real_music_runner": {
+      "path": "development/player_spectrum_observed/sim/run_spectrum_real_music.ps1",
+      "sha256": "fe2cecaa902d20b0d5e4207f8c8e4df306face266800710d3b2e6ab00c496643"
+    },
+    "result_collector": {
+      "path": "development/player_spectrum_observed/sim/collect_spectrum_model_result.py",
+      "sha256": "f2a03bee5206166d9ef3efefffcf3b00a1aa2d4d17cd6f061cf849b7ebdca139"
+    },
+    "fixedpoint_vectors": {
+      "path": "development/player_spectrum_observed/sim/vectors/all_expected.mem",
+      "sha256": "9f43a55db95975206099c29b83724692cd7bd98df0db9d76899be0d2ddbeddc0"
+    },
+    "pcm_vectors": {
+      "path": "development/player_spectrum_observed/sim/vectors/all_samples.mem",
+      "sha256": "04091df69301e2bf772ce76cafdc7b8d1ad51b93fd33c17479a3ec43e59a89d2"
+    },
+    "pixel_vectors": {
+      "path": "development/player_spectrum_observed/sim/vectors/render_pixels.mem",
+      "sha256": "29ce25494d6cf2571d924ca1d62362dd0f8099c16a39dec2fdcedbd599deccf6"
+    },
+    "real_music_pcm_vectors": {
+      "path": "development/player_spectrum_observed/sim/vectors/real_music_samples.mem",
+      "sha256": "c3164994a08696c0359f01cf692400b54947a57c4ac29c883bc6fcd9cbadd890"
+    },
+    "real_music_expected_vectors": {
+      "path": "development/player_spectrum_observed/sim/vectors/real_music_expected.mem",
+      "sha256": "11c3ad998b4c152c0264ed7c7566bb0e2bf257e04c9511e0699a6729519ae5f7"
+    },
+    "fixedpoint_case_results": {
+      "path": "development/player_spectrum_observed/sim/vectors/oracle.json",
+      "sha256": "8ca22c80b84cea0134f76f1b8c25bc47172e1b5f88edfa7a66b20075f591ad3b"
+    },
+    "pixel_gold_results": {
+      "path": "development/player_spectrum_observed/sim/vectors/render_gold.json",
+      "sha256": "1d3c032b751db37b69363444b5f8c63853c1a8c8b1cc83eda896ec9dd733c501"
+    },
+    "real_music_windows": {
+      "path": "development/player_spectrum_observed/sim/vectors/real_music_windows.json",
+      "sha256": "d40fc9ee25da154d9fa715d48a7c032c7f2681aa9df085bb9c432cb61f641729"
+    },
+    "real_music_source": {
+      "path": "deliverables/real_music_20261008/card/TEST.WAV",
+      "sha256": "d5244fd3935052a743379d9331ee78109c8a913241ed60de472cb9e34a17fecf"
+    },
+    "telemetry_tb": {
+      "path": "development/player_spectrum_observed/sim/tb_spectrum_diag.v",
+      "sha256": "53202890dac1f04bd56dec9f5a5050c0a1f537c4c6a84cc6a9528a640d4a2101"
+    },
+    "telemetry_runner": {
+      "path": "development/player_spectrum_observed/sim/run_spectrum_diag.ps1",
+      "sha256": "508100c305457653cac696407b1c37d030a505da4bace242fa8187fdaaf0afea"
+    },
+    "model_augmenter": {
+      "path": "development/player_spectrum_observed/augment_model.py",
+      "sha256": "77c3c5814922847e622d6ce53d42fce807a06eda20e76afbfb67dd99c79aa13f"
+    }
+  },
+  "results": {
+    "analyzer": {
+      "status": "PASS",
+      "production_fft_size": 1024,
+      "sample_rate_hz": 48000,
+      "frequency_bin_hz": 46.875,
+      "vectors": 13,
+      "bands_compared": 312,
+      "fixed_model_max_abs_error": 0,
+      "direct_dft_max_abs_error": 6.999,
+      "direct_dft_asserted_bound": 16,
+      "coefficient_rom_words_formula_checked": {
+        "hann": 1024,
+        "twiddle": 512
+      },
+      "cases": [
+        "tone_low",
+        "tone_mid",
+        "tone_high",
+        "tone_low_half",
+        "two_tone",
+        "silence",
+        "dc_positive",
+        "fullscale_positive",
+        "fullscale_negative",
+        "fullscale_sine",
+        "nyquist_alternating",
+        "impulse",
+        "wideband_random"
+      ],
+      "checks": [
+        "tone peak band low/mid/high",
+        "two tone response",
+        "amplitude doubled response",
+        "silence zero",
+        "DC excluded with Hann leakage accounted",
+        "positive/negative fullscale DC",
+        "phase pi/4 fullscale sine",
+        "alternating Nyquist extremes",
+        "centered impulse",
+        "fixed seed wideband random",
+        "continuous recapture",
+        "source_change abort during capture and analysis",
+        "reset abort",
+        "one full-rate frame with 521 clock intervals"
+      ],
+      "analysis_cycles_per_frame": 55320,
+      "evidence": {
+        "text": "development/player_spectrum_observed/build/model/spectrum_evidence_20261013_223023.txt",
+        "compile": "development/player_spectrum_observed/build/model/spectrum_compile_20261013_223023.log",
+        "run": "development/player_spectrum_observed/build/model/spectrum_run_20261013_223023.log"
+      }
+    },
+    "real_music": {
+      "status": "PASS",
+      "source": {
+        "path": "deliverables/real_music_20261008/card/TEST.WAV",
+        "sha256": "d5244fd3935052a743379d9331ee78109c8a913241ed60de472cb9e34a17fecf"
+      },
+      "sample_rate_hz": 48000,
+      "channels": 1,
+      "sample_width_bits": 16,
+      "selected_windows": [
+        {
+          "id": 0,
+          "name": "music_moderate",
+          "start_sample": 922624,
+          "start_seconds": 19.221333333333334,
+          "rms": 1659.326,
+          "peak": 4945,
+          "fixed_bands": [
+            22,
+            70,
+            36,
+            213,
+            295,
+            67,
+            254,
+            186,
+            182,
+            101,
+            126,
+            51,
+            48,
+            20,
+            23,
+            6,
+            5,
+            3,
+            2,
+            2,
+            2,
+            1,
+            1,
+            1
+          ],
+          "direct_dft_max_abs_error": 4.698,
+          "largest_band": 4,
+          "nonzero_bands": 15
+        },
+        {
+          "id": 1,
+          "name": "music_loud",
+          "start_sample": 1935360,
+          "start_seconds": 40.32,
+          "rms": 5005.592,
+          "peak": 11422,
+          "fixed_bands": [
+            201,
+            404,
+            774,
+            1064,
+            732,
+            324,
+            383,
+            168,
+            361,
+            300,
+            168,
+            184,
+            36,
+            29,
+            36,
+            8,
+            9,
+            3,
+            2,
+            2,
+            2,
+            2,
+            1,
+            1
+          ],
+          "direct_dft_max_abs_error": 4.329,
+          "largest_band": 3,
+          "nonzero_bands": 15
+        }
+      ],
+      "band_values_compared": 48,
+      "fixed_model_max_abs_error": 0,
+      "direct_dft_max_abs_error": 4.698,
+      "direct_dft_asserted_bound": 16,
+      "evidence": {
+        "text": "development/player_spectrum_observed/build/model/spectrum_real_music_evidence.txt",
+        "compile": "development/player_spectrum_observed/build/model/spectrum_real_music_compile.log",
+        "run": "development/player_spectrum_observed/build/model/spectrum_real_music_run.log"
+      }
+    },
+    "pixel_renderer": {
+      "status": "PASS",
+      "independent_rgb_samples": 650,
+      "coverage": [
+        "panel bounds",
+        "24 column starts/ends/gaps",
+        "baseline and maximum bar",
+        "peak marker",
+        "gridlines",
+        "SPECTRUM WAV/TONE and HOLD WAV/TONE title glyphs at pitch 16",
+        "LOW/HIGH legends at pitch 8",
+        "DE-low and outside RGB passthrough"
+      ],
+      "evidence": {
+        "text": "development/player_spectrum_observed/build/model/render_pixel_evidence_20261013_223035.txt",
+        "hashes": "development/player_spectrum_observed/build/model/render_pixel_hashes_20261013_223035.json",
+        "compile": "development/player_spectrum_observed/build/model/render_pixels_compile_20261013_223035.log",
+        "run": "development/player_spectrum_observed/build/model/render_pixels_run_20261013_223035.log"
+      }
+    },
+    "integrated_overlay": {
+      "status": "PASS",
+      "actual_pcm_frames": 3,
+      "actual_band_frames": 3,
+      "band_outputs_checked": 72,
+      "renderer_states_checked": 264,
+      "atomic_commits_observed": 4,
+      "front_stability_windows": [
+        [
+          "rise_mid",
+          24
+        ],
+        [
+          "silence_mid",
+          24
+        ],
+        [
+          "thaw_mid",
+          24
+        ],
+        [
+          "stale_mid",
+          24
+        ],
+        [
+          "source_cancel",
+          24
+        ]
+      ],
+      "snapshot_stability_windows": [
+        [
+          "real_pcm_frame",
+          24
+        ]
+      ],
+      "pixel_samples_checked": 652,
+      "checks": [
+        "actual PCM to analyzer band values versus independent fixed-point oracle",
+        "serial updater front unchanged before update_done and atomic commit",
+        "same-cycle frame_done/VS consumes previous ready frame and retains new frame_pending",
+        "attack/release, peak hold/decay and peak>=bar",
+        "HOLD freezes front while accepting frames; thaw updates latest ready frame",
+        "100ms stale zero-target update",
+        "source change cancels in-flight update and source VS clears all visible bands/title",
+        "asynchronous reset clears front and restarts private state initialization",
+        "actual analyzer-driven RGB pixel"
+      ],
+      "timeout_cycles": 2444624,
+      "limits": [
+        "Production 1024-point analyzer arithmetic is used; integrated audio capture is accelerated to one valid per clock.",
+        "Icarus ROM loading and this state model do not prove TD/FPGA hardware initialization.",
+        "Internal state arrays and update_done are inspected to check sequential control; no board display/audio test is included."
+      ],
+      "actual_analyzer_fixed_model_max_abs_error": 0,
+      "wideband_random_band23": 732,
+      "evidence": {
+        "text": "development/player_spectrum_observed/build/model/spectrum_overlay_integration_evidence.txt",
+        "hashes": "development/player_spectrum_observed/build/model/spectrum_overlay_integration_hashes.json",
+        "compile": "development/player_spectrum_observed/build/model/spectrum_overlay_integration_compile.log",
+        "run": "development/player_spectrum_observed/build/model/spectrum_overlay_integration_run.log",
+        "observations": "development/player_spectrum_observed/build/model/spectrum_overlay_integration_observed.log"
+      }
+    },
+    "passive_spectrum_telemetry": {
+      "status": "PASS",
+      "checks": [
+        "coefficients nonzero",
+        "completed FFT count",
+        "nonzero frame maximum",
+        "nonzero displayed front",
+        "HOLD keeps FFT running",
+        "source change resets telemetry",
+        "global reset clears telemetry"
+      ],
+      "compile_log": "E:\\VSCODE-project\\FPGA-ANLU\\development\\player_spectrum_observed\\build\\model\\spectrum_diag_compile.log",
+      "run_log": "E:\\VSCODE-project\\FPGA-ANLU\\development\\player_spectrum_observed\\build\\model\\spectrum_diag_run.log",
+      "sim_kind": "PRIVATE_ROM_BEHAVIORAL_SIM; not board coefficient readback"
+    }
+  },
+  "structural_observation": "The overlay receives PCM/VALID as inputs and returns RGB only; the top-level audio PCM outputs remain separate from this analyzer branch.",
+  "limits": [
+    "The separate analyzer 521-clock sample cadence frame exercises 48 kHz timing; integrated PCM capture is accelerated to one valid sample per main clock but uses the full 1024-point arithmetic pipeline.",
+    "The simulation defines PRIVATE_ROM_BEHAVIORAL_SIM and loads coefficient files, not the official protected BRAM model; independent gate INIT decoding is required to check hardware coefficient constants.",
+    "Renderer sequential snapshots inspect internal state arrays against an independent model.",
+    "No board playback, HDMI display, or acoustic hardware test is included."
+  ],
+  "telemetry_contract": {
+    "B": "24-bit saturating completed FFT frame count, reset on source change",
+    "C": "flags[7:0] then max_band_value[15:0] from last complete FFT frame",
+    "Cflags_bits7_to0": [
+      "PCM seen",
+      "FFT frame seen",
+      "nonzero band seen",
+      "Hann nonzero seen",
+      "twiddle nonzero seen",
+      "front commit seen",
+      "nonzero front seen",
+      "front frozen"
+    ]
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "gate_verilog": "E:\\VSCODE-project\\FPGA-ANLU\\development\\player_spectrum_baseline_phy\\build\\manual\\AC201_tf_hdmi_gate.v",
+  "gate_verilog_sha256": "67c6b73419486532a009914e9338c725a7353a02ad59721fe41ba57012cf3b95",
+  "coefficient_roms": [
+    {
+      "gate_memory": "u_pcm_waveform/u_spectrum/ramread6_syn_4_1024x16",
+      "coefficient_file": "E:\\VSCODE-project\\FPGA-ANLU\\development\\player_spectrum_baseline_phy\\src\\user_source\\hdl_source\\spectrum_hann.mem",
+      "depth": 1024,
+      "width": 16,
+      "bram_lanes": [
+        {
+          "data_offset": 9,
+          "width": 7
+        },
+        {
+          "data_offset": 0,
+          "width": 9
+        }
+      ],
+      "compared_words": 1024,
+      "mismatches": 0,
+      "first_mismatches": [],
+      "expected_sha256": "baf7df624b80fcd112ba3cdf1a5e6052d53a9a187aa14870d274ad8de75c9c3f",
+      "gate_reconstructed_sha256": "baf7df624b80fcd112ba3cdf1a5e6052d53a9a187aa14870d274ad8de75c9c3f"
+    },
+    {
+      "gate_memory": "u_pcm_waveform/u_spectrum/ramread4_syn_4_512x32",
+      "coefficient_file": "E:\\VSCODE-project\\FPGA-ANLU\\development\\player_spectrum_baseline_phy\\src\\user_source\\hdl_source\\spectrum_twiddle.mem",
+      "depth": 512,
+      "width": 32,
+      "bram_lanes": [
+        {
+          "data_offset": 18,
+          "width": 14
+        },
+        {
+          "data_offset": 0,
+          "width": 18
+        }
+      ],
+      "compared_words": 512,
+      "mismatches": 0,
+      "first_mismatches": [],
+      "expected_sha256": "b7782524c8b0d3b7a42d4f5e59a8e1a34f9b5328f01795baa7779388027c5259",
+      "gate_reconstructed_sha256": "b7782524c8b0d3b7a42d4f5e59a8e1a34f9b5328f01795baa7779388027c5259"
+    }
+  ],
+  "all_match": true
+}

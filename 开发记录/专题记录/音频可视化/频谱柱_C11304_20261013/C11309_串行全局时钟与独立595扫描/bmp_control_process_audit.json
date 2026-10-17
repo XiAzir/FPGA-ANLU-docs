@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "scope": "Exact BMP main control-process token text comparison after whitespace/comments removal; passive observer processes/ports excluded, not whole gate equivalence.",
+  "newFile": "E:\\VSCODE-project\\FPGA-ANLU\\development\\player_spectrum_clock_route\\src\\user_source\\hdl_source\\tf_bmp_file_player.v",
+  "newSha256": "201a3a36f6215c4646f364ffeef75297dcf2be35dac7f43ca68a05b7c278aa57",
+  "baselineFile": "E:\\VSCODE-project\\FPGA-ANLU\\development\\player_bmp_scale\\src\\user_source\\hdl_source\\tf_bmp_file_player.v",
+  "baselineSha256": "9cddacb2f20a36d2e066eb74bf8fe55c5d675115281ce73b7d64edad3b8f93df",
+  "processSha256": "21e77529eca49791db2f059a88e031209958cc80c04403a69989106c48b408cc"
+}

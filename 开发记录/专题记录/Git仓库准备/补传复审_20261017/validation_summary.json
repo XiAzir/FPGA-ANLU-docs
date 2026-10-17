@@ -1,0 +1,170 @@
+{
+  "reviewed_beijing": "2026-10-17T19:34:23.242824",
+  "status": "REVIEWED_READY_TO_COMMIT",
+  "branch": "XiAzir",
+  "security_scan": [
+    {
+      "root": "E:\\VSCODE-project\\FPGA-ANLU",
+      "candidate_files": 8310,
+      "text_files_checked": 8044,
+      "binary_files_classified": 266,
+      "bytes": 1779380011,
+      "findings": [],
+      "extensions": {
+        "": 12,
+        ".bit": 90,
+        ".zip": 11,
+        ".py": 303,
+        ".md": 101,
+        ".txt": 195,
+        ".json": 1048,
+        ".v": 2467,
+        ".jpg": 71,
+        ".log": 1479,
+        ".tcl": 193,
+        ".ps1": 234,
+        ".sha256": 20,
+        ".png": 6,
+        ".area": 73,
+        ".timing": 142,
+        ".ts": 101,
+        ".hex": 227,
+        ".al": 29,
+        ".ipc": 161,
+        ".vhd": 147,
+        ".cwc": 46,
+        ".adc": 23,
+        ".sdc": 23,
+        ".rpt": 21,
+        ".qor": 66,
+        ".bid": 21,
+        ".html": 1,
+        ".db": 49,
+        ".vvp": 107,
+        ".logw": 10,
+        ".ppm": 2,
+        ".mem": 313,
+        ".vh": 26,
+        ".ini": 164,
+        ".do": 91,
+        ".dat": 9,
+        ".dbs": 9,
+        ".asm64": 9,
+        ".rw64": 9,
+        ".sdf": 2,
+        ".csd": 2,
+        ".diff": 103,
+        ".bin": 1,
+        ".f": 60,
+        ".csv": 33
+      }
+    },
+    {
+      "root": "E:\\QQ CACHE\\Download\\安路资料",
+      "candidate_files": 89,
+      "text_files_checked": 78,
+      "binary_files_classified": 11,
+      "bytes": 13523796,
+      "findings": [],
+      "extensions": {
+        "": 1,
+        ".md": 34,
+        ".json": 40,
+        ".jpg": 7,
+        ".mp4": 3,
+        ".txt": 1,
+        ".sha256": 2,
+        ".png": 1
+      }
+    }
+  ],
+  "validation": {
+    "frozen_staged_files_checked": 2634,
+    "frozen_errors": [],
+    "python_sources_parsed": 302,
+    "python_syntax_errors": [],
+    "packages": [
+      {
+        "path": "deliverables/music_envelope_20261013.zip",
+        "members": 7,
+        "crc_bad_member": null,
+        "sensitive_members": []
+      },
+      {
+        "path": "deliverables/music_envelope_phy_20261013.zip",
+        "members": 6,
+        "crc_bad_member": null,
+        "sensitive_members": []
+      },
+      {
+        "path": "deliverables/music_spectrum_20261013.zip",
+        "members": 6,
+        "crc_bad_member": null,
+        "sensitive_members": []
+      },
+      {
+        "path": "deliverables/music_spectrum_baseline_phy_20261013.zip",
+        "members": 7,
+        "crc_bad_member": null,
+        "sensitive_members": []
+      },
+      {
+        "path": "deliverables/music_spectrum_clock_route_20261014.zip",
+        "members": 5,
+        "crc_bad_member": null,
+        "sensitive_members": []
+      },
+      {
+        "path": "deliverables/music_spectrum_fft_recover_20261014.zip",
+        "members": 6,
+        "crc_bad_member": null,
+        "sensitive_members": []
+      },
+      {
+        "path": "deliverables/music_spectrum_observed_20261013.zip",
+        "members": 7,
+        "crc_bad_member": null,
+        "sensitive_members": []
+      },
+      {
+        "path": "deliverables/music_spectrum_private_init_20261013.zip",
+        "members": 6,
+        "crc_bad_member": null,
+        "sensitive_members": []
+      },
+      {
+        "path": "deliverables/music_spectrum_tf_margin_20261014.zip",
+        "members": 5,
+        "crc_bad_member": null,
+        "sensitive_members": []
+      },
+      {
+        "path": "deliverables/music_spectrum_trace_20261015.zip",
+        "members": 6,
+        "crc_bad_member": null,
+        "sensitive_members": []
+      },
+      {
+        "path": "deliverables/waveform_fine_20261013.zip",
+        "members": 5,
+        "crc_bad_member": null,
+        "sensitive_members": []
+      }
+    ]
+  },
+  "powershell_syntax": {
+    "checked": 234,
+    "errors": []
+  },
+  "all_checkpoint_checks_failed": false,
+  "excluded_broken_oneoff_patch": {
+    "path": "development\\player_spectrum_fft_recover\\build\\board_feedback_no_signal_20261014\\video_modelsim\\patch_seq_boundary.py",
+    "sha256": "4c7b78e2a2a2c176bb02b5dcc666b19132676802443b45b6833c0edb87b56ffe",
+    "reason": "Unreferenced exploratory patch with unterminated string; retained locally, not part of any frozen manifest"
+  },
+  "limitations": [
+    "Review of hand-written code was targeted, not a proof of all archived FPGA behavior",
+    "Local experimental script absolute paths retained; compiled ModelSim work must be rebuilt",
+    "C11310 board failure remains unresolved; C11312 diagnostic not board-tested"
+  ]
+}

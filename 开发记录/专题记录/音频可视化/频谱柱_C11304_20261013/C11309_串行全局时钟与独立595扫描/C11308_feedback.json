@@ -1,0 +1,12 @@
+{
+  "createdBeijing": "2026-10-14 19:14:19",
+  "versionByConversation": "C11308",
+  "independentBuildIdReadable": false,
+  "status": "FAILED_BOARD_VALIDATION",
+  "reportedBy": "user",
+  "beforeKEY1": "BMP/paging/autoplay/brightness/contrast work; green periodic bands cover images/OSD/spectrum; spectrum moving but silent",
+  "afterKEY1": "Same green bands and silent with moving spectrum",
+  "display": "Only leftmost8 continuously >30s; user confirms switch positions unchanged",
+  "evidence": "Two attached photos; no new video/diagnostic pages available",
+  "limits": "Cannot confirm SD CRC/precise BMP status or packet contents from fixed display; green band coverage supports examining output after overlays, not a proven root cause; clock routing inspection not proof of cause."
+}

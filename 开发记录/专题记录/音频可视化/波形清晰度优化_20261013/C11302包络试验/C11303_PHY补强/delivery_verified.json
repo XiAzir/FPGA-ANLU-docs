@@ -1,0 +1,11 @@
+{
+  "createdBeijing": "2026-10-13 19:31:38",
+  "zip": "E:\\VSCODE-project\\FPGA-ANLU\\deliverables\\music_envelope_phy_20261013.zip",
+  "zipSha256": "3F5CEC3DADECD4680111941F7F8A8E4D041BB3C5B1D6F58071CD199458CACABA",
+  "bitSha256": "1D0BD4198379E924EA59D8F62E940612AA3DFE0034C858C219F0ED77F6FE803F",
+  "zipMembers": 6,
+  "checkpoint": "E:\\VSCODE-project\\FPGA-ANLU\\development\\player_music_envelope_phy\\checkpoints\\music_envelope_phy_20261013_candidate",
+  "checkpointFiles": 176,
+  "manifestSha256": "D756A18AF58D9F28A1E7DF209740CFC9EE1541645B63E57F9CD9BAA168A58AAF",
+  "status": "LOCAL_DELIVERY_VERIFIED_BOARD_PENDING"
+}

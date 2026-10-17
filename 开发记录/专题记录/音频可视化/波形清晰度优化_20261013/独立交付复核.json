@@ -1,0 +1,13 @@
+{
+  "checkedBeijing": "2026-10-13 16:15:36",
+  "method": "Independent gpt-6-luna read-only handoff audit",
+  "result": "PASS",
+  "manifestFiles": 175,
+  "manifestSha256": "F6F5DA1F9228DF3231EB46CC0113E81894D3E99B412C528F3684BBED8F0EA0EE",
+  "zipMembers": 5,
+  "zipBytes": 615896,
+  "zipSha256": "AB54BB8B8501787EA557E6FFED6934C0C5D3784A95D5CAE0D49DEA19BD48C2C2",
+  "boardStatus": "PENDING_BOARD_VALIDATION",
+  "rollback": "C11206 bmp_scale.bit",
+  "note": "Live README corrects synthesis vs physical LUT/reg labels; sealed info and physical report were already correct."
+}

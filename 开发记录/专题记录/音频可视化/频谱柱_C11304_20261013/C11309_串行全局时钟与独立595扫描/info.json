@@ -1,0 +1,42 @@
+{
+  "version": "C11309",
+  "createdBeijing": "2026-10-14 19:31:47",
+  "boardStatus": "PENDING_BOARD_VALIDATION",
+  "parent": "C11308 failed board validation: images/controls work, green bands across all overlays, both audio sources silent, fixed left8 on595",
+  "successfulBaseline": "C11206 bmp_scale.bit",
+  "bitSha256": "9171F813BDDEC5B81B7F3577BF7C7804A3F5A24138F7763B253D7D5FB8040B3F",
+  "bitBytes": 634280,
+  "changes": [
+    "hdl_source/player_status_monitor.v",
+    "hdl_source/tf_bmp_file_player.v",
+    "hdl_source/top_tf_hdmi_audio.v"
+  ],
+  "added": [
+    "hdl_source/player_status_mailbox.v"
+  ],
+  "inheritedFiles": 90,
+  "timing": {
+    "SWNSns": 0.509,
+    "STNSns": 0.0,
+    "HWNSns": 0.03,
+    "HTNSns": 0.0
+  },
+  "resource": {
+    "LUT": 16877,
+    "reg": 10033,
+    "LE": 18372,
+    "BRAM9K": 44,
+    "DSP": 12,
+    "GCLK": 3
+  },
+  "stageRunIds": {
+    "synthesis": "7fb02b41-f511-42d0-9e68-488b9a32dc8f",
+    "physical": "c9c4cc2b-5218-47ce-98a6-56c937b90097",
+    "hold": "dc03df27-90e0-44ea-8a63-31bc535a61d9",
+    "bitstream": "d490af1a-75e1-4477-b67a-8e7d9eb6b26d"
+  },
+  "changesScope": "Explicit EG_LOGIC_BUFG for125MHz serial clock; 595 scanning on50MHz system-clock BUFG with atomic requestACK snapshot; passive BMP diagnostic geometry pipelined to remove slow observer CE path; rst_all declared before use. Original BMP control process matches C11206 after whitespace/comment normalization; TF divisor2, FFT, lane/PHY, PLL parameters and SDC inherited byte-for-byte.",
+  "limits": "Clock routing is an isolation candidate, not proven physical root cause. Existing missing external output delay/electrical measurements remain; protected BRAM dynamic behavior not simulated. Status scanning/mailbox tests prove digital logic only, not physical595. SD CRC counters do not prevent corrupted sectors or retry.",
+  "modelEvidence": "C11309 actual595 serial pin-level decoding/mailbox, status pages and21 BMP observer cases; SD/SPI diagnostic model results inherited with identical production RTL hashes from C11308; FFT/serializer evidence inherited from unchanged C11307 source; no vendor protected BRAM simulation",
+  "operation": "PROGRAM_SRAM/JTAG5MHz; DFC11309; default before longKEY1, then tone; segment full cycle26s plus optional initial4s selftest; observe E/F0/F1 if failure."
+}
