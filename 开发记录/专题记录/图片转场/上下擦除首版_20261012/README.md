@@ -2,6 +2,8 @@
 
 2026-10-12 12:33:50 C11205上下擦除 RTL/地址922360检查/RGB888四帧1228800像素/局部ownership模型/63源TD导入通过，静态集成审查无阻塞；正式综合完成、布局布线进行中。源码78继承不变、5改变、1新增，生产640×480/8行、每帧900批次；旧buffer至最终全新帧请求受理ACK后才释放（不是整帧读完ACK）。地址/RGB模型不含加密SDRAM，ownership loader用COMMIT状态注入，不代表完整BMP解析或板测。未生成交付bit，成功基线C11204，已知动态波形双线/低清晰度留后；未JTAG/TF/Flash。
 
+下一步：完成实际backend握手模型、原约束布局布线及setup/hold检查、位流来源绑定和封存，再由用户远控上板检查转场/音画/原功能。工程证据：../../../../../FPGA-ANLU/development/player_transition_wipe/build。
+
 下一步：完成实际backend握手模型、原约束布局布线及setup/hold检查、位流来源绑定和封存，再由用户远控上板检查转场/音画/原功能。工程证据：E:/VSCODE-project/FPGA-ANLU/development/player_transition_wipe/build。
 
 ## 2026-10-12 12:42:08｜本地候选交付，板测待验证

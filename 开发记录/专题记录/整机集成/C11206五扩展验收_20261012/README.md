@@ -1,5 +1,7 @@
 # C11206 五项扩展验收总表
 
+整理日期：2026-10-12。本表归集已有实现、模型、构建、用户反馈与实拍证据；本轮没有重新构建或新增板测。实际录入时间见[归集凭据](整理凭据_可移植.json)。
+
 整理日期：2026-10-12。本表归集已有实现、模型、构建、用户反馈与实拍证据；本轮没有重新构建或新增板测。实际录入时间见[归集凭据](整理凭据.json)。
 
 **现状：五类扩展已在同一C11206设计中实现，所要求功能获用户总体正常反馈；波形带两项已知显示问题。验收资料归集完成，G4逐项动态演示和最终封版尚未完成。** 当前无需重复已经确认的普通功能测试。
@@ -8,6 +10,9 @@
 
 | 项目 | 当前保留范围 |
 | --- | --- |
+| 成功位流 | [bmp_scale.bit](<E:/VSCODE-project/FPGA-ANLU/download/bmp_scale.bit>)，C11206，629624字节；SHA256 `C60464C0D4396D316DB7622E4CB0B70B5DE12C25148AFE234AC7C795C818625D` |
+| 已验证快照 | [bmp_scale_20261012_verified](<E:/VSCODE-project/FPGA-ANLU/development/player_bmp_scale/checkpoints/bmp_scale_20261012_verified/manifest.json>)，268项；manifest SHA256 `71F87A4B82F974092F63102E0D7522B6C5577BD367B6789C6AD0DDDA37A76FB7` |
+
 | 成功位流 | [bmp_scale.bit](E:/VSCODE-project/FPGA-ANLU/download/bmp_scale.bit)，C11206，629624字节；SHA256 `C60464C0D4396D316DB7622E4CB0B70B5DE12C25148AFE234AC7C795C818625D` |
 | 已验证快照 | [bmp_scale_20261012_verified](E:/VSCODE-project/FPGA-ANLU/development/player_bmp_scale/checkpoints/bmp_scale_20261012_verified/manifest.json)，268项；manifest SHA256 `71F87A4B82F974092F63102E0D7522B6C5577BD367B6789C6AD0DDDA37A76FB7` |
 | 输出与缓存 | 固定640×480，名义像素时钟25MHz，800×525总时序；紧凑RGB888帧缓存，RGB各8位。名义时钟与时序来自实现，未独立测量显示器识别的刷新率 |
@@ -16,6 +21,8 @@
 | 音频规格 | RIFF/WAVE PCM16、48kHz、单声道，复制到HDMI左右声道；解析fmt/data块与填充，按data长度循环；可切内部音阶。当前音乐是60秒天ノ弱片段，不是直接解码m4a |
 | 参数与图层 | 参数作用于底图，之后叠加图片状态OSD、运行计时/滚动字幕、参数OSD和PCM波形。补边也属于底图，非默认亮度/对比度时可随调节变色 |
 | 硬件与配置 | 板卡与AL-LINK在远控实验室电脑；当前SRAM临时下载。LED和数码管是诊断辅助，不代替功能、音质和长期证据；Flash固化待做 |
+
+源码入口：[当前top](<E:/VSCODE-project/FPGA-ANLU/development/player_bmp_scale/checkpoints/bmp_scale_20261012_verified/src/user_source/hdl_source/top_tf_hdmi_audio.v>)。像素路径为底图→亮度/对比度→静态OSD→动态字幕→参数OSD→波形→HDMI；波形另观察送给HDMI的`audio_valid/audio_left_data`。同位流功能由此连线及当前正式构建绑定，而非用不同bit拼接功能。
 
 源码入口：[当前top](E:/VSCODE-project/FPGA-ANLU/development/player_bmp_scale/checkpoints/bmp_scale_20261012_verified/src/user_source/hdl_source/top_tf_hdmi_audio.v)。像素路径为底图→亮度/对比度→静态OSD→动态字幕→参数OSD→波形→HDMI；波形另观察送给HDMI的`audio_valid/audio_left_data`。同位流功能由此连线及当前正式构建绑定，而非用不同bit拼接功能。
 
@@ -44,6 +51,8 @@ E01–E05沿用原规划的功能类别；TC编号按原计划详细用例正文
 | SCALE3.BMP | 191×321，top-down，padding3字节/行 | 285×480，左右黑边177/178像素 | [IMG 3/4](../../图片缩放/多尺寸最近邻首版_20261012/实板照片/scale3_191x321_topdown.jpg) |
 | SCALE4.BMP | 512×128，bottom-up | 640×160，上下黑边各160像素 | [IMG 4/4](../../图片缩放/多尺寸最近邻首版_20261012/实板照片/scale4_512x128.jpg) |
 
+输出尺寸与黑边数来自规格/黄金模型；照片作宏观范围、颜色布局和方向对照，受透视、摩尔纹和叠加遮挡影响。照片处于B+00/C1.00默认参数。素材原文件哈希见[交付素材清单](<E:/VSCODE-project/FPGA-ANLU/development/player_bmp_scale/checkpoints/bmp_scale_20261012_verified/build/delivery/media_manifest.json>)；这是交付文件哈希，未重新读实验室TF卡。音乐包参考SHA见[音乐包审计](<E:/VSCODE-project/FPGA-ANLU/deliverables/real_music_20261008.package_audit.json>)，同样不等于本轮实物卡哈希。
+
 输出尺寸与黑边数来自规格/黄金模型；照片作宏观范围、颜色布局和方向对照，受透视、摩尔纹和叠加遮挡影响。照片处于B+00/C1.00默认参数。素材原文件哈希见[交付素材清单](E:/VSCODE-project/FPGA-ANLU/development/player_bmp_scale/checkpoints/bmp_scale_20261012_verified/build/delivery/media_manifest.json)；这是交付文件哈希，未重新读实验室TF卡。音乐包参考SHA见[音乐包审计](E:/VSCODE-project/FPGA-ANLU/deliverables/real_music_20261008.package_audit.json)，同样不等于本轮实物卡哈希。
 
 ## 4. 统一操作表
@@ -64,6 +73,16 @@ E01–E05沿用原规划的功能类别；TC编号按原计划详细用例正文
 
 | 证据层 | 入口 | 用途与边界 |
 | --- | --- | --- |
+| 当前构建/封存 | [验收凭据](<E:/VSCODE-project/FPGA-ANLU/development/player_bmp_scale/build/acceptance_verified.json>)、[已验证info](<E:/VSCODE-project/FPGA-ANLU/development/player_bmp_scale/checkpoints/bmp_scale_20261012_verified/build/manual/AC201_player_bmp_scale.info.json>) | C11206位流和268项快照对应；正式SWNS+0.628ns/HWNS+0.004ns/TNS0，coverage99.97%；15031LUT/8803reg/28BRAM9K/8DSP/2GCLK。STA范围限制仍保留 |
+| 当前缩放模型 | [gold凭据](<E:/VSCODE-project/FPGA-ANLU/development/player_bmp_scale/checkpoints/bmp_scale_20261012_verified/build/model/scaler_validation_receipt.json>)、[范围说明](<E:/VSCODE-project/FPGA-ANLU/development/player_bmp_scale/checkpoints/bmp_scale_20261012_verified/build/model/verification_scope.md>) | 六帧逐点检查，四错误控制模型目标32×24；实际pack/backend/FIFO压力4096像素，max_used481。主机逻辑扇区/mock writer，不是实物TF或加密SDRAM长稳 |
+| 继承模块一致性 | [父源审计](<E:/VSCODE-project/FPGA-ANLU/development/player_bmp_scale/checkpoints/bmp_scale_20261012_verified/build/model/parent_source_audit.json>)、[本次证据索引](证据索引_可移植.json) | C11206对C11205为79源不变/5改/1新；本次选定三扩展/读侧擦除源与祖先verified逐项字节比较。相同源不是物理实现等价证明 |
+| 祖先参数/三扩展 | [C11201反馈](../../图像实时调节/亮度对比度首版_20261012/board_feedback.json)、[C11204组合反馈](../../三扩展集成/C11204验收_20261012/feedback.json) | C11204原话“已补测，以上都正常”；是祖先版本明确组合反馈，不串写为C11206逐项测试 |
+| 祖先转场 | [C11205验收](../../图片转场/上下擦除首版_20261012/验收记录.md)、[转场模型范围](<E:/VSCODE-project/FPGA-ANLU/development/player_transition_wipe/checkpoints/transition_wipe_20261012_verified/build/model/verification_scope.md>) | 四图擦除/AUTO/两音源等用户反馈“都没问题”；旧模型非C11206重跑，动画时长未测 |
+| 祖先波形/冻结 | [波形专题](../../音频可视化/真实PCM波形首版_20261012/README.md)、[动态/HOLD反馈](../../音频可视化/真实PCM波形首版_20261012/keyfreeze_board_feedback.json) | 形状关联、动态双线/HOLD消失及用户暂留决定；旧重影照片不贴成当前版媒体 |
+| 当前现场反馈 | [C11206反馈](../../图片缩放/多尺寸最近邻首版_20261012/board_feedback.json)及上述四照片 | 同位流总体功能正常反馈与缩放外观；没有补造计时长稳或每项动态媒体 |
+
+封存模型文档中的“实板待验证”是构建时历史快照；当前实板状态以新反馈和live验收凭据为准。原verified/candidate/ZIP不改写。每个引用文件的当前路径、类别、字节数与SHA，以及源码继承比较，已记录在[证据索引](证据索引_可移植.json)。
+
 | 当前构建/封存 | [验收凭据](E:/VSCODE-project/FPGA-ANLU/development/player_bmp_scale/build/acceptance_verified.json)、[已验证info](E:/VSCODE-project/FPGA-ANLU/development/player_bmp_scale/checkpoints/bmp_scale_20261012_verified/build/manual/AC201_player_bmp_scale.info.json) | C11206位流和268项快照对应；正式SWNS+0.628ns/HWNS+0.004ns/TNS0，coverage99.97%；15031LUT/8803reg/28BRAM9K/8DSP/2GCLK。STA范围限制仍保留 |
 | 当前缩放模型 | [gold凭据](E:/VSCODE-project/FPGA-ANLU/development/player_bmp_scale/checkpoints/bmp_scale_20261012_verified/build/model/scaler_validation_receipt.json)、[范围说明](E:/VSCODE-project/FPGA-ANLU/development/player_bmp_scale/checkpoints/bmp_scale_20261012_verified/build/model/verification_scope.md) | 六帧逐点检查，四错误控制模型目标32×24；实际pack/backend/FIFO压力4096像素，max_used481。主机逻辑扇区/mock writer，不是实物TF或加密SDRAM长稳 |
 | 继承模块一致性 | [父源审计](E:/VSCODE-project/FPGA-ANLU/development/player_bmp_scale/checkpoints/bmp_scale_20261012_verified/build/model/parent_source_audit.json)、[本次证据索引](证据索引.json) | C11206对C11205为79源不变/5改/1新；本次选定三扩展/读侧擦除源与祖先verified逐项字节比较。相同源不是物理实现等价证明 |
@@ -87,5 +106,11 @@ E01–E05沿用原规划的功能类别；TC编号按原计划详细用例正文
 下一步按[后续验证清单](后续验证清单.md)收尾：计划先独立优化波形分辨率与线条，再对通过版本安排长稳/异常回归及一次连续五扩展演示。质量优化可以跳过，C11206带已知项也可直接补证与验收；现有普通功能反馈不重置。优化版是新候选，须保留C11206回退并做相关回归。最终Flash、报告和视频使用同一最终版本。
 
 旧版回退：C11205 `transition_wipe.bit`只能配原四张640×480 BMP，须恢复电脑备份素材后再下载；当前多尺寸素材不能用于评判旧版。详细步骤见[已验证操作卡](../../图片缩放/多尺寸最近邻首版_20261012/已验证操作卡.md)。
+
+规划依据：[执行规划](<E:/VSCODE-project/FPGA-ANLU/planning/20261007/执行规划.md>)、[原方案任务与TC正文](<E:/VSCODE-project/FPGA-ANLU/planning/20261007/source/安路赛题一_开发到提交规划_20261007.md>)。它们是内部执行依据；本表不新增主办方门槛或评分结论。
+
+## 通用分支路径复核
+
+本页通用路径与当前文本哈希于 Git 接续审查中静态重核，详见[可移植整理凭据](整理凭据_可移植.json)和[可移植证据索引](证据索引_可移植.json)。路径以工程仓根为基准，跨资料仓使用同级相对路径；本轮不增加实板、音频或长稳结论。[原始索引](证据索引.json)与[原始整理凭据](整理凭据.json)保留当时的路径和 SHA，供历史对照，当前链接/文本以通用视图为准。
 
 规划依据：[执行规划](E:/VSCODE-project/FPGA-ANLU/planning/20261007/执行规划.md)、[原方案任务与TC正文](E:/VSCODE-project/FPGA-ANLU/planning/20261007/source/安路赛题一_开发到提交规划_20261007.md)。它们是内部执行依据；本表不新增主办方门槛或评分结论。

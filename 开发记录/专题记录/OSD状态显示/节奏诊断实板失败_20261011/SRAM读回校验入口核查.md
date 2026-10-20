@@ -15,6 +15,8 @@
 - BitWriter 下载模式栏：`Verify SRAM`（读回校验）；`Read Save SRAM`（将配置 RAM 数据读回并保存为帧格式文件；印刷页 21，PDF 第 22 页）。`Refresh` 只读取器件 ID（印刷页 11，PDF 第 12 页），不是配置内容校验。
 - ChipLinker 的 SVF 生成选项：`Check Status Done`（印刷页 35，PDF 第 36 页），且印刷页 37（PDF 第 42 页）说明它检查 Status Done 寄存器、检测器件是否已进入工作模式（Done 为高）。这不是 `Verify SRAM`，不能证明配置内容逐位一致；它先生成 SVF，需由外部 JTAG/SVF 执行工具运行，手册未描述该检查对运行态的影响。
 - AL-Link BitWriter 的 TCK 下拉速率：16、8、5、3、2、1 MHz，以及 500、200 kHz（印刷页 18，PDF 第 19 页）。手册解释这是 TCK 频率。ChipLinker 生成 SVF 的 `Frequency` 另为 100 kHz–10 MHz（印刷页 30–31，PDF 第 31–32 页），不可与 BitWriter 下拉选项混为一谈。
+- 项目工具约定记录已用 `PROGRAM_SRAM`、AL-LINK、5 MHz 下载整板测试位流；5 MHz 是下载 TCK，不是 FPGA 视频/运行时钟。参见 `../../../../开发约定/工具与工程验证.md`。
+
 - 项目工具约定记录已用 `PROGRAM_SRAM`、AL-LINK、5 MHz 下载整板测试位流；5 MHz 是下载 TCK，不是 FPGA 视频/运行时钟。参见 `E:/QQ CACHE/Download/安路资料/开发约定/工具与工程验证.md`。
 
 ## 安全边界
@@ -24,6 +26,8 @@
 ## 来源
 
 1. 本机 TD 6.2.1_SP1_6.2.178.840：`C:/Anlogic/TD_6.2.1_SP1_6.2.178.840/doc/SWUG/SWUG110_BitWizard_User_Guide.pdf`，版次页标 2024.12。关键印刷页 7、18–19、21–23、30–37；对应 PDF 第 8、19–20、22–24、31–37、42 页。
+2. 资料目录副本：`../../../../赛题1_工作资料/02_关键IP与工具手册/SWUG110_BitWizard使用指南_v1.1.pdf`，版次页标 2024.12。已抽查并确认上述 `Verify SRAM`、security、TCK 速率和 Check Status Done 条目一致；另在印刷页 37（PDF 第 42 页）找到 DONE 高低说明。
+
 2. 资料目录副本：`E:/QQ CACHE/Download/安路资料/赛题1_工作资料/02_关键IP与工具手册/SWUG110_BitWizard使用指南_v1.1.pdf`，版次页标 2024.12。已抽查并确认上述 `Verify SRAM`、security、TCK 速率和 Check Status Done 条目一致；另在印刷页 37（PDF 第 42 页）找到 DONE 高低说明。
 3. EG4 数据手册 `DS300_Eagle_EG4系列数据手册_v3.9.6_官方.pdf` 未找到 SRAM 配置回读能力的专门说明，因此不能补足器件适用性证据。
 
