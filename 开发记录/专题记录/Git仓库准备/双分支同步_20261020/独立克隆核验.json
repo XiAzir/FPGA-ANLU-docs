@@ -1,0 +1,215 @@
+{
+  "purpose": "clean clone integrity validation; read-only with respect to both repositories",
+  "project": {
+    "path": "E:\\VSCODE-project\\FPGA-ANLU\\tmp\\sync_clean_20261020\\FPGA-ANLU",
+    "branch": "main",
+    "head": "e3c37f27db431446950c841fca89405f4636842a",
+    "original_XiAzir_reference": "a10cea91b0fa6224113d3a6787d40ae61b448311",
+    "tracked_disk_blob_sha1_bytes": {
+      "tracked": 21725,
+      "checked": 21725,
+      "pyc_included": 1,
+      "missing": 0,
+      "mismatch": 0,
+      "unmerged": 0
+    },
+    "protected_blob_comparison_to_original_XiAzir": {
+      "checkpoints": {
+        "old_tracked_count": 7680,
+        "same_blob_count": 7680,
+        "missing_count": 0,
+        "different_blob_count": 0,
+        "missing_examples": [],
+        "different_examples": []
+      },
+      "hdl": {
+        "old_tracked_count": 8061,
+        "same_blob_count": 8061,
+        "missing_count": 0,
+        "different_blob_count": 0,
+        "missing_examples": [],
+        "different_examples": []
+      },
+      "bit": {
+        "old_tracked_count": 228,
+        "same_blob_count": 228,
+        "missing_count": 0,
+        "different_blob_count": 0,
+        "missing_examples": [],
+        "different_examples": []
+      },
+      "zip": {
+        "old_tracked_count": 30,
+        "same_blob_count": 30,
+        "missing_count": 0,
+        "different_blob_count": 0,
+        "missing_examples": [],
+        "different_examples": []
+      },
+      "images": {
+        "old_tracked_count": 1634,
+        "same_blob_count": 1634,
+        "missing_count": 0,
+        "different_blob_count": 0,
+        "missing_examples": [],
+        "different_examples": []
+      },
+      "audio": {
+        "old_tracked_count": 2,
+        "same_blob_count": 2,
+        "missing_count": 0,
+        "different_blob_count": 0,
+        "missing_examples": [],
+        "different_examples": []
+      },
+      "video": {
+        "old_tracked_count": 0,
+        "same_blob_count": 0,
+        "missing_count": 0,
+        "different_blob_count": 0,
+        "missing_examples": [],
+        "different_examples": []
+      }
+    },
+    "untracked_test_artifacts": [
+      "development/player_spectrum_trace/build/model/oracle_run.json",
+      "development/player_spectrum_trace/build/model/spectrum_compile_20261020_123341.log",
+      "development/player_spectrum_trace/build/model/spectrum_evidence_20261020_123341.txt",
+      "development/player_spectrum_trace/build/model/spectrum_run_20261020_123341.log"
+    ],
+    "untracked_test_artifacts_note": "这些是父代理模型/脚本验证生成的临时文件；不属于 tracked blob 核对范围，未由本代理清理。"
+  },
+  "docs": {
+    "path": "E:\\VSCODE-project\\FPGA-ANLU\\tmp\\sync_clean_20261020\\FPGA-ANLU-docs",
+    "branch": "main",
+    "head": "332541e12366229da28dacb72442639275960908",
+    "original_XiAzir_reference": "e0410c3d44bd24b8b78c78eaafcb96ec7e840d29",
+    "tracked_disk_blob_sha1_bytes": {
+      "tracked": 1029,
+      "checked": 1029,
+      "pyc_included": 0,
+      "missing": 0,
+      "mismatch": 0,
+      "unmerged": 0
+    },
+    "protected_blob_comparison_to_original_XiAzir": {
+      "zip": {
+        "old_tracked_count": 0,
+        "same_blob_count": 0,
+        "missing_count": 0,
+        "different_blob_count": 0,
+        "missing_examples": [],
+        "different_examples": []
+      },
+      "video": {
+        "old_tracked_count": 21,
+        "same_blob_count": 21,
+        "missing_count": 0,
+        "different_blob_count": 0,
+        "missing_examples": [],
+        "different_examples": []
+      },
+      "images": {
+        "old_tracked_count": 166,
+        "same_blob_count": 166,
+        "missing_count": 0,
+        "different_blob_count": 0,
+        "missing_examples": [],
+        "different_examples": []
+      },
+      "audio": {
+        "old_tracked_count": 1,
+        "same_blob_count": 1,
+        "missing_count": 0,
+        "different_blob_count": 0,
+        "missing_examples": [],
+        "different_examples": []
+      }
+    },
+    "recent_feedback_video_paths_C11302_C11312": {
+      "count": 6,
+      "matched": 6,
+      "files": [
+        {
+          "path": "开发记录/专题记录/音频可视化/波形清晰度优化_20261013/C11302包络试验/实板失败_20261013/after_key1.mp4",
+          "e0410_blob": "ec6a9092248a1231edab7ac0115a33b1a0dad901",
+          "e0410_bytes": 5661435,
+          "main332_blob": "ec6a9092248a1231edab7ac0115a33b1a0dad901",
+          "main332_bytes": 5661435,
+          "match": true
+        },
+        {
+          "path": "开发记录/专题记录/音频可视化/波形清晰度优化_20261013/C11302包络试验/实板失败_20261013/before_key1.mp4",
+          "e0410_blob": "b122c6be1943ab8bf9ac7feb7b41a4fae7a72972",
+          "e0410_bytes": 5338168,
+          "main332_blob": "b122c6be1943ab8bf9ac7feb7b41a4fae7a72972",
+          "main332_bytes": 5338168,
+          "match": true
+        },
+        {
+          "path": "开发记录/专题记录/音频可视化/波形清晰度优化_20261013/观感方案讨论/用户观感反馈.mp4",
+          "e0410_blob": "e951f40b771c06da42301f134d191ce74f188320",
+          "e0410_bytes": 593348,
+          "main332_blob": "e951f40b771c06da42301f134d191ce74f188320",
+          "main332_bytes": 593348,
+          "match": true
+        },
+        {
+          "path": "开发记录/专题记录/音频可视化/频谱柱_C11304_20261013/C11312_实板反馈_20261017/after_key1.mp4",
+          "e0410_blob": "123eaa1a0080075aa5e37c756bd2b0ed5b888172",
+          "e0410_bytes": 23910473,
+          "main332_blob": "123eaa1a0080075aa5e37c756bd2b0ed5b888172",
+          "main332_bytes": 23910473,
+          "match": true
+        },
+        {
+          "path": "开发记录/专题记录/音频可视化/频谱柱_C11304_20261013/C11312_实板反馈_20261017/before_key1.mp4",
+          "e0410_blob": "5c5c522f68695257de726c92a3662804d074686f",
+          "e0410_bytes": 18188580,
+          "main332_blob": "5c5c522f68695257de726c92a3662804d074686f",
+          "main332_bytes": 18188580,
+          "match": true
+        },
+        {
+          "path": "开发记录/专题记录/音频可视化/频谱柱_C11304_20261013/C11312_实板反馈_20261017/display.mp4",
+          "e0410_blob": "a23a00261c387342fb3c11d3ed128d119b5b0e53",
+          "e0410_bytes": 1256577,
+          "main332_blob": "a23a00261c387342fb3c11d3ed128d119b5b0e53",
+          "main332_bytes": 1256577,
+          "match": true
+        }
+      ]
+    }
+  },
+  "links": {
+    "docs_scope": "docs AGENTS.md, all six 开发约定 Markdown files, 当前状态.md, 双分支同步_20261020/README.md",
+    "docs_files": 9,
+    "docs_markdown_links": 71,
+    "docs_relative_checked": 68,
+    "docs_broken_relative": 0,
+    "project_scope": "engineering AGENTS.md and non-checkpoint/build/log README files",
+    "project_files": 41,
+    "project_markdown_links": 37,
+    "project_relative_checked": 35,
+    "project_broken_relative": 0,
+    "absolute_local_file_markdown_links": 0,
+    "historic_absolute_path_classification": "新机指南及当前状态明确标注 XiAzir 原目录为个人本机布局；双分支专题明确说明历史日志、冻结脚本与证据保留本机路径。工程历史 README 中发现的本机绝对路径位于描述、来源说明或旧命令文本，不构成 Markdown 文件链接或通用克隆路径。"
+  },
+  "checkpoint_integrity": {
+    "report": "E:\\VSCODE-project\\FPGA-ANLU\\tmp\\sync_clean_20261020\\clean_integrity.json",
+    "failed": false,
+    "result_count": 85,
+    "pass_count": 57,
+    "fail_count": 0,
+    "info_count": 28,
+    "manifests_checked": 42,
+    "db_vvp_references": 335,
+    "missing_db_vvp": 0,
+    "unregistered_ignored_files": 0
+  },
+  "notes": [
+    "工程旧 XiAzir commit 未包含常见视频扩展文件；其 1,634 个图片和 2 个音频文件全部 blob 相符。",
+    "资料仓旧 XiAzir commit 有 21 个 MP4，全部与 main 332541e blob 相符；C11302/C11312 反馈相关的 6 个 MP4 单独逐路径比较全部相符。",
+    "并发 fault_snapshot 仿真生成的 tracked run.log 已由父代理恢复；最终 tracked 文件哈希复核零差异。"
+  ]
+}

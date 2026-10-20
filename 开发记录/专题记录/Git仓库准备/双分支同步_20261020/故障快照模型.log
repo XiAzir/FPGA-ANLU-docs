@@ -1,0 +1,2 @@
+PASS fault_snapshot checks=77 counter_boundaries=7 atomic_previous_current=1 freeze=1 source_rearm=1 reset_mask=1 hdmi_deadline=1 fft_deadline=1 healthy_then_fault=1
+E:\VSCODE-project\FPGA-ANLU\tmp\sync_clean_20261020\FPGA-ANLU\development\player_spectrum_trace\sim\tb_fault_snapshot.v:57: $finish called at 3080000 (1ps)
