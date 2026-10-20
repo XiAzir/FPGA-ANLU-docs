@@ -1,0 +1,217 @@
+{
+  "repo": "E:\\VSCODE-project\\FPGA-ANLU\\tmp\\sync_clean_20261020\\FPGA-ANLU",
+  "docs_root": "E:\\VSCODE-project\\FPGA-ANLU\\tmp\\sync_clean_20261020\\FPGA-ANLU-docs",
+  "failed": false,
+  "results": [
+    {
+      "status": "PASS",
+      "name": "C11206 verified checkpoint",
+      "detail": "268 项文件字节数/SHA256一致；manifest SHA256 71F87A4B82F974092F63102E0D7522B6C5577BD367B6789C6AD0DDDA37A76FB7"
+    },
+    {
+      "status": "PASS",
+      "name": "C11206 acceptance_verified",
+      "detail": "版本为 C11206，封存状态凭据存在。"
+    },
+    {
+      "status": "PASS",
+      "name": "C11206 live bit",
+      "detail": "SHA256 C60464C0D4396D316DB7622E4CB0B70B5DE12C25148AFE234AC7C795C818625D 与 acceptance_verified 一致。"
+    },
+    {
+      "status": "PASS",
+      "name": "C11206 docs receipt",
+      "detail": "资料仓 verified_receipt 与工程 acceptance_verified 匹配。"
+    },
+    {
+      "status": "PASS",
+      "name": "C11205 parent verified checkpoint",
+      "detail": "169 项文件字节数/SHA256一致；manifest SHA256 A6B0AE1DBCAF1A92D360FA7F6E4AA935C1777A06D705940ED1364999A239A4A9"
+    },
+    {
+      "status": "PASS",
+      "name": "TF SCALE1.BMP",
+      "detail": "SHA256 与 media_manifest 一致（230454 bytes）。"
+    },
+    {
+      "status": "PASS",
+      "name": "TF SCALE2.BMP",
+      "detail": "SHA256 与 media_manifest 一致（1440054 bytes）。"
+    },
+    {
+      "status": "PASS",
+      "name": "TF SCALE3.BMP",
+      "detail": "SHA256 与 media_manifest 一致（184950 bytes）。"
+    },
+    {
+      "status": "PASS",
+      "name": "TF SCALE4.BMP",
+      "detail": "SHA256 与 media_manifest 一致（196662 bytes）。"
+    },
+    {
+      "status": "PASS",
+      "name": "C11206 TEST.WAV source reference",
+      "detail": "参考 SHA256 D5244FD3935052A743379D9331EE78109C8A913241ED60DE472CB9E34A17FECF 与 real_music package audit 一致。"
+    },
+    {
+      "status": "PASS",
+      "name": "60秒音乐 TEST.WAV",
+      "detail": "SHA256 与 real_music package audit 一致：deliverables\\real_music_20261008\\card\\TEST.WAV"
+    },
+    {
+      "status": "PASS",
+      "name": "8秒音阶 TEST.WAV provenance",
+      "detail": "历史记录一致，参考 SHA256 B29C1669416DA2C492187A9DB66E0E97BFCD2E6FA9812B33ED300C1C21CA80A7。"
+    },
+    {
+      "status": "PASS",
+      "name": "8秒音阶 TEST.WAV",
+      "detail": "SHA256 与自己的历史验证记录一致：bringup\\tf_wav_hdmi\\card_media\\TEST.WAV"
+    },
+    {
+      "status": "PASS",
+      "name": "资料仓当前状态",
+      "detail": "E:\\VSCODE-project\\FPGA-ANLU\\tmp\\sync_clean_20261020\\FPGA-ANLU-docs\\开发记录\\当前状态.md"
+    },
+    {
+      "status": "PASS",
+      "name": "C11206五扩展验收资料",
+      "detail": "E:\\VSCODE-project\\FPGA-ANLU\\tmp\\sync_clean_20261020\\FPGA-ANLU-docs\\开发记录\\专题记录\\整机集成\\C11206五扩展验收_20261012\\README.md"
+    },
+    {
+      "status": "INFO",
+      "name": "checkpoint .db/.vvp 遮蔽盘点",
+      "detail": "检查 42 个 manifest；明确引用 335 项，其中缺文件 0 项；磁盘上存在但未列入 manifest 的忽略类文件 0 项。"
+    },
+    {
+      "status": "INFO",
+      "name": "development\\player_480p\\checkpoints\\compact_data_d1_verified\\manifest.json",
+      "detail": "manifest 引用 1 项 .db/.vvp"
+    },
+    {
+      "status": "INFO",
+      "name": "development\\player_dynamic_text\\checkpoints\\dynamic_text_20261009_candidate\\manifest.json",
+      "detail": "manifest 引用 10 项 .db/.vvp"
+    },
+    {
+      "status": "INFO",
+      "name": "development\\player_dynamic_text_audio_packet_probe\\checkpoints\\audio_packet_probe_20261011_candidate\\manifest.json",
+      "detail": "manifest 引用 7 项 .db/.vvp"
+    },
+    {
+      "status": "INFO",
+      "name": "development\\player_dynamic_text_axis_probe\\checkpoints\\axis_probe_20261009_candidate\\build\\prehold\\manifest.json",
+      "detail": "manifest 引用 1 项 .db/.vvp"
+    },
+    {
+      "status": "INFO",
+      "name": "development\\player_dynamic_text_axis_probe\\checkpoints\\axis_probe_20261009_candidate\\manifest.json",
+      "detail": "manifest 引用 4 项 .db/.vvp"
+    },
+    {
+      "status": "INFO",
+      "name": "development\\player_dynamic_text_bit17_led_probe\\checkpoints\\bit17_led_probe_20261011_candidate\\manifest.json",
+      "detail": "manifest 引用 6 项 .db/.vvp"
+    },
+    {
+      "status": "INFO",
+      "name": "development\\player_dynamic_text_cadence_probe\\checkpoints\\cadence_probe_20261010_candidate\\manifest.json",
+      "detail": "manifest 引用 8 项 .db/.vvp"
+    },
+    {
+      "status": "INFO",
+      "name": "development\\player_dynamic_text_fit\\checkpoints\\dynamic_text_fit_20261009_candidate\\manifest.json",
+      "detail": "manifest 引用 7 项 .db/.vvp"
+    },
+    {
+      "status": "INFO",
+      "name": "development\\player_dynamic_text_video_probe\\checkpoints\\dynamic_text_video_probe_20261009_candidate\\manifest.json",
+      "detail": "manifest 引用 12 项 .db/.vvp"
+    },
+    {
+      "status": "INFO",
+      "name": "development\\player_fat32\\checkpoints\\fat32_candidate_v1\\manifest.json",
+      "detail": "manifest 引用 5 项 .db/.vvp"
+    },
+    {
+      "status": "INFO",
+      "name": "development\\player_fat32_audio_probe\\checkpoints\\audio_probe_20261008_verified\\manifest.json",
+      "detail": "manifest 引用 5 项 .db/.vvp"
+    },
+    {
+      "status": "INFO",
+      "name": "development\\player_fat32_autoplay\\checkpoints\\autoplay_20261008_candidate\\manifest.json",
+      "detail": "manifest 引用 6 项 .db/.vvp"
+    },
+    {
+      "status": "INFO",
+      "name": "development\\player_fat32_autoplay_keepaudio\\checkpoints\\keepaudio_20261008_candidate\\manifest.json",
+      "detail": "manifest 引用 6 项 .db/.vvp"
+    },
+    {
+      "status": "INFO",
+      "name": "development\\player_fat32_packet_diag\\checkpoints\\packet_diag_20261008_candidate\\manifest.json",
+      "detail": "manifest 引用 46 项 .db/.vvp"
+    },
+    {
+      "status": "INFO",
+      "name": "development\\player_fat32_packet_diag\\checkpoints\\packet_diag_20261008_incomplete\\manifest.json",
+      "detail": "manifest 引用 26 项 .db/.vvp"
+    },
+    {
+      "status": "INFO",
+      "name": "development\\player_fat32_status_diag\\checkpoints\\status_diag_20261008_candidate\\manifest.json",
+      "detail": "manifest 引用 12 项 .db/.vvp"
+    },
+    {
+      "status": "INFO",
+      "name": "development\\player_music_envelope_phy\\checkpoints\\music_envelope_phy_20261013_candidate\\manifest.json",
+      "detail": "manifest 引用 25 项 .db/.vvp"
+    },
+    {
+      "status": "INFO",
+      "name": "development\\player_osd\\checkpoints\\osd_20261009_candidate\\manifest.json",
+      "detail": "manifest 引用 7 项 .db/.vvp"
+    },
+    {
+      "status": "INFO",
+      "name": "development\\player_osd_phy_fix\\checkpoints\\osd_phy_fix_20261009_candidate\\manifest.json",
+      "detail": "manifest 引用 10 项 .db/.vvp"
+    },
+    {
+      "status": "INFO",
+      "name": "development\\player_spectrum\\checkpoints\\music_spectrum_20261013_candidate\\manifest.json",
+      "detail": "manifest 引用 41 项 .db/.vvp"
+    },
+    {
+      "status": "INFO",
+      "name": "development\\player_spectrum_baseline_phy\\checkpoints\\music_spectrum_baseline_phy_20261013_candidate\\manifest.json",
+      "detail": "manifest 引用 13 项 .db/.vvp"
+    },
+    {
+      "status": "INFO",
+      "name": "development\\player_spectrum_clock_route\\checkpoints\\music_spectrum_clock_route_20261014_candidate\\manifest.json",
+      "detail": "manifest 引用 10 项 .db/.vvp"
+    },
+    {
+      "status": "INFO",
+      "name": "development\\player_spectrum_fft_recover\\checkpoints\\music_spectrum_fft_recover_20261014_candidate\\manifest.json",
+      "detail": "manifest 引用 16 项 .db/.vvp"
+    },
+    {
+      "status": "INFO",
+      "name": "development\\player_spectrum_observed\\checkpoints\\music_spectrum_observed_20261013_candidate\\manifest.json",
+      "detail": "manifest 引用 24 项 .db/.vvp"
+    },
+    {
+      "status": "INFO",
+      "name": "development\\player_spectrum_private_init\\checkpoints\\music_spectrum_private_init_20261013_candidate\\manifest.json",
+      "detail": "manifest 引用 12 项 .db/.vvp"
+    },
+    {
+      "status": "INFO",
+      "name": "development\\player_spectrum_tf_margin\\checkpoints\\music_spectrum_tf_margin_20261014_candidate\\manifest.json",
+      "detail": "manifest 引用 15 项 .db/.vvp"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+PASS spectrum_analyzer cases=13 output_bands=312 max_fixedpoint_error=0 physical_rate_capture=521clk plus_continuous_frames=2 source_change_abort=2 reset_abort=1
+E:\VSCODE-project\FPGA-ANLU\tmp\sync_clean_20261020\FPGA-ANLU\development\player_spectrum_trace\sim\tb_player_spectrum_analyzer.v:57: $finish called at 32128131000 (1ps)
+PASS spectrum_analyzer cases=13 output_bands=312 max_fixedpoint_error=0 physical_rate_capture=521clk plus_continuous_frames=2 source_change_abort=2 reset_abort=1
+E:\VSCODE-project\FPGA-ANLU\tmp\sync_clean_20261020\FPGA-ANLU\development\player_spectrum_trace\sim\tb_player_spectrum_analyzer.v:57: $finish called at 32128131000 (1ps)
+PASS: mathematical oracle assertions and Icarus testbench completed.
+Fast mathematical capture explicitly sets FRAME_TIMEOUT_SAMPLES=0; this run does not verify the production 4096-sample watchdog.
+Test scope: 13 production-sized 1024-sample vectors (accelerated capture), plus one full-rate 521-clock frame (48 kHz at 25 MHz); full 1024-point RTL analysis uses 55,320 cycles per frame.
+Cases: low/mid/high exact-bin tones, half-amplitude relation, two tones, silence, positive DC, positive/negative fullscale DC, phase-pi/4 fullscale sine, alternating Nyquist extremes, centered impulse, fixed-seed wideband random.
+Additional checks: continuous consecutive frames, source_change abort during partial capture and during analysis, reset during analysis.
+Checks: independent direct DFT and integer FFT reference; all 1024 Hann and 512 twiddle ROM words against formulas; 24 ordered bands per frame against fixed-point reference (bit exact; max absolute error 0); frame_done alignment; silence zero; DC bin omitted with Hann leakage predicted; tone peak bands; two-tone response; amplitude scaling; direct DFT quantization error asserted <=16 for every vector.
+Simulator: E:\VSCODE-project\FPGA-ANLU\bringup\tf_wav_hdmi\tools\iverilog\app\bin\iverilog.exe; compile log E:\VSCODE-project\FPGA-ANLU\tmp\sync_clean_20261020\FPGA-ANLU\development\player_spectrum_trace\build\model\spectrum_compile_20261020_123341.log; run log E:\VSCODE-project\FPGA-ANLU\tmp\sync_clean_20261020\FPGA-ANLU\development\player_spectrum_trace\build\model\spectrum_run_20261020_123341.log.
+SHA256 analyzer=2edfffb8678fe071428f62f0325ecb6a2e35a7568d84e766f87257f9d486c98e
+testbench=09cd117b009be33c079675928755bf23e8a2e05f3223034bf5d3d24dc5a9cac0
+oracle=c7459ba9b0c10656ed8b68370a25b7ba97a7db9b79592cf3cd2c2c480adc2bff
+hann_rom=56541dd5f3fb244efbf913046049b82e15da33484e61ffead975c35beff69f3f
+twiddle_rom=c760d33a88c692b2ea87a748cec155e94a97bdfbe2176fd9e64d666b90edc772
+Hardware validation: not performed by this simulation.
