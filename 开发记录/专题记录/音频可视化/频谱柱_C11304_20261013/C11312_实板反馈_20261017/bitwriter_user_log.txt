@@ -1,0 +1,42 @@
+RUN-1002 : start command "download -bit ..\..\anlu\bit\spectrum_trace.bit -mode jtag -spd 7 -cable 0"
+PRG-2014 : Chip validation success: EG4S20BG256
+RUN-1002 : start command "bit_to_vec -chip EG4S20BG256 -m jtag_burst -freq 5.000000 -bit ../../anlu/bit/spectrum_trace.bit"
+RUN-1003 : finish command "bit_to_vec -chip EG4S20BG256 -m jtag_burst -freq 5.000000 -bit ../../anlu/bit/spectrum_trace.bit" in  0.149140s wall, 0.140625s user + 0.015625s system = 0.156250s CPU (104.8%)
+
+RUN-1004 : used memory is 154 MB, reserved memory is 88 MB, peak memory is 168 MB
+RUN-1002 : start command "program -cable 0 -mode svf -spd 7 -p"
+RUN-1003 : finish command "program -cable 0 -mode svf -spd 7 -p" in  14.661556s wall, 0.140625s user + 0.437500s system = 0.578125s CPU (3.9%)
+
+RUN-1004 : used memory is 140 MB, reserved memory is 74 MB, peak memory is 168 MB
+RUN-1003 : finish command "download -bit ..\..\anlu\bit\spectrum_trace.bit -mode jtag -spd 7 -cable 0" in  15.054271s wall, 0.281250s user + 0.468750s system = 0.750000s CPU (5.0%)
+
+RUN-1004 : used memory is 140 MB, reserved memory is 74 MB, peak memory is 168 MB
+GUI-1001 : Downloading succeeded!
+RUN-1002 : start command "download -bit ..\..\anlu\bit\spectrum_trace.bit -mode jtag -spd 7 -cable 0"
+PRG-2014 : Chip validation success: EG4S20BG256
+RUN-1002 : start command "bit_to_vec -chip EG4S20BG256 -m jtag_burst -freq 5.000000 -bit ../../anlu/bit/spectrum_trace.bit"
+RUN-1003 : finish command "bit_to_vec -chip EG4S20BG256 -m jtag_burst -freq 5.000000 -bit ../../anlu/bit/spectrum_trace.bit" in  0.145710s wall, 0.109375s user + 0.031250s system = 0.140625s CPU (96.5%)
+
+RUN-1004 : used memory is 154 MB, reserved memory is 88 MB, peak memory is 168 MB
+RUN-1002 : start command "program -cable 0 -mode svf -spd 7 -p"
+RUN-1003 : finish command "program -cable 0 -mode svf -spd 7 -p" in  14.618476s wall, 0.312500s user + 0.703125s system = 1.015625s CPU (6.9%)
+
+RUN-1004 : used memory is 139 MB, reserved memory is 74 MB, peak memory is 168 MB
+RUN-1003 : finish command "download -bit ..\..\anlu\bit\spectrum_trace.bit -mode jtag -spd 7 -cable 0" in  15.005223s wall, 0.421875s user + 0.750000s system = 1.171875s CPU (7.8%)
+
+RUN-1004 : used memory is 139 MB, reserved memory is 74 MB, peak memory is 168 MB
+GUI-1001 : Downloading succeeded!
+RUN-1002 : start command "download -bit ..\..\anlu\bit\spectrum_trace.bit -mode jtag -spd 7 -cable 0"
+PRG-2014 : Chip validation success: EG4S20BG256
+RUN-1002 : start command "bit_to_vec -chip EG4S20BG256 -m jtag_burst -freq 5.000000 -bit ../../anlu/bit/spectrum_trace.bit"
+RUN-1003 : finish command "bit_to_vec -chip EG4S20BG256 -m jtag_burst -freq 5.000000 -bit ../../anlu/bit/spectrum_trace.bit" in  0.137796s wall, 0.109375s user + 0.046875s system = 0.156250s CPU (113.4%)
+
+RUN-1004 : used memory is 154 MB, reserved memory is 88 MB, peak memory is 168 MB
+RUN-1002 : start command "program -cable 0 -mode svf -spd 7 -p"
+RUN-1003 : finish command "program -cable 0 -mode svf -spd 7 -p" in  14.686867s wall, 0.234375s user + 0.531250s system = 0.765625s CPU (5.2%)
+
+RUN-1004 : used memory is 140 MB, reserved memory is 72 MB, peak memory is 168 MB
+RUN-1003 : finish command "download -bit ..\..\anlu\bit\spectrum_trace.bit -mode jtag -spd 7 -cable 0" in  15.065670s wall, 0.343750s user + 0.609375s system = 0.953125s CPU (6.3%)
+
+RUN-1004 : used memory is 140 MB, reserved memory is 73 MB, peak memory is 168 MB
+GUI-1001 : Downloading succeeded!

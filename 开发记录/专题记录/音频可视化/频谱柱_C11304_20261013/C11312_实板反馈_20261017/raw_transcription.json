@@ -1,0 +1,47 @@
+{
+  "source": "before_key1.mp4; manual transcription from preserved video frames",
+  "observed": [
+    {
+      "seconds": 4.5,
+      "raw_hex": "63680800",
+      "expected_page_by_sequence": "6"
+    },
+    {
+      "seconds": 5.5,
+      "raw_hex": "78000004",
+      "expected_page_by_sequence": "7"
+    },
+    {
+      "seconds": 8.5,
+      "raw_hex": "09280040",
+      "expected_page_by_sequence": "8"
+    },
+    {
+      "seconds": 9.5,
+      "raw_hex": "19000000",
+      "expected_page_by_sequence": "9"
+    },
+    {
+      "seconds": 11.5,
+      "raw_hex": "29280000",
+      "expected_page_by_sequence": "A"
+    },
+    {
+      "seconds": 13.5,
+      "raw_hex": "38000000",
+      "expected_page_by_sequence": "B"
+    },
+    {
+      "seconds": 15.5,
+      "raw_hex": "49280000",
+      "expected_page_by_sequence": "C"
+    },
+    {
+      "seconds": 17.5,
+      "raw_hex": "5FC11312",
+      "expected_page_by_sequence": "D"
+    }
+  ],
+  "limit": "Page labels are sequence-based only. Do not replace the observed prefix or infer internal state from malformed words.",
+  "strict_decoder_rejection": "需要6、7、8、9、A、B、C七页完整值"
+}

@@ -1,0 +1,36 @@
+{
+  "created": "2026-10-17T20:44:56.535555+08:00",
+  "purpose": "Matching readback mask for original C11312, not a new firmware or a repair",
+  "status": "OFFLINE_MASK_GENERATED_PENDING_HARDWARE_VERIFY",
+  "original_bit_sha256": "60ae6b971ce1f9ed09d76bec14cf88dfc25cdfe7cbbebe5dd9fc070115b812ce",
+  "original_bit_bytes": 634280,
+  "mask_sha256": "3d2719bd61e052a935cc007531686bb58fcf5928229cc33db1393d6d3794a165",
+  "mask_bytes": 624823,
+  "routed_db_sha256": "aebf62a21a41134063ea5129bbfa035a29c6cfd8e9c1a6e48f30205e815eb7dc",
+  "routed_db_matches_manifest_protected_frozen_hold_evidence": true,
+  "regenerated_reference_only_date_comment_differs": true,
+  "reference_comparison": {
+    "original_sha256": "60ae6b971ce1f9ed09d76bec14cf88dfc25cdfe7cbbebe5dd9fc070115b812ce",
+    "mask_generation_reference_sha256": "810371663dad28aefb270034c55324d89f0d34df9b76f34be1e863c73ba8882b",
+    "original_size": 634280,
+    "reference_size": 634280,
+    "differing_byte_count": 4,
+    "differing_positions": [
+      133,
+      136,
+      138,
+      139
+    ],
+    "only_date_comment_differs": true,
+    "date_excluded_payload_sha256": "4617cbe4e7be86f3d1a228d6ec91d38f31eb92a7a3e7aaab4cb0d13fbcaa6993"
+  },
+  "limits": [
+    "No board or cable operation by agent. No HDL/synthesis/place/route change.",
+    "Unmasked bit_to_vec jtag_rdbk conversion was accepted for EG4S20, but emitted 0 masked bits even with a sibling bmk. It is NOT supplied as a validated masked verification sequence.",
+    "Several diagnostic conversion option probes failed or did not apply the mask; logs retained. The hardware GUI Verify SRAM path must confirm acceptance of the mask before interpreting mismatches.",
+    "Verify SRAM covers configuration RAM; official manual excludes user ERAM. It does not read arbitrary live FFs or prove runtime/physical timing."
+  ],
+  "zip_path": "E:\\VSCODE-project\\FPGA-ANLU\\deliverables\\c11312_sram_verify_mask_20261017.zip",
+  "zip_sha256": "a9052161463689a659a49bdbce322e7f9b2c618c6eae613ef5db756e1ac598bd",
+  "zip_bytes": 6192
+}

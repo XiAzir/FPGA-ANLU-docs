@@ -1,0 +1,11 @@
+{
+  "received": "2026-10-17T20:35:07.326809+08:00",
+  "source": "User screenshot of laboratory PowerShell check_lab_bit.ps1 result",
+  "file": "E:/anlu/bit/spectrum_trace.bit",
+  "bytes": 634280,
+  "sha256": "60AE6B971CE1F9ED09D76BEC14CF88DFC25CDFE7CBBEBE5DD9FC070115B812CE",
+  "MatchesC11312": true,
+  "screenshot_sha256": "76f1d2c229c4ada38fcdc3a4c2bd486d171a8e5bbeb48bbc8280a5632f2c2ec5",
+  "limit": "Confirms the file tested at the laboratory matches delivered C11312; not a readback of FPGA configuration or a hardware runtime check.",
+  "equipment": "User confirms only AL-LINK downloader; no external logic analyzer."
+}

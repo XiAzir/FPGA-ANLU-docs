@@ -1,0 +1,55 @@
+{
+  "recorded": "2026-10-17T20:01:03.599681+08:00",
+  "status": "FAILED_BOARD_VIDEO_AUDIO_AND_TELEMETRY",
+  "board_feedback_source": "User reports and preserved videos; no hardware operated by agent.",
+  "reported": [
+    "image green/color bands",
+    "spectrum empty",
+    "playing audio has noise",
+    "baseline reload normal"
+  ],
+  "observed_fixed_version_word": "5FC11312",
+  "expected_fixed_version_word": "DFC11312",
+  "raw_snapshot_decodable": false,
+  "root_cause_confirmed": false,
+  "hardware_location": "Laboratory with classmate; user at home, no local board/JTAG access.",
+  "agent_operations": "Video decoding, source/PLL parameter comparison, bounded ModelSim tests, file hashes only. No production RTL/bit/ZIP modification or new build.",
+  "simulation": {
+    "display_pins": {
+      "cases": 44,
+      "digit_checks": 352,
+      "negative_control_errors_detected": 1,
+      "primitives": 101,
+      "pads": 3,
+      "sdf": false
+    },
+    "display_sdf": {
+      "fixed_word": "DFC11312",
+      "digit_checks": 8,
+      "sdf_annotation_succeeded": true,
+      "negative_limits_zeroed": 38,
+      "scope": "Extracted cone with original retained delays, ideal clock/reset/input boundaries; external 595 electrical behavior excluded."
+    },
+    "upstream_version": {
+      "full_routed_top": true,
+      "mailbox_words": 8,
+      "version_word": "DFC11312",
+      "scope": "Controlled forced page selector copies, PLL-ready/fast startup/tone and observation fault injection; not natural board startup."
+    }
+  },
+  "logs": {
+    "display_pins": {
+      "path": "E:\\VSCODE-project\\FPGA-ANLU\\development\\player_spectrum_trace\\build\\board_feedback_20261017\\display_cone\\console.log",
+      "sha256": "e102836b5a32bf54a42a20f80fd15df7f409a975071b01dbe8678cc5f10b405c"
+    },
+    "display_sdf": {
+      "path": "E:\\VSCODE-project\\FPGA-ANLU\\development\\player_spectrum_trace\\build\\board_feedback_20261017\\display_sdf\\console.log",
+      "sha256": "f2646a23b454b18b505ebe3e56a6707499c347a0324f05c56039bdbf9fedaad4"
+    },
+    "upstream_version": {
+      "path": "E:\\VSCODE-project\\FPGA-ANLU\\development\\player_spectrum_trace\\build\\board_feedback_20261017\\upstream_version\\console.log",
+      "sha256": "57ca53c0183d7386512a964e58b79330a4f9e8a0415d90abf4e977e460c17dc6"
+    }
+  },
+  "next": "First compare the exact laboratory programming file hash and BitWriter operation/result log. If identical, obtain an independent live hardware observation (595 serial waveform or suitable JTAG capture); do not decode corrupted page words or issue a speculative repair bit."
+}

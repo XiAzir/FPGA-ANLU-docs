@@ -1,0 +1,21 @@
+{
+  "date": "2026-10-20",
+  "branch": "XiAzir",
+  "engineeringCommit": "a10cea91b0fa6224113d3a6787d40ae61b448311",
+  "engineeringFiles": 255,
+  "engineeringBytes": 57277551,
+  "docsFilesBeforeRecord": 18,
+  "docsBytesBeforeRecord": 44773473,
+  "stagedEngineeringBlobsVerified": 255,
+  "frozenManifestEntriesVerified": 233,
+  "frozenMissing": 0,
+  "frozenMismatches": 0,
+  "zipMembersVerified": 3,
+  "preservedVideosVerified": 3,
+  "liveInfoLogHashesVerified": 3,
+  "pythonFilesParsed": 6,
+  "powerShellFilesParsed": 1,
+  "jsonFilesParsed": 22,
+  "credentialPatternFindings": 0,
+  "ignoreReview": "ModelSim work缓存及.vec向量沿用现有忽略规则；所有待归档凭据均可常规暂存。"
+}

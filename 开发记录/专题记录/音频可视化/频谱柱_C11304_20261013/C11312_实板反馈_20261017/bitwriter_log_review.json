@@ -1,0 +1,20 @@
+{
+  "received": "2026-10-17T20:10:05.580810+08:00",
+  "source": "User-pasted BitWriter log; not agent-operated hardware",
+  "reported_successful_downloads": 3,
+  "chip": "EG4S20BG256",
+  "mode": "jtag / jtag_burst",
+  "actual_frequency_mhz": 5.0,
+  "spd_argument": 7,
+  "file_path_relative": "../../anlu/bit/spectrum_trace.bit",
+  "download_duration_seconds": [
+    15.054271,
+    15.005223,
+    15.06567
+  ],
+  "explicit_errors_in_supplied_text": false,
+  "laboratory_file_sha256_verified": false,
+  "explicit_configuration_readback_compare_in_supplied_text": false,
+  "log_sha256": "f365b3ebb89a8057037284b6b827562286ed7f6e5cb91d4f8e54ad34c2736cd0",
+  "conclusion": "Programming tool reports successful completion; neither source-file equality nor healthy runtime is proven. No additional repeated download requested."
+}
