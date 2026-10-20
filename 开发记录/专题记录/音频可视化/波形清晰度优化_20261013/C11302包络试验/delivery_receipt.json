@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "createdBeijing": "2026-10-13 18:42:54",
+  "boardStatus": "PENDING_BOARD_VALIDATION",
+  "bitSha256": "594AA169246DD480F224E9A0F4060E52CCB5642817B76522ABA040E147BD73EF",
+  "checkpointFiles": 255,
+  "manifestSha256": "E135DF7110B416042301F17C54336621B77C13902D0629D1EDABC2A2DED9E9F1",
+  "zip": "E:\\VSCODE-project\\FPGA-ANLU\\deliverables\\music_envelope_20261013.zip",
+  "zipBytes": 944470,
+  "zipSha256": "53457C1DABF8A73F8FBC52D51EC10848D9A93FD1C76D4080526B2290C2E4D859",
+  "parentC11301SnapshotAndZipAndC11206BaselineUnchanged": true,
+  "unchangedSources": 85,
+  "changedSources": 3
+}

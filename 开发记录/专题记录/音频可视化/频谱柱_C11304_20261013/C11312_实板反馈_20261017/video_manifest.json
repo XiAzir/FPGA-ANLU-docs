@@ -1,0 +1,38 @@
+[
+  {
+    "role": "before_key1",
+    "source": "E:\\QQ CACHE\\LiaoTianJiLu\\Tencent Files\\1791081637\\nt_qq\\nt_data\\Video\\2026-10\\Ori\\61ce1517b1d00454b1f9bbf135fcfa11.mp4",
+    "preserved": "E:\\QQ CACHE\\Download\\安路资料\\开发记录\\专题记录\\音频可视化\\频谱柱_C11304_20261013\\C11312_实板反馈_20261017\\before_key1.mp4",
+    "sha256": "8a277bf41cf0804712bee3c718f91be39276ce586a557592d99bf00263c0db85",
+    "bytes": 18188580,
+    "fps": 29.99460289095356,
+    "frames": 1771,
+    "duration_seconds": 59.043955555555556,
+    "width": 720.0,
+    "height": 1280.0
+  },
+  {
+    "role": "after_key1",
+    "source": "E:\\QQ CACHE\\LiaoTianJiLu\\Tencent Files\\1791081637\\nt_qq\\nt_data\\Video\\2026-10\\Ori\\4d0072ce64b02bf208efe8e464b92da1.mp4",
+    "preserved": "E:\\QQ CACHE\\Download\\安路资料\\开发记录\\专题记录\\音频可视化\\频谱柱_C11304_20261013\\C11312_实板反馈_20261017\\after_key1.mp4",
+    "sha256": "eebfb60f4b3377bd1516bdb2d5a3a3e2d59d69159f17101d7786f5b950e6f469",
+    "bytes": 23910473,
+    "fps": 29.9810388548317,
+    "frames": 2308,
+    "duration_seconds": 76.98198888888889,
+    "width": 720.0,
+    "height": 1280.0
+  },
+  {
+    "role": "display",
+    "source": "E:\\QQ CACHE\\LiaoTianJiLu\\Tencent Files\\1791081637\\nt_qq\\nt_data\\Video\\2026-10\\Ori\\0db7d62a2ffbcb7031785a0ddeb7e82d.mp4",
+    "preserved": "E:\\QQ CACHE\\Download\\安路资料\\开发记录\\专题记录\\音频可视化\\频谱柱_C11304_20261013\\C11312_实板反馈_20261017\\display.mp4",
+    "sha256": "275ba9fca9f96359db1575443b856438872e6b532880c580649808f90fe6f82b",
+    "bytes": 1256577,
+    "fps": 29.910851001177857,
+    "frames": 137,
+    "duration_seconds": 4.580277571995698,
+    "width": 720.0,
+    "height": 1280.0
+  }
+]

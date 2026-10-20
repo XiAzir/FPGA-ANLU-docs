@@ -10,4 +10,20 @@ main:
             auth_type: https
             username: ${GIT_USERNAME}
             password: ${GIT_ACCESS_TOKEN}
+            branch: main
+            push_tags: true
+
+XiAzir:
+  push:
+    - imports:
+        - https://cnb.cool/XiAzir/FPGA-secrets/-/blob/main/github.yml
+      stages:
+        - name: sync-to-github
+          image: tencentcom/git-sync
+          settings:
+            target_url: https://github.com/XiAzir/FPGA-ANLU-docs.git
+            auth_type: https
+            username: ${GIT_USERNAME}
+            password: ${GIT_ACCESS_TOKEN}
+            branch: XiAzir
             push_tags: true

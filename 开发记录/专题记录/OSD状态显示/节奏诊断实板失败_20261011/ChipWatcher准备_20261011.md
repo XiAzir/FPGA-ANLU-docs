@@ -13,6 +13,8 @@
 - 手写旧结构 CWC 和 gate mark_debug 的预试虽返回成功，但 export 的配置为空、无新增采样资源，明确不计插入成功。旧 PH1A90 的 edid_debug.cwc 不是本项目活动调试配置。
 - 使用安装包 ChipWatcher_1.0 的 source-IP 接口模板后，独立小模型综合实际出现 2 BRAM/采样逻辑；但该小模型物理流程在 ppm.cpp:610 assert，没有形成可交付位流，不能算物理支持验证。
 - 已建独立工程 ../../../../../FPGA-ANLU/development/player_dynamic_text_cw_probe，来源 cadence_probe；build ID C11101。采样 32 bit，触发为 request_toggle，深度1024。只增加被动观察输出/实例、IP stub 和 build ID，不改变播放器功能控制逻辑。
+
+- 已建独立工程 E:/VSCODE-project/FPGA-ANLU/development/player_dynamic_text_cw_probe，来源 cadence_probe；build ID C11101。采样 32 bit，触发为 request_toggle，深度1024。只增加被动观察输出/实例、IP stub 和 build ID，不改变播放器功能控制逻辑。
 - 完整工程早期失败：SystemVerilog 文件需要 System_Verilog 项目分组；source stub 的 1 bit probe 需与工具生成 [0:0] 声明匹配；嵌套实例被工具报 unconnected trigger clock pin。已据日志修正前两项，并将实例移到 top 通过只读输出连接。最新顶层实例综合正在进行，尚未得出物理/时序/位流结果。
 - 构建脚本增加扫描 TD ERROR/assert/coredump 的失败门槛；此前有 ERROR 后工具仍写完成标记，因此仅凭退出码或 marker 不足。失败日志保存在 cw_probe/build/preflight，不发布这些候选。
 
@@ -121,5 +123,7 @@ probe0：bit31=tone_mode，30=audio_valid，29:26=page，25:24=self_test，23=ac
 - 局部LED模型MODEL_PASS；gpt-6-luna只读复核按键/灯位/页条件。原status monitor仍与C11105 SHA 14D3B0441D6A652343BE0089AD9E6DA660305091639F3A600C5A13ECADF6EE9E一致。D3在标签3页逻辑上等于received同位、加页条件，不是独立595/数码管末级证据；D0..D3只是采样到高的粘滞事件，新布局可能让旧现象不再复现，不能据此宣称根因已定位。
 - 封存：development/player_dynamic_text_bit17_led_probe/checkpoints/bit17_led_probe_20261011_candidate，136文件manifest逐项复核；manifest SHA A1C81FD98AD9251E37E0E656C6E9775483788D3E7CA2571662AC1873B5DEC639。
 - 交付：[bit17 LED ZIP](../../../../../FPGA-ANLU/deliverables/bit17_led_probe_20261011.zip)，655168字节/SHA256 8A6DD06F91B51344487A7A42B4A0F69CC898C8DF63B62D15B02B0097310A1F8A；包含bit17_led_probe.bit、原osd_phy_fix.bit、README.txt、info和SHA256清单。解压文件逐项哈希一致，download别名一致。回退hash仍9E893B0B6C86BF6FBEE19E74B5FB58933C1BEA6AA07F203786CCE96F3B60AE6F，旧cadence位流未改。
+
+- 交付：[bit17 LED ZIP](E:/VSCODE-project/FPGA-ANLU/deliverables/bit17_led_probe_20261011.zip)，655168字节/SHA256 8A6DD06F91B51344487A7A42B4A0F69CC898C8DF63B62D15B02B0097310A1F8A；包含bit17_led_probe.bit、原osd_phy_fix.bit、README.txt、info和SHA256清单。解压文件逐项哈希一致，download别名一致。回退hash仍9E893B0B6C86BF6FBEE19E74B5FB58933C1BEA6AA07F203786CCE96F3B60AE6F，旧cadence位流未改。
 - 本轮命令行构建均结束；本机GUI此前目标窗口识别不准，未继续点击。板卡仍在用户远控电脑，没有代理JTAG扫描/板卡下载/TF或Flash操作。新候选尚未上板，原HDMI无信号及旧bit17来源仍未确认，不称修复版。
 - 下一步：用户传ZIP到板卡所接电脑，在英文路径解压；确认下载空闲后断电5秒、上电、BitWriter PROGRAM_SRAM/5MHz下载bit17_led_probe.bit并确认成功。默认四灯灭是本版设计，C页应CFC11106；只长按板上KEY1约2秒（不要同时KEY0）切tone，松开保持25秒，记录D3/D2/D1/D0亮灭及标签3/标签1完整8字符、HDMI和音频状态。D3不再闪烁，标签3第二字符8..F用于确认tone。记录后可回载同包osd_phy_fix。无需改TF或重录旧cadence。

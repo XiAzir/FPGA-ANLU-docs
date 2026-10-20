@@ -1,0 +1,42 @@
+{
+  "version": "C11308",
+  "createdBeijing": "2026-10-14 18:50:25",
+  "boardStatus": "PENDING_BOARD_VALIDATION",
+  "parent": "C11307 partial progress; no BMP and WAV noise; tone/spectrum user-reported normal",
+  "successfulBaseline": "C11206 bmp_scale.bit",
+  "bitSha256": "AD3C0ED07482FF88B9F252AFC3862311DE752216A511FE7164782D56E4B8C895",
+  "bitBytes": 634280,
+  "changes": [
+    "hdl_source/bmp_scale_engine.v",
+    "hdl_source/player_status_monitor.v",
+    "hdl_source/tf_bmp_file_player.v",
+    "hdl_source/top_tf_hdmi_audio.v",
+    "hdl_source/SD/sd_card_cmd.v",
+    "hdl_source/SD/sd_card_top.v"
+  ],
+  "inheritedFiles": 87,
+  "timing": {
+    "SWNSns": 0.12,
+    "STNSns": 0.0,
+    "HWNSns": 0.03,
+    "HTNSns": 0.0
+  },
+  "resource": {
+    "LUT": 16755,
+    "reg": 9928,
+    "LE": 18168,
+    "BRAM9K": 44,
+    "DSP": 11,
+    "GCLK": 2
+  },
+  "stageRunIds": {
+    "synthesis": "b0742bf6-1a65-4548-82d2-d82e2c3840d5",
+    "physical": "ffbf0e8b-f787-4411-97db-32f71bc89edc",
+    "hold": "00cbdca9-4f38-48ad-962c-a5d8d5309fc1",
+    "bitstream": "43db896a-8d55-41a0-ace6-775ffca88aca"
+  },
+  "changesScope": "TF SPI divisor0->2; passive raw512-byte SD CRC counters and sticky BMP failure detail; status E/F0/F1. Existing FFT/PHY/PLL/SDC inherited byte-for-byte.",
+  "limits": "Clock margin is an isolation experiment, not confirmed physical root cause. CRC counters do not prevent corrupted sectors or retry. Binary counter CDC diagnostic may briefly show a transitional count. Digital/STA evidence does not prove physical A/V.",
+  "modelEvidence": "build/model source-bound tests plus structurally inherited C11307 full FFT/serializer evidence; no protected vendor BRAM dynamic simulation",
+  "operation": "PROGRAM_SRAM/JTAG5MHz; DFC11308; default before longKEY1, then tone; segment full cycle26s plus optional initial4s selftest; observe E/F0/F1 if failure."
+}

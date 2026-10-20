@@ -1,0 +1,56 @@
+{
+  "gate": "E:\\VSCODE-project\\FPGA-ANLU\\development\\player_spectrum_observed\\build\\audit\\routed_implementation.v",
+  "gate_sha256": "1bbff31b4a68057807cbc04be5e1e973d33bb6b1696b6cbd2d055227cb8d7efa",
+  "synthesis_log": "E:\\VSCODE-project\\FPGA-ANLU\\development\\player_spectrum_observed\\build\\manual\\synthesis_console.log",
+  "synthesis_log_sha256": "83f7d25ef630fe7335a4bbf297cb373ae229b28fd2726c9e3ced80f5b9ea8181",
+  "eram_init_off": true,
+  "lanes": {
+    "hann_low": {
+      "depth": 1024,
+      "width": 9,
+      "nonzero_words": 1020,
+      "mismatches": 0,
+      "first_mismatch_addresses": [],
+      "sha256": "1c712da62a5934d3ac75b855cf90893a03a236697b01ead065b7ea4ab5960d3e"
+    },
+    "hann_high": {
+      "depth": 1024,
+      "width": 9,
+      "nonzero_words": 942,
+      "mismatches": 0,
+      "first_mismatch_addresses": [],
+      "sha256": "391e9b0d2fdb3a0d8ffa004f93ac15e676f43709db0b24cc07b4f933bf0739de"
+    },
+    "twiddle_low": {
+      "depth": 512,
+      "width": 18,
+      "nonzero_words": 512,
+      "mismatches": 0,
+      "first_mismatch_addresses": [],
+      "sha256": "8f3c7aa49f84b689cf60d9e97c6e4b85700fa17be8c306149a71d087fa045d00"
+    },
+    "twiddle_high": {
+      "depth": 512,
+      "width": 18,
+      "nonzero_words": 511,
+      "mismatches": 0,
+      "first_mismatch_addresses": [],
+      "sha256": "5870f27ab4e323523d250e1a00fdd074404af3b6e523054ea400094d3d3246a8"
+    }
+  },
+  "combined_roms": {
+    "hann": {
+      "words": 1024,
+      "nonzero_words": 1020,
+      "mismatches": 0,
+      "sha256": "baf7df624b80fcd112ba3cdf1a5e6052d53a9a187aa14870d274ad8de75c9c3f"
+    },
+    "twiddle": {
+      "words": 512,
+      "nonzero_words": 512,
+      "mismatches": 0,
+      "sha256": "b7782524c8b0d3b7a42d4f5e59a8e1a34f9b5328f01795baa7779388027c5259"
+    }
+  },
+  "all_match": true
+}

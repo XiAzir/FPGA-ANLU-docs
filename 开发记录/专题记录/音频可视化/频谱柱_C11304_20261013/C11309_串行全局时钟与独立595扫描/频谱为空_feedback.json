@@ -1,0 +1,11 @@
+{
+  "createdBeijing": "2026-10-14 19:52:43",
+  "versionByConversation": "C11309",
+  "independentBuildIdReadable": false,
+  "boardStatus": "PARTIAL_BOARD_PASS_SPECTRUM_EMPTY",
+  "reportedBy": "user",
+  "quote": "一切正常，除了频谱图没东西显示。有声音。",
+  "photo": "IMG2/4 MANUAL, PLAY B+00 C1.00, SPECTRUM WAV, clean image/OSD, no spectrum bars",
+  "limits": "Overall user report records non-spectrum functions restored; no per-item repeat counts, duration or independent D-page ID added. Both-source spectrum result and B/C page values pending.",
+  "next": "Preserve existing C11309 bit/ZIP/frozen source; inspect actual FFT/render BRAM ports against C11307 and obtain B/C values in WAV/tone before choosing repair."
+}

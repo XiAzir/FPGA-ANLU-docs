@@ -1,0 +1,25 @@
+{
+  "createdBeijing": "2026-10-14 19:31:47",
+  "status": "LOCAL_CANDIDATE_DELIVERED_BOARD_PENDING",
+  "zip": "E:\\VSCODE-project\\FPGA-ANLU\\deliverables\\music_spectrum_clock_route_20261014.zip",
+  "zipSha256": "04D844F7736D4069F3CD7B6E66D32C49CC1EA9DFD75EB154FF7AF12AE0B56A38",
+  "bitSha256": "9171F813BDDEC5B81B7F3577BF7C7804A3F5A24138F7763B253D7D5FB8040B3F",
+  "checkpoint": "E:\\VSCODE-project\\FPGA-ANLU\\development\\player_spectrum_clock_route\\checkpoints\\music_spectrum_clock_route_20261014_candidate",
+  "files": 240,
+  "manifestSha256": "E638D0FA259E12A584A9E31CEC4BABF97F1E261EB59474C338CC8295C503F0EA",
+  "timing": {
+    "SWNSns": 0.509,
+    "STNSns": 0.0,
+    "HWNSns": 0.03,
+    "HTNSns": 0.0
+  },
+  "resource": {
+    "LUT": 16877,
+    "reg": 10033,
+    "LE": 18372,
+    "BRAM9K": 44,
+    "DSP": 12,
+    "GCLK": 3
+  },
+  "parentFrozenFilesVerified": 230
+}

@@ -1,0 +1,25 @@
+{
+  "createdBeijing": "2026-10-13 22:21:19",
+  "version": "C11306",
+  "status": "FAILED_BOARD_VALIDATION",
+  "reportedBy": "user",
+  "beforeKEY1": "No picture/no sound",
+  "afterKEY1": "Picture with flickering bright pixels, internal tone with noise, spectrum does not react; image/manual/auto/brightness/contrast work",
+  "rollback": "User reports older bitfiles normal",
+  "videoBefore": "E:\\QQ CACHE\\LiaoTianJiLu\\Tencent Files\\1791081637\\nt_qq\\nt_data\\Video\\2026-10\\Ori\\6883c6541db017379e652daba0542130.mp4",
+  "videoAfter": "E:\\QQ CACHE\\LiaoTianJiLu\\Tencent Files\\1791081637\\nt_qq\\nt_data\\Video\\2026-10\\Ori\\9b59c3867f05d441152c8190928a63b8.mp4",
+  "observed": [
+    "DFC11306",
+    "1D880000",
+    "3300BB80 before",
+    "3B00BB80 after",
+    "6700F485",
+    "7700F485",
+    "8700F485",
+    "97000000",
+    "A7008000"
+  ],
+  "decode": "WAV PCM prefix at source/FIFO/HDMI input matches F485, flags7; nominal48000 samples/second in both modes, format_bad0, no mapper error. Read timeout from C11305 not present.",
+  "limits": "Input CRC covers first32768 WAV samples only, not HDMI serial packets, later sound or internal tone correctness. ROM INIT audit did not check actual board read values; spectrum stage still unknown.",
+  "next": "C11307 narrow ODDR preparation edge change plus passive spectrum telemetry; ROM read audit in progress; preserve old artifacts."
+}

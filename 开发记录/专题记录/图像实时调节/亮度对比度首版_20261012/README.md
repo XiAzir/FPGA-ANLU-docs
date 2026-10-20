@@ -6,6 +6,8 @@
 
 工程：../../../../../FPGA-ANLU/development/player_image_adjust。继承成功141文件verified快照并全哈希复核，原音频FIFO/FAT/SDRAM/HDMI/PHY/SDC不改；新增控制/RGB定点饱和/参数栏三模块，top连接及状态BUILD_ID变化。产品双键手势替代旧组合视频probe，不再触发隐藏测试图。PLAY短动作释放生效、长KEY1只切音源，编辑模式音乐/轮播继续。
 
+工程：E:/VSCODE-project/FPGA-ANLU/development/player_image_adjust。继承成功141文件verified快照并全哈希复核，原音频FIFO/FAT/SDRAM/HDMI/PHY/SDC不改；新增控制/RGB定点饱和/参数栏三模块，top连接及状态BUILD_ID变化。产品双键手势替代旧组合视频probe，不再触发隐藏测试图。PLAY短动作释放生效、长KEY1只切音源，编辑模式音乐/轮播继续。
+
 B±64/步16，C0.50..1.50/五档。clip(floor((p-128)*C)+128+B)，默认恒等；参数VS提交/模式文字帧锁，底图调节、文字独立保持原色。
 
 模型11524RGBvectors；缩放控制+生产25MHz参数断言+真实legacy debounce集成；三帧1152000周期和24576参数栏比较。根代理复核/重跑，修正生产整数溢出、多process pending驱动、同步初值、组合优先及legacy脉冲高间隔；独立gpt-6-luna只读集成复核无新增必改。范围见工程build/model/README.md，未模拟加密核/实际PHY。

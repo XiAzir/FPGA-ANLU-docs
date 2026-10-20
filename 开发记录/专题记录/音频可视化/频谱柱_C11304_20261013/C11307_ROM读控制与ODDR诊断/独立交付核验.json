@@ -1,0 +1,12 @@
+{
+  "createdBeijing": "2026-10-13 22:42:18",
+  "status": "PASS",
+  "candidateFiles": 281,
+  "preservedC11306Files": 232,
+  "zipMembers": 6,
+  "checksumRows": 5,
+  "modelBindings": 35,
+  "bitSha256": "8CFD873C1B9727A18C8A3731233943B6C43D56DD56677623CDAEC0962B7A2AF4",
+  "zipSha256": "F96C748747BD008A18461D5728247A7430C0AF1FF0BB4E87A6FBC8B5A5E9D626",
+  "scope": "Local artifact/source integrity only; no board validation"
+}

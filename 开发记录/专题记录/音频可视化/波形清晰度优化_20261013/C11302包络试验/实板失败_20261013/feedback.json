@@ -1,0 +1,64 @@
+{
+  "recordedBeijing": "2026-10-13 19:14:30",
+  "version": "C11302",
+  "boardStatus": "FAILED_BOARD_VIDEO_CORRUPTION_AUDIO_SILENT",
+  "bitSha256": "594AA169246DD480F224E9A0F4060E52CCB5642817B76522ABA040E147BD73EF",
+  "userReport": "最新一版没有声音，照片显示整屏规则绿/彩色竖条；提供长按KEY1前后视频。",
+  "rollbackUserReport": "同张TF卡、同供电、HDMI和音量回载bmp_scale.bit后，画面和声音都正常。",
+  "rollbackBitSha256": "C60464C0D4396D316DB7622E4CB0B70B5DE12C25148AFE234AC7C795C818625D",
+  "media": [
+    {
+      "source": "C:\\Users\\PENGYU~1\\AppData\\Local\\Temp\\codex-clipboard-511fef71-8b52-47ab-a62c-af2da29c0295.jpg",
+      "archive": "E:\\QQ CACHE\\Download\\安路资料\\开发记录\\专题记录\\音频可视化\\波形清晰度优化_20261013\\C11302包络试验\\实板失败_20261013\\screen.jpg",
+      "bytes": 238868,
+      "sha256": "AFE7338EBE4863821CDE6B2792D7993AC958B104B9043F5B6CD81F29A3E966B7"
+    },
+    {
+      "source": "E:\\QQ CACHE\\LiaoTianJiLu\\Tencent Files\\1791081637\\nt_qq\\nt_data\\Video\\2026-10\\Ori\\57b87b430866b65a6f080945d25491cd.mp4",
+      "archive": "E:\\QQ CACHE\\Download\\安路资料\\开发记录\\专题记录\\音频可视化\\波形清晰度优化_20261013\\C11302包络试验\\实板失败_20261013\\before_key1.mp4",
+      "bytes": 5338168,
+      "sha256": "FDE9B33B952589394F79CCB2A4576E091BAB2EE11A10FC27F42E5D9113BB0CBB"
+    },
+    {
+      "source": "E:\\QQ CACHE\\LiaoTianJiLu\\Tencent Files\\1791081637\\nt_qq\\nt_data\\Video\\2026-10\\Ori\\6d87776aabe8e2878b0e30c57b477379.mp4",
+      "archive": "E:\\QQ CACHE\\Download\\安路资料\\开发记录\\专题记录\\音频可视化\\波形清晰度优化_20261013\\C11302包络试验\\实板失败_20261013\\after_key1.mp4",
+      "bytes": 5661435,
+      "sha256": "34321E405AAB0008550FD7BA295732F9A408109633724268E0087E8B7C255CF4"
+    }
+  ],
+  "readings": {
+    "before": {
+      "page1": "1DA80000",
+      "page3": "3300BB80",
+      "page6": "6700F485",
+      "page7": "7700F485",
+      "page8": "8700F485",
+      "page9": "97000000",
+      "pageA": "A7008000",
+      "pageB": "B702002D",
+      "pageC": "C700002C",
+      "pageD": "DFC11302"
+    },
+    "after": {
+      "page1": "1DA80000",
+      "page3": "3B00BB80",
+      "page6": "6700F485",
+      "page7": "7700F485",
+      "page8": "8700F485",
+      "page9": "97000000",
+      "pageA": "A7008000",
+      "pageB": "B702002D",
+      "pageC": "C700002C",
+      "pageD": "DFC11302"
+    }
+  },
+  "interpretation": [
+    "page3旗标3/B：WAV/tone分别0/1，underflow=0，HDMI输入video_locked=1，frame_seen=1；0xBB80=48000有效PCM/名义秒。",
+    "6/7/8页flag7表示三处prefix已完成，CRC都是F485；A页0x8000=32768采样。9页format_bad=0。",
+    "CRC范围跳过65536个采样后检查32768个PCM16，不是全文件或连续音频完整证明，也不覆盖加密HDMI核内部/数据包/PHY/接收端。",
+    "B页首次采样高字节偏移0x02002D=131117，对应44字节头+65536*2+1；C页data_offset=44。",
+    "全屏条纹覆盖OSD生成区域，不能仅归因SDRAM底图或包络曲线；优先排查HDMI共用发送链，但尚无唯一实板根因。"
+  ],
+  "actions": "ffprobe元数据检查、ffmpeg每秒提帧、多帧人工字形复核、源码/最终STA审计；无代理JTAG、TF写或Flash。",
+  "next": "保留失败位流/冻结清单/原ZIP；C11206继续成功基线，隔离验证HDMI PHY采样补强，待模型/STA后才能交付新的实板候选。"
+}

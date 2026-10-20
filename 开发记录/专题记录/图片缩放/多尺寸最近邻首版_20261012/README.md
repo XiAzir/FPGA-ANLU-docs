@@ -4,6 +4,10 @@
 
 规格见[scaler_spec.md](../../../../../FPGA-ANLU/development/player_bmp_scale/build/scaler_spec.md)。显示固定640×480，在FPGA加载时对原尺寸24位BI_RGB做等比居中最近邻，黑边补零；宽1..1024，高绝对值1..768，支持bottom-up/top-down和奇数宽padding。不是在PC预缩放后冒充板内缩放。
 
+开发工程：[player_bmp_scale](E:/VSCODE-project/FPGA-ANLU/development/player_bmp_scale/)。当前C11206缩放首版已获用户功能正常反馈并封存为新成功基线；C11205保留回退（须恢复原640×480素材）。
+
+规格见[scaler_spec.md](E:/VSCODE-project/FPGA-ANLU/development/player_bmp_scale/build/scaler_spec.md)。显示固定640×480，在FPGA加载时对原尺寸24位BI_RGB做等比居中最近邻，黑边补零；宽1..1024，高绝对值1..768，支持bottom-up/top-down和奇数宽padding。不是在PC预缩放后冒充板内缩放。
+
 新增真实写FIFO反压。压力模型使用实际pack/framebackend/FIFOIP，通过4096像素、3072word、max_used481、5908次暂停、phase mask d（观察到ready落沿时pack相位0/2/3），未覆盖加密SDRAM或真实缩放引擎。以强制App_rd_busy模拟长时间读占用；Sdr_busy输入在原writer中未用。两份初期失败日志是TB错误（SHOW_AHEAD抽样时机、busy信号假设），修正TB后通过，没有以此修改RTL。
 
 完整BMP解析/逐像素黄金、资源映射/原约束时序已通过，四尺寸实板照片与用户功能反馈正常；本版长期/冷启动/异常媒体与Flash仍未验证。动态波形双线和低清晰度按用户选择留到优化阶段。

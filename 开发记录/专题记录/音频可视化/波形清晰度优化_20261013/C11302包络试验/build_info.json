@@ -1,0 +1,87 @@
+{
+  "version": "C11302",
+  "kind": "MUSIC_LEVEL_ENVELOPE_CUBIC_Q4_AA",
+  "boardStatus": "PENDING_BOARD_VALIDATION",
+  "createdBeijing": "2026-10-13 18:42:54",
+  "parentVersion": "C11301 visual candidate",
+  "successfulBaseline": "C11206 bmp_scale.bit",
+  "sourceProject": "E:\\VSCODE-project\\FPGA-ANLU\\development\\player_music_envelope",
+  "canonicalBit": "E:\\VSCODE-project\\FPGA-ANLU\\development\\player_music_envelope\\build\\manual\\AC201_player_music_envelope.bit",
+  "bitBytes": 629624,
+  "bitSha256": "594AA169246DD480F224E9A0F4060E52CCB5642817B76522ABA040E147BD73EF",
+  "deliveryBitName": "music_envelope.bit",
+  "rollbackBitName": "bmp_scale.bit",
+  "rollbackSha256": "C60464C0D4396D316DB7622E4CB0B70B5DE12C25148AFE234AC7C795C818625D",
+  "comparisonBitName": "waveform_fine.bit",
+  "comparisonSha256": "30C45D0A9B82B9C4F78C5A14A81CEFA13C704AF9C91C34EB4C625974FDAA4B96",
+  "scopeHash": "272709af0b8402f8745441a518990f9ad2293556d2197ff2388dea8f35c24382",
+  "scriptHash": "82b038eb98e98048a8c9e679b389708b715306f3031f4c384effc81c0fb98908",
+  "stageRunIds": {
+    "synthesis": "d03bf04c-beb1-4373-9a11-ca2572818b83",
+    "physical": "e32ab674-5532-45f5-9d04-9d8e633a809b",
+    "hold": "0ec3aee6-977c-430a-8962-7769f9eb38a6",
+    "bitstream": "57a2d60e-d391-4e82-90f9-a640f4544da4"
+  },
+  "timing": {
+    "SWNSns": 0.672,
+    "STNSns": 0.0,
+    "HWNSns": 0.024,
+    "HTNSns": 0.0
+  },
+  "timingCoveragePercent": 99.97,
+  "resource": {
+    "LUT": 16360,
+    "reg": 8966,
+    "LE": 17700,
+    "BRAM9K": 29,
+    "DSP": 8,
+    "GCLK": 2
+  },
+  "holdFixPerformed": true,
+  "productionModelReceipt": "E:\\VSCODE-project\\FPGA-ANLU\\development\\player_music_envelope\\build\\model\\envelope_binding_20261013_182739.json",
+  "productionModelReceiptSha256": "8A7DBB2C264BD7262C6DC0A1449AE2534505BD096670E1D48948474BC55EAFFE",
+  "integrationReceiptSha256": "9238EB9E98E3D7E5A4E3D0DEBC05E60EF0017602C6C13B7080FB797A8818786C",
+  "sourceDiffSha256": "02A1F841859E23E5D0FC19594475EFD7CE5E8969A49F7950E8AB968D9AB2EA1E",
+  "display": {
+    "frame": [
+      640,
+      480
+    ],
+    "columns": 512,
+    "physicalRows": 57,
+    "subpixelSteps": 16,
+    "historyNodes": 128,
+    "nominalHistorySeconds": 2.1504,
+    "averageSamples": 256,
+    "attackTimeApproxMs": 83,
+    "releaseTimeApproxMs": 339,
+    "constantAmplitudeToneExpected": "Approximately steady level envelope, not square-wave carrier"
+  },
+  "memoryMapping": {
+    "history": "128x16 LUT_RAM with16 clocked read registers; deviation from planned BRAM target",
+    "traceBRAM9K": 2,
+    "pcmBRAM9K": 4,
+    "extraInterpolationDSP": 0
+  },
+  "models": {
+    "productionFrames": 128,
+    "effectiveAudioSamples": 103615,
+    "averageWindows": 404,
+    "pixelChecks": 58596,
+    "controlChecks": 10,
+    "integrationRasterClocks": 1260000,
+    "integrationGraphPixels": 87552,
+    "integrationFrames": 3,
+    "musicSnippetSamples": 1024,
+    "musicSnippetRepeats": true
+  },
+  "knownLimits": [
+    "Fixed480p physical grid; smoothing and subpixel coverage do not increase panel pixel count",
+    "Old dynamic double trace cause remains unconfirmed; C11302 reception/visual behavior pending",
+    "No full FFT spectrum; mean absolute amplitude visualisation",
+    "No C11302 board long-run/repeated startup/Flash verification"
+  ],
+  "evidenceLimits": "Logical models, static/mapping audit and original-constraint TD STA. Does not replace physical TF, encrypted SDRAM/HDMI transport, receiver, actual sound or visual acceptance.",
+  "hardwareActions": "No local JTAG, TF write or Flash operation",
+  "checkpoint": "E:\\VSCODE-project\\FPGA-ANLU\\development\\player_music_envelope\\checkpoints\\music_envelope_20261013_candidate"
+}

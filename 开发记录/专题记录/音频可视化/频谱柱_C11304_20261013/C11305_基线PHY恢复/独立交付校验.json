@@ -1,0 +1,12 @@
+{
+  "createdBeijing": "2026-10-13 21:21:47",
+  "status": "PASS",
+  "candidateManifestFiles": 221,
+  "oldC11304ManifestFiles": 325,
+  "zipMembers": 6,
+  "checksumRows": 5,
+  "modelBindings": 29,
+  "zipSha256": "DFA9B4306712D261CD8D2BD9FEF41063E98629D10EA0E6D648DAEFBBDA5428D0",
+  "bitSha256": "768B510C951E5A12EE6F062CDFE053885D1DB6A4B9DDBFFE63944E96A082DE1F",
+  "scope": "Local package/source integrity only, no board verification"
+}

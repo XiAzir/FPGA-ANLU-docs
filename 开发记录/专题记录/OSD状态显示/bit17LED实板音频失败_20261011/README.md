@@ -18,6 +18,7 @@
 - 缩放页面模型自检/10页/回绕通过；正式monitor47断言0失败、反射BCH向量与32字重建通过。新观察器只是发射核并行TMDS支路，采样video_clk，不能证明串行器/HDMI引脚/接收端正常。模型不包含加密核或实物。原始源码差异与主代理核对在工程README，.al的Project Path是必要工程元数据差异。
 - 封存development/player_dynamic_text_audio_packet_probe/checkpoints/audio_packet_probe_20261011_candidate，142文件逐项SHA复核，manifest SHA FC288ACE94B1698D2AAFDD283BB10C6E4884B1F3569CCB2ED2EF81EF88F7D101。
 - [交付ZIP](../../../../../FPGA-ANLU/deliverables/audio_packet_probe_20261011.zip)674243字节/SHA256 9B6AC8778E8B851ACD90A13D70F90B688DA49BF450DAAFC128DE74932F812212；含新bit、原osd_phy_fix、README/info/SHA。解压逐项与download别名哈希一致；原成功回退位流hash9E893B...保持，C11106旧ZIP/checkpoint保留。live C11106 info标FAIL_AUDIO，不覆盖冻结历史。
+
+- [交付ZIP](E:/VSCODE-project/FPGA-ANLU/deliverables/audio_packet_probe_20261011.zip)674243字节/SHA256 9B6AC8778E8B851ACD90A13D70F90B688DA49BF450DAAFC128DE74932F812212；含新bit、原osd_phy_fix、README/info/SHA。解压逐项与download别名哈希一致；原成功回退位流hash9E893B...保持，C11106旧ZIP/checkpoint保留。live C11106 info标FAIL_AUDIO，不覆盖冻结历史。
 - 下一步用户在板卡所接远控电脑：英文路径解压；下载空闲后冷断电5秒/重上电，PROGRAM_SRAM/5MHz下载audio_packet_probe.bit成功；默认WAV等10秒录25秒，长按板KEY1约2秒后松开等3秒、再录25秒，同时拍LED和数码管。D页应DFC11107，C页是真实ACR N；本版D3恢复音阶闪烁，默认LED恢复原音频事件语义。记录画面/两音源听感及灯态后可回退同包osd_phy_fix。TF无需改动，无需ChipWatcher/CWC。
 - 本轮命令行构建全部结束。根因尚未确认；本机无板卡连接，没有代理下载/JTAG扫描/TF或Flash写入，远控下载由用户完成。
-

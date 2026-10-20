@@ -4,6 +4,8 @@
 
 下一步：完成实际backend握手模型、原约束布局布线及setup/hold检查、位流来源绑定和封存，再由用户远控上板检查转场/音画/原功能。工程证据：../../../../../FPGA-ANLU/development/player_transition_wipe/build。
 
+下一步：完成实际backend握手模型、原约束布局布线及setup/hold检查、位流来源绑定和封存，再由用户远控上板检查转场/音画/原功能。工程证据：E:/VSCODE-project/FPGA-ANLU/development/player_transition_wipe/build。
+
 ## 2026-10-12 12:42:08｜本地候选交付，板测待验证
 
 2026-10-12 12:42:08 C11205上下擦除候选本地完成，实板待验证。地址922360检查/RGB888四帧1228800像素/ownership/实际backend握手模型通过，静态审查无阻塞；TD原约束时序 {'SWNSns': 0.247, 'STNSns': 0.0, 'HWNSns': 0.011, 'HTNSns': 0.0} coverage99.97% holdFix=False，源/脚本/DB/报告/bit绑定与ZIP逐项SHA通过。资源{'LUT': 13131, 'reg': 8238, 'LE': 14651, 'BRAM9K': 24, 'DSP': 1, 'GCLK': 2}，download/transition_wipe.bit SHA 748E0AF0F9BF0656410C09735E371F655BEDD330C259E43858B614B1D95AE8F9；ZIP E:\VSCODE-project\FPGA-ANLU\deliverables\transition_wipe_20261012.zip 578847bytes SHA B9F6B9F7142B058424AD7BB84BCCC45E73B1DA8EA034AFC4AF90B2DD55581C76；165文件checkpoint manifest 55BDA6F491CCF5B7B15E70BD0E12B6F6F225EB4964B67ACAA7801ECE0824A82F。78源保持、5改、1新，640×480/每帧8行/60帧边界/900批次，最终全新帧请求ACK后释放旧buffer。成功基线仍C11204，原动态波形双线/低清晰度保留；未JTAG/TF/Flash，加密SDRAM和实际音画待用户验证。

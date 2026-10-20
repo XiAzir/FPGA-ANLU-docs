@@ -1,0 +1,29 @@
+{
+  "createdBeijing": "2026-10-14 18:45:17",
+  "version": "C11307",
+  "status": "FAILED_FULL_BOARD_VALIDATION_PARTIAL_PROGRESS",
+  "reportedBy": "user",
+  "beforeKEY1": "WAV audible with noise; spectrum works; no BMP; IMG0/0; all four LEDs lit",
+  "afterKEY1": "Internal scale clean and spectrum works; no BMP; D3 blinking other LEDs lit",
+  "videoBefore": "E:\\QQ CACHE\\LiaoTianJiLu\\Tencent Files\\1791081637\\nt_qq\\nt_data\\Video\\2026-10\\Ori\\cd666b5cefccf78a874d16cbae9fb2ab.mp4",
+  "videoAfter": "E:\\QQ CACHE\\LiaoTianJiLu\\Tencent Files\\1791081637\\nt_qq\\nt_data\\Video\\2026-10\\Ori\\b3824e0e3d42e88e235c67a6a26fe9eb.mp4",
+  "observed": [
+    "DFC11307",
+    "1D980000",
+    "3300BB80 before",
+    "3B00BB80 after",
+    "6700F485",
+    "7700F485",
+    "8700F485",
+    "97000000",
+    "A7008000",
+    "B7000681->B70006B6 before",
+    "C7FE0000/C7FE0006 before",
+    "B7000512->B7000536 after",
+    "C7FE035F/C7FE036D after"
+  ],
+  "decode": "Filesystem ready; BMP loader error; WAV primed; no filesystem or mapper errors. FFT frames advance; coefficients/frame/front-height flags latched. IMG0/0 is no-committed-frame OSD default, not proof catalog empty.",
+  "crcScope": "Current probe SKIP_SAMPLES65536 + PREFIX32768, CRC F485 matches canonical60s WAV; old8s same window6ACD. PageA8000 is CRC sample count, not data offset; B/C repurposed for FFT.",
+  "limits": "User clean tone confirms a narrower improvement, not complete HDMI/electrical validation or proof of TF fault. CRC window does not prove entire music or physical SD file hash.",
+  "next": "C11308 TF SPI clock divisor2 (nominal6.25MHz vs12.5), passive sectorCRC counters, sticky exact BMP failure reason/mask; hardware cause unconfirmed."
+}

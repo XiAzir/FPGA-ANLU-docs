@@ -1,0 +1,69 @@
+{
+  "version": "C11301",
+  "kind": "PCM_WAVEFORM_512_COLUMNS_Q2_EDGES",
+  "boardStatus": "PENDING_BOARD_VALIDATION",
+  "createdBeijing": "2026-10-13 16:13:29",
+  "parentVersion": "C11206",
+  "successfulBaseline": "C11206 bmp_scale.bit",
+  "sourceProject": "E:\\VSCODE-project\\FPGA-ANLU\\development\\player_waveform_fine",
+  "canonicalBit": "E:\\VSCODE-project\\FPGA-ANLU\\development\\player_waveform_fine\\build\\manual\\AC201_player_waveform_fine.bit",
+  "deliveryBitName": "waveform_fine.bit",
+  "bitSha256": "30C45D0A9B82B9C4F78C5A14A81CEFA13C704AF9C91C34EB4C625974FDAA4B96",
+  "bitBytes": 629624,
+  "rollbackBitName": "bmp_scale.bit",
+  "rollbackSha256": "C60464C0D4396D316DB7622E4CB0B70B5DE12C25148AFE234AC7C795C818625D",
+  "scopeHash": "97c2da97a95231fe4b9e44ffacb95670eb32f50d09e925dd1b6476c3367e835d",
+  "scriptHash": "89df94a591b4d486c1ef510523344f7f1c9b7802c32c96ecbc23afa36140efa6",
+  "stageRunIds": {
+    "synthesis": "ffdf5972-b4f0-40f1-bd25-31465a94c2f6",
+    "physical": "5f404bdd-12c7-4ef3-a0d4-020d7ca88910",
+    "bitstream": "afa581bd-00b1-4475-b884-cacb2a7772f5"
+  },
+  "timing": {
+    "SWNSns": 0.615,
+    "STNSns": 0.0,
+    "HWNSns": 0.019,
+    "HTNSns": 0.0
+  },
+  "timingCoveragePercent": 99.97,
+  "resource": {
+    "LUT": 14910,
+    "reg": 8791,
+    "LE": 16379,
+    "BRAM9K": 29,
+    "DSP": 8,
+    "GCLK": 2
+  },
+  "holdFixPerformed": false,
+  "waveform": {
+    "columns": 512,
+    "samplesPerColumn": 2,
+    "windowSamples": 1024,
+    "physicalRows": 57,
+    "amplitudeSubpixels": 4,
+    "unchangedDisplayGain": true,
+    "waveBRAM9K": 2,
+    "pcmBRAM9K": 4
+  },
+  "modelLogs": {
+    "wave_fine_sim.log": "625182406936E201F9E74D7596FC4A5EA5417C86F0420BB06F4CAF663A7407E4",
+    "keyfreeze_wave.log": "7FC9E22100C06B2F3F78B70BEF9530DA77D96DF565C6DB8CD8B818366FD1A362",
+    "integration.log": "11B1B8FD0302A439D969C799E85FA661078A3576DB793DFE610F9320B456303B"
+  },
+  "sourceDiff": "E:\\VSCODE-project\\FPGA-ANLU\\development\\player_waveform_fine\\build\\audit\\source_diff.json",
+  "unchangedSourceCount": 85,
+  "changedSources": [
+    "user_source/hdl_source/player_pcm_waveform.v",
+    "user_source/hdl_source/player_status_monitor.v",
+    "user_source/hdl_source/top_tf_hdmi_audio.v"
+  ],
+  "reviewSha256": "BF39E61FBC251C6E8333FD30C8BA6D668A34ACA552ADB41FBBF2E3F5A092770A",
+  "checkpoint": "E:\\VSCODE-project\\FPGA-ANLU\\development\\player_waveform_fine\\checkpoints\\waveform_fine_20261013_candidate",
+  "knownIssues": [
+    "Dynamic double trace vanishes under HOLD; unique root cause not confirmed",
+    "Same 57 physical waveform rows; subpixel edge brightness is a rendering enhancement",
+    "Large signal steps draw a vertical joining segment in one pixel column"
+  ],
+  "limitations": "RTL gold/static audit/original-constraint TD evidence only; encrypted HDMI/SDRAM, physical TF, reception, visual clarity, sound and long-run board behavior pending. Default 2.5M-edge stale threshold tested via shortened parametric instance.",
+  "hardwareActions": "No local JTAG, TF or Flash operations. Existing C11206 BMP and TEST.WAV remain the test media."
+}
