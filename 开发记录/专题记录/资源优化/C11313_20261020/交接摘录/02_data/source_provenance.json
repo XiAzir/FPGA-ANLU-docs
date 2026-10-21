@@ -1,0 +1,78 @@
+{
+  "generated_on": "2026-10-20",
+  "repository_snapshot": {
+    "engineering": {
+      "url": "https://github.com/XiAzir/FPGA-ANLU",
+      "branch": "main",
+      "git_sha": "e3c37f27db431446950c841fca89405f4636842a"
+    },
+    "documentation": {
+      "url": "https://github.com/XiAzir/FPGA-ANLU-docs",
+      "branch": "main",
+      "git_sha": "64b76fd95ed759c28704de22e2fb2829b2b851a9"
+    },
+    "alternate_branch": "XiAzir; do not mix with main layout"
+  },
+  "read_from_github_connected_repository_not_local_compilation": true,
+  "source_files": [
+    {
+      "path": "development/player_spectrum_trace/build/manual/AC201_tf_hdmi_phy.area",
+      "role": "final resource report"
+    },
+    {
+      "path": "development/player_spectrum_trace/build/manual/AC201_tf_hdmi_phy.ts",
+      "role": "post-hold timing report"
+    },
+    {
+      "path": "development/player_spectrum_trace/src/td_project/route.qor",
+      "role": "route stage slices only; pre-hold timing do not conflate"
+    },
+    {
+      "path": "development/player_spectrum_trace/build/manual/AC201_tf_hdmi_chk.timing",
+      "role": "unconstrained I/O review"
+    },
+    {
+      "path": "development/player_spectrum_trace/src/user_source/hdl_source/fat32_catalog.v",
+      "git_blob_sha": "69e993fffac7b86717f9f73a3c4e5cafc8380922"
+    },
+    {
+      "path": "development/player_spectrum_trace/src/user_source/hdl_source/fat32_file_sector.v",
+      "git_blob_sha": "84f0fa1ac8764ca930f0212231452b02efda150d"
+    },
+    {
+      "path": "development/player_spectrum_trace/src/user_source/hdl_source/bmp_scale_engine.v",
+      "git_blob_sha": "313c402f26365690a93af68f6112d688e7f08f83"
+    },
+    {
+      "path": "development/player_spectrum_trace/src/user_source/hdl_source/player_pcm_waveform.v",
+      "git_blob_sha": "c85662888445e5ec87ee0196e01c7e61661aef40"
+    },
+    {
+      "path": "development/player_spectrum_trace/src/user_source/hdl_source/player_spectrum_analyzer.v",
+      "git_blob_sha": "a7bf2d7bd4493eb4c198224abaa21bc7ea176a04"
+    },
+    {
+      "path": "development/player_spectrum_trace/src/user_source/hdl_source/video_rgb_to_axis_640x480.v",
+      "git_blob_sha": "e7dd6ac024928e21ad801f865a3bc9d857c0ef71"
+    },
+    {
+      "path": "development/player_spectrum_trace/scripts/build_candidate.ps1",
+      "git_blob_sha": "e1e1d5e176f61112263053ce048580d5830c87e9"
+    },
+    {
+      "path": "development/player_spectrum_trace/scripts/build_evidence.ps1",
+      "git_blob_sha": "5124032989677c79badc4e76750c9700a38fb761"
+    }
+  ],
+  "historical_board_results": {
+    "C11206": "verified stable baseline",
+    "C11309": "spectrum blank",
+    "C11310": "HDMI no signal",
+    "C11312": "stripes/noisy audio/corrupted diagnostic"
+  },
+  "limitations": [
+    "not same as producing new TD reports or live board observation",
+    "slice count is from route.qor and may differ from physical.area conceptually",
+    "hierarchy LE counts are not equal to physical slices"
+  ]
+}

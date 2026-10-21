@@ -1,0 +1,25 @@
+{
+  "zip_path": "C:\\Users\\PENGYUHAO\\Downloads\\ANLU_C11312_Resource_Agent_Handoff_20261020.zip",
+  "zip_sha256": "55437deedfe10fbbcee455841af82c3a94be717af5cb694182dd1df103b65675",
+  "selected_files": [
+    "ANLU_C11312_Resource_Agent_Handoff/01_task/Agent_输出报告模板.md",
+    "ANLU_C11312_Resource_Agent_Handoff/01_task/任务范围和优化顺序.md",
+    "ANLU_C11312_Resource_Agent_Handoff/01_task/需要读取的仓库文件.md",
+    "ANLU_C11312_Resource_Agent_Handoff/01_task/验证矩阵与停机条件.md",
+    "ANLU_C11312_Resource_Agent_Handoff/02_data/hierarchy_C11312.csv",
+    "ANLU_C11312_Resource_Agent_Handoff/02_data/resource_baseline.csv",
+    "ANLU_C11312_Resource_Agent_Handoff/02_data/source_provenance.json",
+    "ANLU_C11312_Resource_Agent_Handoff/02_data/基线指标口径说明.md",
+    "ANLU_C11312_Resource_Agent_Handoff/03_tools/preflight_readonly.ps1",
+    "ANLU_C11312_Resource_Agent_Handoff/03_tools/resource_compare.py",
+    "ANLU_C11312_Resource_Agent_Handoff/03_tools/verify_pack.py",
+    "ANLU_C11312_Resource_Agent_Handoff/README_先看我.md",
+    "ANLU_C11312_Resource_Agent_Handoff/SHA256SUMS.txt"
+  ],
+  "code_head": "ae9e1fda878426087fa6fd7b9c199300ca5c6c1b",
+  "docs_head": "cdcaf0402a3f772520a8fca8ecc98d535842bee0",
+  "candidate": "E:\\VSCODE-project\\FPGA-ANLU\\development\\player_spectrum_resource_fit",
+  "source": "E:\\VSCODE-project\\FPGA-ANLU\\development\\player_spectrum_trace",
+  "target_slice_85": 8330,
+  "target_slice_80": 7840
+}

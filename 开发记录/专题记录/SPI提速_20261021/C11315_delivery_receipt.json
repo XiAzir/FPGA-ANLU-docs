@@ -1,0 +1,177 @@
+{
+  "build_id": "C11315",
+  "created": "2026-10-21T10:40:15.048232+08:00",
+  "status": "OFFLINE_SPI_CONFIGURATION_CANDIDATE",
+  "hardware_status": "BOARD_NOT_TESTED",
+  "conclusion": "SPI_HIGH_SPEED_PARAMETER_RESPECTED_12P5_VERIFIED_OFFLINE",
+  "bitstream_sha256": "a9de55c166cd730db1203fc9d1d882eee885237cec68fd389dad26d0d972e22f",
+  "bitstream_bytes": 634280,
+  "spi": {
+    "mode": 3,
+    "system_nominal_MHz": 50,
+    "low_div": 248,
+    "low_nominal_kHz": 100,
+    "high_div": 0,
+    "data_nominal_MHz": 12.5,
+    "simulated_payload_sclk_period_ns": 80,
+    "finding": "Original C11314 steady-state code forced divider zero; its data phase already uses nominal12.5MHz. C11315 fixes parameter override and selects zero explicitly."
+  },
+  "resources": {
+    "slice": 7632,
+    "slice_percent": 77.8776,
+    "lut": 13896,
+    "register": 7864,
+    "LE": 14571,
+    "BRAM9K": 45,
+    "DSP": 10,
+    "GCLK": 3,
+    "PLL": 2
+  },
+  "timing": {
+    "setup_wns_ns": 0.157,
+    "setup_tns_ns": 0.0,
+    "hold_wns_ns": 0.011,
+    "hold_tns_ns": 0.0
+  },
+  "STA_coverage": "99.98%",
+  "baseline": {
+    "build_id": "C11314",
+    "slice": 7748,
+    "slice_reduction": 116,
+    "data_nominal_MHz": 12.5,
+    "bitstream_sha256": "60ed79eecfcbd271bbc2b9a9333d5da03668e00b580a6be751ebcd61f0fa4d28"
+  },
+  "reference_ablation": {
+    "comparison": "Corrected DIV2 simulation reference versus production DIV0",
+    "throughput_ratio": 1.9441114485134154,
+    "variants": {
+      "fast_C11315": {
+        "path": "development\\player_spectrum_spi12p5\\build\\system_fast_20261021_103000",
+        "source_receipt_sha256": "004f4fc32d14f3a5b0200805a1305e95bcc7bff2dc071aec7ee6f2773543d8c8",
+        "summary_sha256": "22656bca63c22936628fa24073f8b4416dad6468136adbd436a0510cfd895425",
+        "performance_sha256": "b2d468b92fd2b5fcbf2d9785522b371f041788f6e57b0bc5d6845975337b1443",
+        "service_trace_sha256": "4fcea81caabf6b591b46564a4326d6065aae1e83d7a3eb41690f699ee726b43d",
+        "performance": {
+          "status": "PASS",
+          "time_unit": "ns",
+          "init_ns": 23999139,
+          "fs_ns": 25139839,
+          "primed_ns": 29340739,
+          "first_pixel_ns": 26655859,
+          "commit_ns": 95044789,
+          "card_sectors": 58,
+          "card_bytes": 29696,
+          "card_max_service_ns": 383940,
+          "card_total_service_ns": 21937920,
+          "bmp_sectors": 4,
+          "bmp_max_service_ns": 756360,
+          "bmp_total_service_ns": 2268280,
+          "wav_sectors": 51,
+          "wav_max_service_ns": 756260,
+          "wav_total_service_ns": 20040580,
+          "crc_checked": 58,
+          "crc_bad": 0,
+          "fifo_min_after_prime": 1023,
+          "underruns": 0,
+          "first_data_ns": 24013719,
+          "last_data_ns": 120283679,
+          "min_sclk_period_ns": 80,
+          "sclk_target_MHz": 12.5,
+          "variant": "fast_C11315",
+          "card_service_payload_MBps": 1.353637901861252
+        },
+        "FFT": {
+          "status": "PASS_SCOPE",
+          "completed_frames": 3,
+          "band_checks": 72,
+          "max_abs_error": 0,
+          "oracle_sha256": "c7459ba9b0c10656ed8b68370a25b7ba97a7db9b79592cf3cd2c2c480adc2bff",
+          "scope": "Actual full-top accepted PCM captures, real ROM/FFT, independent fixed-point band reference; nominal startup/WAV case only"
+        }
+      },
+      "corrected_DIV2_reference": {
+        "path": "development\\player_spectrum_spi12p5\\build\\system_slow_reference_20261021_103000",
+        "source_receipt_sha256": "d17efc44341e07a13b26806312b0bb536cc7767d8cd2839bb84e17688bd463ba",
+        "summary_sha256": "8bdd01a0d756b753c4738446af1a95d71d9681eb767c409de380d0ad3225999e",
+        "performance_sha256": "1d649a6b1aa1c008c7a263b3dc2e19868adef0c1542b9d34ad5ad77a6238fe38",
+        "service_trace_sha256": "7b4f1de7833bc82993b51ed3667b465055ecb66b6bf48cf68ef8ce7fcf35e646",
+        "performance": {
+          "status": "PASS",
+          "time_unit": "ns",
+          "init_ns": 23999139,
+          "fs_ns": 26216279,
+          "primed_ns": 34381579,
+          "first_pixel_ns": 29160299,
+          "commit_ns": 98437009,
+          "card_sectors": 56,
+          "card_bytes": 28672,
+          "card_max_service_ns": 746380,
+          "card_total_service_ns": 41179080,
+          "bmp_sectors": 4,
+          "bmp_max_service_ns": 1470360,
+          "bmp_total_service_ns": 4582760,
+          "wav_sectors": 49,
+          "wav_max_service_ns": 1470260,
+          "wav_total_service_ns": 37491260,
+          "crc_checked": 56,
+          "crc_bad": 0,
+          "fifo_min_after_prime": 1023,
+          "underruns": 0,
+          "first_data_ns": 24027319,
+          "last_data_ns": 120703839,
+          "min_sclk_period_ns": 160,
+          "sclk_target_MHz": 6.25,
+          "variant": "slow_reference_corrected_DIV2",
+          "card_service_payload_MBps": 0.6962758760030578
+        },
+        "FFT": {
+          "status": "PASS_SCOPE",
+          "completed_frames": 3,
+          "band_checks": 72,
+          "max_abs_error": 0,
+          "oracle_sha256": "c7459ba9b0c10656ed8b68370a25b7ba97a7db9b79592cf3cd2c2c480adc2bff",
+          "scope": "Actual full-top accepted PCM captures, real ROM/FFT, independent fixed-point band reference; nominal startup/WAV case only"
+        }
+      }
+    }
+  },
+  "system_results": {
+    "duration_ms": 122,
+    "overrides": 11,
+    "serial_RGB_checked": 1536000,
+    "PCM_pairs_checked": 4447,
+    "FFT_frames": 3,
+    "FFT_bands": 72,
+    "FFT_max_error": 0,
+    "CRC_checked": 58,
+    "CRC_bad": 0,
+    "underflow": 0
+  },
+  "gate_route_audit": {
+    "gate_FFT_bands": 72,
+    "max_error": 0,
+    "ROM_logical_words": 1536,
+    "ROM_lane_entries": 3072,
+    "gate_control_truth_rows": 192,
+    "routed_control_truth_rows": 192,
+    "clock_checks_pass": 45,
+    "raw_SIG_INV_mismatches_retained": 6
+  },
+  "model_assumptions": [
+    "nominal PLL edge replay",
+    "application SDRAM interface model; data leads valid one clock",
+    "short BMP/WAV fixtures; first cold video frame excluded from RGB pin score"
+  ],
+  "SPI_board_IO_delay": "Awaiting board characterization; nominal half-cycle40ns",
+  "checkpoint": "development/player_spectrum_spi12p5/checkpoints/C11315_spi12p5_20261021_offline",
+  "checkpoint_files": 324,
+  "manifest_sha256": "b9671c4acbc9dbbaca12ddbbc0150b7fc50a246574126f22d3df8cf2f2b3338d",
+  "validation_binding": "development/player_spectrum_spi12p5/build/final_binding.json",
+  "stage_run_ids": {
+    "synthesis": "6410681c-a26d-4db7-93ef-d6cb9b95279a",
+    "physical": "7b56c149-5846-47ba-aeaa-c40451ca9b89",
+    "bitstream": "9b1c1887-1d62-4473-bb51-a0935cc40b4c"
+  },
+  "report": "E:/QQ CACHE/Download/安路资料/开发记录/专题记录/SPI提速_20261021/C11315_实施记录.md",
+  "next": "Board verify Build ID, cold boot, multi-image switching, audio, spectrum, keys, CRC/underflow and sustained operation."
+}

@@ -1,0 +1,5 @@
+﻿build_id,folder,board,slices,slices_total,slice_percent,lut,lut_total,ff,ff_total,le,bram9k,bram9k_total,dsp,dsp_total,setup_wns_ns,hold_wns_ns,setup_tns_ns,hold_tns_ns,source_notes
+C11206,player_bmp_scale,verified_stable,8628,9800,88.04,15031,19600,8803,19600,16520,28,64,8,29,0.628,0.004,0,0,"final physical area, post-route or post-hold timing; route.qor slices"
+C11309,player_spectrum_clock_route,spectrum_blank,9618,9800,98.14,16877,19600,10033,19600,18372,44,64,12,29,0.509,0.03,0,0,"final physical area, final hold-fixed timing; route.qor slices has pre-hold neg"
+C11310,player_spectrum_fft_recover,hdmi_no_signal,9700,9800,98.98,17001,19600,10085,19600,18508,44,64,12,29,0.236,0.027,0,0,final physical area and final timing; route.qor slices
+C11312,player_spectrum_trace,stripes_audio_noise_diag_corrupt,9712,9800,99.1,16934,19600,10061,19600,18481,44,64,12,29,0.06,0.024,0,0,final physical area and final post-hold timing; route.qor prehold reports neg hold

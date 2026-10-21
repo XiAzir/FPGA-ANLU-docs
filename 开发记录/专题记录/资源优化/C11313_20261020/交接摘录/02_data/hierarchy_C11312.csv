@@ -1,0 +1,26 @@
+﻿instance,module,le,lut_logic,ripple,seq,bram9k,dsp,priority,le_percent_of_top
+u_catalog,fat32_catalog,3051,2021,566,1718,0,0,P0,16.51
+u_bmp_file_player,tf_bmp_file_player,2828,1867,778,1256,4,8,P1,15.3
+u_pcm_waveform,player_pcm_waveform,1988,1577,275,1167,17,3,P2,10.76
+u_hdmi_1_4b_transmitter_core_wrapper,hdmi_1_4b_transmitter_core_wrapper,1674,1328,190,1323,14,0,Protected stable function,9.06
+u_wav_player,tf_wav_file_player,1401,884,339,647,5,0,Preserve playback,7.58
+u_frame_buffer,frame_buffer_rgb888,1294,944,166,894,4,1,P4,7.0
+u_wav_file_mapper,fat32_file_sector,1288,966,243,583,0,0,P3,6.97
+u_bmp_file_mapper,fat32_file_sector,1180,874,270,583,0,0,P3,6.38
+u_video_rgb_to_axis_640x480,video_rgb_to_axis_640x480,710,710,0,104,0,0,P4; audit anomalous hierarchy area,3.84
+u_adjust_control,player_adjust_control,478,327,119,245,0,0,UI preserve,2.59
+u_audio_probe,player_audio_probe,478,338,115,263,0,0,Audio preserve,2.59
+u_shared_card,sd_card_top,373,339,34,218,0,0,SPI preserve,2.02
+u_status_monitor,player_status_monitor,262,248,14,198,0,0,Diagnostic preserve,1.42
+u_fault_snapshot,player_fault_snapshot,256,239,14,211,0,0,Diagnostic preserve,1.39
+u_dynamic_text,player_dynamic_text,154,108,46,60,0,0,UI preserve,0.83
+u_status_hex,status_hex595,147,133,14,86,0,0,Diagnostic preserve,0.8
+u_status_mailbox,player_status_mailbox,137,137,0,91,0,0,CDC preserve,0.74
+u_rgb_adjust,player_rgb_adjust,164,101,63,3,0,0,RGB preserve,0.89
+u_adjust_osd,player_adjust_osd,80,50,30,18,0,0,UI preserve,0.43
+u_hdmi2phy_wrapper,hdmi_phy_wrapper,69,51,0,69,0,0,PHY preserve,0.37
+u_osd,player_osd,54,44,10,1,0,0,UI preserve,0.29
+u_osd_state,player_osd_state,53,48,4,42,0,0,UI preserve,0.29
+video_timing_data_m0,video_timing_data,47,37,8,28,0,0,Timing preserve,0.25
+video_delay_m0,video_delay,46,46,0,46,0,0,Timing preserve,0.25
+u_card_arbiter,sd_sector_arbiter,40,40,0,37,0,0,Arbitration preserve,0.22

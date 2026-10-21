@@ -1,0 +1,104 @@
+{
+  "build_id": "C11317",
+  "created": "2026-10-21T13:02:05.089247+08:00",
+  "status": "OFFLINE_RESOURCE_OPTIMIZED",
+  "hardware_status": "BOARD_NOT_TESTED",
+  "bitstream_sha256": "09cb0c482796cd2a7c113be8a7cd27e038646582db8be91ba0cce91e3e70d97a",
+  "bitstream_bytes": 634280,
+  "spi": {
+    "mode": 3,
+    "system_nominal_MHz": 50,
+    "low_div": 248,
+    "low_nominal_kHz": 100,
+    "high_div": 0,
+    "data_nominal_MHz": 12.5,
+    "simulated_payload_sclk_period_ns": 80
+  },
+  "resources": {
+    "lut": 13151,
+    "register": 7402,
+    "LE": 13764,
+    "BRAM9K": 45,
+    "DSP": 9,
+    "GCLK": 3,
+    "PLL": 2,
+    "slice": 7231,
+    "slice_percent": 73.78571428571429
+  },
+  "timing": {
+    "setup_wns_ns": 0.415,
+    "setup_tns_ns": 0.0,
+    "hold_wns_ns": 0.011,
+    "hold_tns_ns": 0.0
+  },
+  "baseline": {
+    "build_id": "C11316",
+    "slice": 7584,
+    "slice_reduction": 353,
+    "bitstream_sha256": "1de561dda1428c86c2f3127cf55b4b391cae8598c51111394ef9bde0ee971afa"
+  },
+  "optimizations": [
+    "Reuse held normal-FIFO output as the RGB reservoir high suffix; retain 32 local reservoir bits",
+    "One FAT execution engine and sector arbiter with two independent contexts; cache/walk lifetime sharing; retire two old source files",
+    "Production validated scaler references parent-held header width, height and stride; generic path retains original latches"
+  ],
+  "system_results": {
+    "duration_ms": 122,
+    "overrides": 12,
+    "serial_RGB_checked": 1536000,
+    "PCM_pairs_checked": 4447,
+    "FFT_frames": 3,
+    "FFT_bands": 72,
+    "FFT_max_error": 0,
+    "CRC_checked": 58,
+    "CRC_bad": 0,
+    "underflow": 0,
+    "commit_ns": 95044989,
+    "fifo_min_after_prime": 1023
+  },
+  "gate_route_audit": {
+    "gate_FFT_bands": 72,
+    "max_error": 0,
+    "ROM_logical_words": 1536,
+    "ROM_lane_entries": 3072,
+    "gate_control_truth_rows": 192,
+    "routed_control_truth_rows": 192,
+    "clock_checks_pass": 45,
+    "raw_SIG_INV_mismatches_retained": 6
+  },
+  "model_assumptions": [
+    "Qualified nominal PLL edge replay, fixed 50MHz reference/reset0 only",
+    "application-interface memory model; data leads valid by one clock",
+    "short generated BMP/WAV fixture",
+    "First cold video frame excluded from serial RGB comparison"
+  ],
+  "unverified": [
+    "physical SDRAM",
+    "key source switching",
+    "SDF",
+    "hardware fault reproduction"
+  ],
+  "checkpoint": "development\\player_spectrum_arch17\\checkpoints\\C11317_arch17_20261021_offline",
+  "checkpoint_files": 1809,
+  "manifest_sha256": "d9ac3d0354ed3c8c2f27044deff2ef1923bae0cf68010a19700bb34c89add169",
+  "validation_binding": "development\\player_spectrum_arch17\\build\\final_binding.json",
+  "validation_binding_sha256": "cebee3451b664b6aa4adf9ab6b39f4e345ea2a8707698ac2f153b60e8a2af15a",
+  "stage_run_ids": {
+    "synthesis": "6a499e72-76a7-4cb8-b29e-06453b4eed42",
+    "physical": "4ef973d1-997c-4028-99b5-a7ec9d9d8c9d",
+    "bitstream": "2114fd9d-811d-4a22-8cb9-91da7cad9e2c"
+  },
+  "report": "E:/QQ CACHE/Download/安路资料/开发记录/专题记录/资源优化/C11317_20261021/README.md",
+  "next": "Board verify C11317 Build ID, cold boot, multi-image switching, audio, spectrum, keys and sustained operation.",
+  "STA_coverage": "99.98%",
+  "unit_results": {
+    "paired_images": 6,
+    "paired_pixels": 1843200,
+    "loader_public_output_bits": 160,
+    "header_diagnostics": 538,
+    "mapper_concurrent_transactions": 4100,
+    "mapper_long_chain_fat_hops": 4095,
+    "codec_equivalence_cycles": 1000020,
+    "unit_evidence_files": 1445
+  }
+}
