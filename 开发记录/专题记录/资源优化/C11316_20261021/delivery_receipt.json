@@ -1,0 +1,21 @@
+{
+  "status": "PASS",
+  "hardware_status": "BOARD_NOT_TESTED",
+  "simulation": "development\\player_spectrum_opt16\\build\\system_fast_20261021_111126",
+  "selected_overrides": 11,
+  "scope_files": 99,
+  "checkpoint_files": 500,
+  "bit_sha256": "1de561dda1428c86c2f3127cf55b4b391cae8598c51111394ef9bde0ee971afa",
+  "manifest_sha256": "cb4730c01a5eb5ccc4503d7df4c0e847e538b1db846f926bce2eb66bd1dc3fb1",
+  "slices": 7584,
+  "slice_percent": 77.38775510204081,
+  "timing": "SWNS: 0.649ns, STNS: 0.000ns.\nHWNS: 0.024ns, HTNS: 0.000ns.",
+  "stage_run_ids": {
+    "synthesis": "ec6c76a1-fe11-4a53-baae-41e0e5e1be43",
+    "physical": "aef7acca-be50-4426-9d6f-aef5bf4764b0",
+    "bitstream": "4a0690ac-f488-44b3-836e-60926fb38c9c"
+  },
+  "metadata_path": "E:\\VSCODE-project\\FPGA-ANLU\\download\\spectrum_opt16.info.json",
+  "metadata_sha256": "caa918659cec72bc12cccdd2bea34072f5f6ea207f40ba377c7396afbc7dad9d",
+  "report": "E:\\QQ CACHE\\Download\\安路资料\\开发记录\\专题记录\\资源优化\\C11316_20261021\\README.md"
+}

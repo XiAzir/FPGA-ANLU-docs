@@ -1,0 +1,105 @@
+{
+  "build_id": "C11318",
+  "created_local": "2026-10-21T14:43:02.616806+08:00",
+  "status": "OFFLINE_RESOURCE_OPTIMIZED",
+  "hardware_status": "BOARD_NOT_TESTED",
+  "selected_variant": "A01_key_events",
+  "bitstream_sha256": "68e3ad82238f6e10f3ef2c69de2b5f90a8aa2f66a7a5f313455c9c0372a61f24",
+  "bitstream_bytes": 634280,
+  "resources": {
+    "lut": 12648,
+    "FF": 7323,
+    "LE": 13243,
+    "BRAM9K": 45,
+    "DSP": 9,
+    "PLL": 2,
+    "GCLK": 3,
+    "slice": 6972,
+    "slice_percent": 71.14285714285714
+  },
+  "timing": {
+    "setup_wns_ns": 0.11,
+    "setup_tns_ns": 0.0,
+    "hold_wns_ns": 0.004,
+    "hold_tns_ns": 0.0
+  },
+  "STA_coverage": "99.98%",
+  "baseline": {
+    "build_id": "C11317",
+    "slice": 7231,
+    "slice_reduction": 259,
+    "bitstream_sha256": "09cb0c482796cd2a7c113be8a7cd27e038646582db8be91ba0cce91e3e70d97a"
+  },
+  "same_id_control": {
+    "slice": 7050,
+    "slice_reduction": 78,
+    "gate_LUT": 12140,
+    "gate_FF": 7348
+  },
+  "optimizations": [
+    "Replace synthesized long key levels and repeat debouncing with two request/acknowledgement event channels; retain per-key coalescing, hold/chord classification and one cooldown timer per key."
+  ],
+  "behavior_change": "The loader receives the same classified source events about 50 ms earlier because the second input debounce is removed; busy-boundary arrival may consequently move. Existing loader one-bit pending behavior is retained.",
+  "status_display": "Original 50 MHz scanner and status mailbox retained; the 25 MHz experiment passed protocol tests but increased physical slices by 28 in the combined candidate.",
+  "spi": {
+    "mode": 3,
+    "system_nominal_MHz": 50,
+    "data_nominal_MHz": 12.5,
+    "simulated_payload_sclk_period_ns": 80
+  },
+  "system_results": {
+    "duration_ms": 122,
+    "overrides": 14,
+    "serial_RGB_checked": 1536000,
+    "PCM_pairs_checked": 4447,
+    "FFT_frames": 3,
+    "FFT_bands": 72,
+    "FFT_max_error": 0,
+    "CRC_checked": 58,
+    "CRC_bad": 0,
+    "underflow": 0,
+    "commit_ns": 95044989
+  },
+  "unit_results": {
+    "key_differential_assertions": 76,
+    "loader_event_assertions": 35,
+    "key_sink_pulses_before_reset": {
+      "next": 7,
+      "auto": 3
+    },
+    "stale_after_common_reset": 0
+  },
+  "checkpoint": "development/player_spectrum_ctrl18/checkpoints/C11318_ctrl18_20261021_offline",
+  "checkpoint_files": 2460,
+  "manifest_sha256": "c4b413059787e94e330d34acf1e6736353df0c82a33fc2748ec91f214d88de08",
+  "validation_binding": "development/player_spectrum_ctrl18/build/final_binding.json",
+  "validation_binding_sha256": "8dce5114907c84b64fd1cfc065decf299f073f4d704721d72d3a6032a51057ea",
+  "stage_run_ids": {
+    "synthesis": "99d7e67a-5594-480a-a2e2-1ef24b0e895c",
+    "physical": "532f1863-a4f4-4780-ac58-9ee57eac444e",
+    "bitstream": "bf9859c6-c73f-4c5c-8e36-4b1b03725c42"
+  },
+  "model_assumptions": [
+    "Qualified nominal PLL edge replay, fixed 50MHz reference/reset0 only",
+    "application-interface memory model; data leads valid by one clock",
+    "short generated BMP/WAV fixture",
+    "First cold video frame excluded from serial RGB comparison"
+  ],
+  "unverified": [
+    "physical SDRAM",
+    "key source switching",
+    "SDF",
+    "hardware fault reproduction"
+  ],
+  "report": "E:/QQ CACHE/Download/安路资料/开发记录/专题记录/资源优化/C11318_20261021/README.md",
+  "gate_route_audit": {
+    "gate_FFT_bands": 72,
+    "gate_control_truth_rows": 192,
+    "routed_control_truth_rows": 192,
+    "ROM_logical_words": 1536,
+    "ROM_lane_entries": 3072,
+    "clock_checks_pass": 46,
+    "raw_SIG_INV_mismatches_retained": 6
+  },
+  "unit_evidence_files": 2107
+}

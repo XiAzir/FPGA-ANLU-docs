@@ -1,0 +1,191 @@
+{
+  "audit_date": "2026-10-21",
+  "root_repo": "E:\\VSCODE-project\\FPGA-ANLU",
+  "method": "Read-only parse/hash validation of all manifest entries against frozen snapshot, plus exact SHA256 matching of synthesis gateDbHash and physical AC201_tf_hdmi_pr.db against current build/manual database. No build or simulation executed.",
+  "manifests": [
+    {
+      "name": "player_spectrum_resource_fit",
+      "schema": "C11313-resource-fit-offline-v1",
+      "manifest": "development\\player_spectrum_resource_fit\\checkpoints\\C11313_resource_fit_20261020_offline/manifest.json",
+      "manifest_sha256": "f4096189b2e417a6816a3f024101b0f0bc1fc4655dd5b7d1fd7dc5c8dac3b46a",
+      "manifest_file_entries": 206,
+      "snapshot_all_entries_present_and_hash_match": true,
+      "snapshot_problem_count": 0,
+      "final_binding_database_artifacts": [
+        {
+          "artifact": "gate",
+          "expected_sha256": "f80446b50ac081a51948deb000ad468bf6bb113bd2361263f11ec8f9ddc917ab",
+          "matching_build_files": 4,
+          "canonical_path": "development/player_spectrum_resource_fit/build/manual/AC201_tf_hdmi_gate.db",
+          "canonical_hash_matches": true
+        },
+        {
+          "artifact": "routed_pr",
+          "expected_sha256": "3889f970259a28ba40d23eff9272daa8ea5de6dfdeb75fb20e96e904c23ee908",
+          "matching_build_files": 5,
+          "canonical_path": "development/player_spectrum_resource_fit/build/manual/AC201_tf_hdmi_pr.db",
+          "canonical_hash_matches": true
+        }
+      ],
+      "ignored_database_or_vvp_in_frozen_snapshot": 0,
+      "ignored_paths_requiring_force_add": [
+        "development/player_spectrum_resource_fit/build/manual/AC201_tf_hdmi_gate.db",
+        "development/player_spectrum_resource_fit/build/manual/AC201_tf_hdmi_pr.db"
+      ]
+    },
+    {
+      "name": "player_spectrum_resource_80",
+      "schema": "C11314-resource-fit-offline-v1",
+      "manifest": "development\\player_spectrum_resource_80\\checkpoints\\C11314_resource80_20261021_offline/manifest.json",
+      "manifest_sha256": "3ac05765fdd42deeb4b7b6fa14239465d0d3faffefef7ee52172e16c561d515f",
+      "manifest_file_entries": 282,
+      "snapshot_all_entries_present_and_hash_match": true,
+      "snapshot_problem_count": 0,
+      "final_binding_database_artifacts": [
+        {
+          "artifact": "gate",
+          "expected_sha256": "41db4d75ff178f0a4dd8ece57b579e4bbec02b86f01ba633bf6848690d2ac6cc",
+          "matching_build_files": 2,
+          "canonical_path": "development/player_spectrum_resource_80/build/manual/AC201_tf_hdmi_gate.db",
+          "canonical_hash_matches": true
+        },
+        {
+          "artifact": "routed_pr",
+          "expected_sha256": "e77ff3efd79146adc97928d15c0385e241ddc36274def039183998af91ca75b3",
+          "matching_build_files": 2,
+          "canonical_path": "development/player_spectrum_resource_80/build/manual/AC201_tf_hdmi_pr.db",
+          "canonical_hash_matches": true
+        }
+      ],
+      "ignored_database_or_vvp_in_frozen_snapshot": 0,
+      "ignored_paths_requiring_force_add": [
+        "development/player_spectrum_resource_80/build/manual/AC201_tf_hdmi_gate.db",
+        "development/player_spectrum_resource_80/build/manual/AC201_tf_hdmi_pr.db"
+      ]
+    },
+    {
+      "name": "player_spectrum_spi12p5",
+      "schema": "C11315-spi12p5-offline-v1",
+      "manifest": "development\\player_spectrum_spi12p5\\checkpoints\\C11315_spi12p5_20261021_offline/manifest.json",
+      "manifest_sha256": "b9671c4acbc9dbbaca12ddbbc0150b7fc50a246574126f22d3df8cf2f2b3338d",
+      "manifest_file_entries": 324,
+      "snapshot_all_entries_present_and_hash_match": true,
+      "snapshot_problem_count": 0,
+      "final_binding_database_artifacts": [
+        {
+          "artifact": "gate",
+          "expected_sha256": "03eeea815d47ac440ac787ce23b19fa835736df331a1e492915af3a909ada7e0",
+          "matching_build_files": 2,
+          "canonical_path": "development/player_spectrum_spi12p5/build/manual/AC201_tf_hdmi_gate.db",
+          "canonical_hash_matches": true
+        },
+        {
+          "artifact": "routed_pr",
+          "expected_sha256": "cfe77361c9a018a5daf621cc1247e43fb457846239813347e6aa0c8a9d69f58b",
+          "matching_build_files": 1,
+          "canonical_path": "development/player_spectrum_spi12p5/build/manual/AC201_tf_hdmi_pr.db",
+          "canonical_hash_matches": true
+        }
+      ],
+      "ignored_database_or_vvp_in_frozen_snapshot": 0,
+      "ignored_paths_requiring_force_add": [
+        "development/player_spectrum_spi12p5/build/manual/AC201_tf_hdmi_gate.db",
+        "development/player_spectrum_spi12p5/build/manual/AC201_tf_hdmi_pr.db"
+      ]
+    },
+    {
+      "name": "player_spectrum_opt16",
+      "schema": "C11316-resource-optimization-offline-v1",
+      "manifest": "development\\player_spectrum_opt16\\checkpoints\\C11316_opt16_20261021_offline/manifest.json",
+      "manifest_sha256": "cb4730c01a5eb5ccc4503d7df4c0e847e538b1db846f926bce2eb66bd1dc3fb1",
+      "manifest_file_entries": 500,
+      "snapshot_all_entries_present_and_hash_match": true,
+      "snapshot_problem_count": 0,
+      "final_binding_database_artifacts": [
+        {
+          "artifact": "gate",
+          "expected_sha256": "70d1910ad8b8f36c5b721812f0b92e6a2c6a09f5008393d32c207b1db6ec0147",
+          "matching_build_files": 1,
+          "canonical_path": "development/player_spectrum_opt16/build/manual/AC201_tf_hdmi_gate.db",
+          "canonical_hash_matches": true
+        },
+        {
+          "artifact": "routed_pr",
+          "expected_sha256": "bf1b700dd91102bb0bf8abcc9d9c50c69ce8795f5549a458565722692f00f28a",
+          "matching_build_files": 1,
+          "canonical_path": "development/player_spectrum_opt16/build/manual/AC201_tf_hdmi_pr.db",
+          "canonical_hash_matches": true
+        }
+      ],
+      "ignored_database_or_vvp_in_frozen_snapshot": 0,
+      "ignored_paths_requiring_force_add": [
+        "development/player_spectrum_opt16/build/manual/AC201_tf_hdmi_gate.db",
+        "development/player_spectrum_opt16/build/manual/AC201_tf_hdmi_pr.db"
+      ]
+    },
+    {
+      "name": "player_spectrum_arch17",
+      "schema": "C11317-resource-optimization-offline-v1",
+      "manifest": "development\\player_spectrum_arch17\\checkpoints\\C11317_arch17_20261021_offline/manifest.json",
+      "manifest_sha256": "d9ac3d0354ed3c8c2f27044deff2ef1923bae0cf68010a19700bb34c89add169",
+      "manifest_file_entries": 1809,
+      "snapshot_all_entries_present_and_hash_match": true,
+      "snapshot_problem_count": 0,
+      "final_binding_database_artifacts": [
+        {
+          "artifact": "gate",
+          "expected_sha256": "c9ede3717b9316857dda44397f6ba6b310103abc4acaf1b7cc18a736c6b8de8a",
+          "matching_build_files": 2,
+          "canonical_path": "development/player_spectrum_arch17/build/manual/AC201_tf_hdmi_gate.db",
+          "canonical_hash_matches": true
+        },
+        {
+          "artifact": "routed_pr",
+          "expected_sha256": "555ff04748ead9108c44bb83afa0e084114eb110547a314c06eda719820a6dfe",
+          "matching_build_files": 2,
+          "canonical_path": "development/player_spectrum_arch17/build/manual/AC201_tf_hdmi_pr.db",
+          "canonical_hash_matches": true
+        }
+      ],
+      "ignored_database_or_vvp_in_frozen_snapshot": 0,
+      "ignored_paths_requiring_force_add": [
+        "development/player_spectrum_arch17/build/manual/AC201_tf_hdmi_gate.db",
+        "development/player_spectrum_arch17/build/manual/AC201_tf_hdmi_pr.db"
+      ]
+    },
+    {
+      "name": "player_spectrum_ctrl18",
+      "schema": "C11318-resource-optimization-offline-v1",
+      "manifest": "development\\player_spectrum_ctrl18\\checkpoints\\C11318_ctrl18_20261021_offline/manifest.json",
+      "manifest_sha256": "c4b413059787e94e330d34acf1e6736353df0c82a33fc2748ec91f214d88de08",
+      "manifest_file_entries": 2460,
+      "snapshot_all_entries_present_and_hash_match": true,
+      "snapshot_problem_count": 0,
+      "final_binding_database_artifacts": [
+        {
+          "artifact": "gate",
+          "expected_sha256": "5779c81b5a4b70e8b6ebdacc75f9294b36cc1f246b56a687de5d71ca6be37277",
+          "matching_build_files": 3,
+          "canonical_path": "development/player_spectrum_ctrl18/build/manual/AC201_tf_hdmi_gate.db",
+          "canonical_hash_matches": true
+        },
+        {
+          "artifact": "routed_pr",
+          "expected_sha256": "fbe3444314e4022dcb76cd6d1a88bc0dd5a1c9734f6797f5eecddc990a54b2a6",
+          "matching_build_files": 2,
+          "canonical_path": "development/player_spectrum_ctrl18/build/manual/AC201_tf_hdmi_pr.db",
+          "canonical_hash_matches": true
+        }
+      ],
+      "ignored_database_or_vvp_in_frozen_snapshot": 0,
+      "ignored_paths_requiring_force_add": [
+        "development/player_spectrum_ctrl18/build/manual/AC201_tf_hdmi_gate.db",
+        "development/player_spectrum_ctrl18/build/manual/AC201_tf_hdmi_pr.db"
+      ]
+    }
+  ],
+  "finding": "All manifest-listed snapshot files exist with recorded byte count and SHA256. Frozen snapshots contain no .db or .vvp, although each final binding records gate and routed database hashes; current build/manual gate and routed databases match those exact hashes and are gitignored (*.db). No final-binding .vvp artifact is listed or referenced.",
+  "force_add_paths_file": "tmp/sync_20261021_force_paths.txt",
+  "force_add_paths_count": 12,
+  "force_add_paths_sha256": "6971d42edfcc08ceda99499ad234d7c468c28026b4f498094018269532bdb5cc"
+}

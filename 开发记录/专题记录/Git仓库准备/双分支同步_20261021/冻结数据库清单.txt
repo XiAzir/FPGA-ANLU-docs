@@ -1,0 +1,12 @@
+development/player_spectrum_arch17/build/manual/AC201_tf_hdmi_gate.db
+development/player_spectrum_arch17/build/manual/AC201_tf_hdmi_pr.db
+development/player_spectrum_ctrl18/build/manual/AC201_tf_hdmi_gate.db
+development/player_spectrum_ctrl18/build/manual/AC201_tf_hdmi_pr.db
+development/player_spectrum_opt16/build/manual/AC201_tf_hdmi_gate.db
+development/player_spectrum_opt16/build/manual/AC201_tf_hdmi_pr.db
+development/player_spectrum_resource_80/build/manual/AC201_tf_hdmi_gate.db
+development/player_spectrum_resource_80/build/manual/AC201_tf_hdmi_pr.db
+development/player_spectrum_resource_fit/build/manual/AC201_tf_hdmi_gate.db
+development/player_spectrum_resource_fit/build/manual/AC201_tf_hdmi_pr.db
+development/player_spectrum_spi12p5/build/manual/AC201_tf_hdmi_gate.db
+development/player_spectrum_spi12p5/build/manual/AC201_tf_hdmi_pr.db

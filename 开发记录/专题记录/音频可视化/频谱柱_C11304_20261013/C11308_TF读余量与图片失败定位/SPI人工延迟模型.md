@@ -1,5 +1,7 @@
 # `spi_master` CPHA0 MISO 延迟边界模型
 
+2026-10-21追加修正：下文0.72µs字节节拍对应的净速率应为约1.389MB/s；原“1.11MB/s”为算术笔误，原实验和波形结论保持。本日已补实际工程CPOL1/CPHA1的mode3对照，实测master连续请求节拍1400/720ns；见[新评估](../../../SPI提速_20261021/README.md)。
+
 日期：2026-10-14（北京时间）  
 范围：独立 Icarus 测试只实例化工程原有 `src/user_source/hdl_source/SD/spi_master.v`，不改生产 RTL，不建模整张 SD 卡、sector controller、仲裁器或板级信号。输入时钟为 50 MHz（周期 20 ns），CPOL=0、CPHA=0；从机首位预先驱动，之后在每个下降沿后延迟指定时间更新 MISO。
 

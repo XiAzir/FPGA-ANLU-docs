@@ -1,0 +1,91 @@
+{
+  "build_id": "C11314",
+  "status": "OFFLINE_RESOURCE_CANDIDATE",
+  "conclusion": "SLICE_BELOW_80_TIMING_PASS_OFFLINE_VERIFIED",
+  "hardware_status": "BOARD_NOT_TESTED",
+  "created": "2026-10-21T10:10:50.724219+08:00",
+  "bitstream_sha256": "60ed79eecfcbd271bbc2b9a9333d5da03668e00b580a6be751ebcd61f0fa4d28",
+  "bitstream_bytes": 634280,
+  "selected_variant": "B04 mapper specialization + WAV v2 + catalog latch + BMP header/stride; AreaHigh + AdderThreshold18",
+  "resources": {
+    "slice": 7748,
+    "slice_percent": 79.0612,
+    "lut": 13976,
+    "register": 7858,
+    "LE": 14779,
+    "BRAM9K": 45,
+    "DSP": 10,
+    "GCLK": 3,
+    "PLL": 2
+  },
+  "timing": {
+    "setup_wns_ns": 0.633,
+    "hold_wns_ns": 0.011,
+    "setup_tns_ns": 0,
+    "hold_tns_ns": 0,
+    "coverage": "99.98%"
+  },
+  "baseline": {
+    "build_id": "C11313",
+    "slice": 8243,
+    "slice_percent": 84.11224489795919,
+    "slice_reduction": 495,
+    "hardware_status": "USER_REPORTED_FUNCTION_AND_SPECTRUM_PASS",
+    "bitstream_sha256": "3d85e5cdda40f1a91697ddf3c0275c52cf7bcee76d31af20503293b5a7428ca1"
+  },
+  "checkpoint": "development/player_spectrum_resource_80/checkpoints/C11314_resource80_20261021_offline",
+  "manifest_sha256": "3ac05765fdd42deeb4b7b6fa14239465d0d3faffefef7ee52172e16c561d515f",
+  "checkpoint_files": 282,
+  "stage_pointers": {
+    "synthesis": {
+      "stage": "synthesis",
+      "status": "success",
+      "runId": "619c41c8-338e-4143-92b2-799c3122013c",
+      "record": "synthesis_619c41c8-338e-4143-92b2-799c3122013c.json"
+    },
+    "physical": {
+      "stage": "physical",
+      "status": "success",
+      "runId": "99966ac9-088e-4f3e-ab6d-232d2bc71ad6",
+      "record": "physical_99966ac9-088e-4f3e-ab6d-232d2bc71ad6.json"
+    },
+    "bitstream": {
+      "stage": "bitstream",
+      "status": "success",
+      "runId": "d1bd4900-43f0-4dd5-9df6-4ce85e60bac5",
+      "record": "bitstream_d1bd4900-43f0-4dd5-9df6-4ce85e60bac5.json"
+    }
+  },
+  "validation_binding": "development/player_spectrum_resource_80/build/final_binding.json",
+  "system_verification": "development/player_spectrum_resource_80/build/system_20261020_222306",
+  "system_results": {
+    "override_sources": 10,
+    "serial_rgb_checked": 1536000,
+    "PCM_pairs_checked": 4446,
+    "FFT_frames": 3,
+    "FFT_bands": 72,
+    "FFT_max_abs_error": 0,
+    "spectrum_visible_bar_pixels": 2844,
+    "mapper_contract_requests": {
+      "BMP": 3,
+      "WAV": 27
+    }
+  },
+  "model_assumptions": [
+    "nominal PLL edge replay",
+    "application SDRAM interface model; data leads valid one clock",
+    "first cold video frame excluded from pin RGB scoring"
+  ],
+  "gate_and_route_audit": {
+    "gate_fft_bands": 72,
+    "gate_fft_max_error": 0,
+    "ROM_logical_words": 1536,
+    "ROM_lane_entries": 3072,
+    "gate_control_truth_rows": 192,
+    "routed_control_truth_rows": 192,
+    "strict_parameter_mismatches_retained": 6,
+    "routed_clock_checks_pass": 45
+  },
+  "report": "E:/QQ CACHE/Download/安路资料/开发记录/专题记录/资源优化/C11314_20261020/README.md",
+  "board_next": "Load this C11314 bit and check images/audio/spectrum/keys and sustained operation; stable C11313 bit is retained."
+}
