@@ -1,0 +1,95 @@
+{
+  "date": "2026-10-21",
+  "baseline": "C11318",
+  "sources": [
+    {
+      "path": "E:\\QQ CACHE\\Download\\安路资料\\赛题解析一.pptx",
+      "sha256": "4dbd1aabe8ecae231e8cd591302c6616c03953afc44e1dcd0e309461eabc3532"
+    },
+    {
+      "path": "E:\\QQ CACHE\\Download\\安路资料\\赛题1_工作资料\\01_赛题与参考说明\\2026选题指南_康芯版.docx",
+      "sha256": "e04cc471f8ad4497cc65c0e6bba1530b37d4eda80d0b376866107de85de6b9e9"
+    },
+    {
+      "path": "E:\\QQ CACHE\\Download\\安路资料\\赛题1_工作资料\\05_补充参考工程\\官方赛题1_康芯2026\\全国大学生嵌入式芯片与系统设计竞赛'2026选题指南_康芯.docx",
+      "sha256": "e04cc471f8ad4497cc65c0e6bba1530b37d4eda80d0b376866107de85de6b9e9"
+    },
+    {
+      "path": "E:\\QQ CACHE\\Download\\安路资料\\new  安路 模版修改ing  全国大学生嵌入式芯片与系统设计竞赛'2026选题指南模板(3)(3).pdf",
+      "sha256": "d24fc67c995ec836e9b3b7c7243e561237c3381a862bf1541026f2221a0a4218"
+    },
+    {
+      "path": "E:\\QQ CACHE\\Download\\安路资料\\2026安路赛题一、二相关Q&A.docx",
+      "sha256": "1686658a5261abb00d4052198fefc74a3ff2091f5155d555cace103008f2c251"
+    },
+    {
+      "path": "E:\\QQ CACHE\\Download\\安路资料\\开发记录\\专题记录\\SPI提速_20261021\\README.md",
+      "sha256": "5641e877d907e8d7084b29b9b913e0eee50aafa40f552e66603a4b6083b76480"
+    },
+    {
+      "path": "E:\\QQ CACHE\\Download\\安路资料\\开发记录\\专题记录\\SPI提速_20261021\\C11315_实施记录.md",
+      "sha256": "7ac95330fc9cc55f06aff2a9a061bac8bfa7ae80946c5d1f453edc9f150a39d1"
+    },
+    {
+      "path": "E:\\QQ CACHE\\Download\\安路资料\\开发记录\\专题记录\\资源优化\\C11318_20261021\\README.md",
+      "sha256": "09ba96328a053e739796c263a663d3ca33f42a22584addbb0307ee65b4a8f2db"
+    },
+    {
+      "path": "E:\\VSCODE-project\\FPGA-ANLU\\development\\player_spectrum_ctrl18\\src\\user_source\\hdl_source\\top_tf_hdmi_audio.v",
+      "sha256": "9dca6b5209c160cda2d6b8f28ef6ab1655b6f2a136aaa52850da9ffc8129ea53"
+    },
+    {
+      "path": "E:\\VSCODE-project\\FPGA-ANLU\\development\\player_spectrum_ctrl18\\src\\user_source\\hdl_source\\frame_buffer_rgb888.v",
+      "sha256": "65ff9abf03c19d3ba27192ad645535f92d9542e7c18d74102c744c700713379d"
+    },
+    {
+      "path": "E:\\VSCODE-project\\FPGA-ANLU\\development\\player_spectrum_ctrl18\\src\\user_source\\hdl_source\\tf_bmp_file_player.v",
+      "sha256": "e46169101374f6d28094d4ad408ff7f2b399908d0cb6fa30e613edebe5fe5ab4"
+    },
+    {
+      "path": "E:\\VSCODE-project\\FPGA-ANLU\\development\\player_spectrum_ctrl18\\src\\user_source\\hdl_source\\bmp_scale_engine.v",
+      "sha256": "cde50900d2307674272134b2043c1cd26b53f1372fad913eef1b227a7f9706e2"
+    },
+    {
+      "path": "E:\\VSCODE-project\\FPGA-ANLU\\development\\player_spectrum_ctrl18\\src\\user_source\\hdl_source\\SD\\spi_master.v",
+      "sha256": "37f7a21144fa5cca3cc5c3b5f68a5ad40b3108336b600e45a1367734ac61403c"
+    },
+    {
+      "path": "E:\\VSCODE-project\\FPGA-ANLU\\development\\player_spectrum_ctrl18\\src\\user_source\\hdl_source\\SD\\sd_card_sec_read_write.v",
+      "sha256": "2b2bf70bbbef57945eaf202073d0f6fad7fa86a41453fa33cec0cdfac7e2833d"
+    },
+    {
+      "path": "E:\\VSCODE-project\\FPGA-ANLU\\development\\player_spectrum_ctrl18\\src\\user_source\\hdl_source\\SD\\color_bar.v",
+      "sha256": "afe1f56714ec58d2477ba1717e5a36c5a0da5fe5c07d70d11aa5ace710c4b152"
+    },
+    {
+      "path": "E:\\VSCODE-project\\FPGA-ANLU\\development\\player_spectrum_ctrl18\\src\\user_source\\hdl_source\\IP\\sys_pll.v",
+      "sha256": "4a410fc8776c9c116695b7dd8a84012317f9d88aa654b8287a89bdc1f88d0b4e"
+    },
+    {
+      "path": "E:\\VSCODE-project\\FPGA-ANLU\\development\\player_spectrum_ctrl18\\src\\user_source\\hdl_source\\IP\\video_pll.v",
+      "sha256": "57e45a062814673e97773cf6c58ff1629fa45895e30de9d2c2b6bdd30bd9bb13"
+    },
+    {
+      "path": "E:\\VSCODE-project\\FPGA-ANLU\\development\\player_spectrum_ctrl18\\src\\user_source\\hdl_source\\IP\\sdram.v",
+      "sha256": "1487e8583bbf52fe6d079a2854c10ebff2e569a3872a9088c1c9717ba14d17fe"
+    },
+    {
+      "path": "E:\\VSCODE-project\\FPGA-ANLU\\development\\player_spectrum_ctrl18\\src\\user_source\\hdl_source\\include\\global_def.v",
+      "sha256": "da6a16ac7e3b8d3415f45b9f18847d8e6170c7f9eb6e192c417f730977072583"
+    },
+    {
+      "path": "E:\\VSCODE-project\\FPGA-ANLU\\development\\player_spectrum_ctrl18\\src\\user_source\\hdl_source\\SD\\frame_read_write.v",
+      "sha256": "e9672c35c1982e756788f600954c169d52e581a9d47bfa6cb93b07d47936cb39"
+    },
+    {
+      "path": "E:\\VSCODE-project\\FPGA-ANLU\\development\\player_spectrum_ctrl18\\build\\manual\\AC201_tf_hdmi_phy.area",
+      "sha256": "65c4e5d6ece9c9a5edc34195d7505834eb66acd4001632b599cb17dda01050f7"
+    }
+  ],
+  "output": {
+    "path": "E:\\QQ CACHE\\Download\\安路资料\\开发记录\\专题记录\\视频播放可行性_20261021\\RGB像素格式与640x480视频播放可行性报告.pdf",
+    "sha256": "0af2d07baf29585b65d8dbcb791fd34c58cfb2af1da2b953cec3f07579de9cf0"
+  },
+  "calculations_sha256": "ef72faef82288ba7e7f1d425c6eb7231e122d9c80914771f25bb1ced93a99917"
+}

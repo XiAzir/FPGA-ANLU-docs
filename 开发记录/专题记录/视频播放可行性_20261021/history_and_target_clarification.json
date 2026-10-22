@@ -1,0 +1,36 @@
+{
+  "checked_at": "2026-10-21",
+  "result": "PASS",
+  "C11313_source_matches_frozen": [
+    {
+      "path": "E:\\VSCODE-project\\FPGA-ANLU\\development\\player_spectrum_resource_fit\\src\\user_source\\hdl_source\\SD\\sd_card_sec_read_write.v",
+      "frozen": "E:\\VSCODE-project\\FPGA-ANLU\\development\\player_spectrum_resource_fit\\checkpoints\\C11313_resource_fit_20261020_offline\\src\\user_source\\hdl_source\\SD\\sd_card_sec_read_write.v",
+      "sha256": "c245c07e3b0056808d86e06aad74348494e2a7050d493a3d4141d97ccf115203",
+      "matches": true
+    },
+    {
+      "path": "E:\\VSCODE-project\\FPGA-ANLU\\development\\player_spectrum_resource_fit\\src\\user_source\\hdl_source\\SD\\spi_master.v",
+      "frozen": "E:\\VSCODE-project\\FPGA-ANLU\\development\\player_spectrum_resource_fit\\checkpoints\\C11313_resource_fit_20261020_offline\\src\\user_source\\hdl_source\\SD\\spi_master.v",
+      "sha256": "37f7a21144fa5cca3cc5c3b5f68a5ad40b3108336b600e45a1367734ac61403c",
+      "matches": true
+    },
+    {
+      "path": "E:\\VSCODE-project\\FPGA-ANLU\\development\\player_spectrum_resource_fit\\src\\user_source\\hdl_source\\top_tf_hdmi_audio.v",
+      "frozen": "E:\\VSCODE-project\\FPGA-ANLU\\development\\player_spectrum_resource_fit\\checkpoints\\C11313_resource_fit_20261020_offline\\src\\user_source\\hdl_source\\top_tf_hdmi_audio.v",
+      "sha256": "2605338852fe279854da1e1416c0e489b8808a4b4970649b2c9756069695053d",
+      "matches": true
+    },
+    {
+      "path": "E:\\VSCODE-project\\FPGA-ANLU\\development\\player_spectrum_resource_fit\\src\\user_source\\hdl_source\\IP\\sys_pll.v",
+      "frozen": "E:\\VSCODE-project\\FPGA-ANLU\\development\\player_spectrum_resource_fit\\checkpoints\\C11313_resource_fit_20261020_offline\\src\\user_source\\hdl_source\\IP\\sys_pll.v",
+      "sha256": "4a410fc8776c9c116695b7dd8a84012317f9d88aa654b8287a89bdc1f88d0b4e",
+      "matches": true
+    }
+  ],
+  "C11313_bit_sha256": "3d85e5cdda40f1a91697ddf3c0275c52cf7bcee76d31af20503293b5a7428ca1",
+  "finding": "C11313 frozen source sets spi_clk_div to zero in S_WAIT_READ_WRITE; nominal 50MHz system yields 12.5MHz data SPI; physical SCLK not measured",
+  "timeline": "2026-10-20 21:37 recorded user reported functions and spectrum pass associated with C11313; 2026-10-21 10:30 divider override found; 10:41 C11315 offline completion",
+  "video_target": "640x480 15fps at 6Mbps presupposes a new compressed video decoder; not implemented or board-tested",
+  "scale_factor": 4,
+  "fps_with_2x_bandwidth_and_4x_pixels_same_coding": 7.5
+}
