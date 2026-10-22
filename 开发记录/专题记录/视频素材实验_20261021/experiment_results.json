@@ -1,0 +1,2252 @@
+{
+  "status": "OFFLINE_MATERIAL_ENCODING_COMPLETE",
+  "source": {
+    "path": "C:\\Users\\PENGYUHAO\\Downloads\\只因你太美（鸡你太美）原版.mp4",
+    "bytes": 8310880,
+    "sha256": "7952c25572394c39ec751f1b26c7fb8207dc4737dc00637ae4823b1c38ae295a",
+    "duration_s_from_ffmpeg": 59.65,
+    "video": "1280x720 30fps H264 yuv420p bt709 limited-range",
+    "audio": "48000Hz mono AAC"
+  },
+  "selection": {
+    "start_s": 16,
+    "end_s": 36,
+    "duration_s": 20,
+    "content": "basketball and dance motion",
+    "letterbox": "640x360 active video with 60 pixel top/bottom black bars in 640x480",
+    "crop_control": "scaled to height480 and centre-cropped640x480 without bars"
+  },
+  "audio": {
+    "sample_rate": 48000,
+    "channels": 1,
+    "sample_width": 2,
+    "samples": 960000,
+    "duration_s": 20.0,
+    "pcm_payload_sha256": "efc396a9690c470ae3be736314cbe4a0a686db766cef288a6e68c7d5aa0f291f"
+  },
+  "selected": {
+    "geometry": "letterbox640",
+    "width": 640,
+    "height": 480,
+    "active_picture_height": 360,
+    "quality": 95,
+    "jpeg_subsampling": "4:2:0",
+    "huffman": "standard fixed tables",
+    "progressive": false,
+    "fps": 15,
+    "frames": 300,
+    "duration_s": 20.0,
+    "mean_frame_bytes": 38418.806666666664,
+    "p95_frame_bytes": 41826.85,
+    "max_frame_bytes": 43231,
+    "max_frame_index": 109,
+    "min_frame_bytes": 33869,
+    "video_Mbps": 4.6102568,
+    "media_including_PCM_Mbps": 5.3782568,
+    "window_peak_video_Mbps": {
+      "1": 5.18772,
+      "3": 5.17612,
+      "15": 5.061256,
+      "30": 4.862832
+    },
+    "full_frame_PSNR_RGB_dB": 46.66798179757801,
+    "active_picture_PSNR_RGB_dB": 45.63346359059376,
+    "worst_frame_active_PSNR_dB": 44.97515728982493,
+    "slowest_frame_transfer_ms_at_video_budget": 44.71045093733607,
+    "sustainable_fps_at_budget_same_mean_frame": 25.16763231063398,
+    "sustainable_fps_at_service_less_audio_same_mean_frame": 32.734957410615394,
+    "trace_queue_6Mbps": {
+      "initial_video_bytes_for_trace": 37704.0,
+      "initial_seconds_at_video_bps": 0.050272
+    },
+    "trace_queue_budget": {
+      "initial_video_bytes_for_trace": 37704.0,
+      "initial_seconds_at_video_bps": 0.03899430598740069
+    },
+    "profile": {
+      "markers": [
+        "0xe0",
+        "0xdb",
+        "0xdb",
+        "0xc0",
+        "0xc4",
+        "0xc4",
+        "0xc4",
+        "0xc4",
+        "0xda"
+      ],
+      "sof0": {
+        "precision": 8,
+        "height": 480,
+        "width": 640,
+        "components": 3,
+        "component_specs": [
+          1,
+          34,
+          0,
+          2,
+          17,
+          1,
+          3,
+          17,
+          1
+        ]
+      },
+      "sos": "03010002110311003f00",
+      "dqt_sha256": "9e5c5815dcdc9f99324f7ac9b04d95adf265b0973fecc430f0f0b14b4b9da413",
+      "dht_sha256": "153c35f988d6e8467d84986b8141fae5d02a896e6441fbf591e10e9ea5784632",
+      "restart_interval_marker": false
+    },
+    "elapsed_s": 2.7655155658721924,
+    "path": "E:\\VSCODE-project\\FPGA-ANLU\\development\\video_codec_trial_20261021\\media\\letterbox640_q95_420.mjpg",
+    "sha256": "cf7e303fd31321dc5c3c29136f622ef286e730ea4baf0c1431a32deb5b38def3"
+  },
+  "selected_active_SSIM_yuv420p": 0.997268,
+  "selected_jpeg_then_RGB565_active_PSNR_RGB_dB": 37.469534786357585,
+  "format_quantization": [
+    {
+      "format": "RGB565",
+      "frames": 300,
+      "full_PSNR_RGB_dB": 38.97484099021998,
+      "active_PSNR_RGB_dB": 37.72545362413698,
+      "method": "truncate bits then bit-replicate to RGB888; measured before JPEG"
+    },
+    {
+      "format": "RGB332",
+      "frames": 300,
+      "full_PSNR_RGB_dB": 23.33335817831598,
+      "active_PSNR_RGB_dB": 22.08397081223298,
+      "method": "truncate bits then bit-replicate to RGB888; measured before JPEG"
+    }
+  ],
+  "all_encodings": [
+    {
+      "geometry": "crop640",
+      "width": 640,
+      "height": 480,
+      "active_picture_height": 480,
+      "quality": 65,
+      "jpeg_subsampling": "4:2:0",
+      "huffman": "standard fixed tables",
+      "progressive": false,
+      "fps": 15,
+      "frames": 300,
+      "duration_s": 20.0,
+      "mean_frame_bytes": 15205.85,
+      "p95_frame_bytes": 16993.25,
+      "max_frame_bytes": 17867,
+      "max_frame_index": 111,
+      "min_frame_bytes": 13026,
+      "video_Mbps": 1.824702,
+      "media_including_PCM_Mbps": 2.592702,
+      "window_peak_video_Mbps": {
+        "1": 2.14404,
+        "3": 2.13472,
+        "15": 2.060696,
+        "30": 1.961496
+      },
+      "full_frame_PSNR_RGB_dB": 41.116131225494605,
+      "active_picture_PSNR_RGB_dB": 41.116131225494605,
+      "worst_frame_active_PSNR_dB": 39.85825125955672,
+      "slowest_frame_transfer_ms_at_video_budget": 18.478444331553366,
+      "sustainable_fps_at_budget_same_mean_frame": 63.58805328212498,
+      "sustainable_fps_at_service_less_audio_same_mean_frame": 82.70751059625078,
+      "trace_queue_6Mbps": {
+        "initial_video_bytes_for_trace": 15118.0,
+        "initial_seconds_at_video_bps": 0.020157333333333333
+      },
+      "trace_queue_budget": {
+        "initial_video_bytes_for_trace": 15118.0,
+        "initial_seconds_at_video_bps": 0.01563536807547007
+      },
+      "profile": {
+        "markers": [
+          "0xe0",
+          "0xdb",
+          "0xdb",
+          "0xc0",
+          "0xc4",
+          "0xc4",
+          "0xc4",
+          "0xc4",
+          "0xda"
+        ],
+        "sof0": {
+          "precision": 8,
+          "height": 480,
+          "width": 640,
+          "components": 3,
+          "component_specs": [
+            1,
+            34,
+            0,
+            2,
+            17,
+            1,
+            3,
+            17,
+            1
+          ]
+        },
+        "sos": "03010002110311003f00",
+        "dqt_sha256": "983f8eb0df882e48eb955b2b64d8d73c4958e7c201c70d4f92fbf5ac7e6d7d99",
+        "dht_sha256": "153c35f988d6e8467d84986b8141fae5d02a896e6441fbf591e10e9ea5784632",
+        "restart_interval_marker": false
+      },
+      "elapsed_s": 3.692636728286743,
+      "path": "E:\\VSCODE-project\\FPGA-ANLU\\development\\video_codec_trial_20261021\\media\\crop640_q65_420.mjpg",
+      "sha256": "7cc60bbc47ee8cffff741091472d4a112eb39e562d662bf02e857d22375eaa2f"
+    },
+    {
+      "geometry": "crop640",
+      "width": 640,
+      "height": 480,
+      "active_picture_height": 480,
+      "quality": 75,
+      "jpeg_subsampling": "4:2:0",
+      "huffman": "standard fixed tables",
+      "progressive": false,
+      "fps": 15,
+      "frames": 300,
+      "duration_s": 20.0,
+      "mean_frame_bytes": 17592.81,
+      "p95_frame_bytes": 19812.6,
+      "max_frame_bytes": 20788,
+      "max_frame_index": 111,
+      "min_frame_bytes": 14972,
+      "video_Mbps": 2.1111372000000004,
+      "media_including_PCM_Mbps": 2.8791372000000006,
+      "window_peak_video_Mbps": {
+        "1": 2.49456,
+        "3": 2.48568,
+        "15": 2.396696,
+        "30": 2.276748
+      },
+      "full_frame_PSNR_RGB_dB": 42.464035644703124,
+      "active_picture_PSNR_RGB_dB": 42.464035644703124,
+      "worst_frame_active_PSNR_dB": 41.18060383555712,
+      "slowest_frame_transfer_ms_at_video_budget": 21.49940677026537,
+      "sustainable_fps_at_budget_same_mean_frame": 54.96054354023036,
+      "sustainable_fps_at_service_less_audio_same_mean_frame": 71.48590816361911,
+      "trace_queue_6Mbps": {
+        "initial_video_bytes_for_trace": 17410.0,
+        "initial_seconds_at_video_bps": 0.023213333333333332
+      },
+      "trace_queue_budget": {
+        "initial_video_bytes_for_trace": 17410.0,
+        "initial_seconds_at_video_bps": 0.01800580488119685
+      },
+      "profile": {
+        "markers": [
+          "0xe0",
+          "0xdb",
+          "0xdb",
+          "0xc0",
+          "0xc4",
+          "0xc4",
+          "0xc4",
+          "0xc4",
+          "0xda"
+        ],
+        "sof0": {
+          "precision": 8,
+          "height": 480,
+          "width": 640,
+          "components": 3,
+          "component_specs": [
+            1,
+            34,
+            0,
+            2,
+            17,
+            1,
+            3,
+            17,
+            1
+          ]
+        },
+        "sos": "03010002110311003f00",
+        "dqt_sha256": "1bdcb3b3479ab800d5e086e88eecc4c65a3da71cbbba9eee07ca6cf30763b247",
+        "dht_sha256": "153c35f988d6e8467d84986b8141fae5d02a896e6441fbf591e10e9ea5784632",
+        "restart_interval_marker": false
+      },
+      "elapsed_s": 3.457988977432251,
+      "path": "E:\\VSCODE-project\\FPGA-ANLU\\development\\video_codec_trial_20261021\\media\\crop640_q75_420.mjpg",
+      "sha256": "f6b9ae1217976db3a4bf5e5a62bad236514941fc00aa61e021a96e196dc54a21"
+    },
+    {
+      "geometry": "crop640",
+      "width": 640,
+      "height": 480,
+      "active_picture_height": 480,
+      "quality": 85,
+      "jpeg_subsampling": "4:2:0",
+      "huffman": "standard fixed tables",
+      "progressive": false,
+      "fps": 15,
+      "frames": 300,
+      "duration_s": 20.0,
+      "mean_frame_bytes": 22447.04,
+      "p95_frame_bytes": 25322.45,
+      "max_frame_bytes": 26627,
+      "max_frame_index": 111,
+      "min_frame_bytes": 18852,
+      "video_Mbps": 2.6936448,
+      "media_including_PCM_Mbps": 3.4616448,
+      "window_peak_video_Mbps": {
+        "1": 3.19524,
+        "3": 3.18352,
+        "15": 3.066808,
+        "30": 2.907204
+      },
+      "full_frame_PSNR_RGB_dB": 44.277279275573456,
+      "active_picture_PSNR_RGB_dB": 44.277279275573456,
+      "worst_frame_active_PSNR_dB": 43.15730702237963,
+      "slowest_frame_transfer_ms_at_video_budget": 27.538228981713296,
+      "sustainable_fps_at_budget_same_mean_frame": 43.07518496870858,
+      "sustainable_fps_at_service_less_audio_same_mean_frame": 56.026897087544725,
+      "trace_queue_6Mbps": {
+        "initial_video_bytes_for_trace": 22005.0,
+        "initial_seconds_at_video_bps": 0.02934
+      },
+      "trace_queue_budget": {
+        "initial_video_bytes_for_trace": 22005.0,
+        "initial_seconds_at_video_bps": 0.0227580549345627
+      },
+      "profile": {
+        "markers": [
+          "0xe0",
+          "0xdb",
+          "0xdb",
+          "0xc0",
+          "0xc4",
+          "0xc4",
+          "0xc4",
+          "0xc4",
+          "0xda"
+        ],
+        "sof0": {
+          "precision": 8,
+          "height": 480,
+          "width": 640,
+          "components": 3,
+          "component_specs": [
+            1,
+            34,
+            0,
+            2,
+            17,
+            1,
+            3,
+            17,
+            1
+          ]
+        },
+        "sos": "03010002110311003f00",
+        "dqt_sha256": "0694c5cf5778c5e747300e9206751b2824a79721cde6bcbdaeedb3ab860695a3",
+        "dht_sha256": "153c35f988d6e8467d84986b8141fae5d02a896e6441fbf591e10e9ea5784632",
+        "restart_interval_marker": false
+      },
+      "elapsed_s": 2.7089765071868896,
+      "path": "E:\\VSCODE-project\\FPGA-ANLU\\development\\video_codec_trial_20261021\\media\\crop640_q85_420.mjpg",
+      "sha256": "bacabe5f429c96387ab17b624bd0864aa8d50f658f1aab9eea1fe453107a23a4"
+    },
+    {
+      "geometry": "crop640",
+      "width": 640,
+      "height": 480,
+      "active_picture_height": 480,
+      "quality": 90,
+      "jpeg_subsampling": "4:2:0",
+      "huffman": "standard fixed tables",
+      "progressive": false,
+      "fps": 15,
+      "frames": 300,
+      "duration_s": 20.0,
+      "mean_frame_bytes": 27657.226666666666,
+      "p95_frame_bytes": 31108.4,
+      "max_frame_bytes": 32821,
+      "max_frame_index": 111,
+      "min_frame_bytes": 23208,
+      "video_Mbps": 3.3188672,
+      "media_including_PCM_Mbps": 4.0868672,
+      "window_peak_video_Mbps": {
+        "1": 3.93852,
+        "3": 3.92208,
+        "15": 3.776832,
+        "30": 3.57702
+      },
+      "full_frame_PSNR_RGB_dB": 45.45416299756671,
+      "active_picture_PSNR_RGB_dB": 45.45416299756671,
+      "worst_frame_active_PSNR_dB": 44.49343551004371,
+      "slowest_frame_transfer_ms_at_video_budget": 33.944200000330945,
+      "sustainable_fps_at_budget_same_mean_frame": 34.96049736488403,
+      "sustainable_fps_at_service_less_audio_same_mean_frame": 45.47231055222698,
+      "trace_queue_6Mbps": {
+        "initial_video_bytes_for_trace": 26983.0,
+        "initial_seconds_at_video_bps": 0.03597733333333333
+      },
+      "trace_queue_budget": {
+        "initial_video_bytes_for_trace": 26983.0,
+        "initial_seconds_at_video_bps": 0.027906412010875046
+      },
+      "profile": {
+        "markers": [
+          "0xe0",
+          "0xdb",
+          "0xdb",
+          "0xc0",
+          "0xc4",
+          "0xc4",
+          "0xc4",
+          "0xc4",
+          "0xda"
+        ],
+        "sof0": {
+          "precision": 8,
+          "height": 480,
+          "width": 640,
+          "components": 3,
+          "component_specs": [
+            1,
+            34,
+            0,
+            2,
+            17,
+            1,
+            3,
+            17,
+            1
+          ]
+        },
+        "sos": "03010002110311003f00",
+        "dqt_sha256": "9545711f2e60e04afa5a51499f4e65fc11fefe89121d4937bf0b490663106eed",
+        "dht_sha256": "153c35f988d6e8467d84986b8141fae5d02a896e6441fbf591e10e9ea5784632",
+        "restart_interval_marker": false
+      },
+      "elapsed_s": 2.707340955734253,
+      "path": "E:\\VSCODE-project\\FPGA-ANLU\\development\\video_codec_trial_20261021\\media\\crop640_q90_420.mjpg",
+      "sha256": "9a4f3b3baadce4cc41227af761d991fffaf2c60bc5f0674d3f8f011e7ad77b09"
+    },
+    {
+      "geometry": "crop640",
+      "width": 640,
+      "height": 480,
+      "active_picture_height": 480,
+      "quality": 93,
+      "jpeg_subsampling": "4:2:0",
+      "huffman": "standard fixed tables",
+      "progressive": false,
+      "fps": 15,
+      "frames": 300,
+      "duration_s": 20.0,
+      "mean_frame_bytes": 32683.433333333334,
+      "p95_frame_bytes": 36754.15,
+      "max_frame_bytes": 38775,
+      "max_frame_index": 109,
+      "min_frame_bytes": 27388,
+      "video_Mbps": 3.922012,
+      "media_including_PCM_Mbps": 4.690012,
+      "window_peak_video_Mbps": {
+        "1": 4.653,
+        "3": 4.63408,
+        "15": 4.466696,
+        "30": 4.225588
+      },
+      "full_frame_PSNR_RGB_dB": 46.32229753077703,
+      "active_picture_PSNR_RGB_dB": 46.32229753077703,
+      "worst_frame_active_PSNR_dB": 45.49378298059463,
+      "slowest_frame_transfer_ms_at_video_budget": 40.10195774086203,
+      "sustainable_fps_at_budget_same_mean_frame": 29.5841134601322,
+      "sustainable_fps_at_service_less_audio_same_mean_frame": 38.479372322165254,
+      "trace_queue_6Mbps": {
+        "initial_video_bytes_for_trace": 31779.0,
+        "initial_seconds_at_video_bps": 0.042372
+      },
+      "trace_queue_budget": {
+        "initial_video_bytes_for_trace": 31779.0,
+        "initial_seconds_at_video_bps": 0.03286654068463841
+      },
+      "profile": {
+        "markers": [
+          "0xe0",
+          "0xdb",
+          "0xdb",
+          "0xc0",
+          "0xc4",
+          "0xc4",
+          "0xc4",
+          "0xc4",
+          "0xda"
+        ],
+        "sof0": {
+          "precision": 8,
+          "height": 480,
+          "width": 640,
+          "components": 3,
+          "component_specs": [
+            1,
+            34,
+            0,
+            2,
+            17,
+            1,
+            3,
+            17,
+            1
+          ]
+        },
+        "sos": "03010002110311003f00",
+        "dqt_sha256": "dfd00f60e2d001c9b7a624ffb058271932c1d67a8b6f0c23dcaf78f1b15bff8c",
+        "dht_sha256": "153c35f988d6e8467d84986b8141fae5d02a896e6441fbf591e10e9ea5784632",
+        "restart_interval_marker": false
+      },
+      "elapsed_s": 2.8477625846862793,
+      "path": "E:\\VSCODE-project\\FPGA-ANLU\\development\\video_codec_trial_20261021\\media\\crop640_q93_420.mjpg",
+      "sha256": "6dde234e10472a83fd6b1947d9912d13da8e1a9df5fc2a67621b5fcda65b7302"
+    },
+    {
+      "geometry": "crop640",
+      "width": 640,
+      "height": 480,
+      "active_picture_height": 480,
+      "quality": 95,
+      "jpeg_subsampling": "4:2:0",
+      "huffman": "standard fixed tables",
+      "progressive": false,
+      "fps": 15,
+      "frames": 300,
+      "duration_s": 20.0,
+      "mean_frame_bytes": 39497.763333333336,
+      "p95_frame_bytes": 44312.9,
+      "max_frame_bytes": 46683,
+      "max_frame_index": 109,
+      "min_frame_bytes": 32992,
+      "video_Mbps": 4.7397316,
+      "media_including_PCM_Mbps": 5.5077316,
+      "window_peak_video_Mbps": {
+        "1": 5.60196,
+        "3": 5.57492,
+        "15": 5.378304,
+        "30": 5.08992
+      },
+      "full_frame_PSNR_RGB_dB": 47.05169692020667,
+      "active_picture_PSNR_RGB_dB": 47.05169692020667,
+      "worst_frame_active_PSNR_dB": 46.3248518046779,
+      "slowest_frame_transfer_ms_at_video_budget": 48.280585253814614,
+      "sustainable_fps_at_budget_same_mean_frame": 24.48013047827434,
+      "sustainable_fps_at_service_less_audio_same_mean_frame": 31.840739673951155,
+      "trace_queue_6Mbps": {
+        "initial_video_bytes_for_trace": 38258.0,
+        "initial_seconds_at_video_bps": 0.05101066666666667
+      },
+      "trace_queue_budget": {
+        "initial_video_bytes_for_trace": 38258.0,
+        "initial_seconds_at_video_bps": 0.03956726497098386
+      },
+      "profile": {
+        "markers": [
+          "0xe0",
+          "0xdb",
+          "0xdb",
+          "0xc0",
+          "0xc4",
+          "0xc4",
+          "0xc4",
+          "0xc4",
+          "0xda"
+        ],
+        "sof0": {
+          "precision": 8,
+          "height": 480,
+          "width": 640,
+          "components": 3,
+          "component_specs": [
+            1,
+            34,
+            0,
+            2,
+            17,
+            1,
+            3,
+            17,
+            1
+          ]
+        },
+        "sos": "03010002110311003f00",
+        "dqt_sha256": "9e5c5815dcdc9f99324f7ac9b04d95adf265b0973fecc430f0f0b14b4b9da413",
+        "dht_sha256": "153c35f988d6e8467d84986b8141fae5d02a896e6441fbf591e10e9ea5784632",
+        "restart_interval_marker": false
+      },
+      "elapsed_s": 2.9430770874023438,
+      "path": "E:\\VSCODE-project\\FPGA-ANLU\\development\\video_codec_trial_20261021\\media\\crop640_q95_420.mjpg",
+      "sha256": "23e12e8c9c0e28d610e04d253989646efbd4fd674a6094b862d75515969e0d65"
+    },
+    {
+      "geometry": "crop640",
+      "width": 640,
+      "height": 480,
+      "active_picture_height": 480,
+      "quality": 97,
+      "jpeg_subsampling": "4:2:0",
+      "huffman": "standard fixed tables",
+      "progressive": false,
+      "fps": 15,
+      "frames": 300,
+      "duration_s": 20.0,
+      "mean_frame_bytes": 48945.293333333335,
+      "p95_frame_bytes": 54877.55,
+      "max_frame_bytes": 57735,
+      "max_frame_index": 109,
+      "min_frame_bytes": 40993,
+      "video_Mbps": 5.8734352,
+      "media_including_PCM_Mbps": 6.6414352,
+      "window_peak_video_Mbps": {
+        "1": 6.9282,
+        "3": 6.9036,
+        "15": 6.661136,
+        "30": 6.296908
+      },
+      "full_frame_PSNR_RGB_dB": 47.88889326791918,
+      "active_picture_PSNR_RGB_dB": 47.88889326791918,
+      "worst_frame_active_PSNR_dB": 47.28348194578706,
+      "slowest_frame_transfer_ms_at_video_budget": 59.71080670970132,
+      "sustainable_fps_at_budget_same_mean_frame": 19.754920936218042,
+      "sustainable_fps_at_service_less_audio_same_mean_frame": 25.694768880739502,
+      "trace_queue_6Mbps": {
+        "initial_video_bytes_for_trace": 56571.0,
+        "initial_seconds_at_video_bps": 0.075428
+      },
+      "trace_queue_budget": {
+        "initial_video_bytes_for_trace": 47066.0,
+        "initial_seconds_at_video_bps": 0.04867669227676111
+      },
+      "profile": {
+        "markers": [
+          "0xe0",
+          "0xdb",
+          "0xdb",
+          "0xc0",
+          "0xc4",
+          "0xc4",
+          "0xc4",
+          "0xc4",
+          "0xda"
+        ],
+        "sof0": {
+          "precision": 8,
+          "height": 480,
+          "width": 640,
+          "components": 3,
+          "component_specs": [
+            1,
+            34,
+            0,
+            2,
+            17,
+            1,
+            3,
+            17,
+            1
+          ]
+        },
+        "sos": "03010002110311003f00",
+        "dqt_sha256": "46a908c55befb034accd903f731610f3223413dde68d0336390b79dc70613de4",
+        "dht_sha256": "153c35f988d6e8467d84986b8141fae5d02a896e6441fbf591e10e9ea5784632",
+        "restart_interval_marker": false
+      },
+      "elapsed_s": 3.23860764503479,
+      "path": "E:\\VSCODE-project\\FPGA-ANLU\\development\\video_codec_trial_20261021\\media\\crop640_q97_420.mjpg",
+      "sha256": "4395a6459b26f014e763c5c3f8f2fb70d66f09307c5b2e0116c6873ef5bcb465"
+    },
+    {
+      "geometry": "crop640",
+      "width": 640,
+      "height": 480,
+      "active_picture_height": 480,
+      "quality": 99,
+      "jpeg_subsampling": "4:2:0",
+      "huffman": "standard fixed tables",
+      "progressive": false,
+      "fps": 15,
+      "frames": 300,
+      "duration_s": 20.0,
+      "mean_frame_bytes": 66709.08,
+      "p95_frame_bytes": 74463.05,
+      "max_frame_bytes": 78586,
+      "max_frame_index": 109,
+      "min_frame_bytes": 55868,
+      "video_Mbps": 8.0050896,
+      "media_including_PCM_Mbps": 8.7730896,
+      "window_peak_video_Mbps": {
+        "1": 9.43032,
+        "3": 9.39224,
+        "15": 9.052544,
+        "30": 8.56472
+      },
+      "full_frame_PSNR_RGB_dB": 48.72888680777943,
+      "active_picture_PSNR_RGB_dB": 48.72888680777943,
+      "worst_frame_active_PSNR_dB": 48.17482295831666,
+      "slowest_frame_transfer_ms_at_video_budget": 81.27536946546442,
+      "sustainable_fps_at_budget_same_mean_frame": 14.4944346406816,
+      "sustainable_fps_at_service_less_audio_same_mean_frame": 18.852575991154428,
+      "trace_queue_6Mbps": {
+        "initial_video_bytes_for_trace": 5062724.0,
+        "initial_seconds_at_video_bps": 6.750298666666667
+      },
+      "trace_queue_budget": {
+        "initial_video_bytes_for_trace": 753673.4666666612,
+        "initial_seconds_at_video_bps": 0.7794656740341825
+      },
+      "profile": {
+        "markers": [
+          "0xe0",
+          "0xdb",
+          "0xdb",
+          "0xc0",
+          "0xc4",
+          "0xc4",
+          "0xc4",
+          "0xc4",
+          "0xda"
+        ],
+        "sof0": {
+          "precision": 8,
+          "height": 480,
+          "width": 640,
+          "components": 3,
+          "component_specs": [
+            1,
+            34,
+            0,
+            2,
+            17,
+            1,
+            3,
+            17,
+            1
+          ]
+        },
+        "sos": "03010002110311003f00",
+        "dqt_sha256": "b36052de51c50271788a905eaf565a1ed5646e1b936fbccd18da765047812444",
+        "dht_sha256": "153c35f988d6e8467d84986b8141fae5d02a896e6441fbf591e10e9ea5784632",
+        "restart_interval_marker": false
+      },
+      "elapsed_s": 2.6059701442718506,
+      "path": "E:\\VSCODE-project\\FPGA-ANLU\\development\\video_codec_trial_20261021\\media\\crop640_q99_420.mjpg",
+      "sha256": "92b145d5944a9cc05dad69c145a1382cde05938101f4c162710f3c85dd6b3178"
+    },
+    {
+      "geometry": "letterbox320",
+      "width": 320,
+      "height": 240,
+      "active_picture_height": 180,
+      "quality": 65,
+      "jpeg_subsampling": "4:2:0",
+      "huffman": "standard fixed tables",
+      "progressive": false,
+      "fps": 15,
+      "frames": 300,
+      "duration_s": 20.0,
+      "mean_frame_bytes": 6613.946666666667,
+      "p95_frame_bytes": 7126.1,
+      "max_frame_bytes": 7222,
+      "max_frame_index": 108,
+      "min_frame_bytes": 5950,
+      "video_Mbps": 0.7936736,
+      "media_including_PCM_Mbps": 1.5616736,
+      "window_peak_video_Mbps": {
+        "1": 0.86664,
+        "3": 0.86512,
+        "15": 0.850896,
+        "30": 0.82604
+      },
+      "full_frame_PSNR_RGB_dB": 36.9250052207035,
+      "active_picture_PSNR_RGB_dB": 35.956960432600134,
+      "worst_frame_active_PSNR_dB": 35.063430544377425,
+      "slowest_frame_transfer_ms_at_video_budget": 7.469151226421806,
+      "sustainable_fps_at_budget_same_mean_frame": 146.19265148796686,
+      "sustainable_fps_at_service_less_audio_same_mean_frame": 190.14940146679945,
+      "trace_queue_6Mbps": {
+        "initial_video_bytes_for_trace": 6381.0,
+        "initial_seconds_at_video_bps": 0.008508
+      },
+      "trace_queue_budget": {
+        "initial_video_bytes_for_trace": 6381.0,
+        "initial_seconds_at_video_bps": 0.006599370531126771
+      },
+      "profile": {
+        "markers": [
+          "0xe0",
+          "0xdb",
+          "0xdb",
+          "0xc0",
+          "0xc4",
+          "0xc4",
+          "0xc4",
+          "0xc4",
+          "0xda"
+        ],
+        "sof0": {
+          "precision": 8,
+          "height": 240,
+          "width": 320,
+          "components": 3,
+          "component_specs": [
+            1,
+            34,
+            0,
+            2,
+            17,
+            1,
+            3,
+            17,
+            1
+          ]
+        },
+        "sos": "03010002110311003f00",
+        "dqt_sha256": "983f8eb0df882e48eb955b2b64d8d73c4958e7c201c70d4f92fbf5ac7e6d7d99",
+        "dht_sha256": "153c35f988d6e8467d84986b8141fae5d02a896e6441fbf591e10e9ea5784632",
+        "restart_interval_marker": false
+      },
+      "elapsed_s": 0.9671785831451416,
+      "path": "E:\\VSCODE-project\\FPGA-ANLU\\development\\video_codec_trial_20261021\\media\\letterbox320_q65_420.mjpg",
+      "sha256": "9493078ea1c1e93fa23e3cebfc43188417d066aed69465a7f166ce83530bca62"
+    },
+    {
+      "geometry": "letterbox320",
+      "width": 320,
+      "height": 240,
+      "active_picture_height": 180,
+      "quality": 75,
+      "jpeg_subsampling": "4:2:0",
+      "huffman": "standard fixed tables",
+      "progressive": false,
+      "fps": 15,
+      "frames": 300,
+      "duration_s": 20.0,
+      "mean_frame_bytes": 7499.483333333334,
+      "p95_frame_bytes": 8116.2,
+      "max_frame_bytes": 8246,
+      "max_frame_index": 64,
+      "min_frame_bytes": 6726,
+      "video_Mbps": 0.899938,
+      "media_including_PCM_Mbps": 1.667938,
+      "window_peak_video_Mbps": {
+        "1": 0.98952,
+        "3": 0.98476,
+        "15": 0.967728,
+        "30": 0.939128
+      },
+      "full_frame_PSNR_RGB_dB": 38.191980823028615,
+      "active_picture_PSNR_RGB_dB": 37.19575556981966,
+      "worst_frame_active_PSNR_dB": 36.342239344983255,
+      "slowest_frame_transfer_ms_at_video_budget": 8.528194546257852,
+      "sustainable_fps_at_budget_same_mean_frame": 128.93026852960983,
+      "sustainable_fps_at_service_less_audio_same_mean_frame": 167.69661910042691,
+      "trace_queue_6Mbps": {
+        "initial_video_bytes_for_trace": 7225.0,
+        "initial_seconds_at_video_bps": 0.009633333333333334
+      },
+      "trace_queue_budget": {
+        "initial_video_bytes_for_trace": 7225.0,
+        "initial_seconds_at_video_bps": 0.007472253892397888
+      },
+      "profile": {
+        "markers": [
+          "0xe0",
+          "0xdb",
+          "0xdb",
+          "0xc0",
+          "0xc4",
+          "0xc4",
+          "0xc4",
+          "0xc4",
+          "0xda"
+        ],
+        "sof0": {
+          "precision": 8,
+          "height": 240,
+          "width": 320,
+          "components": 3,
+          "component_specs": [
+            1,
+            34,
+            0,
+            2,
+            17,
+            1,
+            3,
+            17,
+            1
+          ]
+        },
+        "sos": "03010002110311003f00",
+        "dqt_sha256": "1bdcb3b3479ab800d5e086e88eecc4c65a3da71cbbba9eee07ca6cf30763b247",
+        "dht_sha256": "153c35f988d6e8467d84986b8141fae5d02a896e6441fbf591e10e9ea5784632",
+        "restart_interval_marker": false
+      },
+      "elapsed_s": 0.7789707183837891,
+      "path": "E:\\VSCODE-project\\FPGA-ANLU\\development\\video_codec_trial_20261021\\media\\letterbox320_q75_420.mjpg",
+      "sha256": "3b3886d909590c3e18ac20e7b0ab3e4b06b5c77726bcf026c5bd1c9c5d4cd086"
+    },
+    {
+      "geometry": "letterbox320",
+      "width": 320,
+      "height": 240,
+      "active_picture_height": 180,
+      "quality": 85,
+      "jpeg_subsampling": "4:2:0",
+      "huffman": "standard fixed tables",
+      "progressive": false,
+      "fps": 15,
+      "frames": 300,
+      "duration_s": 20.0,
+      "mean_frame_bytes": 9368.623333333333,
+      "p95_frame_bytes": 10145.6,
+      "max_frame_bytes": 10316,
+      "max_frame_index": 112,
+      "min_frame_bytes": 8396,
+      "video_Mbps": 1.1242348,
+      "media_including_PCM_Mbps": 1.8922348,
+      "window_peak_video_Mbps": {
+        "1": 1.23792,
+        "3": 1.23552,
+        "15": 1.211448,
+        "30": 1.172864
+      },
+      "full_frame_PSNR_RGB_dB": 40.079949606159964,
+      "active_picture_PSNR_RGB_dB": 39.083388447805504,
+      "worst_frame_active_PSNR_dB": 38.32216747952855,
+      "slowest_frame_transfer_ms_at_video_budget": 10.669034069754549,
+      "sustainable_fps_at_budget_same_mean_frame": 103.20730865118213,
+      "sustainable_fps_at_service_less_audio_same_mean_frame": 134.2393599628832,
+      "trace_queue_6Mbps": {
+        "initial_video_bytes_for_trace": 9055.0,
+        "initial_seconds_at_video_bps": 0.012073333333333333
+      },
+      "trace_queue_budget": {
+        "initial_video_bytes_for_trace": 9055.0,
+        "initial_seconds_at_video_bps": 0.00936488013780801
+      },
+      "profile": {
+        "markers": [
+          "0xe0",
+          "0xdb",
+          "0xdb",
+          "0xc0",
+          "0xc4",
+          "0xc4",
+          "0xc4",
+          "0xc4",
+          "0xda"
+        ],
+        "sof0": {
+          "precision": 8,
+          "height": 240,
+          "width": 320,
+          "components": 3,
+          "component_specs": [
+            1,
+            34,
+            0,
+            2,
+            17,
+            1,
+            3,
+            17,
+            1
+          ]
+        },
+        "sos": "03010002110311003f00",
+        "dqt_sha256": "0694c5cf5778c5e747300e9206751b2824a79721cde6bcbdaeedb3ab860695a3",
+        "dht_sha256": "153c35f988d6e8467d84986b8141fae5d02a896e6441fbf591e10e9ea5784632",
+        "restart_interval_marker": false
+      },
+      "elapsed_s": 0.6501977443695068,
+      "path": "E:\\VSCODE-project\\FPGA-ANLU\\development\\video_codec_trial_20261021\\media\\letterbox320_q85_420.mjpg",
+      "sha256": "d50fa85849cc67caba77b10679951219816ebf941ddbb085f3e434ae80d362a6"
+    },
+    {
+      "geometry": "letterbox320",
+      "width": 320,
+      "height": 240,
+      "active_picture_height": 180,
+      "quality": 90,
+      "jpeg_subsampling": "4:2:0",
+      "huffman": "standard fixed tables",
+      "progressive": false,
+      "fps": 15,
+      "frames": 300,
+      "duration_s": 20.0,
+      "mean_frame_bytes": 11266.316666666668,
+      "p95_frame_bytes": 12233.2,
+      "max_frame_bytes": 12401,
+      "max_frame_index": 64,
+      "min_frame_bytes": 10011,
+      "video_Mbps": 1.351958,
+      "media_including_PCM_Mbps": 2.119958,
+      "window_peak_video_Mbps": {
+        "1": 1.48812,
+        "3": 1.4814,
+        "15": 1.457096,
+        "30": 1.409332
+      },
+      "full_frame_PSNR_RGB_dB": 41.48140975137048,
+      "active_picture_PSNR_RGB_dB": 40.47285252465556,
+      "worst_frame_active_PSNR_dB": 39.77855270392936,
+      "slowest_frame_transfer_ms_at_video_budget": 12.825386923131656,
+      "sustainable_fps_at_budget_same_mean_frame": 85.82311580685199,
+      "sustainable_fps_at_service_less_audio_same_mean_frame": 111.62814229436121,
+      "trace_queue_6Mbps": {
+        "initial_video_bytes_for_trace": 10841.0,
+        "initial_seconds_at_video_bps": 0.014454666666666666
+      },
+      "trace_queue_budget": {
+        "initial_video_bytes_for_trace": 10841.0,
+        "initial_seconds_at_video_bps": 0.011212000615568927
+      },
+      "profile": {
+        "markers": [
+          "0xe0",
+          "0xdb",
+          "0xdb",
+          "0xc0",
+          "0xc4",
+          "0xc4",
+          "0xc4",
+          "0xc4",
+          "0xda"
+        ],
+        "sof0": {
+          "precision": 8,
+          "height": 240,
+          "width": 320,
+          "components": 3,
+          "component_specs": [
+            1,
+            34,
+            0,
+            2,
+            17,
+            1,
+            3,
+            17,
+            1
+          ]
+        },
+        "sos": "03010002110311003f00",
+        "dqt_sha256": "9545711f2e60e04afa5a51499f4e65fc11fefe89121d4937bf0b490663106eed",
+        "dht_sha256": "153c35f988d6e8467d84986b8141fae5d02a896e6441fbf591e10e9ea5784632",
+        "restart_interval_marker": false
+      },
+      "elapsed_s": 0.7139685153961182,
+      "path": "E:\\VSCODE-project\\FPGA-ANLU\\development\\video_codec_trial_20261021\\media\\letterbox320_q90_420.mjpg",
+      "sha256": "274a852db0b093ab5e60e3a7c696ba4d14b251f8953ebdb150e974f8edfb9706"
+    },
+    {
+      "geometry": "letterbox320",
+      "width": 320,
+      "height": 240,
+      "active_picture_height": 180,
+      "quality": 93,
+      "jpeg_subsampling": "4:2:0",
+      "huffman": "standard fixed tables",
+      "progressive": false,
+      "fps": 15,
+      "frames": 300,
+      "duration_s": 20.0,
+      "mean_frame_bytes": 13060.103333333333,
+      "p95_frame_bytes": 14156.15,
+      "max_frame_bytes": 14322,
+      "max_frame_index": 112,
+      "min_frame_bytes": 11681,
+      "video_Mbps": 1.5672123999999998,
+      "media_including_PCM_Mbps": 2.3352123999999996,
+      "window_peak_video_Mbps": {
+        "1": 1.71864,
+        "3": 1.71548,
+        "15": 1.688712,
+        "30": 1.631896
+      },
+      "full_frame_PSNR_RGB_dB": 42.58478603420153,
+      "active_picture_PSNR_RGB_dB": 41.57592609693133,
+      "worst_frame_active_PSNR_dB": 40.828964519011706,
+      "slowest_frame_transfer_ms_at_video_budget": 14.81212736981627,
+      "sustainable_fps_at_budget_same_mean_frame": 74.0354325935655,
+      "sustainable_fps_at_service_less_audio_same_mean_frame": 96.29617529825569,
+      "trace_queue_6Mbps": {
+        "initial_video_bytes_for_trace": 12591.0,
+        "initial_seconds_at_video_bps": 0.016788
+      },
+      "trace_queue_budget": {
+        "initial_video_bytes_for_trace": 12591.0,
+        "initial_seconds_at_video_bps": 0.013021889101616859
+      },
+      "profile": {
+        "markers": [
+          "0xe0",
+          "0xdb",
+          "0xdb",
+          "0xc0",
+          "0xc4",
+          "0xc4",
+          "0xc4",
+          "0xc4",
+          "0xda"
+        ],
+        "sof0": {
+          "precision": 8,
+          "height": 240,
+          "width": 320,
+          "components": 3,
+          "component_specs": [
+            1,
+            34,
+            0,
+            2,
+            17,
+            1,
+            3,
+            17,
+            1
+          ]
+        },
+        "sos": "03010002110311003f00",
+        "dqt_sha256": "dfd00f60e2d001c9b7a624ffb058271932c1d67a8b6f0c23dcaf78f1b15bff8c",
+        "dht_sha256": "153c35f988d6e8467d84986b8141fae5d02a896e6441fbf591e10e9ea5784632",
+        "restart_interval_marker": false
+      },
+      "elapsed_s": 0.8259761333465576,
+      "path": "E:\\VSCODE-project\\FPGA-ANLU\\development\\video_codec_trial_20261021\\media\\letterbox320_q93_420.mjpg",
+      "sha256": "4b05b7f9d92eb09862ca6269c34f0abb63d07e017e25a00080e67414a894ba8e"
+    },
+    {
+      "geometry": "letterbox320",
+      "width": 320,
+      "height": 240,
+      "active_picture_height": 180,
+      "quality": 95,
+      "jpeg_subsampling": "4:2:0",
+      "huffman": "standard fixed tables",
+      "progressive": false,
+      "fps": 15,
+      "frames": 300,
+      "duration_s": 20.0,
+      "mean_frame_bytes": 15514.926666666666,
+      "p95_frame_bytes": 16796.2,
+      "max_frame_bytes": 17007,
+      "max_frame_index": 64,
+      "min_frame_bytes": 13917,
+      "video_Mbps": 1.8617911999999999,
+      "media_including_PCM_Mbps": 2.6297911999999997,
+      "window_peak_video_Mbps": {
+        "1": 2.04084,
+        "3": 2.03236,
+        "15": 2.001904,
+        "30": 1.934804
+      },
+      "full_frame_PSNR_RGB_dB": 43.45916090596819,
+      "active_picture_PSNR_RGB_dB": 42.42759880556618,
+      "worst_frame_active_PSNR_dB": 41.718134444032486,
+      "slowest_frame_transfer_ms_at_video_budget": 17.58901341840981,
+      "sustainable_fps_at_budget_same_mean_frame": 62.32130004696553,
+      "sustainable_fps_at_service_less_audio_same_mean_frame": 81.05987395364207,
+      "trace_queue_6Mbps": {
+        "initial_video_bytes_for_trace": 15027.0,
+        "initial_seconds_at_video_bps": 0.020036
+      },
+      "trace_queue_budget": {
+        "initial_video_bytes_for_trace": 15027.0,
+        "initial_seconds_at_video_bps": 0.01554125387419558
+      },
+      "profile": {
+        "markers": [
+          "0xe0",
+          "0xdb",
+          "0xdb",
+          "0xc0",
+          "0xc4",
+          "0xc4",
+          "0xc4",
+          "0xc4",
+          "0xda"
+        ],
+        "sof0": {
+          "precision": 8,
+          "height": 240,
+          "width": 320,
+          "components": 3,
+          "component_specs": [
+            1,
+            34,
+            0,
+            2,
+            17,
+            1,
+            3,
+            17,
+            1
+          ]
+        },
+        "sos": "03010002110311003f00",
+        "dqt_sha256": "9e5c5815dcdc9f99324f7ac9b04d95adf265b0973fecc430f0f0b14b4b9da413",
+        "dht_sha256": "153c35f988d6e8467d84986b8141fae5d02a896e6441fbf591e10e9ea5784632",
+        "restart_interval_marker": false
+      },
+      "elapsed_s": 0.7703006267547607,
+      "path": "E:\\VSCODE-project\\FPGA-ANLU\\development\\video_codec_trial_20261021\\media\\letterbox320_q95_420.mjpg",
+      "sha256": "e8d081cb85e020822cb74d2c51071545a12142fbd114152ab1dec8aed7031733"
+    },
+    {
+      "geometry": "letterbox320",
+      "width": 320,
+      "height": 240,
+      "active_picture_height": 180,
+      "quality": 97,
+      "jpeg_subsampling": "4:2:0",
+      "huffman": "standard fixed tables",
+      "progressive": false,
+      "fps": 15,
+      "frames": 300,
+      "duration_s": 20.0,
+      "mean_frame_bytes": 19009.383333333335,
+      "p95_frame_bytes": 20520.7,
+      "max_frame_bytes": 20854,
+      "max_frame_index": 112,
+      "min_frame_bytes": 17053,
+      "video_Mbps": 2.281126,
+      "media_including_PCM_Mbps": 3.0491260000000002,
+      "window_peak_video_Mbps": {
+        "1": 2.50248,
+        "3": 2.49564,
+        "15": 2.454872,
+        "30": 2.372192
+      },
+      "full_frame_PSNR_RGB_dB": 44.47207302894034,
+      "active_picture_PSNR_RGB_dB": 43.40569337205488,
+      "worst_frame_active_PSNR_dB": 42.61501894077378,
+      "slowest_frame_transfer_ms_at_video_budget": 21.56766542173918,
+      "sustainable_fps_at_budget_same_mean_frame": 50.86490093050538,
+      "sustainable_fps_at_service_less_audio_same_mean_frame": 66.15880052219825,
+      "trace_queue_6Mbps": {
+        "initial_video_bytes_for_trace": 18323.0,
+        "initial_seconds_at_video_bps": 0.024430666666666667
+      },
+      "trace_queue_budget": {
+        "initial_video_bytes_for_trace": 18323.0,
+        "initial_seconds_at_video_bps": 0.018950049559917855
+      },
+      "profile": {
+        "markers": [
+          "0xe0",
+          "0xdb",
+          "0xdb",
+          "0xc0",
+          "0xc4",
+          "0xc4",
+          "0xc4",
+          "0xc4",
+          "0xda"
+        ],
+        "sof0": {
+          "precision": 8,
+          "height": 240,
+          "width": 320,
+          "components": 3,
+          "component_specs": [
+            1,
+            34,
+            0,
+            2,
+            17,
+            1,
+            3,
+            17,
+            1
+          ]
+        },
+        "sos": "03010002110311003f00",
+        "dqt_sha256": "46a908c55befb034accd903f731610f3223413dde68d0336390b79dc70613de4",
+        "dht_sha256": "153c35f988d6e8467d84986b8141fae5d02a896e6441fbf591e10e9ea5784632",
+        "restart_interval_marker": false
+      },
+      "elapsed_s": 0.6973543167114258,
+      "path": "E:\\VSCODE-project\\FPGA-ANLU\\development\\video_codec_trial_20261021\\media\\letterbox320_q97_420.mjpg",
+      "sha256": "c18333be5cd37d0bc2c74afb76e86bbbf6c35f9d96eae1c9253efbe590cbb86e"
+    },
+    {
+      "geometry": "letterbox320",
+      "width": 320,
+      "height": 240,
+      "active_picture_height": 180,
+      "quality": 99,
+      "jpeg_subsampling": "4:2:0",
+      "huffman": "standard fixed tables",
+      "progressive": false,
+      "fps": 15,
+      "frames": 300,
+      "duration_s": 20.0,
+      "mean_frame_bytes": 26075.903333333332,
+      "p95_frame_bytes": 28092.55,
+      "max_frame_bytes": 28798,
+      "max_frame_index": 109,
+      "min_frame_bytes": 23502,
+      "video_Mbps": 3.1291084,
+      "media_including_PCM_Mbps": 3.8971083999999996,
+      "window_peak_video_Mbps": {
+        "1": 3.45576,
+        "3": 3.43964,
+        "15": 3.36836,
+        "30": 3.248088
+      },
+      "full_frame_PSNR_RGB_dB": 45.551538267826935,
+      "active_picture_PSNR_RGB_dB": 44.44399531043143,
+      "worst_frame_active_PSNR_dB": 43.505185974393214,
+      "slowest_frame_transfer_ms_at_video_budget": 29.783524926404755,
+      "sustainable_fps_at_budget_same_mean_frame": 37.08060992709618,
+      "sustainable_fps_at_service_less_audio_same_mean_frame": 48.229891939825414,
+      "trace_queue_6Mbps": {
+        "initial_video_bytes_for_trace": 25025.0,
+        "initial_seconds_at_video_bps": 0.03336666666666667
+      },
+      "trace_queue_budget": {
+        "initial_video_bytes_for_trace": 25025.0,
+        "initial_seconds_at_video_bps": 0.025881405350485418
+      },
+      "profile": {
+        "markers": [
+          "0xe0",
+          "0xdb",
+          "0xdb",
+          "0xc0",
+          "0xc4",
+          "0xc4",
+          "0xc4",
+          "0xc4",
+          "0xda"
+        ],
+        "sof0": {
+          "precision": 8,
+          "height": 240,
+          "width": 320,
+          "components": 3,
+          "component_specs": [
+            1,
+            34,
+            0,
+            2,
+            17,
+            1,
+            3,
+            17,
+            1
+          ]
+        },
+        "sos": "03010002110311003f00",
+        "dqt_sha256": "b36052de51c50271788a905eaf565a1ed5646e1b936fbccd18da765047812444",
+        "dht_sha256": "153c35f988d6e8467d84986b8141fae5d02a896e6441fbf591e10e9ea5784632",
+        "restart_interval_marker": false
+      },
+      "elapsed_s": 0.8097763061523438,
+      "path": "E:\\VSCODE-project\\FPGA-ANLU\\development\\video_codec_trial_20261021\\media\\letterbox320_q99_420.mjpg",
+      "sha256": "20e4a326f1cae547366f55eef29933d7415e0ba1056a5a30fc11d11b1ea60ade"
+    },
+    {
+      "geometry": "letterbox640_30",
+      "width": 640,
+      "height": 480,
+      "active_picture_height": 360,
+      "quality": 85,
+      "jpeg_subsampling": "4:2:0",
+      "huffman": "standard fixed tables",
+      "progressive": false,
+      "fps": 30,
+      "frames": 600,
+      "duration_s": 20.0,
+      "mean_frame_bytes": 22805.946666666667,
+      "p95_frame_bytes": 24886.75,
+      "max_frame_bytes": 25648,
+      "max_frame_index": 218,
+      "min_frame_bytes": 20126,
+      "video_Mbps": 5.473427200000001,
+      "media_including_PCM_Mbps": 6.2414272,
+      "window_peak_video_Mbps": {
+        "1": 6.15552,
+        "3": 6.14672,
+        "15": 6.116288,
+        "30": 6.001528
+      },
+      "full_frame_PSNR_RGB_dB": 43.69999866690478,
+      "active_picture_PSNR_RGB_dB": 42.6264764761884,
+      "worst_frame_active_PSNR_dB": 41.8254346327618,
+      "slowest_frame_transfer_ms_at_video_budget": 26.52572565151848,
+      "sustainable_fps_at_budget_same_mean_frame": 42.39729286981291,
+      "sustainable_fps_at_service_less_audio_same_mean_frame": 55.14517850899707,
+      "trace_queue_6Mbps": {
+        "initial_video_bytes_for_trace": 22511.0,
+        "initial_seconds_at_video_bps": 0.030014666666666665
+      },
+      "trace_queue_budget": {
+        "initial_video_bytes_for_trace": 22511.0,
+        "initial_seconds_at_video_bps": 0.023281371262528563
+      },
+      "profile": {
+        "markers": [
+          "0xe0",
+          "0xdb",
+          "0xdb",
+          "0xc0",
+          "0xc4",
+          "0xc4",
+          "0xc4",
+          "0xc4",
+          "0xda"
+        ],
+        "sof0": {
+          "precision": 8,
+          "height": 480,
+          "width": 640,
+          "components": 3,
+          "component_specs": [
+            1,
+            34,
+            0,
+            2,
+            17,
+            1,
+            3,
+            17,
+            1
+          ]
+        },
+        "sos": "03010002110311003f00",
+        "dqt_sha256": "0694c5cf5778c5e747300e9206751b2824a79721cde6bcbdaeedb3ab860695a3",
+        "dht_sha256": "153c35f988d6e8467d84986b8141fae5d02a896e6441fbf591e10e9ea5784632",
+        "restart_interval_marker": false
+      },
+      "elapsed_s": 6.1846535205841064,
+      "path": "E:\\VSCODE-project\\FPGA-ANLU\\development\\video_codec_trial_20261021\\media\\letterbox640_30_q85_420.mjpg",
+      "sha256": "80fddd20c10fc0fdd9d25cee910d4a321d009db8730e32022f8806b3a5122f71"
+    },
+    {
+      "geometry": "letterbox640_30",
+      "width": 640,
+      "height": 480,
+      "active_picture_height": 360,
+      "quality": 90,
+      "jpeg_subsampling": "4:2:0",
+      "huffman": "standard fixed tables",
+      "progressive": false,
+      "fps": 30,
+      "frames": 600,
+      "duration_s": 20.0,
+      "mean_frame_bytes": 27630.768333333333,
+      "p95_frame_bytes": 30140.399999999998,
+      "max_frame_bytes": 31115,
+      "max_frame_index": 217,
+      "min_frame_bytes": 24332,
+      "video_Mbps": 6.6313844,
+      "media_including_PCM_Mbps": 7.3993844,
+      "window_peak_video_Mbps": {
+        "1": 7.4676,
+        "3": 7.46112,
+        "15": 7.40888,
+        "30": 7.273504
+      },
+      "full_frame_PSNR_RGB_dB": 44.98876726781846,
+      "active_picture_PSNR_RGB_dB": 43.9126461384646,
+      "worst_frame_active_PSNR_dB": 43.174302456580016,
+      "slowest_frame_transfer_ms_at_video_budget": 32.17981728193222,
+      "sustainable_fps_at_budget_same_mean_frame": 34.99397441053184,
+      "sustainable_fps_at_service_less_audio_same_mean_frame": 45.51585337143176,
+      "trace_queue_6Mbps": {
+        "initial_video_bytes_for_trace": 1603461.0,
+        "initial_seconds_at_video_bps": 2.137948
+      },
+      "trace_queue_budget": {
+        "initial_video_bytes_for_trace": 27183.0,
+        "initial_seconds_at_video_bps": 0.028113256409280526
+      },
+      "profile": {
+        "markers": [
+          "0xe0",
+          "0xdb",
+          "0xdb",
+          "0xc0",
+          "0xc4",
+          "0xc4",
+          "0xc4",
+          "0xc4",
+          "0xda"
+        ],
+        "sof0": {
+          "precision": 8,
+          "height": 480,
+          "width": 640,
+          "components": 3,
+          "component_specs": [
+            1,
+            34,
+            0,
+            2,
+            17,
+            1,
+            3,
+            17,
+            1
+          ]
+        },
+        "sos": "03010002110311003f00",
+        "dqt_sha256": "9545711f2e60e04afa5a51499f4e65fc11fefe89121d4937bf0b490663106eed",
+        "dht_sha256": "153c35f988d6e8467d84986b8141fae5d02a896e6441fbf591e10e9ea5784632",
+        "restart_interval_marker": false
+      },
+      "elapsed_s": 4.5078444480896,
+      "path": "E:\\VSCODE-project\\FPGA-ANLU\\development\\video_codec_trial_20261021\\media\\letterbox640_30_q90_420.mjpg",
+      "sha256": "8f053a11c042a87abf689a1e7bf7ecfdce50a80530f1cbae0a733234ba0c734b"
+    },
+    {
+      "geometry": "letterbox640_30",
+      "width": 640,
+      "height": 480,
+      "active_picture_height": 360,
+      "quality": 95,
+      "jpeg_subsampling": "4:2:0",
+      "huffman": "standard fixed tables",
+      "progressive": false,
+      "fps": 30,
+      "frames": 600,
+      "duration_s": 20.0,
+      "mean_frame_bytes": 38406.64666666667,
+      "p95_frame_bytes": 41976.95,
+      "max_frame_bytes": 43231,
+      "max_frame_index": 218,
+      "min_frame_bytes": 33753,
+      "video_Mbps": 9.2175952,
+      "media_including_PCM_Mbps": 9.9855952,
+      "window_peak_video_Mbps": {
+        "1": 10.37544,
+        "3": 10.35608,
+        "15": 10.293936,
+        "30": 10.109624
+      },
+      "full_frame_PSNR_RGB_dB": 46.678387367644724,
+      "active_picture_PSNR_RGB_dB": 45.64422253480813,
+      "worst_frame_active_PSNR_dB": 44.97515728982493,
+      "slowest_frame_transfer_ms_at_video_budget": 44.71045093733607,
+      "sustainable_fps_at_budget_same_mean_frame": 25.175600681618132,
+      "sustainable_fps_at_service_less_audio_same_mean_frame": 32.74532168650669,
+      "trace_queue_6Mbps": {
+        "initial_video_bytes_for_trace": 8068988.0,
+        "initial_seconds_at_video_bps": 10.758650666666666
+      },
+      "trace_queue_budget": {
+        "initial_video_bytes_for_trace": 3738010.34666666,
+        "initial_seconds_at_video_bps": 3.8659325069485857
+      },
+      "profile": {
+        "markers": [
+          "0xe0",
+          "0xdb",
+          "0xdb",
+          "0xc0",
+          "0xc4",
+          "0xc4",
+          "0xc4",
+          "0xc4",
+          "0xda"
+        ],
+        "sof0": {
+          "precision": 8,
+          "height": 480,
+          "width": 640,
+          "components": 3,
+          "component_specs": [
+            1,
+            34,
+            0,
+            2,
+            17,
+            1,
+            3,
+            17,
+            1
+          ]
+        },
+        "sos": "03010002110311003f00",
+        "dqt_sha256": "9e5c5815dcdc9f99324f7ac9b04d95adf265b0973fecc430f0f0b14b4b9da413",
+        "dht_sha256": "153c35f988d6e8467d84986b8141fae5d02a896e6441fbf591e10e9ea5784632",
+        "restart_interval_marker": false
+      },
+      "elapsed_s": 4.570640802383423,
+      "path": "E:\\VSCODE-project\\FPGA-ANLU\\development\\video_codec_trial_20261021\\media\\letterbox640_30_q95_420.mjpg",
+      "sha256": "fd16364b869189a853dde6489932be517e772e0531a1ba98d42a72c89bbb1404"
+    },
+    {
+      "geometry": "letterbox640",
+      "width": 640,
+      "height": 480,
+      "active_picture_height": 360,
+      "quality": 65,
+      "jpeg_subsampling": "4:2:0",
+      "huffman": "standard fixed tables",
+      "progressive": false,
+      "fps": 15,
+      "frames": 300,
+      "duration_s": 20.0,
+      "mean_frame_bytes": 16134.813333333334,
+      "p95_frame_bytes": 17441.4,
+      "max_frame_bytes": 17960,
+      "max_frame_index": 108,
+      "min_frame_bytes": 14560,
+      "video_Mbps": 1.9361776000000002,
+      "media_including_PCM_Mbps": 2.7041776000000004,
+      "window_peak_video_Mbps": {
+        "1": 2.1552,
+        "3": 2.15356,
+        "15": 2.105296,
+        "30": 2.034716
+      },
+      "full_frame_PSNR_RGB_dB": 40.477021690088975,
+      "active_picture_PSNR_RGB_dB": 39.40535206525796,
+      "worst_frame_active_PSNR_dB": 38.433190775344414,
+      "slowest_frame_transfer_ms_at_video_budget": 18.574626976811913,
+      "sustainable_fps_at_budget_same_mean_frame": 59.92696537755628,
+      "sustainable_fps_at_service_less_audio_same_mean_frame": 77.94561821188304,
+      "trace_queue_6Mbps": {
+        "initial_video_bytes_for_trace": 16029.0,
+        "initial_seconds_at_video_bps": 0.021372
+      },
+      "trace_queue_budget": {
+        "initial_video_bytes_for_trace": 16029.0,
+        "initial_seconds_at_video_bps": 0.016577544310207023
+      },
+      "profile": {
+        "markers": [
+          "0xe0",
+          "0xdb",
+          "0xdb",
+          "0xc0",
+          "0xc4",
+          "0xc4",
+          "0xc4",
+          "0xc4",
+          "0xda"
+        ],
+        "sof0": {
+          "precision": 8,
+          "height": 480,
+          "width": 640,
+          "components": 3,
+          "component_specs": [
+            1,
+            34,
+            0,
+            2,
+            17,
+            1,
+            3,
+            17,
+            1
+          ]
+        },
+        "sos": "03010002110311003f00",
+        "dqt_sha256": "983f8eb0df882e48eb955b2b64d8d73c4958e7c201c70d4f92fbf5ac7e6d7d99",
+        "dht_sha256": "153c35f988d6e8467d84986b8141fae5d02a896e6441fbf591e10e9ea5784632",
+        "restart_interval_marker": false
+      },
+      "elapsed_s": 3.464237689971924,
+      "path": "E:\\VSCODE-project\\FPGA-ANLU\\development\\video_codec_trial_20261021\\media\\letterbox640_q65_420.mjpg",
+      "sha256": "bd785b11226449ccd3b3e11e90219ec70f446e3ed8c58b7861fe3b05e9ee8e0c"
+    },
+    {
+      "geometry": "letterbox640",
+      "width": 640,
+      "height": 480,
+      "active_picture_height": 360,
+      "quality": 75,
+      "jpeg_subsampling": "4:2:0",
+      "huffman": "standard fixed tables",
+      "progressive": false,
+      "fps": 15,
+      "frames": 300,
+      "duration_s": 20.0,
+      "mean_frame_bytes": 18397.383333333335,
+      "p95_frame_bytes": 19924.2,
+      "max_frame_bytes": 20580,
+      "max_frame_index": 108,
+      "min_frame_bytes": 16518,
+      "video_Mbps": 2.207686,
+      "media_including_PCM_Mbps": 2.9756859999999996,
+      "window_peak_video_Mbps": {
+        "1": 2.4696,
+        "3": 2.46572,
+        "15": 2.41088,
+        "30": 2.327044
+      },
+      "full_frame_PSNR_RGB_dB": 41.78584483152257,
+      "active_picture_PSNR_RGB_dB": 40.73595076587135,
+      "worst_frame_active_PSNR_dB": 39.798436696045975,
+      "slowest_frame_transfer_ms_at_video_budget": 21.284288595923673,
+      "sustainable_fps_at_budget_same_mean_frame": 52.556952392686284,
+      "sustainable_fps_at_service_less_audio_same_mean_frame": 68.35961273478202,
+      "trace_queue_6Mbps": {
+        "initial_video_bytes_for_trace": 18197.0,
+        "initial_seconds_at_video_bps": 0.024262666666666665
+      },
+      "trace_queue_budget": {
+        "initial_video_bytes_for_trace": 18197.0,
+        "initial_seconds_at_video_bps": 0.018819737588922403
+      },
+      "profile": {
+        "markers": [
+          "0xe0",
+          "0xdb",
+          "0xdb",
+          "0xc0",
+          "0xc4",
+          "0xc4",
+          "0xc4",
+          "0xc4",
+          "0xda"
+        ],
+        "sof0": {
+          "precision": 8,
+          "height": 480,
+          "width": 640,
+          "components": 3,
+          "component_specs": [
+            1,
+            34,
+            0,
+            2,
+            17,
+            1,
+            3,
+            17,
+            1
+          ]
+        },
+        "sos": "03010002110311003f00",
+        "dqt_sha256": "1bdcb3b3479ab800d5e086e88eecc4c65a3da71cbbba9eee07ca6cf30763b247",
+        "dht_sha256": "153c35f988d6e8467d84986b8141fae5d02a896e6441fbf591e10e9ea5784632",
+        "restart_interval_marker": false
+      },
+      "elapsed_s": 3.2982120513916016,
+      "path": "E:\\VSCODE-project\\FPGA-ANLU\\development\\video_codec_trial_20261021\\media\\letterbox640_q75_420.mjpg",
+      "sha256": "7b629ccc9d8d61db97700ea1b392f209f3953b80757b785dd8ae05a1e51b4fda"
+    },
+    {
+      "geometry": "letterbox640",
+      "width": 640,
+      "height": 480,
+      "active_picture_height": 360,
+      "quality": 85,
+      "jpeg_subsampling": "4:2:0",
+      "huffman": "standard fixed tables",
+      "progressive": false,
+      "fps": 15,
+      "frames": 300,
+      "duration_s": 20.0,
+      "mean_frame_bytes": 22814.413333333334,
+      "p95_frame_bytes": 24806.0,
+      "max_frame_bytes": 25648,
+      "max_frame_index": 109,
+      "min_frame_bytes": 20151,
+      "video_Mbps": 2.7377296,
+      "media_including_PCM_Mbps": 3.5057296000000004,
+      "window_peak_video_Mbps": {
+        "1": 3.07776,
+        "3": 3.07352,
+        "15": 3.004376,
+        "30": 2.89106
+      },
+      "full_frame_PSNR_RGB_dB": 43.692866545758456,
+      "active_picture_PSNR_RGB_dB": 42.61921212201134,
+      "worst_frame_active_PSNR_dB": 41.8254346327618,
+      "slowest_frame_transfer_ms_at_video_budget": 26.52572565151848,
+      "sustainable_fps_at_budget_same_mean_frame": 42.381558792365766,
+      "sustainable_fps_at_service_less_audio_same_mean_frame": 55.124713558271054,
+      "trace_queue_6Mbps": {
+        "initial_video_bytes_for_trace": 22516.0,
+        "initial_seconds_at_video_bps": 0.030021333333333334
+      },
+      "trace_queue_budget": {
+        "initial_video_bytes_for_trace": 22516.0,
+        "initial_seconds_at_video_bps": 0.0232865423724887
+      },
+      "profile": {
+        "markers": [
+          "0xe0",
+          "0xdb",
+          "0xdb",
+          "0xc0",
+          "0xc4",
+          "0xc4",
+          "0xc4",
+          "0xc4",
+          "0xda"
+        ],
+        "sof0": {
+          "precision": 8,
+          "height": 480,
+          "width": 640,
+          "components": 3,
+          "component_specs": [
+            1,
+            34,
+            0,
+            2,
+            17,
+            1,
+            3,
+            17,
+            1
+          ]
+        },
+        "sos": "03010002110311003f00",
+        "dqt_sha256": "0694c5cf5778c5e747300e9206751b2824a79721cde6bcbdaeedb3ab860695a3",
+        "dht_sha256": "153c35f988d6e8467d84986b8141fae5d02a896e6441fbf591e10e9ea5784632",
+        "restart_interval_marker": false
+      },
+      "elapsed_s": 2.5808002948760986,
+      "path": "E:\\VSCODE-project\\FPGA-ANLU\\development\\video_codec_trial_20261021\\media\\letterbox640_q85_420.mjpg",
+      "sha256": "535c3a7bc0ad3ebba92c5aabbd4c238c9bdb957695dabab0dc43c849b59cbb8d"
+    },
+    {
+      "geometry": "letterbox640",
+      "width": 640,
+      "height": 480,
+      "active_picture_height": 360,
+      "quality": 90,
+      "jpeg_subsampling": "4:2:0",
+      "huffman": "standard fixed tables",
+      "progressive": false,
+      "fps": 15,
+      "frames": 300,
+      "duration_s": 20.0,
+      "mean_frame_bytes": 27637.646666666667,
+      "p95_frame_bytes": 30118.1,
+      "max_frame_bytes": 31115,
+      "max_frame_index": 108,
+      "min_frame_bytes": 24403,
+      "video_Mbps": 3.3165176,
+      "media_including_PCM_Mbps": 4.0845176,
+      "window_peak_video_Mbps": {
+        "1": 3.7338,
+        "3": 3.72832,
+        "15": 3.641176,
+        "30": 3.501536
+      },
+      "full_frame_PSNR_RGB_dB": 44.980712630178914,
+      "active_picture_PSNR_RGB_dB": 43.90437686180397,
+      "worst_frame_active_PSNR_dB": 43.174302456580016,
+      "slowest_frame_transfer_ms_at_video_budget": 32.17981728193222,
+      "sustainable_fps_at_budget_same_mean_frame": 34.98526526739976,
+      "sustainable_fps_at_service_less_audio_same_mean_frame": 45.50452559033608,
+      "trace_queue_6Mbps": {
+        "initial_video_bytes_for_trace": 27180.0,
+        "initial_seconds_at_video_bps": 0.03624
+      },
+      "trace_queue_budget": {
+        "initial_video_bytes_for_trace": 27180.0,
+        "initial_seconds_at_video_bps": 0.02811015374330444
+      },
+      "profile": {
+        "markers": [
+          "0xe0",
+          "0xdb",
+          "0xdb",
+          "0xc0",
+          "0xc4",
+          "0xc4",
+          "0xc4",
+          "0xc4",
+          "0xda"
+        ],
+        "sof0": {
+          "precision": 8,
+          "height": 480,
+          "width": 640,
+          "components": 3,
+          "component_specs": [
+            1,
+            34,
+            0,
+            2,
+            17,
+            1,
+            3,
+            17,
+            1
+          ]
+        },
+        "sos": "03010002110311003f00",
+        "dqt_sha256": "9545711f2e60e04afa5a51499f4e65fc11fefe89121d4937bf0b490663106eed",
+        "dht_sha256": "153c35f988d6e8467d84986b8141fae5d02a896e6441fbf591e10e9ea5784632",
+        "restart_interval_marker": false
+      },
+      "elapsed_s": 2.5845847129821777,
+      "path": "E:\\VSCODE-project\\FPGA-ANLU\\development\\video_codec_trial_20261021\\media\\letterbox640_q90_420.mjpg",
+      "sha256": "6ce98ef963af5e151989fc26f0c3265d586cfec984d1a911a3e4040719e77e30"
+    },
+    {
+      "geometry": "letterbox640",
+      "width": 640,
+      "height": 480,
+      "active_picture_height": 360,
+      "quality": 93,
+      "jpeg_subsampling": "4:2:0",
+      "huffman": "standard fixed tables",
+      "progressive": false,
+      "fps": 15,
+      "frames": 300,
+      "duration_s": 20.0,
+      "mean_frame_bytes": 32258.09,
+      "p95_frame_bytes": 35173.45,
+      "max_frame_bytes": 36355,
+      "max_frame_index": 108,
+      "min_frame_bytes": 28407,
+      "video_Mbps": 3.8709708,
+      "media_including_PCM_Mbps": 4.6389708,
+      "window_peak_video_Mbps": {
+        "1": 4.3626,
+        "3": 4.35684,
+        "15": 4.256136,
+        "30": 4.088212
+      },
+      "full_frame_PSNR_RGB_dB": 45.88793794422252,
+      "active_picture_PSNR_RGB_dB": 44.848659700315785,
+      "worst_frame_active_PSNR_dB": 44.12651810300875,
+      "slowest_frame_transfer_ms_at_video_budget": 37.59914052015574,
+      "sustainable_fps_at_budget_same_mean_frame": 29.974198720383015,
+      "sustainable_fps_at_service_less_audio_same_mean_frame": 38.986747200469715,
+      "trace_queue_6Mbps": {
+        "initial_video_bytes_for_trace": 31725.0,
+        "initial_seconds_at_video_bps": 0.0423
+      },
+      "trace_queue_budget": {
+        "initial_video_bytes_for_trace": 31725.0,
+        "initial_seconds_at_video_bps": 0.032810692697068926
+      },
+      "profile": {
+        "markers": [
+          "0xe0",
+          "0xdb",
+          "0xdb",
+          "0xc0",
+          "0xc4",
+          "0xc4",
+          "0xc4",
+          "0xc4",
+          "0xda"
+        ],
+        "sof0": {
+          "precision": 8,
+          "height": 480,
+          "width": 640,
+          "components": 3,
+          "component_specs": [
+            1,
+            34,
+            0,
+            2,
+            17,
+            1,
+            3,
+            17,
+            1
+          ]
+        },
+        "sos": "03010002110311003f00",
+        "dqt_sha256": "dfd00f60e2d001c9b7a624ffb058271932c1d67a8b6f0c23dcaf78f1b15bff8c",
+        "dht_sha256": "153c35f988d6e8467d84986b8141fae5d02a896e6441fbf591e10e9ea5784632",
+        "restart_interval_marker": false
+      },
+      "elapsed_s": 2.668490171432495,
+      "path": "E:\\VSCODE-project\\FPGA-ANLU\\development\\video_codec_trial_20261021\\media\\letterbox640_q93_420.mjpg",
+      "sha256": "c11c1c4515fa4245629f18104b35c74191f5dcfb65f78ceabf151292f5d947cd"
+    },
+    {
+      "geometry": "letterbox640",
+      "width": 640,
+      "height": 480,
+      "active_picture_height": 360,
+      "quality": 95,
+      "jpeg_subsampling": "4:2:0",
+      "huffman": "standard fixed tables",
+      "progressive": false,
+      "fps": 15,
+      "frames": 300,
+      "duration_s": 20.0,
+      "mean_frame_bytes": 38418.806666666664,
+      "p95_frame_bytes": 41826.85,
+      "max_frame_bytes": 43231,
+      "max_frame_index": 109,
+      "min_frame_bytes": 33869,
+      "video_Mbps": 4.6102568,
+      "media_including_PCM_Mbps": 5.3782568,
+      "window_peak_video_Mbps": {
+        "1": 5.18772,
+        "3": 5.17612,
+        "15": 5.061256,
+        "30": 4.862832
+      },
+      "full_frame_PSNR_RGB_dB": 46.66798179757801,
+      "active_picture_PSNR_RGB_dB": 45.63346359059376,
+      "worst_frame_active_PSNR_dB": 44.97515728982493,
+      "slowest_frame_transfer_ms_at_video_budget": 44.71045093733607,
+      "sustainable_fps_at_budget_same_mean_frame": 25.16763231063398,
+      "sustainable_fps_at_service_less_audio_same_mean_frame": 32.734957410615394,
+      "trace_queue_6Mbps": {
+        "initial_video_bytes_for_trace": 37704.0,
+        "initial_seconds_at_video_bps": 0.050272
+      },
+      "trace_queue_budget": {
+        "initial_video_bytes_for_trace": 37704.0,
+        "initial_seconds_at_video_bps": 0.03899430598740069
+      },
+      "profile": {
+        "markers": [
+          "0xe0",
+          "0xdb",
+          "0xdb",
+          "0xc0",
+          "0xc4",
+          "0xc4",
+          "0xc4",
+          "0xc4",
+          "0xda"
+        ],
+        "sof0": {
+          "precision": 8,
+          "height": 480,
+          "width": 640,
+          "components": 3,
+          "component_specs": [
+            1,
+            34,
+            0,
+            2,
+            17,
+            1,
+            3,
+            17,
+            1
+          ]
+        },
+        "sos": "03010002110311003f00",
+        "dqt_sha256": "9e5c5815dcdc9f99324f7ac9b04d95adf265b0973fecc430f0f0b14b4b9da413",
+        "dht_sha256": "153c35f988d6e8467d84986b8141fae5d02a896e6441fbf591e10e9ea5784632",
+        "restart_interval_marker": false
+      },
+      "elapsed_s": 2.7655155658721924,
+      "path": "E:\\VSCODE-project\\FPGA-ANLU\\development\\video_codec_trial_20261021\\media\\letterbox640_q95_420.mjpg",
+      "sha256": "cf7e303fd31321dc5c3c29136f622ef286e730ea4baf0c1431a32deb5b38def3"
+    },
+    {
+      "geometry": "letterbox640",
+      "width": 640,
+      "height": 480,
+      "active_picture_height": 360,
+      "quality": 97,
+      "jpeg_subsampling": "4:2:0",
+      "huffman": "standard fixed tables",
+      "progressive": false,
+      "fps": 15,
+      "frames": 300,
+      "duration_s": 20.0,
+      "mean_frame_bytes": 47503.38,
+      "p95_frame_bytes": 51603.15,
+      "max_frame_bytes": 53437,
+      "max_frame_index": 108,
+      "min_frame_bytes": 41781,
+      "video_Mbps": 5.7004056,
+      "media_including_PCM_Mbps": 6.4684056,
+      "window_peak_video_Mbps": {
+        "1": 6.41244,
+        "3": 6.39952,
+        "15": 6.253848,
+        "30": 6.007824
+      },
+      "full_frame_PSNR_RGB_dB": 47.61014149851947,
+      "active_picture_PSNR_RGB_dB": 46.56127104196023,
+      "worst_frame_active_PSNR_dB": 45.910130110685955,
+      "slowest_frame_transfer_ms_at_video_budget": 55.2657205879676,
+      "sustainable_fps_at_budget_same_mean_frame": 20.354560033412362,
+      "sustainable_fps_at_service_less_audio_same_mean_frame": 26.474705589370696,
+      "trace_queue_6Mbps": {
+        "initial_video_bytes_for_trace": 46554.0,
+        "initial_seconds_at_video_bps": 0.062072
+      },
+      "trace_queue_budget": {
+        "initial_video_bytes_for_trace": 46554.0,
+        "initial_seconds_at_video_bps": 0.04814717061684309
+      },
+      "profile": {
+        "markers": [
+          "0xe0",
+          "0xdb",
+          "0xdb",
+          "0xc0",
+          "0xc4",
+          "0xc4",
+          "0xc4",
+          "0xc4",
+          "0xda"
+        ],
+        "sof0": {
+          "precision": 8,
+          "height": 480,
+          "width": 640,
+          "components": 3,
+          "component_specs": [
+            1,
+            34,
+            0,
+            2,
+            17,
+            1,
+            3,
+            17,
+            1
+          ]
+        },
+        "sos": "03010002110311003f00",
+        "dqt_sha256": "46a908c55befb034accd903f731610f3223413dde68d0336390b79dc70613de4",
+        "dht_sha256": "153c35f988d6e8467d84986b8141fae5d02a896e6441fbf591e10e9ea5784632",
+        "restart_interval_marker": false
+      },
+      "elapsed_s": 2.976658582687378,
+      "path": "E:\\VSCODE-project\\FPGA-ANLU\\development\\video_codec_trial_20261021\\media\\letterbox640_q97_420.mjpg",
+      "sha256": "9eb868acbbcb8f543af77a93c72c7c7a6d6a2570fe2d328f6c81478ccf1e78e9"
+    },
+    {
+      "geometry": "letterbox640",
+      "width": 640,
+      "height": 480,
+      "active_picture_height": 360,
+      "quality": 99,
+      "jpeg_subsampling": "4:2:0",
+      "huffman": "standard fixed tables",
+      "progressive": false,
+      "fps": 15,
+      "frames": 300,
+      "duration_s": 20.0,
+      "mean_frame_bytes": 65161.02,
+      "p95_frame_bytes": 70396.45000000001,
+      "max_frame_bytes": 73482,
+      "max_frame_index": 109,
+      "min_frame_bytes": 57512,
+      "video_Mbps": 7.819322400000001,
+      "media_including_PCM_Mbps": 8.587322400000001,
+      "window_peak_video_Mbps": {
+        "1": 8.81784,
+        "3": 8.78808,
+        "15": 8.572168,
+        "30": 8.2329
+      },
+      "full_frame_PSNR_RGB_dB": 48.58732486293687,
+      "active_picture_PSNR_RGB_dB": 47.55243410020559,
+      "worst_frame_active_PSNR_dB": 46.93934871246178,
+      "slowest_frame_transfer_ms_at_video_budget": 75.99670041815662,
+      "sustainable_fps_at_budget_same_mean_frame": 14.838785519318147,
+      "sustainable_fps_at_service_less_audio_same_mean_frame": 19.300465216781443,
+      "trace_queue_6Mbps": {
+        "initial_video_bytes_for_trace": 4598306.0,
+        "initial_seconds_at_video_bps": 6.131074666666667
+      },
+      "trace_queue_budget": {
+        "initial_video_bytes_for_trace": 324961.0533333309,
+        "initial_seconds_at_video_bps": 0.3360818679097162
+      },
+      "profile": {
+        "markers": [
+          "0xe0",
+          "0xdb",
+          "0xdb",
+          "0xc0",
+          "0xc4",
+          "0xc4",
+          "0xc4",
+          "0xc4",
+          "0xda"
+        ],
+        "sof0": {
+          "precision": 8,
+          "height": 480,
+          "width": 640,
+          "components": 3,
+          "component_specs": [
+            1,
+            34,
+            0,
+            2,
+            17,
+            1,
+            3,
+            17,
+            1
+          ]
+        },
+        "sos": "03010002110311003f00",
+        "dqt_sha256": "b36052de51c50271788a905eaf565a1ed5646e1b936fbccd18da765047812444",
+        "dht_sha256": "153c35f988d6e8467d84986b8141fae5d02a896e6441fbf591e10e9ea5784632",
+        "restart_interval_marker": false
+      },
+      "elapsed_s": 2.801145315170288,
+      "path": "E:\\VSCODE-project\\FPGA-ANLU\\development\\video_codec_trial_20261021\\media\\letterbox640_q99_420.mjpg",
+      "sha256": "a5ab6d118c7a7cdb3cc24109fe69cbb2570b6a100cca3636c8239a00d5488243"
+    }
+  ],
+  "comparison_rules": [
+    "PSNR RGB compared with decoded, resized source; active-picture ROI excludes black bars",
+    "JPEG q values are Pillow/libjpeg settings; use same encoder for comparisons",
+    "4:2:0 baseline sequential SOF0 8bit standard fixed DHT, no progressive, no restart markers",
+    "No JPEG-to-RGB565 hardware implementation or FPGA resource measurement in this stage",
+    "source is already compressed H264; this single clip is low-texture, not worst-case natural video",
+    "software encode/decode timings are host PC timings, not FPGA throughput"
+  ],
+  "next_decoder_contract": {
+    "profile": "SOF0 8-bit YCbCr420; fixed DHT; fixed per-quality DQT; interleaved SOS",
+    "frame_pixels": 307200,
+    "MCUs_per_frame": 1200,
+    "IDCT_8x8_blocks_per_frame": 7200,
+    "15fps_pixels_per_s": 4608000,
+    "15fps_blocks_per_s": 108000,
+    "30fps_pixels_per_s": 9216000,
+    "30fps_blocks_per_s": 216000,
+    "output": "consider block-addressed RGB565 writes; present buffer only on complete-frame and VS",
+    "fixtures": "4 JPEGs plus Pillow-decoded RGB888 and RGB565 LE references; hardware rounding tolerance needs specification"
+  },
+  "bilibili_reference": "https://www.bilibili.com/video/BV1eAJR6tETi",
+  "bilibili_findings": "Public title/owner obtainable; description dash, subtitle list empty; no evidence for SPI, compression or internal resolution. Comment API rejected by automatic review as beyond subtask authorization.",
+  "artifacts": [
+    {
+      "path": "E:\\VSCODE-project\\FPGA-ANLU\\development\\video_codec_trial_20261021\\media\\candidate_640x480_15fps_q95_original_audio.mov",
+      "bytes": 13451518,
+      "sha256": "90abfd44108f71a509588f033247457ff9d3f9f11a48396238e70356cf614d82"
+    },
+    {
+      "path": "E:\\VSCODE-project\\FPGA-ANLU\\development\\video_codec_trial_20261021\\media\\preview_640x480_15fps_original_audio.mp4",
+      "bytes": 2951313,
+      "sha256": "6db6cbce0c2b26ddcb617efe49a8941c4cf2b79642d3d30f1796e6027d704e44"
+    },
+    {
+      "path": "E:\\VSCODE-project\\FPGA-ANLU\\development\\video_codec_trial_20261021\\media\\original_audio_16_36_pcm48k_mono.wav",
+      "bytes": 1920078,
+      "sha256": "30eaf10a6ff1800163cecb3225cce685873b38c9a8e42635f1e5c92b0e95b5de"
+    },
+    {
+      "path": "E:\\VSCODE-project\\FPGA-ANLU\\development\\video_codec_trial_20261021\\media\\original_audio_16_36_pcm48k_mono.pcm",
+      "bytes": 1920000,
+      "sha256": "efc396a9690c470ae3be736314cbe4a0a686db766cef288a6e68c7d5aa0f291f"
+    },
+    {
+      "path": "E:\\VSCODE-project\\FPGA-ANLU\\development\\video_codec_trial_20261021\\inspection\\quality_comparison.png",
+      "bytes": 378191,
+      "sha256": "35d72e9b219c5737cb82704e246af552e7bf21d53bffa9e115397db07bb54708"
+    }
+  ]
+}

@@ -1,0 +1,458 @@
+{
+  "updated_beijing": "2026-10-21 21:10",
+  "status": "OFFLINE_VERIFIED_BOARD_PENDING",
+  "user_pause_request": "Fulfilled at context compaction; user explicitly resumed all tasks including subagents on 2026-10-21.",
+  "project": "E:/VSCODE-project/FPGA-ANLU/development/player_video19",
+  "media": {
+    "format": "640x480 15fps JPEG420 Q90, RGB565 framebuffer;20 seconds original PCM48k/16 mono",
+    "source_clip_seconds": [
+      16,
+      36
+    ],
+    "frames": 300,
+    "files": [
+      "deliverables/video19_c11319_20261021/VIDEO.MJP",
+      "deliverables/video19_c11319_20261021/TEST.WAV"
+    ],
+    "state": "Q90 selected;short-window app,302-record reader and independent HDMI checks PASS",
+    "historical_q95": {
+      "format": "640x480 15fps JPEG420 Q95, RGB565 framebuffer; 20 seconds original PCM48k/16 mono",
+      "source_clip_seconds": [
+        16,
+        36
+      ],
+      "frames": 300,
+      "files": [
+        "deliverables/video19_media_20261021/VIDEO.MJP",
+        "deliverables/video19_media_20261021/TEST.WAV"
+      ],
+      "state": "media hashes and 302-record reader loop verified, bitstream pending"
+    }
+  },
+  "baseline": "C11318 offline baseline/source/bit preserved; previous user all-functions/spectrum feedback was associated with C11313. C11319 has no board evidence.",
+  "resource_trials": [
+    {
+      "name": "initial_RGB565_gate",
+      "gate_lut": 19461,
+      "ff": 10681,
+      "bram9k": 63,
+      "dsp": 22,
+      "mslice": 5613,
+      "capacity": 4900,
+      "result": "packing over capacity"
+    },
+    {
+      "name": "C01",
+      "gate_lut": 18317,
+      "ff": 10538,
+      "bram9k": 62,
+      "dsp": 27,
+      "mslice": 5265,
+      "result": "packing over capacity"
+    },
+    {
+      "name": "C02_medium_pack",
+      "gate_lut": 17010,
+      "ff": 9709,
+      "bram9k": 62,
+      "dsp": 27,
+      "mslice": 5019,
+      "result": "packing over capacity"
+    },
+    {
+      "name": "C02_high_pack",
+      "gate_lut": 17010,
+      "physical_lut": 17879,
+      "physical_ff": 9752,
+      "bram9k": 62,
+      "dsp": 27,
+      "mslice": 4790,
+      "lslice": 4790,
+      "setup_ns": -0.328,
+      "hold_ns": -0.02,
+      "result": "routed, timing pending repair",
+      "evidence": "development/video19_work/combined_area/C02/whole_gate"
+    },
+    {
+      "name": "C03_highpack",
+      "gate_lut": 17045,
+      "physical_lut": 17857,
+      "physical_ff": 9752,
+      "bram9k": 62,
+      "dsp": 27,
+      "mslice": 4787,
+      "lslice": 4761,
+      "setup_ns": -0.812,
+      "hold_ns": -0.013,
+      "result": "Routed;startup global clock removed negative HDMI recovery;9 green-channel setup endpoints remain",
+      "evidence": "development/video19_work/combined_area/C03/whole_routed"
+    },
+    {
+      "name": "C04_elastic_color_posthold",
+      "gate_lut": 17025,
+      "physical_lut": 17889,
+      "physical_ff": 9812,
+      "bram9k": 62,
+      "dsp": 27,
+      "mslice": 4789,
+      "lslice": 4765,
+      "slice_percent": 97.48979591836735,
+      "setup_ns": 0.289,
+      "hold_ns": 0.024,
+      "result": "synthesis/route/hold/bitstream success",
+      "evidence": "development/player_video19/build/manual/stage_evidence",
+      "bit_sha256": "2cc753d6cc2d241cc06e8ecb1e7b5bc86bc08eb99a6f074cba5ca5bf0791e430"
+    }
+  ],
+  "live_C03_changes": [
+    "C02 selected JPEG/compact status retained",
+    "Video read-refill request gets arbitration priority",
+    "Startup counter moves to existing global sd_card_clk 50MHz; nominal 1000001-edge startup unchanged",
+    "high pack_effort in syn and phy",
+    "4 retired diagnostic source files and AL entries deleted"
+  ],
+  "verification": [
+    {
+      "scope": "JPEG exact arithmetic/RAM/profile candidates",
+      "evidence": "development/video19_work/combined_area/C01/frame000/summary.json",
+      "result": "full frame randomized BP exact A08/vendor hash"
+    },
+    {
+      "scope": "A13 coefficient slot RAM clear",
+      "evidence": "development/video19_work/area_analysis/README.md",
+      "result": "16x16/full640/random BP/109 abort+reset/299/synthetic zero-sparse-dense exact"
+    },
+    {
+      "scope": "SDRAM backend concurrent two buffers",
+      "evidence": "development/video19_work/memory_backend/runs/20261021_191235/summary.json",
+      "result": "PASS_SCOPE_PIN_MODEL;307200 display pixels,307200 write words,76800 BL4, no timing errors"
+    },
+    {
+      "scope": "Write-priority negative ablation",
+      "evidence": "development/video19_work/memory_backend/runs/20261021_191303/summary.json",
+      "result": "FAILED pixel x256/y2; old write priority reproduced starvation"
+    },
+    {
+      "scope": "Complete reader300frames+loop+reset",
+      "evidence": "development/video19_work/hdmi_fifo_analysis/stream_loop/runs/stream_loop_20261021_192331_482173/result.json",
+      "result": "302 records CRC/length/23111 LBA all match independent JPEG;random BP/card gaps;error propagation"
+    },
+    {
+      "scope": "Real keys to mode/reset",
+      "evidence": "development/video19_work/hdmi_fifo_analysis/runs/photo_system_20261021_191448/video_controls_result.json",
+      "result": "mode2,next1,auto2,reset3,pause/resume/restart/return-photo,32cycle reset PASS"
+    },
+    {
+      "scope": "Photo/audio/FFT compact diagnostics",
+      "evidence": "development/video19_work/diagnostics_trim/runs/photo_system_20261021_191005/summary.json",
+      "result": "307200 written/read pixels;6378 PCM pushes/4447 consumes;3FFT frames72bands exact"
+    },
+    {
+      "scope": "C02 application video",
+      "evidence": "development/player_video19/build/video_system_20261021_190927/summary.json",
+      "result": "355ms;1536000 decoded pixels,5commits,4distinct frames,12840 exact PCM,underflow0/late0"
+    },
+    {
+      "scope": "C02+read-priority physical-controller video",
+      "evidence": "development/player_video19/build/video_system_20261021_191508/summary.json",
+      "result": "221ms;921600 pixels,3commits,2displayframes,6408 exactPCM,underflow0/late0;PASS_AFTER_STARTUP_TRANSIENT",
+      "limitation": "5 raw model command/hold diagnostics at709-709.2ns retained before1us nominal PLL startup; runtime model errors0; no SDF/board"
+    },
+    {
+      "scope": "C03 photo/audio/FFT",
+      "evidence": "development/video19_work/photo_regression/runs/photo_system_20261021_193318/summary.json",
+      "result": "PASS307200write/read;6378/4447PCM;FFT3frames72bands exact"
+    },
+    {
+      "scope": "C03 application video",
+      "evidence": "development/player_video19/build/video_system_20261021_193318/summary.json",
+      "result": "PASS1536000pixels/5commits/4displayframes/12840PCM,underflow0 late0"
+    },
+    {
+      "scope": "Startup global50MHz change",
+      "evidence": "development/video19_work/startup_clock_unit/runs/modelsim_20261021_193057_final/run.log",
+      "result": "PASS2full1000001-edge cycles old/new,lock loss/reset/sticky release,nominal PLLclock traces"
+    },
+    {
+      "scope": "C04 photo/audio/FFT",
+      "evidence": "development/video19_work/photo_regression/runs/photo_system_20261021_200426/summary.json",
+      "result": "PASS307200write/read;6378/4447PCM;FFT3frames72bands exact"
+    },
+    {
+      "scope": "C04 peak109 second frame + concurrent original PCM",
+      "evidence": "development/player_video19/build/video_system_20261021_200426/summary.json",
+      "result": "PASS288ms;1228800pixels/4commits/3distinct/9624PCM;underflow0 late0;largest43231B JPEG decode+write52.48111ms"
+    },
+    {
+      "scope": "C04 actual synthesized FFT + coefficient ROM",
+      "evidence": "development/player_video19/build/gate_verify/input_manifest.json",
+      "result": "PASS actual gate3frames72bands error0;gate_rom_init.json1536words/3072lanes mismatch0"
+    },
+    {
+      "scope": "C04 current source, build stages, photo/peak compiled copies",
+      "evidence": "development/video19_work/combined_area/C04/source_binding_photo_peak.json",
+      "result": "PASS464file hashes/build link checks"
+    }
+  ],
+  "currently_running": [],
+  "rejected_or_reference": [
+    "greenDSP core max17 and corrected max20 both18DSP,+74LUT,+56Slice,WNS-1.599ns;not selected",
+    "HDMI128FIFO only model success;protected hierarchy parameter access failed;retain1024",
+    "shared IDCT spec only,no RTL"
+  ],
+  "next": [
+    "When hardware is available,load C11319 SRAM,copy Q90 VIDEO.MJP and original TEST.WAV to FAT32 TF,verify full20sec original-audio loop/keys/CRC/underrun/continuous playback",
+    "Record physical SPI/SDRAM/HDMI behavior and sustained run;SDF and board I/O characterization pending"
+  ],
+  "hardware": "No board programming, no physical card write, no flash operations in this turn",
+  "live_C04_changes": [
+    "Exact two-stage elastic color conversion; EOF idle waits for pipeline drain",
+    "jpeg_output.v selected SHA B9539FF30324CA6A6FFCEEDFAF0A865BCB16DD6948CECF2899F8BD8126CB012D",
+    "Production clock/SDC/PLL/SPI unchanged",
+    "Build wrapper retired fault_snapshot pretest removed; stage evidence gates retained"
+  ],
+  "cadence_finding": {
+    "display_refresh_ms": 16.8,
+    "content_frame_ms": 66.6666666667,
+    "phase_repeat_frames": 63,
+    "min_decode_window_ms": 50.1333333333,
+    "actual_q95_trial": "development/player_video19/build/video_system_20261021_203329/summary.json",
+    "result": "FAIL actual JPEG62/63 replay, AUDIO_PHASE780, late at137.8885292ms,583424pixels",
+    "q90_trial": "development/player_video19/build/video_system_20261021_203750",
+    "q90_media": "development/video19_work/media_q90_trial/output",
+    "q90_video_mbps": 3.3165176,
+    "q90_peak_bytes": 31115,
+    "note": "C04 RTL/bitstream unchanged; Q90 trial uses same640480/15fps/20sec original PCM; Q95 evidence retained",
+    "q90_result": "PASS205ms;peak108 decode41.52511ms in50ms window;3commits/2distinct/6446PCM;underflow0 late0",
+    "selected": "Q90"
+  },
+  "final_offline_verification": {
+    "status": "OFFLINE_VERIFIED_BOARD_PENDING",
+    "recorded_beijing": "2026-10-21 21:08",
+    "source_binding_checks": 961,
+    "q90_short_window": {
+      "status": "PASS",
+      "simulation_ms": 205,
+      "original_frame_peak": 108,
+      "decode_ms": 41.52511,
+      "window_ms": 50,
+      "margin_ms": 8.47489,
+      "commits": 3,
+      "distinct_displayed_frames": 2,
+      "original_pcm_exact": 6446,
+      "underflow": 0,
+      "late": 0
+    },
+    "q90_reader": {
+      "status": "PASS",
+      "records": 302,
+      "lba_requests": 16755,
+      "coverage": "300 original frames, wrap0, reset0; length/CRC/LBA exact; gap/backpressure/error stop"
+    },
+    "hdmi_pins": {
+      "status": "PASS",
+      "simulation_ms": 338,
+      "pixels": 5813228,
+      "pcm_exact": 12830,
+      "independent_jpeg_source_frames": 4,
+      "complete_distinct_content_frames": 3,
+      "negative_rgb": "NEGATIVE_CONTROL_PASS",
+      "negative_pcm": "NEGATIVE_CONTROL_PASS"
+    },
+    "physical_sdram": {
+      "status": "PASS_AFTER_STARTUP_TRANSIENT",
+      "recorded_local": "2026-10-21T21:06:47.804501",
+      "scope": "C04 actual SDRAM controller gate + APUG011 IS42s32200 pin model, original Q95 prefix, nominal PLL replay; no SDF or board test",
+      "base_frozen_run": "E:\\VSCODE-project\\FPGA-ANLU\\development\\video19_work\\physical_resume\\runs\\video_system_C04_20261021_200556",
+      "optimized_replay": "E:\\VSCODE-project\\FPGA-ANLU\\development\\video19_work\\physical_resume\\vopt_try_20261021",
+      "optimized_design": "work.tb_video_system_opt_35998",
+      "effective_parameters": {
+        "MAPPED_SECTORS": 35998,
+        "IMAGE_BYTES": 536870912,
+        "CHECK_FRAMES": 2
+      },
+      "completion_evidence": "# VIDEO_SYSTEM_PASS decoded_pixels=921600 commits=3 distinct_frames=2 PCM=6408 underflow=0 late=0",
+      "process_exit_code": null,
+      "process_exit_note": "Launcher exit code was not captured for the explicit-vopt replay; final transcript records VIDEO_SYSTEM_PASS and normal testbench $finish at 221 ms.",
+      "simulation_ms": 221,
+      "decoded_pixels": 921600,
+      "commits": 3,
+      "distinct_displayed_frames": 2,
+      "original_pcm_samples_exact": 6408,
+      "underflow": 0,
+      "frame_late": 0,
+      "startup_model_errors_before_1us": [
+        {
+          "time_ns": 709.0,
+          "message": "# tb_video_system.dut.u_frame_buffer.u_sdram.sdram.reference_memory : at time     709.0 ns ERROR: all banks must be Precharge before Load Mode Register"
+        },
+        {
+          "time_ns": 709.0,
+          "message": "# tb_video_system.dut.u_frame_buffer.u_sdram.sdram.reference_memory : at time     709.0 ns ERROR: tMRD violation during Load Mode Register"
+        },
+        {
+          "time_ns": 709.2,
+          "message": "# ** Error: E:/VSCODE-project/FPGA-ANLU/development/video19_work/physical_resume/runs/video_system_C04_20261021_200556/IS42s32200.v(954): $hold( posedge Clk:709200 ps, Ras_n:709200 ps, 1 ns );"
+        },
+        {
+          "time_ns": 709.2,
+          "message": "# ** Error: E:/VSCODE-project/FPGA-ANLU/development/video19_work/physical_resume/runs/video_system_C04_20261021_200556/IS42s32200.v(953): $hold( posedge Clk:709200 ps, Cas_n:709200 ps, 1 ns );"
+        },
+        {
+          "time_ns": 709.2,
+          "message": "# ** Error: E:/VSCODE-project/FPGA-ANLU/development/video19_work/physical_resume/runs/video_system_C04_20261021_200556/IS42s32200.v(955): $hold( posedge Clk:709200 ps, We_n:709200 ps, 1 ns );"
+        }
+      ],
+      "runtime_model_errors": [],
+      "prior_attempts": "Original novopt FAILED summary and earlier vopt parameter-range attempts retained unchanged; this result describes only run_opt_35998.",
+      "files": [
+        {
+          "path": "E:\\VSCODE-project\\FPGA-ANLU\\development\\video19_work\\physical_resume\\vopt_try_20261021\\run_opt_35998_console.log",
+          "bytes": 18663,
+          "sha256": "bf7d4e12f3400090c30fe22ddd9d26c80d08bd466d39cf92aabda5b4c1c19ea7"
+        },
+        {
+          "path": "E:\\VSCODE-project\\FPGA-ANLU\\development\\video19_work\\physical_resume\\vopt_try_20261021\\run_opt_35998.log",
+          "bytes": 18608,
+          "sha256": "f8a3acbd9d3530cf365a9cd1b69c555c7aa4b8e59ecfed41d0e775e1814a5526"
+        },
+        {
+          "path": "E:\\VSCODE-project\\FPGA-ANLU\\development\\video19_work\\physical_resume\\vopt_try_20261021\\vopt_35998.log",
+          "bytes": 629664,
+          "sha256": "99fc0c2fb069e340829bf7f1696004b85af19ec51e0cfd7f277fffdb0b9562da"
+        },
+        {
+          "path": "E:\\VSCODE-project\\FPGA-ANLU\\development\\video19_work\\physical_resume\\vopt_try_20261021\\run.do",
+          "bytes": 81,
+          "sha256": "6c7a4c92cb1fc4abf11ad5acf90cd5a376707d51501c6bfd393487873822d942"
+        },
+        {
+          "path": "E:\\VSCODE-project\\FPGA-ANLU\\development\\video19_work\\physical_resume\\vopt_try_20261021\\modelsim.ini",
+          "bytes": 326,
+          "sha256": "7daa7784567491b3faae6c2190e4b323bdecf1bd4b1101512f1fc545957cdae4"
+        },
+        {
+          "path": "E:\\VSCODE-project\\FPGA-ANLU\\development\\video19_work\\physical_resume\\vopt_try_20261021\\packed_mem.mem",
+          "bytes": 36897950,
+          "sha256": "6d227ab065acf302ef076c4624ecf28a533e63c1c6e05b3e22a7848e1d24ff36"
+        },
+        {
+          "path": "E:\\VSCODE-project\\FPGA-ANLU\\development\\video19_work\\physical_resume\\vopt_try_20261021\\lba_map.mem",
+          "bytes": 323982,
+          "sha256": "7f717b6e0063d8f4c55708bd622129683f1773ad799cbab6ba01f9485bd963ce"
+        },
+        {
+          "path": "E:\\VSCODE-project\\FPGA-ANLU\\development\\video19_work\\physical_resume\\vopt_try_20261021\\jpeg_crc.mem",
+          "bytes": 3000,
+          "sha256": "dc94a82420142c00e7e3017620e6b28e512d4d114e4c5c8a472bccdabf280dd3"
+        },
+        {
+          "path": "E:\\VSCODE-project\\FPGA-ANLU\\development\\video19_work\\physical_resume\\vopt_try_20261021\\pcm.mem",
+          "bytes": 5760000,
+          "sha256": "4d997420be682687c09311812c76a3c58854d59b57b3ef199a4b6be3e9a3ff6d"
+        },
+        {
+          "path": "E:\\VSCODE-project\\FPGA-ANLU\\development\\video19_work\\physical_resume\\runs\\video_system_C04_20261021_200556\\source_receipt.json",
+          "bytes": 36629,
+          "sha256": "36e5686f38756680e0d3c2f4d3282e6238d3a1a45d1d415a7e3c309f55e21cb4"
+        },
+        {
+          "path": "E:\\VSCODE-project\\FPGA-ANLU\\development\\video19_work\\physical_resume\\runs\\video_system_C04_20261021_200556\\sources.f",
+          "bytes": 13292,
+          "sha256": "f9fba12f033598d2d48a939a2494b44c73d573c9f669ec32130cb59496312160"
+        },
+        {
+          "path": "E:\\VSCODE-project\\FPGA-ANLU\\development\\video19_work\\physical_resume\\runs\\video_system_C04_20261021_200556\\plain.f",
+          "bytes": 13292,
+          "sha256": "f9fba12f033598d2d48a939a2494b44c73d573c9f669ec32130cb59496312160"
+        },
+        {
+          "path": "E:\\VSCODE-project\\FPGA-ANLU\\development\\video19_work\\physical_resume\\runs\\video_system_C04_20261021_200556\\compile.log",
+          "bytes": 23650,
+          "sha256": "d6ca931a5cabe3ccb30566ffe54d5d4f4824f2a66718859a1c5e8964b1348104"
+        },
+        {
+          "path": "E:\\VSCODE-project\\FPGA-ANLU\\development\\video19_work\\physical_resume\\runs\\video_system_C04_20261021_200556\\controller_gate.v",
+          "bytes": 297217,
+          "sha256": "89f949eba178ded57a4cf5bc65bc0743be6ecaa235ca895718edcc4ba4a9c443"
+        },
+        {
+          "path": "E:\\VSCODE-project\\FPGA-ANLU\\development\\video19_work\\physical_resume\\runs\\video_system_C04_20261021_200556\\sdram_issi_reference_wrapper.v",
+          "bytes": 452,
+          "sha256": "7ebc42fc01eaf44b93f7ada407f6d36bf165dc30e033b8f673bbc28309b1c130"
+        },
+        {
+          "path": "E:\\VSCODE-project\\FPGA-ANLU\\development\\video19_work\\physical_resume\\runs\\video_system_C04_20261021_200556\\IS42s32200.v",
+          "bytes": 40558,
+          "sha256": "6aad09c411b00e319ea6e7ff5a85453eb990532541ae368084406f78a276690b"
+        },
+        {
+          "path": "E:\\VSCODE-project\\FPGA-ANLU\\development\\video19_work\\physical_resume\\runs\\video_system_C04_20261021_200556\\tb_video_system.v",
+          "bytes": 6812,
+          "sha256": "55121532fb5a3361c5322668057dd1fef7615cb45fc73f06c11db6a4ba1abf94"
+        },
+        {
+          "path": "E:\\VSCODE-project\\FPGA-ANLU\\development\\video19_work\\physical_resume\\runs\\video_system_C04_20261021_200556\\pll_clock_replay.v",
+          "bytes": 160586,
+          "sha256": "82a0a5b4b57f34e7b9568215a0d66d1788629773b4287337f5643c0a5f6a6f25"
+        },
+        {
+          "path": "E:\\VSCODE-project\\FPGA-ANLU\\development\\video19_work\\physical_resume\\runs\\video_system_C04_20261021_200556\\clock_qualification.json",
+          "bytes": 3376,
+          "sha256": "1c794fe8eef2a3601b1b4c3a6878e15af674d754f1d37e9335baf6f151e300c4"
+        }
+      ]
+    },
+    "photo_fft": {
+      "status": "PASS",
+      "pixels": 307200,
+      "pcm_pushes": 6378,
+      "pcm_consumes_exact": 4447,
+      "fft_frames": 3,
+      "bands": 72,
+      "max_error": 0
+    },
+    "gate_fft": {
+      "status": "PASS",
+      "fft_frames": 3,
+      "bands": 72,
+      "max_error": 0
+    },
+    "rom_gate_and_routed": {
+      "status": "PASS",
+      "words_per_audit": 1536,
+      "lanes_per_audit": 3072,
+      "mismatches": 0
+    },
+    "routed_controls_clocks": {
+      "status": "PASS",
+      "control_truth_rows": 192,
+      "clock_checks": 28
+    },
+    "q95_negative_phase": {
+      "status": "EXPECTED_FAILURE_RECORDED",
+      "phase": 780,
+      "failure_ms": 137.8885292,
+      "reason": "frame_late"
+    },
+    "hardware_pending": [
+      "full20s original-audio playback and loop",
+      "pause/restart/photo switch",
+      "physical TF/SDRAM/HDMI and sustained playback",
+      "SPI board I/O characterization",
+      "SDF"
+    ]
+  },
+  "delivery": {
+    "directory": "E:\\VSCODE-project\\FPGA-ANLU\\deliverables\\video19_c11319_20261021",
+    "archive": "E:\\VSCODE-project\\FPGA-ANLU\\deliverables\\video19_c11319_20261021.zip",
+    "archive_sha256": "002dbe02cc30bc6f647a1ca20e5d42678949bbad9fa6ff499895c219519ded15",
+    "archive_bytes": 11649855,
+    "checkpoint": "E:\\VSCODE-project\\FPGA-ANLU\\development\\player_video19\\checkpoints\\C11319_video19_20261021_offline",
+    "checkpoint_files": 3430,
+    "checkpoint_manifest_sha256": "b7259ba867b930231194942784d40dd1808475155a860a2a9ebe901879d2d920",
+    "binding_checks": 961,
+    "bit_copies_match": true,
+    "archive_crc_and_hashes": "PASS"
+  }
+}

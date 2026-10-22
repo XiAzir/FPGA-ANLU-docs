@@ -1,0 +1,116 @@
+{
+  "units": "MB=10^6 bytes; Mbps=10^6 bits/s; KiB=1024 bytes; MiB=2^20 bytes",
+  "resolution": [
+    640,
+    480
+  ],
+  "pixels_per_frame": 307200,
+  "display_refresh_hz": 59.523809523809526,
+  "spi_wire_Bps": 1562500,
+  "byte_test_period_ns": 720,
+  "byte_test_Bps": 1388888.888888889,
+  "simulation_sector_service_Bps": 1353638,
+  "audio_mono_pcm16_48k_Bps": 96000,
+  "other_allowance_Bps": 20000,
+  "headroom_fraction": 0.2,
+  "video_budget_Bps": 966910.4000000001,
+  "video_budget_Mbps": 7.735283200000001,
+  "formats": [
+    {
+      "name": "RGB888",
+      "bpp": 24,
+      "bytes_per_frame": 921600,
+      "two_buffers_bytes": 1843200,
+      "wire_only_fps": 1.6954210069444444,
+      "byte_test_fps": 1.5070408950617284,
+      "service_fps": 1.468791232638889,
+      "service_with_mono_audio_fps": 1.3646245659722223,
+      "budget_fps": 1.0491649305555557,
+      "scan_MBps": 54.85714285714286,
+      "scan_plus_write30_MBps": 82.50514285714286,
+      "raw_Mbps": {
+        "15": 110.592,
+        "25": 184.32,
+        "30": 221.184,
+        "60": 442.368
+      }
+    },
+    {
+      "name": "RGB565",
+      "bpp": 16,
+      "bytes_per_frame": 614400,
+      "two_buffers_bytes": 1228800,
+      "wire_only_fps": 2.5431315104166665,
+      "byte_test_fps": 2.2605613425925926,
+      "service_fps": 2.2031868489583335,
+      "service_with_mono_audio_fps": 2.0469368489583335,
+      "budget_fps": 1.5737473958333335,
+      "scan_MBps": 36.57142857142858,
+      "scan_plus_write30_MBps": 55.003428571428564,
+      "raw_Mbps": {
+        "15": 73.728,
+        "25": 122.88,
+        "30": 147.456,
+        "60": 294.912
+      }
+    },
+    {
+      "name": "RGB332",
+      "bpp": 8,
+      "bytes_per_frame": 307200,
+      "two_buffers_bytes": 614400,
+      "wire_only_fps": 5.086263020833333,
+      "byte_test_fps": 4.521122685185185,
+      "service_fps": 4.406373697916667,
+      "service_with_mono_audio_fps": 4.093873697916667,
+      "budget_fps": 3.147494791666667,
+      "scan_MBps": 18.28571428571429,
+      "scan_plus_write30_MBps": 27.501714285714282,
+      "raw_Mbps": {
+        "15": 36.864,
+        "25": 61.44,
+        "30": 73.728,
+        "60": 147.456
+      }
+    }
+  ],
+  "compressed_6Mbps": [
+    {
+      "fps": 15,
+      "average_bytes_per_frame": 50000.0,
+      "compression_ratio_RGB888": 18.432,
+      "compression_ratio_RGB565": 12.288
+    },
+    {
+      "fps": 24,
+      "average_bytes_per_frame": 31250.0,
+      "compression_ratio_RGB888": 29.4912,
+      "compression_ratio_RGB565": 19.6608
+    },
+    {
+      "fps": 25,
+      "average_bytes_per_frame": 30000.0,
+      "compression_ratio_RGB888": 30.72,
+      "compression_ratio_RGB565": 20.48
+    },
+    {
+      "fps": 30,
+      "average_bytes_per_frame": 25000.0,
+      "compression_ratio_RGB888": 36.864,
+      "compression_ratio_RGB565": 24.576
+    },
+    {
+      "fps": 59.523809523809526,
+      "average_bytes_per_frame": 12600.0,
+      "compression_ratio_RGB888": 73.14285714285714,
+      "compression_ratio_RGB565": 48.761904761904766
+    }
+  ],
+  "compressed_buffer_256KiB_seconds_at_6Mbps": 0.34952533333333335,
+  "decoder_pixel_rates": {
+    "15": 4608000,
+    "25": 7680000,
+    "30": 9216000,
+    "59.523809523809526": 18285714.285714287
+  }
+}

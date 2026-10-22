@@ -1,0 +1,604 @@
+{
+  "result": "PASS",
+  "encoding_variants": 27,
+  "JPEG_frames": 9000,
+  "visual_review": "three PDF pages and quality comparison inspected; no clipping or missing glyphs",
+  "audio_samples": 960000,
+  "MOV_JPEG_PCM_roundtrip": "byte-identical",
+  "preview_decoded_frames": 300,
+  "report_sha256": "73c558894c5d930659948699fe8ff9bfd72dc18e0b39e2057f931155d59aecb1",
+  "baseline_bit_sha256": "68e3ad82238f6e10f3ef2c69de2b5f90a8aa2f66a7a5f313455c9c0372a61f24",
+  "tool": {
+    "ffmpeg": "E:/JianyingPro/11.2.0.14339/ffmpeg.exe",
+    "ffmpeg_sha256": "3b3f52e76c3a720d6b507eb64dbdd5ba859ccb5a2dac418f05d3ef398fae497b"
+  },
+  "scope": "PC material encoding, software decode/metric checks and public core screening; no TD, JPEG RTL simulation, integration or board run",
+  "preserved_failure": "AVI mux timebase mismatch; retained under attempts/avi_timebase; MOV replacement verified",
+  "files": [
+    {
+      "path": "E:\\QQ CACHE\\Download\\安路资料\\开发记录\\专题记录\\视频素材实验_20261021\\encoding_comparison.csv",
+      "bytes": 2916,
+      "sha256": "f00280dd2917abaab2be7a99314a0d34776d6265242f6007e024c38fbab29bcf"
+    },
+    {
+      "path": "E:\\QQ CACHE\\Download\\安路资料\\开发记录\\专题记录\\视频素材实验_20261021\\experiment_results.json",
+      "bytes": 73940,
+      "sha256": "7809287343facaeb59e3770e6966dbeb616ed5d0cc5f920a4fc4c50ec9a18f31"
+    },
+    {
+      "path": "E:\\QQ CACHE\\Download\\安路资料\\开发记录\\专题记录\\视频素材实验_20261021\\本地视频编码与带宽实验报告.pdf",
+      "bytes": 694313,
+      "sha256": "73c558894c5d930659948699fe8ff9bfd72dc18e0b39e2057f931155d59aecb1"
+    },
+    {
+      "path": "E:\\VSCODE-project\\FPGA-ANLU\\development\\video_codec_trial_20261021\\attempts\\avi_timebase\\candidate_timebase_failed.avi",
+      "bytes": 13475820,
+      "sha256": "12603dbbbfb50194346f725c3529ebdc28ad04c740ad9c2e959d228761506521"
+    },
+    {
+      "path": "E:\\VSCODE-project\\FPGA-ANLU\\development\\video_codec_trial_20261021\\core_screen\\README.md",
+      "bytes": 5281,
+      "sha256": "fa0f3ae85c76c67d1c8804dac7b66a020b83ef84b7b350667841f9c6dd31063a"
+    },
+    {
+      "path": "E:\\VSCODE-project\\FPGA-ANLU\\development\\video_codec_trial_20261021\\decoder_fixture\\frame_000.jpg",
+      "bytes": 37704,
+      "sha256": "27a5a40d877c08fca9876c1b3d768bedfcdd24978bc057fa51c452239f00fef0"
+    },
+    {
+      "path": "E:\\VSCODE-project\\FPGA-ANLU\\development\\video_codec_trial_20261021\\decoder_fixture\\frame_000_pillow_rgb565_le.bin",
+      "bytes": 614400,
+      "sha256": "5e3194b0bc83dee7f120b2a49637153f0df0c50e89309fb6071cd28c1b9efb1f"
+    },
+    {
+      "path": "E:\\VSCODE-project\\FPGA-ANLU\\development\\video_codec_trial_20261021\\decoder_fixture\\frame_000_pillow_rgb888.bin",
+      "bytes": 921600,
+      "sha256": "4d9099e9fb6b81cd6d7aa81ddafff1226e0a40d06131c6fc8aac519e4662d1a9"
+    },
+    {
+      "path": "E:\\VSCODE-project\\FPGA-ANLU\\development\\video_codec_trial_20261021\\decoder_fixture\\frame_109.jpg",
+      "bytes": 43231,
+      "sha256": "d8f2391bb4b4ba48a944a424e9e258c1b04815b71f08309b7189dbab21904c2c"
+    },
+    {
+      "path": "E:\\VSCODE-project\\FPGA-ANLU\\development\\video_codec_trial_20261021\\decoder_fixture\\frame_109_pillow_rgb565_le.bin",
+      "bytes": 614400,
+      "sha256": "7dd1117793a7ee9c95b721004296713d6de0c7cff4b75c3e82ba163967c023e7"
+    },
+    {
+      "path": "E:\\VSCODE-project\\FPGA-ANLU\\development\\video_codec_trial_20261021\\decoder_fixture\\frame_109_pillow_rgb888.bin",
+      "bytes": 921600,
+      "sha256": "c0b3bde264661209e4afc0619b4faf43d2d1832a440b699b21f22188ae7718ea"
+    },
+    {
+      "path": "E:\\VSCODE-project\\FPGA-ANLU\\development\\video_codec_trial_20261021\\decoder_fixture\\frame_150.jpg",
+      "bytes": 38411,
+      "sha256": "95068a1b561b1626f7a86762f510a6a7609c883372d4070eda04c9e473d862cf"
+    },
+    {
+      "path": "E:\\VSCODE-project\\FPGA-ANLU\\development\\video_codec_trial_20261021\\decoder_fixture\\frame_150_pillow_rgb565_le.bin",
+      "bytes": 614400,
+      "sha256": "55de65875aa98a997fbc19474ac2adfc4db9dbe953e29dccf7a0934d951156d5"
+    },
+    {
+      "path": "E:\\VSCODE-project\\FPGA-ANLU\\development\\video_codec_trial_20261021\\decoder_fixture\\frame_150_pillow_rgb888.bin",
+      "bytes": 921600,
+      "sha256": "42007084b28665256533bea4dfab4e3fd2479a73f35d4d811ada466dcfcc6e30"
+    },
+    {
+      "path": "E:\\VSCODE-project\\FPGA-ANLU\\development\\video_codec_trial_20261021\\decoder_fixture\\frame_299.jpg",
+      "bytes": 35721,
+      "sha256": "7aa0b369582668e246b0da205e31954217cc475f57e78877219b632f66c15c6c"
+    },
+    {
+      "path": "E:\\VSCODE-project\\FPGA-ANLU\\development\\video_codec_trial_20261021\\decoder_fixture\\frame_299_pillow_rgb565_le.bin",
+      "bytes": 614400,
+      "sha256": "5c4817f2e0e09647ae481beae74142c0d3837204ce43301a7d2d63a1acff23d5"
+    },
+    {
+      "path": "E:\\VSCODE-project\\FPGA-ANLU\\development\\video_codec_trial_20261021\\decoder_fixture\\frame_299_pillow_rgb888.bin",
+      "bytes": 921600,
+      "sha256": "737612a7202a5b1146448bc95a47434de06329c51941d8670f96206256e5833f"
+    },
+    {
+      "path": "E:\\VSCODE-project\\FPGA-ANLU\\development\\video_codec_trial_20261021\\inspection\\quality_comparison.png",
+      "bytes": 378191,
+      "sha256": "35d72e9b219c5737cb82704e246af552e7bf21d53bffa9e115397db07bb54708"
+    },
+    {
+      "path": "E:\\VSCODE-project\\FPGA-ANLU\\development\\video_codec_trial_20261021\\inspection\\source_contact.png",
+      "bytes": 497125,
+      "sha256": "915e9e3fa0841918648d209f82927318ea29fa87318a58b1a310f74340d6138b"
+    },
+    {
+      "path": "E:\\VSCODE-project\\FPGA-ANLU\\development\\video_codec_trial_20261021\\logs\\benchmark_30fps.log",
+      "bytes": 243,
+      "sha256": "e7ea6ff812c779c31c5884888513758cacc2bdc3a2d741e859b441d40b497996"
+    },
+    {
+      "path": "E:\\VSCODE-project\\FPGA-ANLU\\development\\video_codec_trial_20261021\\logs\\benchmark_crop640.log",
+      "bytes": 584,
+      "sha256": "c6579bdb7a996c0f1798647914949b5d5dd67e319d74f2ee9f06aa387969056f"
+    },
+    {
+      "path": "E:\\VSCODE-project\\FPGA-ANLU\\development\\video_codec_trial_20261021\\logs\\benchmark_letterbox320.log",
+      "bytes": 622,
+      "sha256": "cbc1798f9b8da2d595fe965efd0eb831145633873493581ec8faed69fa11526b"
+    },
+    {
+      "path": "E:\\VSCODE-project\\FPGA-ANLU\\development\\video_codec_trial_20261021\\logs\\benchmark_letterbox640.log",
+      "bytes": 624,
+      "sha256": "ce8f28e123d90813202f78d60929a8cf53a2363030672590a5442765e52fa03f"
+    },
+    {
+      "path": "E:\\VSCODE-project\\FPGA-ANLU\\development\\video_codec_trial_20261021\\logs\\benchmark_quantization.log",
+      "bytes": 392,
+      "sha256": "9128f554858b148ccb96267ba16eb5ad130fb5a29974228ba9d7ebe81162cb8a"
+    },
+    {
+      "path": "E:\\VSCODE-project\\FPGA-ANLU\\development\\video_codec_trial_20261021\\logs\\contact.log",
+      "bytes": 2200,
+      "sha256": "c88d8e1610b07d7979d740cc1f0f0cbba4e20cfea389fe60fff48cec88ed804a"
+    },
+    {
+      "path": "E:\\VSCODE-project\\FPGA-ANLU\\development\\video_codec_trial_20261021\\logs\\extract_30fps.log",
+      "bytes": 2094,
+      "sha256": "3dd924fbdf2b9c9989fd8f41edd27a6743196d88b95ab0dfabf93d99bd13329e"
+    },
+    {
+      "path": "E:\\VSCODE-project\\FPGA-ANLU\\development\\video_codec_trial_20261021\\logs\\extract_320.log",
+      "bytes": 1097,
+      "sha256": "d7176d42d9014fe9a637fdd2ccd47aa71a7f024f10fd999e192dbc17df7378d9"
+    },
+    {
+      "path": "E:\\VSCODE-project\\FPGA-ANLU\\development\\video_codec_trial_20261021\\logs\\extract_audio.log",
+      "bytes": 1789,
+      "sha256": "9157b94ef77897d37937ff8acd9f34711634d9ab23143f0c46d49401af80d6a1"
+    },
+    {
+      "path": "E:\\VSCODE-project\\FPGA-ANLU\\development\\video_codec_trial_20261021\\logs\\extract_crop.log",
+      "bytes": 1907,
+      "sha256": "ad1511b91965f367be546d040f7398435bf7e1b1ca779978783fda23ec70d31c"
+    },
+    {
+      "path": "E:\\VSCODE-project\\FPGA-ANLU\\development\\video_codec_trial_20261021\\logs\\extract_rgb.log",
+      "bytes": 1890,
+      "sha256": "670f744bc54bbeeabe2c9194b3219583810bf77bc6b7ab307f6384a2aad88716"
+    },
+    {
+      "path": "E:\\VSCODE-project\\FPGA-ANLU\\development\\video_codec_trial_20261021\\logs\\mux_candidate.log",
+      "bytes": 1510,
+      "sha256": "1f6847ff2005ddfb8d2b2507a3f6cd9a8ddb1427d9c1b4f0e51fe1e0dc2cecd8"
+    },
+    {
+      "path": "E:\\VSCODE-project\\FPGA-ANLU\\development\\video_codec_trial_20261021\\logs\\mux_candidate_mov.log",
+      "bytes": 1503,
+      "sha256": "c61b714f399a70d5f83a779777d556c33de8e12434bb25fe3ae0e64055e07a3c"
+    },
+    {
+      "path": "E:\\VSCODE-project\\FPGA-ANLU\\development\\video_codec_trial_20261021\\logs\\preview_mp4.log",
+      "bytes": 1908,
+      "sha256": "807ec62f449d930399a75984c06da0ddb52998ce044b4738fef60babeff59f70"
+    },
+    {
+      "path": "E:\\VSCODE-project\\FPGA-ANLU\\development\\video_codec_trial_20261021\\logs\\ssim.log",
+      "bytes": 1720,
+      "sha256": "92ea6fbc40f8f5ffe8ec06cc98ac20a5090cea10b6ca678b133591c82f794670"
+    },
+    {
+      "path": "E:\\VSCODE-project\\FPGA-ANLU\\development\\video_codec_trial_20261021\\logs\\verify_avi_roundtrip.log",
+      "bytes": 1972,
+      "sha256": "35541658c1b543ee9958d65aa8e7a31b9e5273c9ebc75a59a32f52b651213fe2"
+    },
+    {
+      "path": "E:\\VSCODE-project\\FPGA-ANLU\\development\\video_codec_trial_20261021\\logs\\verify_mov_roundtrip.log",
+      "bytes": 3118,
+      "sha256": "a970cab2a9a83e5f641d52c52b9d4bb2ae2c2e1bbfc2f73d6860f40082e2cff5"
+    },
+    {
+      "path": "E:\\VSCODE-project\\FPGA-ANLU\\development\\video_codec_trial_20261021\\logs\\verify_preview_decode.log",
+      "bytes": 2607,
+      "sha256": "12ee55d01639982c3ca6b272dc035c463bb794148419078f06ed28dd78876adf"
+    },
+    {
+      "path": "E:\\VSCODE-project\\FPGA-ANLU\\development\\video_codec_trial_20261021\\media\\candidate_640x480_15fps_q95_original_audio.mov",
+      "bytes": 13451518,
+      "sha256": "90abfd44108f71a509588f033247457ff9d3f9f11a48396238e70356cf614d82"
+    },
+    {
+      "path": "E:\\VSCODE-project\\FPGA-ANLU\\development\\video_codec_trial_20261021\\media\\crop640_q65_420.mjpg",
+      "bytes": 4561755,
+      "sha256": "7cc60bbc47ee8cffff741091472d4a112eb39e562d662bf02e857d22375eaa2f"
+    },
+    {
+      "path": "E:\\VSCODE-project\\FPGA-ANLU\\development\\video_codec_trial_20261021\\media\\crop640_q75_420.mjpg",
+      "bytes": 5277843,
+      "sha256": "f6b9ae1217976db3a4bf5e5a62bad236514941fc00aa61e021a96e196dc54a21"
+    },
+    {
+      "path": "E:\\VSCODE-project\\FPGA-ANLU\\development\\video_codec_trial_20261021\\media\\crop640_q85_420.mjpg",
+      "bytes": 6734112,
+      "sha256": "bacabe5f429c96387ab17b624bd0864aa8d50f658f1aab9eea1fe453107a23a4"
+    },
+    {
+      "path": "E:\\VSCODE-project\\FPGA-ANLU\\development\\video_codec_trial_20261021\\media\\crop640_q90_420.mjpg",
+      "bytes": 8297168,
+      "sha256": "9a4f3b3baadce4cc41227af761d991fffaf2c60bc5f0674d3f8f011e7ad77b09"
+    },
+    {
+      "path": "E:\\VSCODE-project\\FPGA-ANLU\\development\\video_codec_trial_20261021\\media\\crop640_q93_420.mjpg",
+      "bytes": 9805030,
+      "sha256": "6dde234e10472a83fd6b1947d9912d13da8e1a9df5fc2a67621b5fcda65b7302"
+    },
+    {
+      "path": "E:\\VSCODE-project\\FPGA-ANLU\\development\\video_codec_trial_20261021\\media\\crop640_q95_420.mjpg",
+      "bytes": 11849329,
+      "sha256": "23e12e8c9c0e28d610e04d253989646efbd4fd674a6094b862d75515969e0d65"
+    },
+    {
+      "path": "E:\\VSCODE-project\\FPGA-ANLU\\development\\video_codec_trial_20261021\\media\\crop640_q97_420.mjpg",
+      "bytes": 14683588,
+      "sha256": "4395a6459b26f014e763c5c3f8f2fb70d66f09307c5b2e0116c6873ef5bcb465"
+    },
+    {
+      "path": "E:\\VSCODE-project\\FPGA-ANLU\\development\\video_codec_trial_20261021\\media\\crop640_q99_420.mjpg",
+      "bytes": 20012724,
+      "sha256": "92b145d5944a9cc05dad69c145a1382cde05938101f4c162710f3c85dd6b3178"
+    },
+    {
+      "path": "E:\\VSCODE-project\\FPGA-ANLU\\development\\video_codec_trial_20261021\\media\\letterbox320_q65_420.mjpg",
+      "bytes": 1984184,
+      "sha256": "9493078ea1c1e93fa23e3cebfc43188417d066aed69465a7f166ce83530bca62"
+    },
+    {
+      "path": "E:\\VSCODE-project\\FPGA-ANLU\\development\\video_codec_trial_20261021\\media\\letterbox320_q75_420.mjpg",
+      "bytes": 2249845,
+      "sha256": "3b3886d909590c3e18ac20e7b0ab3e4b06b5c77726bcf026c5bd1c9c5d4cd086"
+    },
+    {
+      "path": "E:\\VSCODE-project\\FPGA-ANLU\\development\\video_codec_trial_20261021\\media\\letterbox320_q85_420.mjpg",
+      "bytes": 2810587,
+      "sha256": "d50fa85849cc67caba77b10679951219816ebf941ddbb085f3e434ae80d362a6"
+    },
+    {
+      "path": "E:\\VSCODE-project\\FPGA-ANLU\\development\\video_codec_trial_20261021\\media\\letterbox320_q90_420.mjpg",
+      "bytes": 3379895,
+      "sha256": "274a852db0b093ab5e60e3a7c696ba4d14b251f8953ebdb150e974f8edfb9706"
+    },
+    {
+      "path": "E:\\VSCODE-project\\FPGA-ANLU\\development\\video_codec_trial_20261021\\media\\letterbox320_q93_420.mjpg",
+      "bytes": 3918031,
+      "sha256": "4b05b7f9d92eb09862ca6269c34f0abb63d07e017e25a00080e67414a894ba8e"
+    },
+    {
+      "path": "E:\\VSCODE-project\\FPGA-ANLU\\development\\video_codec_trial_20261021\\media\\letterbox320_q95_420.mjpg",
+      "bytes": 4654478,
+      "sha256": "e8d081cb85e020822cb74d2c51071545a12142fbd114152ab1dec8aed7031733"
+    },
+    {
+      "path": "E:\\VSCODE-project\\FPGA-ANLU\\development\\video_codec_trial_20261021\\media\\letterbox320_q97_420.mjpg",
+      "bytes": 5702815,
+      "sha256": "c18333be5cd37d0bc2c74afb76e86bbbf6c35f9d96eae1c9253efbe590cbb86e"
+    },
+    {
+      "path": "E:\\VSCODE-project\\FPGA-ANLU\\development\\video_codec_trial_20261021\\media\\letterbox320_q99_420.mjpg",
+      "bytes": 7822771,
+      "sha256": "20e4a326f1cae547366f55eef29933d7415e0ba1056a5a30fc11d11b1ea60ade"
+    },
+    {
+      "path": "E:\\VSCODE-project\\FPGA-ANLU\\development\\video_codec_trial_20261021\\media\\letterbox640_30_q85_420.mjpg",
+      "bytes": 13683568,
+      "sha256": "80fddd20c10fc0fdd9d25cee910d4a321d009db8730e32022f8806b3a5122f71"
+    },
+    {
+      "path": "E:\\VSCODE-project\\FPGA-ANLU\\development\\video_codec_trial_20261021\\media\\letterbox640_30_q90_420.mjpg",
+      "bytes": 16578461,
+      "sha256": "8f053a11c042a87abf689a1e7bf7ecfdce50a80530f1cbae0a733234ba0c734b"
+    },
+    {
+      "path": "E:\\VSCODE-project\\FPGA-ANLU\\development\\video_codec_trial_20261021\\media\\letterbox640_30_q95_420.mjpg",
+      "bytes": 23043988,
+      "sha256": "fd16364b869189a853dde6489932be517e772e0531a1ba98d42a72c89bbb1404"
+    },
+    {
+      "path": "E:\\VSCODE-project\\FPGA-ANLU\\development\\video_codec_trial_20261021\\media\\letterbox640_q65_420.mjpg",
+      "bytes": 4840444,
+      "sha256": "bd785b11226449ccd3b3e11e90219ec70f446e3ed8c58b7861fe3b05e9ee8e0c"
+    },
+    {
+      "path": "E:\\VSCODE-project\\FPGA-ANLU\\development\\video_codec_trial_20261021\\media\\letterbox640_q75_420.mjpg",
+      "bytes": 5519215,
+      "sha256": "7b629ccc9d8d61db97700ea1b392f209f3953b80757b785dd8ae05a1e51b4fda"
+    },
+    {
+      "path": "E:\\VSCODE-project\\FPGA-ANLU\\development\\video_codec_trial_20261021\\media\\letterbox640_q85_420.mjpg",
+      "bytes": 6844324,
+      "sha256": "535c3a7bc0ad3ebba92c5aabbd4c238c9bdb957695dabab0dc43c849b59cbb8d"
+    },
+    {
+      "path": "E:\\VSCODE-project\\FPGA-ANLU\\development\\video_codec_trial_20261021\\media\\letterbox640_q90_420.mjpg",
+      "bytes": 8291294,
+      "sha256": "6ce98ef963af5e151989fc26f0c3265d586cfec984d1a911a3e4040719e77e30"
+    },
+    {
+      "path": "E:\\VSCODE-project\\FPGA-ANLU\\development\\video_codec_trial_20261021\\media\\letterbox640_q93_420.mjpg",
+      "bytes": 9677427,
+      "sha256": "c11c1c4515fa4245629f18104b35c74191f5dcfb65f78ceabf151292f5d947cd"
+    },
+    {
+      "path": "E:\\VSCODE-project\\FPGA-ANLU\\development\\video_codec_trial_20261021\\media\\letterbox640_q95_420.mjpg",
+      "bytes": 11525642,
+      "sha256": "cf7e303fd31321dc5c3c29136f622ef286e730ea4baf0c1431a32deb5b38def3"
+    },
+    {
+      "path": "E:\\VSCODE-project\\FPGA-ANLU\\development\\video_codec_trial_20261021\\media\\letterbox640_q97_420.mjpg",
+      "bytes": 14251014,
+      "sha256": "9eb868acbbcb8f543af77a93c72c7c7a6d6a2570fe2d328f6c81478ccf1e78e9"
+    },
+    {
+      "path": "E:\\VSCODE-project\\FPGA-ANLU\\development\\video_codec_trial_20261021\\media\\letterbox640_q99_420.mjpg",
+      "bytes": 19548306,
+      "sha256": "a5ab6d118c7a7cdb3cc24109fe69cbb2570b6a100cca3636c8239a00d5488243"
+    },
+    {
+      "path": "E:\\VSCODE-project\\FPGA-ANLU\\development\\video_codec_trial_20261021\\media\\original_audio_16_36_pcm48k_mono.pcm",
+      "bytes": 1920000,
+      "sha256": "efc396a9690c470ae3be736314cbe4a0a686db766cef288a6e68c7d5aa0f291f"
+    },
+    {
+      "path": "E:\\VSCODE-project\\FPGA-ANLU\\development\\video_codec_trial_20261021\\media\\original_audio_16_36_pcm48k_mono.wav",
+      "bytes": 1920078,
+      "sha256": "30eaf10a6ff1800163cecb3225cce685873b38c9a8e42635f1e5c92b0e95b5de"
+    },
+    {
+      "path": "E:\\VSCODE-project\\FPGA-ANLU\\development\\video_codec_trial_20261021\\media\\preview_640x480_15fps_original_audio.mp4",
+      "bytes": 2951313,
+      "sha256": "6db6cbce0c2b26ddcb617efe49a8941c4cf2b79642d3d30f1796e6027d704e44"
+    },
+    {
+      "path": "E:\\VSCODE-project\\FPGA-ANLU\\development\\video_codec_trial_20261021\\media\\reference_320x240_15fps.rgb",
+      "bytes": 69120000,
+      "sha256": "91029b55f5a9e2c2b9108db42796fecc8d257c8af8ca4e037908051b2104be97"
+    },
+    {
+      "path": "E:\\VSCODE-project\\FPGA-ANLU\\development\\video_codec_trial_20261021\\media\\reference_640x480_15fps.rgb",
+      "bytes": 276480000,
+      "sha256": "bdb3a51f1c3444f320e76c02462ebe326d63e7f8a2214040e2dc5879f1fb931c"
+    },
+    {
+      "path": "E:\\VSCODE-project\\FPGA-ANLU\\development\\video_codec_trial_20261021\\media\\reference_640x480_30fps.rgb",
+      "bytes": 552960000,
+      "sha256": "996e8a2edfc76b2779c5977af59c42b08678ee7c1c7ceeb1d18b6c9636a7ba27"
+    },
+    {
+      "path": "E:\\VSCODE-project\\FPGA-ANLU\\development\\video_codec_trial_20261021\\media\\reference_crop_640x480_15fps.rgb",
+      "bytes": 276480000,
+      "sha256": "abd43ad29bd359b3f0c853bfb632844887c83a1bccdb85d5f541f6886a5039ef"
+    },
+    {
+      "path": "E:\\VSCODE-project\\FPGA-ANLU\\development\\video_codec_trial_20261021\\reference\\BV1eAJR6tETi_public_metadata.md",
+      "bytes": 2883,
+      "sha256": "60d8c047f9b03081b84aeeee306997896180ad8582f44e976779832796d5ac75"
+    },
+    {
+      "path": "E:\\VSCODE-project\\FPGA-ANLU\\development\\video_codec_trial_20261021\\report_render\\page-1.png",
+      "bytes": 201074,
+      "sha256": "ad706a4013aa9c1bed879f7bc7373798e48ab90b49c6d3810e0d86e244a373d8"
+    },
+    {
+      "path": "E:\\VSCODE-project\\FPGA-ANLU\\development\\video_codec_trial_20261021\\report_render\\page-2.png",
+      "bytes": 185894,
+      "sha256": "9dff9aa98c82d8931cc0a0e64cae8a290eb829ca89cac6b939efb441c6f9701a"
+    },
+    {
+      "path": "E:\\VSCODE-project\\FPGA-ANLU\\development\\video_codec_trial_20261021\\report_render\\page-3.png",
+      "bytes": 390409,
+      "sha256": "e1cc67a590648f93a058a77db22eecf238d896917774fffda31f641426bc99a8"
+    },
+    {
+      "path": "E:\\VSCODE-project\\FPGA-ANLU\\development\\video_codec_trial_20261021\\results\\avi_audio_roundtrip.pcm",
+      "bytes": 1920000,
+      "sha256": "528e81cf41f360466d79ae03391fd04ba4d4dc76c0deea63bf1be06a149498ba"
+    },
+    {
+      "path": "E:\\VSCODE-project\\FPGA-ANLU\\development\\video_codec_trial_20261021\\results\\avi_video_roundtrip.mjpg",
+      "bytes": 10275013,
+      "sha256": "c680524c40389e3e2ae78b2fa456121250fae6fcd2a152923b066eebbf9b40cc"
+    },
+    {
+      "path": "E:\\VSCODE-project\\FPGA-ANLU\\development\\video_codec_trial_20261021\\results\\crop640_q65_frames.csv",
+      "bytes": 12863,
+      "sha256": "0ac698a74cca6b2b3ba6a10f9c85e90fba38f55b3c3b01db16dff339ab5c0098"
+    },
+    {
+      "path": "E:\\VSCODE-project\\FPGA-ANLU\\development\\video_codec_trial_20261021\\results\\crop640_q75_frames.csv",
+      "bytes": 12896,
+      "sha256": "93be156dc1052dfd21fa3cd6cd63bc1e78ee0176368270f7f164bfe485681c25"
+    },
+    {
+      "path": "E:\\VSCODE-project\\FPGA-ANLU\\development\\video_codec_trial_20261021\\results\\crop640_q85_frames.csv",
+      "bytes": 12883,
+      "sha256": "14d313fec40b338bc9c5a0fa9d8187db911982f271e17e633082bd58fbd82da8"
+    },
+    {
+      "path": "E:\\VSCODE-project\\FPGA-ANLU\\development\\video_codec_trial_20261021\\results\\crop640_q90_frames.csv",
+      "bytes": 12881,
+      "sha256": "a585d5f8ada8ea2169c88645639821414e319512e35b952cc59193daa710c419"
+    },
+    {
+      "path": "E:\\VSCODE-project\\FPGA-ANLU\\development\\video_codec_trial_20261021\\results\\crop640_q93_frames.csv",
+      "bytes": 12881,
+      "sha256": "68f7da86ddc14fa1fe6305fd8f51de3905633056be08d4b8bb11586a589044f5"
+    },
+    {
+      "path": "E:\\VSCODE-project\\FPGA-ANLU\\development\\video_codec_trial_20261021\\results\\crop640_q95_frames.csv",
+      "bytes": 12869,
+      "sha256": "27ed7ce6ffc922ae5e8ea493fb1fc29adc67f31164594fade22d159f41b1ed68"
+    },
+    {
+      "path": "E:\\VSCODE-project\\FPGA-ANLU\\development\\video_codec_trial_20261021\\results\\crop640_q97_frames.csv",
+      "bytes": 12876,
+      "sha256": "190e361a4c687e455d1bd519d90967a7f51b93c15e20d3fecab72f8300b04484"
+    },
+    {
+      "path": "E:\\VSCODE-project\\FPGA-ANLU\\development\\video_codec_trial_20261021\\results\\crop640_q99_frames.csv",
+      "bytes": 12863,
+      "sha256": "13be026b4c4852dd4c715cadb316c61fefad9dbbd69d4d4c7648635779afa7f1"
+    },
+    {
+      "path": "E:\\VSCODE-project\\FPGA-ANLU\\development\\video_codec_trial_20261021\\results\\crop640_summary.json",
+      "bytes": 18576,
+      "sha256": "c478cd947a3103c73c79f83e615bf84c983a77e945a65f219f7f85df98a61700"
+    },
+    {
+      "path": "E:\\VSCODE-project\\FPGA-ANLU\\development\\video_codec_trial_20261021\\results\\letterbox320_q65_frames.csv",
+      "bytes": 12569,
+      "sha256": "98597cc4cd230b95cc2b6832265df0974894ec0dbc24731b9d7699d739cc44cf"
+    },
+    {
+      "path": "E:\\VSCODE-project\\FPGA-ANLU\\development\\video_codec_trial_20261021\\results\\letterbox320_q75_frames.csv",
+      "bytes": 12563,
+      "sha256": "2535dbb5ca9b9aeb7402f75185b07516260d9bc0f91eabaaf6dd05a05864896d"
+    },
+    {
+      "path": "E:\\VSCODE-project\\FPGA-ANLU\\development\\video_codec_trial_20261021\\results\\letterbox320_q85_frames.csv",
+      "bytes": 12605,
+      "sha256": "3cc18d1422740757fc831d96967ff1c50dd60b25aba0e7b7e36b4de296500241"
+    },
+    {
+      "path": "E:\\VSCODE-project\\FPGA-ANLU\\development\\video_codec_trial_20261021\\results\\letterbox320_q90_frames.csv",
+      "bytes": 12870,
+      "sha256": "870179f89b33c323fc586e093ad8f8d77d328fb7a344b87c8c29d5576e9d0f2f"
+    },
+    {
+      "path": "E:\\VSCODE-project\\FPGA-ANLU\\development\\video_codec_trial_20261021\\results\\letterbox320_q93_frames.csv",
+      "bytes": 12894,
+      "sha256": "dd0f3c6933e3c6a74874d1175f4adace66202d3f7f3ec75d064e916aecb102d6"
+    },
+    {
+      "path": "E:\\VSCODE-project\\FPGA-ANLU\\development\\video_codec_trial_20261021\\results\\letterbox320_q95_frames.csv",
+      "bytes": 12882,
+      "sha256": "3de34c93ae91cdb3c489f146a9ba8967354a808f125100bc22aadc74219d9263"
+    },
+    {
+      "path": "E:\\VSCODE-project\\FPGA-ANLU\\development\\video_codec_trial_20261021\\results\\letterbox320_q97_frames.csv",
+      "bytes": 12894,
+      "sha256": "c71fc682eaf41c5bde94698d12c0f560dc4688d2ba873923a278bde38e7a6a4f"
+    },
+    {
+      "path": "E:\\VSCODE-project\\FPGA-ANLU\\development\\video_codec_trial_20261021\\results\\letterbox320_q99_frames.csv",
+      "bytes": 12872,
+      "sha256": "876db246af5015d582fcd7037542e605d27097eda12332be9dc231de71bd842b"
+    },
+    {
+      "path": "E:\\VSCODE-project\\FPGA-ANLU\\development\\video_codec_trial_20261021\\results\\letterbox320_summary.json",
+      "bytes": 18723,
+      "sha256": "f6c6b267b081f69b16696ec4be6e0d87cb39bed8e197637eef61fbaec024592c"
+    },
+    {
+      "path": "E:\\VSCODE-project\\FPGA-ANLU\\development\\video_codec_trial_20261021\\results\\letterbox640_30_q85_frames.csv",
+      "bytes": 25803,
+      "sha256": "015a12ca3be06da1bea37ba85897e494e3b3c38ec278c8ed1fa65bd9c875d6ae"
+    },
+    {
+      "path": "E:\\VSCODE-project\\FPGA-ANLU\\development\\video_codec_trial_20261021\\results\\letterbox640_30_q90_frames.csv",
+      "bytes": 25810,
+      "sha256": "d56d3cfee72a3d3bdeb7a5dd66ae1406d5c02014bfecac3562bba23746644884"
+    },
+    {
+      "path": "E:\\VSCODE-project\\FPGA-ANLU\\development\\video_codec_trial_20261021\\results\\letterbox640_30_q95_frames.csv",
+      "bytes": 25814,
+      "sha256": "6c81029e61674baaf76a194e2d8d79d02a61a67611051b61c80336a8ad4512b4"
+    },
+    {
+      "path": "E:\\VSCODE-project\\FPGA-ANLU\\development\\video_codec_trial_20261021\\results\\letterbox640_30_summary.json",
+      "bytes": 7053,
+      "sha256": "7232066f69bfedc23fccc900fb7cadedc0cf8c6bb4333342e717676c007351eb"
+    },
+    {
+      "path": "E:\\VSCODE-project\\FPGA-ANLU\\development\\video_codec_trial_20261021\\results\\letterbox640_q65_frames.csv",
+      "bytes": 12900,
+      "sha256": "d12860fe9f7595959a85b22a6fa7a35d72aab3d8ba866cc56ff65245bc40f0da"
+    },
+    {
+      "path": "E:\\VSCODE-project\\FPGA-ANLU\\development\\video_codec_trial_20261021\\results\\letterbox640_q75_frames.csv",
+      "bytes": 12864,
+      "sha256": "8f71be3c393b7dea4bd6155f575b2c7d027db7d7416c6d35b05f6424b57c2c15"
+    },
+    {
+      "path": "E:\\VSCODE-project\\FPGA-ANLU\\development\\video_codec_trial_20261021\\results\\letterbox640_q85_frames.csv",
+      "bytes": 12880,
+      "sha256": "12e24f57984b0d46670cce2bebc0c79b315250e6cacda7f8f6f01eade38b35da"
+    },
+    {
+      "path": "E:\\VSCODE-project\\FPGA-ANLU\\development\\video_codec_trial_20261021\\results\\letterbox640_q90_frames.csv",
+      "bytes": 12872,
+      "sha256": "79c8ee8b77ac2ead41e5725dc0767085f45d0af1d3177e37515558c3ecc40fba"
+    },
+    {
+      "path": "E:\\VSCODE-project\\FPGA-ANLU\\development\\video_codec_trial_20261021\\results\\letterbox640_q93_frames.csv",
+      "bytes": 12885,
+      "sha256": "6bcdbcb5e841f6f2cee0236d229ce40f6578b6e79f9154bfe5cb9da29f049e8a"
+    },
+    {
+      "path": "E:\\VSCODE-project\\FPGA-ANLU\\development\\video_codec_trial_20261021\\results\\letterbox640_q95_frames.csv",
+      "bytes": 12864,
+      "sha256": "0bfcb6a9d579b3f3ee137b815ad2b8a325b83105cb9d034a28cfa40737bf6439"
+    },
+    {
+      "path": "E:\\VSCODE-project\\FPGA-ANLU\\development\\video_codec_trial_20261021\\results\\letterbox640_q97_frames.csv",
+      "bytes": 12880,
+      "sha256": "8fceafa4d910644d78ecaa98a376fcb3d5120932cce03659c0abff6b939d9e41"
+    },
+    {
+      "path": "E:\\VSCODE-project\\FPGA-ANLU\\development\\video_codec_trial_20261021\\results\\letterbox640_q99_frames.csv",
+      "bytes": 12883,
+      "sha256": "4019ec531c9a70baaf409fd3ed84f2a55f152c51c3a988118751556faa762dd2"
+    },
+    {
+      "path": "E:\\VSCODE-project\\FPGA-ANLU\\development\\video_codec_trial_20261021\\results\\letterbox640_summary.json",
+      "bytes": 18694,
+      "sha256": "a4470237aa6667eadc65407ec2f7961f24fe19fc223604a87023c9045c741667"
+    },
+    {
+      "path": "E:\\VSCODE-project\\FPGA-ANLU\\development\\video_codec_trial_20261021\\results\\mov_audio_roundtrip.pcm",
+      "bytes": 1920000,
+      "sha256": "efc396a9690c470ae3be736314cbe4a0a686db766cef288a6e68c7d5aa0f291f"
+    },
+    {
+      "path": "E:\\VSCODE-project\\FPGA-ANLU\\development\\video_codec_trial_20261021\\results\\mov_video_roundtrip.mjpg",
+      "bytes": 11525642,
+      "sha256": "cf7e303fd31321dc5c3c29136f622ef286e730ea4baf0c1431a32deb5b38def3"
+    },
+    {
+      "path": "E:\\VSCODE-project\\FPGA-ANLU\\development\\video_codec_trial_20261021\\results\\rgb_quantization_ablation.json",
+      "bytes": 459,
+      "sha256": "5353f5e4fd3132086a63991d1df8415bb6933264d3d6091b5423e186045c51ce"
+    },
+    {
+      "path": "E:\\VSCODE-project\\FPGA-ANLU\\development\\video_codec_trial_20261021\\results\\ssim_q95.log",
+      "bytes": 19392,
+      "sha256": "5fe766fda2b09a8acf8c51d0f021c61b0fb2840667dc12c6e59961e7da3306e1"
+    },
+    {
+      "path": "E:\\VSCODE-project\\FPGA-ANLU\\development\\video_codec_trial_20261021\\tools\\benchmark_jpeg.py",
+      "bytes": 7681,
+      "sha256": "680b33d397da1ed02789923702a773ce0d6190a372f2485736159e7052cfe4f1"
+    },
+    {
+      "path": "E:\\VSCODE-project\\FPGA-ANLU\\development\\video_codec_trial_20261021\\tools\\build_experiment_report.py",
+      "bytes": 9065,
+      "sha256": "e4feb01b3a03d424252d2da5c40a38064892e514a7954b6fe0635cdb4c08b186"
+    },
+    {
+      "path": "E:\\VSCODE-project\\FPGA-ANLU\\development\\video_codec_trial_20261021\\tools\\finalize_experiment.py",
+      "bytes": 6691,
+      "sha256": "b48bfa8e2a2dccd802204b262388891bb9d696607e1ff5889cd538a41005c454"
+    },
+    {
+      "path": "E:\\VSCODE-project\\FPGA-ANLU\\development\\video_codec_trial_20261021\\tools\\prepare_media.ps1",
+      "bytes": 1755,
+      "sha256": "acb52b17b7f264eeef934b5bfe721ce5d97a79fcb57a2c929e309d26957241fd"
+    }
+  ]
+}

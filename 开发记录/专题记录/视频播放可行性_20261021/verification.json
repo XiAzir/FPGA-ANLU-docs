@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "pages": 7,
+  "visual_review": "All 7 rendered pages inspected, no clipping, overlap or missing CJK glyphs observed",
+  "source_hashes_verified": 21,
+  "calculation_checks": "PASS",
+  "baseline_bit_sha256": "68e3ad82238f6e10f3ef2c69de2b5f90a8aa2f66a7a5f313455c9c0372a61f24",
+  "report_sha256": "0af2d07baf29585b65d8dbcb791fd34c58cfb2af1da2b953cec3f07579de9cf0",
+  "builder_sha256": "82952c15ee21e2e2f73e44e18e3d14d48c30712ef4c4c0a43114a3ac69ad48a7",
+  "scope": "source review and deterministic bandwidth calculations; no video implementation, TD build or board run"
+}
