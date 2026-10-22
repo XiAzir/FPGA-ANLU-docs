@@ -2,7 +2,7 @@
 
 本轮接续用户确认功能、声音和频谱正常的C11313，于2026-10-20开始、2026-10-21完成离线交付。最终B04使用7748/9800 Slice＝79.06%，较C11313的8243减少495（相对减少6.01%，占用下降5.05个百分点）；较C11312减少1964。严格低于80%的目标已完成。所有实验保持原时钟、引脚、SDC与PHY配置；基线源码、旧bit和冻结清单保持。新C11314实板待测。
 
-工程：`E:/VSCODE-project/FPGA-ANLU/development/player_spectrum_resource_80`；实验：`development/resource80_work`。用户反馈原文、版本关联依据见[基线与反馈](board_feedback_and_baseline.json)。C11313用户板测反馈按交付上下文关联，本轮新位流在离线完成后另行板测。
+工程：`../../../../../FPGA-ANLU/development/player_spectrum_resource_80`；实验：`development/resource80_work`。用户反馈原文、版本关联依据见[基线与反馈](board_feedback_and_baseline.json)。C11313用户板测反馈按交付上下文关联，本轮新位流在离线完成后另行板测。
 
 ## 全工程消融
 
@@ -46,7 +46,7 @@ mapper独立AreaHigh：baseline1129LUT/397FF；计数精简1097/371；位宽1108
 
 ## 交付与复现
 
-- 新bit：`E:/VSCODE-project/FPGA-ANLU/download/spectrum_resource_80.bit`，634280 bytes，SHA256 `60ed79eecfcbd271bbc2b9a9333d5da03668e00b580a6be751ebcd61f0fa4d28`；同名info.json及[交付凭据](delivery_receipt.json)记录资源、时序、仿真假设、阶段ID和板测状态。
+- 新bit：`../../../../../FPGA-ANLU/download/spectrum_resource_80.bit`，634280 bytes，SHA256 `60ed79eecfcbd271bbc2b9a9333d5da03668e00b580a6be751ebcd61f0fa4d28`；同名info.json及[交付凭据](delivery_receipt.json)记录资源、时序、仿真假设、阶段ID和板测状态。
 - 冻结目录：candidate/checkpoints/C11314_resource80_20261021_offline，282文件，manifest SHA `3ac05765fdd42deeb4b7b6fa14239465d0d3faffefef7ee52172e16c561d515f`。包含源、约束、构建脚本、阶段记录、当前gate/routed网表、实际策略参数、全部ROM/时钟证明、选中整机源码/日志与独立bit。
 - final_binding.json为PASS：99项源scope、10项整机override、夹具文件/测试台SHA、gate FFT日志/manifest、routed ROM/clock/控制证明、3份bit和282文件清单全部核对，Slice≤7839及最终四项WNS/TNS均通过。C11313父源169文件、原C11312源168文件、8外部blob、3个旧bit及C11313冻结206文件核对保持。
 - synthesis run `619c41c8-338e-4143-92b2-799c3122013c`；physical run `99966ac9-088e-4f3e-ab6d-232d2bc71ad6`；bitstream run `d1bd4900-43f0-4dd5-9df6-4ce85e60bac5`。选中source/阶段/仿真/位流绑定，不采用前轮残留physical数据。

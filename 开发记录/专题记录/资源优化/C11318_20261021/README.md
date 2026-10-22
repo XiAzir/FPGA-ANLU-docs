@@ -1,6 +1,6 @@
 # C11318：按键事件接口资源优化
 
-2026-10-21，北京时间。最终选择A01_key_events，离线封存完成，板测待补。工程：`E:/VSCODE-project/FPGA-ANLU/development/player_spectrum_ctrl18`。
+2026-10-21，北京时间。最终选择A01_key_events，离线封存完成，板测待补。工程：`../../../../../FPGA-ANLU/development/player_spectrum_ctrl18`。
 
 ## 结果与归因
 
@@ -49,7 +49,7 @@
 
 ## 交付与复现
 
-- 位流：`E:/VSCODE-project/FPGA-ANLU/download/spectrum_ctrl18.bit`，配套info.json。
+- 位流：`../../../../../FPGA-ANLU/download/spectrum_ctrl18.bit`，配套info.json。
 - 位流SHA256：`68e3ad82238f6e10f3ef2c69de2b5f90a8aa2f66a7a5f313455c9c0372a61f24`，634280字节。
 - checkpoint：`development/player_spectrum_ctrl18/checkpoints/C11318_ctrl18_20261021_offline`，2460文件。
 - 最终manifest SHA256：`c4b413059787e94e330d34acf1e6736353df0c82a33fc2748ec91f214d88de08`。

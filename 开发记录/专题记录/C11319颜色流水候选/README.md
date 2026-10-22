@@ -40,7 +40,7 @@ ModelSim 对生产文件内wire声明次序有编译限制；生产RTL保持与�
 
 ```powershell
 & ./development/video19_work/color_pipeline/sim/run_color_pipeline.ps1 `
-  -Fixture 'E:/VSCODE-project/FPGA-ANLU/development/video_codec_trial_20261021/decoder_fixture/frame_000.jpg' `
+  -Fixture '../../../../FPGA-ANLU/development/video_codec_trial_20261021/decoder_fixture/frame_000.jpg' `
   -Variant candidate_C03 -Mode 2 -Seed 324508639
 ```
 

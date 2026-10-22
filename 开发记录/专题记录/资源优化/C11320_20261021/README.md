@@ -4,7 +4,7 @@
 
 ## 实现与资源
 
-工程 `E:/VSCODE-project/FPGA-ANLU/development/player_video20`，实验 `development/video20_work`，Build ID `00C11320`。综合15479 LUT/8740 FF；物理16418 LUT/8814 FF/62 BRAM9K/26 DSP/2 PLL/3 GCLK。最终hold网表中4334个MSLICE加4303个LSLICE，精确计数8637；目标8820，余出183 Slice，器件空余1163 Slice。
+工程 `../../../../../FPGA-ANLU/development/player_video20`，实验 `development/video20_work`，Build ID `00C11320`。综合15479 LUT/8740 FF；物理16418 LUT/8814 FF/62 BRAM9K/26 DSP/2 PLL/3 GCLK。最终hold网表中4334个MSLICE加4303个LSLICE，精确计数8637；目标8820，余出183 Slice，器件空余1163 Slice。
 
 选中的结构改动：
 
@@ -59,8 +59,8 @@ TF根目录文件：`VIDEO.MJP` SHA `239a413b3fc9462ab362918177f3e62e7069f105592
 
 最终967项源/阶段/数据库/位流/兼容副本/HDMI参考绑定PASS；另有755项重跑媒体、脚本及优化设计文件身份核验PASS。旧100 ms和190 ms中断日志、WinError623、审批503未执行记录均保留。10月22日通过执行审批启动同一优化设计并加六个仿真检查点，本次从头连续完成，未使用restore。当前环境阻碍已解除，最终结果见`video20_work/physical_final/final_result.json`。
 
-冻结位置`player_video20/checkpoints/C11320_video20_20261021_offline`共1412文件，manifest SHA `312ca272b5c29b83c471a36ec8d2388f2cbbf489a2d8bfc50a0d4dcc98b963be`。下载入口[video20.bit](E:/VSCODE-project/FPGA-ANLU/download/video20.bit)与手工构建、交付目录和冻结交付四份bit一致。
+冻结位置`player_video20/checkpoints/C11320_video20_20261021_offline`共1412文件，manifest SHA `312ca272b5c29b83c471a36ec8d2388f2cbbf489a2d8bfc50a0d4dcc98b963be`。下载入口[video20.bit](../../../../../FPGA-ANLU/download/video20.bit)与手工构建、交付目录和冻结交付四份bit一致。
 
-[离线包](E:/VSCODE-project/FPGA-ANLU/deliverables/video20_c11320_20261021.zip)共14个payload文件，11630946字节，ZIP CRC和逐文件SHA通过；ZIP SHA `92dcf4a71d0f428484549fbad14d455a4728f767cb6db906326da73231e71fa2`。包内有[操作说明](E:/VSCODE-project/FPGA-ANLU/deliverables/video20_c11320_20261021/操作说明.txt)、位流、相同Q90媒体、原声、电脑预览、许可及核验凭据。C11319源码/冻结包/zip和C11318位流128项保全检查通过，无上板、写卡、Flash、提交或push操作。
+[离线包](../../../../../FPGA-ANLU/deliverables/video20_c11320_20261021.zip)共14个payload文件，11630946字节，ZIP CRC和逐文件SHA通过；ZIP SHA `92dcf4a71d0f428484549fbad14d455a4728f767cb6db906326da73231e71fa2`。包内有[操作说明](../../../../../FPGA-ANLU/deliverables/video20_c11320_20261021/操作说明.txt)、位流、相同Q90媒体、原声、电脑预览、许可及核验凭据。C11319源码/冻结包/zip和C11318位流128项保全检查通过，无上板、写卡、Flash、提交或push操作。
 
 本轮90%目标与离线封存完成。用户具备板卡后按装卡说明进行SRAM加载，核对Build ID、完整20秒原声同步/循环/暂停/重播/切图/频谱、SD CRC/欠载及持续时长；完整20秒整机回放、SDF与实体SPI/TF/SDRAM/HDMI条件仍待后续验证。

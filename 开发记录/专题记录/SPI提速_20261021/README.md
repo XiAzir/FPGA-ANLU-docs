@@ -16,7 +16,7 @@
 
 ## 本次独立测试
 
-工程：`E:/VSCODE-project/FPGA-ANLU/development/spi_rate_feasibility_20261021`；命令`pwsh -NoProfile -File development/spi_rate_feasibility_20261021/run.ps1`。原spi_master SHA `37F7A21144FA5CCA3CC5C3B5F68A5AD40B3108336B600E45A1367734AC61403C`，实际SHA以build/receipt.json为准。
+工程：`../../../../FPGA-ANLU/development/spi_rate_feasibility_20261021`；命令`pwsh -NoProfile -File development/spi_rate_feasibility_20261021/run.ps1`。原spi_master SHA `37F7A21144FA5CCA3CC5C3B5F68A5AD40B3108336B600E45A1367734AC61403C`，实际SHA以build/receipt.json为准。
 
 两种分频×6个MISO延迟×256种字节值，共3072字节全双工，检查MOSI/MISO、每字节8个升沿/8个降沿、46080个边沿间隔。slave在每个下降沿后延迟更新MISO，mode3首个下降沿送bit7；延迟超半周期的组作为灵敏度反例。
 

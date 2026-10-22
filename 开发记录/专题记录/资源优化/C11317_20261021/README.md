@@ -19,7 +19,7 @@
 
 本轮减少 **353 Slice**，占用下降 3.6020 个百分点。系统时钟、SDC、PLL、HDMI PHY、640×480 RGB888 帧存格式、FFT 精度与现有功能保持；SPI 继续 mode 3、12.5 MHz，初始化 100 kHz。
 
-工程：`E:/VSCODE-project/FPGA-ANLU/development/player_spectrum_arch17`。
+工程：`../../../../../FPGA-ANLU/development/player_spectrum_arch17`。
 
 ## 采用的结构变化
 
@@ -75,7 +75,7 @@ A00 与 C11316 的差异包含 Build ID 常量及工程位置带来的全局映�
 
 ## 交付与绑定
 
-- 位流：`E:/VSCODE-project/FPGA-ANLU/download/spectrum_arch17.bit`，配套 `spectrum_arch17.info.json`。
+- 位流：`../../../../../FPGA-ANLU/download/spectrum_arch17.bit`，配套 `spectrum_arch17.info.json`。
 - 位流 SHA256：`09cb0c482796cd2a7c113be8a7cd27e038646582db8be91ba0cce91e3e70d97a`。
 - 冻结：`development/player_spectrum_arch17/checkpoints/C11317_arch17_20261021_offline`，**1809 文件**。
 - manifest SHA256：`d9ac3d0354ed3c8c2f27044deff2ef1923bae0cf68010a19700bb34c89add169`。

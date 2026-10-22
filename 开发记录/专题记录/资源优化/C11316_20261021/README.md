@@ -13,9 +13,9 @@ C11316 最终 **7584/9800 Slice＝77.3878%**，相对 C11315 减少48个Slice、
 | DSP / BRAM9K | 10 / 45 | 9 / 45 | -1 / 0 |
 | Setup / Hold WNS（ns） | +0.157 / +0.011 | +0.649 / +0.024 | +0.492 / +0.013 |
 
-位流：[spectrum_opt16.bit](E:/VSCODE-project/FPGA-ANLU/download/spectrum_opt16.bit)，配套 [info.json](E:/VSCODE-project/FPGA-ANLU/download/spectrum_opt16.info.json)。位流SHA256 `1de561dda1428c86c2f3127cf55b4b391cae8598c51111394ef9bde0ee971afa`。
+位流：[spectrum_opt16.bit](../../../../../FPGA-ANLU/download/spectrum_opt16.bit)，配套 [info.json](../../../../../FPGA-ANLU/download/spectrum_opt16.info.json)。位流SHA256 `1de561dda1428c86c2f3127cf55b4b391cae8598c51111394ef9bde0ee971afa`。
 
-冻结目录 `development/player_spectrum_opt16/checkpoints/C11316_opt16_20261021_offline` 共500文件，manifest SHA256 `cb4730c01a5eb5ccc4503d7df4c0e847e538b1db846f926bce2eb66bd1dc3fb1`。绑定结果：[final_binding.json](E:/VSCODE-project/FPGA-ANLU/development/player_spectrum_opt16/build/final_binding.json)，交付摘要：[delivery_receipt.json](delivery_receipt.json)。
+冻结目录 `development/player_spectrum_opt16/checkpoints/C11316_opt16_20261021_offline` 共500文件，manifest SHA256 `cb4730c01a5eb5ccc4503d7df4c0e847e538b1db846f926bce2eb66bd1dc3fb1`。绑定结果：[final_binding.json](../../../../../FPGA-ANLU/development/player_spectrum_opt16/build/final_binding.json)，交付摘要：[delivery_receipt.json](delivery_receipt.json)。
 
 父基线：7632/9800 Slice（77.8776%），Gate LUT13054/FF7791/DSP10；Physical LUT13896/FF7864/BRAM45/DSP10；Setup +0.157ns、Hold +0.011ns、TNS0。父位流 `download/spectrum_spi12p5.bit` SHA256 `a9de55c166cd730db1203fc9d1d882eee885237cec68fd389dad26d0d972e22f`。
 
