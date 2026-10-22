@@ -1,0 +1,46 @@
+{
+  "format": "gzip-split-v1",
+  "files": [
+    {
+      "path": "development/video_codec_trial_20261021/media/reference_640x480_15fps.rgb",
+      "bytes": 276480000,
+      "sha256": "bdb3a51f1c3444f320e76c02462ebe326d63e7f8a2214040e2dc5879f1fb931c",
+      "parts": [
+        {
+          "name": "reference_640x480_15fps.rgb.gz.part000",
+          "bytes": 34416664,
+          "sha256": "e8d3cf0f29bfbc808a61b01b9ea2838ec659ff34d71b86b445da0cf0bfa0ad06"
+        }
+      ]
+    },
+    {
+      "path": "development/video_codec_trial_20261021/media/reference_640x480_30fps.rgb",
+      "bytes": 552960000,
+      "sha256": "996e8a2edfc76b2779c5977af59c42b08678ee7c1c7ceeb1d18b6c9636a7ba27",
+      "parts": [
+        {
+          "name": "reference_640x480_30fps.rgb.gz.part000",
+          "bytes": 50331648,
+          "sha256": "146b778fcb1c290b4f3b31149a2e653a3259f4a2a52cb1229f8eb995a9a4c47a"
+        },
+        {
+          "name": "reference_640x480_30fps.rgb.gz.part001",
+          "bytes": 18517462,
+          "sha256": "7212e41f4fce2b091c0484c2d2ecbe43a10b92bacbb4c656752cf69d2717489b"
+        }
+      ]
+    },
+    {
+      "path": "development/video_codec_trial_20261021/media/reference_crop_640x480_15fps.rgb",
+      "bytes": 276480000,
+      "sha256": "abd43ad29bd359b3f0c853bfb632844887c83a1bccdb85d5f541f6886a5039ef",
+      "parts": [
+        {
+          "name": "reference_crop_640x480_15fps.rgb.gz.part000",
+          "bytes": 42821065,
+          "sha256": "3cc5aa345969ce24493e4d99d9e42e68e18601249161f3d07d257d2e7259894e"
+        }
+      ]
+    }
+  ]
+}

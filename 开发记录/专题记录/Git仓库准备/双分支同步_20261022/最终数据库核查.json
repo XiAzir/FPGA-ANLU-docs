@@ -1,0 +1,158 @@
+{
+  "projects": [
+    {
+      "project": "player_video19",
+      "database_checks": [
+        {
+          "path": "development/player_video19/build/manual/AC201_tf_hdmi_gate.db",
+          "expected": "98cd81b60f11996e0603d566b38eed4b8aca5f7cfccae3eaec33064eebcc9a6f",
+          "sha256": "98cd81b60f11996e0603d566b38eed4b8aca5f7cfccae3eaec33064eebcc9a6f",
+          "match": true
+        },
+        {
+          "path": "development/player_video19/build/manual/AC201_tf_hdmi_pr.db",
+          "expected": "ebf2577f96c6f12e30ee9c9d65b79f223105006771fae779e57a9e38250827df",
+          "sha256": "ebf2577f96c6f12e30ee9c9d65b79f223105006771fae779e57a9e38250827df",
+          "match": true
+        }
+      ]
+    },
+    {
+      "project": "player_video20",
+      "database_checks": [
+        {
+          "path": "development/player_video20/build/manual/AC201_tf_hdmi_gate.db",
+          "expected": "80f660baf89350a28c839f7c7faae040853a3551fc8a55a10f9027b7ba988e65",
+          "sha256": "80f660baf89350a28c839f7c7faae040853a3551fc8a55a10f9027b7ba988e65",
+          "match": true
+        },
+        {
+          "path": "development/player_video20/build/manual/AC201_tf_hdmi_pr.db",
+          "expected": "73b4ffa8e61a9ea61a162573025214080ec392657799ac24dcd34019cbc3c7c5",
+          "sha256": "73b4ffa8e61a9ea61a162573025214080ec392657799ac24dcd34019cbc3c7c5",
+          "match": true
+        }
+      ]
+    },
+    {
+      "project": "player_video21_diag",
+      "database_checks": [
+        {
+          "path": "development/player_video21_diag/build/manual/AC201_tf_hdmi_gate.db",
+          "expected": "6b90ead7f8f1c56b69e454e9b34d6d3b096d57e5f27b5f1fdd2e48085dd1bd32",
+          "sha256": "6b90ead7f8f1c56b69e454e9b34d6d3b096d57e5f27b5f1fdd2e48085dd1bd32",
+          "match": true
+        },
+        {
+          "path": "development/player_video21_diag/build/manual/AC201_tf_hdmi_pr.db",
+          "expected": "2277e22e63a1bbb3922e36cdd1d674d4d8ee88205a69f35c8c63d65109ebcb03",
+          "sha256": "2277e22e63a1bbb3922e36cdd1d674d4d8ee88205a69f35c8c63d65109ebcb03",
+          "match": true
+        }
+      ]
+    },
+    {
+      "project": "player_video22_audio_diag",
+      "database_checks": [
+        {
+          "path": "development/player_video22_audio_diag/build/manual/AC201_tf_hdmi_gate.db",
+          "expected": "fafabd18d4f94e4340b2224a4ea44e943013d94f5552bc35065b6d56e3781549",
+          "sha256": "fafabd18d4f94e4340b2224a4ea44e943013d94f5552bc35065b6d56e3781549",
+          "match": true
+        },
+        {
+          "path": "development/player_video22_audio_diag/build/manual/AC201_tf_hdmi_pr.db",
+          "expected": "5c62698e199466209432808bdd6c3af6f025a89510fc94382004e2793cbdc65f",
+          "sha256": "5c62698e199466209432808bdd6c3af6f025a89510fc94382004e2793cbdc65f",
+          "match": true
+        }
+      ]
+    },
+    {
+      "project": "player_video23_mode_switch",
+      "database_checks": [
+        {
+          "path": "development/player_video23_mode_switch/build/manual/AC201_tf_hdmi_gate.db",
+          "expected": "db41f56e2373bac930f6e94ea2ea264b44eeab9a7d5e07a2022439f61f3c7961",
+          "sha256": "db41f56e2373bac930f6e94ea2ea264b44eeab9a7d5e07a2022439f61f3c7961",
+          "match": true
+        },
+        {
+          "path": "development/player_video23_mode_switch/build/manual/AC201_tf_hdmi_pr.db",
+          "expected": "b61320620a91cdd90269222d0793c6d317ff1c188bcc42128973afe6b86d4a0e",
+          "sha256": "b61320620a91cdd90269222d0793c6d317ff1c188bcc42128973afe6b86d4a0e",
+          "match": true
+        }
+      ]
+    },
+    {
+      "project": "player_video24_spi6p25_diag",
+      "database_checks": [
+        {
+          "path": "development/player_video24_spi6p25_diag/build/manual/AC201_tf_hdmi_gate.db",
+          "expected": "31ec649f78a1d5e1744da343e213e0070467511635b72d437b1f759a274b9a19",
+          "sha256": "31ec649f78a1d5e1744da343e213e0070467511635b72d437b1f759a274b9a19",
+          "match": true
+        },
+        {
+          "path": "development/player_video24_spi6p25_diag/build/manual/AC201_tf_hdmi_pr.db",
+          "expected": "45ab7d3f974b80c63168bf4e766619f35e184a491728350d3713badd0faeeb63",
+          "sha256": "45ab7d3f974b80c63168bf4e766619f35e184a491728350d3713badd0faeeb63",
+          "match": true
+        }
+      ]
+    },
+    {
+      "project": "player_video25_sdhc_init",
+      "database_checks": [
+        {
+          "path": "development/player_video25_sdhc_init/build/manual/AC201_tf_hdmi_gate.db",
+          "expected": "a7ff972b8c9063d4232395e4768c6a464cfb820611ffa5ba11ef87653505ecb5",
+          "sha256": "a7ff972b8c9063d4232395e4768c6a464cfb820611ffa5ba11ef87653505ecb5",
+          "match": true
+        },
+        {
+          "path": "development/player_video25_sdhc_init/build/manual/AC201_tf_hdmi_pr.db",
+          "expected": "7cbc0d491cfd169dac3825e51a9e9820e5b3ab8e65172d2719736cdc1ce64a8d",
+          "sha256": "7cbc0d491cfd169dac3825e51a9e9820e5b3ab8e65172d2719736cdc1ce64a8d",
+          "match": true
+        }
+      ]
+    },
+    {
+      "project": "player_video26_runtime_diag",
+      "database_checks": [
+        {
+          "path": "development/player_video26_runtime_diag/build/manual/AC201_tf_hdmi_gate.db",
+          "expected": "7014efeabf9f698905ca1664b3f76c1cab44f236f65e999c6ee68044162509f2",
+          "sha256": "7014efeabf9f698905ca1664b3f76c1cab44f236f65e999c6ee68044162509f2",
+          "match": true
+        },
+        {
+          "path": "development/player_video26_runtime_diag/build/manual/AC201_tf_hdmi_pr.db",
+          "expected": "230eab3d2f4dbdd8334e935d133d55f39a8c309e152f2070056338e83ed0d5b0",
+          "sha256": "230eab3d2f4dbdd8334e935d133d55f39a8c309e152f2070056338e83ed0d5b0",
+          "match": true
+        }
+      ]
+    },
+    {
+      "project": "player_video27_command_boundary",
+      "database_checks": [
+        {
+          "path": "development/player_video27_command_boundary/build/manual/AC201_tf_hdmi_gate.db",
+          "expected": "2abbabb5589b6c7f16e2ee33c580196152d17c7598ba45ccd65d54ec18961baa",
+          "sha256": "2abbabb5589b6c7f16e2ee33c580196152d17c7598ba45ccd65d54ec18961baa",
+          "match": true
+        },
+        {
+          "path": "development/player_video27_command_boundary/build/manual/AC201_tf_hdmi_pr.db",
+          "expected": "8492aa998e5c70da15a7f633027d6f89b187589e8f0ce5a4acd22db8812acb57",
+          "sha256": "8492aa998e5c70da15a7f633027d6f89b187589e8f0ce5a4acd22db8812acb57",
+          "match": true
+        }
+      ]
+    }
+  ],
+  "errors": []
+}

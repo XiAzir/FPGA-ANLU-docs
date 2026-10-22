@@ -1,0 +1,62 @@
+[
+  {
+    "path": "deliverables/ANLU_C27_Board_Test_20261022.zip",
+    "bytes": 10827963,
+    "sha256": "55520cb29598bf5435f3dc82a02406d5197ae247d75834abebb602f66aaf5d1d",
+    "crc": "PASS"
+  },
+  {
+    "path": "deliverables/video19_c11319_20261021.zip",
+    "bytes": 11649855,
+    "sha256": "002dbe02cc30bc6f647a1ca20e5d42678949bbad9fa6ff499895c219519ded15",
+    "crc": "PASS"
+  },
+  {
+    "path": "deliverables/video20_c11320_20261021.zip",
+    "bytes": 11630946,
+    "sha256": "92dcf4a71d0f428484549fbad14d455a4728f767cb6db906326da73231e71fa2",
+    "crc": "PASS"
+  },
+  {
+    "path": "deliverables/video21_diag_c11321_20261022.zip",
+    "bytes": 379705,
+    "sha256": "611ccb62b071caf5f54d5d583ed1a841a1bb51f7dc236e3751d5543c3c8fa884",
+    "crc": "PASS"
+  },
+  {
+    "path": "deliverables/video22_audio_diag_c11322_20261022.zip",
+    "bytes": 396795,
+    "sha256": "3ceefa05585b1b05c863f31c859be3c433362d8d13068c9d08b12a39ddedad19",
+    "crc": "PASS"
+  },
+  {
+    "path": "deliverables/video23_mode_switch_c11323_20261022.zip",
+    "bytes": 397486,
+    "sha256": "dab2c9e7cde5208a93ae9a8f5199a5f9171e2de6ff2904f84e7b63bfc945784f",
+    "crc": "PASS"
+  },
+  {
+    "path": "deliverables/video24_spi6p25_diag_c11324_20261022.zip",
+    "bytes": 395793,
+    "sha256": "5c7f48e5435a3d188b007b003992e14524b8584ffb0d163537565ca43f0d458c",
+    "crc": "PASS"
+  },
+  {
+    "path": "deliverables/video25_sdhc_init_c11325_20261022.zip",
+    "bytes": 398803,
+    "sha256": "004e4ebe0766b6d8ea1022336ae66691151ee27b0201d3e3068c9d371e385b96",
+    "crc": "PASS"
+  },
+  {
+    "path": "deliverables/video26_runtime_diag_c11326_20261022.zip",
+    "bytes": 412168,
+    "sha256": "7a1b6bb5c103cbbb28739871a63d27f8ea373279bc69c644bafba33ac056b02b",
+    "crc": "PASS"
+  },
+  {
+    "path": "deliverables/video27_command_boundary_c11327_20261022.zip",
+    "bytes": 404287,
+    "sha256": "f607825d798c02162d8d163a6ce3960f9d78a94724efa8c65a0e6b8041d58a82",
+    "crc": "PASS"
+  }
+]
