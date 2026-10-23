@@ -1,0 +1,18 @@
+{
+  "checks": [
+    {
+      "project": "player_video28_hdmi_observe",
+      "inputs": 126,
+      "zip": "deliverables/video28_hdmi_observe_c11328_20261023.zip",
+      "result": "PASS"
+    },
+    {
+      "project": "player_video29_media_flow",
+      "inputs": 126,
+      "zip": "deliverables/video29_media_flow_c11329_20261023.zip",
+      "result": "PASS"
+    }
+  ],
+  "new_files": 1110,
+  "over50MiB": []
+}
