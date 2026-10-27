@@ -1,0 +1,28 @@
+{
+  "recorded_at": "2026-10-27T13:16:11+08:00",
+  "evidence_source": "user screenshots of Windows List All Modes",
+  "1080_modes_visible": [
+    "1920x1080 truecolor32 60Hz",
+    "1920x1080 truecolor32 59Hz"
+  ],
+  "30hz_progressive_in_list": false,
+  "images": [
+    {
+      "file": "windows_full_mode_list_1.png",
+      "sha256": "4f8917aa2286a712b852b0285aa64e70603166d74611d12b87c8c84ed3044ebd"
+    },
+    {
+      "file": "windows_full_mode_list_2.png",
+      "sha256": "ccadf47af63a02f0d9e9f735e534de207601119785627ed19a9b50455aad8622"
+    },
+    {
+      "file": "windows_full_mode_list_3.png",
+      "sha256": "36c4c74cebb89d544aba34bfdb3efa00f4ee0ba3583dd287f299b58e2b91767b"
+    },
+    {
+      "file": "windows_full_mode_list_4.png",
+      "sha256": "1ca711dd14dfe914a7ce50854dc6053d3e0ce43c2c896f580f251d633bf21688"
+    }
+  ],
+  "interpretation": "Current publicly enumerated Windows modes; custom30Hz actual output still to be tested."
+}

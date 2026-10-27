@@ -1,0 +1,163 @@
+{
+  "projects": [
+    {
+      "project": "player_video30_probe_prune",
+      "inputs": 117,
+      "bad": []
+    },
+    {
+      "project": "player_video31_audio_ablation",
+      "inputs": 117,
+      "bad": []
+    },
+    {
+      "project": "player_video32_read_return",
+      "inputs": 117,
+      "bad": []
+    },
+    {
+      "project": "player_video40_spi25",
+      "inputs": 117,
+      "bad": []
+    },
+    {
+      "project": "player_video41_refresh",
+      "inputs": 117,
+      "bad": []
+    },
+    {
+      "project": "player_video42_sdram100",
+      "inputs": 117,
+      "bad": []
+    }
+  ],
+  "zips": [
+    {
+      "path": "deliverables/hdmi_edid_capture_20261027.zip",
+      "files": 4,
+      "sha256": "6aa1c311b162a1482ed0e228ca4551a224141847789b661051b7448308676e67",
+      "crc": "PASS"
+    },
+    {
+      "path": "deliverables/video30_probe_prune_c11330_20261023.zip",
+      "files": 12,
+      "sha256": "6b5c43d204e5c65c3982f16e40f7c73cfd7d80d97eedb367d5675e345f8aafca",
+      "crc": "PASS"
+    },
+    {
+      "path": "deliverables/video31_audio_ablation_c11331_20261023.zip",
+      "files": 9,
+      "sha256": "623c127eaf7c5c7e660e7ff293e37d1c2438a214f5dfae9e90084cf73dca739c",
+      "crc": "PASS"
+    },
+    {
+      "path": "deliverables/video32_read_return_c11332_20261023.zip",
+      "files": 10,
+      "sha256": "e50383669e83af8624a3df7fbdb8c43d98c5f003c0d3806a7c5216f948cd06a1",
+      "crc": "PASS"
+    },
+    {
+      "path": "deliverables/video33_1080p15_diag_c11333_20261027.zip",
+      "files": 7,
+      "sha256": "39a77744308e34a6f0de4cb1bf1110a67ff8dde7af4c6648bf4c8379080a649e",
+      "crc": "PASS"
+    },
+    {
+      "path": "deliverables/video35_640x480_60hz_33_165_bufg_c11335_20261027.zip",
+      "files": 7,
+      "sha256": "38535272b899f321535197b7cda8cdc2d09c3fb0050a3041cc6f926330ef1460",
+      "crc": "PASS"
+    },
+    {
+      "path": "deliverables/video36_1080p15_serial_bufg_c11336_20261027.zip",
+      "files": 7,
+      "sha256": "9039aec648560c7b2ed445fef71d48733e42953b4edd65cb8d52122ea93d0e38",
+      "crc": "PASS"
+    },
+    {
+      "path": "deliverables/video37_38_open_tx_20261027.zip",
+      "files": 19,
+      "sha256": "bdc97ea98a0da9cf0b3586d509bc1224c8dab23345076549093bb2ee64ef0a23",
+      "crc": "PASS"
+    },
+    {
+      "path": "deliverables/video39_native_clock_check_20261027.zip",
+      "files": 5,
+      "sha256": "eb83459fc3aa70ffe7e98eced77eac3f126e3d8bc4c062878491729dc6860871",
+      "crc": "PASS"
+    },
+    {
+      "path": "deliverables/video40_spi25_20261027.zip",
+      "files": 16,
+      "sha256": "95a64f7d01ab4d2994b1862151dd7e9c11047142fc17ef132e2863c73f001b0d",
+      "crc": "PASS"
+    },
+    {
+      "path": "deliverables/video41_refresh_20261027.zip",
+      "files": 17,
+      "sha256": "d90beeed47e9ed9c10995131bc2862a7a7a78f356f12db6ed601403125bb1949",
+      "crc": "PASS"
+    },
+    {
+      "path": "deliverables/video42_sdram100_20261027.zip",
+      "files": 63,
+      "sha256": "e5bca945bedf7a89f6cdaa4bea56ae24efa21548a857010837048ae910c45ebb",
+      "crc": "PASS"
+    }
+  ],
+  "receipts": [
+    {
+      "receipt": "development/player_video30_probe_prune/verification/delivery_receipt.json",
+      "package": "deliverables/video30_probe_prune_c11330_20261023.zip",
+      "hash": "PASS"
+    },
+    {
+      "receipt": "development/player_video31_audio_ablation/verification/delivery_receipt.json",
+      "package": "deliverables/video31_audio_ablation_c11331_20261023.zip",
+      "hash": "PASS"
+    },
+    {
+      "receipt": "development/player_video32_read_return/verification/delivery_receipt.json",
+      "package": "deliverables/video32_read_return_c11332_20261023.zip",
+      "hash": "PASS"
+    },
+    {
+      "receipt": "development/player_video40_spi25/verification/delivery_receipt.json",
+      "package": "deliverables/video40_spi25_20261027.zip",
+      "hash": "PASS"
+    },
+    {
+      "receipt": "development/player_video41_refresh/verification/delivery_receipt.json",
+      "package": "deliverables/video41_refresh_20261027.zip",
+      "hash": "PASS"
+    },
+    {
+      "receipt": "development/player_video42_sdram100/verification/delivery_receipt.json",
+      "package": "deliverables/video42_sdram100_20261027.zip",
+      "hash": "PASS"
+    }
+  ],
+  "errors": [],
+  "final_databases": [
+    "development/player_video30_probe_prune/build/manual/AC201_tf_hdmi_gate.db",
+    "development/player_video30_probe_prune/build/manual/AC201_tf_hdmi_pr.db",
+    "development/player_video31_audio_ablation/build/manual/AC201_tf_hdmi_gate.db",
+    "development/player_video31_audio_ablation/build/manual/AC201_tf_hdmi_pr.db",
+    "development/player_video32_read_return/build/manual/AC201_tf_hdmi_gate.db",
+    "development/player_video32_read_return/build/manual/AC201_tf_hdmi_pr.db",
+    "development/player_video33_1080p_output/build/manual/AC201_video33_1080p15_gate.db",
+    "development/player_video33_1080p_output/build/manual/AC201_video33_1080p15_pr.db",
+    "development/player_video37_open_tx/build/manual/AC201_video37_open_tx_gate.db",
+    "development/player_video37_open_tx/build/manual/AC201_video37_open_tx_pr.db",
+    "development/player_video38_open_tx/build/manual/AC201_video38_open_tx_gate.db",
+    "development/player_video38_open_tx/build/manual/AC201_video38_open_tx_pr.db",
+    "development/player_video39_native1080p30/build/manual/AC201_video39_native1080p30_gate.db",
+    "development/player_video39_native1080p30/build/manual/AC201_video39_native1080p30_pr.db",
+    "development/player_video40_spi25/build/manual/AC201_tf_hdmi_gate.db",
+    "development/player_video40_spi25/build/manual/AC201_tf_hdmi_pr.db",
+    "development/player_video41_refresh/build/manual/AC201_tf_hdmi_gate.db",
+    "development/player_video41_refresh/build/manual/AC201_tf_hdmi_pr.db",
+    "development/player_video42_sdram100/build/manual/AC201_tf_hdmi_gate.db",
+    "development/player_video42_sdram100/build/manual/AC201_tf_hdmi_pr.db"
+  ]
+}

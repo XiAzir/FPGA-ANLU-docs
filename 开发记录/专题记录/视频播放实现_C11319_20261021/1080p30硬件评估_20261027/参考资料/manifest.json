@@ -1,0 +1,12 @@
+{
+  "ADI_CN0571.pdf": {
+    "sha256": "63e9e7446ade62bfdea5ebb09935da4f84b39803bb617f52515bf85710285163",
+    "url": "https://www.analog.com/media/en/reference-design-documentation/reference-designs/cn0571.pdf",
+    "reviewed_page": 6
+  },
+  "ADI_ADN4624_RevD.pdf": {
+    "sha256": "46cfd59760cf44931d7ecbf583e9da3c86e8cada829501101a3d9da8b672d6b9",
+    "url": "https://www.analog.com/media/en/technical-documentation/data-sheets/adn4622-4624.pdf",
+    "reviewed_page": 4
+  }
+}

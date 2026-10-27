@@ -1,0 +1,13 @@
+{
+  "recorded_at": "2026-10-23T15:22:48.6298955+08:00",
+  "source": "user_report_and_attached_photo",
+  "build": "00C11331",
+  "audio": "图片原声、内置音阶、视频原声全部清楚正常",
+  "video": "视频播放时横向条带较多",
+  "photo": "静止图片正常，切图动画时出现横向闪烁条带",
+  "other": "用户反馈其余全部清楚正常",
+  "image_sha256": "7d63cf61f8385dee750097d27a2535fc0b73eaed501a59393d9a46945b8cb845",
+  "status": "BOARD_AUDIO_PASS_DYNAMIC_VIDEO_ARTIFACT",
+  "root_cause": "UNDETERMINED",
+  "next": "检查读回流/并发仲裁/真实SDRAM控制器延迟，保留C29/C31冻结源和产物"
+}
