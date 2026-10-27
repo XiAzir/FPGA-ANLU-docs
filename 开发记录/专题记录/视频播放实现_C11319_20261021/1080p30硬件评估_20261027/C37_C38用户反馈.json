@@ -1,0 +1,8 @@
+{
+  "C37": "BOARD_DISPLAY_PASS",
+  "correlation": "与PC同组15Hz可见完整桌面且持续输入不支持提示的现场反馈一致；旧核截包消融及新核上板恢复出图已分别留证。",
+  "remaining": "C38时序接受提示未消除；1080p15媒体/原声整机尚未集成；本轮未报告LED或持续运行时长。",
+  "recorded_at": "2026-10-27T14:56:54+08:00",
+  "C38": "BOARD_DISPLAY_PASS_WITH_MODE_WARNING",
+  "user_quote": "c37正常，c38画面正常显示了但是会弹窗输入不支持，持续在画面上漂浮。"
+}

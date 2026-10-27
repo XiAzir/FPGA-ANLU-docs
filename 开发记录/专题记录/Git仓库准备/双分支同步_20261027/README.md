@@ -1,0 +1,15 @@
+# 开发会话结束后双仓同步（2026-10-27）
+
+用户授权等待“优化资源占用至 80%–85%”会话当前轮完成后同步一次。22:50检查目标会话已完成并idle，TD/ModelSim/Icarus重任务已退出。本轮归档C30—C42工程、诊断及历史阶段、下载位流、12份交付ZIP、EDID与显示器评估及资料记录。
+
+## 文件核查
+
+- 六份final_stage_binding各117项当前输入SHA匹配，共702项；相关最终gate/pr数据库与综合、hold阶段收据匹配。
+- 12份新增ZIP CRC通过；六份delivery_receipt的ZIP SHA匹配；交付目录manifest中146项payload SHA匹配。
+- 20份新增工程最终gate/pr数据库精确加入忽略例外；C42 initial_100mhz_4ns与phase9_validated的四份冻结DB另按manifest SHA入库，保留失败/中间阶段历史证据。
+- 15处ModelSim编译库按实际_info父目录精确忽略；测试源、脚本、运行日志及导出结果保留。原有暂存目录中历史未跟踪文件保持现场。
+- 本轮无新综合、仿真或硬件操作。C42为SDRAM100离线候选（Slice8884/9800=90.65%），实板声画、切换、冷启/长时待验证；C41正常为用户反馈。
+
+详细结果见[归档核查](归档核查.json)。发布main使用同级双仓路径，XiAzir保留个人目录；原始冻结JSON、源快照、位流和ZIP字节保全。main活动.al入口及带机器绝对路径的活动Tcl调整相对定位时，原始文件另存对应工程verification/git_original_inputs，哈希映射见工程scripts/portable_layout_20261027.json；使用通用入口生成新位流须完整重建各阶段。
+
+提交与镜像结果待实际完成后补记。后续接续C42上板测试与高清内容整合。

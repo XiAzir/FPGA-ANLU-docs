@@ -1,0 +1,46 @@
+{
+  "recorded_at": "2026-10-27T13:43:54+08:00",
+  "evidence_source": "user supplied NVIDIA/Windows screenshots and physical-screen confirmation",
+  "windows_desktop": [
+    1920,
+    1080,
+    30
+  ],
+  "windows_active_signal": [
+    1920,
+    1080,
+    30
+  ],
+  "nvidia": {
+    "progressive": true,
+    "pixel_mhz": 74.25,
+    "h_active": 1920,
+    "h_front": 88,
+    "h_sync": 44,
+    "h_total": 2200,
+    "h_positive": true,
+    "v_active": 1080,
+    "v_front": 4,
+    "v_sync": 5,
+    "v_total": 1125,
+    "v_positive": true
+  },
+  "user_observation": "桌面完整稳定，没有闪烁或无信号",
+  "observation_context": "保持设置约20秒后的问题回复",
+  "images": [
+    {
+      "name": "pc1080p30_manual_timing.png",
+      "sha256": "61f97599b8981e1499e4ac2c52dd19e94f90fdb2b9b44a182cbd429c711ab5e3"
+    },
+    {
+      "name": "pc1080p30_added_mode.png",
+      "sha256": "2f57041164a25506d7301a3e7f28a532b4757a9b2998adfda4552a2f36ba2946"
+    },
+    {
+      "name": "pc1080p30_active_signal.png",
+      "sha256": "c7bf7e7fb0e51beab9406ec1a8c4909bf01a86a9e1333ca11321adb342091cbe"
+    }
+  ],
+  "conclusion": "该目标显示器接受标准1080p30逐行输入；EDID遗漏该模式",
+  "pending": "PC相同C33/C36的33MHz/2000x1100/15Hz负负同步接收对照；FPGA高速物理输出仍待核验"
+}

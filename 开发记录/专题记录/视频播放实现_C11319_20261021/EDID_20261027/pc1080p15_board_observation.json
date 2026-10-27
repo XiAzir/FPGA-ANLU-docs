@@ -1,0 +1,26 @@
+{
+  "recorded_at": "2026-10-27T14:48:01+08:00",
+  "source": "用户现场反馈；代理未现场测量",
+  "requested_timing": {
+    "width": 1920,
+    "height": 1080,
+    "refresh_hz": 15,
+    "pixel_mhz": 33,
+    "horizontal_total": 2000,
+    "vertical_total": 1100,
+    "horizontal_porch_sync_back": [
+      8,
+      8,
+      64
+    ],
+    "vertical_porch_sync_back": [
+      4,
+      5,
+      11
+    ],
+    "sync_polarity": "negative/negative"
+  },
+  "first_feedback": "15hz HDMI屏上飘了个弹窗“输入不支持”，而且HDMI屏的画面变得很卡",
+  "clarification": "提示持续悬浮，桌面仍完整更新",
+  "measurement_scope": "按提问中的同组参数进行测试的用户反馈；本次未新增Windows活动信号截图或物理时序测量。"
+}

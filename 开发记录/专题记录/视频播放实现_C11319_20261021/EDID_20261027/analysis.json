@@ -1,0 +1,409 @@
+{
+  "archive": "E:\\QQ CACHE\\Download\\EDID_result_20261027_123105_181.zip",
+  "archive_sha256": "9f442a0447b7b25cc5062529b4555538d0886720305f6524eced54eb4f605011",
+  "capture_time": "2026-10-27T12:31:05.6856373+08:00",
+  "monitors": [
+    {
+      "number": 1,
+      "windows_name": "TL160ADMP11-0",
+      "instance_name": "DISPLAY\\TMX1601\\5&1510003d&0&UID4353_0",
+      "sha256": "3d508bba6ff6eb6924c6cdf197fb05c8eb0f4d539cfbf9891f19afe19fce32f0",
+      "interpretation": {
+        "manufacturer": "TMX",
+        "edid_version": "1.4",
+        "raw_bytes": 384,
+        "checksums_mod256": [
+          0,
+          0,
+          0
+        ],
+        "base_detailed_timings": [
+          {
+            "offset_hex": "0x36",
+            "raw_hex": "0d6f00a0a0408e603020360059d71000001a",
+            "pixel_clock_mhz": 284.29,
+            "active": [
+              2560,
+              1600
+            ],
+            "total": [
+              2720,
+              1742
+            ],
+            "front_porch": [
+              48,
+              3
+            ],
+            "sync_width": [
+              32,
+              6
+            ],
+            "back_porch": [
+              80,
+              133
+            ],
+            "interlaced": false,
+            "horizontal_khz": 104.51838235294117,
+            "raster_rate_hz": 59.999071385155666
+          }
+        ],
+        "range_descriptors": [
+          {
+            "offset_hex": "0x48",
+            "raw_hex": "000000fd0c3cf08b8b72010a202020202020"
+          }
+        ],
+        "standard_timings": [],
+        "cta_extensions": [
+          {
+            "offset_hex": "0x80",
+            "version": 3,
+            "data_blocks": [
+              {
+                "offset_hex": "0x84",
+                "tag": 7,
+                "payload_hex": "058000"
+              },
+              {
+                "offset_hex": "0x88",
+                "tag": 7,
+                "payload_hex": "0607016a6a23"
+              },
+              {
+                "offset_hex": "0x8f",
+                "tag": 3,
+                "payload_hex": "1a0000030b30f000046a236a23f000000000"
+              }
+            ],
+            "video_descriptors": [],
+            "detailed_timings": []
+          }
+        ],
+        "product_name": "TL160ADMP11-0"
+      }
+    },
+    {
+      "number": 2,
+      "windows_name": "HDMI",
+      "instance_name": "DISPLAY\\JRY0000\\5&1510003d&0&UID4352_0",
+      "sha256": "2312940357e065bc6fbbb017c364039dc15ebf30f4bd872f570a7dec2ee626b3",
+      "interpretation": {
+        "manufacturer": "JRY",
+        "edid_version": "1.3",
+        "raw_bytes": 256,
+        "checksums_mod256": [
+          0,
+          0
+        ],
+        "base_detailed_timings": [
+          {
+            "offset_hex": "0x36",
+            "raw_hex": "023a801871382d40582c4500ba882100001e",
+            "pixel_clock_mhz": 148.5,
+            "active": [
+              1920,
+              1080
+            ],
+            "total": [
+              2200,
+              1125
+            ],
+            "front_porch": [
+              88,
+              4
+            ],
+            "sync_width": [
+              44,
+              5
+            ],
+            "back_porch": [
+              148,
+              36
+            ],
+            "interlaced": false,
+            "horizontal_khz": 67.5,
+            "raster_rate_hz": 60.0
+          }
+        ],
+        "range_descriptors": [
+          {
+            "offset_hex": "0x5a",
+            "raw_hex": "000000fd003a3e1e5310000a202020202020",
+            "vertical_hz": [
+              58,
+              62
+            ],
+            "horizontal_khz": [
+              30,
+              83
+            ],
+            "max_pixel_clock_mhz": 160
+          }
+        ],
+        "standard_timings": [
+          {
+            "offset_hex": "0x26",
+            "raw_hex": "d1c0",
+            "active": [
+              1920,
+              1080
+            ],
+            "refresh_hz": 60
+          },
+          {
+            "offset_hex": "0x28",
+            "raw_hex": "b300",
+            "active": [
+              1680,
+              1050
+            ],
+            "refresh_hz": 60
+          },
+          {
+            "offset_hex": "0x2a",
+            "raw_hex": "9500",
+            "active": [
+              1440,
+              900
+            ],
+            "refresh_hz": 60
+          },
+          {
+            "offset_hex": "0x2c",
+            "raw_hex": "8180",
+            "active": [
+              1280,
+              1024
+            ],
+            "refresh_hz": 60
+          },
+          {
+            "offset_hex": "0x2e",
+            "raw_hex": "81c0",
+            "active": [
+              1280,
+              720
+            ],
+            "refresh_hz": 60
+          },
+          {
+            "offset_hex": "0x30",
+            "raw_hex": "8100",
+            "active": [
+              1280,
+              800
+            ],
+            "refresh_hz": 60
+          }
+        ],
+        "cta_extensions": [
+          {
+            "offset_hex": "0x80",
+            "version": 3,
+            "data_blocks": [
+              {
+                "offset_hex": "0x84",
+                "tag": 2,
+                "payload_hex": "90000500040003"
+              },
+              {
+                "offset_hex": "0x8c",
+                "tag": 1,
+                "payload_hex": "090707"
+              },
+              {
+                "offset_hex": "0x90",
+                "tag": 4,
+                "payload_hex": "010000"
+              },
+              {
+                "offset_hex": "0x94",
+                "tag": 3,
+                "payload_hex": "030c001000382d"
+              },
+              {
+                "offset_hex": "0x9c",
+                "tag": 7,
+                "payload_hex": "05e301"
+              },
+              {
+                "offset_hex": "0xa0",
+                "tag": 7,
+                "payload_hex": "060701604700"
+              }
+            ],
+            "video_descriptors": [
+              {
+                "offset_hex": "0x85",
+                "raw_hex": "90",
+                "vic": 16,
+                "native": true,
+                "mode": "1920x1080p60"
+              },
+              {
+                "offset_hex": "0x86",
+                "raw_hex": "00",
+                "vic": 0,
+                "native": false,
+                "mode": "reserved"
+              },
+              {
+                "offset_hex": "0x87",
+                "raw_hex": "05",
+                "vic": 5,
+                "native": false,
+                "mode": "1920x1080i60"
+              },
+              {
+                "offset_hex": "0x88",
+                "raw_hex": "00",
+                "vic": 0,
+                "native": false,
+                "mode": "reserved"
+              },
+              {
+                "offset_hex": "0x89",
+                "raw_hex": "04",
+                "vic": 4,
+                "native": false,
+                "mode": "1280x720p60"
+              },
+              {
+                "offset_hex": "0x8a",
+                "raw_hex": "00",
+                "vic": 0,
+                "native": false,
+                "mode": "reserved"
+              },
+              {
+                "offset_hex": "0x8b",
+                "raw_hex": "03",
+                "vic": 3,
+                "native": false,
+                "mode": "720x480p nominal 60Hz (59.94Hz at 27MHz)"
+              }
+            ],
+            "detailed_timings": [
+              {
+                "offset_hex": "0xa7",
+                "raw_hex": "011d007251d01e206e285500a05a0000001e",
+                "pixel_clock_mhz": 74.25,
+                "active": [
+                  1280,
+                  720
+                ],
+                "total": [
+                  1650,
+                  750
+                ],
+                "front_porch": [
+                  110,
+                  5
+                ],
+                "sync_width": [
+                  40,
+                  5
+                ],
+                "back_porch": [
+                  220,
+                  20
+                ],
+                "interlaced": false,
+                "horizontal_khz": 45.0,
+                "raster_rate_hz": 60.0
+              },
+              {
+                "offset_hex": "0xb9",
+                "raw_hex": "011d00bc52d01e20b8285540a05a0000001e",
+                "pixel_clock_mhz": 74.25,
+                "active": [
+                  1280,
+                  720
+                ],
+                "total": [
+                  1980,
+                  750
+                ],
+                "front_porch": [
+                  440,
+                  5
+                ],
+                "sync_width": [
+                  40,
+                  5
+                ],
+                "back_porch": [
+                  220,
+                  20
+                ],
+                "interlaced": false,
+                "horizontal_khz": 37.5,
+                "raster_rate_hz": 50.0
+              }
+            ],
+            "hdmi_vsdb": {
+              "offset_hex": "0x94",
+              "raw_hex": "030c001000382d",
+              "max_tmds_clock_mhz": 225
+            }
+          }
+        ],
+        "product_name": "HDMI"
+      }
+    }
+  ],
+  "identity": {
+    "notebook_panel": 1,
+    "fpga_display": 2,
+    "basis": "User confirmed exactly two displays, one notebook panel and one FPGA screen; Windows identities and native timings distinguish them."
+  },
+  "comparisons": [
+    {
+      "build": "C33/C36",
+      "active": [
+        1920,
+        1080
+      ],
+      "total": [
+        2000,
+        1100
+      ],
+      "pixel_clock_mhz": 33,
+      "horizontal_khz": 16.5,
+      "scan_hz": 15.0,
+      "user_result": "no signal"
+    },
+    {
+      "build": "C35",
+      "active": [
+        640,
+        480
+      ],
+      "total": [
+        1000,
+        550
+      ],
+      "pixel_clock_mhz": 33,
+      "horizontal_khz": 33.0,
+      "scan_hz": 60.0,
+      "user_result": "stable complete colorbars"
+    }
+  ],
+  "edid_caveats": [
+    "External display range descriptor states 58-62Hz, while CTA DTD also lists 1280x720 at 50Hz.",
+    "External CTA video block contains reserved VIC0 entries.",
+    "EDID mode declarations and input limits are advertised capabilities; the physical C36 TMDS stream has not been decoded."
+  ],
+  "1080p60_scan_15fps_content_budget": {
+    "content_fps": 15,
+    "scan_hz": 60,
+    "scan_repeats_per_content_frame": 4,
+    "pixel_clock_mhz": 148.5,
+    "ddr_serializer_clock_mhz": 742.5,
+    "tmds_lane_bit_rate_mbps": 1485,
+    "yuv420_visible_scan_reads_bytes_s": 186624000.0,
+    "yuv420_padded_decode_writes_bytes_s": 47001600.0,
+    "combined_yuv420_payload_bytes_s": 233625600.0,
+    "scope": "Payload and nominal clocks; controller overhead, clock realization, board electrical behavior and hardware tests remain to be verified."
+  }
+}

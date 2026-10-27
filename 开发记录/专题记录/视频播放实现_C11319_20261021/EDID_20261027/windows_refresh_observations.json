@@ -1,0 +1,54 @@
+{
+  "recorded_at": "2026-10-27T13:08:29+08:00",
+  "observations": [
+    {
+      "image": "windows_720p50_options.png",
+      "sha256": "0d366b606ab333ee8bbb58f57c4892d7b6912da91776e1214801eb228f98d365",
+      "source": "user Windows advanced display screenshot",
+      "display": "Display2: HDMI",
+      "gpu": "NVIDIA GeForce RTX 4070 Laptop GPU",
+      "desktop": [
+        1280,
+        720,
+        50
+      ],
+      "active_signal": [
+        1280,
+        720,
+        50
+      ],
+      "refresh_options": [
+        "60.02",
+        "60",
+        "59.95",
+        "59.94",
+        "59.89",
+        "59.81",
+        "50"
+      ]
+    },
+    {
+      "image": "windows_1080p60_options.png",
+      "sha256": "14cb77ea09957a7e182b42840419f38698da7b82c7cb0f886e92a0e02301af7c",
+      "source": "user Windows advanced display screenshot",
+      "display": "Display2: HDMI",
+      "gpu": "NVIDIA GeForce RTX 4070 Laptop GPU",
+      "desktop": [
+        1920,
+        1080,
+        60
+      ],
+      "active_signal": [
+        1920,
+        1080,
+        60
+      ],
+      "refresh_options": [
+        "60",
+        "59.94",
+        "50*"
+      ]
+    }
+  ],
+  "pending": "Full list of 1920x1080 modes and progressive30Hz selection/physical screen result still requested."
+}

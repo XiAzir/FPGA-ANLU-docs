@@ -1,0 +1,30 @@
+{
+  "recorded_at": "2026-10-27T14:05:55+08:00",
+  "evidence_source": "user replies after requested matched15Hz manual test",
+  "requested_mode": {
+    "active": [
+      1920,
+      1080
+    ],
+    "total": [
+      2000,
+      1100
+    ],
+    "pixel_clock_mhz": 33,
+    "scan_hz": 15,
+    "sync_polarity": "negative/negative",
+    "front": [
+      8,
+      4
+    ],
+    "sync": [
+      8,
+      5
+    ]
+  },
+  "first_user_quote": "15hz HDMI屏上飘了个弹窗“输入不支持”，而且HDMI屏的画面变得很卡",
+  "clarifying_user_reply": "提示持续悬浮，桌面仍完整更新",
+  "conclusion": "目标屏可解码并持续显示该15Hz桌面流，同时持续报告输入不支持；保留为有持续OSD的兼容异常，非稳定合格显示基准",
+  "parameter_screenshot": "not supplied for15Hz; values follow the requested mode rather than an independently readback measurement",
+  "known_good_mode": "标准1920x1080p30已另有参数截图、活动信号与用户稳定桌面证据"
+}
