@@ -1,0 +1,88 @@
+{
+  "status": "completed_read_only_audit",
+  "scope": {
+    "candidate_directories": "development/player_video30* through player_video42* present in workspace",
+    "work_directories": "development/video30_work through video42_work present in workspace",
+    "excluded": [
+      "ModelSim generated work/workfull/work_* library files unless explicitly hash-bound by a frozen manifest",
+      "final player_video* final_stage_binding inputs already audited by parent"
+    ],
+    "mutations": "No production files or Git state changed; this report is the only output."
+  },
+  "findings": {
+    "manifest_verification": [
+      {
+        "manifest": "development/video42_work/initial_100mhz_4ns/manifest.json",
+        "files_entries": 136,
+        "sha256_matches": 136,
+        "missing": 0,
+        "mismatches": 0
+      },
+      {
+        "manifest": "development/video42_work/phase9_validated/manifest.json",
+        "files_entries": 142,
+        "sha256_matches": 142,
+        "missing": 0,
+        "mismatches": 0
+      }
+    ],
+    "historical_bound_files_that_needed_ignore_exceptions": [
+      {
+        "path": "development/video42_work/initial_100mhz_4ns/build/AC201_tf_hdmi_gate.db",
+        "sha256": "9e3794af02f104a27106ee46fc9b4d1091d8fa5e681988156acffaefe29b3976",
+        "manifest": "development/video42_work/initial_100mhz_4ns/manifest.json",
+        "stage_status": "ROUTED_TIMING_FAIL_NO_BITSTREAM"
+      },
+      {
+        "path": "development/video42_work/initial_100mhz_4ns/build/AC201_tf_hdmi_pr.db",
+        "sha256": "f9ce1abbc23298b857fd89d69fddbfa3f84f4dee4a2fc645185b4ccc1a195098",
+        "manifest": "development/video42_work/initial_100mhz_4ns/manifest.json",
+        "stage_status": "ROUTED_TIMING_FAIL_NO_BITSTREAM"
+      },
+      {
+        "path": "development/video42_work/phase9_validated/build/AC201_tf_hdmi_gate.db",
+        "sha256": "21a756fa6efbe72dec4e1db3caf2132ebf07dec62723d527e2cfa06ab87d694f",
+        "manifest": "development/video42_work/phase9_validated/manifest.json",
+        "stage_status": "TIMING_PASS_SYNTHESIZED_MEMORY_DATA_PASS"
+      },
+      {
+        "path": "development/video42_work/phase9_validated/build/AC201_tf_hdmi_pr.db",
+        "sha256": "03195d36f72b891fd8deab485a3b82ea198ea79b340289749c7f3fc0c1b81fc6",
+        "manifest": "development/video42_work/phase9_validated/manifest.json",
+        "stage_status": "TIMING_PASS_SYNTHESIZED_MEMORY_DATA_PASS"
+      }
+    ],
+    "current_ignore_state": {
+      "exception_lines_added_by_parent": 4,
+      "git_check_ignore_reports_ignored": 0,
+      "status": "all_four manifest-bound historical DB files are now explicitly unignored"
+    },
+    "historical_hash_divergence": {
+      "description": "Both historical manifests passed all file existence and SHA256 checks. Distinct stage snapshots use the same relative build filenames with different content hashes. Keep each snapshot at its manifest path; do not substitute the final candidate DBs.",
+      "initial_gate_sha256": "9e3794af02f104a27106ee46fc9b4d1091d8fa5e681988156acffaefe29b3976",
+      "initial_pr_sha256": "f9ce1abbc23298b857fd89d69fddbfa3f84f4dee4a2fc645185b4ccc1a195098",
+      "phase9_gate_sha256": "21a756fa6efbe72dec4e1db3caf2132ebf07dec62723d527e2cfa06ab87d694f",
+      "phase9_pr_sha256": "03195d36f72b891fd8deab485a3b82ea198ea79b340289749c7f3fc0c1b81fc6",
+      "final_candidate_gate_sha256": "25e47f1b1fca6fbff7cccbbb4c9a24d4e4e4fde82ab13e0c00543bf3b2407ea2",
+      "final_candidate_pr_sha256": "3556b5a1e17d7dee9db6d19fba741e1f02cc33b9e5e72b07e44dba3270bae991"
+    },
+    "not_ignored": [
+      "The initial_100mhz_4ns and phase9_validated manifest-bound physical_console.log, synthesis_console.log, and hold_console.log files; no exception needed.",
+      "TD logs referenced by candidate stage evidence were not identified as missing ignore exceptions in this follow-up scope."
+    ],
+    "vvp": "No VVP file was found in a frozen/delivery files dictionary with an explicit hash binding. C37 work review evidence mentions 1080p15.vvp and C35.vvp as command inputs; these references do not constitute frozen hash binding.",
+    "modelsim_libraries": "Generated ModelSim work libraries were excluded per task scope; no manifest in the audited range explicitly bound those library files."
+  },
+  "recommended_ignore_lines": [
+    "!/development/video42_work/initial_100mhz_4ns/build/AC201_tf_hdmi_gate.db",
+    "!/development/video42_work/initial_100mhz_4ns/build/AC201_tf_hdmi_pr.db",
+    "!/development/video42_work/phase9_validated/build/AC201_tf_hdmi_gate.db",
+    "!/development/video42_work/phase9_validated/build/AC201_tf_hdmi_pr.db"
+  ],
+  "evidence": [
+    "development/video42_work/initial_100mhz_4ns/manifest.json",
+    "development/video42_work/phase9_validated/manifest.json",
+    "development/player_video42_sdram100/verification/final_stage_binding.json",
+    ".gitignore global *.db rule"
+  ]
+}
